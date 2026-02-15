@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+.vscode/
+.codex/
+.history/
+
+output/
+
+# local outputs / scratch
+*.log
+*.tmp
