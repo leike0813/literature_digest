@@ -26,6 +26,7 @@
 输出 JSON 必须包含（即使为空也要存在）：
 - `digest_path`（输出文件路径；内容为 Markdown 纯文本；**不包含**插件侧协议头）
 - `references_path`（输出文件路径；内容为 UTF‑8 JSON 数组）
+- `citation_analysis_path`（输出文件路径；内容为 UTF‑8 JSON 对象；仅第一章 Introduction 引文分析）
 - `provenance.generated_at`（UTC ISO‑8601）
 - `provenance.input_hash`（建议 `sha256:<hex>`，对 `md_path` 文件内容计算）
 - `warnings`（数组）
@@ -55,12 +56,3 @@
 - 分割条目失败或字段抽取不可靠：保留 `raw`，输出 `author=[]`、`title=""`、`year=null`，并将 `confidence` 置低值。
 - `language` 非支持值：默认回退 `zh-CN`（只影响 digest 输出语言）。
 
----
-
-## 5. 防串单对齐（必须回显）
-
-响应必须回显：
- - `md_path`
- - `language`
-
-调用方会用它们做一致性校验；不一致将导致写回被拒绝。

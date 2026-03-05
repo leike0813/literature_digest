@@ -18,7 +18,7 @@ Each reference item MUST still include:
 
 ### Requirement: Prioritize High-Value Optional Metadata Extraction
 
-The skill SHOULD aggressively extract high-value optional fields when supported by clear evidence in `raw` text.
+The skill SHALL aggressively extract high-value optional fields when supported by clear evidence in `raw` text.
 
 Priority order for optional fields:
 1. Venue/container information:
@@ -53,8 +53,7 @@ The skill MUST NOT intentionally stop at minimal required fields if high-value o
 
 ### Requirement: Optional Fields Stay Optional and Non-Hallucinatory
 
-Optional fields remain non-mandatory.
-If evidence is absent or ambiguous, the skill MUST prefer omission over hallucination.
+Optional fields remain non-mandatory. If evidence is absent or ambiguous, the skill MUST prefer omission over hallucination.
 
 #### Scenario: Missing optional evidence
 - **GIVEN** a reference entry lacks trustworthy venue/volume/issue/pages/identifier signals

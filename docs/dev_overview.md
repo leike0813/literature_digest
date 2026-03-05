@@ -61,9 +61,9 @@
 
 - 在 Zotero 内对 MinerU `.md` 附件运行插件：
   - 调用 `codex exec`（订阅制）对 `.md` 路径进行 digest + references 抽取
-  - 写回 Zotero 为两条 notes（`AI Digest` / `AI References`）
-    - skill stdout 仅返回一个 JSON 对象（schema：`literature_digest_v1`），包含 `digest_path`（Markdown 文件路径）与 `references_path`（JSON 文件路径），避免 stdout 截断
-    - 结果文件写入 `md_path` 所在目录，文件名固定为 `digest.md` 与 `references.json`（避免受限 agent 无法访问系统临时目录）
+  - 写回 Zotero 为多条 notes（例如：`AI Digest` / `AI References` / `AI Citation Analysis`）
+    - skill stdout 仅返回一个 JSON 对象（schema：`literature_digest_v1`），包含  `digest_path`（Markdown 文件路径）、`references_path`（JSON 文件路径）、`citation_analysis_path`（JSON 文件路径），避免 stdout 截断
+    - 结果文件写入 `md_path` 所在目录，文件名固定为 `digest.md`、`references.json`、`citation_analysis.json`（避免受限 agent 无法访问系统临时目录）
     - note content 的私有协议标识由插件端负责组装与写入（协议前缀：`zotero-agent-digest:v1`），用于幂等更新与 Obsidian 端渲染识别
 - ZotLit 在 Obsidian 侧读取 `notes[]` 并渲染为研究卡片内容
 - 组件文档：
