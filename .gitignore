@@ -13,6 +13,7 @@ Thumbs.db
 .history/
 
 output/
+artifacts/
 
 # local outputs / scratch
 *.log

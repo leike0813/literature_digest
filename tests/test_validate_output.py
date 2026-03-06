@@ -10,10 +10,18 @@ VALIDATE = REPO_ROOT / "literature-digest" / "scripts" / "validate_output.py"
 
 
 class ValidateOutputTests(unittest.TestCase):
-    def run_validate(self, mode: str, payload: dict, md_path: Path | None = None) -> subprocess.CompletedProcess:
+    def run_validate(
+        self,
+        mode: str,
+        payload: dict,
+        md_path: Path | None = None,
+        preprocess_artifact: Path | None = None,
+    ) -> subprocess.CompletedProcess:
         args = ["python", str(VALIDATE), "--mode", mode]
         if md_path is not None:
             args += ["--md-path", str(md_path)]
+        if preprocess_artifact is not None:
+            args += ["--preprocess-artifact", str(preprocess_artifact)]
         return subprocess.run(
             args,
             input=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
@@ -93,6 +101,104 @@ class ValidateOutputTests(unittest.TestCase):
             report = json.loads(p.stdout.decode("utf-8"))
             self.assertFalse(report["ok"])
             self.assertTrue(any("citation_analysis" in e for e in report["errors"]))
+
+    def test_check_rejects_duplicate_mention_ids(self):
+        with tempfile.TemporaryDirectory() as td:
+            ca_path = Path(td) / "citation_analysis.json"
+            ca_obj = {
+                "meta": {"language": "zh-CN", "scope": {"section_title": "Introduction", "line_start": 1, "line_end": 5}},
+                "items": [
+                    {
+                        "ref_index": 0,
+                        "ref_number": 1,
+                        "reference": {"author": ["Smith"], "title": "A", "year": 2020},
+                        "mentions": [
+                            {
+                                "mention_id": "m00001",
+                                "marker": "[1]",
+                                "style": "numeric",
+                                "line_start": 2,
+                                "line_end": 2,
+                                "snippet": "x [1]",
+                            }
+                        ],
+                        "function": "background",
+                        "summary": "x",
+                        "confidence": 0.9,
+                    }
+                ],
+                "unmapped_mentions": [
+                    {
+                        "mention_id": "m00001",
+                        "marker": "(Smith, 2020)",
+                        "style": "author-year",
+                        "line_start": 3,
+                        "line_end": 3,
+                        "snippet": "y",
+                    }
+                ],
+                "report_md": "ok",
+            }
+            ca_path.write_text(json.dumps(ca_obj, ensure_ascii=False), encoding="utf-8")
+            payload = {
+                "digest_path": "",
+                "references_path": "",
+                "citation_analysis_path": str(ca_path),
+                "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
+                "warnings": [],
+                "error": None,
+            }
+            p = self.run_validate("check", payload)
+            self.assertEqual(p.returncode, 2)
+            report = json.loads(p.stdout.decode("utf-8"))
+            self.assertFalse(report["ok"])
+            self.assertTrue(any("mention_id must be unique" in e for e in report["errors"]))
+
+    def test_check_rejects_mention_coverage_mismatch(self):
+        with tempfile.TemporaryDirectory() as td:
+            ca_path = Path(td) / "citation_analysis.json"
+            preprocess_path = Path(td) / "citation_preprocess.json"
+            ca_obj = {
+                "meta": {"language": "zh-CN", "scope": {"section_title": "Introduction", "line_start": 1, "line_end": 6}},
+                "items": [
+                    {
+                        "ref_index": 0,
+                        "ref_number": 1,
+                        "reference": {"author": ["Smith"], "title": "A", "year": 2020},
+                        "mentions": [
+                            {
+                                "mention_id": "m00001",
+                                "marker": "[1]",
+                                "style": "numeric",
+                                "line_start": 2,
+                                "line_end": 2,
+                                "snippet": "x [1]",
+                            }
+                        ],
+                        "function": "background",
+                        "summary": "x",
+                        "confidence": 0.8,
+                    }
+                ],
+                "unmapped_mentions": [],
+                "report_md": "ok",
+            }
+            preprocess_obj = {"stats": {"total_mentions": 2}}
+            ca_path.write_text(json.dumps(ca_obj, ensure_ascii=False), encoding="utf-8")
+            preprocess_path.write_text(json.dumps(preprocess_obj, ensure_ascii=False), encoding="utf-8")
+            payload = {
+                "digest_path": "",
+                "references_path": "",
+                "citation_analysis_path": str(ca_path),
+                "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
+                "warnings": [],
+                "error": None,
+            }
+            p = self.run_validate("check", payload, preprocess_artifact=preprocess_path)
+            self.assertEqual(p.returncode, 2)
+            report = json.loads(p.stdout.decode("utf-8"))
+            self.assertFalse(report["ok"])
+            self.assertTrue(any("mention coverage mismatch" in e for e in report["errors"]))
 
 
 if __name__ == "__main__":
