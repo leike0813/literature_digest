@@ -7,7 +7,7 @@ TBD - created by archiving change improve-citation-analysis-workflow. Update Pur
 The system MUST run a deterministic preprocessing stage before citation semantic analysis. The stage MUST consume agent-provided `citation_scope`, extract citation mentions within that scope, and normalize mention records into a machine-readable intermediate artifact.
 
 #### Scenario: Preprocess generates intermediate artifact
-- **WHEN** citation analysis starts for a valid `md_path`
+- **WHEN** citation analysis starts for a valid `source_path`
 - **THEN** the system writes a preprocess artifact under `<cwd>/.literature_digest_tmp/`
 - **AND** the artifact includes `citation_scope` metadata and normalized mention entries.
 
@@ -36,4 +36,3 @@ Temporary preprocess artifacts MUST be written to `<cwd>/.literature_digest_tmp/
 - **WHEN** preprocess completes successfully
 - **THEN** generated files remain in `<cwd>/.literature_digest_tmp/`
 - **AND** the system does not perform automatic cleanup.
-

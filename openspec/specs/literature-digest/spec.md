@@ -81,7 +81,7 @@ The skill MUST produce an additional output artifact `citation_analysis.json` an
 
 ### Requirement: Artifact File Protocol
 
-Artifacts MUST be written to the directory of `md_path` using fixed filenames:
+Artifacts MUST be written to the directory of `source_path` using fixed filenames:
 - `digest.md`
 - `references.json`
 - `citation_analysis.json`
@@ -90,6 +90,20 @@ Artifacts MUST be written to the directory of `md_path` using fixed filenames:
 - **GIVEN** large outputs (digest and analysis)
 - **WHEN** producing stdout
 - **THEN** stdout MUST remain a single JSON object containing only file paths and audit fields.
+
+### Requirement: Source Input SHALL Be Normalized Before Analysis
+
+The skill MUST accept a single `source_path` input and MUST determine the input type from file content rather than extension. Before any digest/reference/citation logic runs, the skill MUST normalize the input into `<cwd>/.literature_digest_tmp/source.md`.
+
+#### Scenario: PDF signature input
+- **WHEN** the input file bytes start with `%PDF-`
+- **THEN** the skill treats the input as PDF even if the extension suggests otherwise
+- **AND** it normalizes the content into `<cwd>/.literature_digest_tmp/source.md` before downstream analysis.
+
+#### Scenario: UTF-8 text input
+- **WHEN** the input file is valid UTF-8 text and does not start with `%PDF-`
+- **THEN** the skill treats the input as markdown/plain-text source
+- **AND** it copies the content into `<cwd>/.literature_digest_tmp/source.md` before downstream analysis.
 
 ### Requirement: Citation Analysis Scope = Introduction (Chapter 1)
 
@@ -181,4 +195,3 @@ After preprocess, semantic tasks MUST use preprocess outputs and local snippets 
 - **WHEN** mention-accounting gate fails
 - **THEN** the system returns a schema-compatible output with a populated `error`
 - **AND** avoids returning a false-success citation-analysis result.
-

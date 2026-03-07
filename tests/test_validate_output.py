@@ -14,12 +14,12 @@ class ValidateOutputTests(unittest.TestCase):
         self,
         mode: str,
         payload: dict,
-        md_path: Path | None = None,
+        source_path: Path | None = None,
         preprocess_artifact: Path | None = None,
     ) -> subprocess.CompletedProcess:
         args = ["python", str(VALIDATE), "--mode", mode]
-        if md_path is not None:
-            args += ["--md-path", str(md_path)]
+        if source_path is not None:
+            args += ["--source-path", str(source_path)]
         if preprocess_artifact is not None:
             args += ["--preprocess-artifact", str(preprocess_artifact)]
         return subprocess.run(
@@ -52,7 +52,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "error": None,
             }
 
-            p = self.run_validate("fix", old, md_path=md_path)
+            p = self.run_validate("fix", old, source_path=md_path)
             self.assertEqual(p.returncode, 0, p.stderr.decode("utf-8", errors="replace"))
             fixed = json.loads(p.stdout.decode("utf-8"))
 
