@@ -198,6 +198,45 @@ payload 字段极简只包含：
 - `literature-digest/scripts/dispatch_source.py`：探测 `source_path`，统一生成 `<cwd>/.literature_digest_tmp/source.md`
 - `literature-digest/scripts/validate_output.py`：校验输出；在失败时可用 `--mode fix` 进行自动修复（含将 digest/references 写入 `source_path` 所在目录并回传路径）并将修复记录写入 `warnings`
 
+### 3.5 Staged Pipeline（v1.1 内部实现约束）
+
+为避免长时间无输出导致下游 SSE idle timeout，`literature-digest` 内部需要采用 staged pipeline，但对外契约保持不变：
+
+- 公开输出仍只有 `digest_path`、`references_path`、`citation_analysis_path`
+- 隐藏中间产物固定写入 `<cwd>/.literature_digest_tmp/`
+- `references.json` 与 `citation_analysis.json` 必须通过“分片 -> merge -> 校验 -> 原子发布”生成
+
+隐藏产物约定：
+- `outline.json`
+- `references_scope.json`
+- `references.parts/part-*.json`
+- `references_merged.json`
+- `citation_scope.json`
+- `citation_preprocess.json`
+- `citation.parts/part-*.json`
+- `citation_merged.json`
+- `citation_report.md`
+
+References staging 规则：
+- 按条目切分，不按字符切分
+- 每批最多 `15` 条
+- merge 后保持原始顺序
+- merge 失败时不得发布最终 `references.json`
+
+Citation staging 规则：
+- `citation_scope.json`、`citation_preprocess.json`、semantic parts、`citation_report.md` 四步拆开
+- 每批最多 `12` 个聚合 item，或最多 `30` 个 mentions
+- merge 时必须校验 `mention_id` 全局唯一、`ref_index` 唯一、mention coverage 与 preprocess 完全一致
+- `report_md` 失败或 merge 失败时不得发布最终 `citation_analysis.json`
+
+阶段级错误码：
+- `references_stage_failed`
+- `references_merge_failed`
+- `citation_scope_failed`
+- `citation_semantics_failed`
+- `citation_report_failed`
+- `citation_merge_failed`
+
 ---
 
 ## 4. 与 Zotero 插件的对齐点（防串单）

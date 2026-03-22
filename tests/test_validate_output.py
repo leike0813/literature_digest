@@ -200,6 +200,109 @@ class ValidateOutputTests(unittest.TestCase):
             self.assertFalse(report["ok"])
             self.assertTrue(any("mention coverage mismatch" in e for e in report["errors"]))
 
+    def test_check_accepts_stage_error_code_shape(self):
+        payload = {
+            "digest_path": "",
+            "references_path": "",
+            "citation_analysis_path": "",
+            "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
+            "warnings": [],
+            "error": {"code": "citation_merge_failed", "message": "coverage mismatch"},
+        }
+        p = self.run_validate("check", payload)
+        self.assertEqual(p.returncode, 0, p.stdout.decode("utf-8"))
+        report = json.loads(p.stdout.decode("utf-8"))
+        self.assertTrue(report["ok"])
+
+    def test_check_rejects_invalid_error_shape(self):
+        payload = {
+            "digest_path": "",
+            "references_path": "",
+            "citation_analysis_path": "",
+            "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
+            "warnings": [],
+            "error": {"code": "", "message": ""},
+        }
+        p = self.run_validate("check", payload)
+        self.assertEqual(p.returncode, 2)
+        report = json.loads(p.stdout.decode("utf-8"))
+        self.assertFalse(report["ok"])
+        self.assertTrue(any("error.code" in e or "error.message" in e for e in report["errors"]))
+
+    def test_check_validates_staged_merged_artifacts(self):
+        with tempfile.TemporaryDirectory() as td:
+            refs_merged = Path(td) / "references_merged.json"
+            citation_merged = Path(td) / "citation_merged.json"
+            preprocess_path = Path(td) / "citation_preprocess.json"
+            refs_merged.write_text(
+                json.dumps([{"author": [], "title": "", "year": 2024, "raw": "[1] Ref", "confidence": 0.1}]),
+                encoding="utf-8",
+            )
+            citation_merged.write_text(
+                json.dumps(
+                    {
+                        "meta": {
+                            "language": "zh-CN",
+                            "scope": {"section_title": "Introduction", "line_start": 1, "line_end": 4},
+                        },
+                        "items": [
+                            {
+                                "ref_index": 0,
+                                "ref_number": 1,
+                                "reference": {"author": ["Smith"], "title": "A", "year": 2020},
+                                "mentions": [
+                                    {
+                                        "mention_id": "m00001",
+                                        "marker": "[1]",
+                                        "style": "numeric",
+                                        "line_start": 2,
+                                        "line_end": 2,
+                                        "snippet": "x [1]",
+                                    }
+                                ],
+                                "function": "background",
+                                "summary": "x",
+                                "confidence": 0.8,
+                            }
+                        ],
+                        "unmapped_mentions": [],
+                        "report_md": "ok",
+                    }
+                ),
+                encoding="utf-8",
+            )
+            preprocess_path.write_text(json.dumps({"stats": {"total_mentions": 1}}, ensure_ascii=False), encoding="utf-8")
+            payload = {
+                "digest_path": "",
+                "references_path": "",
+                "citation_analysis_path": "",
+                "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
+                "warnings": [],
+                "error": None,
+            }
+            args = [
+                "python",
+                str(VALIDATE),
+                "--mode",
+                "check",
+                "--references-merged",
+                str(refs_merged),
+                "--citation-merged",
+                str(citation_merged),
+                "--preprocess-artifact",
+                str(preprocess_path),
+            ]
+            p = subprocess.run(
+                args,
+                input=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=False,
+            )
+            self.assertEqual(p.returncode, 0, p.stdout.decode("utf-8"))
+            report = json.loads(p.stdout.decode("utf-8"))
+            self.assertTrue(report["ok"])
+
 
 if __name__ == "__main__":
     unittest.main()
