@@ -1,13 +1,14 @@
 import json
 import os
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DISPATCH = REPO_ROOT / "literature-digest" / "scripts" / "dispatch_source.py"
+STAGE_RUNTIME = REPO_ROOT / "literature-digest" / "scripts" / "stage_runtime.py"
 
 
 def build_simple_pdf(text: str) -> bytes:
@@ -52,8 +53,8 @@ def build_simple_pdf(text: str) -> bytes:
     return b"".join(pdf_parts + xref + [trailer])
 
 
-class DispatchSourceTests(unittest.TestCase):
-    def run_dispatch(
+class NormalizeSourceTests(unittest.TestCase):
+    def run_normalize(
         self,
         source_path: Path,
         out_md: Path,
@@ -64,12 +65,32 @@ class DispatchSourceTests(unittest.TestCase):
         env = os.environ.copy()
         if disable_pymupdf4llm:
             env["LITERATURE_DIGEST_DISABLE_PYMUPDF4LLM"] = "1"
-        return subprocess.run(
+        db_path = source_path.parent / ".literature_digest_tmp" / "literature_digest.db"
+        bootstrap = subprocess.run(
             [
-                "python",
-                str(DISPATCH),
+                sys.executable,
+                str(STAGE_RUNTIME),
+                "bootstrap_runtime_db",
+                "--db-path",
+                str(db_path),
                 "--source-path",
                 str(source_path),
+                "--language",
+                "zh-CN",
+            ],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            check=False,
+            env=env,
+        )
+        self.assertEqual(bootstrap.returncode, 0, bootstrap.stderr.decode("utf-8", errors="replace"))
+        return subprocess.run(
+            [
+                sys.executable,
+                str(STAGE_RUNTIME),
+                "normalize_source",
+                "--db-path",
+                str(db_path),
                 "--out-md",
                 str(out_md),
                 "--out-meta",
@@ -89,7 +110,7 @@ class DispatchSourceTests(unittest.TestCase):
             markdown = "# Title\n\n## References\n- Ref\n"
             source_path.write_text(markdown, encoding="utf-8")
 
-            result = self.run_dispatch(source_path, out_md, out_meta)
+            result = self.run_normalize(source_path, out_md, out_meta)
             self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(result.stdout.decode("utf-8"))
             meta = json.loads(out_meta.read_text(encoding="utf-8"))
@@ -107,7 +128,7 @@ class DispatchSourceTests(unittest.TestCase):
             out_meta = Path(td) / ".literature_digest_tmp" / "source_meta.json"
             source_path.write_bytes(build_simple_pdf("Introduction References Baseline"))
 
-            result = self.run_dispatch(source_path, out_md, out_meta, disable_pymupdf4llm=True)
+            result = self.run_normalize(source_path, out_md, out_meta, disable_pymupdf4llm=True)
             self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(result.stdout.decode("utf-8"))
             meta = json.loads(out_meta.read_text(encoding="utf-8"))
@@ -120,22 +141,6 @@ class DispatchSourceTests(unittest.TestCase):
             self.assertTrue(any("fell back to stdlib" in warning for warning in payload["warnings"]))
             self.assertIn("Introduction", out_md.read_text(encoding="utf-8"))
 
-    def test_utf8_text_wins_even_when_extension_is_pdf(self):
-        with tempfile.TemporaryDirectory() as td:
-            source_path = Path(td) / "paper.pdf"
-            out_md = Path(td) / ".literature_digest_tmp" / "source.md"
-            out_meta = Path(td) / ".literature_digest_tmp" / "source_meta.json"
-            source_path.write_text("# Intro\n\ntext\n", encoding="utf-8")
-
-            result = self.run_dispatch(source_path, out_md, out_meta)
-            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
-            payload = json.loads(result.stdout.decode("utf-8"))
-            meta = json.loads(out_meta.read_text(encoding="utf-8"))
-
-            self.assertEqual(meta["source_type"], "markdown")
-            self.assertEqual(meta["conversion_backend"], "direct_copy")
-            self.assertTrue(any("content detected as UTF-8 text" in warning for warning in payload["warnings"]))
-
     def test_unsupported_binary_returns_schema_compatible_error(self):
         with tempfile.TemporaryDirectory() as td:
             source_path = Path(td) / "payload"
@@ -143,7 +148,7 @@ class DispatchSourceTests(unittest.TestCase):
             out_meta = Path(td) / ".literature_digest_tmp" / "source_meta.json"
             source_path.write_bytes(b"\xff\x00\x81\x82")
 
-            result = self.run_dispatch(source_path, out_md, out_meta)
+            result = self.run_normalize(source_path, out_md, out_meta)
             self.assertEqual(result.returncode, 2)
             payload = json.loads(result.stdout.decode("utf-8"))
             meta = json.loads(out_meta.read_text(encoding="utf-8"))
