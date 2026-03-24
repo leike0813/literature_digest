@@ -102,11 +102,37 @@ class RenderFinalArtifactsTests(unittest.TestCase):
                             "ref_index": 0,
                             "function": "background",
                             "summary": "summary",
+                            "topic": "technical background",
+                            "usage": "Used to establish the technical background for the method.",
+                            "keywords": ["transformer", "background"],
+                            "is_key_reference": True,
                             "confidence": 0.9,
                         }
                     ],
                 )
-                runtime_db.store_citation_summary(connection, "global citation summary")
+                runtime_db.store_citation_timeline(
+                    connection,
+                    {
+                        "early": {"summary": "early summary", "ref_indexes": [0]},
+                        "mid": {"summary": "mid summary", "ref_indexes": []},
+                        "recent": {"summary": "recent summary", "ref_indexes": []},
+                    },
+                )
+                runtime_db.store_citation_summary(
+                    connection,
+                    "global citation summary",
+                    {
+                        "research_threads": [
+                            "technical background leading into the method",
+                            "comparison with neighboring routes",
+                        ],
+                        "argument_shape": [
+                            "lay out the background",
+                            "contrast neighboring routes",
+                        ],
+                        "key_ref_indexes": [0],
+                    },
+                )
                 connection.commit()
 
             result = subprocess.run(
@@ -138,6 +164,13 @@ class RenderFinalArtifactsTests(unittest.TestCase):
             self.assertEqual(citation_json["summary"], "global citation summary")
             self.assertEqual(report_path.read_text(encoding="utf-8"), citation_json["report_md"])
             self.assertIn("summary", citation_json["report_md"])
+            self.assertIn("关键文献", citation_json["report_md"])
+            self.assertIn("时间线分析", citation_json["report_md"])
+            self.assertIn("关键词", citation_json["report_md"])
+            self.assertEqual(citation_json["items"][0]["topic"], "technical background")
+            self.assertEqual(citation_json["items"][0]["keywords"], ["transformer", "background"])
+            self.assertTrue(citation_json["items"][0]["is_key_reference"])
+            self.assertIn("timeline", citation_json)
 
 
 if __name__ == "__main__":

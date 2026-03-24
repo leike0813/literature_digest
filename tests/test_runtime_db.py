@@ -107,11 +107,37 @@ class RuntimeDbTests(unittest.TestCase):
                             "ref_index": 0,
                             "function": "background",
                             "summary": "summary",
+                            "topic": "technical background",
+                            "usage": "Used to establish the technical background of the method.",
+                            "keywords": ["transformer", "background"],
+                            "is_key_reference": True,
                             "confidence": 0.9,
                         }
                     ],
                 )
-                runtime_db.store_citation_summary(connection, "global citation summary")
+                runtime_db.store_citation_timeline(
+                    connection,
+                    {
+                        "early": {"summary": "early summary", "ref_indexes": [0]},
+                        "mid": {"summary": "mid summary", "ref_indexes": []},
+                        "recent": {"summary": "recent summary", "ref_indexes": []},
+                    },
+                )
+                runtime_db.store_citation_summary(
+                    connection,
+                    "global citation summary",
+                    {
+                        "research_threads": [
+                            "technical background leading into the method",
+                            "comparison against neighboring routes",
+                        ],
+                        "argument_shape": [
+                            "lay out the background",
+                            "contrast neighboring routes",
+                        ],
+                        "key_ref_indexes": [0],
+                    },
+                )
                 runtime_db.store_citation_unmapped_mentions(
                     connection,
                     [
@@ -133,6 +159,7 @@ class RuntimeDbTests(unittest.TestCase):
                 report_context = runtime_db.build_citation_report_render_context(connection)
                 self.assertEqual(payload["meta"]["scope"]["section_title"], "Introduction")
                 self.assertEqual(payload["summary"], "global citation summary")
+                self.assertIn("timeline", payload)
                 self.assertEqual(len(payload["items"]), 1)
                 self.assertEqual(len(payload["unmapped_mentions"]), 1)
                 self.assertEqual(payload["report_md"], "## Report\n")
@@ -142,9 +169,113 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertEqual(references_context["items"][0]["title"], "Paper A")
                 self.assertEqual(citation_context["citation_analysis"]["report_md"], "## Report\n")
                 self.assertEqual(citation_context["citation_analysis"]["summary"], "global citation summary")
+                self.assertEqual(citation_context["citation_analysis"]["items"][0]["topic"], "technical background")
+                self.assertEqual(
+                    citation_context["citation_analysis"]["items"][0]["usage"],
+                    "Used to establish the technical background of the method.",
+                )
+                self.assertEqual(citation_context["citation_analysis"]["items"][0]["keywords"], ["transformer", "background"])
+                self.assertTrue(citation_context["citation_analysis"]["items"][0]["is_key_reference"])
+                self.assertEqual(citation_context["citation_analysis"]["items"][0]["citation_label"], "[1]")
+                self.assertEqual(citation_context["citation_analysis"]["items"][0]["author_year_label"], "Smith, 2020")
                 self.assertEqual(report_context["scope"]["section_title"], "Introduction")
                 self.assertEqual(report_context["summary"], "global citation summary")
                 self.assertEqual(report_context["grouped_items"][0]["function_label"], "Background")
+                self.assertEqual(report_context["summary_basis"]["key_ref_indexes"], [0])
+                self.assertEqual(report_context["key_references"][0]["citation_label"], "[1]")
+                self.assertEqual(report_context["key_references"][0]["author_year_label"], "Smith, 2020")
+                self.assertEqual(report_context["key_references"][0]["title"], "Paper A")
+                self.assertEqual(report_context["timeline"]["early"]["ref_indexes"], [0])
+                self.assertEqual(report_context["grouped_items"][0]["items"][0]["keywords"], ["transformer", "background"])
+
+    def test_store_and_fetch_reference_parse_candidates(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_reference_parse_candidates(
+                    connection,
+                    [
+                        {
+                            "entry_index": 0,
+                            "candidate_index": 0,
+                            "pattern": "authors_colon_title_in_year",
+                            "author_text": "Gu, J., Bradbury, J.",
+                            "author_candidates": ["Gu, J.", "Bradbury, J."],
+                            "title_candidate": "Non-autoregressive neural machine translation",
+                            "container_candidate": "ICLR",
+                            "year_candidate": 2018,
+                            "confidence": 0.9,
+                            "metadata": {"split_basis": "authors before colon"},
+                        }
+                    ],
+                )
+                fetched = runtime_db.fetch_reference_parse_candidates(connection)
+                self.assertEqual(len(fetched), 1)
+                self.assertEqual(fetched[0]["pattern"], "authors_colon_title_in_year")
+                self.assertEqual(fetched[0]["author_candidates"], ["Gu, J.", "Bradbury, J."])
+                self.assertEqual(fetched[0]["metadata"]["split_basis"], "authors before colon")
+
+    def test_author_year_items_receive_stable_synthetic_labels(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_runtime_input(connection, "language", "en-US")
+                runtime_db.store_section_scope(
+                    connection,
+                    scope_key="citation_scope",
+                    section_title="Related Work",
+                    line_start=1,
+                    line_end=12,
+                )
+                runtime_db.store_citation_workset_items(
+                    connection,
+                    [
+                        {
+                            "ref_index": 1,
+                            "ref_number": None,
+                            "mention_count": 1,
+                            "mentions": [{"mention_id": "m2", "marker": "(Brown, 2018)", "style": "author-year", "line_start": 5, "line_end": 5, "snippet": "snippet"}],
+                            "reference": {"author": ["Brown"], "title": "Paper B", "year": 2018},
+                            "batch_hint": 0,
+                        },
+                        {
+                            "ref_index": 0,
+                            "ref_number": None,
+                            "mention_count": 1,
+                            "mentions": [{"mention_id": "m1", "marker": "(Adams, 2016)", "style": "author-year", "line_start": 2, "line_end": 2, "snippet": "snippet"}],
+                            "reference": {"author": ["Adams"], "title": "Paper A", "year": 2016},
+                            "batch_hint": 0,
+                        },
+                    ],
+                )
+                runtime_db.store_citation_items(
+                    connection,
+                    [
+                        {"ref_index": 0, "function": "historical", "summary": "summary a", "topic": "topic a", "usage": "usage a", "keywords": ["history"], "is_key_reference": False, "confidence": 0.9},
+                        {"ref_index": 1, "function": "background", "summary": "summary b", "topic": "topic b", "usage": "usage b", "keywords": ["background"], "is_key_reference": False, "confidence": 0.9},
+                    ],
+                )
+                runtime_db.store_citation_timeline(
+                    connection,
+                    {
+                        "early": {"summary": "early summary", "ref_indexes": [0]},
+                        "mid": {"summary": "mid summary", "ref_indexes": [1]},
+                        "recent": {"summary": "recent summary", "ref_indexes": []},
+                    },
+                )
+                runtime_db.store_citation_summary(
+                    connection,
+                    "summary",
+                    {"research_threads": ["thread a", "thread b"], "argument_shape": ["shape a", "shape b"], "key_ref_indexes": [0]},
+                )
+                payload = runtime_db.fetch_citation_payload(connection)
+                labels = {item["ref_index"]: item["citation_label"] for item in payload["items"]}
+                self.assertEqual(labels[0], "[AY-1]")
+                self.assertEqual(labels[1], "[AY-2]")
 
 
 if __name__ == "__main__":
