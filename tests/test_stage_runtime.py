@@ -342,6 +342,7 @@ class StageRuntimeTests(unittest.TestCase):
             )
             self.assertIn("timeline", citation_json)
             self.assertIn("关键文献", citation_text)
+            self.assertIn("stdout JSON", self.run_gate(db_path)["execution_note"])
 
     def test_main_path_no_longer_accepts_late_override_arguments(self):
         with tempfile.TemporaryDirectory() as td:
@@ -368,6 +369,77 @@ class StageRuntimeTests(unittest.TestCase):
 
             citation_override = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path), "--scope-start", "1", "--scope-end", "2"])
             self.assertEqual(citation_override.returncode, 2)
+
+    def test_render_mode_accepts_out_dir_but_still_rejects_other_late_overrides(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            out_dir = td_path / "artifacts"
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# 1 Introduction",
+                        "Prior work [1].",
+                        "# 2 References",
+                        "[1] Smith. Paper A. 2020.",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+
+            self.assertEqual(
+                self.run_cmd(
+                    ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN", "--model", "test-model"]
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            outline_payload = {
+                "outline_nodes": [
+                    {"node_id": "n1", "heading_level": 1, "title": "Introduction", "line_start": 1, "line_end": 2, "parent_node_id": None, "metadata": {}},
+                    {"node_id": "n2", "heading_level": 1, "title": "References", "line_start": 3, "line_end": 4, "parent_node_id": None, "metadata": {}},
+                ],
+                "references_scope": {"section_title": "References", "line_start": 3, "line_end": 4, "metadata": {}},
+                "citation_scope": {"section_title": "Introduction", "line_start": 1, "line_end": 2, "metadata": {"selection_reason": "fixture"}},
+            }
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=outline_payload).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+            refs_workset = self._prepare_references_workset(db_path)
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_references", "--db-path", str(db_path)],
+                    input_obj=self._reference_refine_payload(
+                        entry_index=0,
+                        selected_pattern=self._first_selected_pattern(refs_workset),
+                        raw="[1] Smith. Paper A. 2020.",
+                        title="Paper A",
+                        year=2020,
+                        author=["Smith"],
+                    ),
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload()).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload()).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_summary", "--db-path", str(db_path)], input_obj=self._citation_summary_payload()).returncode, 0)
+
+            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render", "--out-dir", str(out_dir)])
+            self.assertEqual(render.returncode, 0, render.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(render.stdout.decode("utf-8"))
+            self.assertEqual(Path(payload["digest_path"]), out_dir / "digest.md")
+            self.assertEqual(Path(payload["references_path"]), out_dir / "references.json")
+            self.assertEqual(Path(payload["citation_analysis_path"]), out_dir / "citation_analysis.json")
+            self.assertEqual(Path(payload["citation_analysis_report_path"]), out_dir / "citation_analysis.md")
+            self.assertTrue((out_dir / "digest.md").exists())
+            self.assertTrue((out_dir / "references.json").exists())
+            self.assertTrue((out_dir / "citation_analysis.json").exists())
+            self.assertTrue((out_dir / "citation_analysis.md").exists())
+
+            invalid = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render", "--source-path", str(source_path)])
+            self.assertEqual(invalid.returncode, 2)
 
     def test_persist_outline_and_scopes_requires_runtime_shape(self):
         with tempfile.TemporaryDirectory() as td:

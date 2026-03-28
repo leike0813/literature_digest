@@ -239,6 +239,47 @@ class ValidateOutputTests(unittest.TestCase):
             payload = json.loads(p.stdout.decode("utf-8"))
             self.assertEqual(payload["error"]["code"], "citation_report_failed")
 
+    def test_fix_mode_still_accepts_out_dir(self):
+        with tempfile.TemporaryDirectory() as td:
+            out_dir = Path(td) / "artifacts"
+            payload = {
+                "digest": {"md": "## TL;DR\n..."},
+                "references": {"items": [{"raw": "x", "doi": "10.1234/x"}]},
+                "citation_analysis": {
+                    "meta": {
+                        "language": "zh-CN",
+                        "scope": {"section_title": "Introduction", "line_start": 1, "line_end": 2},
+                    },
+                    "summary": "global citation summary",
+                    "items": [],
+                    "unmapped_mentions": [],
+                    "report_md": "## Introduction 引文综述线索\n",
+                },
+                "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
+                "warnings": [],
+                "error": None,
+            }
+            p = subprocess.run(
+                [
+                    sys.executable,
+                    str(STAGE_RUNTIME),
+                    "render_and_validate",
+                    "--mode",
+                    "fix",
+                    "--out-dir",
+                    str(out_dir),
+                ],
+                input=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=False,
+            )
+            self.assertEqual(p.returncode, 0, p.stderr.decode("utf-8", errors="replace"))
+            fixed = json.loads(p.stdout.decode("utf-8"))
+            self.assertEqual(Path(fixed["digest_path"]), out_dir / "digest.md")
+            self.assertEqual(Path(fixed["references_path"]), out_dir / "references.json")
+            self.assertEqual(Path(fixed["citation_analysis_path"]), out_dir / "citation_analysis.json")
+
     def test_check_rejects_db_registry_mismatch(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:

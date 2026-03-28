@@ -1,8 +1,5 @@
-# sqlite-gated-skill-runtime Specification
+## MODIFIED Requirements
 
-## Purpose
-TBD - created by archiving change preserve-full-guidance-while-slimming-skill-md. Update Purpose after archive.
-## Requirements
 ### Requirement: Gate References SHALL Resolve To Rich Guidance
 
 The gate payload MUST reference documents that carry the detailed guidance for the current action, not summary-only placeholders.
@@ -16,6 +13,8 @@ The gate payload MUST reference documents that carry the detailed guidance for t
 - **WHEN** the gate returns a current `next_action`
 - **THEN** it also returns an `execution_note` that captures the action's most important immediate instruction
 
+## ADDED Requirements
+
 ### Requirement: Render Mode SHALL Allow Only Output-Directory Override
 
 The DB-authoritative final render mode SHALL allow an explicit output-directory override but SHALL continue rejecting late input-source overrides.
@@ -28,4 +27,3 @@ The DB-authoritative final render mode SHALL allow an explicit output-directory 
 #### Scenario: Final render rejects late source overrides
 - **WHEN** `render_and_validate --mode render` receives `--source-path`, `--preprocess-artifact`, or `--in`
 - **THEN** the runtime fails with a schema-compatible error payload
-
