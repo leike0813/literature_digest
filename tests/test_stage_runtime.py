@@ -649,6 +649,12 @@ class StageRuntimeTests(unittest.TestCase):
         fixtures = [
             ("numeric.md", "[1] Smith. Paper A. 2020.", ["Smith"], 2020),
             ("author_year.md", "Smith, J. Paper A. 2020.", ["Smith, J."], 2020),
+            (
+                "author_year_grouped.md",
+                "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020.",
+                ["Carion, Nicolas", "Massa, Francisco", "Synnaeve, Gabriel", "Usunier, Nicolas", "Kirillov, Alexander", "Zagoruyko, Sergey"],
+                2020,
+            ),
             ("image_noise.md", "[1] Smith. Paper A. 2020.", ["Smith"], 2020),
             ("appendix_references.md", "[1] Smith. Paper A. 2020.", ["Smith"], 2020),
         ]
@@ -865,6 +871,80 @@ class StageRuntimeTests(unittest.TestCase):
             )
             self.assertEqual(colon_pattern["title_candidate"], "Non-autoregressive neural machine translation")
             self.assertEqual(review["entries"][0]["pattern_summaries"][0]["pattern"] in {"authors_period_title_period_venue_year", "authors_colon_title_in_year", "fallback_raw_split", "thesis_or_book_tail_year", "authors_year_paren_title_venue"}, True)
+
+    def test_prepare_references_workset_splits_grouped_author_year_lines_and_truncates_appendix(self):
+        fixture_path = REPO_ROOT / "tests" / "fixtures" / "literature_digest_small" / "author_year_grouped.md"
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "author_year_grouped.md"
+            source_path.write_text(fixture_path.read_text(encoding="utf-8"), encoding="utf-8")
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN"]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            citation_end = next(i for i, line in enumerate(lines, start=1) if line.startswith("# References")) - 1
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=citation_end)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            payload = self._prepare_references_workset(db_path)
+            self.assertEqual(payload["stored_reference_entries"], 6)
+            self.assertEqual(payload["entry_style"], "author-year")
+            self.assertFalse(payload["requires_split_review"])
+            review = json.loads(Path(payload["review_path"]).read_text(encoding="utf-8"))
+            raws = [entry["raw"] for entry in review["entries"]]
+            self.assertIn("Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020.", raws)
+            self.assertIn("Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In CVPR, 2017a.", raws)
+            self.assertIn("Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. Focal loss for dense object detection. In ICCV, 2017b.", raws)
+            self.assertNotIn("This appendix should not be treated as a reference entry.", " ".join(raws))
+
+    def test_prepare_references_workset_routes_grouped_single_line_entries_to_split_review(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# Introduction",
+                        "Prior work (Smith, 2020; Jones, 2021).",
+                        "# References",
+                        "Smith, J. Paper A. 2020 Jones, M. Paper B. 2021.",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN"]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            payload = self._prepare_references_workset(db_path)
+            self.assertTrue(payload["requires_split_review"])
+            self.assertGreaterEqual(payload["grouping_suspect_count"], 1)
+            self.assertEqual(self.run_gate(db_path)["next_action"], "persist_reference_entry_splits")
+
+            altered = self.run_cmd(
+                ["persist_reference_entry_splits", "--db-path", str(db_path)],
+                input_obj={"entries": [{"entry_index": 0, "raw": "Smith, J. Paper A. 2020."}]},
+            )
+            self.assertEqual(altered.returncode, 2)
+
+            reviewed = self.run_cmd(
+                ["persist_reference_entry_splits", "--db-path", str(db_path)],
+                input_obj={
+                    "entries": [
+                        {"entry_index": 0, "raw": "Smith, J. Paper A. 2020"},
+                        {"entry_index": 1, "raw": "Jones, M. Paper B. 2021."},
+                    ]
+                },
+            )
+            self.assertEqual(reviewed.returncode, 0, reviewed.stderr.decode("utf-8", errors="replace"))
+            reviewed_payload = json.loads(reviewed.stdout.decode("utf-8"))
+            self.assertFalse(reviewed_payload["requires_split_review"])
+            self.assertEqual(reviewed_payload["stored_reference_entries"], 2)
+            self.assertEqual(self.run_gate(db_path)["next_action"], "persist_references")
 
     def test_persist_references_rejects_missing_selected_pattern_and_title_boundary(self):
         with tempfile.TemporaryDirectory() as td:
