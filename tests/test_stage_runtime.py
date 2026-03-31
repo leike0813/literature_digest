@@ -1,3 +1,4 @@
+import importlib.util
 import json
 import sqlite3
 import subprocess
@@ -10,6 +11,15 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 STAGE_RUNTIME = REPO_ROOT / "literature-digest" / "scripts" / "stage_runtime.py"
 GATE_RUNTIME = REPO_ROOT / "literature-digest" / "scripts" / "gate_runtime.py"
+RUNTIME_DB_PATH = REPO_ROOT / "literature-digest" / "scripts" / "runtime_db.py"
+
+
+def load_runtime_db_module():
+    spec = importlib.util.spec_from_file_location("literature_digest_runtime_db", RUNTIME_DB_PATH)
+    assert spec is not None and spec.loader is not None
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 class StageRuntimeTests(unittest.TestCase):
@@ -1226,6 +1236,260 @@ class StageRuntimeTests(unittest.TestCase):
                 ),
             )
             self.assertEqual(valid.returncode, 0, valid.stderr.decode("utf-8", errors="replace"))
+
+    def test_prepare_citation_workset_fails_for_review_scope_without_stable_mentions(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# Related Work",
+                        "This section summarizes the literature in broad terms without explicit citation markers.",
+                        "# References",
+                        "Smith, J. 2020. Paper A. In CVPR, 2020.",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_outline_and_scopes", "--db-path", str(db_path)],
+                    input_obj=self._outline_payload(lines, citation_title="Related Work", citation_line_end=2),
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+            workset_payload = self._prepare_references_workset(db_path)
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_references", "--db-path", str(db_path)],
+                    input_obj=self._reference_refine_payload(
+                        entry_index=0,
+                        selected_pattern=self._first_selected_pattern(workset_payload),
+                        raw="Smith, J. 2020. Paper A. In CVPR, 2020.",
+                        title="Paper A",
+                        year=2020,
+                        author=["Smith, J."],
+                    ),
+                ).returncode,
+                0,
+            )
+            prepare = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
+            self.assertEqual(prepare.returncode, 2)
+            payload = json.loads(prepare.stdout.decode("utf-8"))
+            self.assertEqual(payload["error"]["code"], "citation_mentions_not_found")
+
+    def test_prepare_citation_workset_matches_multi_token_first_author_alias(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# Related Work",
+                        "The iSAID benchmark (Waqas Zamir et al. 2019) is a common remote sensing benchmark.",
+                        "# References",
+                        "Waqas Zamir, S.; Arora, A.; Gupta, A.; Khan, S.; Sun, G.; Shahbaz Khan, F.; Zhu, F.; and Shao, L. 2019. iSAID: A large-scale dataset for instance segmentation in aerial images. In CVPR Workshops, 2019.",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_outline_and_scopes", "--db-path", str(db_path)],
+                    input_obj=self._outline_payload(lines, citation_title="Related Work", citation_line_end=2),
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+            workset_payload = self._prepare_references_workset(db_path)
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_references", "--db-path", str(db_path)],
+                    input_obj=self._reference_refine_payload(
+                        entry_index=0,
+                        selected_pattern=self._first_selected_pattern(workset_payload),
+                        raw="Waqas Zamir, S.; Arora, A.; Gupta, A.; Khan, S.; Sun, G.; Shahbaz Khan, F.; Zhu, F.; and Shao, L. 2019. iSAID: A large-scale dataset for instance segmentation in aerial images. In CVPR Workshops, 2019.",
+                        title="iSAID: A large-scale dataset for instance segmentation in aerial images",
+                        year=2019,
+                        author=["Waqas Zamir, S.", "Arora, A."],
+                    ),
+                ).returncode,
+                0,
+            )
+            prepare = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
+            self.assertEqual(prepare.returncode, 0, prepare.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(prepare.stdout.decode("utf-8"))
+            self.assertEqual(payload["resolved_items"], 1)
+            self.assertEqual(payload["unresolved_mentions"], 0)
+
+    def test_persist_citation_timeline_requires_ref_indexes_from_citation_items(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_citation_workset_items(
+                    connection,
+                    [
+                        {
+                            "ref_index": 0,
+                            "ref_number": 1,
+                            "mention_count": 1,
+                            "mentions": [{"mention_id": "m0", "marker": "[1]", "style": "numeric", "line_start": 1, "line_end": 1, "snippet": "snippet"}],
+                            "reference": {"author": ["Smith"], "title": "Paper A", "year": 2020},
+                            "batch_hint": 0,
+                        },
+                        {
+                            "ref_index": 1,
+                            "ref_number": 2,
+                            "mention_count": 1,
+                            "mentions": [{"mention_id": "m1", "marker": "[2]", "style": "numeric", "line_start": 2, "line_end": 2, "snippet": "snippet"}],
+                            "reference": {"author": ["Brown"], "title": "Paper B", "year": 2019},
+                            "batch_hint": 0,
+                        },
+                    ],
+                )
+                runtime_db.store_citation_items(
+                    connection,
+                    [
+                        {
+                            "ref_index": 0,
+                            "function": "background",
+                            "summary": "summary",
+                            "topic": "topic",
+                            "usage": "usage",
+                            "keywords": ["background"],
+                            "is_key_reference": False,
+                            "confidence": 0.9,
+                        }
+                    ],
+                )
+                connection.commit()
+            result = self.run_cmd(
+                ["persist_citation_timeline", "--db-path", str(db_path)],
+                input_obj=self._citation_timeline_payload(early=[1]),
+            )
+            self.assertEqual(result.returncode, 2)
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertIn("unknown ref_index 1", payload["error"]["message"])
+
+    def test_persist_citation_summary_basis_requires_ref_indexes_from_citation_items(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_citation_items(
+                    connection,
+                    [
+                        {
+                            "ref_index": 0,
+                            "function": "background",
+                            "summary": "summary",
+                            "topic": "topic",
+                            "usage": "usage",
+                            "keywords": ["background"],
+                            "is_key_reference": False,
+                            "confidence": 0.9,
+                        }
+                    ],
+                )
+                runtime_db.store_citation_timeline(
+                    connection,
+                    {
+                        "early": {"summary": "early", "ref_indexes": [0]},
+                        "mid": {"summary": "mid", "ref_indexes": []},
+                        "recent": {"summary": "recent", "ref_indexes": []},
+                    },
+                )
+                connection.commit()
+            result = self.run_cmd(
+                ["persist_citation_summary", "--db-path", str(db_path)],
+                input_obj=self._citation_summary_payload(key_ref_indexes=[1]),
+            )
+            self.assertEqual(result.returncode, 2)
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertIn("unknown ref_index values: [1]", payload["error"]["message"])
+
+    def test_render_mode_rejects_missing_stage5_receipts(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# 1 Introduction",
+                        "Prior work [1].",
+                        "# 2 References",
+                        "[1] Smith. Paper A. 2020.",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+
+            self.assertEqual(
+                self.run_cmd(
+                    [
+                        "bootstrap_runtime_db",
+                        "--db-path",
+                        str(db_path),
+                        "--source-path",
+                        str(source_path),
+                        "--language",
+                        "zh-CN",
+                        "--output-dir",
+                        str(td_path),
+                    ]
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+            refs_workset = self._prepare_references_workset(db_path)
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_references", "--db-path", str(db_path)],
+                    input_obj=self._reference_refine_payload(
+                        entry_index=0,
+                        selected_pattern=self._first_selected_pattern(refs_workset),
+                        raw="[1] Smith. Paper A. 2020.",
+                        title="Paper A",
+                        year=2020,
+                        author=["Smith"],
+                    ),
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload()).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload()).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_summary", "--db-path", str(db_path)], input_obj=self._citation_summary_payload()).returncode, 0)
+
+            with sqlite3.connect(db_path) as connection:
+                connection.execute("DELETE FROM action_receipts WHERE action_name = 'persist_citation_timeline'")
+                connection.commit()
+
+            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
+            self.assertEqual(render.returncode, 2)
+            payload = json.loads(render.stdout.decode("utf-8"))
+            self.assertEqual(payload["error"]["code"], "citation_report_failed")
+            self.assertIn("missing action receipts before render", payload["error"]["message"])
 
 
 if __name__ == "__main__":

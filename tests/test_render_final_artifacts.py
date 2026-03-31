@@ -133,6 +133,13 @@ class RenderFinalArtifactsTests(unittest.TestCase):
                         "key_ref_indexes": [0],
                     },
                 )
+                for action_name in (
+                    "prepare_citation_workset",
+                    "persist_citation_semantics",
+                    "persist_citation_timeline",
+                    "persist_citation_summary",
+                ):
+                    runtime_db.store_action_receipt(connection, action_name=action_name, stage="stage_5_citation")
                 connection.commit()
 
             result = subprocess.run(

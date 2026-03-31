@@ -277,6 +277,32 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertEqual(labels[0], "[AY-1]")
                 self.assertEqual(labels[1], "[AY-2]")
 
+    def test_store_and_delete_action_receipts(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_action_receipt(
+                    connection,
+                    action_name="prepare_citation_workset",
+                    stage="stage_5_citation",
+                    metadata={"resolved_items": 3},
+                )
+                runtime_db.store_action_receipt(
+                    connection,
+                    action_name="persist_citation_semantics",
+                    stage="stage_5_citation",
+                )
+                receipts = runtime_db.fetch_action_receipts(connection)
+                self.assertIn("prepare_citation_workset", receipts)
+                self.assertEqual(receipts["prepare_citation_workset"]["metadata"]["resolved_items"], 3)
+                self.assertTrue(runtime_db.has_action_receipt(connection, "persist_citation_semantics"))
+                runtime_db.delete_action_receipts(connection, ["persist_citation_semantics"])
+                receipts = runtime_db.fetch_action_receipts(connection)
+                self.assertIn("prepare_citation_workset", receipts)
+                self.assertNotIn("persist_citation_semantics", receipts)
+
 
 if __name__ == "__main__":
     unittest.main()

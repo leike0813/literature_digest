@@ -149,6 +149,13 @@ class GateRuntimeTests(unittest.TestCase):
                     summary_text="summary",
                     basis={"research_threads": ["a", "b"], "argument_shape": ["x", "y"], "key_ref_indexes": [0]},
                 )
+                for action_name in (
+                    "prepare_citation_workset",
+                    "persist_citation_semantics",
+                    "persist_citation_timeline",
+                    "persist_citation_summary",
+                ):
+                    runtime_db.store_action_receipt(connection, action_name=action_name, stage="stage_5_citation")
                 runtime_db.store_citation_unmapped_mentions(
                     connection,
                     [
@@ -173,6 +180,69 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertIn("render_and_validate --mode render", payload["execution_note"])
             self.assertIn("stdout JSON", payload["execution_note"])
             self.assertIn("literature-digest.result.json", payload["execution_note"])
+
+    def test_stage_6_is_blocked_when_stage_5_receipts_are_missing(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_6_render_and_validate",
+                    current_substep="render_and_validate",
+                    stage_gate="ready",
+                    next_action="render_and_validate",
+                    status_summary="ready to render",
+                )
+                runtime_db.store_digest_slots(
+                    connection,
+                    {
+                        "tldr": {"paragraphs": ["x"]},
+                        "research_question_and_contributions": {"research_question": "q", "contributions": ["c"]},
+                        "method_highlights": {"items": ["m"]},
+                        "key_results": {"items": ["r"]},
+                        "limitations_and_reproducibility": {"items": ["l"]},
+                    },
+                )
+                runtime_db.store_digest_section_summaries(connection, [{"source_heading": "Intro", "items": ["x"]}])
+                runtime_db.store_reference_items(
+                    connection,
+                    [{"ref_index": 0, "author": ["Smith"], "title": "Paper", "year": 2020, "raw": "raw", "confidence": 0.9, "metadata": {}}],
+                )
+                runtime_db.store_section_scope(
+                    connection,
+                    scope_key="citation_scope",
+                    section_title="Introduction",
+                    line_start=1,
+                    line_end=3,
+                    metadata={},
+                )
+                runtime_db.store_citation_workset_items(
+                    connection,
+                    [{"ref_index": 0, "ref_number": 1, "mention_count": 1, "mentions": [], "reference_snapshot": {}, "batch_hint": 0, "workset_metadata": {}}],
+                )
+                runtime_db.store_citation_items(
+                    connection,
+                    [{"ref_index": 0, "function": "background", "summary": "s", "confidence": 0.9, "metadata": {}}],
+                )
+                runtime_db.store_citation_timeline(
+                    connection,
+                    {"early": {"summary": "e", "ref_indexes": [0]}, "mid": {"summary": "m", "ref_indexes": []}, "recent": {"summary": "r", "ref_indexes": []}},
+                )
+                runtime_db.store_citation_summary(
+                    connection,
+                    summary_text="summary",
+                    basis={"research_threads": ["a", "b"], "argument_shape": ["x", "y"], "key_ref_indexes": [0]},
+                )
+                connection.commit()
+
+            result = self.run_gate(db_path)
+            self.assertEqual(result.returncode, 2)
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertEqual(payload["stage_gate"], "blocked")
+            self.assertEqual(payload["next_action"], "repair_db_state")
+            self.assertIn("action_receipts.prepare_citation_workset", payload["status_summary"])
 
     def test_core_instruction_is_stable_across_stages(self):
         runtime_db = load_runtime_db_module()
