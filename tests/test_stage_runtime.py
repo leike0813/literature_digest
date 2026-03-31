@@ -1,4 +1,5 @@
 import json
+import sqlite3
 import subprocess
 import sys
 import tempfile
@@ -12,21 +13,23 @@ GATE_RUNTIME = REPO_ROOT / "literature-digest" / "scripts" / "gate_runtime.py"
 
 
 class StageRuntimeTests(unittest.TestCase):
-    def run_cmd(self, args: list[str], *, input_obj: dict | None = None) -> subprocess.CompletedProcess:
+    def run_cmd(self, args: list[str], *, input_obj: dict | None = None, cwd: Path | None = None) -> subprocess.CompletedProcess:
         return subprocess.run(
             [sys.executable, str(STAGE_RUNTIME), *args],
             input=None if input_obj is None else json.dumps(input_obj, ensure_ascii=False).encode("utf-8"),
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             check=False,
+            cwd=str(cwd) if cwd is not None else None,
         )
 
-    def run_gate(self, db_path: Path) -> dict:
+    def run_gate(self, db_path: Path, *, cwd: Path | None = None) -> dict:
         result = subprocess.run(
             [sys.executable, str(GATE_RUNTIME), "--db-path", str(db_path)],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             check=False,
+            cwd=str(cwd) if cwd is not None else None,
         )
         self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
         return json.loads(result.stdout.decode("utf-8"))
@@ -113,8 +116,8 @@ class StageRuntimeTests(unittest.TestCase):
             ],
         }
 
-    def _prepare_references_workset(self, db_path: Path) -> dict:
-        result = self.run_cmd(["prepare_references_workset", "--db-path", str(db_path)])
+    def _prepare_references_workset(self, db_path: Path, *, cwd: Path | None = None) -> dict:
+        result = self.run_cmd(["prepare_references_workset", "--db-path", str(db_path)], cwd=cwd)
         self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
         return json.loads(result.stdout.decode("utf-8"))
 
@@ -216,6 +219,8 @@ class StageRuntimeTests(unittest.TestCase):
                     str(source_path),
                     "--language",
                     "zh-CN",
+                    "--output-dir",
+                    str(td_path),
                     "--model",
                     "test-model",
                 ]
@@ -321,7 +326,7 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertEqual(citation_summary.returncode, 0, citation_summary.stderr.decode("utf-8", errors="replace"))
             self.assertEqual(self.run_gate(db_path)["next_action"], "render_and_validate")
 
-            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"])
+            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
             self.assertEqual(render.returncode, 0, render.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(render.stdout.decode("utf-8"))
             self.assertTrue(Path(payload["digest_path"]).exists())
@@ -343,6 +348,8 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertIn("timeline", citation_json)
             self.assertIn("关键文献", citation_text)
             self.assertIn("stdout JSON", self.run_gate(db_path)["execution_note"])
+            result_payload = json.loads((td_path / "literature-digest.result.json").read_text(encoding="utf-8"))
+            self.assertEqual(result_payload, payload)
 
     def test_main_path_no_longer_accepts_late_override_arguments(self):
         with tempfile.TemporaryDirectory() as td:
@@ -370,7 +377,26 @@ class StageRuntimeTests(unittest.TestCase):
             citation_override = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path), "--scope-start", "1", "--scope-end", "2"])
             self.assertEqual(citation_override.returncode, 2)
 
-    def test_render_mode_accepts_out_dir_but_still_rejects_other_late_overrides(self):
+    def test_bootstrap_defaults_output_dir_to_current_workdir(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text("# 1 Introduction\nText.\n", encoding="utf-8")
+
+            bootstrap = self.run_cmd(
+                ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)],
+                cwd=td_path,
+            )
+            self.assertEqual(bootstrap.returncode, 0, bootstrap.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(bootstrap.stdout.decode("utf-8"))
+            self.assertEqual(Path(payload["output_dir"]), td_path.resolve())
+            with sqlite3.connect(db_path) as connection:
+                row = connection.execute("SELECT value FROM runtime_inputs WHERE key = 'output_dir'").fetchone()
+            self.assertIsNotNone(row)
+            self.assertEqual(Path(str(row[0])), td_path.resolve())
+
+    def test_render_mode_uses_db_output_dir_and_writes_result_json(self):
         with tempfile.TemporaryDirectory() as td:
             td_path = Path(td)
             out_dir = td_path / "artifacts"
@@ -391,7 +417,19 @@ class StageRuntimeTests(unittest.TestCase):
 
             self.assertEqual(
                 self.run_cmd(
-                    ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN", "--model", "test-model"]
+                    [
+                        "bootstrap_runtime_db",
+                        "--db-path",
+                        str(db_path),
+                        "--source-path",
+                        str(source_path),
+                        "--language",
+                        "zh-CN",
+                        "--output-dir",
+                        str(out_dir),
+                        "--model",
+                        "test-model",
+                    ]
                 ).returncode,
                 0,
             )
@@ -406,7 +444,7 @@ class StageRuntimeTests(unittest.TestCase):
             }
             self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=outline_payload).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
-            refs_workset = self._prepare_references_workset(db_path)
+            refs_workset = self._prepare_references_workset(db_path, cwd=td_path)
             self.assertEqual(
                 self.run_cmd(
                     ["persist_references", "--db-path", str(db_path)],
@@ -426,7 +464,7 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload()).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_summary", "--db-path", str(db_path)], input_obj=self._citation_summary_payload()).returncode, 0)
 
-            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render", "--out-dir", str(out_dir)])
+            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
             self.assertEqual(render.returncode, 0, render.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(render.stdout.decode("utf-8"))
             self.assertEqual(Path(payload["digest_path"]), out_dir / "digest.md")
@@ -437,9 +475,73 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertTrue((out_dir / "references.json").exists())
             self.assertTrue((out_dir / "citation_analysis.json").exists())
             self.assertTrue((out_dir / "citation_analysis.md").exists())
+            self.assertEqual(json.loads((td_path / "literature-digest.result.json").read_text(encoding="utf-8")), payload)
 
-            invalid = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render", "--source-path", str(source_path)])
+            invalid = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render", "--source-path", str(source_path)], cwd=td_path)
             self.assertEqual(invalid.returncode, 2)
+            invalid_out_dir = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render", "--out-dir", str(out_dir)], cwd=td_path)
+            self.assertEqual(invalid_out_dir.returncode, 2)
+
+    def test_render_mode_falls_back_to_current_workdir_when_output_dir_missing(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "# 1 Introduction\nPrior work [1].\n# 2 References\n[1] Smith. Paper A. 2020.\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(
+                self.run_cmd(
+                    [
+                        "bootstrap_runtime_db",
+                        "--db-path",
+                        str(db_path),
+                        "--source-path",
+                        str(source_path),
+                        "--language",
+                        "zh-CN",
+                        "--output-dir",
+                        str(td_path / "artifacts"),
+                    ],
+                    cwd=td_path,
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)], cwd=td_path).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2), cwd=td_path).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload(), cwd=td_path).returncode, 0)
+            refs_workset = self._prepare_references_workset(db_path)
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_references", "--db-path", str(db_path)],
+                    input_obj=self._reference_refine_payload(
+                        entry_index=0,
+                        selected_pattern=self._first_selected_pattern(refs_workset),
+                        raw="[1] Smith. Paper A. 2020.",
+                        title="Paper A",
+                        year=2020,
+                        author=["Smith"],
+                    ),
+                    cwd=td_path,
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)], cwd=td_path).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload(), cwd=td_path).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload(), cwd=td_path).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_summary", "--db-path", str(db_path)], input_obj=self._citation_summary_payload(), cwd=td_path).returncode, 0)
+            with sqlite3.connect(db_path) as connection:
+                connection.execute("DELETE FROM runtime_inputs WHERE key = 'output_dir'")
+                connection.commit()
+            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
+            self.assertEqual(render.returncode, 0, render.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(render.stdout.decode("utf-8"))
+            self.assertEqual(Path(payload["digest_path"]), td_path / "digest.md")
+            self.assertEqual(Path(payload["references_path"]), td_path / "references.json")
+            self.assertEqual(Path(payload["citation_analysis_path"]), td_path / "citation_analysis.json")
+
 
     def test_persist_outline_and_scopes_requires_runtime_shape(self):
         with tempfile.TemporaryDirectory() as td:
@@ -486,7 +588,12 @@ class StageRuntimeTests(unittest.TestCase):
                 + "\n",
                 encoding="utf-8",
             )
-            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+            self.assertEqual(
+                self.run_cmd(
+                    ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--output-dir", str(td_path)]
+                ).returncode,
+                0,
+            )
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
             lines = source_path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=5)).returncode, 0)
@@ -538,7 +645,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
-            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"])
+            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
             self.assertEqual(render.returncode, 0, render.stderr.decode("utf-8", errors="replace"))
             render_payload = json.loads(render.stdout.decode("utf-8"))
             self.assertIn("citation_false_positive_filtered", render_payload["warnings"])
@@ -549,7 +656,12 @@ class StageRuntimeTests(unittest.TestCase):
             source_path = td_path / "paper.md"
             db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
             source_path.write_text("# Introduction\nText\n", encoding="utf-8")
-            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+            self.assertEqual(
+                self.run_cmd(
+                    ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--output-dir", str(td_path)]
+                ).returncode,
+                0,
+            )
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
             self.assertEqual(
                 self.run_cmd(
@@ -579,7 +691,7 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertEqual(references.returncode, 0, references.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(references.stdout.decode("utf-8"))
             self.assertIn("reference_parse_low_confidence", payload["warnings"])
-            export = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"])
+            export = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
             self.assertEqual(export.returncode, 2)
 
     def test_export_citation_workset_reads_db_only(self):
@@ -664,7 +776,22 @@ class StageRuntimeTests(unittest.TestCase):
                 source_path = td_path / fixture_name
                 source_path.write_text((fixture_dir / fixture_name).read_text(encoding="utf-8"), encoding="utf-8")
                 db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
-                self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN"]).returncode, 0)
+                self.assertEqual(
+                    self.run_cmd(
+                        [
+                            "bootstrap_runtime_db",
+                            "--db-path",
+                            str(db_path),
+                            "--source-path",
+                            str(source_path),
+                            "--language",
+                            "zh-CN",
+                            "--output-dir",
+                            str(td_path),
+                        ]
+                    ).returncode,
+                    0,
+                )
                 self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
                 lines = source_path.read_text(encoding="utf-8").splitlines()
                 citation_end = next(i for i, line in enumerate(lines, start=1) if line.startswith("# References")) - 1
@@ -710,7 +837,7 @@ class StageRuntimeTests(unittest.TestCase):
                     ).returncode,
                     0,
                 )
-                render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"])
+                render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
                 self.assertEqual(render.returncode, 0, render.stderr.decode("utf-8", errors="replace"))
 
     def test_persist_citation_semantics_requires_topic_usage_key_flag_and_keywords(self):
@@ -923,20 +1050,28 @@ class StageRuntimeTests(unittest.TestCase):
             payload = self._prepare_references_workset(db_path)
             self.assertTrue(payload["requires_split_review"])
             self.assertGreaterEqual(payload["grouping_suspect_count"], 1)
+            self.assertEqual(payload["split_mode"], "line-first")
+            self.assertEqual(payload["suspect_blocks"][0]["suspicion_kind"], "grouped_entries_in_single_line")
             self.assertEqual(self.run_gate(db_path)["next_action"], "persist_reference_entry_splits")
 
             altered = self.run_cmd(
                 ["persist_reference_entry_splits", "--db-path", str(db_path)],
-                input_obj={"entries": [{"entry_index": 0, "raw": "Smith, J. Paper A. 2020."}]},
+                input_obj={"blocks": [{"block_index": 0, "resolution": "split", "entries": ["Smith, J. Paper A. 2020."]}]},
             )
             self.assertEqual(altered.returncode, 2)
 
             reviewed = self.run_cmd(
                 ["persist_reference_entry_splits", "--db-path", str(db_path)],
                 input_obj={
-                    "entries": [
-                        {"entry_index": 0, "raw": "Smith, J. Paper A. 2020"},
-                        {"entry_index": 1, "raw": "Jones, M. Paper B. 2021."},
+                    "blocks": [
+                        {
+                            "block_index": 0,
+                            "resolution": "split",
+                            "entries": [
+                                "Smith, J. Paper A. 2020",
+                                "Jones, M. Paper B. 2021.",
+                            ],
+                        }
                     ]
                 },
             )
@@ -944,6 +1079,47 @@ class StageRuntimeTests(unittest.TestCase):
             reviewed_payload = json.loads(reviewed.stdout.decode("utf-8"))
             self.assertFalse(reviewed_payload["requires_split_review"])
             self.assertEqual(reviewed_payload["stored_reference_entries"], 2)
+            self.assertEqual(self.run_gate(db_path)["next_action"], "persist_references")
+
+    def test_prepare_references_workset_routes_multiline_entries_to_split_review_and_merge(self):
+        fixture_path = REPO_ROOT / "tests" / "fixtures" / "literature_digest_small" / "author_year_multiline.md"
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "author_year_multiline.md"
+            source_path.write_text(fixture_path.read_text(encoding="utf-8"), encoding="utf-8")
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN"]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            citation_end = next(i for i, line in enumerate(lines, start=1) if line.startswith("# References")) - 1
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=citation_end)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            payload = self._prepare_references_workset(db_path)
+            self.assertTrue(payload["requires_split_review"])
+            self.assertEqual(payload["suspect_blocks"][0]["suspicion_kind"], "possible_multiline_entry")
+            self.assertEqual(self.run_gate(db_path)["next_action"], "persist_reference_entry_splits")
+
+            reviewed = self.run_cmd(
+                ["persist_reference_entry_splits", "--db-path", str(db_path)],
+                input_obj={
+                    "blocks": [
+                        {
+                            "block_index": 0,
+                            "resolution": "merge",
+                            "entries": [
+                                "Smith, J.; Doe, A. 2020. Very long paper title continues here. In CVPR, 2020."
+                            ],
+                        }
+                    ]
+                },
+            )
+            self.assertEqual(reviewed.returncode, 0, reviewed.stderr.decode("utf-8", errors="replace"))
+            reviewed_payload = json.loads(reviewed.stdout.decode("utf-8"))
+            self.assertFalse(reviewed_payload["requires_split_review"])
+            self.assertEqual(reviewed_payload["stored_reference_entries"], 2)
+            workset = json.loads(Path(reviewed_payload["workset_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(workset["entries"][0]["raw"], "Smith, J.; Doe, A. 2020. Very long paper title continues here. In CVPR, 2020.")
             self.assertEqual(self.run_gate(db_path)["next_action"], "persist_references")
 
     def test_persist_references_rejects_missing_selected_pattern_and_title_boundary(self):

@@ -38,11 +38,13 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertEqual(payload["next_action"], "bootstrap_runtime_db")
             self.assertEqual(payload["current_stage"], "stage_0_bootstrap")
             self.assertTrue(payload["instruction_refs"])
+            self.assertTrue(payload["core_instruction"])
             self.assertTrue(payload["execution_note"])
             self.assertTrue(payload["sql_examples"])
             self.assertEqual(payload["instruction_refs"][0]["path"], "references/step_01_bootstrap_and_source.md")
             self.assertEqual(payload["instruction_refs"][1]["path"], "references/stage_runtime_interface.md")
             self.assertIn("runtime_inputs", payload["sql_examples"][1]["sql"])
+            self.assertIn("**最终 assistant 输出必须是一个 JSON 对象", payload["core_instruction"])
 
     def test_initialized_db_allows_stage_1_entry(self):
         runtime_db = load_runtime_db_module()
@@ -58,6 +60,7 @@ class GateRuntimeTests(unittest.TestCase):
             payload = json.loads(result.stdout.decode("utf-8"))
             self.assertEqual(payload["stage_gate"], "ready")
             self.assertEqual(payload["next_action"], "normalize_source")
+            self.assertTrue(payload["core_instruction"])
             self.assertIn("source_path", payload["execution_note"])
             self.assertEqual(payload["instruction_refs"][0]["path"], "references/step_01_bootstrap_and_source.md")
             self.assertEqual(payload["instruction_refs"][1]["path"], "references/stage_runtime_interface.md")
@@ -84,6 +87,7 @@ class GateRuntimeTests(unittest.TestCase):
             payload = json.loads(result.stdout.decode("utf-8"))
             self.assertEqual(payload["stage_gate"], "blocked")
             self.assertEqual(payload["next_action"], "repair_db_state")
+            self.assertTrue(payload["core_instruction"])
             self.assertTrue(payload["execution_note"])
             instruction_paths = [item["path"] for item in payload["instruction_refs"]]
             self.assertEqual(instruction_paths[0], "references/step_02_outline_and_scopes.md")
@@ -165,8 +169,41 @@ class GateRuntimeTests(unittest.TestCase):
             result = self.run_gate(db_path)
             payload = json.loads(result.stdout.decode("utf-8"))
             self.assertEqual(payload["next_action"], "render_and_validate")
+            self.assertTrue(payload["core_instruction"])
             self.assertIn("render_and_validate --mode render", payload["execution_note"])
             self.assertIn("stdout JSON", payload["execution_note"])
+            self.assertIn("literature-digest.result.json", payload["execution_note"])
+
+    def test_core_instruction_is_stable_across_stages(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_runtime_input(connection, "source_path", str(Path(td) / "paper.md"))
+                connection.commit()
+
+            stage_1 = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
+
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_source_document(
+                    connection,
+                    doc_key="normalized_source",
+                    content="# Title\n\n## Introduction\nText",
+                    metadata={},
+                )
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_2_outline_and_scopes",
+                    current_substep="persist_outline_and_scopes",
+                    stage_gate="ready",
+                    next_action="persist_outline_and_scopes",
+                    status_summary="ready for stage 2",
+                )
+                connection.commit()
+
+            stage_2 = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
+            self.assertEqual(stage_1["core_instruction"], stage_2["core_instruction"])
 
 
 if __name__ == "__main__":

@@ -48,13 +48,6 @@ stdout 只返回一个 JSON 对象，主路径字段保持稳定，`citation_ana
 - `literature-digest/references/bibliography_formats.md`
   - references 体例判断与抽取启发
 
-仓库级参考资料：
-
-- `references/literature_digest_guidance_migration_map.md`
-  - 文档迁移与内容归宿追溯
-- `references/literature_digest_SKILL_legacy_snapshot.md`
-  - 历史快照，仅用于追溯，不参与运行时
-
 gate payload 会显式返回：
 
 - `instruction_refs`
