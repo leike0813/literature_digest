@@ -29,13 +29,13 @@ class GateRuntimeTests(unittest.TestCase):
             check=False,
         )
 
-    def test_missing_db_requests_bootstrap(self):
+    def test_missing_db_requests_confirm_runtime_paths(self):
         with tempfile.TemporaryDirectory() as td:
             db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
             result = self.run_gate(db_path)
             self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(result.stdout.decode("utf-8"))
-            self.assertEqual(payload["next_action"], "bootstrap_runtime_db")
+            self.assertEqual(payload["next_action"], "confirm_runtime_paths")
             self.assertEqual(payload["current_stage"], "stage_0_bootstrap")
             self.assertTrue(payload["instruction_refs"])
             self.assertTrue(payload["core_instruction"])
@@ -44,13 +44,14 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertIsNotNone(payload["command_example"])
             self.assertEqual(payload["instruction_refs"][0]["path"], "references/step_01_bootstrap_and_source.md")
             self.assertEqual(payload["instruction_refs"][1]["path"], "references/stage_runtime_interface.md")
-            self.assertIn("bootstrap_runtime_db", payload["command_example"]["command"])
-            self.assertIn("--source-path", payload["command_example"]["command"])
-            self.assertIn("--language", payload["command_example"]["command"])
+            self.assertIn("confirm_runtime_paths", payload["command_example"]["command"])
+            self.assertIn("pwd", payload["command_example"]["command"])
+            self.assertIn("--working-dir", payload["command_example"]["command"])
             self.assertIn("--output-dir", payload["command_example"]["command"])
             self.assertIn("**最终 assistant 输出必须是一个 JSON 对象", payload["core_instruction"])
+            self.assertIn("Do not `cd` first", payload["execution_note"])
 
-    def test_initialized_db_allows_stage_1_entry(self):
+    def test_initialized_db_without_confirm_requests_confirm_runtime_paths(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:
             db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
@@ -63,14 +64,14 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(result.stdout.decode("utf-8"))
             self.assertEqual(payload["stage_gate"], "ready")
-            self.assertEqual(payload["next_action"], "normalize_source")
+            self.assertEqual(payload["next_action"], "confirm_runtime_paths")
             self.assertTrue(payload["core_instruction"])
-            self.assertIn("source_path", payload["execution_note"])
+            self.assertIn("cwd", payload["execution_note"])
             self.assertIsNotNone(payload["command_example"])
             self.assertEqual(payload["sql_examples"], [])
             self.assertEqual(payload["instruction_refs"][0]["path"], "references/step_01_bootstrap_and_source.md")
             self.assertEqual(payload["instruction_refs"][1]["path"], "references/stage_runtime_interface.md")
-            self.assertIn("normalize_source", payload["command_example"]["command"])
+            self.assertIn("confirm_runtime_paths", payload["command_example"]["command"])
             self.assertIsNone(payload["command_example"]["payload_example"])
 
     def test_missing_stage_prerequisite_blocks(self):

@@ -25,8 +25,9 @@ class RuntimeDbTests(unittest.TestCase):
             self.assertTrue(db_path.exists())
             with runtime_db.connect_db(db_path) as connection:
                 state = runtime_db.fetch_workflow_state(connection)
-                self.assertEqual(state["current_stage"], "stage_1_normalize_source")
-                self.assertEqual(state["next_action"], "normalize_source")
+                self.assertEqual(state["current_stage"], "stage_0_bootstrap")
+                self.assertEqual(state["current_substep"], "confirm_runtime_paths")
+                self.assertEqual(state["next_action"], "confirm_runtime_paths")
 
     def test_store_and_fetch_final_payload_data(self):
         runtime_db = load_runtime_db_module()

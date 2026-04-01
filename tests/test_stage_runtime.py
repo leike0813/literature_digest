@@ -44,6 +44,14 @@ class StageRuntimeTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
         return json.loads(result.stdout.decode("utf-8"))
 
+    def confirm_runtime_paths(self, *, working_dir: Path, output_dir: Path | None = None) -> tuple[subprocess.CompletedProcess, Path]:
+        db_path = working_dir / ".literature_digest_tmp" / "literature_digest.db"
+        args = ["confirm_runtime_paths", "--working-dir", str(working_dir)]
+        if output_dir is not None:
+            args.extend(["--output-dir", str(output_dir)])
+        result = self.run_cmd(args, cwd=working_dir)
+        return result, db_path
+
     def _outline_payload(self, lines: list[str], *, citation_title: str = "Introduction", citation_line_end: int | None = None) -> dict:
         outline_nodes: list[dict] = []
         references_line = None
@@ -229,8 +237,6 @@ class StageRuntimeTests(unittest.TestCase):
                     str(source_path),
                     "--language",
                     "zh-CN",
-                    "--output-dir",
-                    str(td_path),
                     "--model",
                     "test-model",
                 ]
@@ -387,19 +393,12 @@ class StageRuntimeTests(unittest.TestCase):
             citation_override = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path), "--scope-start", "1", "--scope-end", "2"])
             self.assertEqual(citation_override.returncode, 2)
 
-    def test_bootstrap_defaults_output_dir_to_current_workdir(self):
+    def test_confirm_runtime_paths_defaults_output_dir_to_working_dir(self):
         with tempfile.TemporaryDirectory() as td:
             td_path = Path(td)
-            source_path = td_path / "paper.md"
-            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
-            source_path.write_text("# 1 Introduction\nText.\n", encoding="utf-8")
-
-            bootstrap = self.run_cmd(
-                ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)],
-                cwd=td_path,
-            )
-            self.assertEqual(bootstrap.returncode, 0, bootstrap.stderr.decode("utf-8", errors="replace"))
-            payload = json.loads(bootstrap.stdout.decode("utf-8"))
+            confirm, db_path = self.confirm_runtime_paths(working_dir=td_path)
+            self.assertEqual(confirm.returncode, 0, confirm.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(confirm.stdout.decode("utf-8"))
             self.assertEqual(Path(payload["output_dir"]), td_path.resolve())
             with sqlite3.connect(db_path) as connection:
                 row = connection.execute("SELECT value FROM runtime_inputs WHERE key = 'output_dir'").fetchone()
@@ -425,6 +424,8 @@ class StageRuntimeTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
+            confirm, _ = self.confirm_runtime_paths(working_dir=td_path, output_dir=out_dir)
+            self.assertEqual(confirm.returncode, 0, confirm.stderr.decode("utf-8", errors="replace"))
             self.assertEqual(
                 self.run_cmd(
                     [
@@ -435,8 +436,6 @@ class StageRuntimeTests(unittest.TestCase):
                         str(source_path),
                         "--language",
                         "zh-CN",
-                        "--output-dir",
-                        str(out_dir),
                         "--model",
                         "test-model",
                     ]
@@ -501,6 +500,8 @@ class StageRuntimeTests(unittest.TestCase):
                 "# 1 Introduction\nPrior work [1].\n# 2 References\n[1] Smith. Paper A. 2020.\n",
                 encoding="utf-8",
             )
+            confirm, _ = self.confirm_runtime_paths(working_dir=td_path, output_dir=td_path / "artifacts")
+            self.assertEqual(confirm.returncode, 0, confirm.stderr.decode("utf-8", errors="replace"))
             self.assertEqual(
                 self.run_cmd(
                     [
@@ -511,8 +512,6 @@ class StageRuntimeTests(unittest.TestCase):
                         str(source_path),
                         "--language",
                         "zh-CN",
-                        "--output-dir",
-                        str(td_path / "artifacts"),
                     ],
                     cwd=td_path,
                 ).returncode,
@@ -600,7 +599,7 @@ class StageRuntimeTests(unittest.TestCase):
             )
             self.assertEqual(
                 self.run_cmd(
-                    ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--output-dir", str(td_path)]
+                    ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]
                 ).returncode,
                 0,
             )
@@ -668,7 +667,7 @@ class StageRuntimeTests(unittest.TestCase):
             source_path.write_text("# Introduction\nText\n", encoding="utf-8")
             self.assertEqual(
                 self.run_cmd(
-                    ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--output-dir", str(td_path)]
+                    ["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]
                 ).returncode,
                 0,
             )
@@ -796,8 +795,6 @@ class StageRuntimeTests(unittest.TestCase):
                             str(source_path),
                             "--language",
                             "zh-CN",
-                            "--output-dir",
-                            str(td_path),
                         ]
                     ).returncode,
                     0,
@@ -1451,8 +1448,6 @@ class StageRuntimeTests(unittest.TestCase):
                         str(source_path),
                         "--language",
                         "zh-CN",
-                        "--output-dir",
-                        str(td_path),
                     ]
                 ).returncode,
                 0,

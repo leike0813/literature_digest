@@ -1,0 +1,7 @@
+- [x] Add `confirm_runtime_paths` to `stage_runtime.py` and persist runtime path keys into `runtime_inputs`
+- [x] Update gate startup flow, execution notes, and command examples to require cwd capture before script execution
+- [x] Move directory ownership out of `bootstrap_runtime_db`
+- [x] Make render and artifact registry emit absolute public artifact paths
+- [x] Write result mirror JSON to DB-backed `result_json_path`
+- [x] Update guidance docs and runner contract
+- [x] Add or update tests for startup flow, persisted runtime paths, and absolute render paths
