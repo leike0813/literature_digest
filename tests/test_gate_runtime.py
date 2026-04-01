@@ -40,10 +40,14 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertTrue(payload["instruction_refs"])
             self.assertTrue(payload["core_instruction"])
             self.assertTrue(payload["execution_note"])
-            self.assertTrue(payload["sql_examples"])
+            self.assertEqual(payload["sql_examples"], [])
+            self.assertIsNotNone(payload["command_example"])
             self.assertEqual(payload["instruction_refs"][0]["path"], "references/step_01_bootstrap_and_source.md")
             self.assertEqual(payload["instruction_refs"][1]["path"], "references/stage_runtime_interface.md")
-            self.assertIn("runtime_inputs", payload["sql_examples"][1]["sql"])
+            self.assertIn("bootstrap_runtime_db", payload["command_example"]["command"])
+            self.assertIn("--source-path", payload["command_example"]["command"])
+            self.assertIn("--language", payload["command_example"]["command"])
+            self.assertIn("--output-dir", payload["command_example"]["command"])
             self.assertIn("**最终 assistant 输出必须是一个 JSON 对象", payload["core_instruction"])
 
     def test_initialized_db_allows_stage_1_entry(self):
@@ -62,9 +66,12 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertEqual(payload["next_action"], "normalize_source")
             self.assertTrue(payload["core_instruction"])
             self.assertIn("source_path", payload["execution_note"])
+            self.assertIsNotNone(payload["command_example"])
+            self.assertEqual(payload["sql_examples"], [])
             self.assertEqual(payload["instruction_refs"][0]["path"], "references/step_01_bootstrap_and_source.md")
             self.assertEqual(payload["instruction_refs"][1]["path"], "references/stage_runtime_interface.md")
-            self.assertIn("source_documents", payload["sql_examples"][1]["sql"])
+            self.assertIn("normalize_source", payload["command_example"]["command"])
+            self.assertIsNone(payload["command_example"]["payload_example"])
 
     def test_missing_stage_prerequisite_blocks(self):
         runtime_db = load_runtime_db_module()
@@ -89,6 +96,7 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertEqual(payload["next_action"], "repair_db_state")
             self.assertTrue(payload["core_instruction"])
             self.assertTrue(payload["execution_note"])
+            self.assertIsNone(payload["command_example"])
             instruction_paths = [item["path"] for item in payload["instruction_refs"]]
             self.assertEqual(instruction_paths[0], "references/step_02_outline_and_scopes.md")
             self.assertIn("references/failure_recovery.md", instruction_paths)
@@ -180,6 +188,11 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertIn("render_and_validate --mode render", payload["execution_note"])
             self.assertIn("stdout JSON", payload["execution_note"])
             self.assertIn("literature-digest.result.json", payload["execution_note"])
+            self.assertIsNotNone(payload["command_example"])
+            self.assertEqual(payload["sql_examples"], [])
+            self.assertIn('render_and_validate --db-path "', payload["command_example"]["command"])
+            self.assertIn("--mode render", payload["command_example"]["command"])
+            self.assertIsNone(payload["command_example"]["payload_example"])
 
     def test_stage_6_is_blocked_when_stage_5_receipts_are_missing(self):
         runtime_db = load_runtime_db_module()
@@ -274,6 +287,57 @@ class GateRuntimeTests(unittest.TestCase):
 
             stage_2 = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
             self.assertEqual(stage_1["core_instruction"], stage_2["core_instruction"])
+
+    def test_payload_stage_returns_payload_file_command_example(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_5_citation",
+                    current_substep="persist_citation_semantics",
+                    stage_gate="ready",
+                    next_action="persist_citation_semantics",
+                    status_summary="citation workset prepared",
+                )
+                runtime_db.store_source_document(
+                    connection,
+                    doc_key="normalized_source",
+                    content="# Title\n\n## Introduction\nText (Smith et al. 2020)",
+                    metadata={},
+                )
+                runtime_db.store_section_scope(
+                    connection,
+                    scope_key="citation_scope",
+                    section_title="Introduction",
+                    line_start=1,
+                    line_end=3,
+                    metadata={},
+                )
+                runtime_db.store_reference_items(
+                    connection,
+                    [{"ref_index": 0, "author": ["Smith, J."], "title": "Paper", "year": 2020, "raw": "raw", "confidence": 0.9, "metadata": {}}],
+                )
+                runtime_db.store_citation_workset_items(
+                    connection,
+                    [{"ref_index": 0, "ref_number": 1, "mention_count": 1, "mentions": [], "reference_snapshot": {}, "batch_hint": 0, "workset_metadata": {}}],
+                )
+                runtime_db.store_action_receipt(connection, action_name="prepare_citation_workset", stage="stage_5_citation")
+                connection.commit()
+
+            payload = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
+            self.assertEqual(payload["next_action"], "persist_citation_semantics")
+            self.assertEqual(payload["sql_examples"], [])
+            self.assertIsNotNone(payload["command_example"])
+            self.assertIn("--payload-file", payload["command_example"]["command"])
+            self.assertIsInstance(payload["command_example"]["payload_example"], dict)
+            self.assertIn("items", payload["command_example"]["payload_example"])
+            item = payload["command_example"]["payload_example"]["items"][0]
+            self.assertIn("topic", item)
+            self.assertIn("usage", item)
+            self.assertIn("keywords", item)
 
 
 if __name__ == "__main__":
