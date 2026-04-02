@@ -156,6 +156,72 @@ class NormalizeSourceTests(unittest.TestCase):
             self.assertEqual(payload["error"]["code"], "UNSUPPORTED_INPUT")
             self.assertEqual(meta["error"]["code"], "UNSUPPORTED_INPUT")
 
+    def test_single_tex_is_normalized_as_fenced_raw_latex(self):
+        with tempfile.TemporaryDirectory() as td:
+            source_path = Path(td) / "paper.tex"
+            out_md = Path(td) / ".literature_digest_tmp" / "source.md"
+            out_meta = Path(td) / ".literature_digest_tmp" / "source_meta.json"
+            source_path.write_text(
+                "\\documentclass{article}\n\\begin{document}\nHello from LaTeX.\n\\end{document}\n",
+                encoding="utf-8",
+            )
+
+            result = self.run_normalize(source_path, out_md, out_meta)
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            meta = json.loads(out_meta.read_text(encoding="utf-8"))
+            normalized = out_md.read_text(encoding="utf-8")
+
+            self.assertEqual(meta["source_type"], "latex_tex")
+            self.assertEqual(meta["conversion_backend"], "fenced_raw_latex")
+            self.assertIn("```tex", normalized)
+            self.assertIn("\\documentclass{article}", normalized)
+            self.assertIn("Hello from LaTeX.", normalized)
+
+    def test_latex_project_is_flattened_and_appends_bibtex_blocks(self):
+        with tempfile.TemporaryDirectory() as td:
+            project_dir = Path(td) / "paper_project"
+            sections_dir = project_dir / "sections"
+            sections_dir.mkdir(parents=True)
+            main_tex = project_dir / "main.tex"
+            intro_tex = sections_dir / "intro.tex"
+            bib_path = project_dir / "refs.bib"
+            main_tex.write_text(
+                "\\documentclass{article}\n"
+                "\\begin{document}\n"
+                "\\input{sections/intro}\n"
+                "\\addbibresource{refs.bib}\n"
+                "\\end{document}\n",
+                encoding="utf-8",
+            )
+            intro_tex.write_text("Intro text from included file.\n", encoding="utf-8")
+            bib_path.write_text(
+                "@article{smith2020,\n"
+                "  author = {Smith, J.},\n"
+                "  title = {Paper A},\n"
+                "  journal = {Journal A},\n"
+                "  year = {2020}\n"
+                "}\n",
+                encoding="utf-8",
+            )
+            out_md = Path(td) / ".literature_digest_tmp" / "source.md"
+            out_meta = Path(td) / ".literature_digest_tmp" / "source_meta.json"
+
+            result = self.run_normalize(project_dir, out_md, out_meta)
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            meta = json.loads(out_meta.read_text(encoding="utf-8"))
+            normalized = out_md.read_text(encoding="utf-8")
+
+            self.assertEqual(meta["source_type"], "latex_project")
+            self.assertEqual(meta["conversion_backend"], "fenced_raw_latex")
+            self.assertEqual(Path(meta["main_tex_path"]), main_tex.resolve())
+            self.assertIn(str(intro_tex.resolve()), meta["included_tex_files"])
+            self.assertIn(str(bib_path.resolve()), meta["bib_files"])
+            self.assertIn("```tex", normalized)
+            self.assertIn("% >>> BEGIN INCLUDED FILE: sections/intro.tex", normalized)
+            self.assertIn("Intro text from included file.", normalized)
+            self.assertIn("```bibtex", normalized)
+            self.assertIn("@article{smith2020", normalized)
+
 
 if __name__ == "__main__":
     unittest.main()

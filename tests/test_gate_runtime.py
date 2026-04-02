@@ -104,6 +104,47 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertIn("references/sql_playbook.md", instruction_paths)
             self.assertTrue(any("workflow_state" in item["sql"] for item in payload["sql_examples"]))
 
+    def test_bootstrap_advances_to_persist_render_templates(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                for key, value in {
+                    "working_dir": str(td_path),
+                    "tmp_dir": str(td_path / ".literature_digest_tmp"),
+                    "db_path": str(db_path),
+                    "result_json_path": str(td_path / "literature-digest.result.json"),
+                    "output_dir": str(td_path),
+                    "source_path": str(td_path / "paper.md"),
+                    "language": "fr-FR",
+                    "generated_at": "2026-04-02T00:00:00Z",
+                    "input_hash": "sha256:test",
+                }.items():
+                    runtime_db.set_runtime_input(connection, key, value)
+                runtime_db.store_action_receipt(connection, action_name="confirm_runtime_paths", stage="stage_0_bootstrap")
+                runtime_db.store_action_receipt(connection, action_name="bootstrap_runtime_db", stage="stage_0_bootstrap")
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_1_normalize_source",
+                    current_substep="persist_render_templates",
+                    stage_gate="ready",
+                    next_action="persist_render_templates",
+                    status_summary="runtime database bootstrapped",
+                )
+                connection.commit()
+
+            payload = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
+            self.assertEqual(payload["next_action"], "persist_render_templates")
+            self.assertEqual(payload["sql_examples"], [])
+            self.assertIsNotNone(payload["command_example"])
+            self.assertIn("persist_render_templates", payload["command_example"]["command"])
+            self.assertIn("--payload-file", payload["command_example"]["command"])
+            self.assertEqual(payload["command_example"]["payload_example"]["target_language"], "fr-FR")
+            self.assertIn("runtime render templates", payload["execution_note"])
+            self.assertIn("translate the repository source templates first", payload["command_example"]["notes"])
+
     def test_stage_6_gate_note_requests_direct_render_stdout_reuse(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:
@@ -129,6 +170,13 @@ class GateRuntimeTests(unittest.TestCase):
                     },
                 )
                 runtime_db.store_digest_section_summaries(connection, [{"source_heading": "Intro", "items": ["x"]}])
+                digest_template_path = Path(td) / ".literature_digest_tmp" / "templates" / "digest.runtime.md.j2"
+                citation_template_path = Path(td) / ".literature_digest_tmp" / "templates" / "citation_analysis.runtime.md.j2"
+                digest_template_path.parent.mkdir(parents=True, exist_ok=True)
+                digest_template_path.write_text("## TL;DR\n", encoding="utf-8")
+                citation_template_path.write_text("## Summary\n{{ summary }}\n", encoding="utf-8")
+                runtime_db.set_runtime_input(connection, "digest_template_path", str(digest_template_path))
+                runtime_db.set_runtime_input(connection, "citation_analysis_template_path", str(citation_template_path))
                 runtime_db.store_reference_items(
                     connection,
                     [{"ref_index": 0, "author": ["Smith"], "title": "Paper", "year": 2020, "raw": "raw", "confidence": 0.9, "metadata": {}}],
@@ -159,6 +207,7 @@ class GateRuntimeTests(unittest.TestCase):
                     basis={"research_threads": ["a", "b"], "argument_shape": ["x", "y"], "key_ref_indexes": [0]},
                 )
                 for action_name in (
+                    "persist_render_templates",
                     "prepare_citation_workset",
                     "persist_citation_semantics",
                     "persist_citation_timeline",

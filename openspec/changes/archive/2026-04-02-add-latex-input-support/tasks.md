@@ -1,0 +1,5 @@
+- [x] Extend input detection and normalization for `.tex` files and LaTeX project directories.
+- [x] Append `.bib` sources into fenced `source.md` output and persist LaTeX metadata.
+- [x] Add `\bibitem` and `bibtex` deterministic splitting in stage 4.
+- [x] Add LaTeX citation-command mention extraction and citekey mapping in stage 5.
+- [x] Update docs, schema, runner, and tests.

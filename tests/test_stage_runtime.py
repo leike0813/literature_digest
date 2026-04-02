@@ -52,6 +52,47 @@ class StageRuntimeTests(unittest.TestCase):
         result = self.run_cmd(args, cwd=working_dir)
         return result, db_path
 
+    def _runtime_template_payload(
+        self,
+        *,
+        language: str = "zh-CN",
+        digest_template: str | None = None,
+        citation_analysis_template: str | None = None,
+    ) -> dict:
+        normalized_language = language.lower()
+        digest_template_path = (
+            REPO_ROOT / "literature-digest" / "assets" / "templates" / ("digest.en-US.md.j2" if normalized_language.startswith("en") else "digest.zh-CN.md.j2")
+        )
+        citation_template_path = (
+            REPO_ROOT / "literature-digest" / "assets" / "templates" / ("citation_analysis.en-US.md.j2" if normalized_language.startswith("en") else "citation_analysis.zh-CN.md.j2")
+        )
+        return {
+            "target_language": language,
+            "digest_template": digest_template if digest_template is not None else digest_template_path.read_text(encoding="utf-8"),
+            "citation_analysis_template": (
+                citation_analysis_template if citation_analysis_template is not None else citation_template_path.read_text(encoding="utf-8")
+            ),
+        }
+
+    def _persist_render_templates(
+        self,
+        db_path: Path,
+        *,
+        language: str = "zh-CN",
+        digest_template: str | None = None,
+        citation_analysis_template: str | None = None,
+        cwd: Path | None = None,
+    ) -> subprocess.CompletedProcess:
+        return self.run_cmd(
+            ["persist_render_templates", "--db-path", str(db_path)],
+            input_obj=self._runtime_template_payload(
+                language=language,
+                digest_template=digest_template,
+                citation_analysis_template=citation_analysis_template,
+            ),
+            cwd=cwd,
+        )
+
     def _outline_payload(self, lines: list[str], *, citation_title: str = "Introduction", citation_line_end: int | None = None) -> dict:
         outline_nodes: list[dict] = []
         references_line = None
@@ -242,6 +283,9 @@ class StageRuntimeTests(unittest.TestCase):
                 ]
             )
             self.assertEqual(bootstrap.returncode, 0, bootstrap.stderr.decode("utf-8", errors="replace"))
+            self.assertEqual(self.run_gate(db_path)["next_action"], "persist_render_templates")
+            persist_templates = self._persist_render_templates(db_path, language="zh-CN")
+            self.assertEqual(persist_templates.returncode, 0, persist_templates.stderr.decode("utf-8", errors="replace"))
             self.assertEqual(self.run_gate(db_path)["next_action"], "normalize_source")
 
             normalize = self.run_cmd(["normalize_source", "--db-path", str(db_path)])
@@ -442,6 +486,15 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self.assertEqual(
+                self._persist_render_templates(
+                    db_path,
+                    language="zh-CN",
+                    digest_template="## 自定义摘要模板\n{% for paragraph in digest_slots.tldr.paragraphs %}\n{{ paragraph }}\n{% endfor %}\n",
+                    citation_analysis_template="## 自定义引文模板\n\n### 总结\n{{ summary }}\n",
+                ).returncode,
+                0,
+            )
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
             outline_payload = {
                 "outline_nodes": [
@@ -484,6 +537,8 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertTrue((out_dir / "references.json").exists())
             self.assertTrue((out_dir / "citation_analysis.json").exists())
             self.assertTrue((out_dir / "citation_analysis.md").exists())
+            self.assertIn("## 自定义摘要模板", (out_dir / "digest.md").read_text(encoding="utf-8"))
+            self.assertIn("## 自定义引文模板", (out_dir / "citation_analysis.md").read_text(encoding="utf-8"))
             self.assertEqual(json.loads((td_path / "literature-digest.result.json").read_text(encoding="utf-8")), payload)
 
             invalid = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render", "--source-path", str(source_path)], cwd=td_path)
@@ -517,6 +572,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self.assertEqual(self._persist_render_templates(db_path, language="zh-CN", cwd=td_path).returncode, 0)
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)], cwd=td_path).returncode, 0)
             lines = source_path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2), cwd=td_path).returncode, 0)
@@ -564,6 +620,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self.assertEqual(self._persist_render_templates(db_path, language="zh-CN").returncode, 0)
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
             invalid = self.run_cmd(
                 ["persist_outline_and_scopes", "--db-path", str(db_path)],
@@ -603,6 +660,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self.assertEqual(self._persist_render_templates(db_path).returncode, 0)
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
             lines = source_path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=5)).returncode, 0)
@@ -671,6 +729,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self.assertEqual(self._persist_render_templates(db_path).returncode, 0)
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
             self.assertEqual(
                 self.run_cmd(
@@ -799,6 +858,7 @@ class StageRuntimeTests(unittest.TestCase):
                     ).returncode,
                     0,
                 )
+                self.assertEqual(self._persist_render_templates(db_path, language="zh-CN").returncode, 0)
                 self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
                 lines = source_path.read_text(encoding="utf-8").splitlines()
                 citation_end = next(i for i, line in enumerate(lines, start=1) if line.startswith("# References")) - 1
@@ -855,6 +915,7 @@ class StageRuntimeTests(unittest.TestCase):
             source_path.write_text("# 1 Introduction\nPrior work [1].\n# 2 References\n[1] Smith. Paper A. 2020.\n", encoding="utf-8")
 
             self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN"]).returncode, 0)
+            self.assertEqual(self._persist_render_templates(db_path, language="zh-CN").returncode, 0)
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
             lines = source_path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
@@ -1452,6 +1513,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self.assertEqual(self._persist_render_templates(db_path, language="zh-CN").returncode, 0)
             self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
             lines = source_path.read_text(encoding="utf-8").splitlines()
             self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
@@ -1485,6 +1547,179 @@ class StageRuntimeTests(unittest.TestCase):
             payload = json.loads(render.stdout.decode("utf-8"))
             self.assertEqual(payload["error"]["code"], "citation_report_failed")
             self.assertIn("missing action receipts before render", payload["error"]["message"])
+
+    def test_prepare_references_and_citation_workset_support_latex_bibitem(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_lines = [
+                "# 1 Introduction",
+                "As shown in \\cite{smith2020,doe2019}, the method follows earlier work.",
+                "# 2 References",
+                "```tex",
+                "\\begin{thebibliography}{9}",
+                "\\bibitem{smith2020} Smith, J. Paper A. Journal A. 2020.",
+                "\\bibitem{doe2019} Doe, J. Paper B. Journal B. 2019.",
+                "\\end{thebibliography}",
+                "```",
+            ]
+            source_path.write_text("\n".join(source_lines) + "\n", encoding="utf-8")
+
+            self.assertEqual(
+                self.run_cmd(
+                    [
+                        "bootstrap_runtime_db",
+                        "--db-path",
+                        str(db_path),
+                        "--source-path",
+                        str(source_path),
+                        "--language",
+                        "zh-CN",
+                    ]
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_outline_and_scopes", "--db-path", str(db_path)],
+                    input_obj=self._outline_payload(source_lines, citation_line_end=2),
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            refs_workset = self._prepare_references_workset(db_path)
+            workset = json.loads(Path(refs_workset["workset_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(workset["meta"]["entry_count"], 2)
+            self.assertEqual(workset["entries"][0]["patterns"][0]["metadata"]["bibitem_key"], "smith2020")
+            self.assertEqual(workset["entries"][1]["patterns"][0]["metadata"]["bibitem_key"], "doe2019")
+
+            persist_payload = {
+                "items": [
+                    {
+                        "entry_index": 0,
+                        "selected_pattern": workset["entries"][0]["patterns"][0]["pattern"],
+                        "author": ["Smith, J."],
+                        "title": "Paper A",
+                        "year": 2020,
+                        "raw": workset["entries"][0]["raw"],
+                        "confidence": 0.95,
+                    },
+                    {
+                        "entry_index": 1,
+                        "selected_pattern": workset["entries"][1]["patterns"][0]["pattern"],
+                        "author": ["Doe, J."],
+                        "title": "Paper B",
+                        "year": 2019,
+                        "raw": workset["entries"][1]["raw"],
+                        "confidence": 0.95,
+                    },
+                ]
+            }
+            self.assertEqual(self.run_cmd(["persist_references", "--db-path", str(db_path)], input_obj=persist_payload).returncode, 0)
+
+            mentions = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
+            self.assertEqual(mentions.returncode, 0, mentions.stderr.decode("utf-8", errors="replace"))
+            mentions_payload = json.loads(mentions.stdout.decode("utf-8"))
+            self.assertEqual(mentions_payload["resolved_items"], 2)
+            self.assertEqual(mentions_payload["unresolved_mentions"], 0)
+            citation_workset = json.loads(Path(mentions_payload["workset_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(citation_workset["stats"]["total_mentions"], 2)
+            self.assertTrue(all(link["resolution_method"] == "citekey_hint" for link in citation_workset["mention_links"]))
+
+    def test_prepare_references_and_citation_workset_support_bibtex_entries(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_lines = [
+                "# 1 Introduction",
+                "This follows \\cite{smith2020,doe2019} in practice.",
+                "# 2 References",
+                "```bibtex",
+                "@article{smith2020,",
+                "  author = {Smith, J.},",
+                "  title = {Paper A},",
+                "  journal = {Journal A},",
+                "  year = {2020}",
+                "}",
+                "",
+                "@inproceedings{doe2019,",
+                "  author = {Doe, J.},",
+                "  title = {Paper B},",
+                "  booktitle = {Conference B},",
+                "  year = {2019}",
+                "}",
+                "```",
+            ]
+            source_path.write_text("\n".join(source_lines) + "\n", encoding="utf-8")
+
+            self.assertEqual(
+                self.run_cmd(
+                    [
+                        "bootstrap_runtime_db",
+                        "--db-path",
+                        str(db_path),
+                        "--source-path",
+                        str(source_path),
+                        "--language",
+                        "zh-CN",
+                    ]
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            self.assertEqual(
+                self.run_cmd(
+                    ["persist_outline_and_scopes", "--db-path", str(db_path)],
+                    input_obj=self._outline_payload(source_lines, citation_line_end=2),
+                ).returncode,
+                0,
+            )
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            refs_workset = self._prepare_references_workset(db_path)
+            workset = json.loads(Path(refs_workset["workset_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(workset["meta"]["entry_count"], 2)
+            self.assertEqual(workset["entries"][0]["patterns"][0]["pattern"], "bibtex_entry_fields")
+            self.assertEqual(workset["entries"][0]["patterns"][0]["metadata"]["citekey"], "smith2020")
+            self.assertEqual(workset["entries"][1]["patterns"][0]["metadata"]["citekey"], "doe2019")
+            self.assertEqual(workset["entries"][0]["patterns"][0]["title_candidate"], "Paper A")
+            self.assertEqual(workset["entries"][1]["patterns"][0]["container_candidate"], "Conference B")
+
+            persist_payload = {
+                "items": [
+                    {
+                        "entry_index": 0,
+                        "selected_pattern": workset["entries"][0]["patterns"][0]["pattern"],
+                        "author": ["Smith, J."],
+                        "title": "Paper A",
+                        "year": 2020,
+                        "raw": workset["entries"][0]["raw"],
+                        "confidence": 0.97,
+                    },
+                    {
+                        "entry_index": 1,
+                        "selected_pattern": workset["entries"][1]["patterns"][0]["pattern"],
+                        "author": ["Doe, J."],
+                        "title": "Paper B",
+                        "year": 2019,
+                        "raw": workset["entries"][1]["raw"],
+                        "confidence": 0.97,
+                    },
+                ]
+            }
+            self.assertEqual(self.run_cmd(["persist_references", "--db-path", str(db_path)], input_obj=persist_payload).returncode, 0)
+
+            mentions = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
+            self.assertEqual(mentions.returncode, 0, mentions.stderr.decode("utf-8", errors="replace"))
+            citation_workset = json.loads(Path(json.loads(mentions.stdout.decode("utf-8"))["workset_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(citation_workset["stats"]["total_mentions"], 2)
+            self.assertEqual(citation_workset["stats"]["resolved_items"], 2)
+            self.assertEqual(citation_workset["stats"]["unresolved_mentions"], 0)
+            self.assertTrue(all(link["resolution_method"] == "citekey_hint" for link in citation_workset["mention_links"]))
 
 
 if __name__ == "__main__":

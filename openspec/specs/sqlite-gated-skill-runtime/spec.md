@@ -94,3 +94,41 @@ The final render result mirror file MUST use the DB-backed result JSON path.
 - **THEN** it writes the same JSON object to `runtime_inputs.result_json_path`
 - **AND** that mirror path is resolved from SQLite for new runs.
 
+### Requirement: Gate SHALL Route Bootstrap To Runtime Template Persistence
+
+The SQLite-gated runtime SHALL expose `persist_render_templates` as the required action immediately after bootstrap succeeds.
+
+#### Scenario: Bootstrap receipt exists
+
+- **WHEN** `bootstrap_runtime_db` has completed successfully
+- **THEN** gate returns `next_action = persist_render_templates`
+- **AND** `normalize_source` remains blocked until runtime template paths and receipts exist
+
+### Requirement: Gate And Render SHALL Require Runtime Template Receipts
+
+The runtime SHALL treat persisted runtime templates as a first-class prerequisite for new render workflows.
+
+#### Scenario: Missing template receipt before render
+
+- **WHEN** stage 6 is reached without a `persist_render_templates` receipt in a new workflow
+- **THEN** gate does not allow `render_and_validate`
+- **AND** render fails with a schema-compatible error payload if invoked anyway
+
+### Requirement: LaTeX Runtime Metadata
+
+The runtime SHALL persist LaTeX normalization metadata for later stages and auditing.
+
+#### Scenario: LaTeX normalization succeeds
+
+- **WHEN** `normalize_source` processes a `.tex` file or LaTeX project directory
+- **THEN** `source_documents.normalized_source.metadata_json` includes `source_type`, `detection_method`, `conversion_backend`, and any resolved `main_tex_path` / `included_tex_files` / `bib_files`
+
+### Requirement: Citekey-Aware Citation Workset
+
+The citation workset SHALL allow mentions to carry citekey hints and references to expose citekey aliases through metadata without changing public output schema.
+
+#### Scenario: Reference item has citekey metadata
+
+- **WHEN** a reference item originates from `\bibitem` or `.bib`
+- **THEN** its metadata retains the citekey or bibitem key for citekey-first mention mapping
+

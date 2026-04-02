@@ -1,0 +1,5 @@
+- [x] Add `persist_render_templates` to the main path between bootstrap and normalize.
+- [x] Persist runtime digest/citation Markdown templates under `<tmp_dir>/templates/` and record their DB paths.
+- [x] Update render to consume DB-backed runtime templates for digest and citation Markdown output.
+- [x] Split citation Markdown source templates into single-language repository templates.
+- [x] Update guidance, runner text, and tests for prompt-language inference and runtime templates.

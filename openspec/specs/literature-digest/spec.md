@@ -339,3 +339,79 @@ The final stdout payload SHALL emit absolute artifact paths.
 - **WHEN** `render_and_validate --mode render` completes successfully
 - **THEN** `digest_path`, `references_path`, `citation_analysis_path`, and `citation_analysis_report_path` (when present) are absolute paths.
 
+### Requirement: Runtime Markdown Templates SHALL Be Persisted Before Normalization
+
+The skill SHALL persist run-specific digest and citation Markdown templates into the runtime tmp directory before source normalization proceeds.
+
+#### Scenario: Bootstrap advances to runtime template persistence
+
+- **WHEN** `bootstrap_runtime_db` succeeds
+- **THEN** the next main-path action is `persist_render_templates`
+- **AND** normalization does not proceed until runtime template paths are persisted
+
+### Requirement: Render SHALL Use DB-Backed Runtime Templates
+
+The final render step SHALL load digest and citation Markdown templates only from the runtime template paths persisted in SQLite for new runs.
+
+#### Scenario: Runtime templates are present
+
+- **WHEN** `render_and_validate --mode render` runs for a new workflow that completed `persist_render_templates`
+- **THEN** digest Markdown is rendered from `runtime_inputs.digest_template_path`
+- **AND** citation Markdown report is rendered from `runtime_inputs.citation_analysis_template_path`
+
+### Requirement: Language Choice SHALL Prefer Prompt Inference Over Immediate zh-CN Default
+
+The skill guidance SHALL state that missing explicit language input is resolved by prompt-language inference before any compatibility fallback to `zh-CN`.
+
+#### Scenario: Prompt does not include explicit target language
+
+- **WHEN** the agent starts a new run without an explicit language override
+- **THEN** guidance instructs it to infer the target language from the prompt first
+- **AND** only fall back to `zh-CN` if that inference is unstable
+
+### Requirement: LaTeX Input Normalization
+
+The skill SHALL accept a single `.tex` file or a LaTeX project directory as `source_path`.
+
+#### Scenario: Single tex file
+
+- **WHEN** `source_path` points to a readable `.tex` file
+- **THEN** `normalize_source` produces fenced `tex` content in `source_documents.normalized_source`
+
+#### Scenario: LaTeX project directory
+
+- **WHEN** `source_path` points to a directory containing LaTeX sources
+- **THEN** the runtime detects a main tex entry file, expands `\input` / `\include`, and stores fenced `tex` content in `source_documents.normalized_source`
+
+### Requirement: Raw Bib Source Preservation
+
+When bibliography sources are available as `.bib` files, the runtime SHALL append them to normalized source as fenced `bibtex` blocks.
+
+#### Scenario: Linked bib files exist
+
+- **WHEN** LaTeX input references `.bib` files through bibliography commands
+- **THEN** each resolved `.bib` file is appended to normalized source with an explanatory note and a `bibtex` code fence
+
+### Requirement: Deterministic LaTeX Reference Splitting
+
+Stage 4 SHALL deterministically split `\bibitem` and `bibtex` bibliography sources before LLM refinement.
+
+#### Scenario: Bibitem bibliography
+
+- **WHEN** the references scope contains `\bibitem{...}`
+- **THEN** `prepare_references_workset` splits entries on `\bibitem` boundaries
+
+#### Scenario: Bibtex bibliography
+
+- **WHEN** the references scope contains fenced bibtex entries
+- **THEN** `prepare_references_workset` splits entries on top-level `@type{key,` boundaries and emits deterministic candidates from bib fields
+
+### Requirement: LaTeX Citation Mapping
+
+Stage 5 SHALL support LaTeX citation commands and prefer citekey mapping.
+
+#### Scenario: Cite commands with keys
+
+- **WHEN** normalized source contains `\cite{a,b}`-style markers
+- **THEN** `prepare_citation_workset` extracts one mention per citekey and maps them to `reference_items` using citekey metadata when available
+
