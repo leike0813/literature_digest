@@ -1,0 +1,6 @@
+- [x] P0: Add runtime error/warning lifecycle columns, compatibility migration, active-only final payload reads, and stale error resolution.
+- [x] P0: Add `stage_runtime.py repair_db_state` and route `gate_runtime.py` repair output to the formal command.
+- [x] P1: Harden reference split heuristics for venue fragments, initials, inline numeric references, author boundaries, and split-review false positives.
+- [x] P1: Update citation function guidance and timeline validation tests without changing the public schema.
+- [x] P2: Auto-persist built-in runtime templates for `zh-*` / `en-*`, aggregate final warnings, and reinforce UTF-8 / payload-file documentation.
+- [x] Verification: Add regression tests for recovered errors, repair command routing, warning aggregation, reference splitting, force-keep review, author boundaries, built-in template auto-persist, citation function guidance, and UTF-8 payload handling.

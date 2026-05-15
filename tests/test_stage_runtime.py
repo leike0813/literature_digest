@@ -449,6 +449,54 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertIsNotNone(row)
             self.assertEqual(Path(str(row[0])), td_path.resolve())
 
+    def test_persist_render_templates_uses_builtin_templates_without_payload_for_zh_en(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            source_path.write_text("# Introduction\nBody.\n# References\n", encoding="utf-8")
+            confirm, db_path = self.confirm_runtime_paths(working_dir=td_path)
+            self.assertEqual(confirm.returncode, 0, confirm.stderr.decode("utf-8", errors="replace"))
+            self.assertEqual(
+                self.run_cmd(
+                    [
+                        "bootstrap_runtime_db",
+                        "--db-path",
+                        str(db_path),
+                        "--source-path",
+                        str(source_path),
+                        "--language",
+                        "zh-CN",
+                    ]
+                ).returncode,
+                0,
+            )
+            result = self.run_cmd(["persist_render_templates", "--db-path", str(db_path)], cwd=td_path)
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertTrue(Path(payload["digest_template_path"]).exists())
+            self.assertTrue(Path(payload["citation_analysis_template_path"]).exists())
+
+    def test_repair_db_state_fills_missing_input_hash(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            source_path.write_text("# Introduction\nBody.\n", encoding="utf-8")
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_runtime_input(connection, "source_path", str(source_path))
+                runtime_db.store_action_receipt(connection, action_name="confirm_runtime_paths", stage="stage_0_bootstrap", status="succeeded")
+                runtime_db.set_runtime_error(connection, "normalize_source_failed", "temporary failure", "stage_1_normalize_source")
+                connection.commit()
+
+            result = self.run_cmd(["repair_db_state", "--db-path", str(db_path)], cwd=td_path)
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            with runtime_db.connect_db(db_path) as connection:
+                inputs = runtime_db.fetch_runtime_inputs(connection)
+                self.assertTrue(inputs["input_hash"].startswith("sha256:"))
+                self.assertIsNone(runtime_db.fetch_latest_error(connection))
+
     def test_render_mode_uses_db_output_dir_and_writes_result_json(self):
         with tempfile.TemporaryDirectory() as td:
             td_path = Path(td)
@@ -1092,6 +1140,40 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertIn("Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. Focal loss for dense object detection. In ICCV, 2017b.", raws)
             self.assertNotIn("This appendix should not be treated as a reference entry.", " ".join(raws))
 
+    def test_prepare_references_workset_keeps_proceedings_and_splits_inline_numeric_entries(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# Introduction",
+                        "Prior work [42, 43].",
+                        "# References",
+                        "[42] Chien-Yao Wang, Alexey Bochkovskiy, and HongYuan Mark Liao. Yolov7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 7464-7475, 2023. [43] Nikita Kitaev, Łukasz Kaiser. Reformer: The efficient transformer. In Proceedings of ICLR, 2020.",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            payload = self._prepare_references_workset(db_path)
+            self.assertEqual(payload["stored_reference_entries"], 2)
+            self.assertFalse(payload["requires_split_review"])
+            workset = json.loads(Path(payload["workset_path"]).read_text(encoding="utf-8"))
+            raws = [entry["raw"] for entry in workset["entries"]]
+            self.assertTrue(raws[0].startswith("[42]"))
+            self.assertTrue(raws[1].startswith("[43]"))
+            self.assertIn("In Proceedings of the IEEE/CVF", raws[0])
+            second_patterns = workset["entries"][1]["patterns"]
+            self.assertTrue(any(pattern["author_candidates"] == ["Nikita Kitaev", "Łukasz Kaiser"] for pattern in second_patterns))
+
     def test_prepare_references_workset_routes_grouped_single_line_entries_to_split_review(self):
         with tempfile.TemporaryDirectory() as td:
             td_path = Path(td)
@@ -1148,6 +1230,51 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertFalse(reviewed_payload["requires_split_review"])
             self.assertEqual(reviewed_payload["stored_reference_entries"], 2)
             self.assertEqual(self.run_gate(db_path)["next_action"], "persist_references")
+
+    def test_reference_split_review_force_keep_accepts_current_generation(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# Introduction",
+                        "Prior work (Smith, 2020; Jones, 2021).",
+                        "# References",
+                        "Smith, J. Paper A. 2020 Jones, M. Paper B. 2021.",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN"]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            payload = self._prepare_references_workset(db_path)
+            self.assertTrue(payload["requires_split_review"])
+            self.assertTrue(payload["review_generation_id"])
+            suspect = payload["suspect_blocks"][0]
+            reviewed = self.run_cmd(
+                ["persist_reference_entry_splits", "--db-path", str(db_path)],
+                input_obj={
+                    "review_generation_id": payload["review_generation_id"],
+                    "blocks": [
+                        {
+                            "block_index": suspect["block_index"],
+                            "resolution": "force_keep",
+                            "entries": [suspect["source_text"]],
+                        }
+                    ],
+                },
+            )
+            self.assertEqual(reviewed.returncode, 0, reviewed.stderr.decode("utf-8", errors="replace"))
+            reviewed_payload = json.loads(reviewed.stdout.decode("utf-8"))
+            self.assertFalse(reviewed_payload["requires_split_review"])
+            self.assertEqual(reviewed_payload["stored_reference_entries"], 1)
 
     def test_prepare_references_workset_routes_multiline_entries_to_split_review_and_merge(self):
         fixture_path = REPO_ROOT / "tests" / "fixtures" / "literature_digest_small" / "author_year_multiline.md"
@@ -1232,6 +1359,22 @@ class StageRuntimeTests(unittest.TestCase):
                 ),
             )
             self.assertEqual(bad_title.returncode, 2)
+
+            good = self.run_cmd(
+                ["persist_references", "--db-path", str(db_path)],
+                input_obj=self._reference_refine_payload(
+                    entry_index=0,
+                    selected_pattern=self._first_selected_pattern(workset_payload),
+                    raw="[1] Smith. Paper A. 2020.",
+                    title="Paper A",
+                    year=2020,
+                    author=["Smith"],
+                ),
+            )
+            self.assertEqual(good.returncode, 0, good.stderr.decode("utf-8", errors="replace"))
+            runtime_db = load_runtime_db_module()
+            with runtime_db.connect_db(db_path) as connection:
+                self.assertIsNone(runtime_db.fetch_latest_error(connection))
 
     def test_persist_references_rejects_author_oversplit_against_prepared_candidate(self):
         with tempfile.TemporaryDirectory() as td:

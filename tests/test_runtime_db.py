@@ -29,6 +29,31 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertEqual(state["current_substep"], "confirm_runtime_paths")
                 self.assertEqual(state["next_action"], "confirm_runtime_paths")
 
+    def test_runtime_diagnostics_are_active_only_and_aggregated(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.add_runtime_warning(connection, "reference_pattern_ambiguous: entry_index=1")
+                runtime_db.add_runtime_warning(connection, "reference_pattern_ambiguous: entry_index=2")
+                runtime_db.add_runtime_warning(connection, "digest_undercoverage")
+                runtime_db.set_runtime_error(connection, "references_stage_failed", "old failure", "stage_4_references")
+                connection.commit()
+
+                payload = runtime_db.build_public_output_payload(connection)
+                self.assertIn("reference_pattern_ambiguous: 2 entries", payload["warnings"])
+                self.assertIn("digest_undercoverage", payload["warnings"])
+                self.assertEqual(payload["error"]["code"], "references_stage_failed")
+
+                runtime_db.resolve_runtime_errors(connection, stage="stage_4_references")
+                runtime_db.resolve_runtime_warnings(connection, warning_prefix="reference_pattern_ambiguous")
+                connection.commit()
+                payload = runtime_db.build_public_output_payload(connection)
+                self.assertIsNone(payload["error"])
+                self.assertNotIn("reference_pattern_ambiguous: 2 entries", payload["warnings"])
+                self.assertIn("digest_undercoverage", payload["warnings"])
+
     def test_store_and_fetch_final_payload_data(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:

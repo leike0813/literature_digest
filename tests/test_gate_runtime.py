@@ -97,7 +97,8 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertEqual(payload["next_action"], "repair_db_state")
             self.assertTrue(payload["core_instruction"])
             self.assertTrue(payload["execution_note"])
-            self.assertIsNone(payload["command_example"])
+            self.assertIsNotNone(payload["command_example"])
+            self.assertIn("repair_db_state", payload["command_example"]["command"])
             instruction_paths = [item["path"] for item in payload["instruction_refs"]]
             self.assertEqual(instruction_paths[0], "references/step_02_outline_and_scopes.md")
             self.assertIn("references/failure_recovery.md", instruction_paths)
