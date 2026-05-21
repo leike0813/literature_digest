@@ -1,0 +1,7 @@
+- [x] Add OpenSpec delta spec, design, and task artifacts for representative image selection.
+- [x] Add SQLite persistence helpers for optional `representative_image`.
+- [x] Extend digest payload validation and persistence for selected/none representative-image decisions.
+- [x] Add optional final JSON schema and public output validation support.
+- [x] Update main-skill guidance and stage-3/render docs.
+- [x] Add focused tests for Markdown selected, none, PDF caption metadata, and old-path compatibility.
+- [x] Run the minimum relevant pytest suite.

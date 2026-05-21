@@ -260,6 +260,7 @@ class StageRuntimeTests(unittest.TestCase):
                 "\n".join(
                     [
                         "# 1 Introduction",
+                        "![Overview](figures/overview.png)",
                         "Prior work [1].",
                         "# 2 References",
                         "[1] Smith. Paper A. 2020.",
@@ -294,14 +295,14 @@ class StageRuntimeTests(unittest.TestCase):
 
             outline_payload = {
                 "outline_nodes": [
-                    {"node_id": "n1", "heading_level": 1, "title": "Introduction", "line_start": 1, "line_end": 2, "parent_node_id": None, "metadata": {}},
-                    {"node_id": "n2", "heading_level": 1, "title": "References", "line_start": 3, "line_end": 4, "parent_node_id": None, "metadata": {}},
+                    {"node_id": "n1", "heading_level": 1, "title": "Introduction", "line_start": 1, "line_end": 3, "parent_node_id": None, "metadata": {}},
+                    {"node_id": "n2", "heading_level": 1, "title": "References", "line_start": 4, "line_end": 5, "parent_node_id": None, "metadata": {}},
                 ],
-                "references_scope": {"section_title": "References", "line_start": 3, "line_end": 4, "metadata": {}},
+                "references_scope": {"section_title": "References", "line_start": 4, "line_end": 5, "metadata": {}},
                 "citation_scope": {
                     "section_title": "Introduction",
                     "line_start": 1,
-                    "line_end": 2,
+                    "line_end": 3,
                     "metadata": {"selection_reason": "review signals concentrated in the introduction"},
                 },
             }
@@ -326,6 +327,16 @@ class StageRuntimeTests(unittest.TestCase):
                         {"source_heading": "Introduction", "items": ["Intro summary"]},
                         {"source_heading": "References", "items": ["Reference appendix summary"]},
                     ],
+                    "representative_image": {
+                        "status": "selected",
+                        "source_kind": "markdown_image_ref",
+                        "label": "Figure 1",
+                        "caption_quote": "Overview",
+                        "section_hint": "Introduction",
+                        "markdown_src_hint": "figures/overview.png",
+                        "selection_reason": "The overview figure is the clearest visual summary of the method.",
+                        "confidence": "medium",
+                    },
                 },
             )
             self.assertEqual(digest.returncode, 0, digest.stderr.decode("utf-8", errors="replace"))
@@ -407,9 +418,86 @@ class StageRuntimeTests(unittest.TestCase):
             )
             self.assertIn("timeline", citation_json)
             self.assertIn("关键文献", citation_text)
+            self.assertEqual(payload["representative_image"]["status"], "selected")
+            self.assertEqual(payload["representative_image"]["markdown_src_hint"], "figures/overview.png")
             self.assertIn("stdout JSON", self.run_gate(db_path)["execution_note"])
             result_payload = json.loads((td_path / "literature-digest.result.json").read_text(encoding="utf-8"))
             self.assertEqual(result_payload, payload)
+
+    def test_persist_digest_accepts_representative_image_variants(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+
+            selected_payload = self._digest_payload()
+            selected_payload["representative_image"] = {
+                "status": "selected",
+                "source_kind": "markdown_image_ref",
+                "label": "Figure 2",
+                "caption_quote": "Overview of the proposed pipeline",
+                "section_hint": "Methods",
+                "page_hint": 4,
+                "markdown_src_hint": "figures/overview.png",
+                "selection_reason": "The figure summarizes the method pipeline.",
+                "confidence": "medium",
+            }
+            selected = self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=selected_payload)
+            self.assertEqual(selected.returncode, 0, selected.stderr.decode("utf-8", errors="replace"))
+            with runtime_db.connect_db(db_path) as connection:
+                image = runtime_db.fetch_representative_image(connection)
+            self.assertIsNotNone(image)
+            assert image is not None
+            self.assertEqual(image["status"], "selected")
+            self.assertEqual(image["source_kind"], "markdown_image_ref")
+            self.assertEqual(image["markdown_src_hint"], "figures/overview.png")
+
+            none_payload = self._digest_payload()
+            none_payload["representative_image"] = {"status": "none", "label": "ignored"}
+            none_result = self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=none_payload)
+            self.assertEqual(none_result.returncode, 0, none_result.stderr.decode("utf-8", errors="replace"))
+            with runtime_db.connect_db(db_path) as connection:
+                image = runtime_db.fetch_representative_image(connection)
+            self.assertEqual(image, {"status": "none"})
+
+            pdf_payload = self._digest_payload()
+            pdf_payload["representative_image"] = {
+                "status": "selected",
+                "source_kind": "pdf_figure_caption",
+                "label": "Fig. 1",
+                "caption_quote": "System architecture.",
+                "section_hint": "Method",
+                "page_hint": 3,
+                "selection_reason": "The caption identifies the overall system architecture.",
+                "confidence": "low",
+            }
+            pdf_result = self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=pdf_payload)
+            self.assertEqual(pdf_result.returncode, 0, pdf_result.stderr.decode("utf-8", errors="replace"))
+            with runtime_db.connect_db(db_path) as connection:
+                image = runtime_db.fetch_representative_image(connection)
+            self.assertIsNotNone(image)
+            assert image is not None
+            self.assertEqual(image["source_kind"], "pdf_figure_caption")
+            self.assertEqual(image["page_hint"], 3)
+            self.assertNotIn("markdown_src_hint", image)
+
+    def test_persist_digest_rejects_markdown_image_without_src_hint(self):
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            load_runtime_db_module().initialize_database(db_path)
+            payload = self._digest_payload()
+            payload["representative_image"] = {
+                "status": "selected",
+                "source_kind": "markdown_image_ref",
+                "label": "Figure 1",
+                "caption_quote": "Overview.",
+                "selection_reason": "It is the overview figure.",
+                "confidence": "high",
+            }
+            result = self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=payload)
+            self.assertEqual(result.returncode, 2)
+            self.assertIn("markdown_src_hint", result.stdout.decode("utf-8"))
 
     def test_main_path_no_longer_accepts_late_override_arguments(self):
         with tempfile.TemporaryDirectory() as td:
