@@ -6,10 +6,13 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from jsonschema import ValidationError, validate
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 STAGE_RUNTIME = REPO_ROOT / "literature-digest" / "scripts" / "stage_runtime.py"
 RUNTIME_DB_PATH = REPO_ROOT / "literature-digest" / "scripts" / "runtime_db.py"
+OUTPUT_SCHEMA_PATH = REPO_ROOT / "literature-digest" / "assets" / "output.schema.json"
 
 
 def load_runtime_db_module():
@@ -44,6 +47,54 @@ class ValidateOutputTests(unittest.TestCase):
             stderr=subprocess.PIPE,
             check=False,
         )
+
+    def _public_payload(self, representative_image: dict | None = None) -> dict:
+        payload = {
+            "digest_path": "/tmp/digest.md",
+            "references_path": "/tmp/references.json",
+            "citation_analysis_path": "/tmp/citation_analysis.json",
+            "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
+            "warnings": [],
+            "error": None,
+        }
+        if representative_image is not None:
+            payload["representative_image"] = representative_image
+        return payload
+
+    def test_output_schema_matches_representative_image_source_kind_rules(self):
+        schema = json.loads(OUTPUT_SCHEMA_PATH.read_text(encoding="utf-8"))
+        base_selected = {
+            "status": "selected",
+            "label": "Figure 1",
+            "caption_quote": "Overview of the method.",
+            "selection_reason": "This figure summarizes the pipeline.",
+            "confidence": "medium",
+        }
+
+        validate(
+            self._public_payload(
+                {
+                    **base_selected,
+                    "source_kind": "markdown_image_ref",
+                    "markdown_src_hint": "figures/overview.png",
+                }
+            ),
+            schema,
+        )
+        with self.assertRaises(ValidationError):
+            validate(self._public_payload({**base_selected, "source_kind": "markdown_image_ref"}), schema)
+        with self.assertRaises(ValidationError):
+            validate(
+                self._public_payload(
+                    {
+                        **base_selected,
+                        "source_kind": "pdf_figure_caption",
+                        "markdown_src_hint": "figures/overview.png",
+                    }
+                ),
+                schema,
+            )
+        validate(self._public_payload({**base_selected, "source_kind": "pdf_figure_caption", "page_hint": 4}), schema)
 
     def test_fix_migrates_old_fields_and_fills_required(self):
         with tempfile.TemporaryDirectory() as td:
