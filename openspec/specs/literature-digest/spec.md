@@ -522,6 +522,8 @@ The final stdout JSON and mirrored `literature-digest.result.json` SHALL support
 
 Representative-image selection SHALL rely only on textual evidence available in normalized source content, captions, nearby paragraphs, section hints, labels, and page hints.
 
+When at least one candidate has a locatable textual image reference, figure label, caption, or LaTeX image path hint, the skill MUST evaluate those candidates instead of defaulting to `representative_image.status = "none"` merely because image pixels are unavailable.
+
 #### Scenario: Prefer method or architecture figure
 
 - **GIVEN** multiple figure candidates are visible in source text
@@ -534,3 +536,10 @@ Representative-image selection SHALL rely only on textual evidence available in 
 - **WHEN** no better textual evidence exists
 - **THEN** the skill returns `representative_image.status = "none"` rather than fabricating a representative image.
 
+#### Scenario: Low confidence still selects best textual candidate
+
+- **GIVEN** at least one candidate has a locatable figure label, caption, Markdown/HTML image reference, or LaTeX image path hint
+- **AND** the candidate is not clearly low-information
+- **WHEN** the evidence is sufficient to identify the candidate but not strong enough for high confidence
+- **THEN** the skill selects the best candidate with `confidence = "medium"` or `confidence = "low"`
+- **AND** does not return `representative_image.status = "none"` solely to avoid a low-confidence choice.
