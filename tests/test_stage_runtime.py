@@ -130,6 +130,17 @@ class StageRuntimeTests(unittest.TestCase):
                 "line_end": citation_end,
                 "metadata": {"selection_reason": "fixture scope", "covered_sections": [citation_title]},
             },
+            "literature_matching_metadata": self._matching_metadata_payload(),
+        }
+
+    def _matching_metadata_payload(self) -> dict:
+        return {
+            "schema": "literature_matching_metadata.v1",
+            "key_terms": ["paper summarization"],
+            "methods": ["structured digest"],
+            "problems": ["literature discovery"],
+            "datasets": [],
+            "exclude_terms": ["unrelated retrieval"],
         }
 
     def _digest_payload(self) -> dict:
@@ -305,6 +316,7 @@ class StageRuntimeTests(unittest.TestCase):
                     "line_end": 3,
                     "metadata": {"selection_reason": "review signals concentrated in the introduction"},
                 },
+                "literature_matching_metadata": self._matching_metadata_payload(),
             }
             outline = self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=outline_payload)
             self.assertEqual(outline.returncode, 0, outline.stderr.decode("utf-8", errors="replace"))
@@ -403,7 +415,11 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertTrue(Path(payload["digest_path"]).exists())
             self.assertTrue(Path(payload["references_path"]).exists())
             self.assertTrue(Path(payload["citation_analysis_path"]).exists())
+            self.assertTrue(Path(payload["literature_matching_metadata_path"]).exists())
             self.assertTrue(Path(payload["citation_analysis_report_path"]).exists())
+            matching_json = json.loads(Path(payload["literature_matching_metadata_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(matching_json["schema"], "literature_matching_metadata.v1")
+            self.assertEqual(matching_json["key_terms"], ["paper summarization"])
             digest_text = Path(payload["digest_path"]).read_text(encoding="utf-8")
             self.assertIn("## TL;DR", digest_text)
             self.assertIn("Contribution A", digest_text)
@@ -639,6 +655,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ],
                 "references_scope": {"section_title": "References", "line_start": 3, "line_end": 4, "metadata": {}},
                 "citation_scope": {"section_title": "Introduction", "line_start": 1, "line_end": 2, "metadata": {"selection_reason": "fixture"}},
+                "literature_matching_metadata": self._matching_metadata_payload(),
             }
             self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=outline_payload).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
@@ -668,10 +685,12 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertEqual(Path(payload["digest_path"]), out_dir / "digest.md")
             self.assertEqual(Path(payload["references_path"]), out_dir / "references.json")
             self.assertEqual(Path(payload["citation_analysis_path"]), out_dir / "citation_analysis.json")
+            self.assertEqual(Path(payload["literature_matching_metadata_path"]), out_dir / "literature_matching_metadata.json")
             self.assertEqual(Path(payload["citation_analysis_report_path"]), out_dir / "citation_analysis.md")
             self.assertTrue((out_dir / "digest.md").exists())
             self.assertTrue((out_dir / "references.json").exists())
             self.assertTrue((out_dir / "citation_analysis.json").exists())
+            self.assertTrue((out_dir / "literature_matching_metadata.json").exists())
             self.assertTrue((out_dir / "citation_analysis.md").exists())
             self.assertIn("## 自定义摘要模板", (out_dir / "digest.md").read_text(encoding="utf-8"))
             self.assertIn("## 自定义引文模板", (out_dir / "citation_analysis.md").read_text(encoding="utf-8"))
@@ -742,6 +761,7 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertEqual(Path(payload["digest_path"]), td_path / "digest.md")
             self.assertEqual(Path(payload["references_path"]), td_path / "references.json")
             self.assertEqual(Path(payload["citation_analysis_path"]), td_path / "citation_analysis.json")
+            self.assertEqual(Path(payload["literature_matching_metadata_path"]), td_path / "literature_matching_metadata.json")
 
 
     def test_persist_outline_and_scopes_requires_runtime_shape(self):
@@ -769,6 +789,61 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertEqual(invalid.returncode, 2)
             payload = json.loads(invalid.stdout.decode("utf-8"))
             self.assertIn("parent_node_id", payload["error"]["message"])
+
+    def test_persist_outline_and_scopes_validates_matching_metadata(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text("# Introduction\nText.\n# References\n[1] Smith. Paper A. 2020.\n", encoding="utf-8")
+            self.assertEqual(
+                self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path), "--language", "zh-CN"]).returncode,
+                0,
+            )
+            self.assertEqual(self._persist_render_templates(db_path, language="zh-CN").returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            base_payload = self._outline_payload(lines, citation_line_end=2)
+
+            invalid_cases = [
+                ("wrong schema", {"schema": "v0", "key_terms": [], "methods": [], "problems": [], "datasets": [], "exclude_terms": []}, "schema"),
+                ("missing field", {"schema": "literature_matching_metadata.v1", "key_terms": [], "methods": [], "problems": [], "datasets": []}, "missing required key"),
+                (
+                    "non-array field",
+                    {"schema": "literature_matching_metadata.v1", "key_terms": "term", "methods": [], "problems": [], "datasets": [], "exclude_terms": []},
+                    "key_terms must be array",
+                ),
+                (
+                    "non-string item",
+                    {"schema": "literature_matching_metadata.v1", "key_terms": [1], "methods": [], "problems": [], "datasets": [], "exclude_terms": []},
+                    "key_terms[0] must be string",
+                ),
+                (
+                    "over limit",
+                    {"schema": "literature_matching_metadata.v1", "key_terms": [f"term {i}" for i in range(13)], "methods": [], "problems": [], "datasets": [], "exclude_terms": []},
+                    "at most 12 items",
+                ),
+                (
+                    "unsupported key",
+                    {"schema": "literature_matching_metadata.v1", "key_terms": [], "methods": [], "problems": [], "datasets": [], "exclude_terms": [], "bm25_text": "x"},
+                    "unsupported keys",
+                ),
+            ]
+
+            for _, metadata, expected_message in invalid_cases:
+                payload = json.loads(json.dumps(base_payload))
+                payload["literature_matching_metadata"] = metadata
+                result = self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=payload)
+                self.assertEqual(result.returncode, 2)
+                out = json.loads(result.stdout.decode("utf-8"))
+                self.assertIn(expected_message, out["error"]["message"])
+
+            payload = json.loads(json.dumps(base_payload))
+            payload["literature_matching_metadata"]["key_terms"] = ["  transformer  ", ""]
+            valid = self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=payload)
+            self.assertEqual(valid.returncode, 0, valid.stderr.decode("utf-8", errors="replace"))
+            out = json.loads(valid.stdout.decode("utf-8"))
+            self.assertEqual(out["literature_matching_metadata"]["key_terms"], ["transformer"])
 
     def test_prepare_citation_workset_filters_noise_and_writes_review_view(self):
         with tempfile.TemporaryDirectory() as td:
@@ -874,6 +949,7 @@ class StageRuntimeTests(unittest.TestCase):
                         "outline_nodes": [{"node_id": "n1", "heading_level": 1, "title": "Introduction", "line_start": 1, "line_end": 2, "parent_node_id": None, "metadata": {}}],
                         "references_scope": {"section_title": "Introduction", "line_start": 1, "line_end": 2, "metadata": {}},
                         "citation_scope": {"section_title": "Introduction", "line_start": 1, "line_end": 2, "metadata": {}},
+                        "literature_matching_metadata": self._matching_metadata_payload(),
                     },
                 ).returncode,
                 0,
@@ -930,6 +1006,7 @@ class StageRuntimeTests(unittest.TestCase):
                         ],
                         "references_scope": {"section_title": "References", "line_start": 3, "line_end": 4, "metadata": {}},
                         "citation_scope": {"section_title": "Introduction", "line_start": 1, "line_end": 2, "metadata": {}},
+                        "literature_matching_metadata": self._matching_metadata_payload(),
                     },
                 ).returncode,
                 0,

@@ -1,0 +1,8 @@
+- [x] Add OpenSpec proposal, design, task list, and delta specs.
+- [x] Add SQLite persistence and render context for `literature_matching_metadata`.
+- [x] Extend `persist_outline_and_scopes` validation and persistence.
+- [x] Render `literature_matching_metadata.json`, register its artifact path, and include it in stdout/result mirror.
+- [x] Update output schema and runtime validation/fix/check behavior.
+- [x] Update `SKILL.md`, Step 02, Stage runtime, render, gate, and SQL guidance docs.
+- [x] Add focused tests for persistence, validation rejection, render output, and schema/docs coverage.
+- [x] Run relevant pytest suite and `openspec validate add-literature-matching-metadata --strict`.

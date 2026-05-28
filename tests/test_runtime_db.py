@@ -178,11 +178,23 @@ class RuntimeDbTests(unittest.TestCase):
                         }
                     ],
                 )
+                runtime_db.store_literature_matching_metadata(
+                    connection,
+                    {
+                        "schema": "literature_matching_metadata.v1",
+                        "key_terms": ["paper summarization"],
+                        "methods": ["structured digest"],
+                        "problems": ["literature discovery"],
+                        "datasets": [],
+                        "exclude_terms": ["unrelated retrieval"],
+                    },
+                )
                 payload = runtime_db.fetch_citation_payload(connection, report_md="## Report\n")
                 digest_context = runtime_db.build_digest_render_context(connection)
                 references_context = runtime_db.build_references_render_context(connection)
                 citation_context = runtime_db.build_citation_render_context(connection, "## Report\n")
                 report_context = runtime_db.build_citation_report_render_context(connection)
+                matching_context = runtime_db.build_literature_matching_metadata_render_context(connection)
                 self.assertEqual(payload["meta"]["scope"]["section_title"], "Introduction")
                 self.assertEqual(payload["summary"], "global citation summary")
                 self.assertIn("timeline", payload)
@@ -213,6 +225,8 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertEqual(report_context["key_references"][0]["title"], "Paper A")
                 self.assertEqual(report_context["timeline"]["early"]["ref_indexes"], [0])
                 self.assertEqual(report_context["grouped_items"][0]["items"][0]["keywords"], ["transformer", "background"])
+                self.assertEqual(matching_context["literature_matching_metadata"]["schema"], "literature_matching_metadata.v1")
+                self.assertEqual(matching_context["literature_matching_metadata"]["key_terms"], ["paper summarization"])
 
     def test_store_and_fetch_reference_parse_candidates(self):
         runtime_db = load_runtime_db_module()

@@ -133,6 +133,17 @@ class RenderFinalArtifactsTests(unittest.TestCase):
                         "key_ref_indexes": [0],
                     },
                 )
+                runtime_db.store_literature_matching_metadata(
+                    connection,
+                    {
+                        "schema": "literature_matching_metadata.v1",
+                        "key_terms": ["paper summarization"],
+                        "methods": ["structured digest"],
+                        "problems": ["literature discovery"],
+                        "datasets": [],
+                        "exclude_terms": [],
+                    },
+                )
                 for action_name in (
                     "prepare_citation_workset",
                     "persist_citation_semantics",
@@ -159,11 +170,15 @@ class RenderFinalArtifactsTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(result.stdout.decode("utf-8"))
             self.assertIn("citation_analysis_report_path", payload)
+            self.assertIn("literature_matching_metadata_path", payload)
             report_path = Path(str(payload["citation_analysis_report_path"]))
             digest_path = Path(str(payload["digest_path"]))
+            matching_path = Path(str(payload["literature_matching_metadata_path"]))
             citation_json = json.loads(Path(str(payload["citation_analysis_path"])).read_text(encoding="utf-8"))
+            matching_json = json.loads(matching_path.read_text(encoding="utf-8"))
             self.assertTrue(report_path.exists())
             self.assertTrue(digest_path.exists())
+            self.assertTrue(matching_path.exists())
             digest_text = digest_path.read_text(encoding="utf-8")
             self.assertIn("## TL;DR", digest_text)
             self.assertIn("digest body", digest_text)
@@ -178,6 +193,8 @@ class RenderFinalArtifactsTests(unittest.TestCase):
             self.assertEqual(citation_json["items"][0]["keywords"], ["transformer", "background"])
             self.assertTrue(citation_json["items"][0]["is_key_reference"])
             self.assertIn("timeline", citation_json)
+            self.assertEqual(matching_json["schema"], "literature_matching_metadata.v1")
+            self.assertEqual(matching_json["key_terms"], ["paper summarization"])
 
 
 if __name__ == "__main__":

@@ -53,6 +53,7 @@ class ValidateOutputTests(unittest.TestCase):
             "digest_path": "/tmp/digest.md",
             "references_path": "/tmp/references.json",
             "citation_analysis_path": "/tmp/citation_analysis.json",
+            "literature_matching_metadata_path": "/tmp/literature_matching_metadata.json",
             "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
             "warnings": [],
             "error": None,
@@ -126,6 +127,7 @@ class ValidateOutputTests(unittest.TestCase):
             self.assertTrue(Path(fixed["digest_path"]).exists())
             self.assertTrue(Path(fixed["references_path"]).exists())
             self.assertTrue(Path(fixed["citation_analysis_path"]).exists())
+            self.assertTrue(Path(fixed["literature_matching_metadata_path"]).exists())
             self.assertTrue(Path(fixed["citation_analysis_report_path"]).exists())
             refs = json.loads(Path(fixed["references_path"]).read_text(encoding="utf-8"))
             self.assertEqual(refs[0]["DOI"], "10.1234/x")
@@ -148,6 +150,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "digest_path": "",
                 "references_path": "",
                 "citation_analysis_path": str(ca_path),
+                "literature_matching_metadata_path": "",
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
                 "error": None,
@@ -157,6 +160,25 @@ class ValidateOutputTests(unittest.TestCase):
             report = json.loads(p.stdout.decode("utf-8"))
             self.assertFalse(report["ok"])
             self.assertTrue(any("citation_analysis" in e for e in report["errors"]))
+
+    def test_check_rejects_invalid_literature_matching_metadata_file(self):
+        with tempfile.TemporaryDirectory() as td:
+            metadata_path = Path(td) / "literature_matching_metadata.json"
+            metadata_path.write_text(json.dumps({"schema": "v0"}, ensure_ascii=False), encoding="utf-8")
+            payload = {
+                "digest_path": "",
+                "references_path": "",
+                "citation_analysis_path": "",
+                "literature_matching_metadata_path": str(metadata_path),
+                "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
+                "warnings": [],
+                "error": None,
+            }
+            p = self.run_validate("check", payload)
+            self.assertEqual(p.returncode, 2)
+            report = json.loads(p.stdout.decode("utf-8"))
+            self.assertFalse(report["ok"])
+            self.assertTrue(any("literature_matching_metadata.schema" in e for e in report["errors"]))
 
     def test_check_rejects_duplicate_mention_ids(self):
         with tempfile.TemporaryDirectory() as td:
@@ -201,6 +223,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "digest_path": "",
                 "references_path": "",
                 "citation_analysis_path": str(ca_path),
+                "literature_matching_metadata_path": "",
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
                 "error": None,
@@ -247,6 +270,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "digest_path": "",
                 "references_path": "",
                 "citation_analysis_path": str(ca_path),
+                "literature_matching_metadata_path": "",
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
                 "error": None,
@@ -261,6 +285,7 @@ class ValidateOutputTests(unittest.TestCase):
             "digest_path": "",
             "references_path": "",
             "citation_analysis_path": "",
+            "literature_matching_metadata_path": "",
             "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
             "warnings": [],
             "error": {"code": "citation_merge_failed", "message": "coverage mismatch"},
@@ -330,6 +355,7 @@ class ValidateOutputTests(unittest.TestCase):
             self.assertEqual(Path(fixed["digest_path"]), out_dir / "digest.md")
             self.assertEqual(Path(fixed["references_path"]), out_dir / "references.json")
             self.assertEqual(Path(fixed["citation_analysis_path"]), out_dir / "citation_analysis.json")
+            self.assertEqual(Path(fixed["literature_matching_metadata_path"]), out_dir / "literature_matching_metadata.json")
 
     def test_check_rejects_db_registry_mismatch(self):
         runtime_db = load_runtime_db_module()
@@ -339,6 +365,7 @@ class ValidateOutputTests(unittest.TestCase):
             digest_path = Path(td) / "digest.md"
             references_path = Path(td) / "references.json"
             citation_path = Path(td) / "citation_analysis.json"
+            matching_path = Path(td) / "literature_matching_metadata.json"
             digest_path.write_text("x\n", encoding="utf-8")
             references_path.write_text("[]", encoding="utf-8")
             citation_path.write_text(
@@ -349,6 +376,20 @@ class ValidateOutputTests(unittest.TestCase):
                         "items": [],
                         "unmapped_mentions": [],
                         "report_md": "",
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            matching_path.write_text(
+                json.dumps(
+                    {
+                        "schema": "literature_matching_metadata.v1",
+                        "key_terms": [],
+                        "methods": [],
+                        "problems": [],
+                        "datasets": [],
+                        "exclude_terms": [],
                     },
                     ensure_ascii=False,
                 ),
@@ -382,11 +423,20 @@ class ValidateOutputTests(unittest.TestCase):
                     media_type="application/json",
                     source_table="citation_summary",
                 )
+                runtime_db.register_artifact(
+                    connection,
+                    artifact_key="literature_matching_metadata_path",
+                    path=matching_path,
+                    is_required=True,
+                    media_type="application/json",
+                    source_table="literature_matching_metadata",
+                )
                 connection.commit()
             payload = {
                 "digest_path": str(digest_path),
                 "references_path": str(references_path),
                 "citation_analysis_path": str(citation_path),
+                "literature_matching_metadata_path": str(matching_path),
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
                 "error": None,
