@@ -54,6 +54,52 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertNotIn("reference_pattern_ambiguous: 2 entries", payload["warnings"])
                 self.assertIn("digest_undercoverage", payload["warnings"])
 
+    def test_reference_quality_issue_helpers_track_active_status(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.replace_reference_quality_issues(
+                    connection,
+                    [
+                        {
+                            "entry_index": 0,
+                            "ref_index": 0,
+                            "severity": "hard_block",
+                            "reason_code": "bare_identifier_or_url_title",
+                            "field": "title",
+                            "current_value": "https://doi.org/10.1000/xyz",
+                            "raw_excerpt": "raw",
+                            "recommendation": "recover title",
+                        },
+                        {
+                            "entry_index": 1,
+                            "ref_index": 1,
+                            "severity": "warning",
+                            "reason_code": "missing_year",
+                            "field": "year",
+                            "current_value": "",
+                            "raw_excerpt": "raw",
+                            "recommendation": "recover year",
+                        },
+                    ],
+                )
+                connection.commit()
+
+                active = runtime_db.fetch_active_reference_quality_issues(connection)
+                self.assertEqual([issue["reason_code"] for issue in active], ["bare_identifier_or_url_title", "missing_year"])
+                self.assertEqual(len(runtime_db.fetch_active_reference_quality_issues(connection, severity="warning")), 1)
+
+                runtime_db.resolve_reference_quality_issues(connection, issue_ids=[active[1]["issue_id"]], status="accepted")
+                connection.commit()
+                active_after_accept = runtime_db.fetch_active_reference_quality_issues(connection)
+                self.assertEqual([issue["reason_code"] for issue in active_after_accept], ["bare_identifier_or_url_title"])
+
+                runtime_db.replace_reference_quality_issues(connection, [])
+                connection.commit()
+                self.assertEqual(runtime_db.fetch_active_reference_quality_issues(connection), [])
+
     def test_store_and_fetch_final_payload_data(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:

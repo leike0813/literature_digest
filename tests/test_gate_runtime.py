@@ -390,6 +390,112 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertIn("usage", item)
             self.assertIn("keywords", item)
 
+    def test_stage4_hard_quality_issues_return_gate_directives(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_4_references",
+                    current_substep="persist_references",
+                    stage_gate="ready",
+                    next_action="persist_references",
+                    status_summary="reference quality hard blocks require corrected persist_references payload",
+                    last_error_code="reference_quality_hard_block",
+                )
+                runtime_db.store_source_document(connection, doc_key="normalized_source", content="# References\nraw", metadata={})
+                runtime_db.store_section_scope(connection, scope_key="references_scope", section_title="References", line_start=1, line_end=2)
+                runtime_db.store_reference_entries(connection, [{"entry_index": 3, "raw": "Doe. Actual Title. 2020.", "year": 2020, "metadata": {}}])
+                runtime_db.store_reference_parse_candidates(
+                    connection,
+                    [
+                        {
+                            "entry_index": 3,
+                            "candidate_index": 0,
+                            "pattern": "fallback_raw_split",
+                            "author_text": "Doe",
+                            "author_candidates": ["Doe"],
+                            "title_candidate": "Actual Title",
+                            "container_candidate": "",
+                            "year_candidate": 2020,
+                            "confidence": 0.8,
+                            "metadata": {},
+                        }
+                    ],
+                )
+                runtime_db.replace_reference_quality_issues(
+                    connection,
+                    [
+                        {
+                            "entry_index": 3,
+                            "ref_index": 3,
+                            "severity": "hard_block",
+                            "reason_code": "bare_identifier_or_url_title",
+                            "field": "title",
+                            "current_value": "https://doi.org/10.1000/xyz",
+                            "raw_excerpt": "Doe. Actual Title. 2020. https://doi.org/10.1000/xyz",
+                            "recommendation": "recover title",
+                        }
+                    ],
+                )
+                connection.commit()
+
+            payload = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
+            self.assertEqual(payload["next_action"], "persist_references")
+            self.assertEqual(payload["quality_directives"]["severity"], "hard_block")
+            issue = payload["quality_directives"]["issues"][0]
+            self.assertEqual(issue["entry_index"], 3)
+            self.assertEqual(issue["reason_code"], "bare_identifier_or_url_title")
+            self.assertIn("recommendation", issue)
+            self.assertIn("quality_directives", payload["execution_note"])
+            self.assertIn("persist_references", payload["command_example"]["command"])
+
+    def test_stage4_soft_quality_issues_route_to_review_directives(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_4_references",
+                    current_substep="review_reference_quality",
+                    stage_gate="ready",
+                    next_action="review_reference_quality",
+                    status_summary="reference quality warnings require explicit review",
+                )
+                runtime_db.store_source_document(connection, doc_key="normalized_source", content="# References\nraw", metadata={})
+                runtime_db.store_section_scope(connection, scope_key="references_scope", section_title="References", line_start=1, line_end=2)
+                runtime_db.store_reference_items(
+                    connection,
+                    [{"ref_index": 0, "author": ["Smith"], "title": "Reliable Reference Title", "year": None, "raw": "raw", "confidence": 0.8, "metadata": {}}],
+                )
+                runtime_db.replace_reference_quality_issues(
+                    connection,
+                    [
+                        {
+                            "entry_index": 0,
+                            "ref_index": 0,
+                            "severity": "warning",
+                            "reason_code": "missing_year",
+                            "field": "year",
+                            "current_value": "",
+                            "raw_excerpt": "raw",
+                            "recommendation": "recover year",
+                        }
+                    ],
+                )
+                connection.commit()
+
+            payload = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
+            self.assertEqual(payload["next_action"], "review_reference_quality")
+            self.assertEqual(payload["quality_directives"]["severity"], "warning")
+            self.assertEqual(payload["quality_directives"]["issues"][0]["reason_code"], "missing_year")
+            self.assertIn("review_reference_quality", payload["command_example"]["command"])
+            self.assertIn("accept_warning", payload["command_example"]["payload_example"]["resolutions"][0]["resolution"])
+
 
 if __name__ == "__main__":
     unittest.main()

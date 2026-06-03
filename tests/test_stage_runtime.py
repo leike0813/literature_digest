@@ -195,6 +195,18 @@ class StageRuntimeTests(unittest.TestCase):
         workset = json.loads(Path(workset_payload["workset_path"]).read_text(encoding="utf-8"))
         return str(workset["entries"][0]["patterns"][0]["pattern"])
 
+    def _setup_stage4_reference_quality_db(self, td_path: Path, *, reference_line: str = "[1] Smith. Useful Reference Title. 2020.") -> tuple[Path, dict]:
+        source_path = td_path / "paper.md"
+        db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+        source_path.write_text(f"# Introduction\nPrior work [1].\n# References\n{reference_line}\n", encoding="utf-8")
+        self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+        self.assertEqual(self._persist_render_templates(db_path).returncode, 0)
+        self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+        lines = source_path.read_text(encoding="utf-8").splitlines()
+        self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
+        self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+        return db_path, self._prepare_references_workset(db_path)
+
     def _citation_semantics_payload(
         self,
         *,
@@ -274,7 +286,7 @@ class StageRuntimeTests(unittest.TestCase):
                         "![Overview](figures/overview.png)",
                         "Prior work [1].",
                         "# 2 References",
-                        "[1] Smith. Paper A. 2020.",
+                        "[1] Smith. Useful Paper Title. 2020.",
                     ]
                 )
                 + "\n",
@@ -364,8 +376,8 @@ class StageRuntimeTests(unittest.TestCase):
                 input_obj=self._reference_refine_payload(
                     entry_index=0,
                     selected_pattern=self._first_selected_pattern(workset_payload),
-                    raw="[1] Smith. Paper A. 2020.",
-                    title="Paper A",
+                    raw="[1] Smith. Useful Paper Title. 2020.",
+                    title="Useful Paper Title",
                     year=2020,
                     author=["Smith"],
                 ),
@@ -973,6 +985,98 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertIn("reference_parse_low_confidence", payload["warnings"])
             export = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
             self.assertEqual(export.returncode, 2)
+
+    def test_persist_references_hard_quality_issues_block_and_feed_gate_directives(self):
+        cases = {
+            "empty_title": "",
+            "bare_doi": "10.1000/xyz123",
+            "doi_url": "https://doi.org/10.1000/xyz",
+            "bare_url": "https://example.com/paper",
+            "arxiv_id": "arXiv:1704.04861",
+            "publication_metadata_only_title": "Proceedings of CVPR 2020",
+            "author_only_title": "Smith",
+            "no_usable_title_tokens": "2020.",
+        }
+        expected_reason = {
+            "empty_title": "empty_title",
+            "bare_doi": "bare_identifier_or_url_title",
+            "doi_url": "bare_identifier_or_url_title",
+            "bare_url": "bare_identifier_or_url_title",
+            "arxiv_id": "bare_identifier_or_url_title",
+            "publication_metadata_only_title": "publication_metadata_only_title",
+            "author_only_title": "author_only_title",
+            "no_usable_title_tokens": "no_usable_title_tokens",
+        }
+        runtime_db = load_runtime_db_module()
+        for case_name, title in cases.items():
+            with self.subTest(case_name=case_name), tempfile.TemporaryDirectory() as td:
+                td_path = Path(td)
+                db_path, workset_payload = self._setup_stage4_reference_quality_db(td_path)
+                result = self.run_cmd(
+                    ["persist_references", "--db-path", str(db_path)],
+                    input_obj=self._reference_refine_payload(
+                        entry_index=0,
+                        selected_pattern=self._first_selected_pattern(workset_payload),
+                        raw="[1] Smith. Actual Work Title. 2020. https://doi.org/10.1000/xyz",
+                        title=title,
+                        year=2020,
+                        author=["Smith"],
+                    ),
+                )
+                self.assertEqual(result.returncode, 2, result.stderr.decode("utf-8", errors="replace"))
+                payload = json.loads(result.stdout.decode("utf-8"))
+                self.assertEqual(payload["error"]["code"], "reference_quality_hard_block")
+                self.assertIn(expected_reason[case_name], [issue["reason_code"] for issue in payload["quality_issues"]])
+                with runtime_db.connect_db(db_path) as connection:
+                    self.assertEqual(runtime_db.fetch_reference_items(connection), [])
+                    active_issues = runtime_db.fetch_active_reference_quality_issues(connection)
+                    self.assertIn(expected_reason[case_name], [issue["reason_code"] for issue in active_issues])
+
+                gate_payload = self.run_gate(db_path)
+                self.assertEqual(gate_payload["next_action"], "persist_references")
+                self.assertEqual(gate_payload["quality_directives"]["severity"], "hard_block")
+                self.assertIn(expected_reason[case_name], [issue["reason_code"] for issue in gate_payload["quality_directives"]["issues"]])
+                self.assertIn("recommendation", gate_payload["quality_directives"]["issues"][0])
+
+    def test_persist_references_soft_quality_warnings_require_review_before_stage5(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            db_path, workset_payload = self._setup_stage4_reference_quality_db(td_path, reference_line="[1] Smith. Reliable Reference Title.")
+            result = self.run_cmd(
+                ["persist_references", "--db-path", str(db_path)],
+                input_obj=self._reference_refine_payload(
+                    entry_index=0,
+                    selected_pattern=self._first_selected_pattern(workset_payload),
+                    raw="[1] Smith. Reliable Reference Title.",
+                    title="Reliable Reference Title",
+                    year=None,
+                    author=["Smith"],
+                ),
+            )
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertEqual([issue["reason_code"] for issue in payload["quality_issues"]], ["missing_year"])
+
+            with runtime_db.connect_db(db_path) as connection:
+                items = runtime_db.fetch_reference_items(connection)
+                self.assertEqual(len(items), 1)
+                self.assertEqual(items[0]["title_quality"]["status"], "warning")
+                self.assertIn("missing_year", items[0]["title_quality"]["flags"])
+                active_issues = runtime_db.fetch_active_reference_quality_issues(connection)
+                self.assertEqual(len(active_issues), 1)
+                issue_id = active_issues[0]["issue_id"]
+
+            gate_payload = self.run_gate(db_path)
+            self.assertEqual(gate_payload["next_action"], "review_reference_quality")
+            self.assertEqual(gate_payload["quality_directives"]["severity"], "warning")
+
+            review = self.run_cmd(
+                ["review_reference_quality", "--db-path", str(db_path)],
+                input_obj={"resolutions": [{"issue_id": issue_id, "resolution": "accept_warning"}]},
+            )
+            self.assertEqual(review.returncode, 0, review.stderr.decode("utf-8", errors="replace"))
+            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_citation_workset")
 
     def test_export_citation_workset_reads_db_only(self):
         with tempfile.TemporaryDirectory() as td:
