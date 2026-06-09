@@ -1,0 +1,595 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/CHPBJDLU_PolarNet_ An Improved Grid Representation for Online LiDAR Point Clouds Semantic.txt",
+  "entry_style": "numeric",
+  "notes": "纯 numeric 风格，末尾有引用页码标记。[12] 为跨行条目。",
+  "items": [
+    {
+      "author": [
+        "Jens Behley",
+        "Martin Garbade",
+        "Andres Milioto",
+        "Jan Quenzel",
+        "Sven Behnke",
+        "Cyrill Stachniss",
+        "Jürgen Gall"
+      ],
+      "title": "SemanticKITTI: A dataset for semantic scene understanding of lidar sequences",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[1] Jens Behley... In Proceedings of the IEEE International Conference on Computer Vision, pages 9297–9307, 2019.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Serge Belongie",
+        "Jitendra Malik",
+        "Jan Puzicha"
+      ],
+      "title": "Shape context: A new descriptor for shape matching and object recognition",
+      "year": 2001,
+      "container": "NIPS",
+      "raw": "[2] Serge Belongie, Jitendra Malik, and Jan Puzicha. Shape context... In Advances in neural information processing systems, pages 831–837, 2001.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Holger Caesar",
+        "Varun Bankiti",
+        "Alex H. Lang",
+        "Sourabh Vora",
+        "Venice Erin Liong",
+        "Qiang Xu",
+        "Anush Krishnan",
+        "Yu Pan",
+        "Giancarlo Baldan",
+        "Oscar Beijbom"
+      ],
+      "title": "nuScenes: A multimodal dataset for autonomous driving",
+      "year": 2019,
+      "container": "arXiv:1903.11027",
+      "raw": "[3] Holger Caesar... nuScenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027, 2019.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Liang-Chieh Chen",
+        "George Papandreou",
+        "Iasonas Kokkinos",
+        "Kevin Murphy",
+        "Alan L. Yuille"
+      ],
+      "title": "Semantic image segmentation with deep convolutional nets and fully connected CRFs",
+      "year": 2014,
+      "container": "arXiv:1412.7062",
+      "raw": "[4] Liang-Chieh Chen... Semantic image segmentation with deep convolutional nets and fully connected crfs. arXiv preprint arXiv:1412.7062, 2014.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Liang-Chieh Chen",
+        "George Papandreou",
+        "Florian Schroff",
+        "Hartwig Adam"
+      ],
+      "title": "Rethinking atrous convolution for semantic image segmentation",
+      "year": 2017,
+      "container": "arXiv:1706.05587",
+      "raw": "[5] Liang-Chieh Chen... Rethinking atrous convolution... arXiv preprint arXiv:1706.05587, 2017.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Liang-Chieh Chen",
+        "Yukun Zhu",
+        "George Papandreou",
+        "Florian Schroff",
+        "Hartwig Adam"
+      ],
+      "title": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[6] Liang-Chieh Chen, Yukun Zhu... Encoder-decoder... In ECCV, pages 801–818, 2018.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Xiaozhi Chen",
+        "Huimin Ma",
+        "Ji Wan",
+        "Bo Li",
+        "Tian Xia"
+      ],
+      "title": "Multi-view 3d object detection network for autonomous driving",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[7] Xiaozhi Chen... Multi-view 3d object detection... In CVPR, pages 1907–1915, 2017.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Matthias Fey",
+        "Jan E. Lenssen"
+      ],
+      "title": "Fast graph representation learning with PyTorch Geometric",
+      "year": 2019,
+      "container": "ICLR Workshop",
+      "raw": "[8] Matthias Fey and Jan E. Lenssen. Fast graph representation learning with PyTorch Geometric. In ICLR workshop on representation learning on graphs and manifolds, 2019.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Andreas Geiger",
+        "Philip Lenz",
+        "Raquel Urtasun"
+      ],
+      "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+      "year": 2012,
+      "container": "CVPR",
+      "raw": "[9] A. Geiger, P. Lenz, and R. Urtasun. Are we ready for autonomous driving?... In CVPR, pages 3354–3361, 2012.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Jakob Geyer",
+        "Yohannes Kassahun",
+        "Mentar Mahmudi",
+        "Xavier Ricou",
+        "Rupesh Durgesh",
+        "Andrew S. Chung",
+        "Lorenz Hauswald",
+        "Viet Hoang Pham",
+        "Maximilian Mühlegg",
+        "Sebastian Dorn",
+        "Tiffany Fernandez",
+        "Martin Jänicke",
+        "Sudesh Mirashi",
+        "Chiragkumar Savani",
+        "Martin Sturm",
+        "Oleksandr Vorobiov",
+        "Peter Schuberth"
+      ],
+      "title": "A2D2: Audi Autonomous Driving Dataset",
+      "year": 2019,
+      "container": "(dataset)",
+      "raw": "[10] Jakob Geyer... A2D2: AEV autonomous driving dataset. 2019.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Timo Hackel",
+        "Nikolay Savinov",
+        "Lubor Ladicky",
+        "Jan D. Wegner",
+        "Konrad Schindler",
+        "Marc Pollefeys"
+      ],
+      "title": "Semantic3D.net: A new large-scale point cloud classification benchmark",
+      "year": 2017,
+      "container": "ISPRS Annals",
+      "raw": "[11] T Hackel... SEMANTIC3D.NET: a new large-scale point cloud classification benchmark. ISPRS Annals, pages 91–98, 2017.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Qingyong Hu",
+        "Bo Yang",
+        "Linhai Xie",
+        "Stefano Rosa",
+        "Yulan Guo",
+        "Zhihua Wang",
+        "Niki Trigoni",
+        "Andrew Markham"
+      ],
+      "title": "RandLA-Net: Efficient semantic segmentation of large-scale point clouds",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[12] Qingyong Hu, Bo Yang, Linhai Xie... RandLA-Net... In CVPR, 2020.",
+      "confidence": 0.95,
+      "notes": "跨行条目",
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Qiangui Huang",
+        "Weiyue Wang",
+        "Ulrich Neumann"
+      ],
+      "title": "Recurrent slice networks for 3d segmentation of point clouds",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[13] Qiangui Huang, Weiyue Wang, and Ulrich Neumann. Recurrent slice networks for 3d segmentation of point clouds. In CVPR, pages 2626–2635, 2018.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Jason Ku",
+        "Melissa Mozifian",
+        "Jungwook Lee",
+        "Ali Harakeh",
+        "Steven L. Waslander"
+      ],
+      "title": "Joint 3d proposal generation and object detection from view aggregation",
+      "year": 2018,
+      "container": "IROS",
+      "raw": "[14] Jason Ku... Joint 3d proposal generation... In IROS, pages 1–8, 2018.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Loic Landrieu",
+        "Martin Simonovsky"
+      ],
+      "title": "Large-scale point cloud semantic segmentation with superpoint graphs",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[15] Loic Landrieu and Martin Simonovsky. Large-scale point cloud semantic segmentation with superpoint graphs. In CVPR, pages 4558–4567, 2018.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Alex H. Lang",
+        "Sourabh Vora",
+        "Holger Caesar",
+        "Lubing Zhou",
+        "Jiong Yang",
+        "Oscar Beijbom"
+      ],
+      "title": "PointPillars: Fast encoders for object detection from point clouds",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[16] Alex H Lang... PointPillars... In CVPR, pages 12697–12705, 2019.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Piotr Dollár",
+        "Ross Girshick",
+        "Kaiming He",
+        "Bharath Hariharan",
+        "Serge Belongie"
+      ],
+      "title": "Feature pyramid networks for object detection",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[17] Tsung-Yi Lin, Piotr Dollar... Feature pyramid networks... In CVPR, pages 2117–2125, 2017.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Jonathan Long",
+        "Evan Shelhamer",
+        "Trevor Darrell"
+      ],
+      "title": "Fully convolutional networks for semantic segmentation",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[18] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks... In CVPR, pages 3431–3440, 2015.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Andres Milioto",
+        "Cyrill Stachniss"
+      ],
+      "title": "RangeNet++: Fast and accurate LiDAR semantic segmentation",
+      "year": 2019,
+      "container": "IROS",
+      "raw": "[19] Andres Milioto and C Stachniss. RangeNet++... In IROS, 2019.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Adam Paszke",
+        "Sam Gross",
+        "Soumith Chintala",
+        "Gregory Chanan",
+        "Edward Yang",
+        "Zachary DeVito",
+        "Zeming Lin",
+        "Alban Desmaison",
+        "Luca Antiga",
+        "Adam Lerer"
+      ],
+      "title": "Automatic differentiation in PyTorch",
+      "year": 2017,
+      "container": "NIPS Workshop",
+      "raw": "[20] Adam Paszke... Automatic differentiation in PyTorch. In NIPS autodiff workshop, 2017.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Charles R. Qi",
+        "Wei Liu",
+        "Chenxia Wu",
+        "Hao Su",
+        "Leonidas J. Guibas"
+      ],
+      "title": "Frustum PointNets for 3d object detection from rgb-d data",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[21] Charles R Qi, Wei Liu... Frustum pointnets... In CVPR, pages 918–927, 2018.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Charles R. Qi",
+        "Hao Su",
+        "Kaichun Mo",
+        "Leonidas J. Guibas"
+      ],
+      "title": "PointNet: Deep learning on point sets for 3d classification and segmentation",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[22] Charles R Qi... Pointnet... In CVPR, pages 652–660, 2017.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Charles R. Qi",
+        "Li Yi",
+        "Hao Su",
+        "Leonidas J. Guibas"
+      ],
+      "title": "PointNet++: Deep hierarchical feature learning on point sets in a metric space",
+      "year": 2017,
+      "container": "NIPS",
+      "raw": "[23] Charles R Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++... In NIPS, pages 5099–5108, 2017.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NIPS",
+      "raw": "[24] Shaoqing Ren... Faster R-CNN... In NIPS, pages 91–99, 2015.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Olaf Ronneberger",
+        "Philipp Fischer",
+        "Thomas Brox"
+      ],
+      "title": "U-Net: Convolutional networks for biomedical image segmentation",
+      "year": 2015,
+      "container": "MICCAI",
+      "raw": "[25] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-Net... In MICCAI, pages 234–241. Springer, 2015.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Shaoshuai Shi",
+        "Xiaogang Wang",
+        "Hongsheng Li"
+      ],
+      "title": "PointRCNN: 3d object proposal generation and detection from point cloud",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[26] Shaoshuai Shi... Pointrcnn... In CVPR, pages 1429–1438, 2019.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Hang Su",
+        "Varun Jampani",
+        "Deqing Sun",
+        "Subhransu Maji",
+        "Evangelos Kalogerakis",
+        "Ming-Hsuan Yang",
+        "Jan Kautz"
+      ],
+      "title": "SPLATNet: Sparse lattice networks for point cloud processing",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[27] Hang Su... Splatnet... In CVPR, pages 2530–2539, 2018.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Hang Su",
+        "Subhransu Maji",
+        "Evangelos Kalogerakis",
+        "Erik Learned-Miller"
+      ],
+      "title": "Multi-view convolutional neural networks for 3d shape recognition",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[28] Hang Su... Multi-view convolutional neural networks for 3d shape recognition. In ICCV, pages 945–953, 2015.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Maxim Tatarchenko",
+        "Jaesik Park",
+        "Vladlen Koltun",
+        "Qian-Yi Zhou"
+      ],
+      "title": "Tangent convolutions for dense prediction in 3d",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[29] Maxim Tatarchenko... Tangent convolutions... In CVPR, pages 3887–3896, 2018.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Hugues Thomas",
+        "Charles R. Qi",
+        "Jean-Emmanuel Deschaud",
+        "Beatriz Marcotegui",
+        "François Goulette",
+        "Leonidas J. Guibas"
+      ],
+      "title": "KPConv: Flexible and deformable convolution for point clouds",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[30] Hugues Thomas... Kpconv... In ICCV, pages 6411–6420, 2019.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Lyne Tchapmi",
+        "Christopher Choy",
+        "Iro Armeni",
+        "JunYoung Gwak",
+        "Silvio Savarese"
+      ],
+      "title": "SEGCloud: Semantic segmentation of 3d point clouds",
+      "year": 2017,
+      "container": "3DV",
+      "raw": "[31] Lyne Tchapmi... Segcloud... In 3DV, pages 537–547. IEEE, 2017.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "title": "Attention is all you need",
+      "year": 2017,
+      "container": "NIPS",
+      "raw": "[32] Ashish Vaswani... Attention is all you need. In NIPS, pages 5998–6008, 2017.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Sourabh Vora",
+        "Alex H. Lang",
+        "Bassam Helou",
+        "Oscar Beijbom"
+      ],
+      "title": "PointPainting: Sequential fusion for 3d object detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[33] Sourabh Vora... Pointpainting... In CVPR, pages 4604–4612, 2020.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Yue Wang",
+        "Yongbin Sun",
+        "Ziwei Liu",
+        "Sanjay E. Sarma",
+        "Michael M. Bronstein",
+        "Justin M. Solomon"
+      ],
+      "title": "Dynamic graph CNN for learning on point clouds",
+      "year": 2019,
+      "container": "ACM TOG",
+      "raw": "[34] Yue Wang... Dynamic graph cnn... Acm Transactions On Graphics, 38(5):1-12, 2019.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Wenxuan Wu",
+        "Zhongang Qi",
+        "Li Fuxin"
+      ],
+      "title": "PointConv: Deep convolutional networks on 3d point clouds",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[35] Wenxuan Wu... Pointconv... In CVPR, pages 9621–9630, 2019.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Yifan Xu",
+        "Tianqi Fan",
+        "Mingye Xu",
+        "Long Zeng",
+        "Yu Qiao"
+      ],
+      "title": "SpiderCNN: Deep learning on point sets with parameterized convolutional filters",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[36] Yifan Xu... Spidercnn... In ECCV, pages 87-102, 2018.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Yan Yan",
+        "Yuxing Mao",
+        "Bo Li"
+      ],
+      "title": "SECOND: Sparsely embedded convolutional detection",
+      "year": 2018,
+      "container": "Sensors",
+      "raw": "[37] Yan Yan, Yuxing Mao, and Bo Li. Second: Sparsely embedded convolutional detection. Sensors, 18(10):3337, 2018.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Zetong Yang",
+        "Yanan Sun",
+        "Shu Liu",
+        "Jiaya Jia"
+      ],
+      "title": "3DSSD: Point-based 3d single stage object detector",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[38] Zetong Yang... 3dssd... In CVPR, pages 11040-11048, 2020.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Yin Zhou",
+        "Oncel Tuzel"
+      ],
+      "title": "VoxelNet: End-to-end learning for point cloud based 3d object detection",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[39] Yin Zhou and Oncel Tuzel. Voxelnet... In CVPR, pages 4490–4499, 2018.",
+      "confidence": 0.95,
+      "entry_index": 38
+    }
+  ]
+}

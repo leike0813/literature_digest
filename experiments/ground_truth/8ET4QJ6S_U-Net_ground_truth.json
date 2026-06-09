@@ -1,0 +1,136 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/8ET4QJ6S_U-Net_ Convolutional Networks for Biomedical Image Segmentation.txt",
+  "entry_style": "mixed",
+  "items": [
+    {
+      "entry_index": 0,
+      "author": ["Dan C. Ciresan", "Luca M. Gambardella", "Alessandro Giusti", "Jürgen Schmidhuber"],
+      "title": "Deep neural networks segment neuronal membranes in electron microscopy images",
+      "year": 2012,
+      "container": "Advances in Neural Information Processing Systems (NIPS)",
+      "raw": "1. Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.: Deep neural networks segment neuronal membranes in electron microscopy images. In: NIPS. pp. 2852–2860 (2012)",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 1,
+      "author": ["Alexey Dosovitskiy", "Jost Tobias Springenberg", "Martin Riedmiller", "Thomas Brox"],
+      "title": "Discriminative unsupervised feature learning with convolutional neural networks",
+      "year": 2014,
+      "container": "Advances in Neural Information Processing Systems (NIPS)",
+      "raw": "2. Dosovitskiy, A., Springenberg, J.T., Riedmiller, M., Brox, T.: Discriminative unsupervised feature learning with convolutional neural networks. In: NIPS (2014)",
+      "confidence": 0.90
+    },
+    {
+      "entry_index": 2,
+      "author": ["Ross Girshick", "Jeff Donahue", "Trevor Darrell", "Jitendra Malik"],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "3. Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2014)",
+      "confidence": 0.90
+    },
+    {
+      "entry_index": 3,
+      "author": ["Bharath Hariharan", "Pablo Arbeláez", "Ross Girshick", "Jitendra Malik"],
+      "title": "Hypercolumns for object segmentation and fine-grained localization",
+      "year": 2014,
+      "container": "arXiv:1411.5752 [cs.CV]",
+      "raw": "4. Hariharan, B., Arbelez, P., Girshick, R., Malik, J.: Hypercolumns for object segmentation and fine-grained localization (2014), arXiv:1411.5752 [cs.CV]",
+      "confidence": 0.88
+    },
+    {
+      "entry_index": 4,
+      "author": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"],
+      "title": "Delving deep into rectifiers: Surpassing human-level performance on imagenet classification",
+      "year": 2015,
+      "container": "arXiv:1502.01852 [cs.CV]",
+      "raw": "5. He, K., Zhang, X., Ren, S., Sun, J.: Delving deep into rectifiers: Surpassing humanlevel performance on imagenet classification (2015), arXiv:1502.01852 [cs.CV]",
+      "confidence": 0.90
+    },
+    {
+      "entry_index": 5,
+      "author": ["Yangqing Jia", "Evan Shelhamer", "Jeff Donahue", "Sergey Karayev", "Jonathan Long", "Ross Girshick", "Sergio Guadarrama", "Trevor Darrell"],
+      "title": "Caffe: Convolutional architecture for fast feature embedding",
+      "year": 2014,
+      "container": "arXiv:1408.5093 [cs.CV]",
+      "raw": "6. Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.: Caffe: Convolutional architecture for fast feature embedding (2014), arXiv:1408.5093 [cs.CV]",
+      "confidence": 0.90
+    },
+    {
+      "entry_index": 6,
+      "author": ["Alex Krizhevsky", "Ilya Sutskever", "Geoffrey E. Hinton"],
+      "title": "Imagenet classification with deep convolutional neural networks",
+      "year": 2012,
+      "container": "Advances in Neural Information Processing Systems (NIPS)",
+      "raw": "7. Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification with deep convolutional neural networks. In: NIPS. pp. 1106–1114 (2012)",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 7,
+      "author": ["Yann LeCun", "Bernhard Boser", "John S. Denker", "Donnie Henderson", "Richard E. Howard", "Wayne Hubbard", "Lawrence D. Jackel"],
+      "title": "Backpropagation applied to handwritten zip code recognition",
+      "year": 1989,
+      "container": "Neural Computation",
+      "raw": "8. LeCun, Y., Boser, B., Denker, J.S., Henderson, D., Howard, R.E., Hubbard, W., Jackel, L.D.: Backpropagation applied to handwritten zip code recognition. Neural Computation 1(4), 541–551 (1989)",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 8,
+      "author": ["Jonathan Long", "Evan Shelhamer", "Trevor Darrell"],
+      "title": "Fully convolutional networks for semantic segmentation",
+      "year": 2014,
+      "container": "arXiv:1411.4038 [cs.CV]",
+      "raw": "9. Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic segmentation (2014), arXiv:1411.4038 [cs.CV]",
+      "confidence": 0.90
+    },
+    {
+      "entry_index": 9,
+      "author": ["Martin Maška", "Carlos Ortiz de Solórzano"],
+      "title": "A benchmark for comparison of cell tracking algorithms",
+      "year": 2014,
+      "container": "Bioinformatics",
+      "raw": "10. Maska, M., (...), de Solorzano, C.O.: A benchmark for comparison of cell tracking algorithms. Bioinformatics 30, 1609–1617 (2014)",
+      "confidence": 0.78,
+      "notes": "原文以 '(...)' 省略了中间作者。仅记录了原文明确出现的首尾作者。"
+    },
+    {
+      "entry_index": 10,
+      "author": ["Mojtaba Seyedhosseini", "Mehdi Sajjadi", "Tolga Tasdizen"],
+      "title": "Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks",
+      "year": 2013,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "raw": "11. Seyedhosseini, M., Sajjadi, M., Tasdizen, T.: Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks. In: Computer Vision (ICCV), 2013 IEEE International Conference on. pp. 2168–2175 (2013)",
+      "confidence": 0.88
+    },
+    {
+      "entry_index": 11,
+      "author": ["Karen Simonyan", "Andrew Zisserman"],
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "year": 2014,
+      "container": "arXiv:1409.1556 [cs.CV]",
+      "raw": "12. Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition (2014), arXiv:1409.1556 [cs.CV]",
+      "confidence": 0.90
+    },
+    {
+      "entry_index": 12,
+      "author": [],
+      "title": "Web page of the cell tracking challenge",
+      "year": null,
+      "container": "http://www.codesolorzano.com/celltrackingchallenge/Cell_Tracking_Challenge/Welcome.html",
+      "raw": "13. WWW: Web page of the cell tracking challenge, http://www.codesolorzano.com/ celltrackingchallenge/Cell\\_Tracking\\_Challenge/Welcome.html",
+      "confidence": 0.70,
+      "notes": "网页引用，无明确作者和出版年。WWW 为伪作者标记。"
+    },
+    {
+      "entry_index": 13,
+      "author": [],
+      "title": "Web page of the EM segmentation challenge",
+      "year": null,
+      "container": "http://brainiac2.mit.edu/isbi_challenge/",
+      "raw": "14. WWW: Web page of the em segmentation challenge, http://brainiac2.mit.edu/ isbi\\_challenge/",
+      "confidence": 0.70,
+      "notes": "网页引用，无明确作者和出版年。WWW 为伪作者标记。"
+    }
+  ]
+}

@@ -996,6 +996,7 @@ class StageRuntimeTests(unittest.TestCase):
             "publication_metadata_only_title": "Proceedings of CVPR 2020",
             "author_only_title": "Smith",
             "no_usable_title_tokens": "2020.",
+            "no_usable_symbol_tokens": "。；，",
         }
         expected_reason = {
             "empty_title": "empty_title",
@@ -1006,6 +1007,7 @@ class StageRuntimeTests(unittest.TestCase):
             "publication_metadata_only_title": "publication_metadata_only_title",
             "author_only_title": "author_only_title",
             "no_usable_title_tokens": "no_usable_title_tokens",
+            "no_usable_symbol_tokens": "no_usable_title_tokens",
         }
         runtime_db = load_runtime_db_module()
         for case_name, title in cases.items():
@@ -1037,6 +1039,225 @@ class StageRuntimeTests(unittest.TestCase):
                 self.assertEqual(gate_payload["quality_directives"]["severity"], "hard_block")
                 self.assertIn(expected_reason[case_name], [issue["reason_code"] for issue in gate_payload["quality_directives"]["issues"]])
                 self.assertIn("recommendation", gate_payload["quality_directives"]["issues"][0])
+
+    def test_persist_references_accepts_cjk_title_without_translation(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            db_path, workset_payload = self._setup_stage4_reference_quality_db(
+                td_path,
+                reference_line="[1] 张三，李四。基于深度学习的文本分类方法。计算机研究，2020。",
+            )
+            result = self.run_cmd(
+                ["persist_references", "--db-path", str(db_path)],
+                input_obj=self._reference_refine_payload(
+                    entry_index=0,
+                    selected_pattern=self._first_selected_pattern(workset_payload),
+                    raw="[1] 张三，李四。基于深度学习的文本分类方法。计算机研究，2020。",
+                    title="基于深度学习的文本分类方法",
+                    year=2020,
+                    author=["张三", "李四"],
+                ),
+            )
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertEqual(payload["error"], None)
+            self.assertEqual(payload.get("quality_issues"), None)
+            with runtime_db.connect_db(db_path) as connection:
+                items = runtime_db.fetch_reference_items(connection)
+                self.assertEqual(items[0]["title"], "基于深度学习的文本分类方法")
+                self.assertEqual(runtime_db.fetch_active_reference_quality_issues(connection), [])
+            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_citation_workset")
+
+    def test_persist_references_rejects_cjk_author_only_title(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            db_path, workset_payload = self._setup_stage4_reference_quality_db(
+                td_path,
+                reference_line="[1] 张三。基于深度学习的文本分类方法。2020。",
+            )
+            result = self.run_cmd(
+                ["persist_references", "--db-path", str(db_path)],
+                input_obj=self._reference_refine_payload(
+                    entry_index=0,
+                    selected_pattern=self._first_selected_pattern(workset_payload),
+                    raw="[1] 张三。基于深度学习的文本分类方法。2020。",
+                    title="张三",
+                    year=2020,
+                    author=["张三"],
+                ),
+            )
+            self.assertEqual(result.returncode, 2, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertIn("author_only_title", [issue["reason_code"] for issue in payload["quality_issues"]])
+
+    def test_prepare_references_workset_uses_v171_cjk_type_marker_candidates(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# Introduction",
+                        "已有研究 [1]。",
+                        "# References",
+                        "[1] 吴继敏，张三．基于深度学习的文本分类方法［J］．计算机研究，2020，12(3): 1-9．",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            payload = self._prepare_references_workset(db_path)
+            self.assertNotIn("preprocess_version", payload)
+            self.assertNotIn("preprocess_version", payload["file_quality"])
+            self.assertFalse(payload["file_quality_low"])
+            workset = json.loads(Path(payload["workset_path"]).read_text(encoding="utf-8"))
+            self.assertNotIn("preprocess_version", workset["meta"])
+            self.assertNotIn("preprocess_version", workset["file_quality"])
+            first_pattern = workset["entries"][0]["patterns"][0]
+            self.assertEqual(first_pattern["pattern"], "cjk_type_marker_entry")
+            self.assertEqual(first_pattern["title_candidate"], "基于深度学习的文本分类方法")
+            self.assertEqual(first_pattern["year_candidate"], 2020)
+            self.assertEqual(first_pattern["author_candidates"], ["吴继敏", "张三"])
+            with runtime_db.connect_db(db_path) as connection:
+                quality = runtime_db.fetch_reference_preprocess_quality(connection)
+                self.assertFalse(quality["file_quality_low"])
+                self.assertEqual(quality["preprocess_version"], "line-first-v171")
+
+    def test_low_quality_preprocess_routes_to_decision_and_rejects_spoofed_abandon(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# Introduction",
+                        "Noisy citations [2] remain visible.",
+                        "# References",
+                        "[2] OCRGARBAGE",
+                        "[4] BROKENLINE",
+                        "[3] DAMAGEDENTRY",
+                        "[7] SYMBOLS",
+                        "[9] FRAGMENT",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+
+            payload = self._prepare_references_workset(db_path)
+            self.assertTrue(payload["file_quality_low"])
+            self.assertEqual(self.run_gate(db_path)["next_action"], "decide_reference_extraction")
+            with runtime_db.connect_db(db_path) as connection:
+                quality = runtime_db.fetch_reference_preprocess_quality(connection)
+                self.assertTrue(quality["file_quality_low"])
+                self.assertGreaterEqual(quality["trigger_count"], 4)
+
+            with tempfile.TemporaryDirectory() as td2:
+                clean_db_path = Path(td2) / ".literature_digest_tmp" / "literature_digest.db"
+                runtime_db.initialize_database(clean_db_path)
+                spoofed = self.run_cmd(
+                    ["decide_reference_extraction", "--db-path", str(clean_db_path)],
+                    input_obj={
+                        "decision": "abandon",
+                        "reason": "fake low-quality signal",
+                        "acknowledged_file_quality_low": True,
+                    },
+                )
+                self.assertEqual(spoofed.returncode, 2)
+                self.assertEqual(json.loads(spoofed.stdout.decode("utf-8"))["error"]["code"], "reference_extraction_decision_failed")
+
+            continued = self.run_cmd(
+                ["decide_reference_extraction", "--db-path", str(db_path)],
+                input_obj={
+                    "decision": "continue",
+                    "reason": "Inspect manually despite noisy candidates.",
+                    "acknowledged_file_quality_low": True,
+                },
+            )
+            self.assertEqual(continued.returncode, 0, continued.stderr.decode("utf-8", errors="replace"))
+            self.assertEqual(json.loads(continued.stdout.decode("utf-8"))["next_action"], "persist_references")
+            self.assertEqual(self.run_gate(db_path)["next_action"], "persist_references")
+
+    def test_reference_free_citation_path_after_verified_abandon(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            source_path = td_path / "paper.md"
+            db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
+            source_path.write_text(
+                "\n".join(
+                    [
+                        "# Introduction",
+                        "The paper cites prior work [2] and [4] while discussing the problem.",
+                        "# References",
+                        "[2] OCRGARBAGE",
+                        "[4] BROKENLINE",
+                        "[3] DAMAGEDENTRY",
+                        "[7] SYMBOLS",
+                        "[9] FRAGMENT",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(self.run_cmd(["bootstrap_runtime_db", "--db-path", str(db_path), "--source-path", str(source_path)]).returncode, 0)
+            self.assertEqual(self._persist_render_templates(db_path).returncode, 0)
+            self.assertEqual(self.run_cmd(["normalize_source", "--db-path", str(db_path)]).returncode, 0)
+            lines = source_path.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(self.run_cmd(["persist_outline_and_scopes", "--db-path", str(db_path)], input_obj=self._outline_payload(lines, citation_line_end=2)).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", str(db_path)], input_obj=self._digest_payload()).returncode, 0)
+            self.assertTrue(self._prepare_references_workset(db_path)["file_quality_low"])
+
+            abandon = self.run_cmd(
+                ["decide_reference_extraction", "--db-path", str(db_path)],
+                input_obj={
+                    "decision": "abandon",
+                    "reason": "The deterministic candidates are too noisy to recover reliable references.",
+                    "acknowledged_file_quality_low": True,
+                },
+            )
+            self.assertEqual(abandon.returncode, 0, abandon.stderr.decode("utf-8", errors="replace"))
+            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_citation_workset")
+
+            workset = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
+            self.assertEqual(workset.returncode, 0, workset.stderr.decode("utf-8", errors="replace"))
+            workset_payload = json.loads(workset.stdout.decode("utf-8"))
+            self.assertTrue(workset_payload["reference_free_mode"])
+            self.assertEqual(workset_payload["resolved_items"], 0)
+            self.assertGreater(workset_payload["unresolved_mentions"], 0)
+
+            semantics = self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj={"items": []})
+            self.assertEqual(semantics.returncode, 0, semantics.stderr.decode("utf-8", errors="replace"))
+            timeline = self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload(early=[], mid=[], recent=[]))
+            self.assertEqual(timeline.returncode, 0, timeline.stderr.decode("utf-8", errors="replace"))
+            summary = self.run_cmd(["persist_citation_summary", "--db-path", str(db_path)], input_obj=self._citation_summary_payload(key_ref_indexes=[]))
+            self.assertEqual(summary.returncode, 0, summary.stderr.decode("utf-8", errors="replace"))
+            self.assertEqual(self.run_gate(db_path)["next_action"], "render_and_validate")
+
+            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
+            self.assertEqual(render.returncode, 0, render.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(render.stdout.decode("utf-8"))
+            references = json.loads(Path(payload["references_path"]).read_text(encoding="utf-8"))
+            citation = json.loads(Path(payload["citation_analysis_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(references, [])
+            self.assertEqual(citation["meta"]["reference_extraction"]["status"], "abandoned")
+            self.assertEqual(citation["items"], [])
+            self.assertTrue(all(item.get("reason") == "references_abandoned_file_quality_low" for item in citation["unmapped_mentions"]))
 
     def test_persist_references_soft_quality_warnings_require_review_before_stage5(self):
         runtime_db = load_runtime_db_module()

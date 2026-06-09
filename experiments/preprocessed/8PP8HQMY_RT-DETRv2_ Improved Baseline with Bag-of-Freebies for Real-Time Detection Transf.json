@@ -1,0 +1,1536 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:41Z",
+    "entry_count": 17,
+    "candidate_count": 65,
+    "batch_count": 2,
+    "entry_style": "author-year",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "Shahin Atakishiyev, Mohammad Salameh, Hengshuai Yao, and Randy Goebel. Explainable artificial intelligence for autonomous driving: A comprehensive overview and field guide for future research directions. IEEE Access, 2024.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "Shahin Atakishiyev, Mohammad Salameh, Hengshuai Yao, and Randy Goebel. Explainable artificial intelligence for autonomous driving: A comprehensive overview and field guide for future research directions. IEEE Access, 2024."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "Joseph Redmon and Ali Farhadi. Yolo9000: better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263–7271, 2017.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "Joseph Redmon and Ali Farhadi. Yolo9000: better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263–7271, 2017."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv preprint arXiv:1804.02767, 2018.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv preprint arXiv:1804.02767, 2018."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao. Yolov4: Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934, 2020.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao. Yolov4: Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934, 2020."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "Jocher Glenn. Yolov5 release v7.0. https: // github. com/ ultralytics/ yolov5/ tree/ v7. 0 , 2022.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "Jocher Glenn. Yolov5 release v7.0. https: // github. com/ ultralytics/ yolov5/ tree/ v7. 0 , 2022."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. Pp-yoloe: An evolved version of yolo. arXiv preprint arXiv:2203.16250, 2022.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. Pp-yoloe: An evolved version of yolo. arXiv preprint arXiv:2203.16250, 2022."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0: A full-scale reloading. arXiv preprint arXiv:2301.05586, 2023.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0: A full-scale reloading. arXiv preprint arXiv:2301.05586, 2023."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "Chien-Yao Wang, Alexey Bochkovskiy, and Hong-Yuan Mark Liao. Yolov7: Trainable bag-of-freebies sets new stateof-the-art for real-time object detectors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464–7475, 2023.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "Chien-Yao Wang, Alexey Bochkovskiy, and Hong-Yuan Mark Liao. Yolov7: Trainable bag-of-freebies sets new stateof-the-art for real-time object detectors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464–7475, 2023."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "Jocher Glenn. Yolov8. https: // github. com/ ultralytics/ ultralytics/ tree/ main , 2023.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "Jocher Glenn. Yolov8. https: // github. com/ ultralytics/ ultralytics/ tree/ main , 2023."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9: Learning what you want to learn using programmable gradient information. arXiv preprint arXiv:2402.13616, 2024a.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9: Learning what you want to learn using programmable gradient information. arXiv preprint arXiv:2402.13616, 2024a."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10: Real-time end-toend object detection. arXiv preprint arXiv:2405.14458, 2024b.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10: Real-time end-toend object detection. arXiv preprint arXiv:2405.14458, 2024b."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen. Detrs beat yolos on real-time object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 16965–16974, 2024.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen. Detrs beat yolos on real-time object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 16965–16974, 2024."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. Endto-end object detection with transformers. In European Conference on Computer Vision, pages 213–229. Springer, 2020.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. Endto-end object detection with transformers. In European Conference on Computer Vision, pages 213–229. Springer, 2020."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. In International Conference on Learning Representations, 2020.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. In International Conference on Learning Representations, 2020."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778, 2016.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778, 2016."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In International Conference on Learning Representations, 2018.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In International Conference on Learning Representations, 2018."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European Conference on Computer Vision, pages 740–755. Springer, 2014.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European Conference on Computer Vision, pages 740–755. Springer, 2014."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "Shahin Atakishiyev, Mohammad Salameh, Hengshuai Yao, and Randy Goebel. Explainable artificial intelligence for autonomous driving: A comprehensive overview and field guide for future research directions. IEEE Access, 2024.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shahin Atakishiyev, Mohammad Salameh, Hengshuai Yao, and Randy Goebel",
+          "author_candidates": [
+            "Atakishiyev, Mohammad Salameh"
+          ],
+          "title_candidate": "Explainable artificial intelligence for autonomous driving: A comprehensive overview and field guide for future research directions",
+          "container_candidate": "IEEE Access,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shahin Atakishiyev, Mohammad Salameh, Hengshuai Yao, and Randy Goebel. Explainable artificial intelligence for autonomous driving",
+          "author_candidates": [
+            "Atakishiyev, Mohammad Salameh"
+          ],
+          "title_candidate": "A comprehensive overview and field guide for future research directions. IEEE Access",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shahin Atakishiyev, Mohammad Salameh, Hengshuai Yao, and Randy Goebel. Explainable artificial intelligence for autonomous driving",
+          "author_candidates": [
+            "Atakishiyev, Mohammad Salameh"
+          ],
+          "title_candidate": "A comprehensive overview and field guide for future research directions. IEEE Access, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "Joseph Redmon and Ali Farhadi. Yolo9000: better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263–7271, 2017.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolo9000: better, faster, stronger",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263–7271, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolo9000: better, faster, stronger",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263–7271,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolo9000",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolo9000"
+          ],
+          "title_candidate": "better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263–7271",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolo9000",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolo9000"
+          ],
+          "title_candidate": "better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263–7271, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv preprint arXiv:1804.02767, 2018.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolov3: An incremental improvement. arXiv preprint",
+          "container_candidate": "arXiv:1804.02767, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolov3: An incremental improvement",
+          "container_candidate": "arXiv preprint arXiv:1804.02767,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolov3",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolov3"
+          ],
+          "title_candidate": "An incremental improvement. arXiv preprint arXiv:1804.02767",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolov3",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolov3"
+          ],
+          "title_candidate": "An incremental improvement. arXiv preprint arXiv:1804.02767, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao. Yolov4: Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934, 2020.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao",
+          "author_candidates": [
+            "Bochkovskiy, Chien-Yao Wang"
+          ],
+          "title_candidate": "Yolov4: Optimal speed and accuracy of object detection. arXiv preprint",
+          "container_candidate": "arXiv:2004.10934, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao",
+          "author_candidates": [
+            "Bochkovskiy, Chien-Yao Wang"
+          ],
+          "title_candidate": "Yolov4: Optimal speed and accuracy of object detection",
+          "container_candidate": "arXiv preprint arXiv:2004.10934,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao. Yolov4",
+          "author_candidates": [
+            "Bochkovskiy, Chien-Yao Wang"
+          ],
+          "title_candidate": "Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao. Yolov4",
+          "author_candidates": [
+            "Bochkovskiy, Chien-Yao Wang"
+          ],
+          "title_candidate": "Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "Jocher Glenn. Yolov5 release v7.0. https: // github. com/ ultralytics/ yolov5/ tree/ v7. 0 , 2022.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jocher Glenn",
+          "author_candidates": [
+            "Jocher Glenn"
+          ],
+          "title_candidate": "Yolov5 release v7.0",
+          "container_candidate": "https: // github. com/ ultralytics/ yolov5/ tree/ v7. 0 ,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jocher Glenn. Yolov5 release v7.0. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolov5 release v7.0. https"
+          ],
+          "title_candidate": "// github. com/ ultralytics/ yolov5/ tree/ v7. 0",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jocher Glenn. Yolov5 release v7.0. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolov5 release v7.0. https"
+          ],
+          "title_candidate": "// github. com/ ultralytics/ yolov5/ tree/ v7. 0 , 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. Pp-yoloe: An evolved version of yolo. arXiv preprint arXiv:2203.16250, 2022.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al",
+          "author_candidates": [
+            "Xu, Xinxin Wang",
+            "Lv, Qinyao Chang",
+            "Cui, Kaipeng Deng",
+            "Wang, Qingqing Dang",
+            "Wei, Yuning Du"
+          ],
+          "title_candidate": "Pp-yoloe: An evolved version of yolo. arXiv preprint",
+          "container_candidate": "arXiv:2203.16250, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al",
+          "author_candidates": [
+            "Xu, Xinxin Wang",
+            "Lv, Qinyao Chang",
+            "Cui, Kaipeng Deng",
+            "Wang, Qingqing Dang",
+            "Wei, Yuning Du"
+          ],
+          "title_candidate": "Pp-yoloe: An evolved version of yolo",
+          "container_candidate": "arXiv preprint arXiv:2203.16250,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. Pp-yoloe",
+          "author_candidates": [
+            "Xu, Xinxin Wang",
+            "Lv, Qinyao Chang",
+            "Cui, Kaipeng Deng",
+            "Wang, Qingqing Dang",
+            "Wei, Yuning Du"
+          ],
+          "title_candidate": "An evolved version of yolo. arXiv preprint arXiv:2203.16250",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. Pp-yoloe",
+          "author_candidates": [
+            "Xu, Xinxin Wang",
+            "Lv, Qinyao Chang",
+            "Cui, Kaipeng Deng",
+            "Wang, Qingqing Dang",
+            "Wei, Yuning Du"
+          ],
+          "title_candidate": "An evolved version of yolo. arXiv preprint arXiv:2203.16250, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0: A full-scale reloading. arXiv preprint arXiv:2301.05586, 2023.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng, Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "Yolov6 v3.0: A full-scale reloading. arXiv preprint",
+          "container_candidate": "arXiv:2301.05586, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng, Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "Yolov6 v3.0: A full-scale reloading",
+          "container_candidate": "arXiv preprint arXiv:2301.05586,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng, Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "A full-scale reloading. arXiv preprint arXiv:2301.05586",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng, Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "A full-scale reloading. arXiv preprint arXiv:2301.05586, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "Chien-Yao Wang, Alexey Bochkovskiy, and Hong-Yuan Mark Liao. Yolov7: Trainable bag-of-freebies sets new stateof-the-art for real-time object detectors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464–7475, 2023.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Chien-Yao Wang, Alexey Bochkovskiy, and Hong-Yuan Mark Liao",
+          "author_candidates": [
+            "Wang, Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Yolov7: Trainable bag-of-freebies sets new stateof-the-art for real-time object detectors",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464–7475, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chien-Yao Wang, Alexey Bochkovskiy, and Hong-Yuan Mark Liao",
+          "author_candidates": [
+            "Wang, Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Yolov7: Trainable bag-of-freebies sets new stateof-the-art for real-time object detectors",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464–7475,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chien-Yao Wang, Alexey Bochkovskiy, and Hong-Yuan Mark Liao. Yolov7",
+          "author_candidates": [
+            "Wang, Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Trainable bag-of-freebies sets new stateof-the-art for real-time object detectors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464–7475",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chien-Yao Wang, Alexey Bochkovskiy, and Hong-Yuan Mark Liao. Yolov7",
+          "author_candidates": [
+            "Wang, Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Trainable bag-of-freebies sets new stateof-the-art for real-time object detectors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464–7475, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "Jocher Glenn. Yolov8. https: // github. com/ ultralytics/ ultralytics/ tree/ main , 2023.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jocher Glenn",
+          "author_candidates": [
+            "Jocher Glenn"
+          ],
+          "title_candidate": "Yolov8",
+          "container_candidate": "https: // github. com/ ultralytics/ ultralytics/ tree/ main ,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jocher Glenn. Yolov8. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolov8. https"
+          ],
+          "title_candidate": "// github. com/ ultralytics/ ultralytics/ tree/ main",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jocher Glenn. Yolov8. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolov8. https"
+          ],
+          "title_candidate": "// github. com/ ultralytics/ ultralytics/ tree/ main , 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9: Learning what you want to learn using programmable gradient information. arXiv preprint arXiv:2402.13616, 2024a.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao",
+          "author_candidates": [
+            "Wang, I-Hau Yeh"
+          ],
+          "title_candidate": "Yolov9: Learning what you want to learn using programmable gradient information. arXiv preprint",
+          "container_candidate": "arXiv:2402.13616, 2024a",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao",
+          "author_candidates": [
+            "Wang, I-Hau Yeh"
+          ],
+          "title_candidate": "Yolov9: Learning what you want to learn using programmable gradient information",
+          "container_candidate": "arXiv preprint arXiv:2402.13616, 2024a",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9",
+          "author_candidates": [
+            "Wang, I-Hau Yeh"
+          ],
+          "title_candidate": "Learning what you want to learn using programmable gradient information. arXiv preprint arXiv:2402.13616, 2024a",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9",
+          "author_candidates": [
+            "Wang, I-Hau Yeh"
+          ],
+          "title_candidate": "Learning what you want to learn using programmable gradient information. arXiv preprint arXiv:2402.13616, 2024a",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10: Real-time end-toend object detection. arXiv preprint arXiv:2405.14458, 2024b.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "venue_marker_split",
+          "author_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding",
+          "author_candidates": [
+            "Wang, Hui Chen",
+            "Liu, Kai Chen",
+            "Lin, Jungong Han"
+          ],
+          "title_candidate": "Yolov10: Real-time end-toend object detection. arXiv preprint",
+          "container_candidate": "arXiv:2405.14458, 2024b",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding",
+          "author_candidates": [
+            "Wang, Hui Chen",
+            "Liu, Kai Chen",
+            "Lin, Jungong Han"
+          ],
+          "title_candidate": "Yolov10: Real-time end-toend object detection",
+          "container_candidate": "arXiv preprint arXiv:2405.14458, 2024b",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10",
+          "author_candidates": [
+            "Wang, Hui Chen",
+            "Liu, Kai Chen",
+            "Lin, Jungong Han"
+          ],
+          "title_candidate": "Real-time end-toend object detection. arXiv preprint arXiv:2405.14458, 2024b",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10",
+          "author_candidates": [
+            "Wang, Hui Chen",
+            "Liu, Kai Chen",
+            "Lin, Jungong Han"
+          ],
+          "title_candidate": "Real-time end-toend object detection. arXiv preprint arXiv:2405.14458, 2024b",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen. Detrs beat yolos on real-time object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 16965–16974, 2024.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen",
+          "author_candidates": [
+            "Zhao, Wenyu Lv",
+            "Xu, Jinman Wei",
+            "Wang, Qingqing Dang"
+          ],
+          "title_candidate": "Detrs beat yolos on real-time object detection",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 16965–16974, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen",
+          "author_candidates": [
+            "Zhao, Wenyu Lv",
+            "Xu, Jinman Wei",
+            "Wang, Qingqing Dang"
+          ],
+          "title_candidate": "Detrs beat yolos on real-time object detection",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 16965–16974,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen",
+          "author_candidates": [
+            "Zhao, Wenyu Lv",
+            "Xu, Jinman Wei",
+            "Wang, Qingqing Dang"
+          ],
+          "title_candidate": "Detrs beat yolos on real-time object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 16965–16974",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen",
+          "author_candidates": [
+            "Zhao, Wenyu Lv",
+            "Xu, Jinman Wei",
+            "Wang, Qingqing Dang"
+          ],
+          "title_candidate": "Detrs beat yolos on real-time object detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 16965–16974, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. Endto-end object detection with transformers. In European Conference on Computer Vision, pages 213–229. Springer, 2020.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "Endto-end object detection with transformers",
+          "container_candidate": "In European Conference on Computer Vision, pages 213–229. Springer, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "Endto-end object detection with transformers",
+          "container_candidate": "In European Conference on Computer Vision, pages 213–229. Springer,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "Endto-end object detection with transformers. In European Conference on Computer Vision, pages 213–229. Springer",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "Endto-end object detection with transformers. In European Conference on Computer Vision, pages 213–229. Springer, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. In International Conference on Learning Representations, 2020.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable detr: Deformable transformers for end-to-end object detection",
+          "container_candidate": "In International Conference on Learning Representations, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable detr: Deformable transformers for end-to-end object detection",
+          "container_candidate": "In International Conference on Learning Representations,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection. In International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection. In International Conference on Learning Representations, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778, 2016.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In International Conference on Learning Representations, 2018.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Ilya Loshchilov and Frank Hutter",
+          "author_candidates": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+          ],
+          "title_candidate": "Decoupled weight decay regularization",
+          "container_candidate": "In International Conference on Learning Representations, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ilya Loshchilov and Frank Hutter",
+          "author_candidates": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+          ],
+          "title_candidate": "Decoupled weight decay regularization",
+          "container_candidate": "In International Conference on Learning Representations,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ilya Loshchilov and Frank Hutter",
+          "author_candidates": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+          ],
+          "title_candidate": "Decoupled weight decay regularization. In International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ilya Loshchilov and Frank Hutter",
+          "author_candidates": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+          ],
+          "title_candidate": "Decoupled weight decay regularization. In International Conference on Learning Representations, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European Conference on Computer Vision, pages 740–755. Springer, 2014.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft coco: Common objects in context",
+          "container_candidate": "In European Conference on Computer Vision, pages 740–755. Springer, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft coco: Common objects in context",
+          "container_candidate": "In European Conference on Computer Vision, pages 740–755. Springer,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft coco",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In European Conference on Computer Vision, pages 740–755. Springer",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft coco",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In European Conference on Computer Vision, pages 740–755. Springer, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 16,
+      "metadata": {
+        "entry_count": 2
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

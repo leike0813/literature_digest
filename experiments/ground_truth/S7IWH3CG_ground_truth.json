@@ -1,0 +1,458 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/S7IWH3CG_基于Transformer的DETR目标检测算法综述.txt",
+  "entry_style": "numeric",
+  "notes": "中文期刊格式（［］括号），50条参考文献，大部分为标准CV/DETR相关英文文献，末尾4条为中文双语文献。",
+  "items": [
+    {
+      "author": ["Alex Krizhevsky", "Ilya Sutskever", "Geoffrey E. Hinton"],
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2017,
+      "container": "Communications of the ACM, 60(6): 84-90",
+      "raw": "［1 ］ KRIZHEVSKY A， SUTSKEVER I， HINTON G E.ImageNet classification with deep convolutional neuralnetworks［J］．CommunicationsoftheACM， 2017， 60（6）：84－90．",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": ["Joseph Redmon", "Santosh Divvala", "Ross Girshick", "et al."],
+      "title": "You only look once: unified, real-time object detection",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 779-788",
+      "raw": "［2 ］ REDMONJ， DIVVALAS， GIRSHICK R， etal．Youonlylook once： unified， real－time object detection ［C ］ ∥ProceedingsoftheIEEEConferenceonComputerVisionandPatternRecognition （CVPR ）．Washington D．C． USA ：IEEEPress， 2016： 779－788．",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": ["Wei Liu", "Dragomir Anguelov", "Dumitru Erhan", "et al."],
+      "title": "SSD: single shot multibox detector",
+      "year": 2016,
+      "container": "Proceedings of ECCV, pp. 21-37",
+      "raw": "［3 ］ LIU W， ANGUELOV D， ERHAN D， etal．SSD： singleshotmultiboxdetector ［C ］∥ProceedingsofECCV,16Berlin， Germany： SpringerInternationalPublishing， 2016：21－37．",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "et al."],
+      "title": "Attention is all you need",
+      "year": 2017,
+      "container": "arXiv:1706.03762",
+      "raw": "［4 ］ VASWANIA， SHAZEERN， PARMARN， etal．Attentionisallyouneed［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／1706．03762",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": ["Alexey Dosovitskiy", "Lucas Beyer", "Alexander Kolesnikov", "et al."],
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "year": 2020,
+      "container": "arXiv:2010.11929",
+      "raw": "［5 ］ DOSOVITSKIY A， BEYER L， KOLESNIKOV A， etalAnimageisworth16×16 words： Transformersforimagerecognitionatscale［EB／OL］．［2024－01－14］．https：∥arxivorg／abs／2010．11929",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": ["Ze Liu", "Yutong Lin", "Yue Cao", "et al."],
+      "title": "Swin Transformer: hierarchical vision transformer using shifted windows",
+      "year": 2021,
+      "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9992-10002",
+      "raw": "［6 ］ LIU Z， LIN Y T， CAO Y， etal．Swin Transformer：hierarchicalvisionTransformerusingshiftedwindows［C］∥ProceedingsoftheIEEE／CVFInternationalConferenceonComputerVision （ICCV）．WashingtonD．C．， USA： IEEEPress 2021： 9992－10002",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": ["Nicolas Carion", "Francisco Massa", "Gabriel Synnaeve", "et al."],
+      "title": "End-to-end object detection with Transformers",
+      "year": 2020,
+      "container": "Proceedings of ECCV, pp. 213-229",
+      "raw": "［7 ］ CARIONN， MASSAF， SYNNAEVEG， etal．End－to－endobjectdetection with Transformers ［C ］∥ ProceedingsofECCV, 20． Berlin， Germany： Springer InternationalPublishing， 2020： 213－229",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "et al."],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770-778",
+      "raw": "［8 ］ HEK M， ZHANG X Y， RENSQ， etal．Deepresiduallearningforimagerecognition［C］∥ProceedingsoftheIEEEConference on Computer Vision and Pattern Recognition（CVPR）．WashingtonD．C．， USA：IEEEPress， 2016： 770－778．",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": ["Yudong Liu", "Yongtao Wang", "Siwei Wang", "et al."],
+      "title": "CBNet: a novel composite backbone network architecture for object detection",
+      "year": 2020,
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence, pp. 11653-11660",
+      "raw": "［9 ］ LIUYD， WANGYT， WANGSW， etal．CBNet： anovelcomposite backbone network architecture for objectdetection［C］∥ Proceedings ofthe AAAI Conference onArtificialIntelligence．PaloAlto， USA： AAAIPress， 2020：11653－11660．",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": ["Zhiqing Sun", "Shengcao Cao", "Yiming Yang", "et al."],
+      "title": "Rethinking Transformer-based set prediction for object detection",
+      "year": 2021,
+      "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 3591-3600",
+      "raw": "［10］ SUNZ Q， CAO S C， YANG Y M， etal．RethinkingTransformer－basedsetpredictionforobjectdetection［C］∥ProceedingsoftheIEEE／CVFInternationalConferenceonComputerVision （ICCV）．WashingtonD．C．， USA： IEEEPress， 2021： 3591－3600",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": ["Peng Gao", "Minghang Zheng", "Xiaogang Wang", "et al."],
+      "title": "Fast convergence of DETR with spatially modulated co-attention",
+      "year": 2021,
+      "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 3601-3610",
+      "raw": "［11］ GAOP， ZHENGMH， WANG XG， etal．FastconvergenceofDETRwithspatiallymodulatedco－attention［C］∥ProceedingsoftheIEEE／CVFInternationalConferenceon Computer Vision（ICCV）．WashingtonD．C．， USA： IEEEPress， 2021： 3601－3610．",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": ["Mingqian Ye", "Le Ke", "Siyuan Li", "et al."],
+      "title": "Cascade-DETR: delving into high-quality universal object detection",
+      "year": 2023,
+      "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 6681-6691",
+      "raw": "［12］ YEMQ， KEL， LISY， etal．Cascade－DETR： delvingintohigh－qualityuniversalobjectdetection［C］∥ProceedingsoftheIEEE／CVFInternationalConferenceonComputerVision（ICCV ）． Washington D．C．， USA： IEEE Press， 2023：6681－6691",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": ["Byungseok Roh", "JaeWoong Shin", "Woncheol Shin", "et al."],
+      "title": "Sparse DETR: efficient end-to-end object detection with learnable sparsity",
+      "year": 2021,
+      "container": "arXiv:2111.14330",
+      "raw": "［13］ ROHB， SHINJ， SHINWC， etal．SparseDETR： efficientend－to－endobjectdetectionwithlearnablesparsity［EB／OL］［2024－01－14］．https：∥arxiv．org／abs／2111．14330",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": ["Dehu Zheng", "Wenhui Dong", "Hailin Hu", "et al."],
+      "title": "Less is more: focus attention for efficient DETR",
+      "year": 2023,
+      "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 6651-6660",
+      "raw": "［14］ ZHENGD H， DONG W H， HU H L， etal．Lessismore：focusattentionforefficientDETR［C］∥ProceedingsoftheIEEE／CVF International Conference on Computer Vision（ICCV ）． Washington D．C．， USA： IEEE Press， 2023：6651－6660",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": ["王国明", "贾代旺"],
+      "title": "基于YOLOv8的小目标检测模型的优化",
+      "year": 2025,
+      "container": "计算机工程, 51(12): 294-303",
+      "raw": "［15］ 王国明 ， 贾代旺．基于 YOLOv8的 小 目标检测模型的 优 化［J］．计算机工程 ， 2025， 51（12）： 294－303．WANG G M， JIA D W． Optimization ofsmallobjectdetection model based on YOLOv8 ［J ］． ComputerEngineering， 2025， 51（12）： 294－303．（inChinese）",
+      "confidence": 0.90,
+      "entry_index": 14
+    },
+    {
+      "author": ["董刚", "谢维成", "黄小龙", "et al."],
+      "title": "深度学习小目标检测算法综述",
+      "year": 2023,
+      "container": "计算机工程与应用, 59(11): 16-27",
+      "raw": "［16］ 董刚 ， 谢维成 ， 黄小龙 ， 等．深度学习小目标检测算法综述［J］．计算机工程与应用 ， 2023， 59（11）： 16－27．DONGG， XIE W C， HUANGXL， etal．Reviewofsmallobjectdetection algorithms based on deeplearning［J］ComputerEngineeringandApplications， 2023， 59（11）： 16－27．（inChinese）",
+      "confidence": 0.90,
+      "entry_index": 15
+    },
+    {
+      "author": ["J. Zhang", "J. Huang", "Z. Luo", "et al."],
+      "title": "DA-DETR: domain adaptive detection Transformer with information fusion",
+      "year": 2021,
+      "container": "arXiv:2103.17084",
+      "raw": "［17］ ZHANGJ， HUANGJ， LUOZ， etal．DA－DETR： domainadaptivedetectionTransformerwithinformationfusion［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／2103．17084",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": ["Teng Wang", "Lu Yuan", "Yunpeng Chen", "et al."],
+      "title": "PnP-DETR: towards efficient visual analysis with Transformers",
+      "year": 2021,
+      "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 4641-4650",
+      "raw": "［18］ WANG T， YUAN L， CHEN Y P， etal．PnP－DETR ：towardsefficientvisualanalysis with Transformers［C ］∥ProceedingsoftheIEEE／CVFInternationalConferenceonComputerVision （ICCV）．WashingtonD．C．， USA： IEEEPress， 2021： 4641－4650",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": ["C. Zhang", "L. Liu", "X. Zang", "et al."],
+      "title": "DETR++: taming your multi-scale detection Transformer",
+      "year": 2022,
+      "container": "arXiv:2206.02977",
+      "raw": "［19］ ZHANGC， LIU L， ZANG X， etal．DETR＋ ＋ ： tamingyourmulti－scaledetectionTransformer［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／2206．02977",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": ["Mingxing Tan", "Ruoming Pang", "Quoc V. Le"],
+      "title": "EfficientDet: scalable and efficient object detection",
+      "year": 2020,
+      "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 1-9",
+      "raw": "［20］ TAN MX， PANGRM， LEQV．EfficientDet： scalableandefficientobjectdetection［C］∥ProceedingsoftheIEEE／CVFConferenceon Computer Vision and Pattern Recognition（CVPR）．WashingtonD．C．， USA：IEEEPress， 2020： 1－9",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": ["Zhuofan Zong", "Guanglu Song", "Yu Liu"],
+      "title": "DETRs with collaborative hybrid assignments training",
+      "year": 2023,
+      "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 6725-6735",
+      "raw": "［21］ ZONGZF， SONGGL， LIUY．DETRswithcollaborativehybridassignmentstraining［C］∥ProceedingsoftheIEEE／CVFInternationalConferenceonComputerVision （ICCV）WashingtonD．C．， USA： IEEEPress， 2023： 6725－6735",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": ["Zhuofan Yao", "Jianfeng Ai", "Baojun Li", "et al."],
+      "title": "Efficient DETR: improving end-to-end object detector with dense prior",
+      "year": 2021,
+      "container": "arXiv:2104.01318",
+      "raw": "［22］ YAOZ， AIJ， LIB， etal．EfficientDETR： improvingend－to－endobjectdetectorwithdenseprior［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／2104．01318",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": ["Depu Meng", "Xiaokang Chen", "Zejian Fan", "et al."],
+      "title": "Conditional DETR for fast training convergence",
+      "year": 2021,
+      "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 3631-3640",
+      "raw": "［23］ MENGDP， CHENXK， FANZJ， etal．ConditionalDETRforfasttrainingconvergence［C］∥ProceedingsoftheIEEE／CVFInternationalConferenceonComputerVision （ICCV）WashingtonD．C．， USA： IEEEPress， 2021： 3631－3640",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": ["Xiu Chen", "Fangyun Wei", "Gang Zeng", "et al."],
+      "title": "Conditional DETR V2: efficient detection Transformer with box queries",
+      "year": 2022,
+      "container": "arXiv:2207.08914",
+      "raw": "［24］ CHENX， WEIF， ZENGG， etal．ConditionalDETRV2：efficientdetectionTransformerwithboxqueries［EB／OL］［2024－01－14］．https：∥arxiv．org／abs／2207．08914",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": ["Yingming Wang", "Xiangyu Zhang", "Tao Yang", "et al."],
+      "title": "Anchor DETR: query design for Transformer-based detector",
+      "year": 2022,
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence, pp. 2567-2575",
+      "raw": "［25］ WANG Y M， ZHANG X Y， YANG T， etal．AnchorDETR ：querydesignforTransformer－baseddetector［C］∥Proceedings of the AAAI Conference on ArtificialIntelligence．Palo Alto， USA： AAAIPress， 2022： 2567－2575．",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": ["Shilong Liu", "Feng Li", "Hao Zhang", "et al."],
+      "title": "DAB-DETR: dynamic anchor boxes are better queries for DETR",
+      "year": 2022,
+      "container": "arXiv:2201.12329",
+      "raw": "［26］ LIUS， LIF， ZHANG H， etal．DAB－DETR： dynamicanchorboxesarebetterqueriesforDETR［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／2201．12329．",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": ["Y. Liu", "Y. Zhang", "Y. Wang", "et al."],
+      "title": "SAP-DETR: bridging the gap between salient points and queries-based Transformer detector for fast model convergency",
+      "year": 2023,
+      "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 15539-15547",
+      "raw": "［27］ LIU Y， ZHANG Y， WANG Y X， etal．SAP－DETR ：bridgingthegapbetweensalientpointsandqueries－based Transformerdetectorforfast modelconvergency［C ］∥ ProceedingsoftheIEEE／CVF Conference on Computer VisionandPatternRecognition （CVPR）．WashingtonD．C．， USA： IEEEPress， 2023： 15539－15547",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": ["Feng Li", "Hao Zhang", "Shilong Liu", "et al."],
+      "title": "DN-DETR: accelerate DETR training by introducing query DeNoising",
+      "year": 2022,
+      "container": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 13609-13617",
+      "raw": "［28］ LIF， ZHANG H， LIUSL， etal．DN－DETR： accelerateDETR training byintroducing query DeNoising ［C ］∥ProceedingsoftheIEEE／CVF Conference on ComputerVisionandPatternRecognition （CVPR）．WashingtonD．C．，USA： IEEEPress， 2022： 13609－13617",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": ["Hao Zhang", "Feng Li", "Shilong Liu", "et al."],
+      "title": "DINO: DETR with improved denoising anchor boxes for end-to-end object detection",
+      "year": 2022,
+      "container": "arXiv:2203.03605",
+      "raw": "［29］ ZHANG H， LI F， LIU S， etal．DINO： DETR withimproved denoising anchor boxes for end－to－end objectdetection［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／2203．03605",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": ["Qiang Chen", "Xiaokang Chen", "Jian Wang", "et al."],
+      "title": "Group DETR: fast DETR training with group-wise one-to-many assignment",
+      "year": 2023,
+      "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 6610-6619",
+      "raw": "［30］ CHENQ， CHENXK， WANG J， etal．GroupDETR： fastDETRtrainingwithgroup－wiseone－to－manyassignment［C］∥Proceedingsofthe IEEE／CVF International Conference onComputerVision （ICCV）．Washington D．C．， USA： IEEEPress， 2023： 6610－6619．",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": ["Ding Jia", "Yuhui Yuan", "Haodi He", "et al."],
+      "title": "DETRs with hybrid matching",
+      "year": 2023,
+      "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 19702-19712",
+      "raw": "［31］ JIAD， YUAN Y H， HE H D， etal．DETRswithhybridmatching［C］∥ProceedingsoftheIEEE／CVFConferenceonComputer Vision and Pattern Recognition （CVPR ）WashingtonD．C．， USA： IEEEPress， 2023： 19702－19712",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": ["潘晓英", "贾凝心", "穆元震", "et al."],
+      "title": "小目标检测研究综述",
+      "year": 2023,
+      "container": "中国图象图形学报, 28(9): 2587-2615",
+      "raw": "［32］ 潘晓英 ， 贾凝心 ， 穆元震 ， 等．小目标检测研究综述 ［J］．中国图象图形学报 2023 28（9）： 2587－2615PANXY， JIANX， MUYZ， etal．Surveyofsmallobjectdetection［J］．JournalofImageandGraphics， 2023， 28（9）：2587－2615．（inChinese）",
+      "confidence": 0.90,
+      "entry_index": 31
+    },
+    {
+      "author": ["王福军", "王星", "王柯迪"],
+      "title": "基于双域查询增强Transformer的遥感图像旋转小目标检测",
+      "year": 2025,
+      "container": "吉林大学学报(理学版), 63(5): 1418-1426",
+      "raw": "［33］ 王福军 ， 王星 ， 王柯迪．基于双域查询增强 Transformer的遥 感 图 像 旋 转 小 目 标 检 测 ［J］．吉 林 大 学 学 报 （理 学 版 ） ，2025 63（5） 14181426WANGFJ， WANGX， WANGKD．Rotatedsmallobjectdetectionofremotesensingimagesbasedondual－domainqueryenhancedTransformer［J］．JournalofJilinUniversity（ScienceEdition）， 2025， 63（5）： 1418－1426．（inChinese）",
+      "confidence": 0.90,
+      "entry_index": 32
+    },
+    {
+      "author": ["Feng Li", "Ailing Zeng", "Shilong Liu", "et al."],
+      "title": "Lite DETR: an interleaved multi-scale encoder for efficient DETR",
+      "year": 2023,
+      "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 18558-18567",
+      "raw": "［34］ LIF， ZENG A L， LIU S L， etal．Lite DETR： aninterleaved multi－scaleencoderforefficientDETR ［C ］∥ProceedingsoftheIEEE／CVF Conference on ComputerVisionandPatternRecognition （CVPR）．WashingtonD．C．，USA： IEEEPress， 2023： 18558－18567",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": ["Y. Zhao", "W. Lv", "S. Xu", "et al."],
+      "title": "DETRs beat YOLOs on real-time object detection",
+      "year": 2023,
+      "container": "arXiv:2304.08069",
+      "raw": "［35］ ZHAOY， LÜ W， XUS， etal．DETRsbeatYOLOsonreal－timeobjectdetection ［EB／OL］． ［2024－01－14］．https： ∥arxiv．org／abs／2304．08069．",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": ["G. Zhang", "Z. Luo", "K. Cui", "et al."],
+      "title": "Meta-DETR: image-level few-shot object detection with inter-class correlation exploitation",
+      "year": 2021,
+      "container": "arXiv:2103.11731",
+      "raw": "［36］ ZHANGG， LUO Z， CUIK， etal．Meta－DETR： image－levelfew－shotobjectdetection withinter－classcorrelationexploitation［EB／OL］． ［2024－01－14］．https：∥arxiv．org／abs／2103．11731",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": ["Adrian Bulat", "Ricardo Guerrero", "Brais Martinez", "et al."],
+      "title": "FS-DETR: few-shot detection Transformer with prompting and without re-training",
+      "year": 2023,
+      "container": "2023 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 11759-11768",
+      "raw": "［37］ BULAT A， GUERRERO R， MARTINEZ B， etal．FS－DETR： few－shotdetectionTransformerwithpromptingandwithoutre－training［C ］∥ ProceedingsoftheIEEE／CVFInternational Conference on Computer Vision （ICCV ）WashingtonD．C．， USA： IEEEPress， 2023： 11759－11768．",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": ["Alec Radford", "Jong Wook Kim", "Chris Hallacy", "et al."],
+      "title": "Learning transferable visual models from natural language supervision",
+      "year": 2021,
+      "container": "arXiv:2103.00020",
+      "raw": "［38］ RADFORD A， KIM J， HALLACY C， etal．LearningTransferablevisualmodelsfromnaturallanguagesupervision［EB／OL］． ［2024－01－14］．https： ∥arxiv．org／abs／2103.00020．",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": ["Alec Radford", "Karthik Narasimhan"],
+      "title": "Improving language understanding by generative pre-training",
+      "year": 2018,
+      "container": "OpenAI",
+      "raw": "［39］ RADFORD A， NARASIMHAN K．Improving language understandingbygenerativepre－training［EB／OL］． ［2024－01－14］．https：∥www．semanticscholar．org/paper/Improving-Language-Understanding-by-Generative-Radford-Narasimhan/cd18800a0fe0b668a1cc19f2ec95b5003d0a5035",
+      "confidence": 0.90,
+      "entry_index": 38
+    },
+    {
+      "author": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "et al."],
+      "title": "BERT: pre-training of deep bidirectional Transformers for language understanding",
+      "year": 2018,
+      "container": "arXiv:1810.04805",
+      "raw": "［40］ DEVLINJ， CHANG M W， LEE K， etal．BERT ： pre－training of deep bidirectional Transformers forlanguageunderstanding［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／1810．04805",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": ["Zhiguo Dai", "Bolun Cai", "Yinggong Lin", "et al."],
+      "title": "Unsupervised pre-training for detection Transformers",
+      "year": 2023,
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(11): 12772-12782",
+      "raw": "［41］ DAIZ G， CAIB L， LIN Y G， etal．Unsupervisedpre－trainingfordetectionTransformers［J］．IEEETransactionsonPatternAnalysisandMachineIntelligence， 2023， 45（11）：12772－12782",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": ["Mathilde Caron", "Ishan Misra", "Julien Mairal", "et al."],
+      "title": "Unsupervised learning of visual features by contrasting cluster assignments",
+      "year": 2020,
+      "container": "arXiv:2006.09882",
+      "raw": "［42］ CARON M， MISRAI， MAIRALJ， etal．Unsupervisedlearningofvisualfeaturesbycontrastingclusterassignments［EB／OL］． ［2024－01－14］．https： ∥arxiv．org／abs／2006．09882．",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": ["Zhiwei Chen", "Guangshuai Huang", "Wei Li", "et al."],
+      "title": "Siamese DETR",
+      "year": 2023,
+      "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 15722-15731",
+      "raw": "［43］ CHENZR， HUANGGS， LIW， etal．SiameseDETR［C］∥ProceedingsoftheIEEE／CVFConferenceonComputerVisionandPatternRecognition （CVPR）．WashingtonD．C．， USA ：IEEEPress， 2023： 15722－15731．",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": ["Shilong Liu", "Shijia Huang", "Feng Li", "et al."],
+      "title": "DQ-DETR: dual query detection Transformer for phrase extraction and grounding",
+      "year": 2023,
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence, pp. 1728-1736",
+      "raw": "［44］ LIUSL， HUANGSJ， LIF， etal．DQ－DETR： dualquerydetectionTransformerforphraseextractionandgrounding［C］∥ProceedingsoftheAAAIConferenceonArtificialIntelligencePaloAlto USA AAAIPress 2023 17281736",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": ["Aishwarya Kamath", "Mannat Singh", "Yann LeCun", "et al."],
+      "title": "MDETR — modulated detection for end-to-end multi-modal understanding",
+      "year": 2021,
+      "container": "2021 IEEE/CVF International Conference on Computer Vision (ICCV), pp. 1760-1770",
+      "raw": "［45］ KAMATH A， SINGH M， LECUN Y， etal．MDETR—modulated detection for end－to－end multi－modalunderstanding ［ C ］ ∥ Proceedings of the IEEE／CVFInternational Conference on Computer Vision （ICCV ）WashingtonD．C．， USA： IEEEPress， 2021： 1760－1770",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": ["Fengyuan Shi", "Ruiqi Gao", "Wenli Huang", "et al."],
+      "title": "Dynamic MDETR: a dynamic multimodal Transformer decoder for visual grounding",
+      "year": 2024,
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 46(2): 1181-1198",
+      "raw": "［46］ SHIF Y， GAO R P， HUANG W L， etal．DynamicMDETR： adynamic multimodalTransformerdecoderforvisualgrounding［J］．IEEETransactionsonPatternAnalysisandMachineIntelligence 2024 46（2）： 1181－1198",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": ["Yuhang Zang", "Wei Li", "Kaiyang Zhou", "et al."],
+      "title": "Open-vocabulary DETR with conditional matching",
+      "year": 2022,
+      "container": "European Conference on Computer Vision (ECCV), pp. 106-122",
+      "raw": "［47］ ZANG Y H， LI W， ZHOU K Y， etal．Open－vocabularyDETR withconditionalmatching［C ］∥ProceedingsoftheEuropeanConferenceonComputerVision．Berlin， Germany：SpringerNatureSwitzerland， 2022： 106－122",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": ["Jiannan Wang", "Aixin Sun", "Hao Zhang", "et al."],
+      "title": "MS-DETR: natural language video localization with sampling moment-moment interaction",
+      "year": 2023,
+      "container": "arXiv:2305.18969",
+      "raw": "［48］ WANGJ， SUN A， ZHANG H， etal．MS－DETR： naturallanguagevideolocalization withsampling moment－momentinteraction［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／2305．18969．",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": ["周丽娟", "毛嘉宁"],
+      "title": "视觉Transformer识别任务研究综述",
+      "year": 2023,
+      "container": "中国图象图形学报, 28(10): 2969-3003",
+      "raw": "［49］ 周丽娟 ， 毛嘉宁．视觉 Transformer识别任务研究综述 ［J］中国图象图形学报 ， 2023， 28（10）： 2969－3003．ZHOU L J， MAO J N． Vision Transformer－basedrecognitiontasks： acriticalreview［J］．JournalofImageandGraphics， 2023， 28（10）： 2969－3003．（inChinese）",
+      "confidence": 0.90,
+      "entry_index": 48
+    },
+    {
+      "author": ["王杨", "宋世佳", "王鹤琴", "et al."],
+      "title": "基于改进Vision Transformer的局部光照一致性估计",
+      "year": 2025,
+      "container": "计算机工程, 51(2): 312-321",
+      "raw": "［50］ 王杨 ， 宋世佳 ， 王鹤琴 ， 等．基于改进 VisionTransformer的局部光照一致性估计 ［J］．计算机工程 ， 2025， 51（2）： 312－321．WANGY， SONGSJ， WANG H Q， etal．Estimationoflocalillumination consistency based onimproved VisionTransformer［J］．ComputerEngineering， 2025， 51（2）： 312－321．（inChinese）",
+      "confidence": 0.90,
+      "entry_index": 49
+    }
+  ]
+}

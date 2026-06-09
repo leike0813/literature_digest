@@ -1,0 +1,3859 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:42Z",
+    "entry_count": 46,
+    "candidate_count": 162,
+    "batch_count": 4,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 4,
+    "requires_split_review": true,
+    "review_generation_id": "review-a52d3df9"
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. SemanticKITTI: A dataset for semantic scene understanding of lidar sequences. In Proceedings of the IEEE International Conference on Computer Vision, pages 9297–9307, 2019.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. SemanticKITTI: A dataset for semantic scene understanding of lidar sequences. In Proceedings of the IEEE International Conference on Computer Vision, pages 9297–9307, 2019."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] Serge Belongie, Jitendra Malik, and Jan Puzicha. Shape context: A new descriptor for shape matching and object recognition. In Advances in neural information processing systems, pages 831–837, 2001.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] Serge Belongie, Jitendra Malik, and Jan Puzicha. Shape context: A new descriptor for shape matching and object recognition. In Advances in neural information processing systems, pages 831–837, 2001."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] Holger Caesar, Varun Bankiti, Alex H. Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom. nuScenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027, 2019.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] Holger Caesar, Varun Bankiti, Alex H. Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom. nuScenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027, 2019."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. Semantic image segmentation with deep convolutional nets and fully connected crfs. arXiv preprint arXiv:1412.7062, 2014.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. Semantic image segmentation with deep convolutional nets and fully connected crfs. arXiv preprint arXiv:1412.7062, 2014."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv preprint arXiv:1706.05587, 2017.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv preprint arXiv:1706.05587, 2017."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam. Encoder-decoder with atrous separable convolution for semantic image segmentation. In Proceedings of the European Conference on Computer Vision, pages 801–818, 2018.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam. Encoder-decoder with atrous separable convolution for semantic image segmentation. In Proceedings of the European Conference on Computer Vision, pages 801–818, 2018."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, and Tian Xia. Multi-view 3d object detection network for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1907–1915, 2017.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, and Tian Xia. Multi-view 3d object detection network for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1907–1915, 2017."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] Matthias Fey and Jan E. Lenssen. Fast graph representation learning with PyTorch Geometric. In ICLR workshop on representation learning on graphs and manifolds, 2019.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] Matthias Fey and Jan E. Lenssen. Fast graph representation learning with PyTorch Geometric. In ICLR workshop on representation learning on graphs and manifolds, 2019."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] A. Geiger, P. Lenz, and R. Urtasun. Are we ready for autonomous driving? The KITTI vision benchmark suite. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3354–3361, 2012.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] A. Geiger, P. Lenz, and R. Urtasun. Are we ready for autonomous driving? The KITTI vision benchmark suite. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3354–3361, 2012."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] Jakob Geyer, Yohannes Kassahun, Mentar Mahmudi, Xavier Ricou, Rupesh Durgesh, Andrew S. Chung, Lorenz Hauswald, Viet Hoang Pham, Maximilian Muhlegg, Sebas- ¨ tian Dorn, Tiffany Fernandez, Martin Janicke, Sudesh Mi-¨ rashi, Chiragkumar Savani, Martin Sturm, Oleksandr Vorobiov, and Peter Schuberth. A2D2: AEV autonomous driving dataset. 2019.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] Jakob Geyer, Yohannes Kassahun, Mentar Mahmudi, Xavier Ricou, Rupesh Durgesh, Andrew S. Chung, Lorenz Hauswald, Viet Hoang Pham, Maximilian Muhlegg, Sebas- ¨ tian Dorn, Tiffany Fernandez, Martin Janicke, Sudesh Mi-¨ rashi, Chiragkumar Savani, Martin Sturm, Oleksandr Vorobiov, and Peter Schuberth. A2D2: AEV autonomous driving dataset. 2019."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] T Hackel, N Savinov, L Ladicky, JD Wegner, K Schindler, and M Pollefeys. SEMANTIC3D. NET: a new large-scale point cloud classification benchmark. ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, pages 91–98, 2017.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] T Hackel, N Savinov, L Ladicky, JD Wegner, K Schindler, and M Pollefeys. SEMANTIC3D. NET: a new large-scale point cloud classification benchmark. ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, pages 91–98, 2017."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] Qingyong Hu, Bo Yang, Linhai Xie, Stefano Rosa, Yulan Guo, Zhihua Wang, Niki Trigoni, and Andrew Markham. RandLA-Net: Efficient semantic segmentation of large-scale",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] Qingyong Hu, Bo Yang, Linhai Xie, Stefano Rosa, Yulan Guo, Zhihua Wang, Niki Trigoni, and Andrew Markham. RandLA-Net: Efficient semantic segmentation of large-scale"
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2020.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2020."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[13] Qiangui Huang, Weiyue Wang, and Ulrich Neumann. Recurrent slice networks for 3d segmentation of point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2626–2635, 2018.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[13] Qiangui Huang, Weiyue Wang, and Ulrich Neumann. Recurrent slice networks for 3d segmentation of point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2626–2635, 2018."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[14] Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, and Steven L Waslander. Joint 3d proposal generation and object detection from view aggregation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, pages 1–8, 2018.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[14] Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, and Steven L Waslander. Joint 3d proposal generation and object detection from view aggregation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, pages 1–8, 2018."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[15] Loic Landrieu and Martin Simonovsky. Large-scale point cloud semantic segmentation with superpoint graphs. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4558–4567, 2018.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[15] Loic Landrieu and Martin Simonovsky. Large-scale point cloud semantic segmentation with superpoint graphs. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4558–4567, 2018."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[16] Alex H Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, and Oscar Beijbom. PointPillars: Fast encoders for object detection from point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 12697–12705, 2019.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[16] Alex H Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, and Oscar Beijbom. PointPillars: Fast encoders for object detection from point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 12697–12705, 2019."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[17] Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, ´ Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2117–2125, 2017.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[17] Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, ´ Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2117–2125, 2017."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[18] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431–3440, 2015.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[18] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431–3440, 2015."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[19] Andres Milioto and C Stachniss. RangeNet++: Fast and accurate LiDAR semantic segmentation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[19] Andres Milioto and C Stachniss. RangeNet++: Fast and accurate LiDAR semantic segmentation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[20] Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. Automatic differentiation in PyTorch. In NIPS autodiff workshop, 2017.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[20] Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. Automatic differentiation in PyTorch. In NIPS autodiff workshop, 2017."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[21] Charles R Qi, Wei Liu, Chenxia Wu, Hao Su, and Leonidas J Guibas. Frustum pointnets for 3d object detection from rgbd data. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 918–927, 2018.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[21] Charles R Qi, Wei Liu, Chenxia Wu, Hao Su, and Leonidas J Guibas. Frustum pointnets for 3d object detection from rgbd data. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 918–927, 2018."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[22] Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet: Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 652–660, 2017.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[22] Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet: Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 652–660, 2017."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[23] Charles Ruizhongtai Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++: Deep hierarchical feature learning on point sets in a metric space. In Advances in neural information processing systems, pages 5099–5108, 2017. 2, 3, 6,",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[23] Charles Ruizhongtai Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++: Deep hierarchical feature learning on point sets in a metric space.",
+        "In Advances in neural information processing systems, pages 5099–5108, 2017. 2, 3, 6,"
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[24] Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv preprint arXiv:1804.02767, 2018.",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[24] Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv preprint arXiv:1804.02767, 2018."
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[25] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical Image Computing",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[25] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical Image Computing"
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "and Computer Assisted Intervention, pages 234–241, 2015.",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "and Computer Assisted Intervention, pages 234–241, 2015."
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[26] Xavier Roynard, Jean-Emmanuel Deschaud, and Franc¸ois Goulette. Paris-Lille-3D: A large and high-quality groundtruth urban point cloud dataset for automatic segmentation and classification. The International Journal of Robotics Research, 37(6):545–557, 2018.",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[26] Xavier Roynard, Jean-Emmanuel Deschaud, and Franc¸ois Goulette. Paris-Lille-3D: A large and high-quality groundtruth urban point cloud dataset for automatic segmentation and classification. The International Journal of Robotics Research, 37(6):545–557, 2018."
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[27] Shaoshuai Shi, Xiaogang Wang, and Hongsheng Li. Pointrcnn: 3d object proposal generation and detection from point cloud. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–779, 2019.",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[27] Shaoshuai Shi, Xiaogang Wang, and Hongsheng Li. Pointrcnn: 3d object proposal generation and detection from point cloud. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–779, 2019."
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "[28] Martin Simon, Stefan Milz, Karl Amende, and Horst-Michael Gross. Complex-yolo: An euler-region-proposal for real-time 3D object detection on point clouds. In Proceedings of the European Conference on Computer Vision, pages 197–209, 2018.",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "[28] Martin Simon, Stefan Milz, Karl Amende, and Horst-Michael Gross. Complex-yolo: An euler-region-proposal for real-time 3D object detection on point clouds. In Proceedings of the European Conference on Computer Vision, pages 197–209, 2018."
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "[29] Pei Sun, Henrik Kretzschmar, Xerxes Dotiwalla, Aurelien Chouard, Vijaysai Patnaik, Paul Tsui, James Guo, Yin Zhou, Yuning Chai, Benjamin Caine, et al. Scalability in perception for autonomous driving: Waymo open dataset. arXiv preprint arXiv:1912.04838, 2019.",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "[29] Pei Sun, Henrik Kretzschmar, Xerxes Dotiwalla, Aurelien Chouard, Vijaysai Patnaik, Paul Tsui, James Guo, Yin Zhou, Yuning Chai, Benjamin Caine, et al. Scalability in perception for autonomous driving: Waymo open dataset. arXiv preprint arXiv:1912.04838, 2019."
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "[30] Maxim Tatarchenko, Jaesik Park, Vladlen Koltun, and Qian-Yi Zhou. Tangent convolutions for dense prediction in 3D. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3887–3896, 2018.",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "[30] Maxim Tatarchenko, Jaesik Park, Vladlen Koltun, and Qian-Yi Zhou. Tangent convolutions for dense prediction in 3D. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3887–3896, 2018."
+      ]
+    },
+    {
+      "block_index": 64,
+      "source_text": "[31] Lyne Tchapmi, Christopher Choy, Iro Armeni, JunYoung Gwak, and Silvio Savarese. Segcloud: Semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 537–547, 2017.",
+      "line_start": 65,
+      "line_end": 65,
+      "proposed_entries": [
+        "[31] Lyne Tchapmi, Christopher Choy, Iro Armeni, JunYoung Gwak, and Silvio Savarese. Segcloud: Semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 537–547, 2017."
+      ]
+    },
+    {
+      "block_index": 66,
+      "source_text": "[32] Petar Velickovi ˇ c, Guillem Cucurull, Arantxa Casanova, ´ Adriana Romero, Pietro Lio, and Yoshua Bengio. Graph \\` attention networks. International Conference on Learning Representations, 2018.",
+      "line_start": 67,
+      "line_end": 67,
+      "proposed_entries": [
+        "[32] Petar Velickovi ˇ c, Guillem Cucurull, Arantxa Casanova, ´ Adriana Romero, Pietro Lio, and Yoshua Bengio. Graph \\` attention networks. International Conference on Learning Representations, 2018."
+      ]
+    },
+    {
+      "block_index": 68,
+      "source_text": "[33] Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, and Kilian Weinberger. Pseudo-lidar from visual depth estimation: Bridging the gap in 3D object detection for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8445–8453, 2019.",
+      "line_start": 69,
+      "line_end": 69,
+      "proposed_entries": [
+        "[33] Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, and Kilian Weinberger. Pseudo-lidar from visual depth estimation: Bridging the gap in 3D object detection for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8445–8453, 2019."
+      ]
+    },
+    {
+      "block_index": 70,
+      "source_text": "[34] Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E Sarma, Michael M Bronstein, and Justin M Solomon. Dynamic graph cnn for learning on point clouds. ACM Transactions on Graphics, 38(5):146, 2019.",
+      "line_start": 71,
+      "line_end": 71,
+      "proposed_entries": [
+        "[34] Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E Sarma, Michael M Bronstein, and Justin M Solomon. Dynamic graph cnn for learning on point clouds. ACM Transactions on Graphics, 38(5):146, 2019."
+      ]
+    },
+    {
+      "block_index": 72,
+      "source_text": "[35] Bichen Wu, Alvin Wan, Xiangyu Yue, and Kurt Keutzer. Squeezeseg: Convolutional neural nets with recurrent crf for real-time road-object segmentation from 3d lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 1887–1893, 2018.",
+      "line_start": 73,
+      "line_end": 73,
+      "proposed_entries": [
+        "[35] Bichen Wu, Alvin Wan, Xiangyu Yue, and Kurt Keutzer. Squeezeseg: Convolutional neural nets with recurrent crf for real-time road-object segmentation from 3d lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 1887–1893, 2018."
+      ]
+    },
+    {
+      "block_index": 74,
+      "source_text": "[36] Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, and Kurt Keutzer. Squeezesegv2: Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 4376– 4382, 2019.",
+      "line_start": 75,
+      "line_end": 75,
+      "proposed_entries": [
+        "[36] Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, and Kurt Keutzer. Squeezesegv2: Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 4376– 4382, 2019."
+      ]
+    },
+    {
+      "block_index": 76,
+      "source_text": "[37] Yan Yan, Yuxing Mao, and Bo Li. Second: Sparsely embedded convolutional detection. Sensors, 18(10):3337, 2018.",
+      "line_start": 77,
+      "line_end": 77,
+      "proposed_entries": [
+        "[37] Yan Yan, Yuxing Mao, and Bo Li. Second: Sparsely embedded convolutional detection. Sensors, 18(10):3337, 2018."
+      ]
+    },
+    {
+      "block_index": 78,
+      "source_text": "[38] Bin Yang, Wenjie Luo, and Raquel Urtasun. PIXOR: Realtime 3d object detection from point clouds. In Proceedings",
+      "line_start": 79,
+      "line_end": 79,
+      "proposed_entries": [
+        "[38] Bin Yang, Wenjie Luo, and Raquel Urtasun. PIXOR: Realtime 3d object detection from point clouds. In Proceedings"
+      ]
+    },
+    {
+      "block_index": 80,
+      "source_text": "of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7652–7660, 2018.",
+      "line_start": 81,
+      "line_end": 81,
+      "proposed_entries": [
+        "of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7652–7660, 2018."
+      ]
+    },
+    {
+      "block_index": 82,
+      "source_text": "[39] Fisher Yu and Vladlen Koltun. Multi-scale context aggregation by dilated convolutions. In International Conference on Learning Representations, 2016.",
+      "line_start": 83,
+      "line_end": 83,
+      "proposed_entries": [
+        "[39] Fisher Yu and Vladlen Koltun. Multi-scale context aggregation by dilated convolutions. In International Conference on Learning Representations, 2016."
+      ]
+    },
+    {
+      "block_index": 84,
+      "source_text": "[40] Fisher Yu, Vladlen Koltun, and Thomas Funkhouser. Dilated residual networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 472–480, 2017.",
+      "line_start": 85,
+      "line_end": 85,
+      "proposed_entries": [
+        "[40] Fisher Yu, Vladlen Koltun, and Thomas Funkhouser. Dilated residual networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 472–480, 2017."
+      ]
+    },
+    {
+      "block_index": 86,
+      "source_text": "[41] Chris Zhang, Wenjie Luo, and Raquel Urtasun. Efficient convolutions for real-time semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 399–408, 2018.",
+      "line_start": 87,
+      "line_end": 87,
+      "proposed_entries": [
+        "[41] Chris Zhang, Wenjie Luo, and Raquel Urtasun. Efficient convolutions for real-time semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 399–408, 2018."
+      ]
+    },
+    {
+      "block_index": 88,
+      "source_text": "[42] Richard Zhang, Stefan A Candra, Kai Vetter, and Avideh Zakhor. Sensor fusion for semantic segmentation of urban scenes. In Proceedings of the International Conference on Robotics and Automation, pages 1850–1857, 2015.",
+      "line_start": 89,
+      "line_end": 89,
+      "proposed_entries": [
+        "[42] Richard Zhang, Stefan A Candra, Kai Vetter, and Avideh Zakhor. Sensor fusion for semantic segmentation of urban scenes. In Proceedings of the International Conference on Robotics and Automation, pages 1850–1857, 2015."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. SemanticKITTI: A dataset for semantic scene understanding of lidar sequences. In Proceedings of the IEEE International Conference on Computer Vision, pages 9297–9307, 2019.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "venue_marker_split",
+          "author_text": "Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall",
+          "author_candidates": [
+            "Behley, Martin Garbade",
+            "Milioto, Jan Quenzel",
+            "Behnke, Cyrill Stachniss"
+          ],
+          "title_candidate": "SemanticKITTI: A dataset for semantic scene understanding of lidar sequences",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision, pages 9297–9307, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall",
+          "author_candidates": [
+            "Behley, Martin Garbade",
+            "Milioto, Jan Quenzel",
+            "Behnke, Cyrill Stachniss"
+          ],
+          "title_candidate": "SemanticKITTI: A dataset for semantic scene understanding of lidar sequences",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision, pages 9297–9307,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. SemanticKITTI",
+          "author_candidates": [
+            "Behley, Martin Garbade",
+            "Milioto, Jan Quenzel",
+            "Behnke, Cyrill Stachniss"
+          ],
+          "title_candidate": "A dataset for semantic scene understanding of lidar sequences. In Proceedings of the IEEE International Conference on Computer Vision, pages 9297–9307",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, Cyrill Stachniss, and Jurgen Gall. SemanticKITTI",
+          "author_candidates": [
+            "Behley, Martin Garbade",
+            "Milioto, Jan Quenzel",
+            "Behnke, Cyrill Stachniss"
+          ],
+          "title_candidate": "A dataset for semantic scene understanding of lidar sequences. In Proceedings of the IEEE International Conference on Computer Vision, pages 9297–9307, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Serge Belongie, Jitendra Malik, and Jan Puzicha. Shape context: A new descriptor for shape matching and object recognition. In Advances in neural information processing systems, pages 831–837, 2001.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Serge Belongie, Jitendra Malik, and Jan Puzicha",
+          "author_candidates": [
+            "Belongie, Jitendra Malik"
+          ],
+          "title_candidate": "Shape context: A new descriptor for shape matching and object recognition",
+          "container_candidate": "In Advances in neural information processing systems, pages 831–837, 2001",
+          "year_candidate": 2001,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Serge Belongie, Jitendra Malik, and Jan Puzicha",
+          "author_candidates": [
+            "Belongie, Jitendra Malik"
+          ],
+          "title_candidate": "Shape context: A new descriptor for shape matching and object recognition",
+          "container_candidate": "In Advances in neural information processing systems, pages 831–837,",
+          "year_candidate": 2001,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Serge Belongie, Jitendra Malik, and Jan Puzicha. Shape context",
+          "author_candidates": [
+            "Belongie, Jitendra Malik"
+          ],
+          "title_candidate": "A new descriptor for shape matching and object recognition. In Advances in neural information processing systems, pages 831–837",
+          "container_candidate": "",
+          "year_candidate": 2001,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Serge Belongie, Jitendra Malik, and Jan Puzicha. Shape context",
+          "author_candidates": [
+            "Belongie, Jitendra Malik"
+          ],
+          "title_candidate": "A new descriptor for shape matching and object recognition. In Advances in neural information processing systems, pages 831–837, 2001",
+          "container_candidate": "",
+          "year_candidate": 2001,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Holger Caesar, Varun Bankiti, Alex H. Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom. nuScenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027, 2019.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Holger Caesar, Varun Bankiti, Alex H",
+          "author_candidates": [
+            "Caesar, Varun Bankiti"
+          ],
+          "title_candidate": "Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom. nuScenes: A multimodal dataset for autonomous driving. arXiv preprint",
+          "container_candidate": "arXiv:1903.11027, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Holger Caesar, Varun Bankiti, Alex H",
+          "author_candidates": [
+            "Caesar, Varun Bankiti"
+          ],
+          "title_candidate": "Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom",
+          "container_candidate": "nuScenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Holger Caesar, Varun Bankiti, Alex H. Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom. nuScenes",
+          "author_candidates": [
+            "Caesar, Varun Bankiti",
+            "Lang, Sourabh Vora",
+            "Liong, Qiang Xu",
+            "Krishnan, Yu Pan"
+          ],
+          "title_candidate": "A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Holger Caesar, Varun Bankiti, Alex H. Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom. nuScenes",
+          "author_candidates": [
+            "Caesar, Varun Bankiti",
+            "Lang, Sourabh Vora",
+            "Liong, Qiang Xu",
+            "Krishnan, Yu Pan"
+          ],
+          "title_candidate": "A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. Semantic image segmentation with deep convolutional nets and fully connected crfs. arXiv preprint arXiv:1412.7062, 2014.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille",
+          "author_candidates": [
+            "Chen, George Papandreou",
+            "Kokkinos, Kevin Murphy"
+          ],
+          "title_candidate": "Semantic image segmentation with deep convolutional nets and fully connected crfs. arXiv preprint",
+          "container_candidate": "arXiv:1412.7062, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille",
+          "author_candidates": [
+            "Chen, George Papandreou",
+            "Kokkinos, Kevin Murphy"
+          ],
+          "title_candidate": "Semantic image segmentation with deep convolutional nets and fully connected crfs",
+          "container_candidate": "arXiv preprint arXiv:1412.7062,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. Semantic image segmentation with deep convolutional nets and fully connected crfs. arXiv preprint arXiv",
+          "author_candidates": [
+            "Chen, George Papandreou",
+            "Kokkinos, Kevin Murphy"
+          ],
+          "title_candidate": "1412.7062",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. Semantic image segmentation with deep convolutional nets and fully connected crfs. arXiv preprint arXiv",
+          "author_candidates": [
+            "Chen, George Papandreou",
+            "Kokkinos, Kevin Murphy"
+          ],
+          "title_candidate": "1412.7062, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv preprint arXiv:1706.05587, 2017.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "venue_marker_split",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, George Papandreou"
+          ],
+          "title_candidate": "Rethinking atrous convolution for semantic image segmentation. arXiv preprint",
+          "container_candidate": "arXiv:1706.05587, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, George Papandreou"
+          ],
+          "title_candidate": "Rethinking atrous convolution for semantic image segmentation",
+          "container_candidate": "arXiv preprint arXiv:1706.05587,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv preprint arXiv",
+          "author_candidates": [
+            "Chen, George Papandreou"
+          ],
+          "title_candidate": "1706.05587",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv preprint arXiv",
+          "author_candidates": [
+            "Chen, George Papandreou"
+          ],
+          "title_candidate": "1706.05587, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam. Encoder-decoder with atrous separable convolution for semantic image segmentation. In Proceedings of the European Conference on Computer Vision, pages 801–818, 2018.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Yukun Zhu",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision, pages 801–818, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Yukun Zhu",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision, pages 801–818,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Yukun Zhu",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Encoder-decoder with atrous separable convolution for semantic image segmentation. In Proceedings of the European Conference on Computer Vision, pages 801–818",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Yukun Zhu",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Encoder-decoder with atrous separable convolution for semantic image segmentation. In Proceedings of the European Conference on Computer Vision, pages 801–818, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, and Tian Xia. Multi-view 3d object detection network for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1907–1915, 2017.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, and Tian Xia",
+          "author_candidates": [
+            "Chen, Huimin Ma",
+            "Wan, Bo Li"
+          ],
+          "title_candidate": "Multi-view 3d object detection network for autonomous driving",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1907–1915, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, and Tian Xia",
+          "author_candidates": [
+            "Chen, Huimin Ma",
+            "Wan, Bo Li"
+          ],
+          "title_candidate": "Multi-view 3d object detection network for autonomous driving",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1907–1915,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, and Tian Xia",
+          "author_candidates": [
+            "Chen, Huimin Ma",
+            "Wan, Bo Li"
+          ],
+          "title_candidate": "Multi-view 3d object detection network for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1907–1915",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, and Tian Xia",
+          "author_candidates": [
+            "Chen, Huimin Ma",
+            "Wan, Bo Li"
+          ],
+          "title_candidate": "Multi-view 3d object detection network for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1907–1915, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Matthias Fey and Jan E. Lenssen. Fast graph representation learning with PyTorch Geometric. In ICLR workshop on representation learning on graphs and manifolds, 2019.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Matthias Fey and Jan E",
+          "author_candidates": [
+            "Matthias Fey",
+            "Jan E"
+          ],
+          "title_candidate": "Lenssen. Fast graph representation learning with PyTorch Geometric",
+          "container_candidate": "In ICLR workshop on representation learning on graphs and manifolds, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Matthias Fey and Jan E",
+          "author_candidates": [
+            "Matthias Fey",
+            "Jan E"
+          ],
+          "title_candidate": "Lenssen",
+          "container_candidate": "Fast graph representation learning with PyTorch Geometric. In ICLR workshop on representation learning on graphs and manifolds,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Matthias Fey and Jan E",
+          "author_candidates": [
+            "Matthias Fey",
+            "Jan E"
+          ],
+          "title_candidate": "Lenssen. Fast graph representation learning with PyTorch Geometric. In ICLR workshop on representation learning on graphs and manifolds",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Matthias Fey and Jan E",
+          "author_candidates": [
+            "Matthias Fey",
+            "Jan E"
+          ],
+          "title_candidate": "Lenssen. Fast graph representation learning with PyTorch Geometric. In ICLR workshop on representation learning on graphs and manifolds, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] A. Geiger, P. Lenz, and R. Urtasun. Are we ready for autonomous driving? The KITTI vision benchmark suite. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3354–3361, 2012.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "A. Geiger, P. Lenz, and R. Urtasun",
+          "author_candidates": [
+            "Geiger, P. Lenz"
+          ],
+          "title_candidate": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3354–3361, 2012",
+          "year_candidate": 2012,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "A. Geiger, P. Lenz, and R. Urtasun",
+          "author_candidates": [
+            "Geiger, P"
+          ],
+          "title_candidate": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3354–3361,",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "A. Geiger, P. Lenz, and R. Urtasun",
+          "author_candidates": [
+            "Geiger, P"
+          ],
+          "title_candidate": "Are we ready for autonomous driving? The KITTI vision benchmark suite. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3354–3361",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "A. Geiger, P. Lenz, and R. Urtasun",
+          "author_candidates": [
+            "Geiger, P"
+          ],
+          "title_candidate": "Are we ready for autonomous driving? The KITTI vision benchmark suite. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3354–3361, 2012",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Jakob Geyer, Yohannes Kassahun, Mentar Mahmudi, Xavier Ricou, Rupesh Durgesh, Andrew S. Chung, Lorenz Hauswald, Viet Hoang Pham, Maximilian Muhlegg, Sebas- ¨ tian Dorn, Tiffany Fernandez, Martin Janicke, Sudesh Mi-¨ rashi, Chiragkumar Savani, Martin Sturm, Oleksandr Vorobiov, and Peter Schuberth. A2D2: AEV autonomous driving dataset. 2019.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jakob Geyer, Yohannes Kassahun, Mentar Mahmudi, Xavier Ricou, Rupesh Durgesh, Andrew S",
+          "author_candidates": [
+            "Geyer, Yohannes Kassahun",
+            "Mahmudi, Xavier Ricou",
+            "Durgesh, Andrew S"
+          ],
+          "title_candidate": "Chung, Lorenz Hauswald, Viet Hoang Pham, Maximilian Muhlegg, Sebas- ¨ tian Dorn, Tiffany Fernandez, Martin Janicke, Sudesh Mi-¨ rashi, Chiragkumar Savani, Martin Sturm, Oleksandr Vorobiov, and Peter Schuberth",
+          "container_candidate": "A2D2: AEV autonomous driving dataset",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jakob Geyer, Yohannes Kassahun, Mentar Mahmudi, Xavier Ricou, Rupesh Durgesh, Andrew S. Chung, Lorenz Hauswald, Viet Hoang Pham, Maximilian Muhlegg, Sebas- ¨ tian Dorn, Tiffany Fernandez, Martin Janicke, Sudesh Mi-¨ rashi, Chiragkumar Savani, Martin Sturm, Oleksandr Vorobiov, and Peter Schuberth. A2D2",
+          "author_candidates": [
+            "Geyer, Yohannes Kassahun",
+            "Mahmudi, Xavier Ricou",
+            "Durgesh, Andrew S. Chung",
+            "Hauswald, Viet Hoang Pham",
+            "Muhlegg, Sebas-",
+            "Dorn, Tiffany Fernandez",
+            "Janicke, Sudesh Mi-",
+            "Savani, Martin Sturm"
+          ],
+          "title_candidate": "AEV autonomous driving dataset",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jakob Geyer, Yohannes Kassahun, Mentar Mahmudi, Xavier Ricou, Rupesh Durgesh, Andrew S. Chung, Lorenz Hauswald, Viet Hoang Pham, Maximilian Muhlegg, Sebas- ¨ tian Dorn, Tiffany Fernandez, Martin Janicke, Sudesh Mi-¨ rashi, Chiragkumar Savani, Martin Sturm, Oleksandr Vorobiov, and Peter Schuberth. A2D2",
+          "author_candidates": [
+            "Geyer, Yohannes Kassahun",
+            "Mahmudi, Xavier Ricou",
+            "Durgesh, Andrew S. Chung",
+            "Hauswald, Viet Hoang Pham",
+            "Muhlegg, Sebas-",
+            "Dorn, Tiffany Fernandez",
+            "Janicke, Sudesh Mi-",
+            "Savani, Martin Sturm"
+          ],
+          "title_candidate": "AEV autonomous driving dataset. 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] T Hackel, N Savinov, L Ladicky, JD Wegner, K Schindler, and M Pollefeys. SEMANTIC3D. NET: a new large-scale point cloud classification benchmark. ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, pages 91–98, 2017.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "T Hackel, N Savinov, L Ladicky, JD Wegner, K Schindler, and M Pollefeys",
+          "author_candidates": [
+            "Hackel, N Savinov",
+            "Ladicky, JD Wegner"
+          ],
+          "title_candidate": "SEMANTIC3D",
+          "container_candidate": "NET: a new large-scale point cloud classification benchmark. ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, pages 91–98,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "T Hackel, N Savinov, L Ladicky, JD Wegner, K Schindler, and M Pollefeys. SEMANTIC3D. NET",
+          "author_candidates": [
+            "Hackel, N Savinov",
+            "Ladicky, JD Wegner"
+          ],
+          "title_candidate": "a new large-scale point cloud classification benchmark. ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, pages 91–98",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "T Hackel, N Savinov, L Ladicky, JD Wegner, K Schindler, and M Pollefeys. SEMANTIC3D. NET",
+          "author_candidates": [
+            "Hackel, N Savinov",
+            "Ladicky, JD Wegner"
+          ],
+          "title_candidate": "a new large-scale point cloud classification benchmark. ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, pages 91–98, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Qingyong Hu, Bo Yang, Linhai Xie, Stefano Rosa, Yulan Guo, Zhihua Wang, Niki Trigoni, and Andrew Markham. RandLA-Net: Efficient semantic segmentation of large-scale",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Qingyong Hu, Bo Yang, Linhai Xie, Stefano Rosa, Yulan Guo, Zhihua Wang, Niki Trigoni, and Andrew Markham. RandLA-Net",
+          "author_candidates": [
+            "Hu, Bo Yang",
+            "Xie, Stefano Rosa",
+            "Guo, Zhihua Wang"
+          ],
+          "title_candidate": "Efficient semantic segmentation of large-scale",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2020.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "point clouds",
+          "author_candidates": [
+            "point clouds"
+          ],
+          "title_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "point clouds",
+          "author_candidates": [
+            "point clouds"
+          ],
+          "title_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "point clouds",
+          "author_candidates": [
+            "point clouds"
+          ],
+          "title_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[13] Qiangui Huang, Weiyue Wang, and Ulrich Neumann. Recurrent slice networks for 3d segmentation of point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2626–2635, 2018.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "Qiangui Huang, Weiyue Wang, and Ulrich Neumann",
+          "author_candidates": [
+            "Huang, Weiyue Wang"
+          ],
+          "title_candidate": "Recurrent slice networks for 3d segmentation of point clouds",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2626–2635, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Qiangui Huang, Weiyue Wang, and Ulrich Neumann",
+          "author_candidates": [
+            "Huang, Weiyue Wang"
+          ],
+          "title_candidate": "Recurrent slice networks for 3d segmentation of point clouds",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2626–2635,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Qiangui Huang, Weiyue Wang, and Ulrich Neumann",
+          "author_candidates": [
+            "Huang, Weiyue Wang"
+          ],
+          "title_candidate": "Recurrent slice networks for 3d segmentation of point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2626–2635",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Qiangui Huang, Weiyue Wang, and Ulrich Neumann",
+          "author_candidates": [
+            "Huang, Weiyue Wang"
+          ],
+          "title_candidate": "Recurrent slice networks for 3d segmentation of point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2626–2635, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[14] Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, and Steven L Waslander. Joint 3d proposal generation and object detection from view aggregation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, pages 1–8, 2018.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, and Steven L Waslander",
+          "author_candidates": [
+            "Ku, Melissa Mozifian",
+            "Lee, Ali Harakeh"
+          ],
+          "title_candidate": "Joint 3d proposal generation and object detection from view aggregation",
+          "container_candidate": "In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, pages 1–8, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, and Steven L Waslander",
+          "author_candidates": [
+            "Ku, Melissa Mozifian",
+            "Lee, Ali Harakeh"
+          ],
+          "title_candidate": "Joint 3d proposal generation and object detection from view aggregation",
+          "container_candidate": "In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, pages 1–8,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, and Steven L Waslander",
+          "author_candidates": [
+            "Ku, Melissa Mozifian",
+            "Lee, Ali Harakeh"
+          ],
+          "title_candidate": "Joint 3d proposal generation and object detection from view aggregation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, pages 1–8",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, and Steven L Waslander",
+          "author_candidates": [
+            "Ku, Melissa Mozifian",
+            "Lee, Ali Harakeh"
+          ],
+          "title_candidate": "Joint 3d proposal generation and object detection from view aggregation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, pages 1–8, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[15] Loic Landrieu and Martin Simonovsky. Large-scale point cloud semantic segmentation with superpoint graphs. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4558–4567, 2018.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Loic Landrieu and Martin Simonovsky",
+          "author_candidates": [
+            "Loic Landrieu",
+            "Martin Simonovsky"
+          ],
+          "title_candidate": "Large-scale point cloud semantic segmentation with superpoint graphs",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4558–4567, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Loic Landrieu and Martin Simonovsky",
+          "author_candidates": [
+            "Loic Landrieu",
+            "Martin Simonovsky"
+          ],
+          "title_candidate": "Large-scale point cloud semantic segmentation with superpoint graphs",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4558–4567,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Loic Landrieu and Martin Simonovsky",
+          "author_candidates": [
+            "Loic Landrieu",
+            "Martin Simonovsky"
+          ],
+          "title_candidate": "Large-scale point cloud semantic segmentation with superpoint graphs. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4558–4567",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Loic Landrieu and Martin Simonovsky",
+          "author_candidates": [
+            "Loic Landrieu",
+            "Martin Simonovsky"
+          ],
+          "title_candidate": "Large-scale point cloud semantic segmentation with superpoint graphs. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4558–4567, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[16] Alex H Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, and Oscar Beijbom. PointPillars: Fast encoders for object detection from point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 12697–12705, 2019.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Alex H Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, and Oscar Beijbom",
+          "author_candidates": [
+            "Lang, Sourabh Vora",
+            "Caesar, Lubing Zhou"
+          ],
+          "title_candidate": "PointPillars: Fast encoders for object detection from point clouds",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 12697–12705, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alex H Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, and Oscar Beijbom",
+          "author_candidates": [
+            "Lang, Sourabh Vora",
+            "Caesar, Lubing Zhou"
+          ],
+          "title_candidate": "PointPillars: Fast encoders for object detection from point clouds",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 12697–12705,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alex H Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, and Oscar Beijbom. PointPillars",
+          "author_candidates": [
+            "Lang, Sourabh Vora",
+            "Caesar, Lubing Zhou"
+          ],
+          "title_candidate": "Fast encoders for object detection from point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 12697–12705",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alex H Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, and Oscar Beijbom. PointPillars",
+          "author_candidates": [
+            "Lang, Sourabh Vora",
+            "Caesar, Lubing Zhou"
+          ],
+          "title_candidate": "Fast encoders for object detection from point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 12697–12705, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[17] Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, ´ Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2117–2125, 2017.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, ´ Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Dollar",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2117–2125, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, ´ Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Dollar",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2117–2125,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, ´ Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Dollar",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2117–2125",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, ´ Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Dollar",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2117–2125, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[18] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431–3440, 2015.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Jonathan Long, Evan Shelhamer, and Trevor Darrell",
+          "author_candidates": [
+            "Long, Evan Shelhamer"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431–3440, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jonathan Long, Evan Shelhamer, and Trevor Darrell",
+          "author_candidates": [
+            "Long, Evan Shelhamer"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431–3440,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jonathan Long, Evan Shelhamer, and Trevor Darrell",
+          "author_candidates": [
+            "Long, Evan Shelhamer"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431–3440",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jonathan Long, Evan Shelhamer, and Trevor Darrell",
+          "author_candidates": [
+            "Long, Evan Shelhamer"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3431–3440, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[19] Andres Milioto and C Stachniss. RangeNet++: Fast and accurate LiDAR semantic segmentation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Andres Milioto and C Stachniss",
+          "author_candidates": [
+            "Andres Milioto",
+            "C Stachniss"
+          ],
+          "title_candidate": "RangeNet++: Fast and accurate LiDAR semantic segmentation",
+          "container_candidate": "In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Andres Milioto and C Stachniss",
+          "author_candidates": [
+            "Andres Milioto",
+            "C Stachniss"
+          ],
+          "title_candidate": "RangeNet++: Fast and accurate LiDAR semantic segmentation",
+          "container_candidate": "In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Andres Milioto and C Stachniss. RangeNet++",
+          "author_candidates": [
+            "Andres Milioto",
+            "C Stachniss. RangeNet++"
+          ],
+          "title_candidate": "Fast and accurate LiDAR semantic segmentation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Andres Milioto and C Stachniss. RangeNet++",
+          "author_candidates": [
+            "Andres Milioto",
+            "C Stachniss. RangeNet++"
+          ],
+          "title_candidate": "Fast and accurate LiDAR semantic segmentation. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[20] Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. Automatic differentiation in PyTorch. In NIPS autodiff workshop, 2017.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer",
+          "author_candidates": [
+            "Paszke, Sam Gross",
+            "Chintala, Gregory Chanan",
+            "Yang, Zachary DeVito",
+            "Lin, Alban Desmaison"
+          ],
+          "title_candidate": "Automatic differentiation in PyTorch",
+          "container_candidate": "In NIPS autodiff workshop, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer",
+          "author_candidates": [
+            "Paszke, Sam Gross",
+            "Chintala, Gregory Chanan",
+            "Yang, Zachary DeVito",
+            "Lin, Alban Desmaison"
+          ],
+          "title_candidate": "Automatic differentiation in PyTorch",
+          "container_candidate": "In NIPS autodiff workshop,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer",
+          "author_candidates": [
+            "Paszke, Sam Gross",
+            "Chintala, Gregory Chanan",
+            "Yang, Zachary DeVito",
+            "Lin, Alban Desmaison"
+          ],
+          "title_candidate": "Automatic differentiation in PyTorch. In NIPS autodiff workshop",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer",
+          "author_candidates": [
+            "Paszke, Sam Gross",
+            "Chintala, Gregory Chanan",
+            "Yang, Zachary DeVito",
+            "Lin, Alban Desmaison"
+          ],
+          "title_candidate": "Automatic differentiation in PyTorch. In NIPS autodiff workshop, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[21] Charles R Qi, Wei Liu, Chenxia Wu, Hao Su, and Leonidas J Guibas. Frustum pointnets for 3d object detection from rgbd data. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 918–927, 2018.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Charles R Qi, Wei Liu, Chenxia Wu, Hao Su, and Leonidas J Guibas",
+          "author_candidates": [
+            "Qi, Wei Liu",
+            "Wu, Hao Su"
+          ],
+          "title_candidate": "Frustum pointnets for 3d object detection from rgbd data",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 918–927, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Charles R Qi, Wei Liu, Chenxia Wu, Hao Su, and Leonidas J Guibas",
+          "author_candidates": [
+            "Qi, Wei Liu",
+            "Wu, Hao Su"
+          ],
+          "title_candidate": "Frustum pointnets for 3d object detection from rgbd data",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 918–927,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Charles R Qi, Wei Liu, Chenxia Wu, Hao Su, and Leonidas J Guibas",
+          "author_candidates": [
+            "Qi, Wei Liu",
+            "Wu, Hao Su"
+          ],
+          "title_candidate": "Frustum pointnets for 3d object detection from rgbd data. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 918–927",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Charles R Qi, Wei Liu, Chenxia Wu, Hao Su, and Leonidas J Guibas",
+          "author_candidates": [
+            "Qi, Wei Liu",
+            "Wu, Hao Su"
+          ],
+          "title_candidate": "Frustum pointnets for 3d object detection from rgbd data. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 918–927, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[22] Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet: Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 652–660, 2017.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas",
+          "author_candidates": [
+            "Qi, Hao Su"
+          ],
+          "title_candidate": "Pointnet: Deep learning on point sets for 3d classification and segmentation",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 652–660, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas",
+          "author_candidates": [
+            "Qi, Hao Su"
+          ],
+          "title_candidate": "Pointnet: Deep learning on point sets for 3d classification and segmentation",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 652–660,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet",
+          "author_candidates": [
+            "Qi, Hao Su"
+          ],
+          "title_candidate": "Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 652–660",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet",
+          "author_candidates": [
+            "Qi, Hao Su"
+          ],
+          "title_candidate": "Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 652–660, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[23] Charles Ruizhongtai Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++: Deep hierarchical feature learning on point sets in a metric space.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Charles Ruizhongtai Qi, Li Yi, Hao Su, and Leonidas J Guibas",
+          "author_candidates": [
+            "Qi, Li Yi"
+          ],
+          "title_candidate": "Pointnet++: Deep hierarchical feature learning on point sets in a metric space",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Charles Ruizhongtai Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++",
+          "author_candidates": [
+            "Qi, Li Yi"
+          ],
+          "title_candidate": "Deep hierarchical feature learning on point sets in a metric space",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "In Advances in neural information processing systems, pages 5099–5108, 2017. 2, 3, 6,",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "In Advances in neural information processing systems, pages 5099–5108, 2017",
+          "author_candidates": [
+            "In Advances in neural information processing systems, pages 5099–5108, 2017"
+          ],
+          "title_candidate": "2, 3, 6,",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "In Advances in neural information processing systems, pages 5099–5108, 2017",
+          "author_candidates": [
+            "In Advances in neural information processing systems, pages 5099–5108, 2017"
+          ],
+          "title_candidate": "2, 3, 6,",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[24] Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv preprint arXiv:1804.02767, 2018.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolov3: An incremental improvement. arXiv preprint",
+          "container_candidate": "arXiv:1804.02767, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolov3: An incremental improvement",
+          "container_candidate": "arXiv preprint arXiv:1804.02767,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolov3",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolov3"
+          ],
+          "title_candidate": "An incremental improvement. arXiv preprint arXiv:1804.02767",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolov3",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolov3"
+          ],
+          "title_candidate": "An incremental improvement. arXiv preprint arXiv:1804.02767, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[25] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical Image Computing",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox",
+          "author_candidates": [
+            "Ronneberger, Philipp Fischer"
+          ],
+          "title_candidate": "U-net: Convolutional networks for biomedical image segmentation",
+          "container_candidate": "In International Conference on Medical Image Computing",
+          "year_candidate": null,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox",
+          "author_candidates": [
+            "Ronneberger, Philipp Fischer"
+          ],
+          "title_candidate": "U-net: Convolutional networks for biomedical image segmentation",
+          "container_candidate": "In International Conference on Medical Image Computing",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net",
+          "author_candidates": [
+            "Ronneberger, Philipp Fischer"
+          ],
+          "title_candidate": "Convolutional networks for biomedical image segmentation. In International Conference on Medical Image Computing",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "and Computer Assisted Intervention, pages 234–241, 2015.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "and Computer Assisted Intervention, pages 234–241, 2015.",
+          "author_candidates": [
+            "and Computer Assisted Intervention, pages 234–241, 2015."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[26] Xavier Roynard, Jean-Emmanuel Deschaud, and Franc¸ois Goulette. Paris-Lille-3D: A large and high-quality groundtruth urban point cloud dataset for automatic segmentation and classification. The International Journal of Robotics Research, 37(6):545–557, 2018.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xavier Roynard, Jean-Emmanuel Deschaud, and Franc¸ois Goulette",
+          "author_candidates": [
+            "Roynard, Jean-Emmanuel Deschaud"
+          ],
+          "title_candidate": "Paris-Lille-3D: A large and high-quality groundtruth urban point cloud dataset for automatic segmentation and classification",
+          "container_candidate": "The International Journal of Robotics Research, 37(6):545–557,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xavier Roynard, Jean-Emmanuel Deschaud, and Franc¸ois Goulette. Paris-Lille-3D",
+          "author_candidates": [
+            "Roynard, Jean-Emmanuel Deschaud"
+          ],
+          "title_candidate": "A large and high-quality groundtruth urban point cloud dataset for automatic segmentation and classification. The International Journal of Robotics Research, 37(6):545–557",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xavier Roynard, Jean-Emmanuel Deschaud, and Franc¸ois Goulette. Paris-Lille-3D",
+          "author_candidates": [
+            "Roynard, Jean-Emmanuel Deschaud"
+          ],
+          "title_candidate": "A large and high-quality groundtruth urban point cloud dataset for automatic segmentation and classification. The International Journal of Robotics Research, 37(6):545–557, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[27] Shaoshuai Shi, Xiaogang Wang, and Hongsheng Li. Pointrcnn: 3d object proposal generation and detection from point cloud. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–779, 2019.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "venue_marker_split",
+          "author_text": "Shaoshuai Shi, Xiaogang Wang, and Hongsheng Li",
+          "author_candidates": [
+            "Shi, Xiaogang Wang"
+          ],
+          "title_candidate": "Pointrcnn: 3d object proposal generation and detection from point cloud",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–779, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shaoshuai Shi, Xiaogang Wang, and Hongsheng Li",
+          "author_candidates": [
+            "Shi, Xiaogang Wang"
+          ],
+          "title_candidate": "Pointrcnn: 3d object proposal generation and detection from point cloud",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–779,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shaoshuai Shi, Xiaogang Wang, and Hongsheng Li. Pointrcnn",
+          "author_candidates": [
+            "Shi, Xiaogang Wang"
+          ],
+          "title_candidate": "3d object proposal generation and detection from point cloud. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–779",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shaoshuai Shi, Xiaogang Wang, and Hongsheng Li. Pointrcnn",
+          "author_candidates": [
+            "Shi, Xiaogang Wang"
+          ],
+          "title_candidate": "3d object proposal generation and detection from point cloud. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–779, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[28] Martin Simon, Stefan Milz, Karl Amende, and Horst-Michael Gross. Complex-yolo: An euler-region-proposal for real-time 3D object detection on point clouds. In Proceedings of the European Conference on Computer Vision, pages 197–209, 2018.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Martin Simon, Stefan Milz, Karl Amende, and Horst-Michael Gross",
+          "author_candidates": [
+            "Simon, Stefan Milz"
+          ],
+          "title_candidate": "Complex-yolo: An euler-region-proposal for real-time 3D object detection on point clouds",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision, pages 197–209, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Martin Simon, Stefan Milz, Karl Amende, and Horst-Michael Gross",
+          "author_candidates": [
+            "Simon, Stefan Milz"
+          ],
+          "title_candidate": "Complex-yolo: An euler-region-proposal for real-time 3D object detection on point clouds",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision, pages 197–209,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Martin Simon, Stefan Milz, Karl Amende, and Horst-Michael Gross. Complex-yolo",
+          "author_candidates": [
+            "Simon, Stefan Milz"
+          ],
+          "title_candidate": "An euler-region-proposal for real-time 3D object detection on point clouds. In Proceedings of the European Conference on Computer Vision, pages 197–209",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Martin Simon, Stefan Milz, Karl Amende, and Horst-Michael Gross. Complex-yolo",
+          "author_candidates": [
+            "Simon, Stefan Milz"
+          ],
+          "title_candidate": "An euler-region-proposal for real-time 3D object detection on point clouds. In Proceedings of the European Conference on Computer Vision, pages 197–209, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[29] Pei Sun, Henrik Kretzschmar, Xerxes Dotiwalla, Aurelien Chouard, Vijaysai Patnaik, Paul Tsui, James Guo, Yin Zhou, Yuning Chai, Benjamin Caine, et al. Scalability in perception for autonomous driving: Waymo open dataset. arXiv preprint arXiv:1912.04838, 2019.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "venue_marker_split",
+          "author_text": "Pei Sun, Henrik Kretzschmar, Xerxes Dotiwalla, Aurelien Chouard, Vijaysai Patnaik, Paul Tsui, James Guo, Yin Zhou, Yuning Chai, Benjamin Caine, et al",
+          "author_candidates": [
+            "Sun, Henrik Kretzschmar",
+            "Dotiwalla, Aurelien Chouard",
+            "Patnaik, Paul Tsui",
+            "Guo, Yin Zhou",
+            "Chai, Benjamin Caine"
+          ],
+          "title_candidate": "Scalability in perception for autonomous driving: Waymo open dataset. arXiv preprint",
+          "container_candidate": "arXiv:1912.04838, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Pei Sun, Henrik Kretzschmar, Xerxes Dotiwalla, Aurelien Chouard, Vijaysai Patnaik, Paul Tsui, James Guo, Yin Zhou, Yuning Chai, Benjamin Caine, et al",
+          "author_candidates": [
+            "Sun, Henrik Kretzschmar",
+            "Dotiwalla, Aurelien Chouard",
+            "Patnaik, Paul Tsui",
+            "Guo, Yin Zhou",
+            "Chai, Benjamin Caine"
+          ],
+          "title_candidate": "Scalability in perception for autonomous driving: Waymo open dataset",
+          "container_candidate": "arXiv preprint arXiv:1912.04838,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Pei Sun, Henrik Kretzschmar, Xerxes Dotiwalla, Aurelien Chouard, Vijaysai Patnaik, Paul Tsui, James Guo, Yin Zhou, Yuning Chai, Benjamin Caine, et al. Scalability in perception for autonomous driving",
+          "author_candidates": [
+            "Sun, Henrik Kretzschmar",
+            "Dotiwalla, Aurelien Chouard",
+            "Patnaik, Paul Tsui",
+            "Guo, Yin Zhou",
+            "Chai, Benjamin Caine"
+          ],
+          "title_candidate": "Waymo open dataset. arXiv preprint arXiv:1912.04838",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Pei Sun, Henrik Kretzschmar, Xerxes Dotiwalla, Aurelien Chouard, Vijaysai Patnaik, Paul Tsui, James Guo, Yin Zhou, Yuning Chai, Benjamin Caine, et al. Scalability in perception for autonomous driving",
+          "author_candidates": [
+            "Sun, Henrik Kretzschmar",
+            "Dotiwalla, Aurelien Chouard",
+            "Patnaik, Paul Tsui",
+            "Guo, Yin Zhou",
+            "Chai, Benjamin Caine"
+          ],
+          "title_candidate": "Waymo open dataset. arXiv preprint arXiv:1912.04838, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[30] Maxim Tatarchenko, Jaesik Park, Vladlen Koltun, and Qian-Yi Zhou. Tangent convolutions for dense prediction in 3D. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3887–3896, 2018.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "venue_marker_split",
+          "author_text": "Maxim Tatarchenko, Jaesik Park, Vladlen Koltun, and Qian-Yi Zhou",
+          "author_candidates": [
+            "Tatarchenko, Jaesik Park"
+          ],
+          "title_candidate": "Tangent convolutions for dense prediction in 3D",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3887–3896, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Maxim Tatarchenko, Jaesik Park, Vladlen Koltun, and Qian-Yi Zhou",
+          "author_candidates": [
+            "Tatarchenko, Jaesik Park"
+          ],
+          "title_candidate": "Tangent convolutions for dense prediction in 3D",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3887–3896,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Maxim Tatarchenko, Jaesik Park, Vladlen Koltun, and Qian-Yi Zhou",
+          "author_candidates": [
+            "Tatarchenko, Jaesik Park"
+          ],
+          "title_candidate": "Tangent convolutions for dense prediction in 3D. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3887–3896",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Maxim Tatarchenko, Jaesik Park, Vladlen Koltun, and Qian-Yi Zhou",
+          "author_candidates": [
+            "Tatarchenko, Jaesik Park"
+          ],
+          "title_candidate": "Tangent convolutions for dense prediction in 3D. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3887–3896, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[31] Lyne Tchapmi, Christopher Choy, Iro Armeni, JunYoung Gwak, and Silvio Savarese. Segcloud: Semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 537–547, 2017.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "venue_marker_split",
+          "author_text": "Lyne Tchapmi, Christopher Choy, Iro Armeni, JunYoung Gwak, and Silvio Savarese",
+          "author_candidates": [
+            "Tchapmi, Christopher Choy",
+            "Armeni, JunYoung Gwak"
+          ],
+          "title_candidate": "Segcloud: Semantic segmentation of 3d point clouds",
+          "container_candidate": "In Proceedings of the International Conference on 3D Vision, pages 537–547, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Lyne Tchapmi, Christopher Choy, Iro Armeni, JunYoung Gwak, and Silvio Savarese",
+          "author_candidates": [
+            "Tchapmi, Christopher Choy",
+            "Armeni, JunYoung Gwak"
+          ],
+          "title_candidate": "Segcloud: Semantic segmentation of 3d point clouds",
+          "container_candidate": "In Proceedings of the International Conference on 3D Vision, pages 537–547,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Lyne Tchapmi, Christopher Choy, Iro Armeni, JunYoung Gwak, and Silvio Savarese. Segcloud",
+          "author_candidates": [
+            "Tchapmi, Christopher Choy",
+            "Armeni, JunYoung Gwak"
+          ],
+          "title_candidate": "Semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 537–547",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Lyne Tchapmi, Christopher Choy, Iro Armeni, JunYoung Gwak, and Silvio Savarese. Segcloud",
+          "author_candidates": [
+            "Tchapmi, Christopher Choy",
+            "Armeni, JunYoung Gwak"
+          ],
+          "title_candidate": "Semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 537–547, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[32] Petar Velickovi ˇ c, Guillem Cucurull, Arantxa Casanova, ´ Adriana Romero, Pietro Lio, and Yoshua Bengio. Graph \\` attention networks. International Conference on Learning Representations, 2018.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Petar Velickovi ˇ c, Guillem Cucurull, Arantxa Casanova, ´ Adriana Romero, Pietro Lio, and Yoshua Bengio",
+          "author_candidates": [
+            "Cucurull, Arantxa Casanova",
+            "Romero, Pietro Lio"
+          ],
+          "title_candidate": "Graph \\` attention networks",
+          "container_candidate": "International Conference on Learning Representations,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Petar Velickovi ˇ c, Guillem Cucurull, Arantxa Casanova, ´ Adriana Romero, Pietro Lio, and Yoshua Bengio",
+          "author_candidates": [
+            "Cucurull, Arantxa Casanova",
+            "Romero, Pietro Lio"
+          ],
+          "title_candidate": "Graph \\` attention networks. International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Petar Velickovi ˇ c, Guillem Cucurull, Arantxa Casanova, ´ Adriana Romero, Pietro Lio, and Yoshua Bengio",
+          "author_candidates": [
+            "Cucurull, Arantxa Casanova",
+            "Romero, Pietro Lio"
+          ],
+          "title_candidate": "Graph \\` attention networks. International Conference on Learning Representations, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[33] Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, and Kilian Weinberger. Pseudo-lidar from visual depth estimation: Bridging the gap in 3D object detection for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8445–8453, 2019.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "venue_marker_split",
+          "author_text": "Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, and Kilian Weinberger",
+          "author_candidates": [
+            "Wang, Wei-Lun Chao",
+            "Garg, Bharath Hariharan"
+          ],
+          "title_candidate": "Pseudo-lidar from visual depth estimation: Bridging the gap in 3D object detection for autonomous driving",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8445–8453, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, and Kilian Weinberger",
+          "author_candidates": [
+            "Wang, Wei-Lun Chao",
+            "Garg, Bharath Hariharan"
+          ],
+          "title_candidate": "Pseudo-lidar from visual depth estimation: Bridging the gap in 3D object detection for autonomous driving",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8445–8453,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, and Kilian Weinberger. Pseudo-lidar from visual depth estimation",
+          "author_candidates": [
+            "Wang, Wei-Lun Chao",
+            "Garg, Bharath Hariharan"
+          ],
+          "title_candidate": "Bridging the gap in 3D object detection for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8445–8453",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, and Kilian Weinberger. Pseudo-lidar from visual depth estimation",
+          "author_candidates": [
+            "Wang, Wei-Lun Chao",
+            "Garg, Bharath Hariharan"
+          ],
+          "title_candidate": "Bridging the gap in 3D object detection for autonomous driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8445–8453, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[34] Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E Sarma, Michael M Bronstein, and Justin M Solomon. Dynamic graph cnn for learning on point clouds. ACM Transactions on Graphics, 38(5):146, 2019.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E Sarma, Michael M Bronstein, and Justin M Solomon",
+          "author_candidates": [
+            "Wang, Yongbin Sun",
+            "Liu, Sanjay E Sarma"
+          ],
+          "title_candidate": "Dynamic graph cnn for learning on point clouds",
+          "container_candidate": "ACM Transactions on Graphics, 38(5):146,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E Sarma, Michael M Bronstein, and Justin M Solomon. Dynamic graph cnn for learning on point clouds. ACM Transactions on Graphics, 38(5)",
+          "author_candidates": [
+            "Wang, Yongbin Sun",
+            "Liu, Sanjay E Sarma"
+          ],
+          "title_candidate": "146",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yue Wang, Yongbin Sun, Ziwei Liu, Sanjay E Sarma, Michael M Bronstein, and Justin M Solomon. Dynamic graph cnn for learning on point clouds. ACM Transactions on Graphics, 38(5)",
+          "author_candidates": [
+            "Wang, Yongbin Sun",
+            "Liu, Sanjay E Sarma"
+          ],
+          "title_candidate": "146, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[35] Bichen Wu, Alvin Wan, Xiangyu Yue, and Kurt Keutzer. Squeezeseg: Convolutional neural nets with recurrent crf for real-time road-object segmentation from 3d lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 1887–1893, 2018.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "venue_marker_split",
+          "author_text": "Bichen Wu, Alvin Wan, Xiangyu Yue, and Kurt Keutzer",
+          "author_candidates": [
+            "Wu, Alvin Wan"
+          ],
+          "title_candidate": "Squeezeseg: Convolutional neural nets with recurrent crf for real-time road-object segmentation from 3d lidar point cloud",
+          "container_candidate": "In Proceedings of the International Conference on Robotics and Automation, pages 1887–1893, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bichen Wu, Alvin Wan, Xiangyu Yue, and Kurt Keutzer",
+          "author_candidates": [
+            "Wu, Alvin Wan"
+          ],
+          "title_candidate": "Squeezeseg: Convolutional neural nets with recurrent crf for real-time road-object segmentation from 3d lidar point cloud",
+          "container_candidate": "In Proceedings of the International Conference on Robotics and Automation, pages 1887–1893,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bichen Wu, Alvin Wan, Xiangyu Yue, and Kurt Keutzer. Squeezeseg",
+          "author_candidates": [
+            "Wu, Alvin Wan"
+          ],
+          "title_candidate": "Convolutional neural nets with recurrent crf for real-time road-object segmentation from 3d lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 1887–1893",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bichen Wu, Alvin Wan, Xiangyu Yue, and Kurt Keutzer. Squeezeseg",
+          "author_candidates": [
+            "Wu, Alvin Wan"
+          ],
+          "title_candidate": "Convolutional neural nets with recurrent crf for real-time road-object segmentation from 3d lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 1887–1893, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[36] Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, and Kurt Keutzer. Squeezesegv2: Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 4376– 4382, 2019.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "venue_marker_split",
+          "author_text": "Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, and Kurt Keutzer",
+          "author_candidates": [
+            "Wu, Xuanyu Zhou",
+            "Zhao, Xiangyu Yue"
+          ],
+          "title_candidate": "Squeezesegv2: Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud",
+          "container_candidate": "In Proceedings of the International Conference on Robotics and Automation, pages 4376– 4382, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, and Kurt Keutzer",
+          "author_candidates": [
+            "Wu, Xuanyu Zhou",
+            "Zhao, Xiangyu Yue"
+          ],
+          "title_candidate": "Squeezesegv2: Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud",
+          "container_candidate": "In Proceedings of the International Conference on Robotics and Automation, pages 4376– 4382,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, and Kurt Keutzer. Squeezesegv2",
+          "author_candidates": [
+            "Wu, Xuanyu Zhou",
+            "Zhao, Xiangyu Yue"
+          ],
+          "title_candidate": "Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 4376– 4382",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, and Kurt Keutzer. Squeezesegv2",
+          "author_candidates": [
+            "Wu, Xuanyu Zhou",
+            "Zhao, Xiangyu Yue"
+          ],
+          "title_candidate": "Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud. In Proceedings of the International Conference on Robotics and Automation, pages 4376– 4382, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[37] Yan Yan, Yuxing Mao, and Bo Li. Second: Sparsely embedded convolutional detection. Sensors, 18(10):3337, 2018.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yan Yan, Yuxing Mao, and Bo Li",
+          "author_candidates": [
+            "Yan, Yuxing Mao"
+          ],
+          "title_candidate": "Second: Sparsely embedded convolutional detection",
+          "container_candidate": "Sensors, 18(10):3337,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 39,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yan Yan, Yuxing Mao, and Bo Li. Second",
+          "author_candidates": [
+            "Yan, Yuxing Mao"
+          ],
+          "title_candidate": "Sparsely embedded convolutional detection. Sensors, 18(10):3337",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yan Yan, Yuxing Mao, and Bo Li. Second",
+          "author_candidates": [
+            "Yan, Yuxing Mao"
+          ],
+          "title_candidate": "Sparsely embedded convolutional detection. Sensors, 18(10):3337, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[38] Bin Yang, Wenjie Luo, and Raquel Urtasun. PIXOR: Realtime 3d object detection from point clouds. In Proceedings",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "venue_marker_split",
+          "author_text": "Bin Yang, Wenjie Luo, and Raquel Urtasun",
+          "author_candidates": [
+            "Yang, Wenjie Luo"
+          ],
+          "title_candidate": "PIXOR: Realtime 3d object detection from point clouds",
+          "container_candidate": "In Proceedings",
+          "year_candidate": null,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bin Yang, Wenjie Luo, and Raquel Urtasun",
+          "author_candidates": [
+            "Yang, Wenjie Luo"
+          ],
+          "title_candidate": "PIXOR: Realtime 3d object detection from point clouds",
+          "container_candidate": "In Proceedings",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bin Yang, Wenjie Luo, and Raquel Urtasun. PIXOR",
+          "author_candidates": [
+            "Yang, Wenjie Luo"
+          ],
+          "title_candidate": "Realtime 3d object detection from point clouds. In Proceedings",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7652–7660, 2018.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "fallback_raw_split",
+          "author_text": "of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7652–7660, 2018.",
+          "author_candidates": [
+            "of the IEEE Conference on Computer Vision",
+            "Pattern Recognition, pages 7652–7660, 2018."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "[39] Fisher Yu and Vladlen Koltun. Multi-scale context aggregation by dilated convolutions. In International Conference on Learning Representations, 2016.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "venue_marker_split",
+          "author_text": "Fisher Yu and Vladlen Koltun",
+          "author_candidates": [
+            "Fisher Yu",
+            "Vladlen Koltun"
+          ],
+          "title_candidate": "Multi-scale context aggregation by dilated convolutions",
+          "container_candidate": "In International Conference on Learning Representations, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Fisher Yu and Vladlen Koltun",
+          "author_candidates": [
+            "Fisher Yu",
+            "Vladlen Koltun"
+          ],
+          "title_candidate": "Multi-scale context aggregation by dilated convolutions",
+          "container_candidate": "In International Conference on Learning Representations,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Fisher Yu and Vladlen Koltun",
+          "author_candidates": [
+            "Fisher Yu",
+            "Vladlen Koltun"
+          ],
+          "title_candidate": "Multi-scale context aggregation by dilated convolutions. In International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "Fisher Yu and Vladlen Koltun",
+          "author_candidates": [
+            "Fisher Yu",
+            "Vladlen Koltun"
+          ],
+          "title_candidate": "Multi-scale context aggregation by dilated convolutions. In International Conference on Learning Representations, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 43,
+      "raw": "[40] Fisher Yu, Vladlen Koltun, and Thomas Funkhouser. Dilated residual networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 472–480, 2017.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 43,
+          "pattern": "venue_marker_split",
+          "author_text": "Fisher Yu, Vladlen Koltun, and Thomas Funkhouser",
+          "author_candidates": [
+            "Yu, Vladlen Koltun"
+          ],
+          "title_candidate": "Dilated residual networks",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 472–480, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 43,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Fisher Yu, Vladlen Koltun, and Thomas Funkhouser",
+          "author_candidates": [
+            "Yu, Vladlen Koltun"
+          ],
+          "title_candidate": "Dilated residual networks",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 472–480,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 43,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Fisher Yu, Vladlen Koltun, and Thomas Funkhouser",
+          "author_candidates": [
+            "Yu, Vladlen Koltun"
+          ],
+          "title_candidate": "Dilated residual networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 472–480",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 43,
+          "pattern": "fallback_raw_split",
+          "author_text": "Fisher Yu, Vladlen Koltun, and Thomas Funkhouser",
+          "author_candidates": [
+            "Yu, Vladlen Koltun"
+          ],
+          "title_candidate": "Dilated residual networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 472–480, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 44,
+      "raw": "[41] Chris Zhang, Wenjie Luo, and Raquel Urtasun. Efficient convolutions for real-time semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 399–408, 2018.",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 44,
+          "pattern": "venue_marker_split",
+          "author_text": "Chris Zhang, Wenjie Luo, and Raquel Urtasun",
+          "author_candidates": [
+            "Zhang, Wenjie Luo"
+          ],
+          "title_candidate": "Efficient convolutions for real-time semantic segmentation of 3d point clouds",
+          "container_candidate": "In Proceedings of the International Conference on 3D Vision, pages 399–408, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 44,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chris Zhang, Wenjie Luo, and Raquel Urtasun",
+          "author_candidates": [
+            "Zhang, Wenjie Luo"
+          ],
+          "title_candidate": "Efficient convolutions for real-time semantic segmentation of 3d point clouds",
+          "container_candidate": "In Proceedings of the International Conference on 3D Vision, pages 399–408,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 44,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chris Zhang, Wenjie Luo, and Raquel Urtasun",
+          "author_candidates": [
+            "Zhang, Wenjie Luo"
+          ],
+          "title_candidate": "Efficient convolutions for real-time semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 399–408",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 44,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chris Zhang, Wenjie Luo, and Raquel Urtasun",
+          "author_candidates": [
+            "Zhang, Wenjie Luo"
+          ],
+          "title_candidate": "Efficient convolutions for real-time semantic segmentation of 3d point clouds. In Proceedings of the International Conference on 3D Vision, pages 399–408, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 45,
+      "raw": "[42] Richard Zhang, Stefan A Candra, Kai Vetter, and Avideh Zakhor. Sensor fusion for semantic segmentation of urban scenes. In Proceedings of the International Conference on Robotics and Automation, pages 1850–1857, 2015.",
+      "detected_ref_number": 42,
+      "numbering": {
+        "detected_ref_number": 42,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 45,
+          "pattern": "venue_marker_split",
+          "author_text": "Richard Zhang, Stefan A Candra, Kai Vetter, and Avideh Zakhor",
+          "author_candidates": [
+            "Zhang, Stefan A Candra"
+          ],
+          "title_candidate": "Sensor fusion for semantic segmentation of urban scenes",
+          "container_candidate": "In Proceedings of the International Conference on Robotics and Automation, pages 1850–1857, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 45,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Richard Zhang, Stefan A Candra, Kai Vetter, and Avideh Zakhor",
+          "author_candidates": [
+            "Zhang, Stefan A Candra"
+          ],
+          "title_candidate": "Sensor fusion for semantic segmentation of urban scenes",
+          "container_candidate": "In Proceedings of the International Conference on Robotics and Automation, pages 1850–1857,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 45,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Richard Zhang, Stefan A Candra, Kai Vetter, and Avideh Zakhor",
+          "author_candidates": [
+            "Zhang, Stefan A Candra"
+          ],
+          "title_candidate": "Sensor fusion for semantic segmentation of urban scenes. In Proceedings of the International Conference on Robotics and Automation, pages 1850–1857",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 45,
+          "pattern": "fallback_raw_split",
+          "author_text": "Richard Zhang, Stefan A Candra, Kai Vetter, and Avideh Zakhor",
+          "author_candidates": [
+            "Zhang, Stefan A Candra"
+          ],
+          "title_candidate": "Sensor fusion for semantic segmentation of urban scenes. In Proceedings of the International Conference on Robotics and Automation, pages 1850–1857, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 44,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 3,
+      "status": "prepared",
+      "entry_start": 45,
+      "entry_end": 45,
+      "metadata": {
+        "entry_count": 1
+      }
+    }
+  ],
+  "suspect_blocks": [
+    {
+      "block_index": 22,
+      "source_text": "[12] Qingyong Hu, Bo Yang, Linhai Xie, Stefano Rosa, Yulan Guo, Zhihua Wang, Niki Trigoni, and Andrew Markham. RandLA-Net: Efficient semantic segmentation of large-scale point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2020.",
+      "line_start": 23,
+      "line_end": 25,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[12] Qingyong Hu, Bo Yang, Linhai Xie, Stefano Rosa, Yulan Guo, Zhihua Wang, Niki Trigoni, and Andrew Markham. RandLA-Net: Efficient semantic segmentation of large-scale",
+        "point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2020."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    },
+    {
+      "block_index": 46,
+      "source_text": "[23] Charles Ruizhongtai Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++: Deep hierarchical feature learning on point sets in a metric space. In Advances in neural information processing systems, pages 5099–5108, 2017. 2, 3, 6,",
+      "line_start": 47,
+      "line_end": 47,
+      "reasons": [
+        "single line contains multiple strong reference starts"
+      ],
+      "proposed_entries": [
+        "[23] Charles Ruizhongtai Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++: Deep hierarchical feature learning on point sets in a metric space.",
+        "In Advances in neural information processing systems, pages 5099–5108, 2017. 2, 3, 6,"
+      ],
+      "suspicion_kind": "grouped_entries_in_single_line"
+    },
+    {
+      "block_index": 50,
+      "source_text": "[25] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical Image Computing and Computer Assisted Intervention, pages 234–241, 2015.",
+      "line_start": 51,
+      "line_end": 53,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[25] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical Image Computing",
+        "and Computer Assisted Intervention, pages 234–241, 2015."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    },
+    {
+      "block_index": 78,
+      "source_text": "[38] Bin Yang, Wenjie Luo, and Raquel Urtasun. PIXOR: Realtime 3d object detection from point clouds. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7652–7660, 2018.",
+      "line_start": 79,
+      "line_end": 81,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[38] Bin Yang, Wenjie Luo, and Raquel Urtasun. PIXOR: Realtime 3d object detection from point clouds. In Proceedings",
+        "of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7652–7660, 2018."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    }
+  ],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=39",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=42",
+    "reference_pattern_ambiguous: entry_index=43",
+    "reference_pattern_ambiguous: entry_index=44",
+    "reference_pattern_ambiguous: entry_index=45",
+    "reference_title_boundary_suspect: entry_index=27 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=41 pattern=fallback_raw_split",
+    "reference_entry_grouping_suspect: block_index=22",
+    "reference_entry_grouping_suspect: block_index=46",
+    "reference_entry_grouping_suspect: block_index=50",
+    "reference_entry_grouping_suspect: block_index=78"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.06521739130434782,
+    "year_ratio": 0.9130434782608695,
+    "warning_density": 1.065217391304348,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.043478260869565216
+  },
+  "file_quality_low": false
+}

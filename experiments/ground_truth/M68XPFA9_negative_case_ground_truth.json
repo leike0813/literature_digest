@@ -1,0 +1,36 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/M68XPFA9_Exploiting DINOv3-Based Self-Supervised Features for Robust Few-Shot Medical Ima.txt",
+  "entry_style": "garbled_ocr_negative_case",
+  "is_negative_case": true,
+  "notes": "【明确反例】该文件遭受严重的 OCR 损坏，不适合任何基于规则/脚本的预处理算法。原格式为 IEEE 编号引用（[n] Surname, I.: 'Title,' Venue, Year.），但每个条目均被 OCR 破坏为几乎不可读的状态。预期预处理算法应：1) 产生少量条目（而非被噪声迷惑产生大量虚假条目）；2) 产生大量警告标记低置信度；3) 报告大量 suspect_blocks。凡在此文件上产生高条目数、低警告数的算法，说明其无法识别不可处理的数据。",
+  "corruption_patterns": {
+    "selective_digit_erasure": "十位数被系统性但非一致地删除（如条目10→'0'、条目15→'5'），正则编号检测将失效",
+    "character_collapse": "arXiv→Xiv, preprint→p p i, 核心单词的辅音字母被擦除",
+    "field_boundary_bleeding": "作者/标题/期刊/年份之间的字段边界被噪声模糊",
+    "vocabulary_depletion": "部分条目的实义词被减少到背景噪声水平，仅有少量标点和功能词可辨识"
+  },
+  "estimated_original_entries": 69,
+  "items": [
+    {
+      "entry_index": 0,
+      "author": [],
+      "title": "[OCR GARBLED — unable to reconstruct]",
+      "year": null,
+      "container": "",
+      "raw": "1 X , ., , ., U p , J. ., T , Y., T i i , D. .: 'Di N : p i c v i c c chi c f y ph i ET T i ', p iz ic I i phic , 0 , , pp. 0 5",
+      "confidence": 0.15,
+      "notes": "反例：OCR 严重损坏，无法重建。可能为 'DINO: ...' 相关参考文献。"
+    },
+    {
+      "entry_index": 61,
+      "author": ["Chris Stringer", "Marius Pachitariu"],
+      "title": "Cellpose: a generalist algorithm for cellular segmentation",
+      "year": 2019,
+      "container": "Nature Methods",
+      "raw": "0 ch p , J., Ok y, O., ch p, ., i ich, ., i z, B., ck , B., R ck , D.: ' i k : L i v i i i ic i ', ic i y i , 0 9, 5 , pp. 97 07",
+      "confidence": 0.40,
+      "notes": "反例：原文中的 Entry 61（Cellpose）。条目中单词重度残缺，但主要结构（卷号、期刊、年份）可在大致范围内识别。"
+    }
+  ]
+}

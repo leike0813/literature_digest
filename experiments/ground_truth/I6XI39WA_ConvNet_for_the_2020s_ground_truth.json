@@ -1,0 +1,1375 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/I6XI39WA_A ConvNet for the 2020s.txt",
+  "entry_style": "numeric",
+  "notes": "纯 numeric 风格。部分条目为GitHub URL、匿名投稿、教程文档。92 entries.",
+  "items": [
+    {
+      "author": [
+        "PyTorch",
+        "Vision",
+        "Models"
+      ],
+      "title": "PyTorch Vision Models",
+      "year": 2021,
+      "container": "https://pytorch.org/vision/stable/models.html",
+      "raw": "[1] PyTorch Vision Models. https://pytorch.org/vision/stable/models.html. Accessed: 2021-10-01.",
+      "confidence": 0.7,
+      "notes": "软件文档URL",
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Microsoft",
+        "Swin",
+        "Transformer"
+      ],
+      "title": "Swin Transformer GitHub repository",
+      "year": 2021,
+      "container": "https://github.com/microsoft/Swin-Transformer",
+      "raw": "[2] GitHub repository: Swin transformer. https://github.com/microsoft/Swin-Transformer, 2021.",
+      "confidence": 0.7,
+      "notes": "GitHub URL",
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Swin",
+        "Transformer",
+        "Detection"
+      ],
+      "title": "Swin Transformer for Object Detection GitHub repository",
+      "year": 2021,
+      "container": "https://github.com/SwinTransformer/Swin-Transformer-Object-Detection",
+      "raw": "[3] GitHub repository: Swin transformer for object detection. https://github.com/SwinTransformer/Swin-Transformer-Object-Detection, 2021.",
+      "confidence": 0.7,
+      "notes": "GitHub URL",
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Anonymous"
+      ],
+      "title": "Patches are all you need?",
+      "year": 2021,
+      "container": "OpenReview",
+      "raw": "[4] Anonymous. Patches are all you need? Openreview, 2021.",
+      "confidence": 0.85,
+      "notes": "匿名投稿",
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Jimmy Lei Ba",
+        "Jamie Ryan Kiros",
+        "Geoffrey E. Hinton"
+      ],
+      "title": "Layer normalization",
+      "year": 2016,
+      "container": "arXiv:1607.06450",
+      "raw": "[5] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv:1607.06450, 2016.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Hangbo Bao",
+        "Li Dong",
+        "Furu Wei"
+      ],
+      "title": "BEiT: BERT pre-training of image transformers",
+      "year": 2021,
+      "container": "arXiv:2106.08254",
+      "raw": "[6] Hangbo Bao, Li Dong, and Furu Wei. BEiT: BERT pretraining of image transformers. arXiv:2106.08254, 2021.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Irwan Bello",
+        "William Fedus",
+        "Xianzhi Du",
+        "Ekin Dogus Cubuk",
+        "Aravind Srinivas",
+        "Tsung-Yi Lin",
+        "Jonathon Shlens",
+        "Barret Zoph"
+      ],
+      "title": "Revisiting ResNets: Improved training and scaling strategies",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[7] Irwan Bello... Revisiting resnets... NeurIPS, 2021.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Irwan Bello",
+        "Barret Zoph",
+        "Ashish Vaswani",
+        "Jonathon Shlens",
+        "Quoc V. Le"
+      ],
+      "title": "Attention augmented convolutional networks",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[8] Irwan Bello... Attention augmented convolutional networks. In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Zhaowei Cai",
+        "Nuno Vasconcelos"
+      ],
+      "title": "Cascade R-CNN: Delving into high quality object detection",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[9] Zhaowei Cai... Cascade R-CNN... In CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Kai Chen",
+        "Jiaqi Wang",
+        "Jiangmiao Pang",
+        "Yuhang Cao",
+        "Yu Xiong",
+        "Xiaoxiao Li",
+        "Shuyang Sun",
+        "Wansen Feng",
+        "Ziwei Liu",
+        "Jiarui Xu",
+        "Zheng Zhang",
+        "Dazhi Cheng",
+        "Chenchen Zhu",
+        "Tianheng Cheng",
+        "Qijie Zhao",
+        "Buyu Li",
+        "Xin Lu",
+        "Rui Zhu",
+        "Yue Wu",
+        "Jifeng Dai",
+        "Jingdong Wang",
+        "Jianping Shi",
+        "Wanli Ouyang",
+        "Chen Change Loy",
+        "Dahua Lin"
+      ],
+      "title": "MMDetection: Open mmlab detection toolbox and benchmark",
+      "year": 2019,
+      "container": "arXiv:1906.07155",
+      "raw": "[10] Kai Chen... MMDetection... arXiv:1906.07155, 2019.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "François Chollet"
+      ],
+      "title": "Xception: Deep learning with depthwise separable convolutions",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[11] François Chollet. Xception... In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Kevin Clark",
+        "Minh-Thang Luong",
+        "Quoc V. Le",
+        "Christopher D. Manning"
+      ],
+      "title": "ELECTRA: Pre-training text encoders as discriminators rather than generators",
+      "year": 2020,
+      "container": "ICLR",
+      "raw": "[12] Kevin Clark... ELECTRA... In ICLR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "MMSegmentation",
+        "Contributors"
+      ],
+      "title": "MMSegmentation: OpenMMLab semantic segmentation toolbox",
+      "year": 2020,
+      "container": "https://github.com/open-mmlab/mmsegmentation",
+      "raw": "[13] MMSegmentation contributors. MMSegmentation... https://github.com/open-mmlab/mmsegmentation, 2020.",
+      "confidence": 0.75,
+      "notes": "GitHub软件",
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Ekin D. Cubuk",
+        "Barret Zoph",
+        "Jonathon Shlens",
+        "Quoc V. Le"
+      ],
+      "title": "RandAugment: Practical automated data augmentation with a reduced search space",
+      "year": 2020,
+      "container": "CVPRW",
+      "raw": "[14] Ekin D Cubuk... Randaugment... In CVPR Workshops, 2020.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Zihang Dai",
+        "Hanxiao Liu",
+        "Quoc V. Le",
+        "Mingxing Tan"
+      ],
+      "title": "CoAtNet: Marrying convolution and attention for all data sizes",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[15] Zihang Dai... Coatnet... NeurIPS, 2021.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Stéphane d'Ascoli",
+        "Hugo Touvron",
+        "Matthew Leavitt",
+        "Ari Morcos",
+        "Giulio Biroli",
+        "Levent Sagun"
+      ],
+      "title": "ConViT: Improving vision transformers with soft convolutional inductive biases",
+      "year": 2021,
+      "container": "ICML",
+      "raw": "[16] Stéphane d'Ascoli... ConViT... ICML, 2021.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Jia Deng",
+        "Wei Dong",
+        "Richard Socher",
+        "Li-Jia Li",
+        "Kai Li",
+        "Li Fei-Fei"
+      ],
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "year": 2009,
+      "container": "CVPR",
+      "raw": "[17] Jia Deng... ImageNet... In CVPR, 2009.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Jacob Devlin",
+        "Ming-Wei Chang",
+        "Kenton Lee",
+        "Kristina Toutanova"
+      ],
+      "title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+      "year": 2019,
+      "container": "NAACL",
+      "raw": "[18] Jacob Devlin... BERT... In NAACL, 2019.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Piotr Dollár",
+        "Serge Belongie",
+        "Pietro Perona"
+      ],
+      "title": "The fastest pedestrian detector in the west",
+      "year": 2010,
+      "container": "BMVC",
+      "raw": "[19] Piotr Dollár... The fastest pedestrian detector in the west. In BMVC, 2010.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Alexey Dosovitskiy",
+        "Lucas Beyer",
+        "Alexander Kolesnikov",
+        "Dirk Weissenborn",
+        "Xiaohua Zhai",
+        "Thomas Unterthiner",
+        "Mostafa Dehghani",
+        "Matthias Minderer",
+        "Georg Heigold",
+        "Sylvain Gelly",
+        "Jakob Uszkoreit",
+        "Neil Houlsby"
+      ],
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "year": 2021,
+      "container": "ICLR",
+      "raw": "[20] Alexey Dosovitskiy... An image is worth 16x16 words... In ICLR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Haoqi Fan",
+        "Bo Xiong",
+        "Karttikeya Mangalam",
+        "Yanghao Li",
+        "Zhicheng Yan",
+        "Jitendra Malik",
+        "Christoph Feichtenhofer"
+      ],
+      "title": "Multiscale vision transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[21] Haoqi Fan... Multiscale vision transformers. ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Vitaly Fedyunin"
+      ],
+      "title": "Tutorial: Channel last memory format in PyTorch",
+      "year": 2021,
+      "container": "https://pytorch.org/tutorials/intermediate/memory_format_tutorial.html",
+      "raw": "[22] Vitaly Fedyunin. Tutorial: Channel last memory format in PyTorch. https://pytorch.org/tutorials... 2021.",
+      "confidence": 0.7,
+      "notes": "教程URL",
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Ross Girshick"
+      ],
+      "title": "Fast R-CNN",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[23] Ross Girshick. Fast R-CNN. In ICCV, 2015.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Ross Girshick",
+        "Jeff Donahue",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[24] Ross Girshick... Rich feature hierarchies... In CVPR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Qi Han",
+        "Zejia Fan",
+        "Qi Dai",
+        "Lei Sun",
+        "Ming-Ming Cheng",
+        "Jiaying Liu",
+        "Jingdong Wang"
+      ],
+      "title": "Demystifying local vision transformer: Sparse connectivity, weight sharing, and dynamic weight",
+      "year": 2021,
+      "container": "arXiv:2106.04263",
+      "raw": "[25] Qi Han... Demystifying local vision transformer... arXiv:2106.04263, 2021.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xinlei Chen",
+        "Saining Xie",
+        "Yanghao Li",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Masked autoencoders are scalable vision learners",
+      "year": 2021,
+      "container": "arXiv:2111.06377",
+      "raw": "[26] Kaiming He... Masked autoencoders... arXiv:2111.06377, 2021.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Georgia Gkioxari",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "[27] Kaiming He... Mask R-CNN. In ICCV, 2017.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[28] Kaiming He... Deep residual learning... In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Identity mappings in deep residual networks",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[29] Kaiming He... Identity mappings in deep residual networks. In ECCV, 2016.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Dan Hendrycks",
+        "Steven Basart",
+        "Norman Mu",
+        "Saurav Kadavath",
+        "Frank Wang",
+        "Evan Dorundo",
+        "Rahul Desai",
+        "Tyler Zhu",
+        "Samyak Parajuli",
+        "Mike Guo"
+      ],
+      "title": "The many faces of robustness: A critical analysis of out-of-distribution generalization",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[30] Dan Hendrycks... The many faces of robustness... In ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Dan Hendrycks",
+        "Thomas Dietterich"
+      ],
+      "title": "Benchmarking neural network robustness to common corruptions and perturbations",
+      "year": 2018,
+      "container": "ICLR",
+      "raw": "[31] Dan Hendrycks and Thomas Dietterich. Benchmarking neural network robustness... In ICLR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Dan Hendrycks",
+        "Kevin Gimpel"
+      ],
+      "title": "Gaussian error linear units (GELUs)",
+      "year": 2016,
+      "container": "arXiv:1606.08415",
+      "raw": "[32] Dan Hendrycks and Kevin Gimpel. Gaussian error linear units (gelus). arXiv:1606.08415, 2016.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Dan Hendrycks",
+        "Kevin Zhao",
+        "Steven Basart",
+        "Jacob Steinhardt",
+        "Dawn Song"
+      ],
+      "title": "Natural adversarial examples",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[33] Dan Hendrycks... Natural adversarial examples. In CVPR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Andrew G. Howard",
+        "Menglong Zhu",
+        "Bo Chen",
+        "Dmitry Kalenichenko",
+        "Weijun Wang",
+        "Tobias Weyand",
+        "Marco Andreetto",
+        "Hartwig Adam"
+      ],
+      "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "year": 2017,
+      "container": "arXiv:1704.04861",
+      "raw": "[34] Andrew G Howard... MobileNets... arXiv:1704.04861, 2017.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Jie Hu",
+        "Li Shen",
+        "Gang Sun"
+      ],
+      "title": "Squeeze-and-excitation networks",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[35] Jie Hu, Li Shen, and Gang Sun. Squeeze-and-excitation networks. In CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Gao Huang",
+        "Zhuang Liu",
+        "Laurens van der Maaten",
+        "Kilian Q. Weinberger"
+      ],
+      "title": "Densely connected convolutional networks",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[36] Gao Huang... Densely connected convolutional networks. In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Gao Huang",
+        "Yu Sun",
+        "Zhuang Liu",
+        "Daniel Sedra",
+        "Kilian Q. Weinberger"
+      ],
+      "title": "Deep networks with stochastic depth",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[37] Gao Huang... Deep networks with stochastic depth. In ECCV, 2016.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Sergey Ioffe"
+      ],
+      "title": "Batch renormalization: Towards reducing minibatch dependence in batch-normalized models",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "[38] Sergey Ioffe. Batch renormalization... In NeurIPS, 2017.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Alexander Kolesnikov",
+        "Lucas Beyer",
+        "Xiaohua Zhai",
+        "Joan Puigcerver",
+        "Jessica Yung",
+        "Sylvain Gelly",
+        "Neil Houlsby"
+      ],
+      "title": "Big Transfer (BiT): General visual representation learning",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[39] Alexander Kolesnikov... Big Transfer (BiT)... In ECCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey Hinton"
+      ],
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2012,
+      "container": "NeurIPS",
+      "raw": "[40] Alex Krizhevsky, Ilya Sutskever, and Geoff Hinton. Imagenet classification... In NeurIPS, 2012.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Andrew Lavin",
+        "Scott Gray"
+      ],
+      "title": "Fast algorithms for convolutional neural networks",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[41] Andrew Lavin and Scott Gray. Fast algorithms for convolutional neural networks. In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Yann LeCun",
+        "Bernhard Boser",
+        "John S. Denker",
+        "Donnie Henderson",
+        "Richard E. Howard",
+        "Wayne Hubbard",
+        "Lawrence D. Jackel"
+      ],
+      "title": "Backpropagation applied to handwritten zip code recognition",
+      "year": 1989,
+      "container": "Neural Computation",
+      "raw": "[42] Yann LeCun... Backpropagation applied to handwritten zip code recognition. Neural computation, 1989.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "container": "Proceedings of the IEEE",
+      "raw": "[43] Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner, et al. Gradient-based learning... Proceedings of the IEEE, 1998.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[44] Tsung-Yi Lin... Microsoft COCO... In ECCV. 2014.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Ze Liu",
+        "Yutong Lin",
+        "Yue Cao",
+        "Han Hu",
+        "Yixuan Wei",
+        "Zheng Zhang",
+        "Stephen Lin",
+        "Baining Guo"
+      ],
+      "title": "Swin transformer: Hierarchical vision transformer using shifted windows",
+      "year": 2021,
+      "container": "(arXiv preprint)",
+      "raw": "[45] Ze Liu... Swin transformer... 2021.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Ilya Loshchilov",
+        "Frank Hutter"
+      ],
+      "title": "Decoupled weight decay regularization",
+      "year": 2019,
+      "container": "ICLR",
+      "raw": "[46] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In ICLR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Xiaofeng Mao",
+        "Gege Qi",
+        "Yuefeng Chen",
+        "Xiaodan Li",
+        "Ranjie Duan",
+        "Shaokai Ye",
+        "Yuan He",
+        "Hui Xue"
+      ],
+      "title": "Towards robust vision transformer",
+      "year": 2021,
+      "container": "arXiv:2105.07926",
+      "raw": "[47] Xiaofeng Mao... Towards robust vision transformer. arXiv preprint arXiv:2105.07926, 2021.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "Eric Mintun",
+        "Alexander Kirillov",
+        "Saining Xie"
+      ],
+      "title": "On interaction between augmentations and corruptions in natural corruption robustness",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[48] Eric Mintun... On interaction between augmentations and corruptions... NeurIPS, 2021.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Vinod Nair",
+        "Geoffrey E. Hinton"
+      ],
+      "title": "Rectified linear units improve restricted Boltzmann machines",
+      "year": 2010,
+      "container": "ICML",
+      "raw": "[49] Vinod Nair and Geoffrey E Hinton. Rectified linear units... In ICML, 2010.",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "Adam Paszke",
+        "Sam Gross",
+        "Francisco Massa",
+        "Adam Lerer",
+        "James Bradbury",
+        "Gregory Chanan",
+        "Trevor Killeen",
+        "Zeming Lin",
+        "Natalia Gimelshein",
+        "Luca Antiga"
+      ],
+      "title": "PyTorch: An imperative style, high-performance deep learning library",
+      "year": 2019,
+      "container": "NeurIPS",
+      "raw": "[50] Adam Paszke... PyTorch... In NeurIPS, 2019.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Boris T. Polyak",
+        "Anatoli B. Juditsky"
+      ],
+      "title": "Acceleration of stochastic approximation by averaging",
+      "year": 1992,
+      "container": "SIAM Journal on Control and Optimization",
+      "raw": "[51] Boris T Polyak and Anatoli B Juditsky. Acceleration of stochastic approximation by averaging. SIAM J. Control and Optimization, 1992.",
+      "confidence": 0.95,
+      "entry_index": 50
+    },
+    {
+      "author": [
+        "Alec Radford",
+        "Jeffrey Wu",
+        "Rewon Child",
+        "David Luan",
+        "Dario Amodei",
+        "Ilya Sutskever"
+      ],
+      "title": "Language models are unsupervised multitask learners",
+      "year": 2019,
+      "container": "(OpenAI technical report)",
+      "raw": "[52] Alec Radford... Language models are unsupervised multitask learners. 2019.",
+      "confidence": 0.95,
+      "entry_index": 51
+    },
+    {
+      "author": [
+        "Ilija Radosavovic",
+        "Justin Johnson",
+        "Saining Xie",
+        "Wan-Yen Lo",
+        "Piotr Dollár"
+      ],
+      "title": "On network design spaces for visual recognition",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[53] Ilija Radosavovic... On network design spaces for visual recognition. In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 52
+    },
+    {
+      "author": [
+        "Ilija Radosavovic",
+        "Raj Prateek Kosaraju",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Designing network design spaces",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[54] Ilija Radosavovic... Designing network design spaces. In CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 53
+    },
+    {
+      "author": [
+        "Prajit Ramachandran",
+        "Niki Parmar",
+        "Ashish Vaswani",
+        "Irwan Bello",
+        "Anselm Levskaya",
+        "Jonathon Shlens"
+      ],
+      "title": "Stand-alone self-attention in vision models",
+      "year": 2019,
+      "container": "NeurIPS",
+      "raw": "[55] Prajit Ramachandran... Stand-alone self-attention in vision models. NeurIPS, 2019.",
+      "confidence": 0.95,
+      "entry_index": 54
+    },
+    {
+      "author": [
+        "Yongming Rao",
+        "Wenliang Zhao",
+        "Zheng Zhu",
+        "Jiwen Lu",
+        "Jie Zhou"
+      ],
+      "title": "Global filter networks for image classification",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[56] Yongming Rao... Global filter networks for image classification. NeurIPS, 2021.",
+      "confidence": 0.95,
+      "entry_index": 55
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NeurIPS",
+      "raw": "[57] Shaoqing Ren... Faster R-CNN... In NeurIPS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 56
+    },
+    {
+      "author": [
+        "Henry A. Rowley",
+        "Shumeet Baluja",
+        "Takeo Kanade"
+      ],
+      "title": "Neural network-based face detection",
+      "year": 1998,
+      "container": "TPAMI",
+      "raw": "[58] Henry A Rowley... Neural network-based face detection. TPAMI, 1998.",
+      "confidence": 0.95,
+      "entry_index": 57
+    },
+    {
+      "author": [
+        "Olga Russakovsky",
+        "Jia Deng",
+        "Hao Su",
+        "Jonathan Krause",
+        "Sanjeev Satheesh",
+        "Sean Ma",
+        "Zhiheng Huang",
+        "Andrej Karpathy",
+        "Aditya Khosla",
+        "Michael Bernstein",
+        "Alexander C. Berg",
+        "Li Fei-Fei"
+      ],
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "year": 2015,
+      "container": "IJCV",
+      "raw": "[59] Olga Russakovsky... ImageNet Large Scale Visual Recognition Challenge. IJCV, 2015.",
+      "confidence": 0.95,
+      "entry_index": 58
+    },
+    {
+      "author": [
+        "Tim Salimans",
+        "Diederik P. Kingma"
+      ],
+      "title": "Weight normalization: A simple reparameterization to accelerate training of deep neural networks",
+      "year": 2016,
+      "container": "NeurIPS",
+      "raw": "[60] Tim Salimans and Diederik P Kingma. Weight normalization... In NeurIPS, 2016.",
+      "confidence": 0.95,
+      "entry_index": 59
+    },
+    {
+      "author": [
+        "Mark Sandler",
+        "Andrew Howard",
+        "Menglong Zhu",
+        "Andrey Zhmoginov",
+        "Liang-Chieh Chen"
+      ],
+      "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[61] Mark Sandler... Mobilenetv2... In CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 60
+    },
+    {
+      "author": [
+        "Pierre Sermanet",
+        "David Eigen",
+        "Xiang Zhang",
+        "Michael Mathieu",
+        "Rob Fergus",
+        "Yann LeCun"
+      ],
+      "title": "OverFeat: Integrated recognition, localization and detection using convolutional networks",
+      "year": 2014,
+      "container": "ICLR",
+      "raw": "[62] Pierre Sermanet... Overfeat... In ICLR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 61
+    },
+    {
+      "author": [
+        "Pierre Sermanet",
+        "Koray Kavukcuoglu",
+        "Soumith Chintala",
+        "Yann LeCun"
+      ],
+      "title": "Pedestrian detection with unsupervised multi-stage feature learning",
+      "year": 2013,
+      "container": "CVPR",
+      "raw": "[63] Pierre Sermanet... Pedestrian detection with unsupervised multi-stage feature learning. In CVPR, 2013.",
+      "confidence": 0.95,
+      "entry_index": 62
+    },
+    {
+      "author": [
+        "Karen Simonyan",
+        "Andrew Zisserman"
+      ],
+      "title": "Two-stream convolutional networks for action recognition in videos",
+      "year": 2014,
+      "container": "NeurIPS",
+      "raw": "[64] Karen Simonyan and Andrew Zisserman. Two-stream convolutional networks... In NeurIPS, 2014.",
+      "confidence": 0.95,
+      "entry_index": 63
+    },
+    {
+      "author": [
+        "Karen Simonyan",
+        "Andrew Zisserman"
+      ],
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "year": 2015,
+      "container": "ICLR",
+      "raw": "[65] Karen Simonyan and Andrew Zisserman. Very deep convolutional networks... In ICLR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 64
+    },
+    {
+      "author": [
+        "Aravind Srinivas",
+        "Tsung-Yi Lin",
+        "Niki Parmar",
+        "Jonathon Shlens",
+        "Pieter Abbeel",
+        "Ashish Vaswani"
+      ],
+      "title": "Bottleneck transformers for visual recognition",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[66] Aravind Srinivas... Bottleneck transformers for visual recognition. In CVPR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 65
+    },
+    {
+      "author": [
+        "Andreas Steiner",
+        "Alexander Kolesnikov",
+        "Xiaohua Zhai",
+        "Ross Wightman",
+        "Jakob Uszkoreit",
+        "Lucas Beyer"
+      ],
+      "title": "How to train your ViT? Data, augmentation, and regularization in vision transformers",
+      "year": 2021,
+      "container": "arXiv:2106.10270",
+      "raw": "[67] Andreas Steiner... How to train your vit?... arXiv preprint arXiv:2106.10270, 2021.",
+      "confidence": 0.95,
+      "entry_index": 66
+    },
+    {
+      "author": [
+        "Christian Szegedy",
+        "Wei Liu",
+        "Yangqing Jia",
+        "Pierre Sermanet",
+        "Scott Reed",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Vincent Vanhoucke",
+        "Andrew Rabinovich"
+      ],
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[68] Christian Szegedy... Going deeper with convolutions. In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 67
+    },
+    {
+      "author": [
+        "Christian Szegedy",
+        "Vincent Vanhoucke",
+        "Sergey Ioffe",
+        "Jonathon Shlens",
+        "Zbigniew Wojna"
+      ],
+      "title": "Rethinking the inception architecture for computer vision",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[69] Christian Szegedy... Rethinking the inception architecture for computer vision. In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 68
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Bo Chen",
+        "Ruoming Pang",
+        "Vijay Vasudevan",
+        "Mark Sandler",
+        "Andrew Howard",
+        "Quoc V. Le"
+      ],
+      "title": "MnasNet: Platform-aware neural architecture search for mobile",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[70] Mingxing Tan... Mnasnet... In CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 69
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientNet: Rethinking model scaling for convolutional neural networks",
+      "year": 2019,
+      "container": "ICML",
+      "raw": "[71] Mingxing Tan and Quoc Le. Efficientnet... In ICML, 2019.",
+      "confidence": 0.95,
+      "entry_index": 70
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientNetV2: Smaller models and faster training",
+      "year": 2021,
+      "container": "ICML",
+      "raw": "[72] Mingxing Tan and Quoc Le. Efficientnetv2... In ICML, 2021.",
+      "confidence": 0.95,
+      "entry_index": 71
+    },
+    {
+      "author": [
+        "Hugo Touvron",
+        "Matthieu Cord",
+        "Matthijs Douze",
+        "Francisco Massa",
+        "Alexandre Sablayrolles",
+        "Hervé Jégou"
+      ],
+      "title": "Training data-efficient image transformers & distillation through attention",
+      "year": 2020,
+      "container": "arXiv:2012.12877",
+      "raw": "[73] Hugo Touvron... Training data-efficient image transformers... arXiv:2012.12877, 2020.",
+      "confidence": 0.95,
+      "entry_index": 72
+    },
+    {
+      "author": [
+        "Hugo Touvron",
+        "Matthieu Cord",
+        "Alexandre Sablayrolles",
+        "Gabriel Synnaeve",
+        "Hervé Jégou"
+      ],
+      "title": "Going deeper with image transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[74] Hugo Touvron... Going deeper with image transformers. ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 73
+    },
+    {
+      "author": [
+        "Dmitry Ulyanov",
+        "Andrea Vedaldi",
+        "Victor Lempitsky"
+      ],
+      "title": "Instance normalization: The missing ingredient for fast stylization",
+      "year": 2016,
+      "container": "arXiv:1607.08022",
+      "raw": "[75] Dmitry Ulyanov... Instance normalization... arXiv:1607.08022, 2016.",
+      "confidence": 0.95,
+      "entry_index": 74
+    },
+    {
+      "author": [
+        "Régis Vaillant",
+        "Christophe Monrocq",
+        "Yann LeCun"
+      ],
+      "title": "Original approach for the localisation of objects in images",
+      "year": 1994,
+      "container": "Vision, Image and Signal Processing",
+      "raw": "[76] Régis Vaillant... Original approach for the localisation of objects in images. Vision, Image and Signal Processing, 1994.",
+      "confidence": 0.95,
+      "entry_index": 75
+    },
+    {
+      "author": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "title": "Attention is all you need",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "[77] Ashish Vaswani... Attention is all you need. In NeurIPS, 2017.",
+      "confidence": 0.95,
+      "entry_index": 76
+    },
+    {
+      "author": [
+        "Haohan Wang",
+        "Songwei Ge",
+        "Eric P. Xing",
+        "Zachary C. Lipton"
+      ],
+      "title": "Learning robust global representations by penalizing local predictive power",
+      "year": 2019,
+      "container": "NeurIPS",
+      "raw": "[78] Haohan Wang... Learning robust global representations... NeurIPS, 2019.",
+      "confidence": 0.95,
+      "entry_index": 77
+    },
+    {
+      "author": [
+        "Xiaolong Wang",
+        "Ross Girshick",
+        "Abhinav Gupta",
+        "Kaiming He"
+      ],
+      "title": "Non-local neural networks",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[79] Xiaolong Wang... Non-local neural networks. In CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 78
+    },
+    {
+      "author": [
+        "Ross Wightman"
+      ],
+      "title": "GitHub repository: PyTorch Image Models",
+      "year": 2019,
+      "container": "https://github.com/rwightman/pytorch-image-models",
+      "raw": "[80] Ross Wightman. GitHub repository: Pytorch image models. https://github.com/rwightman/pytorchimage-models, 2019.",
+      "confidence": 0.72,
+      "notes": "GitHub repo",
+      "entry_index": 79
+    },
+    {
+      "author": [
+        "Ross Wightman",
+        "Hugo Touvron",
+        "Hervé Jégou"
+      ],
+      "title": "ResNet strikes back: An improved training procedure in timm",
+      "year": 2021,
+      "container": "arXiv:2110.00476",
+      "raw": "[81] Ross Wightman... Resnet strikes back... arXiv:2110.00476, 2021.",
+      "confidence": 0.95,
+      "entry_index": 80
+    },
+    {
+      "author": [
+        "Haiping Wu",
+        "Bin Xiao",
+        "Noel Codella",
+        "Mengchen Liu",
+        "Xiyang Dai",
+        "Lu Yuan",
+        "Lei Zhang"
+      ],
+      "title": "CvT: Introducing convolutions to vision transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[82] Haiping Wu... Cvt: Introducing convolutions to vision transformers. ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 81
+    },
+    {
+      "author": [
+        "Yuxin Wu",
+        "Kaiming He"
+      ],
+      "title": "Group normalization",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[83] Yuxin Wu and Kaiming He. Group normalization. In ECCV, 2018.",
+      "confidence": 0.95,
+      "entry_index": 82
+    },
+    {
+      "author": [
+        "Yuxin Wu",
+        "Justin Johnson"
+      ],
+      "title": "Rethinking 'batch' in BatchNorm",
+      "year": 2021,
+      "container": "arXiv:2105.07576",
+      "raw": "[84] Yuxin Wu and Justin Johnson. Rethinking \"batch\" in batchnorm. arXiv:2105.07576, 2021.",
+      "confidence": 0.95,
+      "entry_index": 83
+    },
+    {
+      "author": [
+        "Tete Xiao",
+        "Yingcheng Liu",
+        "Bolei Zhou",
+        "Yuning Jiang",
+        "Jian Sun"
+      ],
+      "title": "Unified perceptual parsing for scene understanding",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[85] Tete Xiao... Unified perceptual parsing for scene understanding. In ECCV, 2018.",
+      "confidence": 0.95,
+      "entry_index": 84
+    },
+    {
+      "author": [
+        "Tete Xiao",
+        "Mannat Singh",
+        "Eric Mintun",
+        "Trevor Darrell",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Early convolutions help transformers see better",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[86] Tete Xiao... Early convolutions help transformers see better. In NeurIPS, 2021.",
+      "confidence": 0.95,
+      "entry_index": 85
+    },
+    {
+      "author": [
+        "Saining Xie",
+        "Ross Girshick",
+        "Piotr Dollár",
+        "Zhuowen Tu",
+        "Kaiming He"
+      ],
+      "title": "Aggregated residual transformations for deep neural networks",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[87] Saining Xie... Aggregated residual transformations for deep neural networks. In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 86
+    },
+    {
+      "author": [
+        "Weijian Xu",
+        "Yifan Xu",
+        "Tyler Chang",
+        "Zhuowen Tu"
+      ],
+      "title": "Co-scale conv-attentional image transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[88] Weijian Xu... Co-scale conv-attentional image transformers. ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 87
+    },
+    {
+      "author": [
+        "Sangdoo Yun",
+        "Dongyoon Han",
+        "Seong Joon Oh",
+        "Sanghyuk Chun",
+        "Junsuk Choe",
+        "Youngjoon Yoo"
+      ],
+      "title": "CutMix: Regularization strategy to train strong classifiers with localizable features",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[89] Sangdoo Yun... Cutmix... In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 88
+    },
+    {
+      "author": [
+        "Hongyi Zhang",
+        "Moustapha Cisse",
+        "Yann N. Dauphin",
+        "David Lopez-Paz"
+      ],
+      "title": "mixup: Beyond empirical risk minimization",
+      "year": 2018,
+      "container": "ICLR",
+      "raw": "[90] Hongyi Zhang... mixup... In ICLR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 89
+    },
+    {
+      "author": [
+        "Zhun Zhong",
+        "Liang Zheng",
+        "Guoliang Kang",
+        "Shaozi Li",
+        "Yi Yang"
+      ],
+      "title": "Random erasing data augmentation",
+      "year": 2020,
+      "container": "AAAI",
+      "raw": "[91] Zhun Zhong... Random erasing data augmentation. In AAAI, 2020.",
+      "confidence": 0.95,
+      "entry_index": 90
+    },
+    {
+      "author": [
+        "Bolei Zhou",
+        "Hang Zhao",
+        "Xavier Puig",
+        "Tete Xiao",
+        "Sanja Fidler",
+        "Adela Barriuso",
+        "Antonio Torralba"
+      ],
+      "title": "Semantic understanding of scenes through the ADE20K dataset",
+      "year": 2019,
+      "container": "IJCV",
+      "raw": "[92] Bolei Zhou... Semantic understanding of scenes through the ADE20K dataset. IJCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 91
+    }
+  ]
+}

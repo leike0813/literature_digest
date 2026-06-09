@@ -1,0 +1,687 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/2KUGMFL2_YOLACT_ Real-time Instance Segmentation.txt",
+  "entry_style": "mixed",
+  "notes": "纯 numeric 风格。末尾无页码标记（干净）。[13] 和 [42] 为跨行条目（文本在下一行续写）。",
+  "items": [
+    {
+      "entry_index": 0,
+      "author": [
+        "Shivani Agarwal",
+        "Dan Roth"
+      ],
+      "title": "Learning a sparse representation for object detection",
+      "year": 2002,
+      "container": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "raw": "[1] Shivani Agarwal and Dan Roth. Learning a sparse representation for object detection. In ECCV, 2002.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 1,
+      "author": [
+        "Vijay Badrinarayanan",
+        "Alex Kendall",
+        "Roberto Cipolla"
+      ],
+      "title": "SegNet: A deep convolutional encoder-decoder architecture for image segmentation",
+      "year": 2015,
+      "container": "CoRR",
+      "raw": "[2] Vijay Badrinarayanan, Alex Kendall, and Roberto Cipolla. Segnet: A deep convolutional encoder-decoder architecture for image segmentation. CoRR, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 2,
+      "author": [
+        "Min Bai",
+        "Raquel Urtasun"
+      ],
+      "title": "Deep watershed transform for instance segmentation",
+      "year": 2017,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[3] Min Bai and Raquel Urtasun. Deep watershed transform for instance segmentation. In CVPR, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 3,
+      "author": [
+        "Liang-Chieh Chen",
+        "Alexander Hermans",
+        "George Papandreou",
+        "Florian Schroff",
+        "Peng Wang",
+        "Hartwig Adam"
+      ],
+      "title": "MaskLab: Instance segmentation by refining object detection with semantic and direction features",
+      "year": 2018,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[4] Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, and Hartwig Adam. Masklab: Instance segmentation by refining object detection with semantic and direction features. In CVPR, 2018.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 4,
+      "author": [
+        "Marius Cordts",
+        "Mohamed Omran",
+        "Sebastian Ramos",
+        "Timo Rehfeld",
+        "Markus Enzweiler",
+        "Rodrigo Benenson",
+        "Uwe Franke",
+        "Stefan Roth",
+        "Bernt Schiele"
+      ],
+      "title": "The Cityscapes dataset for semantic urban scene understanding",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[5] Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. The cityscapes dataset for semantic urban scene understanding. In CVPR, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 5,
+      "author": [
+        "Jifeng Dai",
+        "Kaiming He",
+        "Yi Li",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Instance-sensitive fully convolutional networks",
+      "year": 2016,
+      "container": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "raw": "[6] Jifeng Dai, Kaiming He, Yi Li, Shaoqing Ren, and Jian Sun. Instance-sensitive fully convolutional networks. In ECCV, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 6,
+      "author": [
+        "Jifeng Dai",
+        "Kaiming He",
+        "Jian Sun"
+      ],
+      "title": "Instance-aware semantic segmentation via multi-task network cascades",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[7] Jifeng Dai, Kaiming He, and Jian Sun. Instance-aware semantic segmentation via multi-task network cascades. In CVPR, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 7,
+      "author": [
+        "Jifeng Dai",
+        "Yi Li",
+        "Kaiming He",
+        "Jian Sun"
+      ],
+      "title": "R-FCN: Object detection via region-based fully convolutional networks",
+      "year": 2016,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[8] Jifeng Dai, Yi Li, Kaiming He, and Jian Sun. R-fcn: Object detection via region-based fully convolutional networks. In NeurIPS, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 8,
+      "author": [
+        "Bert De Brabandere",
+        "Davy Neven",
+        "Luc Van Gool"
+      ],
+      "title": "Semantic instance segmentation with a discriminative loss function",
+      "year": 2017,
+      "container": "arXiv preprint arXiv:1708.02551",
+      "raw": "[9] Bert De Brabandere, Davy Neven, and Luc Van Gool. Semantic instance segmentation with a discriminative loss function. arXiv preprint arXiv:1708.02551, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 9,
+      "author": [
+        "Jia Deng",
+        "Wei Dong",
+        "Richard Socher",
+        "Li-Jia Li",
+        "Kai Li",
+        "Li Fei-Fei"
+      ],
+      "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+      "year": 2009,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[10] Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A Large-Scale Hierarchical Image Database. In CVPR, 2009.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 10,
+      "author": [
+        "Nikita Dvornik",
+        "Konstantin Shmelkov",
+        "Julien Mairal",
+        "Cordelia Schmid"
+      ],
+      "title": "BlitzNet: A real-time deep network for scene understanding",
+      "year": 2017,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "raw": "[11] Nikita Dvornik, Konstantin Shmelkov, Julien Mairal, and Cordelia Schmid. Blitznet: A real-time deep network for scene understanding. In ICCV, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 11,
+      "author": [
+        "Mark Everingham",
+        "Luc Van Gool",
+        "Christopher K. I. Williams",
+        "John Winn",
+        "Andrew Zisserman"
+      ],
+      "title": "The Pascal Visual Object Classes (VOC) challenge",
+      "year": 2010,
+      "container": "International Journal of Computer Vision",
+      "raw": "[12] Mark Everingham, Luc Van Gool, Christopher Williams, John Winn, and Andrew Zisserman. The pascal visual object classes (voc) challenge. International Journal of Computer Vision, 88(2):303–338, June 2010.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 12,
+      "author": [
+        "Alireza Fathi",
+        "Zbigniew Wojna",
+        "Vivek Rathod",
+        "Peng Wang",
+        "Hyun Oh Song",
+        "Sergio Guadarrama",
+        "Kevin Murphy"
+      ],
+      "title": "Semantic instance segmentation via deep metric learning",
+      "year": 2017,
+      "container": "arXiv preprint arXiv:1703.10277",
+      "raw": "[13] Alireza Fathi, Zbigniew Wojna, Vivek Rathod, Peng Wang, Hyun Oh Song, Sergio Guadarrama, and Kevin Murphy. Semantic instance segmentation via deep metric learning. arXiv preprint arXiv:1703.10277, 2017.",
+      "confidence": 0.95,
+      "notes": "跨行条目（标题分行）"
+    },
+    {
+      "entry_index": 13,
+      "author": [
+        "Cheng-Yang Fu",
+        "Mykhailo Shvets",
+        "Alexander C. Berg"
+      ],
+      "title": "RetinaMask: Learning to predict masks improves state-of-the-art single-shot detection for free",
+      "year": 2019,
+      "container": "arXiv preprint arXiv:1901.03353",
+      "raw": "[14] Cheng-Yang Fu, Mykhailo Shvets, and Alexander C Berg. Retinamask: Learning to predict masks improves stateof-the-art single-shot detection for free. arXiv preprint arXiv:1901.03353, 2019.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 14,
+      "author": [
+        "Andreas Geiger",
+        "Philip Lenz",
+        "Raquel Urtasun"
+      ],
+      "title": "Are we ready for autonomous driving? the kitti vision benchmark suite",
+      "year": 2012,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[15] Andreas Geiger, Philip Lenz, and Raquel Urtasun. Are we ready for autonomous driving? the kitti vision benchmark suite. In CVPR, 2012.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 15,
+      "author": [
+        "Bharath Hariharan",
+        "Pablo Arbeláez",
+        "Lubomir Bourdev",
+        "Subhransu Maji",
+        "Jitendra Malik"
+      ],
+      "title": "Semantic contours from inverse detectors",
+      "year": 2011,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "raw": "[16] Bharath Hariharan, Pablo Arbelaez, Lubomir Bourdev, Subhransu Maji, and Jitendra Malik. Semantic contours from inverse detectors. In ICCV, 2011.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 16,
+      "author": [
+        "Adam Harley",
+        "Konstantinos Derpanis",
+        "Iasonas Kokkinos"
+      ],
+      "title": "Segmentation-aware convolutional networks using local attention masks",
+      "year": 2017,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "raw": "[17] Adam Harley, Konstantinos Derpanis, and Iasonas Kokkinos. Segmentation-aware convolutional networks using local attention masks. In ICCV, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 17,
+      "author": [
+        "Kaiming He",
+        "Georgia Gkioxari",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "raw": "[18] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Girshick. Mask r-cnn. In ICCV, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 18,
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[19] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In CVPR, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 19,
+      "author": [
+        "Zhaojin Huang",
+        "Lichao Huang",
+        "Yongchao Gong",
+        "Chang Huang",
+        "Xinggang Wang"
+      ],
+      "title": "Mask scoring r-cnn",
+      "year": 2019,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[20] Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang. Mask scoring r-cnn. In CVPR, 2019.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 20,
+      "author": [
+        "Saumya Jetley",
+        "Michael Sapienza",
+        "Stuart Golodetz",
+        "Philip H. S. Torr"
+      ],
+      "title": "Straight to shapes: real-time detection of encoded shapes",
+      "year": 2017,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[21] Saumya Jetley, Michael Sapienza, Stuart Golodetz, and Philip Torr. Straight to shapes: real-time detection of encoded shapes. In CVPR, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 21,
+      "author": [
+        "Alexander Kirillov",
+        "Evgeny Levinkov",
+        "Bjoern Andres",
+        "Bogdan Savchynskyy",
+        "Carsten Rother"
+      ],
+      "title": "InstanceCut: from edges to instances with multicut",
+      "year": 2017,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[22] Alexander Kirillov, Evgeny Levinkov, Bjoern Andres, Bogdan Savchynskyy, and Carsten Rother. Instancecut: from edges to instances with multicut. In CVPR, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 22,
+      "author": [
+        "Thomas Leung",
+        "Jitendra Malik"
+      ],
+      "title": "Representing and recognizing the visual appearance of materials using three-dimensional textons",
+      "year": 2001,
+      "container": "International Journal of Computer Vision",
+      "raw": "[23] Thomas Leung and Jitendra Malik. Representing and recognizing the visual appearance of materials using threedimensional textons. IJCV, 2001.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 23,
+      "author": [
+        "Yi Li",
+        "Haozhi Qi",
+        "Jifeng Dai",
+        "Xiangyang Ji",
+        "Yichen Wei"
+      ],
+      "title": "Fully convolutional instance-aware semantic segmentation",
+      "year": 2017,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[24] Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, and Yichen Wei. Fully convolutional instance-aware semantic segmentation. In CVPR, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 24,
+      "author": [
+        "Xiaodan Liang",
+        "Liang Lin",
+        "Yunchao Wei",
+        "Xiaohui Shen",
+        "Jianchao Yang",
+        "Shuicheng Yan"
+      ],
+      "title": "Proposal-free network for instance-level object segmentation",
+      "year": 2018,
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "raw": "[25] Xiaodan Liang, Liang Lin, Yunchao Wei, Xiaohui Shen, Jianchao Yang, and Shuicheng Yan. Proposal-free network for instance-level object segmentation. TPAMI, 2018.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 25,
+      "author": [
+        "Tsung-Yi Lin",
+        "Piotr Dollár",
+        "Ross Girshick",
+        "Kaiming He",
+        "Bharath Hariharan",
+        "Serge Belongie"
+      ],
+      "title": "Feature pyramid networks for object detection",
+      "year": 2017,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[26] Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In CVPR, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 26,
+      "author": [
+        "Tsung-Yi Lin",
+        "Priya Goyal",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Focal loss for dense object detection",
+      "year": 2017,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[27] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense object detection. In CVPR, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 27,
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "raw": "[28] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and Lawrence Zitnick. Microsoft coco: Common objects in context. In ECCV, 2014.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 28,
+      "author": [
+        "Shu Liu",
+        "Lu Qi",
+        "Haifang Qin",
+        "Jianping Shi",
+        "Jiaya Jia"
+      ],
+      "title": "Path aggregation network for instance segmentation",
+      "year": 2018,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[29] Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia. Path aggregation network for instance segmentation. In CVPR, 2018.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 29,
+      "author": [
+        "Wei Liu",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Christian Szegedy",
+        "Scott Reed",
+        "Cheng-Yang Fu",
+        "Alexander C. Berg"
+      ],
+      "title": "SSD: Single shot multibox detector",
+      "year": 2016,
+      "container": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "raw": "[30] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander Berg. Ssd: Single shot multibox detector. In ECCV, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 30,
+      "author": [
+        "Jonathan Long",
+        "Evan Shelhamer",
+        "Trevor Darrell"
+      ],
+      "title": "Fully convolutional networks for semantic segmentation",
+      "year": 2015,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[31] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks for semantic segmentation. In CVPR, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 31,
+      "author": [
+        "Alejandro Newell",
+        "Zhiao Huang",
+        "Jia Deng"
+      ],
+      "title": "Associative embedding: End-to-end learning for joint detection and grouping",
+      "year": 2017,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[32] Alejandro Newell, Zhiao Huang, and Jia Deng. Associative embedding: End-to-end learning for joint detection and grouping. In NeurIPS, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 32,
+      "author": [
+        "Adam Paszke",
+        "Abhishek Chaurasia",
+        "Sangpil Kim",
+        "Eugenio Culurciello"
+      ],
+      "title": "ENet: A deep neural network architecture for real-time semantic segmentation",
+      "year": 2016,
+      "container": "CoRR",
+      "raw": "[33] Adam Paszke, Abhishek Chaurasia, Sangpil Kim, and Eugenio Culurciello. Enet: A deep neural network architecture for real-time semantic segmentation. CoRR, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 33,
+      "author": [
+        "Joseph Redmon",
+        "Santosh Divvala",
+        "Ross Girshick",
+        "Ali Farhadi"
+      ],
+      "title": "You only look once: Unified, real-time object detection",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[34] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once: Unified, real-time object detection. In CVPR, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 34,
+      "author": [
+        "Joseph Redmon",
+        "Ali Farhadi"
+      ],
+      "title": "YOLO9000: Better, faster, stronger",
+      "year": 2017,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[35] Joseph Redmon and Ali Farhadi. Yolo9000: Better, faster, stronger. In CVPR, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 35,
+      "author": [
+        "Joseph Redmon",
+        "Ali Farhadi"
+      ],
+      "title": "YOLOv3: An incremental improvement",
+      "year": 2018,
+      "container": "arXiv:1804.02767",
+      "raw": "[36] Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv:1804.02767, 2018.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 36,
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[37] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. In NeurIPS, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 37,
+      "author": [
+        "Xiaofeng Ren",
+        "Deva Ramanan"
+      ],
+      "title": "Histograms of sparse codes for object detection",
+      "year": 2013,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[38] Xiaofeng Ren and Deva Ramanan. Histograms of sparse codes for object detection. In CVPR, 2013.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 38,
+      "author": [
+        "Abhinav Shrivastava",
+        "Abhinav Gupta",
+        "Ross Girshick"
+      ],
+      "title": "Training region-based object detectors with online hard example mining",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[39] Abhinav Shrivastava, Abhinav Gupta, and Ross Girshick. Training region-based object detectors with online hard example mining. In CVPR, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 39,
+      "author": [
+        "Josef Sivic",
+        "Andrew Zisserman"
+      ],
+      "title": "Video Google: A text retrieval approach to object matching in videos",
+      "year": 2003,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "raw": "[40] Josef Sivic and Andrew Zisserman. Video google: A text retrieval approach to object matching in videos. In ICCV, 2003.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 40,
+      "author": [
+        "Michael Treml",
+        "José Arjona-Medina",
+        "Thomas Unterthiner",
+        "Rupesh Durgesh",
+        "Felix Friedmann",
+        "Peter Schuberth",
+        "Andreas Mayr",
+        "Martin Heusel",
+        "Markus Hofmarcher",
+        "Michael Widrich"
+      ],
+      "title": "Speeding up semantic segmentation for autonomous driving",
+      "year": 2016,
+      "container": "NeurIPS Workshops",
+      "raw": "[41] Michael Treml, Jose Arjona-Medina, Thomas Unterthiner, Rupesh Durgesh, Felix Friedmann, Peter Schuberth, Andreas Mayr, Martin Heusel, Markus Hofmarcher, Michael Widrich, et al. Speeding up semantic segmentation for autonomous driving. In NeurIPS Workshops, 2016.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 41,
+      "author": [
+        "Jonas Uhrig",
+        "Eike Rehder",
+        "Björn Fröhlich",
+        "Uwe Franke",
+        "Thomas Brox"
+      ],
+      "title": "Box2Pix: Single-shot instance segmentation by assigning pixels to object boxes",
+      "year": 2018,
+      "container": "IEEE Intelligent Vehicles Symposium",
+      "raw": "[42] Jonas Uhrig, Eike Rehder, Bjorn Frohlich, Uwe Franke, and Thomas Brox. Box2pix: Single-shot instance segmentation by assigning pixels to object boxes. In IEEE Intelligent Vehicles Symposium, 2018.",
+      "confidence": 0.92,
+      "notes": "raw 含 LaTeX 重音符 'Fr¨ohlich'"
+    },
+    {
+      "entry_index": 42,
+      "author": [
+        "Jinjun Wang",
+        "Jianchao Yang",
+        "Kai Yu",
+        "Fengjun Lv",
+        "Thomas Huang",
+        "Yihong Gong"
+      ],
+      "title": "Locality-constrained linear coding for image classification",
+      "year": 2010,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[43] Jinjun Wang, Jianchao Yang, Kai Yu, Fengjun Lv, Thomas Huang, and Yihong Gong. Locality-constrained linear coding for image classification. In CVPR, 2010.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 43,
+      "author": [
+        "Jianchao Yang",
+        "John Wright",
+        "Thomas Huang",
+        "Yi Ma"
+      ],
+      "title": "Image super-resolution via sparse representation",
+      "year": 2010,
+      "container": "IEEE Transactions on Image Processing",
+      "raw": "[44] Jianchao Yang, John Wright, Thomas Huang, and Yi Ma. Image super-resolution via sparse representation. IEEE Transactions on Image Processing, 2010.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 44,
+      "author": [
+        "Xiaodong Yu",
+        "Li Yi",
+        "Cornelia Fermüller",
+        "David Doermann"
+      ],
+      "title": "Object detection using shape codebook",
+      "year": 2007,
+      "container": "Proceedings of the British Machine Vision Conference (BMVC)",
+      "raw": "[45] Xiaodong Yu, Li Yi, Cornelia Fermuller, and David Doermann. Object detection using shape codebook. In BMVC, 2007.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 45,
+      "author": [
+        "Tianzhu Zhang",
+        "Bernard Ghanem",
+        "Si Liu",
+        "Changsheng Xu",
+        "Narendra Ahuja"
+      ],
+      "title": "Low-rank sparse coding for image classification",
+      "year": 2013,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "raw": "[46] Tianzhu Zhang, Bernard Ghanem, Si Liu, Changsheng Xu, and Narendra Ahuja. Low-rank sparse coding for image classification. In ICCV, 2013.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 46,
+      "author": [
+        "Hengshuang Zhao",
+        "Xiaojuan Qi",
+        "Xiaoyong Shen",
+        "Jianping Shi",
+        "Jiaya Jia"
+      ],
+      "title": "ICNet for real-time semantic segmentation on high-resolution images",
+      "year": 2018,
+      "container": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "raw": "[47] Hengshuang Zhao, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, and Jiaya Jia. Icnet for real-time semantic segmentation on high-resolution images. In ECCV, 2018.",
+      "confidence": 0.95
+    }
+  ]
+}

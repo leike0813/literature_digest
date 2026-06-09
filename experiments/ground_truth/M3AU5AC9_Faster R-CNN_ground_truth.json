@@ -1,0 +1,375 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/M3AU5AC9_Faster R-CNN_ towards real-time object detection with region proposal networks.txt",
+  "entry_style": "mixed",
+  "notes": "IEEE 引号格式（'Surname, Initials., ... \"Title.\" in Venue, Year.）。作者名为缩写形式，不易展开为全名。部分条目末尾无出版年（如 [19]），年份嵌入在描述性文字中。第 42 行起为图片与作者简介，非参考文献。",
+  "items": [
+    {
+      "entry_index": 0,
+      "author": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"],
+      "title": "Spatial pyramid pooling in deep convolutional networks for visual recognition",
+      "year": 2014,
+      "container": "Proceedings of the 13th European Conference on Computer Vision (ECCV)",
+      "raw": "[1] K. He, X. Zhang, S. Ren, and J. Sun, \"Spatial pyramid pooling in deep convolutional networks for visual recognition,\" in Proc. 13th Eur. Conf. Comput. Vis., 2014 pp. 346–361.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 1,
+      "author": ["Ross Girshick"],
+      "title": "Fast R-CNN",
+      "year": 2015,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "raw": "[2] R. Girshick, \"Fast R-CNN,\" in Proc. IEEE Int. Conf. Comput. Vis., 2015, pp. 1440–1448.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 2,
+      "author": ["Karen Simonyan", "Andrew Zisserman"],
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "year": 2015,
+      "container": "International Conference on Learning Representations (ICLR)",
+      "raw": "[3] K. Simonyan and A. Zisserman, \"Very deep convolutional networks for large-scale image recognition,\" in Proc. Int. Conf. Learn. Representations, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 3,
+      "author": ["Jasper R. R. Uijlings", "Koen E. A. van de Sande", "Theo Gevers", "Arnold W. M. Smeulders"],
+      "title": "Selective search for object recognition",
+      "year": 2013,
+      "container": "International Journal of Computer Vision",
+      "raw": "[4] J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders, \"Selective search for object recognition,\" Int. J. Comput. Vis., vol. 104, no. 2, pp. 154–171, Sep. 2013.",
+      "confidence": 0.92,
+      "notes": "原始作者名为缩写，全名通过该论文已知信息补充"
+    },
+    {
+      "entry_index": 4,
+      "author": ["Ross Girshick", "Jeff Donahue", "Trevor Darrell", "Jitendra Malik"],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[5] R. Girshick, J. Donahue, T. Darrell, and J. Malik, \"Rich feature hierarchies for accurate object detection and semantic segmentation,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 580–587.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 5,
+      "author": ["C. Lawrence Zitnick", "Piotr Dollár"],
+      "title": "Edge boxes: Locating object proposals from edges",
+      "year": 2014,
+      "container": "Proceedings of the 13th European Conference on Computer Vision (ECCV)",
+      "raw": "[6] C. L. Zitnick and P. Dollar, \"Edge boxes: Locating object proposals -from edges,\" in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 391– 405.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 6,
+      "author": ["Jonathan Long", "Evan Shelhamer", "Trevor Darrell"],
+      "title": "Fully convolutional networks for semantic segmentation",
+      "year": 2015,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[7] J. Long, E. Shelhamer, and T. Darrell, \"Fully convolutional networks for semantic segmentation,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 3431–3440.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 7,
+      "author": ["Pedro F. Felzenszwalb", "Ross B. Girshick", "David McAllester", "Deva Ramanan"],
+      "title": "Object detection with discriminatively trained part-based models",
+      "year": 2010,
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "raw": "[8] P. F. Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ramanan, \"Object detection with discriminatively trained part-based models,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1627– 1645, Sep. 2010.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 8,
+      "author": ["Pierre Sermanet", "David Eigen", "Xiang Zhang", "Michael Mathieu", "Rob Fergus", "Yann LeCun"],
+      "title": "Overfeat: Integrated recognition, localization and detection using convolutional networks",
+      "year": 2014,
+      "container": "International Conference on Learning Representations (ICLR)",
+      "raw": "[9] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun, \"Overfeat: Integrated recognition, localization and detection using convolutional networks,\" in Proc. Int. Conf. Learn. Representations, 2014.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 9,
+      "author": ["Shaoqing Ren", "Kaiming He", "Ross Girshick", "Jian Sun"],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[10] S. Ren, K. He, R. Girshick, and J. Sun, \"Faster R-CNN: Towards real-time object detection with region proposal networks,\" in Proc. Neural Inf. Process. Syst., 2015, pp. 91–99.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 10,
+      "author": ["Mark Everingham", "Luc Van Gool", "Christopher K. I. Williams", "John Winn", "Andrew Zisserman"],
+      "title": "The PASCAL Visual Object Classes Challenge Results",
+      "year": 2007,
+      "container": "International Journal of Computer Vision",
+      "raw": "[11] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, \"The PASCAL Visual Object Classes Challenge Results,\" Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, Jun. 2007.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 11,
+      "author": ["Tsung-Yi Lin", "Michael Maire", "Serge Belongie", "James Hays", "Pietro Perona", "Deva Ramanan", "Piotr Dollár", "C. Lawrence Zitnick"],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "Proceedings of the 13th European Conference on Computer Vision (ECCV)",
+      "raw": "[12] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, \"Microsoft COCO: Common objects -in context,\" in Proc. Eur. Conf. Comput. Vis., 2014, pp. 740–755.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 12,
+      "author": ["Shuran Song", "Jianxiong Xiao"],
+      "title": "Deep sliding shapes for amodal 3d object detection in RGB-D images",
+      "year": 2015,
+      "container": "arXiv:1511.02300",
+      "raw": "[13] S. Song and J. Xiao, \"Deep sliding shapes for amodal 3d object detection in RGB-D images,\" arXiv:1511.02300, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 13,
+      "author": ["Junyan Zhu", "Xiaozhi Chen", "Alan L. Yuille"],
+      "title": "DeePM: A deep part-based model for object detection and semantic part localization",
+      "year": 2015,
+      "container": "arXiv:1511.07131",
+      "raw": "[14] J. Zhu, X. Chen, and A. L. Yuille, \"DeePM: A deep part-based model for object detection and semantic part localization,\" arXiv:1511.07131, 2015.",
+      "confidence": 0.90
+    },
+    {
+      "entry_index": 14,
+      "author": ["Jifeng Dai", "Kaiming He", "Jian Sun"],
+      "title": "Instance-aware semantic segmentation via multi-task network cascades",
+      "year": 2015,
+      "container": "arXiv:1512.04412",
+      "raw": "[15] J. Dai, K. He, and J. Sun, \"Instance-aware semantic segmentation via multi-task network cascades,\" arXiv:1512.04412, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 15,
+      "author": ["Justin Johnson", "Andrej Karpathy", "Li Fei-Fei"],
+      "title": "Densecap: Fully convolutional localization networks for dense captioning",
+      "year": 2015,
+      "container": "arXiv:1511.07571",
+      "raw": "[16] J. Johnson, A. Karpathy, and L. Fei-Fei, \"Densecap: Fully convolutional localization networks for dense captioning,\" arXiv:1511.07571, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 16,
+      "author": ["Dmitry Kislyuk", "Yijie Liu", "David Liu", "Eric Tzeng", "Yushi Jing"],
+      "title": "Human curation and convnets: Powering item-to-item recommendations on pinterest",
+      "year": 2015,
+      "container": "arXiv:1511.04003",
+      "raw": "[17] D. Kislyuk, Y. Liu, D. Liu, E. Tzeng, and Y. Jing, \"Human curation and convnets: Powering item-to-item recommendations on pinterest,\" arXiv:1511.04003, 2015.",
+      "confidence": 0.90
+    },
+    {
+      "entry_index": 17,
+      "author": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"],
+      "title": "Deep residual learning for image recognition",
+      "year": 2015,
+      "container": "arXiv:1512.03385",
+      "raw": "[18] K. He, X. Zhang, S. Ren, and J. Sun, \"Deep residual learning for image recognition,\" arXiv:1512.03385, 2015.",
+      "confidence": 0.95,
+      "notes": "arXiv 预览版（2015），正式版发表于 CVPR 2016"
+    },
+    {
+      "entry_index": 18,
+      "author": ["Jan Hosang", "Rodrigo Benenson", "Bernt Schiele"],
+      "title": "How good are detection proposals, really?",
+      "year": 2014,
+      "container": "Proceedings of the British Machine Vision Conference (BMVC)",
+      "raw": "[19] J. Hosang, R. Benenson, and B. Schiele, \"How good are detection proposals, really?\" presented at Proc. Brit. Mach. Vis. Conf., Nottingham, England, 2014.",
+      "confidence": 0.88,
+      "notes": "年份嵌入在描述文字中，无显式出版年标签"
+    },
+    {
+      "entry_index": 19,
+      "author": ["Jan Hosang", "Rodrigo Benenson", "Piotr Dollár", "Bernt Schiele"],
+      "title": "What makes for effective detection proposals?",
+      "year": 2015,
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "raw": "[20] J. Hosang, R. Benenson, P. Dollar, and B. Schiele, \"What makes for -effective detection proposals?\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 38, no. 4, pp. 814–830, Apr. 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 20,
+      "author": ["Neelima Chavali", "Harsh Agrawal", "Aravind Mahendru", "Dhruv Batra"],
+      "title": "Object-proposal evaluation protocol is 'gameable'",
+      "year": 2015,
+      "container": "arXiv:1505.05836",
+      "raw": "[21] N. Chavali, H. Agrawal, A. Mahendru, and D. Batra, \"Object-proposal evaluation protocol is 'gameable',\" arXiv: 1505.05836, 2015.",
+      "confidence": 0.85
+    },
+    {
+      "entry_index": 21,
+      "author": ["João Carreira", "Cristian Sminchisescu"],
+      "title": "CPMC: Automatic object segmentation using constrained parametric min-cuts",
+      "year": 2012,
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "raw": "[22] J. Carreira and C. Sminchisescu, \"CPMC: Automatic object segmentation using constrained parametric min-cuts,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 7, pp. 1312–1328, Jul. 2012.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 22,
+      "author": ["Pablo Arbeláez", "Jordi Pont-Tuset", "Jonathan T. Barron", "Ferran Marques", "Jitendra Malik"],
+      "title": "Multiscale combinatorial grouping",
+      "year": 2014,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[23] P. Arbelaez, J. Pont-Tuset, J. T. Barron, F. Marques, and J. Malik, -\"Multiscale combinatorial grouping,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 328–335.",
+      "confidence": 0.92,
+      "notes": "原文 title 前有一个多余的 '-'"
+    },
+    {
+      "entry_index": 23,
+      "author": ["Bogdan Alexe", "Thomas Deselaers", "Vittorio Ferrari"],
+      "title": "Measuring the objectness of image windows",
+      "year": 2012,
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "raw": "[24] B. Alexe, T. Deselaers, and V. Ferrari, \"Measuring the objectness of image windows,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 11, pp. 2189–2202, Nov. 2012.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 24,
+      "author": ["Christian Szegedy", "Alexander Toshev", "Dumitru Erhan"],
+      "title": "Deep neural networks for object detection",
+      "year": 2013,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[25] C. Szegedy, A. Toshev, and D. Erhan, \"Deep neural networks for object detection,\" in Proc. Neural Inform. Process. Syst., 2013, pp. 2553–2561.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 25,
+      "author": ["Dumitru Erhan", "Christian Szegedy", "Alexander Toshev", "Dragomir Anguelov"],
+      "title": "Scalable object detection using deep neural networks",
+      "year": 2014,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[26] D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov, \"Scalable object detection using deep neural networks,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2155–2162.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 26,
+      "author": ["Christian Szegedy", "Scott Reed", "Dumitru Erhan", "Dragomir Anguelov"],
+      "title": "Scalable, high-quality object detection",
+      "year": 2015,
+      "container": "arXiv:1412.1441",
+      "raw": "[27] C. Szegedy, S. Reed, D. Erhan, and D. Anguelov, \"Scalable, highquality object detection,\" arXiv:1412.1441 (v1), 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 27,
+      "author": ["Pedro O. Pinheiro", "Ronan Collobert", "Piotr Dollár"],
+      "title": "Learning to segment object candidates",
+      "year": 2015,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[28] P. O. Pinheiro, R. Collobert, and P. Dollar, \"Learning to segment object candidates,\" in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 1981–1989.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 28,
+      "author": ["Jifeng Dai", "Kaiming He", "Jian Sun"],
+      "title": "Convolutional feature masking for joint object and stuff segmentation",
+      "year": 2015,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[29] J. Dai, K. He, and J. Sun, \"Convolutional feature masking for joint object and stuff segmentation,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2015, pp. 3992–4000.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 29,
+      "author": ["Shaoqing Ren", "Kaiming He", "Ross Girshick", "Xiangyu Zhang", "Jian Sun"],
+      "title": "Object detection networks on convolutional feature maps",
+      "year": 2015,
+      "container": "arXiv:1504.06066",
+      "raw": "[30] S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun, \"Object detection networks on convolutional feature maps,\" arXiv:1504.06066, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 30,
+      "author": ["Jan K. Chorowski", "Dzmitry Bahdanau", "Dmitriy Serdyuk", "Kyunghyun Cho", "Yoshua Bengio"],
+      "title": "Attention-based models for speech recognition",
+      "year": 2015,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[31] J. K. Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio, \"Attention-based models for speech recognition,\" in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 577–585.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 31,
+      "author": ["Matthew D. Zeiler", "Rob Fergus"],
+      "title": "Visualizing and understanding convolutional neural networks",
+      "year": 2014,
+      "container": "Proceedings of the 13th European Conference on Computer Vision (ECCV)",
+      "raw": "[32] M. D. Zeiler and R. Fergus, \"Visualizing and understanding convolutional neural networks,\" in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 818–833.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 32,
+      "author": ["Vinod Nair", "Geoffrey E. Hinton"],
+      "title": "Rectified linear units improve restricted Boltzmann machines",
+      "year": 2010,
+      "container": "Proceedings of the 27th International Conference on Machine Learning (ICML)",
+      "raw": "[33] V. Nair and G. E. Hinton, \"Rectified linear units improve restricted Boltzmann machines,\" in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 807–814.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 33,
+      "author": ["Christian Szegedy", "Wei Liu", "Yangqing Jia", "Pierre Sermanet", "Scott Reed", "Dragomir Anguelov", "Dumitru Erhan", "Andrew Rabinovich"],
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[34] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, and A. Rabinovich, \"Going deeper with convolutions,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 1–9.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 34,
+      "author": ["Yann LeCun"],
+      "title": "Backpropagation applied to handwritten zip code recognition",
+      "year": 1989,
+      "container": "Neural Computation",
+      "raw": "[35] Y. LeCun, et al., \"Backpropagation applied to handwritten zip code recognition,\" Neural Comput., vol. 1, pp. 541–551, 1989.",
+      "confidence": 0.88,
+      "notes": "raw 以 'et al.' 省略了 Boser, Denker, Henderson, Howard, Hubbard, Jackel 等作者"
+    },
+    {
+      "entry_index": 35,
+      "author": ["Olga Russakovsky"],
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "year": 2015,
+      "container": "International Journal of Computer Vision",
+      "raw": "[36] O. Russakovsky, et al., \"ImageNet Large Scale Visual Recognition Challenge,\" Int. J. Comput. Vis, vol. 115, pp. 211–252, 2015.",
+      "confidence": 0.88,
+      "notes": "raw 以 'et al.' 省略了大量 ImageNet 团队成员"
+    },
+    {
+      "entry_index": 36,
+      "author": ["Alex Krizhevsky", "Ilya Sutskever", "Geoffrey Hinton"],
+      "title": "Imagenet classification with deep convolutional neural networks",
+      "year": 2012,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[37] A. Krizhevsky, I. Sutskever, and G. Hinton, \"Imagenet classification with deep convolutional neural networks,\" in Proc. Neural Inf. Process. Syst., 2012, pp. 1097–1105.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 37,
+      "author": ["Yangqing Jia", "Evan Shelhamer", "Jeff Donahue", "Sergey Karayev", "Jonathan Long", "Ross Girshick", "Sergio Guadarrama", "Trevor Darrell"],
+      "title": "Caffe: Convolutional architecture for fast feature embedding",
+      "year": 2014,
+      "container": "Proceedings of the 22nd ACM International Conference on Multimedia",
+      "raw": "[38] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, \"Caffe: Convolutional architecture for fast feature embedding,\" in Proc. 22nd ACM Int. Conf. Multimedia, 2014, pp. 675–678.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 38,
+      "author": ["Karel Lenc", "Andrea Vedaldi"],
+      "title": "R-CNN minus R",
+      "year": 2015,
+      "container": "Proceedings of the British Machine Vision Conference (BMVC)",
+      "raw": "[39] K. Lenc and A. Vedaldi, \"R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc. Brit. Mach. Vis. Conf., 2015, pp. 5.1–5.12.",
+      "confidence": 0.82,
+      "notes": "raw 含 LaTeX 数学模式 'minus $\\mathrm { R }$' 噪声；title 末尾的引号被 LaTeX 噪声截断"
+    },
+    {
+      "entry_index": 39,
+      "author": ["Derek Hoiem", "Yodsawalai Chodpathumwan", "Qieyun Dai"],
+      "title": "Diagnosing error in object detectors",
+      "year": 2012,
+      "container": "Proceedings of the 12th European Conference on Computer Vision (ECCV)",
+      "raw": "[40] D. Hoiem, Y. Chodpathumwan, and Q. Dai, \"Diagnosing error in object detectors,\" in Proc. 12th Eur. Conf. Comput. Vis., 2012, pp. 340–353.",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,1388 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:44Z",
+    "entry_count": 26,
+    "candidate_count": 43,
+    "batch_count": 2,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 3,
+    "requires_split_review": true,
+    "review_generation_id": "review-3cadfd81"
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "［］李晓健，陈雍君，邱实，等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法［ ］铁道学报， ［ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html. LI Xiaojian，CHEN Yongjun，QIU Shi，et al.Establishment and Analysis Method of Risk Knowledge Graph of Railway Engineering Construction in Complex Areas [J/OL].Journal of the China Railway Society,2024 [2024-11-15] .htp://kns. cnki.net/kcms/detail/11.2104.u.20240619.1705.002.html.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "［］李晓健，陈雍君，邱实，等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法［ ］铁道学报， ［ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html. LI Xiaojian，CHEN Yongjun，QIU Shi，et al.Establishment and Analysis Method of Risk Knowledge Graph of Railway Engineering Construction in Complex Areas [J/OL].Journal of the China Railway Society,2024 [2024-11-15] .htp://kns. cnki.net/kcms/detail/11.2104.u.20240619.1705.002.html."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "［］鲁帅，侯继伟，高春风，等 分布式视频监控系统在铁路站前工程的应用与研究 ［］铁路计算机应用， ， ( ) :12-16.LU Shuai,HOU Jiwei,GAO Chunfeng,et al.Distributed VideoMonitoringSystemAppliedtoRailwayConstruction［］ ， ， ( ) :12-16.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "［］鲁帅，侯继伟，高春风，等 分布式视频监控系统在铁路站前工程的应用与研究 ［］铁路计算机应用， ， ( ) :12-16.LU Shuai,HOU Jiwei,GAO Chunfeng,et al.Distributed VideoMonitoringSystemAppliedtoRailwayConstruction［］ ， ， ( ) :12-16."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "［］曹燕 基于深度学习的建筑工人安全帽检测方法研究［ ］苏州: 苏州科技大学，CAO Yan. Research on Detection Methods of Construction",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "［］曹燕 基于深度学习的建筑工人安全帽检测方法研究［ ］苏州: 苏州科技大学，CAO Yan. Research on Detection Methods of Construction"
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "47’ ［ ］ Suzhou: Suzhou University of Science and Technology，2021.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "47’ ［ ］ Suzhou: Suzhou University of Science and Technology，2021."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "［］黄志清，张煜森，张严心，等 基于改进型 的室内安全帽佩戴状态检测算法［］天津大学学报( 自然科学与工程技术版) ， ， ( ) :HUANG Zhiqing,ZHANG Yusen,ZHANG Yanxin,et al.IndoorSafety Helmet-wearing Detection Algorithm Based on ImprovedYolov4[] .Journal of Tianjin University（ Science and Tech-) ， ， ( ) :",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "［］黄志清，张煜森，张严心，等 基于改进型 的室内安全帽佩戴状态检测算法［］天津大学学报( 自然科学与工程技术版) ， ， ( ) :HUANG Zhiqing,ZHANG Yusen,ZHANG Yanxin,et al.IndoorSafety Helmet-wearing Detection Algorithm Based on ImprovedYolov4[] .Journal of Tianjin University（ Science and Tech-) ， ， ( ) :"
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "［］张学立，贾新春，王美刚，等 安全帽与反光衣的轻量化检测: 改进 的算法［］计算机工程与应用， ，( ) :ZHANG Xueli，JIA Xinchun，WANGMeigang，etal.Lightweight Detection of Helmets and Reflective Clothings: Im-proved YOLOv5s Algorithm[] .Computer Engineering and， ， ( ) :",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "［］张学立，贾新春，王美刚，等 安全帽与反光衣的轻量化检测: 改进 的算法［］计算机工程与应用， ，( ) :ZHANG Xueli，JIA Xinchun，WANGMeigang，etal.Lightweight Detection of Helmets and Reflective Clothings: Im-proved YOLOv5s Algorithm[] .Computer Engineering and， ， ( ) :"
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2) : 11-24.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2) : 11-24."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "［］李天宇，吴浩，毛艳玲，等 改进 的安全帽佩戴检测方法［］计算机工程与设计， ， ( ) :LI Tianyu,WU Hao,MAO Yanling,et al.Helmet Wearing De-tection Method Based on Improve YOLOv4’s[] .Computer， ， ( ) :",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "［］李天宇，吴浩，毛艳玲，等 改进 的安全帽佩戴检测方法［］计算机工程与设计， ， ( ) :LI Tianyu,WU Hao,MAO Yanling,et al.Helmet Wearing De-tection Method Based on Improve YOLOv4’s[] .Computer， ， ( ) :"
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once:Unified,Real-time Object Detection[C] //2016 IEEE Conference on Computer Vision and Pattern Recognition.Pisca-: ， :",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once:Unified,Real-time Object Detection[C] //2016 IEEE Conference on Computer Vision and Pattern Recognition.Pisca-: ， :"
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "［ ］ ， : ， ，[] //2017 IEEE Conference on Computer Vision and PatternRecognition.Piscataway:IEEE,2017:7263-7271.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "［ ］ ， : ， ，[] //2017 IEEE Conference on Computer Vision and PatternRecognition.Piscataway:IEEE,2017:7263-7271."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[10] REDMON J,FARHADI A. Yolov3: an Incremental Improve-［ ］ ( ) ［ ］ :org/abs/1804.02767.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[10] REDMON J,FARHADI A. Yolov3: an Incremental Improve-［ ］ ( ) ［ ］ :org/abs/1804.02767."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[1] WANG C Y,BOCHKOVSKIY A,LIAO H Y M. Scaled-: ［ ］ IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE,2021:13024-13033.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[1] WANG C Y,BOCHKOVSKIY A,LIAO H Y M. Scaled-: ［ ］ IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE,2021:13024-13033."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[12] SALSCHEIDERNO.FeatureNMS:Non-maximum Suppression by Learning Feature Embeddings[C] //2020 25th International Conference on Pattern Recognition.Piscataway:IEEE,2021: 7848-7854.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[12] SALSCHEIDERNO.FeatureNMS:Non-maximum Suppression by Learning Feature Embeddings[C] //2020 25th International Conference on Pattern Recognition.Piscataway:IEEE,2021: 7848-7854."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[13] CARION N，MASSA F,SYNNAEVE G，et al. End-to-End Object Detection with Transformers EB/OL].(2020-05-28) [2024-08-17] . https: //arxiv.org/abs /2005.12872.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[13] CARION N，MASSA F,SYNNAEVE G，et al. End-to-End Object Detection with Transformers EB/OL].(2020-05-28) [2024-08-17] . https: //arxiv.org/abs /2005.12872."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[14]VASWANI A，SHAZEER N,PARMAR N，et al. Attention ［ ］ ( ) ［ ］ tps://arxiv.org/abs/1706.03762.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[14]VASWANI A，SHAZEER N,PARMAR N，et al. Attention ［ ］ ( ) ［ ］ tps://arxiv.org/abs/1706.03762."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "2 RT-DETR［ ］ ， ， ，Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway:IEEE,2024:16965-16974.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "2 RT-DETR［ ］ ， ， ，Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway:IEEE,2024:16965-16974."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "［ ］管岭，贾利民，谢征宇 融合注意力机制的轨道入侵异物检测轻量级模型研究［］铁道学报， ， ( ) :GUAN Ling，JIA Limin，XIE Zhengyu.ResearchonLightweight Model for Railway Intrusion Detection IntegratingAttention Mechanism [ .Journal of the China Railway Soci-， ， ( ) :",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "［ ］管岭，贾利民，谢征宇 融合注意力机制的轨道入侵异物检测轻量级模型研究［］铁道学报， ， ( ) :GUAN Ling，JIA Limin，XIE Zhengyu.ResearchonLightweight Model for Railway Intrusion Detection IntegratingAttention Mechanism [ .Journal of the China Railway Soci-， ， ( ) :"
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "［ ］ ， ， ， :oryEfficient Vision Transformer with Cascaded GroupAttention [C] //2O23 IEEE/CVF Conference on ComputerVision and Pattern Recognition.Piscataway:IEEE,2023:14420-14430.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "［ ］ ， ， ， :oryEfficient Vision Transformer with Cascaded GroupAttention [C] //2O23 IEEE/CVF Conference on ComputerVision and Pattern Recognition.Piscataway:IEEE,2023:14420-14430."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[8]REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union:a Metric and a Loss for Bounding Box Regression [] //2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE，2019: 658-666.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[8]REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union:a Metric and a Loss for Bounding Box Regression [] //2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE，2019: 658-666."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "［ ］ ， ， ， :",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "［ ］ ， ， ， :"
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "Faster and Better Learning for Bounding Box Regression. ProceedingsoftheAAAI ConferenceonArtificial ， ， ( ) :",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "Faster and Better Learning for Bounding Box Regression. ProceedingsoftheAAAI ConferenceonArtificial ， ， ( ) :"
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "［ ］ ， ， :Intersection over Union Loss with Auxiliary Bounding Box［ ］ ( ) ［ ］ :abs /2311.02877.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "［ ］ ， ， :Intersection over Union Loss with Auxiliary Bounding Box［ ］ ( ) ［ ］ :abs /2311.02877."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "［ ］ ， ， ， :Extremely Efficient Convolutional Neural Network for MobileDevices [Cl //Proceedings of the IEEE Conference on Com-puter Vision and Pattern Recognition.Piscataway: IEEE,2018:6848-6856.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "［ ］ ， ， ， :Extremely Efficient Convolutional Neural Network for MobileDevices [Cl //Proceedings of the IEEE Conference on Com-puter Vision and Pattern Recognition.Piscataway: IEEE,2018:6848-6856."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "［ ］ ， ， ， :Efficient Convolutional Neural Networks for Mobile Vision［ ］ ( ) ［ ］https://arxiv.org/abs/1704.04861v1.",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "［ ］ ， ， ， :Efficient Convolutional Neural Networks for Mobile Vision［ ］ ( ) ［ ］https://arxiv.org/abs/1704.04861v1."
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "［ ］ ， ， ， :Real-Time Object Detection with Region Proposal Networks[.IEEE Transactions on Pattern Analysis and Machine In-， ， ( ) :",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "［ ］ ， ， ， :Real-Time Object Detection with Region Proposal Networks[.IEEE Transactions on Pattern Analysis and Machine In-， ， ( ) :"
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "( 责任编辑 李嘉懿)",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "( 责任编辑 李嘉懿)"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "［］李晓健，陈雍君，邱实，等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法［ ］铁道学报， ［ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html. LI Xiaojian，CHEN Yongjun，QIU Shi，et al.Establishment and Analysis Method of Risk Knowledge Graph of Railway Engineering Construction in Complex Areas [J/OL].Journal of the China Railway Society,2024 [2024-11-15] .htp://kns. cnki.net/kcms/detail/11.2104.u.20240619.1705.002.html.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "[]李晓健,陈雍君,邱实,等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法[ ]铁道学报, [ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619",
+          "author_candidates": [
+            "[]李晓健,陈雍君,邱实,等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法[ ]铁道学报, [ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619"
+          ],
+          "title_candidate": "1705.002.html",
+          "container_candidate": "LI Xiaojian,CHEN Yongjun,QIU Shi,et al.Establishment and Analysis Method of Risk Knowledge Graph of Railway Engineering Construction in Complex Areas [J/OL].Journal of the China Railway Society,2024 [2024-11-15] .htp://kns. cnki.net/kcms/detail/11.2104.u.20240619.1705.002.html",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "[]李晓健,陈雍君,邱实,等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法[ ]铁道学报, [ 15] .http",
+          "author_candidates": [
+            "[]李晓健,陈雍君,邱实,等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法[ ]铁道学报, [ 15] .http"
+          ],
+          "title_candidate": "//kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html. LI Xiaojian,CHEN Yongjun,QIU Shi,et al.Establishment and Analysis Method of Risk Knowledge Graph of Railway Engineering Construction in Complex Areas [J/OL].Journal of the China Railway Society,2024 [2024-11-15] .htp://kns. cnki.net/kcms/detail/11.2104.u.20240619.1705.002.html",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "[]李晓健,陈雍君,邱实,等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法[ ]铁道学报, [ 15] .http",
+          "author_candidates": [
+            "[]李晓健,陈雍君,邱实,等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法[ ]铁道学报, [ 15] .http"
+          ],
+          "title_candidate": "//kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html. LI Xiaojian,CHEN Yongjun,QIU Shi,et al.Establishment and Analysis Method of Risk Knowledge Graph of Railway Engineering Construction in Complex Areas [J/OL].Journal of the China Railway Society,2024 [2024-11-15] .htp://kns. cnki.net/kcms/detail/11.2104.u.20240619.1705.002.html",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "［］鲁帅，侯继伟，高春风，等 分布式视频监控系统在铁路站前工程的应用与研究 ［］铁路计算机应用， ， ( ) :12-16.LU Shuai,HOU Jiwei,GAO Chunfeng,et al.Distributed VideoMonitoringSystemAppliedtoRailwayConstruction［］ ， ， ( ) :12-16.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "[]鲁帅,侯继伟,高春风,等 分布式视频监控系统在铁路站前工程的应用与研究 []铁路计算机应用, , ( )",
+          "author_candidates": [
+            "[]鲁帅,侯继伟,高春风,等 分布式视频监控系统在铁路站前工程的应用与研究 []铁路计算机应用, , ( )"
+          ],
+          "title_candidate": "12-16.LU Shuai,HOU Jiwei,GAO Chunfeng,et al.Distributed VideoMonitoringSystemAppliedtoRailwayConstruction[] , , ( ) :12-16",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "［］曹燕 基于深度学习的建筑工人安全帽检测方法研究［ ］苏州: 苏州科技大学，CAO Yan. Research on Detection Methods of Construction",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "[]曹燕 基于深度学习的建筑工人安全帽检测方法研究[ ]苏州",
+          "author_candidates": [
+            "[]曹燕 基于深度学习的建筑工人安全帽检测方法研究[ ]苏州"
+          ],
+          "title_candidate": "苏州科技大学,CAO Yan. Research on Detection Methods of Construction",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "47’ ［ ］ Suzhou: Suzhou University of Science and Technology，2021.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "47' [ ] Suzhou",
+          "author_candidates": [
+            "47' [ ] Suzhou"
+          ],
+          "title_candidate": "Suzhou University of Science and Technology",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "47' [ ] Suzhou",
+          "author_candidates": [
+            "47' [ ] Suzhou"
+          ],
+          "title_candidate": "Suzhou University of Science and Technology,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "［］黄志清，张煜森，张严心，等 基于改进型 的室内安全帽佩戴状态检测算法［］天津大学学报( 自然科学与工程技术版) ， ， ( ) :HUANG Zhiqing,ZHANG Yusen,ZHANG Yanxin,et al.IndoorSafety Helmet-wearing Detection Algorithm Based on ImprovedYolov4[] .Journal of Tianjin University（ Science and Tech-) ， ， ( ) :",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "[]黄志清,张煜森,张严心,等 基于改进型 的室内安全帽佩戴状态检测算法[]天津大学学报( 自然科学与工程技术版) , , ( )",
+          "author_candidates": [
+            "[]黄志清,张煜森,张严心,等 基于改进型 的室内安全帽佩戴状态检测算法[]天津大学学报( 自然科学与工程技术版) , , ( )"
+          ],
+          "title_candidate": "HUANG Zhiqing,ZHANG Yusen,ZHANG Yanxin,et al.IndoorSafety Helmet-wearing Detection Algorithm Based on ImprovedYolov4[] .Journal of Tianjin University( Science and Tech-) , , ( ) :",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "［］张学立，贾新春，王美刚，等 安全帽与反光衣的轻量化检测: 改进 的算法［］计算机工程与应用， ，( ) :ZHANG Xueli，JIA Xinchun，WANGMeigang，etal.Lightweight Detection of Helmets and Reflective Clothings: Im-proved YOLOv5s Algorithm[] .Computer Engineering and， ， ( ) :",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "[]张学立,贾新春,王美刚,等 安全帽与反光衣的轻量化检测",
+          "author_candidates": [
+            "[]张学立,贾新春,王美刚,等 安全帽与反光衣的轻量化检测"
+          ],
+          "title_candidate": "改进 的算法[]计算机工程与应用, ,( ) :ZHANG Xueli,JIA Xinchun,WANGMeigang,etal.Lightweight Detection of Helmets and Reflective Clothings: Im-proved YOLOv5s Algorithm[] .Computer Engineering and, , ( ) :",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2) : 11-24.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "[ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD",
+          "author_candidates": [
+            "[ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD"
+          ],
+          "title_candidate": "Asian Journal of Research in Computer Science,2O23,15(2) : 11-24",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2)",
+          "author_candidates": [
+            "[ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2)"
+          ],
+          "title_candidate": "11-24",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "［］李天宇，吴浩，毛艳玲，等 改进 的安全帽佩戴检测方法［］计算机工程与设计， ， ( ) :LI Tianyu,WU Hao,MAO Yanling,et al.Helmet Wearing De-tection Method Based on Improve YOLOv4’s[] .Computer， ， ( ) :",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "[]李天宇,吴浩,毛艳玲,等 改进 的安全帽佩戴检测方法[]计算机工程与设计, , ( )",
+          "author_candidates": [
+            "[]李天宇,吴浩,毛艳玲,等 改进 的安全帽佩戴检测方法[]计算机工程与设计, , ( )"
+          ],
+          "title_candidate": "LI Tianyu,WU Hao,MAO Yanling,et al.Helmet Wearing De-tection Method Based on Improve YOLOv4's[] .Computer, , ( ) :",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once:Unified,Real-time Object Detection[C] //2016 IEEE Conference on Computer Vision and Pattern Recognition.Pisca-: ， :",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once",
+          "author_candidates": [
+            "BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once"
+          ],
+          "title_candidate": "Unified,Real-time Object Detection[C] //2016 IEEE Conference on Computer Vision and Pattern Recognition.Pisca-: , :",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once",
+          "author_candidates": [
+            "BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once"
+          ],
+          "title_candidate": "Unified,Real-time Object Detection[C] //2016 IEEE Conference on Computer Vision and Pattern Recognition.Pisca-: , :",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "［ ］ ， : ， ，[] //2017 IEEE Conference on Computer Vision and PatternRecognition.Piscataway:IEEE,2017:7263-7271.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": ", ,[] //2017 IEEE Conference on Computer Vision and PatternRecognition.Piscataway:IEEE,2017:7263-7271",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": ", ,[] //2017 IEEE Conference on Computer Vision and PatternRecognition.Piscataway:IEEE,2017:7263-7271",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[10] REDMON J,FARHADI A. Yolov3: an Incremental Improve-［ ］ ( ) ［ ］ :org/abs/1804.02767.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 10: reference numbering does not start at 1 (detected_ref_number=10)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "REDMON J,FARHADI A",
+          "author_candidates": [
+            "REDMON J,FARHADI A"
+          ],
+          "title_candidate": "Yolov3: an Incremental Improve-[ ] ( ) [ ] :org/abs/1804.02767",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "REDMON J,FARHADI A. Yolov3",
+          "author_candidates": [
+            "REDMON J,FARHADI A. Yolov3"
+          ],
+          "title_candidate": "an Incremental Improve-[ ] ( ) [ ] :org/abs/1804.02767",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[1] WANG C Y,BOCHKOVSKIY A,LIAO H Y M. Scaled-: ［ ］ IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE,2021:13024-13033.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 11: reference numbering is not strictly increasing (detected_ref_number=1)",
+          "reference entry 11: reference numbering is not continuous (detected_ref_number=1)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "WANG C Y,BOCHKOVSKIY A,LIAO H Y M",
+          "author_candidates": [
+            "WANG C Y,BOCHKOVSKIY A,LIAO H Y M"
+          ],
+          "title_candidate": "Scaled-: [ ] IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE,2021:13024-13033",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "WANG C Y,BOCHKOVSKIY A,LIAO H Y M. Scaled-",
+          "author_candidates": [
+            "WANG C Y,BOCHKOVSKIY A,LIAO H Y M. Scaled-"
+          ],
+          "title_candidate": "[ ] IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE,2021:13024-13033",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "WANG C Y,BOCHKOVSKIY A,LIAO H Y M. Scaled-",
+          "author_candidates": [
+            "WANG C Y,BOCHKOVSKIY A,LIAO H Y M. Scaled-"
+          ],
+          "title_candidate": "[ ] IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE,2021:13024-13033",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[12] SALSCHEIDERNO.FeatureNMS:Non-maximum Suppression by Learning Feature Embeddings[C] //2020 25th International Conference on Pattern Recognition.Piscataway:IEEE,2021: 7848-7854.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 12: reference numbering is not continuous (detected_ref_number=12)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "SALSCHEIDERNO.FeatureNMS",
+          "author_candidates": [
+            "SALSCHEIDERNO.FeatureNMS"
+          ],
+          "title_candidate": "Non-maximum Suppression by Learning Feature Embeddings[C] //2020 25th International Conference on Pattern Recognition.Piscataway:IEEE,2021: 7848-7854",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "SALSCHEIDERNO.FeatureNMS",
+          "author_candidates": [
+            "SALSCHEIDERNO.FeatureNMS"
+          ],
+          "title_candidate": "Non-maximum Suppression by Learning Feature Embeddings[C] //2020 25th International Conference on Pattern Recognition.Piscataway:IEEE,2021: 7848-7854",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[13] CARION N，MASSA F,SYNNAEVE G，et al. End-to-End Object Detection with Transformers EB/OL].(2020-05-28) [2024-08-17] . https: //arxiv.org/abs /2005.12872.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "CARION N,MASSA F,SYNNAEVE G,et al",
+          "author_candidates": [
+            "CARION N,MASSA F,SYNNAEVE G,et al"
+          ],
+          "title_candidate": "End-to-End Object Detection with Transformers EB/OL].(2020-05-28) [2024-08-17]",
+          "container_candidate": "https: //arxiv.org/abs /2005.12872",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CARION N,MASSA F,SYNNAEVE G,et al. End-to-End Object Detection with Transformers EB/OL].(2020-05-28) [2024-08-17] . https",
+          "author_candidates": [
+            "CARION N,MASSA F,SYNNAEVE G,et al. End-to-End Object Detection with Transformers EB/OL].(2020-05-28) [2024-08-17] . https"
+          ],
+          "title_candidate": "//arxiv.org/abs /2005.12872",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "CARION N,MASSA F,SYNNAEVE G,et al. End-to-End Object Detection with Transformers EB/OL].(2020-05-28) [2024-08-17] . https",
+          "author_candidates": [
+            "CARION N,MASSA F,SYNNAEVE G,et al. End-to-End Object Detection with Transformers EB/OL].(2020-05-28) [2024-08-17] . https"
+          ],
+          "title_candidate": "//arxiv.org/abs /2005.12872",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[14]VASWANI A，SHAZEER N,PARMAR N，et al. Attention ［ ］ ( ) ［ ］ tps://arxiv.org/abs/1706.03762.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "VASWANI A,SHAZEER N,PARMAR N,et al",
+          "author_candidates": [
+            "VASWANI A,SHAZEER N,PARMAR N,et al"
+          ],
+          "title_candidate": "Attention [ ] ( ) [ ] tps://arxiv.org/abs/1706.03762",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "VASWANI A,SHAZEER N,PARMAR N,et al. Attention [ ] ( ) [ ] tps",
+          "author_candidates": [
+            "VASWANI A,SHAZEER N,PARMAR N,et al. Attention [ ] ( ) [ ] tps"
+          ],
+          "title_candidate": "//arxiv.org/abs/1706.03762",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "2 RT-DETR［ ］ ， ， ，Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway:IEEE,2024:16965-16974.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 15: reference numbering is not strictly increasing (detected_ref_number=2)",
+          "reference entry 15: reference numbering is not continuous (detected_ref_number=2)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "2 RT-DETR[ ] , , ,Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway",
+          "author_candidates": [
+            "2 RT-DETR[ ] , , ,Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway"
+          ],
+          "title_candidate": "IEEE,2024:16965-16974",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "2 RT-DETR[ ] , , ,Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway",
+          "author_candidates": [
+            "2 RT-DETR[ ] , , ,Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway"
+          ],
+          "title_candidate": "IEEE,2024:16965-16974",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "［ ］管岭，贾利民，谢征宇 融合注意力机制的轨道入侵异物检测轻量级模型研究［］铁道学报， ， ( ) :GUAN Ling，JIA Limin，XIE Zhengyu.ResearchonLightweight Model for Railway Intrusion Detection IntegratingAttention Mechanism [ .Journal of the China Railway Soci-， ， ( ) :",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ ]管岭,贾利民,谢征宇 融合注意力机制的轨道入侵异物检测轻量级模型研究[]铁道学报, , ( )",
+          "author_candidates": [
+            "[ ]管岭,贾利民,谢征宇 融合注意力机制的轨道入侵异物检测轻量级模型研究[]铁道学报, , ( )"
+          ],
+          "title_candidate": "GUAN Ling,JIA Limin,XIE Zhengyu.ResearchonLightweight Model for Railway Intrusion Detection IntegratingAttention Mechanism [ .Journal of the China Railway Soci-, , ( ) :",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "［ ］ ， ， ， :oryEfficient Vision Transformer with Cascaded GroupAttention [C] //2O23 IEEE/CVF Conference on ComputerVision and Pattern Recognition.Piscataway:IEEE,2023:14420-14430.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": "oryEfficient Vision Transformer with Cascaded GroupAttention [C] //2O23 IEEE/CVF Conference on ComputerVision and Pattern Recognition.Piscataway:IEEE,2023:14420-14430",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": "oryEfficient Vision Transformer with Cascaded GroupAttention [C] //2O23 IEEE/CVF Conference on ComputerVision and Pattern Recognition.Piscataway:IEEE,2023:14420-14430",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[8]REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union:a Metric and a Loss for Bounding Box Regression [] //2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE，2019: 658-666.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 18: reference numbering is not continuous (detected_ref_number=8)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union",
+          "author_candidates": [
+            "REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union"
+          ],
+          "title_candidate": "a Metric and a Loss for Bounding Box Regression [] //2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE,2019: 658-666",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union",
+          "author_candidates": [
+            "REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union"
+          ],
+          "title_candidate": "a Metric and a Loss for Bounding Box Regression [] //2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE,2019: 658-666",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "［ ］ ， ， ， :",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "Faster and Better Learning for Bounding Box Regression. ProceedingsoftheAAAI ConferenceonArtificial ， ， ( ) :",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Faster and Better Learning for Bounding Box Regression. ProceedingsoftheAAAI ConferenceonArtificial , , ( )",
+          "author_candidates": [
+            "Faster",
+            "Better Learning for Bounding Box Regression. ProceedingsoftheAAAI ConferenceonArtificial , , ( )"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "［ ］ ， ， :Intersection over Union Loss with Auxiliary Bounding Box［ ］ ( ) ［ ］ :abs /2311.02877.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": "Intersection over Union Loss with Auxiliary Bounding Box[ ] ( ) [ ] :abs /2311.02877",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "［ ］ ， ， ， :Extremely Efficient Convolutional Neural Network for MobileDevices [Cl //Proceedings of the IEEE Conference on Com-puter Vision and Pattern Recognition.Piscataway: IEEE,2018:6848-6856.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": "Extremely Efficient Convolutional Neural Network for MobileDevices [Cl //Proceedings of the IEEE Conference on Com-puter Vision and Pattern Recognition.Piscataway: IEEE,2018:6848-6856",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": "Extremely Efficient Convolutional Neural Network for MobileDevices [Cl //Proceedings of the IEEE Conference on Com-puter Vision and Pattern Recognition.Piscataway: IEEE,2018:6848-6856",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "［ ］ ， ， ， :Efficient Convolutional Neural Networks for Mobile Vision［ ］ ( ) ［ ］https://arxiv.org/abs/1704.04861v1.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": "Efficient Convolutional Neural Networks for Mobile Vision[ ] ( ) [ ]https://arxiv.org/abs/1704.04861v1",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "［ ］ ， ， ， :Real-Time Object Detection with Region Proposal Networks[.IEEE Transactions on Pattern Analysis and Machine In-， ， ( ) :",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "[ ]",
+          "author_candidates": [
+            "[ ]"
+          ],
+          "title_candidate": "Real-Time Object Detection with Region Proposal Networks[.IEEE Transactions on Pattern Analysis and Machine In-, , ( ) :",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "( 责任编辑 李嘉懿)",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "( 责任编辑 李嘉懿)",
+          "author_candidates": [
+            "( 责任编辑 李嘉懿)"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 25,
+      "metadata": {
+        "entry_count": 11
+      }
+    }
+  ],
+  "suspect_blocks": [
+    {
+      "block_index": 0,
+      "source_text": "［］李晓健，陈雍君，邱实，等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法［ ］铁道学报， ［ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html. LI Xiaojian，CHEN Yongjun，QIU Shi，et al.Establishment and Analysis Method of Risk Knowledge Graph of Railway Engineering Construction in Complex Areas [J/OL].Journal of the China Railway Society,2024 [2024-11-15] .htp://kns. cnki.net/kcms/detail/11.2104.u.20240619.1705.002.html. ［］鲁帅，侯继伟，高春风，等 分布式视频监控系统在铁路站前工程的应用与研究 ［］铁路计算机应用， ， ( ) :12-16.LU Shuai,HOU Jiwei,GAO Chunfeng,et al.Distributed VideoMonitoringSystemAppliedtoRailwayConstruction［］ ， ， ( ) :12-16. ［］曹燕 基于深度学习的建筑工人安全帽检测方法研究［ ］苏州: 苏州科技大学，CAO Yan. Research on Detection Methods of Construction 47’ ［ ］ Suzhou: Suzhou University of Science and Technology，2021. ［］黄志清，张煜森，张严心，等 基于改进型 的室内安全帽佩戴状态检测算法［］天津大学学报( 自然科学与工程技术版) ， ， ( ) :HUANG Zhiqing,ZHANG Yusen,ZHANG Yanxin,et al.IndoorSafety Helmet-wearing Detection Algorithm Based on ImprovedYolov4[] .Journal of Tianjin University（ Science and Tech-) ， ， ( ) : ［］张学立，贾新春，王美刚，等 安全帽与反光衣的轻量化检测: 改进 的算法［］计算机工程与应用， ，( ) :ZHANG Xueli，JIA Xinchun，WANGMeigang，etal.Lightweight Detection of Helmets and Reflective Clothings: Im-proved YOLOv5s Algorithm[] .Computer Engineering and， ， ( ) : [ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2) : 11-24. ［］李天宇，吴浩，毛艳玲，等 改进 的安全帽佩戴检测方法［］计算机工程与设计， ， ( ) :LI Tianyu,WU Hao,MAO Yanling,et al.Helmet Wearing De-tection Method Based on Improve YOLOv4’s[] .Computer， ， ( ) : BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once:Unified,Real-time Object Detection[C] //2016 IEEE Conference on Computer Vision and Pattern Recognition.Pisca-: ， : ［ ］ ， : ， ，[] //2017 IEEE Conference on Computer Vision and PatternRecognition.Piscataway:IEEE,2017:7263-7271.",
+      "line_start": 1,
+      "line_end": 19,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "［］李晓健，陈雍君，邱实，等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法［ ］铁道学报， ［ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html. LI Xiaojian，CHEN Yongjun，QIU Shi，et al.Establishment and Analysis Method of Risk Knowledge Graph of Railway Engineering Construction in Complex Areas [J/OL].Journal of the China Railway Society,2024 [2024-11-15] .htp://kns. cnki.net/kcms/detail/11.2104.u.20240619.1705.002.html.",
+        "［］鲁帅，侯继伟，高春风，等 分布式视频监控系统在铁路站前工程的应用与研究 ［］铁路计算机应用， ， ( ) :12-16.LU Shuai,HOU Jiwei,GAO Chunfeng,et al.Distributed VideoMonitoringSystemAppliedtoRailwayConstruction［］ ， ， ( ) :12-16.",
+        "［］曹燕 基于深度学习的建筑工人安全帽检测方法研究［ ］苏州: 苏州科技大学，CAO Yan. Research on Detection Methods of Construction",
+        "47’ ［ ］ Suzhou: Suzhou University of Science and Technology，2021.",
+        "［］黄志清，张煜森，张严心，等 基于改进型 的室内安全帽佩戴状态检测算法［］天津大学学报( 自然科学与工程技术版) ， ， ( ) :HUANG Zhiqing,ZHANG Yusen,ZHANG Yanxin,et al.IndoorSafety Helmet-wearing Detection Algorithm Based on ImprovedYolov4[] .Journal of Tianjin University（ Science and Tech-) ， ， ( ) :",
+        "［］张学立，贾新春，王美刚，等 安全帽与反光衣的轻量化检测: 改进 的算法［］计算机工程与应用， ，( ) :ZHANG Xueli，JIA Xinchun，WANGMeigang，etal.Lightweight Detection of Helmets and Reflective Clothings: Im-proved YOLOv5s Algorithm[] .Computer Engineering and， ， ( ) :",
+        "[ WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2) : 11-24.",
+        "［］李天宇，吴浩，毛艳玲，等 改进 的安全帽佩戴检测方法［］计算机工程与设计， ， ( ) :LI Tianyu,WU Hao,MAO Yanling,et al.Helmet Wearing De-tection Method Based on Improve YOLOv4’s[] .Computer， ， ( ) :",
+        "BREDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once:Unified,Real-time Object Detection[C] //2016 IEEE Conference on Computer Vision and Pattern Recognition.Pisca-: ， :",
+        "［ ］ ， : ， ，[] //2017 IEEE Conference on Computer Vision and PatternRecognition.Piscataway:IEEE,2017:7263-7271."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    },
+    {
+      "block_index": 28,
+      "source_text": "[14]VASWANI A，SHAZEER N,PARMAR N，et al. Attention ［ ］ ( ) ［ ］ tps://arxiv.org/abs/1706.03762. 2 RT-DETR［ ］ ， ， ，Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway:IEEE,2024:16965-16974. ［ ］管岭，贾利民，谢征宇 融合注意力机制的轨道入侵异物检测轻量级模型研究［］铁道学报， ， ( ) :GUAN Ling，JIA Limin，XIE Zhengyu.ResearchonLightweight Model for Railway Intrusion Detection IntegratingAttention Mechanism [ .Journal of the China Railway Soci-， ， ( ) : ［ ］ ， ， ， :oryEfficient Vision Transformer with Cascaded GroupAttention [C] //2O23 IEEE/CVF Conference on ComputerVision and Pattern Recognition.Piscataway:IEEE,2023:14420-14430.",
+      "line_start": 29,
+      "line_end": 35,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[14]VASWANI A，SHAZEER N,PARMAR N，et al. Attention ［ ］ ( ) ［ ］ tps://arxiv.org/abs/1706.03762.",
+        "2 RT-DETR［ ］ ， ， ，Real-Time Object Detection [C] //2024 IEEE/CVF Confer-enceonComputerVisionandPatternRecognition.Piscataway:IEEE,2024:16965-16974.",
+        "［ ］管岭，贾利民，谢征宇 融合注意力机制的轨道入侵异物检测轻量级模型研究［］铁道学报， ， ( ) :GUAN Ling，JIA Limin，XIE Zhengyu.ResearchonLightweight Model for Railway Intrusion Detection IntegratingAttention Mechanism [ .Journal of the China Railway Soci-， ， ( ) :",
+        "［ ］ ， ， ， :oryEfficient Vision Transformer with Cascaded GroupAttention [C] //2O23 IEEE/CVF Conference on ComputerVision and Pattern Recognition.Piscataway:IEEE,2023:14420-14430."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    },
+    {
+      "block_index": 36,
+      "source_text": "[8]REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union:a Metric and a Loss for Bounding Box Regression [] //2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE，2019: 658-666. ［ ］ ， ， ， : Faster and Better Learning for Bounding Box Regression. ProceedingsoftheAAAI ConferenceonArtificial ， ， ( ) : ［ ］ ， ， :Intersection over Union Loss with Auxiliary Bounding Box［ ］ ( ) ［ ］ :abs /2311.02877. ［ ］ ， ， ， :Extremely Efficient Convolutional Neural Network for MobileDevices [Cl //Proceedings of the IEEE Conference on Com-puter Vision and Pattern Recognition.Piscataway: IEEE,2018:6848-6856. ［ ］ ， ， ， :Efficient Convolutional Neural Networks for Mobile Vision［ ］ ( ) ［ ］https://arxiv.org/abs/1704.04861v1. ［ ］ ， ， ， :Real-Time Object Detection with Region Proposal Networks[.IEEE Transactions on Pattern Analysis and Machine In-， ， ( ) : ( 责任编辑 李嘉懿)",
+      "line_start": 37,
+      "line_end": 51,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[8]REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union:a Metric and a Loss for Bounding Box Regression [] //2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition.Piscataway:IEEE，2019: 658-666.",
+        "［ ］ ， ， ， :",
+        "Faster and Better Learning for Bounding Box Regression. ProceedingsoftheAAAI ConferenceonArtificial ， ， ( ) :",
+        "［ ］ ， ， :Intersection over Union Loss with Auxiliary Bounding Box［ ］ ( ) ［ ］ :abs /2311.02877.",
+        "［ ］ ， ， ， :Extremely Efficient Convolutional Neural Network for MobileDevices [Cl //Proceedings of the IEEE Conference on Com-puter Vision and Pattern Recognition.Piscataway: IEEE,2018:6848-6856.",
+        "［ ］ ， ， ， :Efficient Convolutional Neural Networks for Mobile Vision［ ］ ( ) ［ ］https://arxiv.org/abs/1704.04861v1.",
+        "［ ］ ， ， ， :Real-Time Object Detection with Region Proposal Networks[.IEEE Transactions on Pattern Analysis and Machine In-， ， ( ) :",
+        "( 责任编辑 李嘉懿)"
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    }
+  ],
+  "warnings": [
+    "reference entry 10: reference numbering does not start at 1 (detected_ref_number=10)",
+    "reference entry 11: reference numbering is not strictly increasing (detected_ref_number=1)",
+    "reference entry 11: reference numbering is not continuous (detected_ref_number=1)",
+    "reference entry 12: reference numbering is not continuous (detected_ref_number=12)",
+    "reference entry 15: reference numbering is not strictly increasing (detected_ref_number=2)",
+    "reference entry 15: reference numbering is not continuous (detected_ref_number=2)",
+    "reference entry 18: reference numbering is not continuous (detected_ref_number=8)",
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_title_boundary_suspect: entry_index=9 pattern=thesis_or_book_tail_year",
+    "reference_title_boundary_suspect: entry_index=9 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=19 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=20 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=25 pattern=fallback_raw_split",
+    "reference_entry_grouping_suspect: block_index=0",
+    "reference_entry_grouping_suspect: block_index=28",
+    "reference_entry_grouping_suspect: block_index=36"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.46153846153846156,
+    "year_ratio": 0.4230769230769231,
+    "warning_density": 1.1153846153846154,
+    "numbering_anomaly": 1.0,
+    "empty_title_ratio": 0.11538461538461539
+  },
+  "file_quality_low": false
+}

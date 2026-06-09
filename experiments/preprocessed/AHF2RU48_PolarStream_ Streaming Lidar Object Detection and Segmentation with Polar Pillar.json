@@ -1,0 +1,4438 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:42Z",
+    "entry_count": 41,
+    "candidate_count": 177,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.: Exploiting polar grid structure and object shadows for fast object detection in point clouds. In: Twelfth International Conference on Machine Vision (ICMV 2019). vol. 11433, p. 114330G. International Society for Optics and Photonics (2020)",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.: Exploiting polar grid structure and object shadows for fast object detection in point clouds. In: Twelfth International Conference on Machine Vision (ICMV 2019). vol. 11433, p. 114330G. International Society for Optics and Photonics (2020)"
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] Berman, M., Triki, A.R., Blaschko, M.B.: The lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4413–4421 (2018)",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] Berman, M., Triki, A.R., Blaschko, M.B.: The lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4413–4421 (2018)"
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O.: nuscenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027 (2019)",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O.: nuscenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027 (2019)"
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] Casas, S., Luo, W., Urtasun, R.: Intentnet: Learning to predict intention from raw sensor data. In: Proceedings of The 2nd Conference on Robot Learning. pp. 947–956 (2018)",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] Casas, S., Luo, W., Urtasun, R.: Intentnet: Learning to predict intention from raw sensor data. In: Proceedings of The 2nd Conference on Robot Learning. pp. 947–956 (2018)"
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] Chen, Q., Sun, L., Cheung, E., Yuille, A.L.: Every view counts: Cross-view consistency in 3d object detection with hybrid-cylindrical-spherical voxelization. Advances in Neural Information Processing Systems (2020)",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] Chen, Q., Sun, L., Cheung, E., Yuille, A.L.: Every view counts: Cross-view consistency in 3d object detection with hybrid-cylindrical-spherical voxelization. Advances in Neural Information Processing Systems (2020)"
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.: Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots. In: European Conference on Computer Vision. pp. 68–84. Springer (2020)",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.: Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots. In: European Conference on Computer Vision. pp. 68–84. Springer (2020)"
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] Chen, X., Ma, H., Wan, J., Li, B., Xia, T.: Multi-view 3d object detection network for autonomous driving. In: CVPR (2017)",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] Chen, X., Ma, H., Wan, J., Li, B., Xia, T.: Multi-view 3d object detection network for autonomous driving. In: CVPR (2017)"
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] Cheng, R., Razani, R., Taghavi, E., Li, E., Liu, B.: 2-s3net: Attentive feature fusion with adaptive feature selection for sparse semantic segmentation network. arXiv preprint arXiv:2102.04530 (2021)",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] Cheng, R., Razani, R., Taghavi, E., Li, E., Liu, B.: 2-s3net: Attentive feature fusion with adaptive feature selection for sparse semantic segmentation network. arXiv preprint arXiv:2102.04530 (2021)"
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] Cortinhal, T., Tzelepis, G., Aksoy, E.E.: Salsanext: Fast, uncertainty-aware semantic segmentation of lidar point clouds for autonomous driving. arXiv preprint arXiv:2003.03653 (2020)",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] Cortinhal, T., Tzelepis, G., Aksoy, E.E.: Salsanext: Fast, uncertainty-aware semantic segmentation of lidar point clouds for autonomous driving. arXiv preprint arXiv:2003.03653 (2020)"
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] Fan, L., Xiong, X., Wang, F., Wang, N., Zhang, Z.: Rangedet: In defense of range view for lidar-based 3d object detection. arXiv preprint arXiv:2103.10039 (2021)",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] Fan, L., Xiong, X., Wang, F., Wang, N., Zhang, Z.: Rangedet: In defense of range view for lidar-based 3d object detection. arXiv preprint arXiv:2103.10039 (2021)"
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] Frossard, D., Suo, S., Casas, S., Tu, J., Hu, R., Urtasun, R.: Strobe: Streaming object detection from lidar packets. arXiv preprint arXiv:2011.06425 (2020)",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] Frossard, D., Suo, S., Casas, S., Tu, J., Hu, R., Urtasun, R.: Strobe: Streaming object detection from lidar packets. arXiv preprint arXiv:2011.06425 (2020)"
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] Geiger, A., Lenz, P., Stiller, C., Urtasun, R.: Vision meets robotics: The kitti dataset. The International Journal of Robotics Research 32(11), 1231–1237 (2013)",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] Geiger, A., Lenz, P., Stiller, C., Urtasun, R.: Vision meets robotics: The kitti dataset. The International Journal of Robotics Research 32(11), 1231–1237 (2013)"
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[13] Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.: Streaming object detection for 3-d point clouds. In: European Conference on Computer Vision. pp. 423–441. Springer (2020)",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[13] Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.: Streaming object detection for 3-d point clouds. In: European Conference on Computer Vision. pp. 423–441. Springer (2020)"
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[14] He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016)",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[14] He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016)"
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[15] Ioffe, S., Szegedy, C.: Batch normalization: Accelerating deep network training by reducing internal covariate shift. In: International conference on machine learning. pp. 448–456. PMLR (2015)",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[15] Ioffe, S., Szegedy, C.: Batch normalization: Accelerating deep network training by reducing internal covariate shift. In: International conference on machine learning. pp. 448–456. PMLR (2015)"
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[16] Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.: Pointpillars: Fast encoders for object detection from point clouds. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 12697–12705 (2019)",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[16] Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.: Pointpillars: Fast encoders for object detection from point clouds. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 12697–12705 (2019)"
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[17] Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.: Focal loss for dense object detection. In: Proceedings of the IEEE international conference on computer vision. pp. 2980–2988 (2017)",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[17] Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.: Focal loss for dense object detection. In: Proceedings of the IEEE international conference on computer vision. pp. 2980–2988 (2017)"
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[18] Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.: Ssd: Single shot multibox detector. In: European conference on computer vision. pp. 21–37. Springer (2016)",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[18] Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.: Ssd: Single shot multibox detector. In: European conference on computer vision. pp. 21–37. Springer (2016)"
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[19] Luo, W., Yang, B., Urtasun, R.: Fast and furious: Real time end-to-end 3d detection, tracking and motion forecasting with a single convolutional net. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (June 2018)",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[19] Luo, W., Yang, B., Urtasun, R.: Fast and furious: Real time end-to-end 3d detection, tracking and motion forecasting with a single convolutional net. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (June 2018)"
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[20] Maturana, D., Scherer, S.: Voxnet: A 3d convolutional neural network for real-time object recognition. In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp. 922–928. IEEE (2015)",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[20] Maturana, D., Scherer, S.: Voxnet: A 3d convolutional neural network for real-time object recognition. In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp. 922–928. IEEE (2015)"
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[21] Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.: Lasernet: An efficient probabilistic 3d object detector for autonomous driving. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12677–12686 (2019)",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[21] Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.: Lasernet: An efficient probabilistic 3d object detector for autonomous driving. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12677–12686 (2019)"
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[22] Qi, C.R., Su, H., Mo, K., Guibas, L.J.: Pointnet: Deep learning on point sets for 3d classification and segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 652–660 (2017)",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[22] Qi, C.R., Su, H., Mo, K., Guibas, L.J.: Pointnet: Deep learning on point sets for 3d classification and segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 652–660 (2017)"
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[23] Rapoport-Lavie, M., Raviv, D.: It’s all around you: Range-guided cylindrical network for 3d object detection. arXiv preprint arXiv:2012.03121 (2020)",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[23] Rapoport-Lavie, M., Raviv, D.: It’s all around you: Range-guided cylindrical network for 3d object detection. arXiv preprint arXiv:2012.03121 (2020)"
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[24] Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn: towards real-time object detection with region proposal networks. IEEE transactions on pattern analysis and machine intelligence 39(6), 1137–1149 (2016)",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[24] Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn: towards real-time object detection with region proposal networks. IEEE transactions on pattern analysis and machine intelligence 39(6), 1137–1149 (2016)"
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[25] Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. pp. 234–241. Springer (2015)",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[25] Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. pp. 234–241. Springer (2015)"
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[26] Simon, M., Milz, S., Amende, K., Gross, H.M.: Complex-yolo: Real-time 3d object detection on point clouds. CoRR (2018)",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[26] Simon, M., Milz, S., Amende, K., Gross, H.M.: Complex-yolo: Real-time 3d object detection on point clouds. CoRR (2018)"
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "[27] Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.: Scalability in perception for autonomous driving: Waymo open dataset. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 2446–2454 (2020)",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "[27] Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.: Scalability in perception for autonomous driving: Waymo open dataset. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 2446–2454 (2020)"
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[28] Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.: Searching efficient 3d architectures with sparse point-voxel convolution. In: European Conference on Computer Vision. pp. 685–702. Springer (2020)",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[28] Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.: Searching efficient 3d architectures with sparse point-voxel convolution. In: European Conference on Computer Vision. pp. 685–702. Springer (2020)"
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[29] Vora, S., Lang, A.H., Helou, B., Beijbom, O.: Pointpainting: Sequential fusion for 3d object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4604–4612 (2020)",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[29] Vora, S., Lang, A.H., Helou, B., Beijbom, O.: Pointpainting: Sequential fusion for 3d object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4604–4612 (2020)"
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "[30] Yan, Y., Mao, Y., Li, B.: Second: Sparsely embedded convolutional detection. Sensors 18(10), 3337 (2018)",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "[30] Yan, Y., Mao, Y., Li, B.: Second: Sparsely embedded convolutional detection. Sensors 18(10), 3337 (2018)"
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "[31] Yang, B., Liang, M., Urtasun, R.: HDNET: Exploiting HD maps for 3d object detection. In: CoRL (2018)",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "[31] Yang, B., Liang, M., Urtasun, R.: HDNET: Exploiting HD maps for 3d object detection. In: CoRL (2018)"
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "[32] Yang, B., Luo, W., Urtasun, R.: Pixor: Real-time 3d object detection from point clouds. In: Proceedings of the IEEE conference on Computer Vision and Pattern Recognition. pp. 7652–7660 (2018)",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "[32] Yang, B., Luo, W., Urtasun, R.: Pixor: Real-time 3d object detection from point clouds. In: Proceedings of the IEEE conference on Computer Vision and Pattern Recognition. pp. 7652–7660 (2018)"
+      ]
+    },
+    {
+      "block_index": 64,
+      "source_text": "[33] Yang, B., Luo, W., Urtasun, R.: PIXOR: Real-time 3d object detection from point clouds. In: CVPR (2018)",
+      "line_start": 65,
+      "line_end": 65,
+      "proposed_entries": [
+        "[33] Yang, B., Luo, W., Urtasun, R.: PIXOR: Real-time 3d object detection from point clouds. In: CVPR (2018)"
+      ]
+    },
+    {
+      "block_index": 66,
+      "source_text": "[34] Ye, Y., Chen, H., Zhang, C., Hao, X., Zhang, Z.: Sarpnet: Shape attention regional proposal network for lidar-based 3d object detection. Neurocomputing 379, 53–63 (2020)",
+      "line_start": 67,
+      "line_end": 67,
+      "proposed_entries": [
+        "[34] Ye, Y., Chen, H., Zhang, C., Hao, X., Zhang, Z.: Sarpnet: Shape attention regional proposal network for lidar-based 3d object detection. Neurocomputing 379, 53–63 (2020)"
+      ]
+    },
+    {
+      "block_index": 68,
+      "source_text": "[35] Yin, T., Zhou, X., Krähenbühl, P.: Center-based 3d object detection and tracking. arXiv preprint arXiv:2006.11275 (2020)",
+      "line_start": 69,
+      "line_end": 69,
+      "proposed_entries": [
+        "[35] Yin, T., Zhou, X., Krähenbühl, P.: Center-based 3d object detection and tracking. arXiv preprint arXiv:2006.11275 (2020)"
+      ]
+    },
+    {
+      "block_index": 70,
+      "source_text": "[36] Zhang, Y., Zhou, Z., David, P., Yue, X., Xi, Z., Foroosh, H.: Polarnet: An improved grid representation for online lidar point clouds semantic segmentation. arXiv preprint arXiv:2003.14032 (2020)",
+      "line_start": 71,
+      "line_end": 71,
+      "proposed_entries": [
+        "[36] Zhang, Y., Zhou, Z., David, P., Yue, X., Xi, Z., Foroosh, H.: Polarnet: An improved grid representation for online lidar point clouds semantic segmentation. arXiv preprint arXiv:2003.14032 (2020)"
+      ]
+    },
+    {
+      "block_index": 72,
+      "source_text": "[37] Zhou, H., Zhu, X., Song, X., Ma, Y., Wang, Z., Li, H., Lin, D.: Cylinder3d: An effective 3d framework for driving-scene lidar semantic segmentation. arXiv preprint arXiv:2008.01550 (2020)",
+      "line_start": 73,
+      "line_end": 73,
+      "proposed_entries": [
+        "[37] Zhou, H., Zhu, X., Song, X., Ma, Y., Wang, Z., Li, H., Lin, D.: Cylinder3d: An effective 3d framework for driving-scene lidar semantic segmentation. arXiv preprint arXiv:2008.01550 (2020)"
+      ]
+    },
+    {
+      "block_index": 74,
+      "source_text": "[38] Zhou, Y., Sun, P., Zhang, Y., Anguelov, D., Gao, J., Ouyang, T., Guo, J., Ngiam, J., Vasudevan, V.: End-to-end multi-view fusion for 3d object detection in lidar point clouds. arXiv preprint arXiv:1910.06528 (2019)",
+      "line_start": 75,
+      "line_end": 75,
+      "proposed_entries": [
+        "[38] Zhou, Y., Sun, P., Zhang, Y., Anguelov, D., Gao, J., Ouyang, T., Guo, J., Ngiam, J., Vasudevan, V.: End-to-end multi-view fusion for 3d object detection in lidar point clouds. arXiv preprint arXiv:1910.06528 (2019)"
+      ]
+    },
+    {
+      "block_index": 76,
+      "source_text": "[39] Zhou, Y., Tuzel, O.: Voxelnet: End-to-end learning for point cloud based 3d object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4490–4499 (2018)",
+      "line_start": 77,
+      "line_end": 77,
+      "proposed_entries": [
+        "[39] Zhou, Y., Tuzel, O.: Voxelnet: End-to-end learning for point cloud based 3d object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4490–4499 (2018)"
+      ]
+    },
+    {
+      "block_index": 78,
+      "source_text": "[40] Zhou, Z., Zhang, Y., Foroosh, H.: Panoptic-polarnet: Proposal-free lidar point cloud panoptic segmentation. arXiv preprint arXiv:2103.14962 (2021)",
+      "line_start": 79,
+      "line_end": 79,
+      "proposed_entries": [
+        "[40] Zhou, Z., Zhang, Y., Foroosh, H.: Panoptic-polarnet: Proposal-free lidar point cloud panoptic segmentation. arXiv preprint arXiv:2103.14962 (2021)"
+      ]
+    },
+    {
+      "block_index": 80,
+      "source_text": "[41] Zhu, B., Jiang, Z., Zhou, X., Li, Z., Yu, G.: Class-balanced grouping and sampling for point cloud 3d object detection. arXiv preprint arXiv:1908.09492 (2019)",
+      "line_start": 81,
+      "line_end": 81,
+      "proposed_entries": [
+        "[41] Zhu, B., Jiang, Z., Zhou, X., Li, Z., Yu, G.: Class-balanced grouping and sampling for point cloud 3d object detection. arXiv preprint arXiv:1908.09492 (2019)"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.: Exploiting polar grid structure and object shadows for fast object detection in point clouds. In: Twelfth International Conference on Machine Vision (ICMV 2019). vol. 11433, p. 114330G. International Society for Optics and Photonics (2020)",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "venue_marker_split",
+          "author_text": "Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.",
+          "author_candidates": [
+            "Alsfasser, M.",
+            "Siegemund, J.",
+            "Kurian, J.",
+            "Kummert, A."
+          ],
+          "title_candidate": "Exploiting polar grid structure and object shadows for fast object detection in point clouds",
+          "container_candidate": "In: Twelfth International Conference on Machine Vision (ICMV 2019). vol. 11433, p. 114330G. International Society for Optics and Photonics (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.",
+          "author_candidates": [
+            "Alsfasser, M.",
+            "Siegemund, J.",
+            "Kurian, J.",
+            "Kummert, A."
+          ],
+          "title_candidate": "Exploiting polar grid structure and object shadows for fast object detection in point clouds",
+          "container_candidate": "Twelfth International Conference on Machine Vision (ICMV 2019). vol. 11433, p. 114330G. International Society for Optics and Photonics",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.: Exploiting polar grid structure and object shadows for fast object detection in point clouds",
+          "author_candidates": [
+            "Alsfasser, M.",
+            "Siegemund, J.",
+            "Kurian, J.",
+            "Kummert, A."
+          ],
+          "title_candidate": "In: Twelfth International Conference on Machine Vision (ICMV 2019)",
+          "container_candidate": "vol. 11433, p. 114330G. International Society for Optics and Photonics",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.",
+          "author_candidates": [
+            "Alsfasser, M.",
+            "Siegemund, J.",
+            "Kurian, J.",
+            "Kummert, A."
+          ],
+          "title_candidate": "Exploiting polar grid structure and object shadows for fast object detection in point clouds. In: Twelfth International Conference on Machine Vision (ICMV 2019). vol. 11433, p. 114330G. International Society for Optics and Photonics",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.",
+          "author_candidates": [
+            "Alsfasser, M.",
+            "Siegemund, J.",
+            "Kurian, J.",
+            "Kummert, A."
+          ],
+          "title_candidate": "Exploiting polar grid structure and object shadows for fast object detection in point clouds. In: Twelfth International Conference on Machine Vision (ICMV 2019). vol. 11433, p. 114330G. International Society for Optics and Photonics (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Berman, M., Triki, A.R., Blaschko, M.B.: The lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4413–4421 (2018)",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Berman, M., Triki, A.R., Blaschko, M.B.",
+          "author_candidates": [
+            "Berman, M.",
+            "Triki, A.R.",
+            "Blaschko, M.B."
+          ],
+          "title_candidate": "The lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks",
+          "container_candidate": "In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4413–4421 (2018)",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Berman, M., Triki, A.R., Blaschko, M.B.",
+          "author_candidates": [
+            "Berman, M.",
+            "Triki, A.R.",
+            "Blaschko, M.B."
+          ],
+          "title_candidate": "The lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks",
+          "container_candidate": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4413–4421",
+          "year_candidate": 2018,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Berman, M., Triki, A.R., Blaschko, M.B.: The lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks",
+          "author_candidates": [
+            "Berman, M.",
+            "Triki, A.R.",
+            "Blaschko, M.B."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "pp. 4413–4421",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Berman, M., Triki, A.R., Blaschko, M.B.",
+          "author_candidates": [
+            "Berman, M.",
+            "Triki, A.R.",
+            "Blaschko, M.B."
+          ],
+          "title_candidate": "The lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4413–4421",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Berman, M., Triki, A.R., Blaschko, M.B.",
+          "author_candidates": [
+            "Berman, M.",
+            "Triki, A.R.",
+            "Blaschko, M.B."
+          ],
+          "title_candidate": "The lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4413–4421 (2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O.: nuscenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027 (2019)",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O.: nuscenes: A multimodal dataset for autonomous driving",
+          "author_candidates": [
+            "Caesar, H.",
+            "Bankiti, V.",
+            "Lang, A.H.",
+            "Vora, S.",
+            "Liong, V.E.",
+            "Xu, Q.",
+            "Krishnan, A.",
+            "Pan, Y.",
+            "Baldan, G.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:1903.11027 (2019)",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O.",
+          "author_candidates": [
+            "Caesar, H.",
+            "Bankiti, V.",
+            "Lang, A.H.",
+            "Vora, S.",
+            "Liong, V.E.",
+            "Xu, Q.",
+            "Krishnan, A.",
+            "Pan, Y.",
+            "Baldan, G.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "nuscenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O.",
+          "author_candidates": [
+            "Caesar, H.",
+            "Bankiti, V.",
+            "Lang, A.H.",
+            "Vora, S.",
+            "Liong, V.E.",
+            "Xu, Q.",
+            "Krishnan, A.",
+            "Pan, Y.",
+            "Baldan, G.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "nuscenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O.",
+          "author_candidates": [
+            "Caesar, H.",
+            "Bankiti, V.",
+            "Lang, A.H.",
+            "Vora, S.",
+            "Liong, V.E.",
+            "Xu, Q.",
+            "Krishnan, A.",
+            "Pan, Y.",
+            "Baldan, G.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "nuscenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027 (2019)",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Casas, S., Luo, W., Urtasun, R.: Intentnet: Learning to predict intention from raw sensor data. In: Proceedings of The 2nd Conference on Robot Learning. pp. 947–956 (2018)",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Casas, S., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Casas, S.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Intentnet: Learning to predict intention from raw sensor data",
+          "container_candidate": "In: Proceedings of The 2nd Conference on Robot Learning. pp. 947–956 (2018)",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Casas, S., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Casas, S.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Intentnet: Learning to predict intention from raw sensor data",
+          "container_candidate": "Proceedings of The 2nd Conference on Robot Learning. pp. 947–956",
+          "year_candidate": 2018,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Casas, S., Luo, W., Urtasun, R.: Intentnet: Learning to predict intention from raw sensor data",
+          "author_candidates": [
+            "Casas, S.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "In: Proceedings of The 2nd Conference on Robot Learning",
+          "container_candidate": "pp. 947–956",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Casas, S., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Casas, S.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Intentnet: Learning to predict intention from raw sensor data. In: Proceedings of The 2nd Conference on Robot Learning. pp. 947–956",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Casas, S., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Casas, S.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Intentnet: Learning to predict intention from raw sensor data. In: Proceedings of The 2nd Conference on Robot Learning. pp. 947–956 (2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Chen, Q., Sun, L., Cheung, E., Yuille, A.L.: Every view counts: Cross-view consistency in 3d object detection with hybrid-cylindrical-spherical voxelization. Advances in Neural Information Processing Systems (2020)",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Chen, Q., Sun, L., Cheung, E., Yuille, A.L.",
+          "author_candidates": [
+            "Chen, Q.",
+            "Sun, L.",
+            "Cheung, E.",
+            "Yuille, A.L."
+          ],
+          "title_candidate": "Every view counts: Cross-view consistency in 3d object detection with hybrid-cylindrical-spherical voxelization. Advances in Neural Information Processing Systems",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chen, Q., Sun, L., Cheung, E., Yuille, A.L.",
+          "author_candidates": [
+            "Chen, Q.",
+            "Sun, L.",
+            "Cheung, E.",
+            "Yuille, A.L."
+          ],
+          "title_candidate": "Every view counts: Cross-view consistency in 3d object detection with hybrid-cylindrical-spherical voxelization. Advances in Neural Information Processing Systems",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chen, Q., Sun, L., Cheung, E., Yuille, A.L.",
+          "author_candidates": [
+            "Chen, Q.",
+            "Sun, L.",
+            "Cheung, E.",
+            "Yuille, A.L."
+          ],
+          "title_candidate": "Every view counts: Cross-view consistency in 3d object detection with hybrid-cylindrical-spherical voxelization. Advances in Neural Information Processing Systems (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.: Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots. In: European Conference on Computer Vision. pp. 68–84. Springer (2020)",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.",
+          "author_candidates": [
+            "Chen, Q.",
+            "Sun, L.",
+            "Wang, Z.",
+            "Jia, K.",
+            "Yuille, A."
+          ],
+          "title_candidate": "Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots",
+          "container_candidate": "In: European Conference on Computer Vision. pp. 68–84. Springer (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.",
+          "author_candidates": [
+            "Chen, Q.",
+            "Sun, L.",
+            "Wang, Z.",
+            "Jia, K.",
+            "Yuille, A."
+          ],
+          "title_candidate": "Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots",
+          "container_candidate": "European Conference on Computer Vision. pp. 68–84. Springer",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.: Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots",
+          "author_candidates": [
+            "Chen, Q.",
+            "Sun, L.",
+            "Wang, Z.",
+            "Jia, K.",
+            "Yuille, A."
+          ],
+          "title_candidate": "In: European Conference on Computer Vision",
+          "container_candidate": "pp. 68–84. Springer",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.",
+          "author_candidates": [
+            "Chen, Q.",
+            "Sun, L.",
+            "Wang, Z.",
+            "Jia, K.",
+            "Yuille, A."
+          ],
+          "title_candidate": "Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots. In: European Conference on Computer Vision. pp. 68–84. Springer",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.",
+          "author_candidates": [
+            "Chen, Q.",
+            "Sun, L.",
+            "Wang, Z.",
+            "Jia, K.",
+            "Yuille, A."
+          ],
+          "title_candidate": "Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots. In: European Conference on Computer Vision. pp. 68–84. Springer (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Chen, X., Ma, H., Wan, J., Li, B., Xia, T.: Multi-view 3d object detection network for autonomous driving. In: CVPR (2017)",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Chen, X., Ma, H., Wan, J., Li, B., Xia, T.",
+          "author_candidates": [
+            "Chen, X.",
+            "Ma, H.",
+            "Wan, J.",
+            "Li, B.",
+            "Xia, T."
+          ],
+          "title_candidate": "Multi-view 3d object detection network for autonomous driving",
+          "container_candidate": "In: CVPR (2017)",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Chen, X., Ma, H., Wan, J., Li, B., Xia, T.",
+          "author_candidates": [
+            "Chen, X.",
+            "Ma, H.",
+            "Wan, J.",
+            "Li, B.",
+            "Xia, T."
+          ],
+          "title_candidate": "Multi-view 3d object detection network for autonomous driving",
+          "container_candidate": "CVPR",
+          "year_candidate": 2017,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chen, X., Ma, H., Wan, J., Li, B., Xia, T.",
+          "author_candidates": [
+            "Chen, X.",
+            "Ma, H.",
+            "Wan, J.",
+            "Li, B.",
+            "Xia, T."
+          ],
+          "title_candidate": "Multi-view 3d object detection network for autonomous driving. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chen, X., Ma, H., Wan, J., Li, B., Xia, T.",
+          "author_candidates": [
+            "Chen, X.",
+            "Ma, H.",
+            "Wan, J.",
+            "Li, B.",
+            "Xia, T."
+          ],
+          "title_candidate": "Multi-view 3d object detection network for autonomous driving. In: CVPR (2017)",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Cheng, R., Razani, R., Taghavi, E., Li, E., Liu, B.: 2-s3net: Attentive feature fusion with adaptive feature selection for sparse semantic segmentation network. arXiv preprint arXiv:2102.04530 (2021)",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Cheng, R., Razani, R., Taghavi, E., Li, E., Liu, B.: 2-s3net: Attentive feature fusion with adaptive feature selection for sparse semantic segmentation network",
+          "author_candidates": [
+            "Cheng, R.",
+            "Razani, R.",
+            "Taghavi, E.",
+            "Li, E.",
+            "Liu, B."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2102.04530 (2021)",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Cheng, R., Razani, R., Taghavi, E., Li, E., Liu, B.",
+          "author_candidates": [
+            "Cheng, R.",
+            "Razani, R.",
+            "Taghavi, E.",
+            "Li, E.",
+            "Liu, B."
+          ],
+          "title_candidate": "2-s3net: Attentive feature fusion with adaptive feature selection for sparse semantic segmentation network. arXiv preprint arXiv:2102.04530",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Cheng, R., Razani, R., Taghavi, E., Li, E., Liu, B.",
+          "author_candidates": [
+            "Cheng, R.",
+            "Razani, R.",
+            "Taghavi, E.",
+            "Li, E.",
+            "Liu, B."
+          ],
+          "title_candidate": "2-s3net: Attentive feature fusion with adaptive feature selection for sparse semantic segmentation network. arXiv preprint arXiv:2102.04530",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Cheng, R., Razani, R., Taghavi, E., Li, E., Liu, B.",
+          "author_candidates": [
+            "Cheng, R.",
+            "Razani, R.",
+            "Taghavi, E.",
+            "Li, E.",
+            "Liu, B."
+          ],
+          "title_candidate": "2-s3net: Attentive feature fusion with adaptive feature selection for sparse semantic segmentation network. arXiv preprint arXiv:2102.04530 (2021)",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Cortinhal, T., Tzelepis, G., Aksoy, E.E.: Salsanext: Fast, uncertainty-aware semantic segmentation of lidar point clouds for autonomous driving. arXiv preprint arXiv:2003.03653 (2020)",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "Cortinhal, T., Tzelepis, G., Aksoy, E.E.: Salsanext: Fast, uncertainty-aware semantic segmentation of lidar point clouds for autonomous driving",
+          "author_candidates": [
+            "Cortinhal, T.",
+            "Tzelepis, G.",
+            "Aksoy, E.E."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2003.03653 (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Cortinhal, T., Tzelepis, G., Aksoy, E.E.",
+          "author_candidates": [
+            "Cortinhal, T.",
+            "Tzelepis, G.",
+            "Aksoy, E.E."
+          ],
+          "title_candidate": "Salsanext: Fast, uncertainty-aware semantic segmentation of lidar point clouds for autonomous driving. arXiv preprint arXiv:2003.03653",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Cortinhal, T., Tzelepis, G., Aksoy, E.E.",
+          "author_candidates": [
+            "Cortinhal, T.",
+            "Tzelepis, G.",
+            "Aksoy, E.E."
+          ],
+          "title_candidate": "Salsanext: Fast, uncertainty-aware semantic segmentation of lidar point clouds for autonomous driving. arXiv preprint arXiv:2003.03653",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Cortinhal, T., Tzelepis, G., Aksoy, E.E.",
+          "author_candidates": [
+            "Cortinhal, T.",
+            "Tzelepis, G.",
+            "Aksoy, E.E."
+          ],
+          "title_candidate": "Salsanext: Fast, uncertainty-aware semantic segmentation of lidar point clouds for autonomous driving. arXiv preprint arXiv:2003.03653 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Fan, L., Xiong, X., Wang, F., Wang, N., Zhang, Z.: Rangedet: In defense of range view for lidar-based 3d object detection. arXiv preprint arXiv:2103.10039 (2021)",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Fan, L., Xiong, X., Wang, F., Wang, N., Zhang, Z.: Rangedet: In defense of range view for lidar-based 3d object detection",
+          "author_candidates": [
+            "Fan, L.",
+            "Xiong, X.",
+            "Wang, F.",
+            "Wang, N.",
+            "Zhang, Z."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2103.10039 (2021)",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Fan, L., Xiong, X., Wang, F., Wang, N., Zhang, Z.",
+          "author_candidates": [
+            "Fan, L.",
+            "Xiong, X.",
+            "Wang, F.",
+            "Wang, N.",
+            "Zhang, Z."
+          ],
+          "title_candidate": "Rangedet: In defense of range view for lidar-based 3d object detection. arXiv preprint arXiv:2103.10039",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Fan, L., Xiong, X., Wang, F., Wang, N., Zhang, Z.",
+          "author_candidates": [
+            "Fan, L.",
+            "Xiong, X.",
+            "Wang, F.",
+            "Wang, N.",
+            "Zhang, Z."
+          ],
+          "title_candidate": "Rangedet: In defense of range view for lidar-based 3d object detection. arXiv preprint arXiv:2103.10039",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Fan, L., Xiong, X., Wang, F., Wang, N., Zhang, Z.",
+          "author_candidates": [
+            "Fan, L.",
+            "Xiong, X.",
+            "Wang, F.",
+            "Wang, N.",
+            "Zhang, Z."
+          ],
+          "title_candidate": "Rangedet: In defense of range view for lidar-based 3d object detection. arXiv preprint arXiv:2103.10039 (2021)",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Frossard, D., Suo, S., Casas, S., Tu, J., Hu, R., Urtasun, R.: Strobe: Streaming object detection from lidar packets. arXiv preprint arXiv:2011.06425 (2020)",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "venue_marker_split",
+          "author_text": "Frossard, D., Suo, S., Casas, S., Tu, J., Hu, R., Urtasun, R.: Strobe: Streaming object detection from lidar packets",
+          "author_candidates": [
+            "Frossard, D.",
+            "Suo, S.",
+            "Casas, S.",
+            "Tu, J.",
+            "Hu, R.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2011.06425 (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Frossard, D., Suo, S., Casas, S., Tu, J., Hu, R., Urtasun, R.",
+          "author_candidates": [
+            "Frossard, D.",
+            "Suo, S.",
+            "Casas, S.",
+            "Tu, J.",
+            "Hu, R.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Strobe: Streaming object detection from lidar packets. arXiv preprint arXiv:2011.06425",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Frossard, D., Suo, S., Casas, S., Tu, J., Hu, R., Urtasun, R.",
+          "author_candidates": [
+            "Frossard, D.",
+            "Suo, S.",
+            "Casas, S.",
+            "Tu, J.",
+            "Hu, R.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Strobe: Streaming object detection from lidar packets. arXiv preprint arXiv:2011.06425",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Frossard, D., Suo, S., Casas, S., Tu, J., Hu, R., Urtasun, R.",
+          "author_candidates": [
+            "Frossard, D.",
+            "Suo, S.",
+            "Casas, S.",
+            "Tu, J.",
+            "Hu, R.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Strobe: Streaming object detection from lidar packets. arXiv preprint arXiv:2011.06425 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Geiger, A., Lenz, P., Stiller, C., Urtasun, R.: Vision meets robotics: The kitti dataset. The International Journal of Robotics Research 32(11), 1231–1237 (2013)",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Geiger, A., Lenz, P., Stiller, C., Urtasun, R.",
+          "author_candidates": [
+            "Geiger, A.",
+            "Lenz, P.",
+            "Stiller, C.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Vision meets robotics: The kitti dataset. The International Journal of Robotics Research 32(11), 1231–1237",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Geiger, A., Lenz, P., Stiller, C., Urtasun, R.",
+          "author_candidates": [
+            "Geiger, A.",
+            "Lenz, P.",
+            "Stiller, C.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Vision meets robotics: The kitti dataset. The International Journal of Robotics Research 32(11), 1231–1237",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Geiger, A., Lenz, P., Stiller, C., Urtasun, R.",
+          "author_candidates": [
+            "Geiger, A.",
+            "Lenz, P.",
+            "Stiller, C.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Vision meets robotics: The kitti dataset. The International Journal of Robotics Research 32(11), 1231–1237 (2013)",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.: Streaming object detection for 3-d point clouds. In: European Conference on Computer Vision. pp. 423–441. Springer (2020)",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.",
+          "author_candidates": [
+            "Han, W.",
+            "Zhang, Z.",
+            "Caine, B.",
+            "Yang, B.",
+            "Sprunk, C.",
+            "Alsharif, O.",
+            "Ngiam, J.",
+            "Vasudevan, V.",
+            "Shlens, J.",
+            "Chen, Z."
+          ],
+          "title_candidate": "Streaming object detection for 3-d point clouds",
+          "container_candidate": "In: European Conference on Computer Vision. pp. 423–441. Springer (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.",
+          "author_candidates": [
+            "Han, W.",
+            "Zhang, Z.",
+            "Caine, B.",
+            "Yang, B.",
+            "Sprunk, C.",
+            "Alsharif, O.",
+            "Ngiam, J.",
+            "Vasudevan, V.",
+            "Shlens, J.",
+            "Chen, Z."
+          ],
+          "title_candidate": "Streaming object detection for 3-d point clouds",
+          "container_candidate": "European Conference on Computer Vision. pp. 423–441. Springer",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.: Streaming object detection for 3-d point clouds",
+          "author_candidates": [
+            "Han, W.",
+            "Zhang, Z.",
+            "Caine, B.",
+            "Yang, B.",
+            "Sprunk, C.",
+            "Alsharif, O.",
+            "Ngiam, J.",
+            "Vasudevan, V.",
+            "Shlens, J.",
+            "Chen, Z."
+          ],
+          "title_candidate": "In: European Conference on Computer Vision",
+          "container_candidate": "pp. 423–441. Springer",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.",
+          "author_candidates": [
+            "Han, W.",
+            "Zhang, Z.",
+            "Caine, B.",
+            "Yang, B.",
+            "Sprunk, C.",
+            "Alsharif, O.",
+            "Ngiam, J.",
+            "Vasudevan, V.",
+            "Shlens, J.",
+            "Chen, Z."
+          ],
+          "title_candidate": "Streaming object detection for 3-d point clouds. In: European Conference on Computer Vision. pp. 423–441. Springer",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.",
+          "author_candidates": [
+            "Han, W.",
+            "Zhang, Z.",
+            "Caine, B.",
+            "Yang, B.",
+            "Sprunk, C.",
+            "Alsharif, O.",
+            "Ngiam, J.",
+            "Vasudevan, V.",
+            "Shlens, J.",
+            "Chen, Z."
+          ],
+          "title_candidate": "Streaming object detection for 3-d point clouds. In: European Conference on Computer Vision. pp. 423–441. Springer (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016)",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016)",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778",
+          "year_candidate": 2016,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE conference on computer vision and pattern recognition",
+          "container_candidate": "pp. 770–778",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016)",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Ioffe, S., Szegedy, C.: Batch normalization: Accelerating deep network training by reducing internal covariate shift. In: International conference on machine learning. pp. 448–456. PMLR (2015)",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Ioffe, S., Szegedy, C.",
+          "author_candidates": [
+            "Ioffe, S.",
+            "Szegedy, C."
+          ],
+          "title_candidate": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+          "container_candidate": "In: International conference on machine learning. pp. 448–456. PMLR (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Ioffe, S., Szegedy, C.",
+          "author_candidates": [
+            "Ioffe, S.",
+            "Szegedy, C."
+          ],
+          "title_candidate": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+          "container_candidate": "International conference on machine learning. pp. 448–456. PMLR",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ioffe, S., Szegedy, C.: Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+          "author_candidates": [
+            "Ioffe, S.",
+            "Szegedy, C."
+          ],
+          "title_candidate": "In: International conference on machine learning",
+          "container_candidate": "pp. 448–456. PMLR",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ioffe, S., Szegedy, C.",
+          "author_candidates": [
+            "Ioffe, S.",
+            "Szegedy, C."
+          ],
+          "title_candidate": "Batch normalization: Accelerating deep network training by reducing internal covariate shift. In: International conference on machine learning. pp. 448–456. PMLR",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ioffe, S., Szegedy, C.",
+          "author_candidates": [
+            "Ioffe, S.",
+            "Szegedy, C."
+          ],
+          "title_candidate": "Batch normalization: Accelerating deep network training by reducing internal covariate shift. In: International conference on machine learning. pp. 448–456. PMLR (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.: Pointpillars: Fast encoders for object detection from point clouds. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 12697–12705 (2019)",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.",
+          "author_candidates": [
+            "Lang, A.H.",
+            "Vora, S.",
+            "Caesar, H.",
+            "Zhou, L.",
+            "Yang, J.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "Pointpillars: Fast encoders for object detection from point clouds",
+          "container_candidate": "In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 12697–12705 (2019)",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.",
+          "author_candidates": [
+            "Lang, A.H.",
+            "Vora, S.",
+            "Caesar, H.",
+            "Zhou, L.",
+            "Yang, J.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "Pointpillars: Fast encoders for object detection from point clouds",
+          "container_candidate": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 12697–12705",
+          "year_candidate": 2019,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.: Pointpillars: Fast encoders for object detection from point clouds",
+          "author_candidates": [
+            "Lang, A.H.",
+            "Vora, S.",
+            "Caesar, H.",
+            "Zhou, L.",
+            "Yang, J.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "pp. 12697–12705",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.",
+          "author_candidates": [
+            "Lang, A.H.",
+            "Vora, S.",
+            "Caesar, H.",
+            "Zhou, L.",
+            "Yang, J.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "Pointpillars: Fast encoders for object detection from point clouds. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 12697–12705",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.",
+          "author_candidates": [
+            "Lang, A.H.",
+            "Vora, S.",
+            "Caesar, H.",
+            "Zhou, L.",
+            "Yang, J.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "Pointpillars: Fast encoders for object detection from point clouds. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 12697–12705 (2019)",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.: Focal loss for dense object detection. In: Proceedings of the IEEE international conference on computer vision. pp. 2980–2988 (2017)",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.",
+          "author_candidates": [
+            "Lin, T.Y.",
+            "Goyal, P.",
+            "Girshick, R.",
+            "He, K."
+          ],
+          "title_candidate": "Focal loss for dense object detection",
+          "container_candidate": "In: Proceedings of the IEEE international conference on computer vision. pp. 2980–2988 (2017)",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.",
+          "author_candidates": [
+            "Lin, T.Y.",
+            "Goyal, P.",
+            "Girshick, R.",
+            "He, K."
+          ],
+          "title_candidate": "Focal loss for dense object detection",
+          "container_candidate": "Proceedings of the IEEE international conference on computer vision. pp. 2980–2988",
+          "year_candidate": 2017,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.: Focal loss for dense object detection",
+          "author_candidates": [
+            "Lin, T.Y.",
+            "Goyal, P.",
+            "Girshick, R.",
+            "He, K."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE international conference on computer vision",
+          "container_candidate": "pp. 2980–2988",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.",
+          "author_candidates": [
+            "Lin, T.Y.",
+            "Goyal, P.",
+            "Girshick, R.",
+            "He, K."
+          ],
+          "title_candidate": "Focal loss for dense object detection. In: Proceedings of the IEEE international conference on computer vision. pp. 2980–2988",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.",
+          "author_candidates": [
+            "Lin, T.Y.",
+            "Goyal, P.",
+            "Girshick, R.",
+            "He, K."
+          ],
+          "title_candidate": "Focal loss for dense object detection. In: Proceedings of the IEEE international conference on computer vision. pp. 2980–2988 (2017)",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.: Ssd: Single shot multibox detector. In: European conference on computer vision. pp. 21–37. Springer (2016)",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.",
+          "author_candidates": [
+            "Liu, W.",
+            "Anguelov, D.",
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Reed, S.",
+            "Fu, C.Y.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector",
+          "container_candidate": "In: European conference on computer vision. pp. 21–37. Springer (2016)",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.",
+          "author_candidates": [
+            "Liu, W.",
+            "Anguelov, D.",
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Reed, S.",
+            "Fu, C.Y.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector",
+          "container_candidate": "European conference on computer vision. pp. 21–37. Springer",
+          "year_candidate": 2016,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.: Ssd: Single shot multibox detector",
+          "author_candidates": [
+            "Liu, W.",
+            "Anguelov, D.",
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Reed, S.",
+            "Fu, C.Y.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "In: European conference on computer vision",
+          "container_candidate": "pp. 21–37. Springer",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.",
+          "author_candidates": [
+            "Liu, W.",
+            "Anguelov, D.",
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Reed, S.",
+            "Fu, C.Y.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector. In: European conference on computer vision. pp. 21–37. Springer",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.",
+          "author_candidates": [
+            "Liu, W.",
+            "Anguelov, D.",
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Reed, S.",
+            "Fu, C.Y.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector. In: European conference on computer vision. pp. 21–37. Springer (2016)",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Luo, W., Yang, B., Urtasun, R.: Fast and furious: Real time end-to-end 3d detection, tracking and motion forecasting with a single convolutional net. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (June 2018)",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Luo, W., Yang, B., Urtasun, R.",
+          "author_candidates": [
+            "Luo, W.",
+            "Yang, B.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Fast and furious: Real time end-to-end 3d detection, tracking and motion forecasting with a single convolutional net",
+          "container_candidate": "In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (June 2018)",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Luo, W., Yang, B., Urtasun, R.",
+          "author_candidates": [
+            "Luo, W.",
+            "Yang, B.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Fast and furious: Real time end-to-end 3d detection, tracking and motion forecasting with a single convolutional net. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (June",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Luo, W., Yang, B., Urtasun, R.",
+          "author_candidates": [
+            "Luo, W.",
+            "Yang, B.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Fast and furious: Real time end-to-end 3d detection, tracking and motion forecasting with a single convolutional net. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (June 2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Maturana, D., Scherer, S.: Voxnet: A 3d convolutional neural network for real-time object recognition. In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp. 922–928. IEEE (2015)",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Maturana, D., Scherer, S.",
+          "author_candidates": [
+            "Maturana, D.",
+            "Scherer, S."
+          ],
+          "title_candidate": "Voxnet: A 3d convolutional neural network for real-time object recognition",
+          "container_candidate": "In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp. 922–928. IEEE (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Maturana, D., Scherer, S.",
+          "author_candidates": [
+            "Maturana, D.",
+            "Scherer, S."
+          ],
+          "title_candidate": "Voxnet: A 3d convolutional neural network for real-time object recognition",
+          "container_candidate": "2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp. 922–928. IEEE",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Maturana, D., Scherer, S.: Voxnet: A 3d convolutional neural network for real-time object recognition",
+          "author_candidates": [
+            "Maturana, D.",
+            "Scherer, S."
+          ],
+          "title_candidate": "In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+          "container_candidate": "pp. 922–928. IEEE",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Maturana, D., Scherer, S.",
+          "author_candidates": [
+            "Maturana, D.",
+            "Scherer, S."
+          ],
+          "title_candidate": "Voxnet: A 3d convolutional neural network for real-time object recognition. In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp. 922–928. IEEE",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Maturana, D., Scherer, S.",
+          "author_candidates": [
+            "Maturana, D.",
+            "Scherer, S."
+          ],
+          "title_candidate": "Voxnet: A 3d convolutional neural network for real-time object recognition. In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp. 922–928. IEEE (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.: Lasernet: An efficient probabilistic 3d object detector for autonomous driving. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12677–12686 (2019)",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.",
+          "author_candidates": [
+            "Meyer, G.P.",
+            "Laddha, A.",
+            "Kee, E.",
+            "Vallespi-Gonzalez, C.",
+            "Wellington, C.K."
+          ],
+          "title_candidate": "Lasernet: An efficient probabilistic 3d object detector for autonomous driving",
+          "container_candidate": "In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12677–12686 (2019)",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.",
+          "author_candidates": [
+            "Meyer, G.P.",
+            "Laddha, A.",
+            "Kee, E.",
+            "Vallespi-Gonzalez, C.",
+            "Wellington, C.K."
+          ],
+          "title_candidate": "Lasernet: An efficient probabilistic 3d object detector for autonomous driving",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12677–12686",
+          "year_candidate": 2019,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.: Lasernet: An efficient probabilistic 3d object detector for autonomous driving",
+          "author_candidates": [
+            "Meyer, G.P.",
+            "Laddha, A.",
+            "Kee, E.",
+            "Vallespi-Gonzalez, C.",
+            "Wellington, C.K."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "pp. 12677–12686",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.",
+          "author_candidates": [
+            "Meyer, G.P.",
+            "Laddha, A.",
+            "Kee, E.",
+            "Vallespi-Gonzalez, C.",
+            "Wellington, C.K."
+          ],
+          "title_candidate": "Lasernet: An efficient probabilistic 3d object detector for autonomous driving. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12677–12686",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.",
+          "author_candidates": [
+            "Meyer, G.P.",
+            "Laddha, A.",
+            "Kee, E.",
+            "Vallespi-Gonzalez, C.",
+            "Wellington, C.K."
+          ],
+          "title_candidate": "Lasernet: An efficient probabilistic 3d object detector for autonomous driving. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12677–12686 (2019)",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Qi, C.R., Su, H., Mo, K., Guibas, L.J.: Pointnet: Deep learning on point sets for 3d classification and segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 652–660 (2017)",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Qi, C.R., Su, H., Mo, K., Guibas, L.J.",
+          "author_candidates": [
+            "Qi, C.R.",
+            "Su, H.",
+            "Mo, K.",
+            "Guibas, L.J."
+          ],
+          "title_candidate": "Pointnet: Deep learning on point sets for 3d classification and segmentation",
+          "container_candidate": "In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 652–660 (2017)",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Qi, C.R., Su, H., Mo, K., Guibas, L.J.",
+          "author_candidates": [
+            "Qi, C.R.",
+            "Su, H.",
+            "Mo, K.",
+            "Guibas, L.J."
+          ],
+          "title_candidate": "Pointnet: Deep learning on point sets for 3d classification and segmentation",
+          "container_candidate": "Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 652–660",
+          "year_candidate": 2017,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Qi, C.R., Su, H., Mo, K., Guibas, L.J.: Pointnet: Deep learning on point sets for 3d classification and segmentation",
+          "author_candidates": [
+            "Qi, C.R.",
+            "Su, H.",
+            "Mo, K.",
+            "Guibas, L.J."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE conference on computer vision and pattern recognition",
+          "container_candidate": "pp. 652–660",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Qi, C.R., Su, H., Mo, K., Guibas, L.J.",
+          "author_candidates": [
+            "Qi, C.R.",
+            "Su, H.",
+            "Mo, K.",
+            "Guibas, L.J."
+          ],
+          "title_candidate": "Pointnet: Deep learning on point sets for 3d classification and segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 652–660",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Qi, C.R., Su, H., Mo, K., Guibas, L.J.",
+          "author_candidates": [
+            "Qi, C.R.",
+            "Su, H.",
+            "Mo, K.",
+            "Guibas, L.J."
+          ],
+          "title_candidate": "Pointnet: Deep learning on point sets for 3d classification and segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 652–660 (2017)",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Rapoport-Lavie, M., Raviv, D.: It’s all around you: Range-guided cylindrical network for 3d object detection. arXiv preprint arXiv:2012.03121 (2020)",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Rapoport-Lavie, M., Raviv, D.: It’s all around you: Range-guided cylindrical network for 3d object detection",
+          "author_candidates": [
+            "Rapoport-Lavie, M.",
+            "Raviv, D."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2012.03121 (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Rapoport-Lavie, M., Raviv, D.",
+          "author_candidates": [
+            "Rapoport-Lavie, M.",
+            "Raviv, D."
+          ],
+          "title_candidate": "It’s all around you: Range-guided cylindrical network for 3d object detection. arXiv preprint arXiv:2012.03121",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Rapoport-Lavie, M., Raviv, D.",
+          "author_candidates": [
+            "Rapoport-Lavie, M.",
+            "Raviv, D."
+          ],
+          "title_candidate": "It’s all around you: Range-guided cylindrical network for 3d object detection. arXiv preprint arXiv:2012.03121",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Rapoport-Lavie, M., Raviv, D.",
+          "author_candidates": [
+            "Rapoport-Lavie, M.",
+            "Raviv, D."
+          ],
+          "title_candidate": "It’s all around you: Range-guided cylindrical network for 3d object detection. arXiv preprint arXiv:2012.03121 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn: towards real-time object detection with region proposal networks. IEEE transactions on pattern analysis and machine intelligence 39(6), 1137–1149 (2016)",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Ren, S., He, K., Girshick, R., Sun, J.",
+          "author_candidates": [
+            "Ren, S.",
+            "He, K.",
+            "Girshick, R.",
+            "Sun, J."
+          ],
+          "title_candidate": "Faster r-cnn: towards real-time object detection with region proposal networks. IEEE transactions on pattern analysis and machine intelligence 39(6), 1137–1149",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ren, S., He, K., Girshick, R., Sun, J.",
+          "author_candidates": [
+            "Ren, S.",
+            "He, K.",
+            "Girshick, R.",
+            "Sun, J."
+          ],
+          "title_candidate": "Faster r-cnn: towards real-time object detection with region proposal networks. IEEE transactions on pattern analysis and machine intelligence 39(6), 1137–1149",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ren, S., He, K., Girshick, R., Sun, J.",
+          "author_candidates": [
+            "Ren, S.",
+            "He, K.",
+            "Girshick, R.",
+            "Sun, J."
+          ],
+          "title_candidate": "Faster r-cnn: towards real-time object detection with region proposal networks. IEEE transactions on pattern analysis and machine intelligence 39(6), 1137–1149 (2016)",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. pp. 234–241. Springer (2015)",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "venue_marker_split",
+          "author_text": "Ronneberger, O., Fischer, P., Brox, T.",
+          "author_candidates": [
+            "Ronneberger, O.",
+            "Fischer, P.",
+            "Brox, T."
+          ],
+          "title_candidate": "U-net: Convolutional networks for biomedical image segmentation",
+          "container_candidate": "In: International Conference on Medical image computing and computer-assisted intervention. pp. 234–241. Springer (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Ronneberger, O., Fischer, P., Brox, T.",
+          "author_candidates": [
+            "Ronneberger, O.",
+            "Fischer, P.",
+            "Brox, T."
+          ],
+          "title_candidate": "U-net: Convolutional networks for biomedical image segmentation",
+          "container_candidate": "International Conference on Medical image computing and computer-assisted intervention. pp. 234–241. Springer",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolutional networks for biomedical image segmentation",
+          "author_candidates": [
+            "Ronneberger, O.",
+            "Fischer, P.",
+            "Brox, T."
+          ],
+          "title_candidate": "In: International Conference on Medical image computing and computer-assisted intervention",
+          "container_candidate": "pp. 234–241. Springer",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ronneberger, O., Fischer, P., Brox, T.",
+          "author_candidates": [
+            "Ronneberger, O.",
+            "Fischer, P.",
+            "Brox, T."
+          ],
+          "title_candidate": "U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. pp. 234–241. Springer",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ronneberger, O., Fischer, P., Brox, T.",
+          "author_candidates": [
+            "Ronneberger, O.",
+            "Fischer, P.",
+            "Brox, T."
+          ],
+          "title_candidate": "U-net: Convolutional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention. pp. 234–241. Springer (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Simon, M., Milz, S., Amende, K., Gross, H.M.: Complex-yolo: Real-time 3d object detection on point clouds. CoRR (2018)",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "Simon, M., Milz, S., Amende, K., Gross, H.M.",
+          "author_candidates": [
+            "Simon, M.",
+            "Milz, S.",
+            "Amende, K.",
+            "Gross, H.M."
+          ],
+          "title_candidate": "Complex-yolo: Real-time 3d object detection on point clouds",
+          "container_candidate": "CoRR (2018)",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Simon, M., Milz, S., Amende, K., Gross, H.M.",
+          "author_candidates": [
+            "Simon, M.",
+            "Milz, S.",
+            "Amende, K.",
+            "Gross, H.M."
+          ],
+          "title_candidate": "Complex-yolo: Real-time 3d object detection on point clouds. CoRR",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Simon, M., Milz, S., Amende, K., Gross, H.M.",
+          "author_candidates": [
+            "Simon, M.",
+            "Milz, S.",
+            "Amende, K.",
+            "Gross, H.M."
+          ],
+          "title_candidate": "Complex-yolo: Real-time 3d object detection on point clouds. CoRR",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Simon, M., Milz, S., Amende, K., Gross, H.M.",
+          "author_candidates": [
+            "Simon, M.",
+            "Milz, S.",
+            "Amende, K.",
+            "Gross, H.M."
+          ],
+          "title_candidate": "Complex-yolo: Real-time 3d object detection on point clouds. CoRR (2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.: Scalability in perception for autonomous driving: Waymo open dataset. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 2446–2454 (2020)",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.",
+          "author_candidates": [
+            "Sun, P.",
+            "Kretzschmar, H.",
+            "Dotiwalla, X.",
+            "Chouard, A.",
+            "Patnaik, V.",
+            "Tsui, P.",
+            "Guo, J.",
+            "Zhou, Y.",
+            "Chai, Y.",
+            "Caine, B."
+          ],
+          "title_candidate": "Scalability in perception for autonomous driving: Waymo open dataset",
+          "container_candidate": "In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 2446–2454 (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.",
+          "author_candidates": [
+            "Sun, P.",
+            "Kretzschmar, H.",
+            "Dotiwalla, X.",
+            "Chouard, A.",
+            "Patnaik, V.",
+            "Tsui, P.",
+            "Guo, J.",
+            "Zhou, Y.",
+            "Chai, Y.",
+            "Caine, B."
+          ],
+          "title_candidate": "Scalability in perception for autonomous driving: Waymo open dataset",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 2446–2454",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.: Scalability in perception for autonomous driving: Waymo open dataset",
+          "author_candidates": [
+            "Sun, P.",
+            "Kretzschmar, H.",
+            "Dotiwalla, X.",
+            "Chouard, A.",
+            "Patnaik, V.",
+            "Tsui, P.",
+            "Guo, J.",
+            "Zhou, Y.",
+            "Chai, Y.",
+            "Caine, B."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "pp. 2446–2454",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.",
+          "author_candidates": [
+            "Sun, P.",
+            "Kretzschmar, H.",
+            "Dotiwalla, X.",
+            "Chouard, A.",
+            "Patnaik, V.",
+            "Tsui, P.",
+            "Guo, J.",
+            "Zhou, Y.",
+            "Chai, Y.",
+            "Caine, B."
+          ],
+          "title_candidate": "Scalability in perception for autonomous driving: Waymo open dataset. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 2446–2454",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.",
+          "author_candidates": [
+            "Sun, P.",
+            "Kretzschmar, H.",
+            "Dotiwalla, X.",
+            "Chouard, A.",
+            "Patnaik, V.",
+            "Tsui, P.",
+            "Guo, J.",
+            "Zhou, Y.",
+            "Chai, Y.",
+            "Caine, B."
+          ],
+          "title_candidate": "Scalability in perception for autonomous driving: Waymo open dataset. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 2446–2454 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.: Searching efficient 3d architectures with sparse point-voxel convolution. In: European Conference on Computer Vision. pp. 685–702. Springer (2020)",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.",
+          "author_candidates": [
+            "Tang, H.",
+            "Liu, Z.",
+            "Zhao, S.",
+            "Lin, Y.",
+            "Lin, J.",
+            "Wang, H.",
+            "Han, S."
+          ],
+          "title_candidate": "Searching efficient 3d architectures with sparse point-voxel convolution",
+          "container_candidate": "In: European Conference on Computer Vision. pp. 685–702. Springer (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.",
+          "author_candidates": [
+            "Tang, H.",
+            "Liu, Z.",
+            "Zhao, S.",
+            "Lin, Y.",
+            "Lin, J.",
+            "Wang, H.",
+            "Han, S."
+          ],
+          "title_candidate": "Searching efficient 3d architectures with sparse point-voxel convolution",
+          "container_candidate": "European Conference on Computer Vision. pp. 685–702. Springer",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.: Searching efficient 3d architectures with sparse point-voxel convolution",
+          "author_candidates": [
+            "Tang, H.",
+            "Liu, Z.",
+            "Zhao, S.",
+            "Lin, Y.",
+            "Lin, J.",
+            "Wang, H.",
+            "Han, S."
+          ],
+          "title_candidate": "In: European Conference on Computer Vision",
+          "container_candidate": "pp. 685–702. Springer",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.",
+          "author_candidates": [
+            "Tang, H.",
+            "Liu, Z.",
+            "Zhao, S.",
+            "Lin, Y.",
+            "Lin, J.",
+            "Wang, H.",
+            "Han, S."
+          ],
+          "title_candidate": "Searching efficient 3d architectures with sparse point-voxel convolution. In: European Conference on Computer Vision. pp. 685–702. Springer",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.",
+          "author_candidates": [
+            "Tang, H.",
+            "Liu, Z.",
+            "Zhao, S.",
+            "Lin, Y.",
+            "Lin, J.",
+            "Wang, H.",
+            "Han, S."
+          ],
+          "title_candidate": "Searching efficient 3d architectures with sparse point-voxel convolution. In: European Conference on Computer Vision. pp. 685–702. Springer (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Vora, S., Lang, A.H., Helou, B., Beijbom, O.: Pointpainting: Sequential fusion for 3d object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4604–4612 (2020)",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Vora, S., Lang, A.H., Helou, B., Beijbom, O.",
+          "author_candidates": [
+            "Vora, S.",
+            "Lang, A.H.",
+            "Helou, B.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "Pointpainting: Sequential fusion for 3d object detection",
+          "container_candidate": "In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4604–4612 (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Vora, S., Lang, A.H., Helou, B., Beijbom, O.",
+          "author_candidates": [
+            "Vora, S.",
+            "Lang, A.H.",
+            "Helou, B.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "Pointpainting: Sequential fusion for 3d object detection",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4604–4612",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Vora, S., Lang, A.H., Helou, B., Beijbom, O.: Pointpainting: Sequential fusion for 3d object detection",
+          "author_candidates": [
+            "Vora, S.",
+            "Lang, A.H.",
+            "Helou, B.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "pp. 4604–4612",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Vora, S., Lang, A.H., Helou, B., Beijbom, O.",
+          "author_candidates": [
+            "Vora, S.",
+            "Lang, A.H.",
+            "Helou, B.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "Pointpainting: Sequential fusion for 3d object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4604–4612",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Vora, S., Lang, A.H., Helou, B., Beijbom, O.",
+          "author_candidates": [
+            "Vora, S.",
+            "Lang, A.H.",
+            "Helou, B.",
+            "Beijbom, O."
+          ],
+          "title_candidate": "Pointpainting: Sequential fusion for 3d object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4604–4612 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Yan, Y., Mao, Y., Li, B.: Second: Sparsely embedded convolutional detection. Sensors 18(10), 3337 (2018)",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Yan, Y., Mao, Y., Li, B.",
+          "author_candidates": [
+            "Yan, Y.",
+            "Mao, Y.",
+            "Li, B."
+          ],
+          "title_candidate": "Second: Sparsely embedded convolutional detection. Sensors 18(10), 3337",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yan, Y., Mao, Y., Li, B.",
+          "author_candidates": [
+            "Yan, Y.",
+            "Mao, Y.",
+            "Li, B."
+          ],
+          "title_candidate": "Second: Sparsely embedded convolutional detection. Sensors 18(10), 3337",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yan, Y., Mao, Y., Li, B.",
+          "author_candidates": [
+            "Yan, Y.",
+            "Mao, Y.",
+            "Li, B."
+          ],
+          "title_candidate": "Second: Sparsely embedded convolutional detection. Sensors 18(10), 3337 (2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] Yang, B., Liang, M., Urtasun, R.: HDNET: Exploiting HD maps for 3d object detection. In: CoRL (2018)",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Yang, B., Liang, M., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Liang, M.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "HDNET: Exploiting HD maps for 3d object detection",
+          "container_candidate": "In: CoRL (2018)",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Yang, B., Liang, M., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Liang, M.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "HDNET: Exploiting HD maps for 3d object detection",
+          "container_candidate": "CoRL",
+          "year_candidate": 2018,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yang, B., Liang, M., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Liang, M.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "HDNET: Exploiting HD maps for 3d object detection. In: CoRL",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yang, B., Liang, M., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Liang, M.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "HDNET: Exploiting HD maps for 3d object detection. In: CoRL (2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] Yang, B., Luo, W., Urtasun, R.: Pixor: Real-time 3d object detection from point clouds. In: Proceedings of the IEEE conference on Computer Vision and Pattern Recognition. pp. 7652–7660 (2018)",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "venue_marker_split",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Pixor: Real-time 3d object detection from point clouds",
+          "container_candidate": "In: Proceedings of the IEEE conference on Computer Vision and Pattern Recognition. pp. 7652–7660 (2018)",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Pixor: Real-time 3d object detection from point clouds",
+          "container_candidate": "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition. pp. 7652–7660",
+          "year_candidate": 2018,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.: Pixor: Real-time 3d object detection from point clouds",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "pp. 7652–7660",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Pixor: Real-time 3d object detection from point clouds. In: Proceedings of the IEEE conference on Computer Vision and Pattern Recognition. pp. 7652–7660",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "Pixor: Real-time 3d object detection from point clouds. In: Proceedings of the IEEE conference on Computer Vision and Pattern Recognition. pp. 7652–7660 (2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] Yang, B., Luo, W., Urtasun, R.: PIXOR: Real-time 3d object detection from point clouds. In: CVPR (2018)",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "venue_marker_split",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "PIXOR: Real-time 3d object detection from point clouds",
+          "container_candidate": "In: CVPR (2018)",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "PIXOR: Real-time 3d object detection from point clouds",
+          "container_candidate": "CVPR",
+          "year_candidate": 2018,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "PIXOR: Real-time 3d object detection from point clouds. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yang, B., Luo, W., Urtasun, R.",
+          "author_candidates": [
+            "Yang, B.",
+            "Luo, W.",
+            "Urtasun, R."
+          ],
+          "title_candidate": "PIXOR: Real-time 3d object detection from point clouds. In: CVPR (2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34] Ye, Y., Chen, H., Zhang, C., Hao, X., Zhang, Z.: Sarpnet: Shape attention regional proposal network for lidar-based 3d object detection. Neurocomputing 379, 53–63 (2020)",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Ye, Y., Chen, H., Zhang, C., Hao, X., Zhang, Z.",
+          "author_candidates": [
+            "Ye, Y.",
+            "Chen, H.",
+            "Zhang, C.",
+            "Hao, X.",
+            "Zhang, Z."
+          ],
+          "title_candidate": "Sarpnet: Shape attention regional proposal network for lidar-based 3d object detection. Neurocomputing 379, 53–63",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ye, Y., Chen, H., Zhang, C., Hao, X., Zhang, Z.",
+          "author_candidates": [
+            "Ye, Y.",
+            "Chen, H.",
+            "Zhang, C.",
+            "Hao, X.",
+            "Zhang, Z."
+          ],
+          "title_candidate": "Sarpnet: Shape attention regional proposal network for lidar-based 3d object detection. Neurocomputing 379, 53–63",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ye, Y., Chen, H., Zhang, C., Hao, X., Zhang, Z.",
+          "author_candidates": [
+            "Ye, Y.",
+            "Chen, H.",
+            "Zhang, C.",
+            "Hao, X.",
+            "Zhang, Z."
+          ],
+          "title_candidate": "Sarpnet: Shape attention regional proposal network for lidar-based 3d object detection. Neurocomputing 379, 53–63 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] Yin, T., Zhou, X., Krähenbühl, P.: Center-based 3d object detection and tracking. arXiv preprint arXiv:2006.11275 (2020)",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "venue_marker_split",
+          "author_text": "Yin, T., Zhou, X., Krähenbühl, P.: Center-based 3d object detection and tracking",
+          "author_candidates": [
+            "Yin, T.",
+            "Zhou, X."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2006.11275 (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Yin, T., Zhou, X., Krähenbühl, P.",
+          "author_candidates": [
+            "Yin, T.",
+            "Zhou, X."
+          ],
+          "title_candidate": "Center-based 3d object detection and tracking. arXiv preprint arXiv:2006.11275",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yin, T., Zhou, X., Krähenbühl, P.",
+          "author_candidates": [
+            "Yin, T.",
+            "Zhou, X."
+          ],
+          "title_candidate": "Center-based 3d object detection and tracking. arXiv preprint arXiv:2006.11275",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yin, T., Zhou, X., Krähenbühl, P.",
+          "author_candidates": [
+            "Yin, T.",
+            "Zhou, X."
+          ],
+          "title_candidate": "Center-based 3d object detection and tracking. arXiv preprint arXiv:2006.11275 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[36] Zhang, Y., Zhou, Z., David, P., Yue, X., Xi, Z., Foroosh, H.: Polarnet: An improved grid representation for online lidar point clouds semantic segmentation. arXiv preprint arXiv:2003.14032 (2020)",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhang, Y., Zhou, Z., David, P., Yue, X., Xi, Z., Foroosh, H.: Polarnet: An improved grid representation for online lidar point clouds semantic segmentation",
+          "author_candidates": [
+            "Zhang, Y.",
+            "Zhou, Z.",
+            "David, P.",
+            "Yue, X.",
+            "Xi, Z.",
+            "Foroosh, H."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2003.14032 (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Zhang, Y., Zhou, Z., David, P., Yue, X., Xi, Z., Foroosh, H.",
+          "author_candidates": [
+            "Zhang, Y.",
+            "Zhou, Z.",
+            "David, P.",
+            "Yue, X.",
+            "Xi, Z.",
+            "Foroosh, H."
+          ],
+          "title_candidate": "Polarnet: An improved grid representation for online lidar point clouds semantic segmentation. arXiv preprint arXiv:2003.14032",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhang, Y., Zhou, Z., David, P., Yue, X., Xi, Z., Foroosh, H.",
+          "author_candidates": [
+            "Zhang, Y.",
+            "Zhou, Z.",
+            "David, P.",
+            "Yue, X.",
+            "Xi, Z.",
+            "Foroosh, H."
+          ],
+          "title_candidate": "Polarnet: An improved grid representation for online lidar point clouds semantic segmentation. arXiv preprint arXiv:2003.14032",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhang, Y., Zhou, Z., David, P., Yue, X., Xi, Z., Foroosh, H.",
+          "author_candidates": [
+            "Zhang, Y.",
+            "Zhou, Z.",
+            "David, P.",
+            "Yue, X.",
+            "Xi, Z.",
+            "Foroosh, H."
+          ],
+          "title_candidate": "Polarnet: An improved grid representation for online lidar point clouds semantic segmentation. arXiv preprint arXiv:2003.14032 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[37] Zhou, H., Zhu, X., Song, X., Ma, Y., Wang, Z., Li, H., Lin, D.: Cylinder3d: An effective 3d framework for driving-scene lidar semantic segmentation. arXiv preprint arXiv:2008.01550 (2020)",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhou, H., Zhu, X., Song, X., Ma, Y., Wang, Z., Li, H., Lin, D.: Cylinder3d: An effective 3d framework for driving-scene lidar semantic segmentation",
+          "author_candidates": [
+            "Zhou, H.",
+            "Zhu, X.",
+            "Song, X.",
+            "Ma, Y.",
+            "Wang, Z.",
+            "Li, H.",
+            "Lin, D."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2008.01550 (2020)",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Zhou, H., Zhu, X., Song, X., Ma, Y., Wang, Z., Li, H., Lin, D.",
+          "author_candidates": [
+            "Zhou, H.",
+            "Zhu, X.",
+            "Song, X.",
+            "Ma, Y.",
+            "Wang, Z.",
+            "Li, H.",
+            "Lin, D."
+          ],
+          "title_candidate": "Cylinder3d: An effective 3d framework for driving-scene lidar semantic segmentation. arXiv preprint arXiv:2008.01550",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhou, H., Zhu, X., Song, X., Ma, Y., Wang, Z., Li, H., Lin, D.",
+          "author_candidates": [
+            "Zhou, H.",
+            "Zhu, X.",
+            "Song, X.",
+            "Ma, Y.",
+            "Wang, Z.",
+            "Li, H.",
+            "Lin, D."
+          ],
+          "title_candidate": "Cylinder3d: An effective 3d framework for driving-scene lidar semantic segmentation. arXiv preprint arXiv:2008.01550",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhou, H., Zhu, X., Song, X., Ma, Y., Wang, Z., Li, H., Lin, D.",
+          "author_candidates": [
+            "Zhou, H.",
+            "Zhu, X.",
+            "Song, X.",
+            "Ma, Y.",
+            "Wang, Z.",
+            "Li, H.",
+            "Lin, D."
+          ],
+          "title_candidate": "Cylinder3d: An effective 3d framework for driving-scene lidar semantic segmentation. arXiv preprint arXiv:2008.01550 (2020)",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[38] Zhou, Y., Sun, P., Zhang, Y., Anguelov, D., Gao, J., Ouyang, T., Guo, J., Ngiam, J., Vasudevan, V.: End-to-end multi-view fusion for 3d object detection in lidar point clouds. arXiv preprint arXiv:1910.06528 (2019)",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhou, Y., Sun, P., Zhang, Y., Anguelov, D., Gao, J., Ouyang, T., Guo, J., Ngiam, J., Vasudevan, V.: End-to-end multi-view fusion for 3d object detection in lidar point clouds",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Sun, P.",
+            "Zhang, Y.",
+            "Anguelov, D.",
+            "Gao, J.",
+            "Ouyang, T.",
+            "Guo, J.",
+            "Ngiam, J.",
+            "Vasudevan, V."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:1910.06528 (2019)",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Zhou, Y., Sun, P., Zhang, Y., Anguelov, D., Gao, J., Ouyang, T., Guo, J., Ngiam, J., Vasudevan, V.",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Sun, P.",
+            "Zhang, Y.",
+            "Anguelov, D.",
+            "Gao, J.",
+            "Ouyang, T.",
+            "Guo, J.",
+            "Ngiam, J.",
+            "Vasudevan, V."
+          ],
+          "title_candidate": "End-to-end multi-view fusion for 3d object detection in lidar point clouds. arXiv preprint arXiv:1910.06528",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhou, Y., Sun, P., Zhang, Y., Anguelov, D., Gao, J., Ouyang, T., Guo, J., Ngiam, J., Vasudevan, V.",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Sun, P.",
+            "Zhang, Y.",
+            "Anguelov, D.",
+            "Gao, J.",
+            "Ouyang, T.",
+            "Guo, J.",
+            "Ngiam, J.",
+            "Vasudevan, V."
+          ],
+          "title_candidate": "End-to-end multi-view fusion for 3d object detection in lidar point clouds. arXiv preprint arXiv:1910.06528",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhou, Y., Sun, P., Zhang, Y., Anguelov, D., Gao, J., Ouyang, T., Guo, J., Ngiam, J., Vasudevan, V.",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Sun, P.",
+            "Zhang, Y.",
+            "Anguelov, D.",
+            "Gao, J.",
+            "Ouyang, T.",
+            "Guo, J.",
+            "Ngiam, J.",
+            "Vasudevan, V."
+          ],
+          "title_candidate": "End-to-end multi-view fusion for 3d object detection in lidar point clouds. arXiv preprint arXiv:1910.06528 (2019)",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[39] Zhou, Y., Tuzel, O.: Voxelnet: End-to-end learning for point cloud based 3d object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4490–4499 (2018)",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhou, Y., Tuzel, O.",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Tuzel, O."
+          ],
+          "title_candidate": "Voxelnet: End-to-end learning for point cloud based 3d object detection",
+          "container_candidate": "In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4490–4499 (2018)",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Zhou, Y., Tuzel, O.",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Tuzel, O."
+          ],
+          "title_candidate": "Voxelnet: End-to-end learning for point cloud based 3d object detection",
+          "container_candidate": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4490–4499",
+          "year_candidate": 2018,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhou, Y., Tuzel, O.: Voxelnet: End-to-end learning for point cloud based 3d object detection",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Tuzel, O."
+          ],
+          "title_candidate": "In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "pp. 4490–4499",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhou, Y., Tuzel, O.",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Tuzel, O."
+          ],
+          "title_candidate": "Voxelnet: End-to-end learning for point cloud based 3d object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4490–4499",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhou, Y., Tuzel, O.",
+          "author_candidates": [
+            "Zhou, Y.",
+            "Tuzel, O."
+          ],
+          "title_candidate": "Voxelnet: End-to-end learning for point cloud based 3d object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4490–4499 (2018)",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[40] Zhou, Z., Zhang, Y., Foroosh, H.: Panoptic-polarnet: Proposal-free lidar point cloud panoptic segmentation. arXiv preprint arXiv:2103.14962 (2021)",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhou, Z., Zhang, Y., Foroosh, H.: Panoptic-polarnet: Proposal-free lidar point cloud panoptic segmentation",
+          "author_candidates": [
+            "Zhou, Z.",
+            "Zhang, Y.",
+            "Foroosh, H."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2103.14962 (2021)",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 39,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Zhou, Z., Zhang, Y., Foroosh, H.",
+          "author_candidates": [
+            "Zhou, Z.",
+            "Zhang, Y.",
+            "Foroosh, H."
+          ],
+          "title_candidate": "Panoptic-polarnet: Proposal-free lidar point cloud panoptic segmentation. arXiv preprint arXiv:2103.14962",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 39,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhou, Z., Zhang, Y., Foroosh, H.",
+          "author_candidates": [
+            "Zhou, Z.",
+            "Zhang, Y.",
+            "Foroosh, H."
+          ],
+          "title_candidate": "Panoptic-polarnet: Proposal-free lidar point cloud panoptic segmentation. arXiv preprint arXiv:2103.14962",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhou, Z., Zhang, Y., Foroosh, H.",
+          "author_candidates": [
+            "Zhou, Z.",
+            "Zhang, Y.",
+            "Foroosh, H."
+          ],
+          "title_candidate": "Panoptic-polarnet: Proposal-free lidar point cloud panoptic segmentation. arXiv preprint arXiv:2103.14962 (2021)",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[41] Zhu, B., Jiang, Z., Zhou, X., Li, Z., Yu, G.: Class-balanced grouping and sampling for point cloud 3d object detection. arXiv preprint arXiv:1908.09492 (2019)",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhu, B., Jiang, Z., Zhou, X., Li, Z., Yu, G.: Class-balanced grouping and sampling for point cloud 3d object detection",
+          "author_candidates": [
+            "Zhu, B.",
+            "Jiang, Z.",
+            "Zhou, X.",
+            "Li, Z.",
+            "Yu, G."
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:1908.09492 (2019)",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Zhu, B., Jiang, Z., Zhou, X., Li, Z., Yu, G.",
+          "author_candidates": [
+            "Zhu, B.",
+            "Jiang, Z.",
+            "Zhou, X.",
+            "Li, Z.",
+            "Yu, G."
+          ],
+          "title_candidate": "Class-balanced grouping and sampling for point cloud 3d object detection. arXiv preprint arXiv:1908.09492",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhu, B., Jiang, Z., Zhou, X., Li, Z., Yu, G.",
+          "author_candidates": [
+            "Zhu, B.",
+            "Jiang, Z.",
+            "Zhou, X.",
+            "Li, Z.",
+            "Yu, G."
+          ],
+          "title_candidate": "Class-balanced grouping and sampling for point cloud 3d object detection. arXiv preprint arXiv:1908.09492",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhu, B., Jiang, Z., Zhou, X., Li, Z., Yu, G.",
+          "author_candidates": [
+            "Zhu, B.",
+            "Jiang, Z.",
+            "Zhou, X.",
+            "Li, Z.",
+            "Yu, G."
+          ],
+          "title_candidate": "Class-balanced grouping and sampling for point cloud 3d object detection. arXiv preprint arXiv:1908.09492 (2019)",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 40,
+      "metadata": {
+        "entry_count": 11
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=39",
+    "reference_pattern_ambiguous: entry_index=40"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

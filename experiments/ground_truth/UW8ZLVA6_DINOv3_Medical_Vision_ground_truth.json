@@ -1,0 +1,792 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/UW8ZLVA6_Does DINOv3 Set a New Medical Vision Standard_ Benchmarking 2D and 3D Classifica.txt",
+  "entry_style": "numeric",
+  "notes": "IEEE 引号格式 + 行末引用页码。60 entries。",
+  "items": [
+    {
+      "author": [
+        "OpenAI"
+      ],
+      "title": "ChatGPT",
+      "year": 2022,
+      "container": "URL",
+      "raw": "[1] OpenAI, \"Chatgpt,\" 2022.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Jared Kaplan et al."
+      ],
+      "title": "Scaling laws for neural language models",
+      "year": 2020,
+      "container": "arXiv:2001.08361",
+      "raw": "[2] J. Kaplan... \"Scaling laws...\" arXiv preprint arXiv:2001.08361, 2020.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Ibrahim M. Alabdulmohsin",
+        "Behnam Neyshabur",
+        "Xiaohua Zhai"
+      ],
+      "title": "Revisiting neural scaling laws in language and vision",
+      "year": 2022,
+      "container": "NeurIPS",
+      "raw": "[3] I. M. Alabdulmohsin... \"Revisiting neural scaling laws...\" NeurIPS, vol. 35, 2022.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Zhenda Xie",
+        "Zheng Zhang",
+        "Yue Cao",
+        "Yutong Lin",
+        "Yixuan Wei",
+        "Qi Dai",
+        "Han Hu"
+      ],
+      "title": "On data scaling in masked image modeling",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "[4] Z. Xie... \"On data scaling...\" in CVPR, 2023.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Alaaeldin El-Nouby et al."
+      ],
+      "title": "Scalable pre-training of large autoregressive image models",
+      "year": 2024,
+      "container": "arXiv:2401.08541",
+      "raw": "[5] A. El-Nouby... \"Scalable pre-training...\" arXiv preprint arXiv:2401.08541, 2024.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Jiawen Pan et al."
+      ],
+      "title": "Beyond benchmarks: Red-teaming agents for medical LMs",
+      "year": 2025,
+      "container": "arXiv:2508.00923",
+      "raw": "[6] J. Pan... \"Beyond benchmarks...\" arXiv preprint arXiv:2508.00923, 2025.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Jiawen Pan et al."
+      ],
+      "title": "MedVLM-R1",
+      "year": 2025,
+      "container": "arXiv:2502.19634",
+      "raw": "[7] J. Pan... \"Medvlm-r1...\" arXiv preprint arXiv:2502.19634, 2025.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Qiyang Fan et al."
+      ],
+      "title": "Scaling language-free visual representation learning",
+      "year": 2025,
+      "container": "arXiv:2504.01017",
+      "raw": "[8] D. Fan... \"Scaling language-free visual representation learning,\" 2025.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Maxime Oquab et al."
+      ],
+      "title": "DINOv2: Learning robust visual features without supervision",
+      "year": 2023,
+      "container": "arXiv:2304.07193",
+      "raw": "[9] M. Oquab... \"Dinov2...\" arXiv preprint arXiv:2304.07193, 2023.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Mathilde Caron",
+        "Hugo Touvron",
+        "Ishan Misra",
+        "Hervé Jégou",
+        "Julien Mairal",
+        "Piotr Bojanowski",
+        "Armand Joulin"
+      ],
+      "title": "Emerging properties in self-supervised vision transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[10] M. Caron... \"Emerging properties...\" in ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Oriane Siméoni et al."
+      ],
+      "title": "DINOv3",
+      "year": 2025,
+      "container": "arXiv:2508.10104",
+      "raw": "[11] O. Siméoni... \"Dinov3,\" arXiv preprint arXiv:2508.10104, 2025.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Sicheng Yang",
+        "Hongqiu Wang",
+        "Zhaohu Xing",
+        "Sixiang Chen",
+        "Lei Zhu"
+      ],
+      "title": "SegDINO",
+      "year": 2025,
+      "container": "arXiv:2509.00833",
+      "raw": "[12] S. Yang... \"Segdino...\" arXiv preprint arXiv:2509.00833, 2025.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Yuheng Li",
+        "Yizhou Wu",
+        "Yenho Lai",
+        "Mingzhe Hu",
+        "Xiaofeng Yang"
+      ],
+      "title": "MedDINOv3",
+      "year": 2025,
+      "container": "arXiv:2509.02379",
+      "raw": "[13] Y. Li... \"Meddinov3...\" arXiv preprint arXiv:2509.02379, 2025.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Xiaosong Wang et al."
+      ],
+      "title": "ChestX-ray8",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[14] X. Wang... \"Chestx-ray8...\" in CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Ming Y. Lu et al."
+      ],
+      "title": "A visual-language foundation model for computational pathology",
+      "year": 2024,
+      "container": "Nature Medicine",
+      "raw": "[15] M. Y. Lu... \"A visual-language foundation model...\" Nature medicine, 2024.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Ibrahim Ethem Hamamci et al."
+      ],
+      "title": "Developing generalist foundation models for 3D CT",
+      "year": 2024,
+      "container": "arXiv:2403.17834",
+      "raw": "[16] I. E. Hamamci... \"Developing generalist foundation models...\" arXiv:2403.17834, 2024.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Sheng Zhang et al."
+      ],
+      "title": "Large-scale domain-specific pretraining for biomedical VLP",
+      "year": 2023,
+      "container": "arXiv:2303.00915",
+      "raw": "[17] S. Zhang... \"Largescale domain-specific pretraining...\" arXiv:2303.00915, 2023.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Anouk Stein et al."
+      ],
+      "title": "RSNA pneumonia detection challenge",
+      "year": 2018,
+      "container": "Kaggle",
+      "raw": "[18] A. Stein... \"RSNA pneumonia detection challenge,\" 2018.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Fuying Wang",
+        "Yuyin Zhou",
+        "Shanshan Wang",
+        "Varut Vardhanabhuti",
+        "Lequan Yu"
+      ],
+      "title": "Multi-granularity cross-modal alignment",
+      "year": 2022,
+      "container": "NeurIPS",
+      "raw": "[19] F. Wang... \"Multi-granularity cross-modal alignment...\" NeurIPS, 2022.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Babak Ehteshami Bejnordi et al."
+      ],
+      "title": "Diagnostic assessment of deep learning for lymph node metastases",
+      "year": 2017,
+      "container": "JAMA",
+      "raw": "[20] B. E. Bejnordi... \"Diagnostic assessment...\" Jama, 2017.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Péter Bándi et al."
+      ],
+      "title": "CAMELYON17 challenge",
+      "year": 2018,
+      "container": "IEEE TMI",
+      "raw": "[21] P. Bandi... \"CAMELYON17 challenge,\" IEEE TMI, 2018.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Liangrui Cai",
+        "Sheng Huang",
+        "Yizhe Zhang",
+        "Jingxuan Lu",
+        "Yudong Zhang"
+      ],
+      "title": "AttriMIL",
+      "year": 2025,
+      "container": "Medical Image Analysis",
+      "raw": "[22] L. Cai... \"Attrimil...\" Medical Image Analysis, 2025.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Feng Xu",
+        "Chuang Zhu",
+        "Wenqi Tang",
+        "Ying Wang",
+        "Yu Zhang",
+        "Jia Li",
+        "Hongchuan Jiang",
+        "Zhongyue Shi",
+        "Jun Liu",
+        "Mulan Jin"
+      ],
+      "title": "Predicting axillary lymph node metastasis in early breast cancer",
+      "year": 2021,
+      "container": "Frontiers in Oncology",
+      "raw": "[23] F. Xu... \"Predicting axillary lymph node metastasis...\" Frontiers in oncology, 2021.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Ming Y. Lu",
+        "Drew F. K. Williamson",
+        "Tiffany Y. Chen",
+        "Richard J. Chen",
+        "Matteo Barbieri",
+        "Faisal Mahmood"
+      ],
+      "title": "Data-efficient and weakly supervised computational pathology on WSI",
+      "year": 2021,
+      "container": "Nature BME",
+      "raw": "[24] M. Y. Lu... \"Data-efficient and weakly supervised...\" Nature BME, 2021.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Pia H. Smedsrud et al."
+      ],
+      "title": "Kvasir-Capsule",
+      "year": 2021,
+      "container": "Scientific Data",
+      "raw": "[25] P. H. Smedsrud... \"Kvasir-Capsule...\" Scientific Data, 2021.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Zixuan Wang",
+        "Bo Lu",
+        "Yonghao Long",
+        "Fangxun Zhong",
+        "Tak-Hong Cheung",
+        "Qi Dou",
+        "Yunhui Liu"
+      ],
+      "title": "AutoLaparo",
+      "year": 2022,
+      "container": "CoRR:2208.02049",
+      "raw": "[26] Z. Wang... \"Autolaparo...\" CoRR, 2022.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Sarah Leclerc et al."
+      ],
+      "title": "Deep learning for segmentation in 2D echocardiography",
+      "year": 2019,
+      "container": "IEEE TMI",
+      "raw": "[27] S. Leclerc... \"Deep learning for segmentation...\" IEEE TMI, 2019.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Max Allan et al."
+      ],
+      "title": "2018 robotic scene segmentation challenge",
+      "year": 2020,
+      "container": "CoRR:2001.11190",
+      "raw": "[28] M. Allan... \"2018 robotic scene segmentation challenge,\" CoRR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Cristina González",
+        "Laura Bravo-Sánchez",
+        "Pablo Arbeláez"
+      ],
+      "title": "ISINet",
+      "year": 2020,
+      "container": "MICCAI",
+      "raw": "[29] C. González... \"Isinet...\" in MICCAI, 2020.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Sharib Ali et al."
+      ],
+      "title": "EDD2020",
+      "year": 2020,
+      "container": "URL",
+      "raw": "[30] S. Ali... \"Endoscopy disease detection and segmentation...\" 2020.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Gustav Müller-Franzes",
+        "Firas Khader",
+        "Robert Siepmann",
+        "Tianyu Han",
+        "Jakob N. Kather",
+        "Sven Nebelung",
+        "Daniel Truhn"
+      ],
+      "title": "Medical slice transformer with DINOv2",
+      "year": 2025,
+      "container": "Scientific Reports",
+      "raw": "[31] G. Müller-Franzes... \"Medical slice transformer...\" Scientific Reports, 2025.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Michela Antonelli",
+        "Annika Reinke",
+        "Spyridon Bakas",
+        "Keyvan Farahani",
+        "Annette Kopp-Schneider",
+        "Bennett A. Landman",
+        "Geert Litjens",
+        "Bjoern Menze",
+        "Olaf Ronneberger",
+        "Ronald M. Summers"
+      ],
+      "title": "The medical segmentation decathlon",
+      "year": 2022,
+      "container": "Nature Communications",
+      "raw": "[32] M. Antonelli... \"The medical segmentation decathlon,\" Nature communications, 2022.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Linshan Wu",
+        "Jiawei Zhuang",
+        "Hao Chen"
+      ],
+      "title": "VoCo: Volume contrastive learning for 3D medical image analysis",
+      "year": 2024,
+      "container": "CVPR",
+      "raw": "[33] L. Wu... \"Voco...\" in CVPR, 2024.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "CREMI"
+      ],
+      "title": "MICCAI challenge on circuit reconstruction from EM images",
+      "year": 2016,
+      "container": "URL",
+      "raw": "[34] CREMI, \"Miccai challenge on circuit reconstruction...\" 2016.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Narayanan Kasthuri et al."
+      ],
+      "title": "Saturated reconstruction of a volume of neocortex",
+      "year": 2015,
+      "container": "Cell",
+      "raw": "[35] N. Kasthuri... \"Saturated reconstruction of a volume of neocortex,\" Cell, 2015.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Sergios Gatidis",
+        "Thomas Küstner"
+      ],
+      "title": "A whole-body FDG-PET/CT dataset with manually annotated tumor lesions",
+      "year": 2022,
+      "container": "TCIA",
+      "raw": "[36] K. T. Gatidis S, \"A whole-body fdg-pet/ct dataset...\" TCIA, 2022.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Valentin Oreiller et al."
+      ],
+      "title": "Head and neck tumor segmentation in PET/CT: HECKTOR challenge",
+      "year": 2022,
+      "container": "Medical Image Analysis",
+      "raw": "[37] V. Oreiller... \"HECKTOR challenge,\" Medical image analysis, 2022.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Olivier Bernard et al."
+      ],
+      "title": "Deep learning techniques for automatic MRI cardiac multi-structures segmentation",
+      "year": 2018,
+      "container": "IEEE TMI",
+      "raw": "[38] O. Bernard... \"Deep learning techniques for automatic MRI...\" IEEE TMI, 2018.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Maximilian Ilse",
+        "Jakub Tomczak",
+        "Max Welling"
+      ],
+      "title": "Attention-based deep multiple instance learning",
+      "year": 2018,
+      "container": "ICML",
+      "raw": "[39] M. Ilse... \"Attention-based deep multiple instance learning,\" in ICML, 2018.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Jan Funke et al."
+      ],
+      "title": "Large scale image segmentation with structured loss for connectome reconstruction",
+      "year": 2018,
+      "container": "TPAMI",
+      "raw": "[40] J. Funke... \"Large scale image segmentation...\" TPAMI, 2018.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Xinpeng Song",
+        "Xuanang Xu",
+        "Pingkun Yan"
+      ],
+      "title": "DINO-Reg: Training-free multi-modal deformable medical image registration",
+      "year": 2024,
+      "container": "MICCAI",
+      "raw": "[41] X. Song... \"Dino-reg...\" in MICCAI, 2024.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Juan Nunez-Iglesias",
+        "Ryan Kennedy",
+        "Toufiq Parag",
+        "Jianbo Shi",
+        "Dmitri B. Chklovskii"
+      ],
+      "title": "Machine learning of hierarchical clustering for 2D/3D image segmentation",
+      "year": 2013,
+      "container": "PLoS ONE",
+      "raw": "[42] J. Nunez-Iglesias... \"Machine learning of hierarchical clustering...\" PloS one, 2013.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Ignacio Arganda-Carreras et al."
+      ],
+      "title": "Crowdsourcing the creation of image segmentation algorithms for connectomics",
+      "year": 2015,
+      "container": "Frontiers in Neuroanatomy",
+      "raw": "[43] I. Arganda-Carreras... \"Crowdsourcing...\" Frontiers in neuroanatomy, 2015.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Richard J. Chen et al."
+      ],
+      "title": "Towards a general-purpose foundation model for computational pathology",
+      "year": 2024,
+      "container": "Nature Medicine",
+      "raw": "[44] R. J. Chen... \"Towards a general-purpose foundation model for computational pathology,\" Nature medicine, 2024.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[45] K. He... \"Deep residual learning for image recognition,\" in CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "John Joseph",
+        "Sudhish N. George",
+        "Kiran Raja"
+      ],
+      "title": "VAPCaps: Variance-based attention network for pathology detection in VCE",
+      "year": 2025,
+      "container": "Neurocomputing",
+      "raw": "[46] J. Joseph... \"Vapcaps...\" Neurocomputing, 2025.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Yan Li",
+        "Guodong Zhao",
+        "Chengli Li",
+        "Wei Shi",
+        "Zhiqiang Jiang",
+        "Zhen Zhang",
+        "Guodong Feng"
+      ],
+      "title": "STSANet: Spatial temporal-self-aggregation network for surgical phase recognition",
+      "year": 2026,
+      "container": "Information Fusion",
+      "raw": "[47] Y. Li... \"Stsanet...\" Information Fusion, 2026.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "Anand Srivastava",
+        "Sayan Chanda",
+        "Debesh Jha",
+        "Umapada Pal",
+        "Sharib Ali"
+      ],
+      "title": "GMSRF-Net: Global multi-scale residual fusion network for polyp segmentation",
+      "year": 2022,
+      "container": "ICPR",
+      "raw": "[48] A. Srivastava... \"Gmsrf-net...\" in ICPR, 2022.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Asher Trockman",
+        "J. Zico Kolter"
+      ],
+      "title": "Patches are all you need?",
+      "year": 2022,
+      "container": "TMLR",
+      "raw": "[49] A. Trockman and J. Kolter, \"Patches are all you need?\" TMLR, 2022.",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "Stéphane d'Ascoli",
+        "Hugo Touvron",
+        "Matthew Leavitt",
+        "Ari Morcos",
+        "Giulio Biroli",
+        "Levent Sagun"
+      ],
+      "title": "ConViT",
+      "year": 2022,
+      "container": "JSTAT",
+      "raw": "[50] S. d'Ascoli... \"Convit...\" JSTAT, 2022.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Xiaoyi Dong et al."
+      ],
+      "title": "CSWin Transformer",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[51] X. Dong... \"Cswin transformer...\" in CVPR, 2022.",
+      "confidence": 0.95,
+      "entry_index": 50
+    },
+    {
+      "author": [
+        "Anand Srivastava",
+        "Nikhil Tomar",
+        "Debesh Jha"
+      ],
+      "title": "VCE classification using focal modulation guided CNN",
+      "year": 2022,
+      "container": "CBMS",
+      "raw": "[52] A. Srivastava... \"Video capsule endoscopy classification...\" in CBMS, 2022.",
+      "confidence": 0.95,
+      "entry_index": 51
+    },
+    {
+      "author": [
+        "Anuja Vats",
+        "Marius Pedersen",
+        "Ahmed Mohammed",
+        "Øistein Hovde"
+      ],
+      "title": "Multi-task learning for pathology classification in capsule endoscopy",
+      "year": 2021,
+      "container": "MICCAI",
+      "raw": "[53] A. Vats... \"Learning more for free...\" in MICCAI, 2021.",
+      "confidence": 0.95,
+      "entry_index": 52
+    },
+    {
+      "author": [
+        "Omar Yet",
+        "Taha Rassem",
+        "Md. Mostafijur Rahman",
+        "Md. Mahbubur Rahman"
+      ],
+      "title": "API-Net for fine-grained image classification",
+      "year": 2021,
+      "container": "ETCCE",
+      "raw": "[54] O. Yet... \"Improved attentive pairwise interaction...\" in ETCCE, 2021.",
+      "confidence": 0.95,
+      "entry_index": 53
+    },
+    {
+      "author": [
+        "Yueming Jin",
+        "Qi Dou",
+        "Hao Chen",
+        "Lequan Yu",
+        "Jing Qin",
+        "Chi-Wing Fu",
+        "Pheng-Ann Heng"
+      ],
+      "title": "SV-RCNet: Surgical workflow recognition using RCN",
+      "year": 2018,
+      "container": "IEEE TMI",
+      "raw": "[55] Y. Jin... \"Sv-rcnet...\" IEEE TMI, 2018.",
+      "confidence": 0.95,
+      "entry_index": 54
+    },
+    {
+      "author": [
+        "Yueming Jin",
+        "Yonghao Long",
+        "Cheng Chen",
+        "Zixu Zhao",
+        "Qi Dou",
+        "Pheng-Ann Heng"
+      ],
+      "title": "Temporal memory relation network for surgical workflow recognition",
+      "year": 2021,
+      "container": "IEEE TMI",
+      "raw": "[56] Y. Jin... \"Temporal memory relation network...\" IEEE TMI, 2021.",
+      "confidence": 0.95,
+      "entry_index": 55
+    },
+    {
+      "author": [
+        "Xiaojie Gao",
+        "Yueming Jin",
+        "Yonghao Long",
+        "Qi Dou",
+        "Pheng-Ann Heng"
+      ],
+      "title": "Trans-SVNet: Surgical phase recognition via hybrid embedding aggregation transformer",
+      "year": 2021,
+      "container": "MICCAI",
+      "raw": "[57] X. Gao... \"Trans-svnet...\" in MICCAI, 2021.",
+      "confidence": 0.95,
+      "entry_index": 56
+    },
+    {
+      "author": [
+        "Yang Liu",
+        "Maxence Boels",
+        "Luis Garcia-Peraza-Herrera",
+        "Tom Vercauteren",
+        "Prokar Dasgupta",
+        "Alejandro Granados",
+        "Sébastien Ourselin"
+      ],
+      "title": "LoViT: Long video transformer for surgical phase recognition",
+      "year": 2025,
+      "container": "Medical Image Analysis",
+      "raw": "[58] Y. Liu... \"Lovit...\" Medical Image Analysis, 2025.",
+      "confidence": 0.95,
+      "entry_index": 57
+    },
+    {
+      "author": [
+        "Jiaqi Yu",
+        "Anqi Wang",
+        "Wei Dong",
+        "Mengya Xu",
+        "Mobarakol Islam",
+        "Jian Wang",
+        "Lin Bai",
+        "Hongliang Ren"
+      ],
+      "title": "SAM 2 in robotic surgery",
+      "year": 2024,
+      "container": "arXiv:2408.04593",
+      "raw": "[59] J. Yu... \"Sam 2 in robotic surgery...\" 2024.",
+      "confidence": 0.95,
+      "entry_index": 58
+    }
+  ]
+}

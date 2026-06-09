@@ -1,0 +1,837 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/MERSIDHN_D-FINE_ Redefine Regression Task in DETRs as Fine-grained Distribution Refinemen.txt",
+  "entry_style": "author-year",
+  "notes": "Author-year 段落格式，无 [n] 前缀。[105]-[154]为附录正文。52 entries (refs only).",
+  "items": [
+    {
+      "author": [
+        "Elahe Arani",
+        "Shruthi Gowda",
+        "Ratnajit Mukherjee",
+        "Omar Magdy",
+        "Senthilkumar Kathiresan",
+        "Bahram Zonooz"
+      ],
+      "title": "A comprehensive study of real-time object detection networks across multiple domains: A survey",
+      "year": 2022,
+      "container": "arXiv:2208.10895",
+      "raw": "Elahe Arani... A comprehensive study... arXiv preprint arXiv:2208.10895, 2022.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Nicolas Carion",
+        "Francisco Massa",
+        "Gabriel Synnaeve",
+        "Nicolas Usunier",
+        "Alexander Kirillov",
+        "Sergey Zagoruyko"
+      ],
+      "title": "End-to-end object detection with transformers",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "Nicolas Carion... End-to-end object detection with transformers. In ECCV, pp. 213–229. Springer, 2020.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Jiahao Chang",
+        "Shuo Wang",
+        "Hai-Ming Xu",
+        "Zehui Chen",
+        "Chenhongyi Yang",
+        "Feng Zhao"
+      ],
+      "title": "DETRDistill: A universal knowledge distillation framework for DETR-families",
+      "year": 2023,
+      "container": "ICCV",
+      "raw": "Jiahao Chang... Detrdistill... In ICCV, pp. 6898–6908, 2023.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Guobin Chen",
+        "Wongun Choi",
+        "Xiang Yu",
+        "Tony Han",
+        "Manmohan Chandraker"
+      ],
+      "title": "Learning efficient object detection models with knowledge distillation",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "Guobin Chen... Learning efficient object detection models with knowledge distillation. In NeurIPS, 2017.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Qiang Chen",
+        "Xiaokang Chen",
+        "Gang Zeng",
+        "Jingdong Wang"
+      ],
+      "title": "Group DETR: Fast training convergence with decoupled one-to-many label assignment",
+      "year": 2022,
+      "container": "arXiv:2207.13085",
+      "raw": "Qiang Chen... Group detr... arXiv preprint arXiv:2207.13085, 2022a.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Qiang Chen",
+        "Jian Wang",
+        "Chuchu Han",
+        "Shan Zhang",
+        "Zexian Li",
+        "Xiaokang Chen",
+        "Jiahui Chen",
+        "Xiaodi Wang",
+        "Shuming Han",
+        "Gang Zhang",
+        "Haocheng Feng",
+        "Kun Yao",
+        "Junyu Han",
+        "Errui Ding",
+        "Jingdong Wang"
+      ],
+      "title": "Group DETR v2: Strong object detector with encoder-decoder pretraining",
+      "year": 2022,
+      "container": "arXiv:2211.03594",
+      "raw": "Qiang Chen... Group detr v2... 2022b.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Qiang Chen",
+        "Jian Wang",
+        "Chuchu Han",
+        "Shan Zhang",
+        "Zexian Li",
+        "Xiaokang Chen",
+        "Jiahui Chen",
+        "Xiaodi Wang",
+        "Shuming Han",
+        "Gang Zhang"
+      ],
+      "title": "Group DETR v2: Strong object detector with encoder-decoder pretraining",
+      "year": 2022,
+      "container": "arXiv:2211.03594",
+      "raw": "Qiang Chen... Group detr v2... arXiv preprint arXiv:2211.03594, 2022c.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Qiang Chen",
+        "Xiangbo Su",
+        "Xinyu Zhang",
+        "Jian Wang",
+        "Jiahui Chen",
+        "Yunpeng Shen",
+        "Chuchu Han",
+        "Ziliang Chen",
+        "Weixiang Xu",
+        "Fanrong Li"
+      ],
+      "title": "LW-DETR: A transformer replacement to YOLO for real-time detection",
+      "year": 2024,
+      "container": "arXiv:2406.03459",
+      "raw": "Qiang Chen... Lw-detr... arXiv preprint arXiv:2406.03459, 2024.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Jiwoong Choi",
+        "Dayoung Chun",
+        "Hyun Kim",
+        "Hyuk-Jae Lee"
+      ],
+      "title": "Gaussian YOLOv3: An accurate and fast object detector using localization uncertainty for autonomous driving",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Jiwoong Choi... Gaussian YOLOv3... In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Cheng Cui",
+        "Ruoyu Guo",
+        "Yuning Du",
+        "Dongliang He",
+        "Fu Li",
+        "Zewu Wu",
+        "Qiwen Liu",
+        "Shilei Wen",
+        "Jizhou Huang",
+        "Xiaoguang Hu",
+        "Dianhai Yu",
+        "Errui Ding",
+        "Yanjun Ma"
+      ],
+      "title": "Beyond self-supervision: A simple yet effective network distillation alternative to improve backbones",
+      "year": 2021,
+      "container": "arXiv",
+      "raw": "Cheng Cui... Beyond self-supervision... 2021.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Xing Dai",
+        "Zeren Jiang",
+        "Zhao Wu",
+        "Yiping Bao",
+        "Zhicheng Wang",
+        "Si Liu",
+        "Erjin Zhou"
+      ],
+      "title": "General instance distillation for object detection",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "Xing Dai... General instance distillation for object detection. In CVPR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Zheng Ge",
+        "Songtao Liu",
+        "Feng Wang",
+        "Zeming Li",
+        "Jian Sun"
+      ],
+      "title": "YOLOX: Exceeding YOLO series in 2021",
+      "year": 2021,
+      "container": "arXiv:2107.08430",
+      "raw": "Zheng Ge... Yolox... arXiv preprint arXiv:2107.08430, 2021.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Ross Girshick"
+      ],
+      "title": "Fast R-CNN",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "Ross Girshick. Fast R-CNN. In ICCV, 2015.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Glenn Jocher"
+      ],
+      "title": "YOLOv8",
+      "year": 2023,
+      "container": "https://docs.ultralytics.com/models/yolov8/",
+      "raw": "Jocher Glenn. Yolov8. https://docs.ultralytics.com/models/yolov8/, 2023.",
+      "confidence": 0.75,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Glenn Jocher"
+      ],
+      "title": "YOLO11",
+      "year": 2024,
+      "container": "https://docs.ultralytics.com/models/yolo11/",
+      "raw": "Jocher Glenn. Yolo11. https://docs.ultralytics.com/models/yolo11/, 2024.",
+      "confidence": 0.75,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Jianyuan Guo",
+        "Kai Han",
+        "Yunhe Wang",
+        "Han Wu",
+        "Xinghao Chen",
+        "Chunjing Xu",
+        "Chang Xu"
+      ],
+      "title": "Distilling object detectors via decoupled features",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "Jianyuan Guo... Distilling object detectors via decoupled features. In CVPR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Geoffrey Hinton",
+        "Oriol Vinyals",
+        "Jeff Dean"
+      ],
+      "title": "Distilling the knowledge in a neural network",
+      "year": 2015,
+      "container": "arXiv:1503.02531",
+      "raw": "Geoffrey Hinton... Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531, 2015.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Feng Li",
+        "Hao Zhang",
+        "Shilong Liu",
+        "Jian Guo",
+        "Lionel M. Ni",
+        "Lei Zhang"
+      ],
+      "title": "DN-DETR: Accelerate DETR training by introducing query denoising",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Feng Li... Dn-detr... In CVPR, pp. 13619–13627, 2022.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Quanquan Li",
+        "Shengying Jin",
+        "Junjie Yan"
+      ],
+      "title": "Mimicking very efficient network for object detection",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "Quanquan Li... Mimicking very efficient network for object detection. In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Xiang Li",
+        "Wenhai Wang",
+        "Lijun Wu",
+        "Shuo Chen",
+        "Xiaolin Hu",
+        "Jun Li",
+        "Jinhui Tang",
+        "Jian Yang"
+      ],
+      "title": "Generalized Focal Loss: Learning qualified and distributed bounding boxes for dense object detection",
+      "year": 2020,
+      "container": "NeurIPS",
+      "raw": "Xiang Li... Generalized Focal Loss... In NeurIPS, 2020.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Xiang Li",
+        "Wenhai Wang",
+        "Xiaolin Hu",
+        "Jun Li",
+        "Jinhui Tang",
+        "Jian Yang"
+      ],
+      "title": "Generalized Focal Loss v2: Learning reliable localization quality estimation for dense object detection",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "Xiang Li... Generalized focal loss v2... In CVPR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "Tsung-Yi Lin... Microsoft coco... In ECCV, 2014a.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "Tsung-Yi Lin... Microsoft coco... In ECCV, pp. 740–755. Springer, 2014b.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Shilong Liu",
+        "Feng Li",
+        "Hao Zhang",
+        "Xiao Yang",
+        "Xianbiao Qi",
+        "Hang Su",
+        "Jun Zhu",
+        "Lei Zhang"
+      ],
+      "title": "DAB-DETR: Dynamic anchor boxes are better queries for DETR",
+      "year": 2021,
+      "container": "ICLR",
+      "raw": "Shilong Liu... Dab-detr... In ICLR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Wei Liu",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Christian Szegedy",
+        "Scott Reed",
+        "Cheng-Yang Fu",
+        "Alexander C. Berg"
+      ],
+      "title": "SSD: Single shot multibox detector",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "Wei Liu... Ssd... In ECCV, 2016.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Wenyu Lv",
+        "Yian Zhao",
+        "Qinyao Chang",
+        "Kui Huang",
+        "Guanzhong Wang",
+        "Yi Liu"
+      ],
+      "title": "RT-DETRv2: Improved baseline with bag-of-freebies for real-time detection transformer",
+      "year": 2024,
+      "container": "arXiv",
+      "raw": "Wenyu Lv... Rt-detrv2... 2024.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Chengqi Lyu",
+        "Wenwei Zhang",
+        "Haian Huang",
+        "Yue Zhou",
+        "Yudong Wang",
+        "Yanyi Liu",
+        "Shilong Zhang",
+        "Kai Chen"
+      ],
+      "title": "RTMDet: An empirical study of designing real-time object detectors",
+      "year": 2022,
+      "container": "arXiv:2212.07784",
+      "raw": "Chengqi Lyu... Rtmdet... ArXiv, abs/2212.07784, 2022.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Depu Meng",
+        "Xiaokang Chen",
+        "Zejia Fan",
+        "Gang Zeng",
+        "Houqiang Li",
+        "Yuhui Yuan",
+        "Lei Sun",
+        "Jingdong Wang"
+      ],
+      "title": "Conditional DETR for fast training convergence",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "Depu Meng... Conditional detr... In ICCV, pp. 3651–3660, 2021.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Seyed Iman Mirzadeh",
+        "Mehrdad Farajtabar",
+        "Ang Li",
+        "Nir Levine",
+        "Akihiro Matsukawa",
+        "Hassan Ghasemzadeh"
+      ],
+      "title": "Improved knowledge distillation via teacher assistant",
+      "year": 2020,
+      "container": "AAAI",
+      "raw": "Seyed Iman Mirzadeh... Improved knowledge distillation via teacher assistant. In AAAI, 2020.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Heqian Qiu",
+        "Hongliang Li",
+        "Qingbo Wu",
+        "Hengcan Shi"
+      ],
+      "title": "Offset bin classification network for accurate object detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "Heqian Qiu... Offset bin classification network... In CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Joseph Redmon",
+        "Santosh Divvala",
+        "Ross Girshick",
+        "Ali Farhadi"
+      ],
+      "title": "You only look once: Unified, real-time object detection",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "Joseph Redmon... You only look once... In CVPR, pp. 779–788, 2016a.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Joseph Redmon",
+        "Santosh Divvala",
+        "Ross Girshick",
+        "Ali Farhadi"
+      ],
+      "title": "You only look once: Unified, real-time object detection",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "Joseph Redmon... You only look once... In CVPR, 2016b.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NeurIPS",
+      "raw": "Shaoqing Ren... Faster R-CNN... In NeurIPS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Adriana Romero",
+        "Nicolas Ballas",
+        "Samira Ebrahimi Kahou",
+        "Antoine Chassang",
+        "Carlo Gatta",
+        "Yoshua Bengio"
+      ],
+      "title": "FitNets: Hints for thin deep nets",
+      "year": 2015,
+      "container": "ICLR",
+      "raw": "Adriana Romero... Fitnets... In ICLR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Olga Russakovsky",
+        "Jia Deng",
+        "Hao Su",
+        "Jonathan Krause",
+        "Sanjeev Satheesh",
+        "Sean Ma",
+        "Zhiheng Huang",
+        "Andrej Karpathy",
+        "Aditya Khosla",
+        "Michael Bernstein"
+      ],
+      "title": "ImageNet large scale visual recognition challenge",
+      "year": 2015,
+      "container": "IJCV",
+      "raw": "Olga Russakovsky... Imagenet... IJCV, 115:211–252, 2015.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Shuai Shao",
+        "Zeming Li",
+        "Tianyuan Zhang",
+        "Chao Peng",
+        "Gang Yu",
+        "Xiangyu Zhang",
+        "Jing Li",
+        "Jian Sun"
+      ],
+      "title": "Objects365: A large-scale, high-quality dataset for object detection",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Shuai Shao... Objects365... In ICCV, pp. 8430–8439, 2019.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Wonchul Son",
+        "Jaemin Na",
+        "Junyong Choi",
+        "Wonjun Hwang"
+      ],
+      "title": "Densely guided knowledge distillation using multiple teacher assistants",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "Wonchul Son... Densely guided knowledge distillation... In ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Zhi Tian",
+        "Chunhua Shen",
+        "Hao Chen",
+        "Tong He"
+      ],
+      "title": "FCOS: Fully convolutional one-stage object detection",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Zhi Tian... FCOS... In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Ao Wang",
+        "Hui Chen",
+        "Lihao Liu",
+        "Kai Chen",
+        "Zijia Lin",
+        "Jungong Han",
+        "Guiguang Ding"
+      ],
+      "title": "YOLOv10: Real-time end-to-end object detection",
+      "year": 2024,
+      "container": "ECCV",
+      "raw": "Ao Wang... Yolov10... In ECCV, 2024a.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Chengcheng Wang",
+        "Wei He",
+        "Ying Nie",
+        "Jianyuan Guo",
+        "Chuanjian Liu",
+        "Yunhe Wang",
+        "Kai Han"
+      ],
+      "title": "Gold-YOLO: Efficient object detector via gather-and-distribute mechanism",
+      "year": 2023,
+      "container": "NeurIPS",
+      "raw": "Chengcheng Wang... Gold-yolo... In NeurIPS, 2023a.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "Hong-Yuan Mark Liao"
+      ],
+      "title": "YOLOv9: Learning what you want to learn using programmable gradient information",
+      "year": 2024,
+      "container": "arXiv:2402.13616",
+      "raw": "Chien-Yao Wang and Hong-Yuan Mark Liao. YOLOv9... arXiv preprint arXiv:2402.13616, 2024.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "Alexey Bochkovskiy",
+        "Hong-Yuan Mark Liao"
+      ],
+      "title": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Chien-Yao Wang... Yolov7... In CVPR, pp. 7464–7475, 2023b.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Tao Wang",
+        "Li Yuan",
+        "Xiaopeng Zhang",
+        "Jiashi Feng"
+      ],
+      "title": "Distilling object detectors with fine-grained feature imitation",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "Tao Wang... Distilling object detectors with fine-grained feature imitation. In CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Yingming Wang",
+        "Xiangyu Zhang",
+        "Tong Yang",
+        "Jian Sun"
+      ],
+      "title": "Anchor DETR: Query design for transformer-based detector",
+      "year": 2022,
+      "container": "AAAI",
+      "raw": "Yingming Wang... Anchor detr... In AAAI, pp. 2567–2575, 2022.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Yu Wang",
+        "Xin Li",
+        "Shengzhao Weng",
+        "Gang Zhang",
+        "Haixiao Yue",
+        "Haocheng Feng",
+        "Junyu Han",
+        "Errui Ding"
+      ],
+      "title": "KD-DETR: Knowledge distillation for detection transformer with consistent distillation points sampling",
+      "year": 2024,
+      "container": "CVPR",
+      "raw": "Yu Wang... Kd-detr... In CVPR, pp. 16016–16025, 2024b.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Sergey Zagoruyko",
+        "Nikos Komodakis"
+      ],
+      "title": "Paying more attention to attention: Improving the performance of convolutional neural networks via attention transfer",
+      "year": 2017,
+      "container": "ICLR",
+      "raw": "Sergey Zagoruyko and Nikos Komodakis. Paying more attention to attention... In ICLR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Hao Zhang",
+        "Feng Li",
+        "Shilong Liu",
+        "Lei Zhang",
+        "Hang Su",
+        "Jun Zhu",
+        "Lionel M. Ni",
+        "Heung-Yeung Shum"
+      ],
+      "title": "DINO: DETR with improved denoising anchor boxes for end-to-end object detection",
+      "year": 2022,
+      "container": "ICLR",
+      "raw": "Hao Zhang... Dino... In ICLR, 2022.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "Linfeng Zhang",
+        "Jiebo Song",
+        "Anni Gao",
+        "Jingwei Chen",
+        "Chenglong Bao",
+        "Kaisheng Ma"
+      ],
+      "title": "Be your own teacher: Improve the performance of convolutional neural networks via self distillation",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Linfeng Zhang... Be your own teacher... In ICCV, pp. 3713–3722, 2019.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Linfeng Zhang",
+        "Chenglong Bao",
+        "Kaisheng Ma"
+      ],
+      "title": "Self-distillation: Towards efficient and compact neural networks",
+      "year": 2022,
+      "container": "TPAMI",
+      "raw": "Linfeng Zhang... Self-distillation... TPAMI, 44(8):4388–4403, 2021.",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "Yian Zhao",
+        "Wenyu Lv",
+        "Shangliang Xu",
+        "Jinman Wei",
+        "Guanzhong Wang",
+        "Qingqing Dang",
+        "Yi Liu",
+        "Jie Chen"
+      ],
+      "title": "DETRs beat YOLOs on real-time object detection",
+      "year": 2024,
+      "container": "CVPR",
+      "raw": "Yian Zhao... Detrs beat yolos... In CVPR, 2024.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Zhaohui Zheng",
+        "Rongguang Ye",
+        "Ping Wang",
+        "Dongwei Ren",
+        "Wangmeng Zuo",
+        "Qibin Hou",
+        "Ming-Ming Cheng"
+      ],
+      "title": "Localization distillation for dense object detection",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Zhaohui Zheng... Localization distillation... In CVPR, pp. 9407–9416, 2022.",
+      "confidence": 0.95,
+      "entry_index": 50
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Weijie Su",
+        "Lewei Lu",
+        "Bin Li",
+        "Xiaogang Wang",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable DETR: Deformable transformers for end-to-end object detection",
+      "year": 2020,
+      "container": "ICLR",
+      "raw": "Xizhou Zhu... Deformable detr... In ICLR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 51
+    }
+  ]
+}

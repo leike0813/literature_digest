@@ -1,0 +1,1210 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:41Z",
+    "entry_count": 14,
+    "candidate_count": 46,
+    "batch_count": 1,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "1. Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.: Deep neural networks segment neuronal membranes in electron microscopy images. In: NIPS. pp. 2852–2860 (2012)",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "1. Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.: Deep neural networks segment neuronal membranes in electron microscopy images. In: NIPS. pp. 2852–2860 (2012)"
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "2. Dosovitskiy, A., Springenberg, J.T., Riedmiller, M., Brox, T.: Discriminative unsupervised feature learning with convolutional neural networks. In: NIPS (2014)",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "2. Dosovitskiy, A., Springenberg, J.T., Riedmiller, M., Brox, T.: Discriminative unsupervised feature learning with convolutional neural networks. In: NIPS (2014)"
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "3. Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2014)",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "3. Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2014)"
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "4. Hariharan, B., Arbelez, P., Girshick, R., Malik, J.: Hypercolumns for object segmentation and fine-grained localization (2014), arXiv:1411.5752 [cs.CV]",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "4. Hariharan, B., Arbelez, P., Girshick, R., Malik, J.: Hypercolumns for object segmentation and fine-grained localization (2014), arXiv:1411.5752 [cs.CV]"
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "5. He, K., Zhang, X., Ren, S., Sun, J.: Delving deep into rectifiers: Surpassing humanlevel performance on imagenet classification (2015), arXiv:1502.01852 [cs.CV]",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "5. He, K., Zhang, X., Ren, S., Sun, J.: Delving deep into rectifiers: Surpassing humanlevel performance on imagenet classification (2015), arXiv:1502.01852 [cs.CV]"
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "6. Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.: Caffe: Convolutional architecture for fast feature embedding (2014), arXiv:1408.5093 [cs.CV]",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "6. Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.: Caffe: Convolutional architecture for fast feature embedding (2014), arXiv:1408.5093 [cs.CV]"
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "7. Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification with deep convolutional neural networks. In: NIPS. pp. 1106–1114 (2012)",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "7. Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification with deep convolutional neural networks. In: NIPS. pp. 1106–1114 (2012)"
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "8. LeCun, Y., Boser, B., Denker, J.S., Henderson, D., Howard, R.E., Hubbard, W., Jackel, L.D.: Backpropagation applied to handwritten zip code recognition. Neural Computation 1(4), 541–551 (1989)",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "8. LeCun, Y., Boser, B., Denker, J.S., Henderson, D., Howard, R.E., Hubbard, W., Jackel, L.D.: Backpropagation applied to handwritten zip code recognition. Neural Computation 1(4), 541–551 (1989)"
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "9. Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic segmentation (2014), arXiv:1411.4038 [cs.CV]",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "9. Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic segmentation (2014), arXiv:1411.4038 [cs.CV]"
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "10. Maska, M., (...), de Solorzano, C.O.: A benchmark for comparison of cell tracking algorithms. Bioinformatics 30, 1609–1617 (2014)",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "10. Maska, M., (...), de Solorzano, C.O.: A benchmark for comparison of cell tracking algorithms. Bioinformatics 30, 1609–1617 (2014)"
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "11. Seyedhosseini, M., Sajjadi, M., Tasdizen, T.: Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks. In: Computer Vision (ICCV), 2013 IEEE International Conference on. pp. 2168–2175 (2013)",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "11. Seyedhosseini, M., Sajjadi, M., Tasdizen, T.: Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks. In: Computer Vision (ICCV), 2013 IEEE International Conference on. pp. 2168–2175 (2013)"
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "12. Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition (2014), arXiv:1409.1556 [cs.CV]",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "12. Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition (2014), arXiv:1409.1556 [cs.CV]"
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "13. WWW: Web page of the cell tracking challenge, http://www.codesolorzano.com/ celltrackingchallenge/Cell\\_Tracking\\_Challenge/Welcome.html",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "13. WWW: Web page of the cell tracking challenge, http://www.codesolorzano.com/ celltrackingchallenge/Cell\\_Tracking\\_Challenge/Welcome.html"
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "14. WWW: Web page of the em segmentation challenge, http://brainiac2.mit.edu/ isbi\\_challenge/",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "14. WWW: Web page of the em segmentation challenge, http://brainiac2.mit.edu/ isbi\\_challenge/"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "1. Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.: Deep neural networks segment neuronal membranes in electron microscopy images. In: NIPS. pp. 2852–2860 (2012)",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "venue_marker_split",
+          "author_text": "Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.",
+          "author_candidates": [
+            "Ciresan, D.C.",
+            "Gambardella, L.M.",
+            "Giusti, A.",
+            "Schmidhuber, J."
+          ],
+          "title_candidate": "Deep neural networks segment neuronal membranes in electron microscopy images",
+          "container_candidate": "In: NIPS. pp. 2852–2860 (2012)",
+          "year_candidate": 2012,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.",
+          "author_candidates": [
+            "Ciresan, D.C.",
+            "Gambardella, L.M.",
+            "Giusti, A.",
+            "Schmidhuber, J."
+          ],
+          "title_candidate": "Deep neural networks segment neuronal membranes in electron microscopy images",
+          "container_candidate": "NIPS. pp. 2852–2860",
+          "year_candidate": 2012,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.: Deep neural networks segment neuronal membranes in electron microscopy images",
+          "author_candidates": [
+            "Ciresan, D.C.",
+            "Gambardella, L.M.",
+            "Giusti, A.",
+            "Schmidhuber, J."
+          ],
+          "title_candidate": "In: NIPS",
+          "container_candidate": "pp. 2852–2860",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.",
+          "author_candidates": [
+            "Ciresan, D.C.",
+            "Gambardella, L.M.",
+            "Giusti, A.",
+            "Schmidhuber, J."
+          ],
+          "title_candidate": "Deep neural networks segment neuronal membranes in electron microscopy images. In: NIPS. pp. 2852–2860",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.",
+          "author_candidates": [
+            "Ciresan, D.C.",
+            "Gambardella, L.M.",
+            "Giusti, A.",
+            "Schmidhuber, J."
+          ],
+          "title_candidate": "Deep neural networks segment neuronal membranes in electron microscopy images. In: NIPS. pp. 2852–2860 (2012)",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "2. Dosovitskiy, A., Springenberg, J.T., Riedmiller, M., Brox, T.: Discriminative unsupervised feature learning with convolutional neural networks. In: NIPS (2014)",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Dosovitskiy, A., Springenberg, J.T., Riedmiller, M., Brox, T.",
+          "author_candidates": [
+            "Dosovitskiy, A.",
+            "Springenberg, J.T.",
+            "Riedmiller, M.",
+            "Brox, T."
+          ],
+          "title_candidate": "Discriminative unsupervised feature learning with convolutional neural networks",
+          "container_candidate": "In: NIPS (2014)",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Dosovitskiy, A., Springenberg, J.T., Riedmiller, M., Brox, T.",
+          "author_candidates": [
+            "Dosovitskiy, A.",
+            "Springenberg, J.T.",
+            "Riedmiller, M.",
+            "Brox, T."
+          ],
+          "title_candidate": "Discriminative unsupervised feature learning with convolutional neural networks",
+          "container_candidate": "NIPS",
+          "year_candidate": 2014,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Dosovitskiy, A., Springenberg, J.T., Riedmiller, M., Brox, T.",
+          "author_candidates": [
+            "Dosovitskiy, A.",
+            "Springenberg, J.T.",
+            "Riedmiller, M.",
+            "Brox, T."
+          ],
+          "title_candidate": "Discriminative unsupervised feature learning with convolutional neural networks. In: NIPS",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Dosovitskiy, A., Springenberg, J.T., Riedmiller, M., Brox, T.",
+          "author_candidates": [
+            "Dosovitskiy, A.",
+            "Springenberg, J.T.",
+            "Riedmiller, M.",
+            "Brox, T."
+          ],
+          "title_candidate": "Discriminative unsupervised feature learning with convolutional neural networks. In: NIPS (2014)",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "3. Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2014)",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Girshick, R., Donahue, J., Darrell, T., Malik, J.",
+          "author_candidates": [
+            "Girshick, R.",
+            "Donahue, J.",
+            "Darrell, T.",
+            "Malik, J."
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+          "container_candidate": "In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2014)",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Girshick, R., Donahue, J., Darrell, T., Malik, J.",
+          "author_candidates": [
+            "Girshick, R.",
+            "Donahue, J.",
+            "Darrell, T.",
+            "Malik, J."
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+          "container_candidate": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "year_candidate": 2014,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Girshick, R., Donahue, J., Darrell, T., Malik, J.",
+          "author_candidates": [
+            "Girshick, R.",
+            "Donahue, J.",
+            "Darrell, T.",
+            "Malik, J."
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Girshick, R., Donahue, J., Darrell, T., Malik, J.",
+          "author_candidates": [
+            "Girshick, R.",
+            "Donahue, J.",
+            "Darrell, T.",
+            "Malik, J."
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2014)",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "4. Hariharan, B., Arbelez, P., Girshick, R., Malik, J.: Hypercolumns for object segmentation and fine-grained localization (2014), arXiv:1411.5752 [cs.CV]",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Hariharan, B., Arbelez, P., Girshick, R., Malik, J.",
+          "author_candidates": [
+            "Hariharan, B.",
+            "Arbelez, P.",
+            "Girshick, R.",
+            "Malik, J."
+          ],
+          "title_candidate": "Hypercolumns for object segmentation and fine-grained localization (2014),",
+          "container_candidate": "arXiv:1411.5752 [cs.CV]",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hariharan, B., Arbelez, P., Girshick, R., Malik, J.",
+          "author_candidates": [
+            "Hariharan, B.",
+            "Arbelez, P.",
+            "Girshick, R.",
+            "Malik, J."
+          ],
+          "title_candidate": "Hypercolumns for object segmentation and fine-grained localization (2014), arXiv:1411.5752 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hariharan, B., Arbelez, P., Girshick, R., Malik, J.",
+          "author_candidates": [
+            "Hariharan, B.",
+            "Arbelez, P.",
+            "Girshick, R.",
+            "Malik, J."
+          ],
+          "title_candidate": "Hypercolumns for object segmentation and fine-grained localization (2014), arXiv:1411.5752 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "5. He, K., Zhang, X., Ren, S., Sun, J.: Delving deep into rectifiers: Surpassing humanlevel performance on imagenet classification (2015), arXiv:1502.01852 [cs.CV]",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "venue_marker_split",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Delving deep into rectifiers: Surpassing humanlevel performance on imagenet classification (2015),",
+          "container_candidate": "arXiv:1502.01852 [cs.CV]",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Delving deep into rectifiers: Surpassing humanlevel performance on imagenet classification (2015), arXiv:1502.01852 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Delving deep into rectifiers: Surpassing humanlevel performance on imagenet classification (2015), arXiv:1502.01852 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "6. Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.: Caffe: Convolutional architecture for fast feature embedding (2014), arXiv:1408.5093 [cs.CV]",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.",
+          "author_candidates": [
+            "Jia, Y.",
+            "Shelhamer, E.",
+            "Donahue, J.",
+            "Karayev, S.",
+            "Long, J.",
+            "Girshick, R.",
+            "Guadarrama, S.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Caffe: Convolutional architecture for fast feature embedding (2014),",
+          "container_candidate": "arXiv:1408.5093 [cs.CV]",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.",
+          "author_candidates": [
+            "Jia, Y.",
+            "Shelhamer, E.",
+            "Donahue, J.",
+            "Karayev, S.",
+            "Long, J.",
+            "Girshick, R.",
+            "Guadarrama, S.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Caffe: Convolutional architecture for fast feature embedding (2014), arXiv:1408.5093 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.",
+          "author_candidates": [
+            "Jia, Y.",
+            "Shelhamer, E.",
+            "Donahue, J.",
+            "Karayev, S.",
+            "Long, J.",
+            "Girshick, R.",
+            "Guadarrama, S.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Caffe: Convolutional architecture for fast feature embedding (2014), arXiv:1408.5093 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "7. Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification with deep convolutional neural networks. In: NIPS. pp. 1106–1114 (2012)",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Krizhevsky, A., Sutskever, I., Hinton, G.E.",
+          "author_candidates": [
+            "Krizhevsky, A.",
+            "Sutskever, I.",
+            "Hinton, G.E."
+          ],
+          "title_candidate": "Imagenet classification with deep convolutional neural networks",
+          "container_candidate": "In: NIPS. pp. 1106–1114 (2012)",
+          "year_candidate": 2012,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Krizhevsky, A., Sutskever, I., Hinton, G.E.",
+          "author_candidates": [
+            "Krizhevsky, A.",
+            "Sutskever, I.",
+            "Hinton, G.E."
+          ],
+          "title_candidate": "Imagenet classification with deep convolutional neural networks",
+          "container_candidate": "NIPS. pp. 1106–1114",
+          "year_candidate": 2012,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Krizhevsky, A., Sutskever, I., Hinton, G.E.: Imagenet classification with deep convolutional neural networks",
+          "author_candidates": [
+            "Krizhevsky, A.",
+            "Sutskever, I.",
+            "Hinton, G.E."
+          ],
+          "title_candidate": "In: NIPS",
+          "container_candidate": "pp. 1106–1114",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Krizhevsky, A., Sutskever, I., Hinton, G.E.",
+          "author_candidates": [
+            "Krizhevsky, A.",
+            "Sutskever, I.",
+            "Hinton, G.E."
+          ],
+          "title_candidate": "Imagenet classification with deep convolutional neural networks. In: NIPS. pp. 1106–1114",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Krizhevsky, A., Sutskever, I., Hinton, G.E.",
+          "author_candidates": [
+            "Krizhevsky, A.",
+            "Sutskever, I.",
+            "Hinton, G.E."
+          ],
+          "title_candidate": "Imagenet classification with deep convolutional neural networks. In: NIPS. pp. 1106–1114 (2012)",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "8. LeCun, Y., Boser, B., Denker, J.S., Henderson, D., Howard, R.E., Hubbard, W., Jackel, L.D.: Backpropagation applied to handwritten zip code recognition. Neural Computation 1(4), 541–551 (1989)",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "LeCun, Y., Boser, B., Denker, J.S., Henderson, D., Howard, R.E., Hubbard, W., Jackel, L.D.",
+          "author_candidates": [
+            "LeCun, Y.",
+            "Boser, B.",
+            "Denker, J.S.",
+            "Henderson, D.",
+            "Howard, R.E.",
+            "Hubbard, W.",
+            "Jackel, L.D."
+          ],
+          "title_candidate": "Backpropagation applied to handwritten zip code recognition. Neural Computation 1(4), 541–551",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "LeCun, Y., Boser, B., Denker, J.S., Henderson, D., Howard, R.E., Hubbard, W., Jackel, L.D.",
+          "author_candidates": [
+            "LeCun, Y.",
+            "Boser, B.",
+            "Denker, J.S.",
+            "Henderson, D.",
+            "Howard, R.E.",
+            "Hubbard, W.",
+            "Jackel, L.D."
+          ],
+          "title_candidate": "Backpropagation applied to handwritten zip code recognition. Neural Computation 1(4), 541–551",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "LeCun, Y., Boser, B., Denker, J.S., Henderson, D., Howard, R.E., Hubbard, W., Jackel, L.D.",
+          "author_candidates": [
+            "LeCun, Y.",
+            "Boser, B.",
+            "Denker, J.S.",
+            "Henderson, D.",
+            "Howard, R.E.",
+            "Hubbard, W.",
+            "Jackel, L.D."
+          ],
+          "title_candidate": "Backpropagation applied to handwritten zip code recognition. Neural Computation 1(4), 541–551 (1989)",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "9. Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic segmentation (2014), arXiv:1411.4038 [cs.CV]",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "Long, J., Shelhamer, E., Darrell, T.",
+          "author_candidates": [
+            "Long, J.",
+            "Shelhamer, E.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation (2014),",
+          "container_candidate": "arXiv:1411.4038 [cs.CV]",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Long, J., Shelhamer, E., Darrell, T.",
+          "author_candidates": [
+            "Long, J.",
+            "Shelhamer, E.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation (2014), arXiv:1411.4038 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Long, J., Shelhamer, E., Darrell, T.",
+          "author_candidates": [
+            "Long, J.",
+            "Shelhamer, E.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation (2014), arXiv:1411.4038 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "10. Maska, M., (...), de Solorzano, C.O.: A benchmark for comparison of cell tracking algorithms. Bioinformatics 30, 1609–1617 (2014)",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Maska, M., (...), de Solorzano, C.O.",
+          "author_candidates": [
+            "Maska, M.",
+            "Solorzano, C.O."
+          ],
+          "title_candidate": "A benchmark for comparison of cell tracking algorithms. Bioinformatics 30, 1609–1617",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Maska, M., (...), de Solorzano, C.O.",
+          "author_candidates": [
+            "Maska, M.",
+            "Solorzano, C.O."
+          ],
+          "title_candidate": "A benchmark for comparison of cell tracking algorithms. Bioinformatics 30, 1609–1617",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Maska, M., (...), de Solorzano, C.O.",
+          "author_candidates": [
+            "Maska, M.",
+            "Solorzano, C.O."
+          ],
+          "title_candidate": "A benchmark for comparison of cell tracking algorithms. Bioinformatics 30, 1609–1617 (2014)",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "11. Seyedhosseini, M., Sajjadi, M., Tasdizen, T.: Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks. In: Computer Vision (ICCV), 2013 IEEE International Conference on. pp. 2168–2175 (2013)",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "venue_marker_split",
+          "author_text": "Seyedhosseini, M., Sajjadi, M., Tasdizen, T.",
+          "author_candidates": [
+            "Seyedhosseini, M.",
+            "Sajjadi, M.",
+            "Tasdizen, T."
+          ],
+          "title_candidate": "Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks",
+          "container_candidate": "In: Computer Vision (ICCV), 2013 IEEE International Conference on. pp. 2168–2175 (2013)",
+          "year_candidate": 2013,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Seyedhosseini, M., Sajjadi, M., Tasdizen, T.",
+          "author_candidates": [
+            "Seyedhosseini, M.",
+            "Sajjadi, M.",
+            "Tasdizen, T."
+          ],
+          "title_candidate": "Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks",
+          "container_candidate": "Computer Vision (ICCV), 2013 IEEE International Conference on. pp. 2168–2175",
+          "year_candidate": 2013,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Seyedhosseini, M., Sajjadi, M., Tasdizen, T.: Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks",
+          "author_candidates": [
+            "Seyedhosseini, M.",
+            "Sajjadi, M.",
+            "Tasdizen, T."
+          ],
+          "title_candidate": "In: Computer Vision (ICCV), 2013 IEEE International Conference on",
+          "container_candidate": "pp. 2168–2175",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Seyedhosseini, M., Sajjadi, M., Tasdizen, T.",
+          "author_candidates": [
+            "Seyedhosseini, M.",
+            "Sajjadi, M.",
+            "Tasdizen, T."
+          ],
+          "title_candidate": "Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks. In: Computer Vision (ICCV), 2013 IEEE International Conference on. pp. 2168–2175",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Seyedhosseini, M., Sajjadi, M., Tasdizen, T.",
+          "author_candidates": [
+            "Seyedhosseini, M.",
+            "Sajjadi, M.",
+            "Tasdizen, T."
+          ],
+          "title_candidate": "Image segmentation with cascaded hierarchical models and logistic disjunctive normal networks. In: Computer Vision (ICCV), 2013 IEEE International Conference on. pp. 2168–2175 (2013)",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "12. Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition (2014), arXiv:1409.1556 [cs.CV]",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "Simonyan, K., Zisserman, A.",
+          "author_candidates": [
+            "Simonyan, K.",
+            "Zisserman, A."
+          ],
+          "title_candidate": "Very deep convolutional networks for large-scale image recognition (2014),",
+          "container_candidate": "arXiv:1409.1556 [cs.CV]",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Simonyan, K., Zisserman, A.",
+          "author_candidates": [
+            "Simonyan, K.",
+            "Zisserman, A."
+          ],
+          "title_candidate": "Very deep convolutional networks for large-scale image recognition (2014), arXiv:1409.1556 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Simonyan, K., Zisserman, A.",
+          "author_candidates": [
+            "Simonyan, K.",
+            "Zisserman, A."
+          ],
+          "title_candidate": "Very deep convolutional networks for large-scale image recognition (2014), arXiv:1409.1556 [cs.CV]",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "13. WWW: Web page of the cell tracking challenge, http://www.codesolorzano.com/ celltrackingchallenge/Cell\\_Tracking\\_Challenge/Welcome.html",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "WWW",
+          "author_candidates": [
+            "WWW"
+          ],
+          "title_candidate": "Web page of the cell tracking challenge, http://www.codesolorzano.com/ celltrackingchallenge/Cell\\_Tracking\\_Challenge/Welcome.html",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "14. WWW: Web page of the em segmentation challenge, http://brainiac2.mit.edu/ isbi\\_challenge/",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "WWW",
+          "author_candidates": [
+            "WWW"
+          ],
+          "title_candidate": "Web page of the em segmentation challenge, http://brainiac2.mit.edu/ isbi\\_challenge/",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 13,
+      "metadata": {
+        "entry_count": 14
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.14285714285714285,
+    "year_ratio": 0.8571428571428571,
+    "warning_density": 0.8571428571428571,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

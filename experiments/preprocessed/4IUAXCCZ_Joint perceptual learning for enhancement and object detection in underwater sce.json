@@ -1,0 +1,4525 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:40Z",
+    "entry_count": 48,
+    "candidate_count": 187,
+    "batch_count": 4,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] C. Fu, X. Fan, J. Xiao, W. Yuan, R. Liu, and Z. Luo, “Learning heavilydegraded prior for underwater object detection,” IEEE TCSVT, pp. 1–1, 2023.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] C. Fu, X. Fan, J. Xiao, W. Yuan, R. Liu, and Z. Luo, “Learning heavilydegraded prior for underwater object detection,” IEEE TCSVT, pp. 1–1, 2023."
+      ]
+    },
+    {
+      "block_index": 1,
+      "source_text": "[2] R. Liu, X. Fan, M. Zhu, M. Hou, and Z. Luo, “Real-world underwater enhancement: Challenges, benchmarks, and solutions under natural light,” IEEE TCSVT, vol. 30, no. 12, pp. 4861–4875, 2020.",
+      "line_start": 2,
+      "line_end": 2,
+      "proposed_entries": [
+        "[2] R. Liu, X. Fan, M. Zhu, M. Hou, and Z. Luo, “Real-world underwater enhancement: Challenges, benchmarks, and solutions under natural light,” IEEE TCSVT, vol. 30, no. 12, pp. 4861–4875, 2020."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[3] L. Chen, Z. Jiang, L. Tong, Z. Liu, A. Zhao, Q. Zhang, J. Dong, and H. Zhou, “Perceptual underwater image enhancement with deep learning and physical priors,” IEEE TCSVT, vol. 31, no. 8, pp. 3078–3092, 2021.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[3] L. Chen, Z. Jiang, L. Tong, Z. Liu, A. Zhao, Q. Zhang, J. Dong, and H. Zhou, “Perceptual underwater image enhancement with deep learning and physical priors,” IEEE TCSVT, vol. 31, no. 8, pp. 3078–3092, 2021."
+      ]
+    },
+    {
+      "block_index": 3,
+      "source_text": "[4] C. Liu, Z. Wang, S. Wang, T. Tang, Y. Tao, C. Yang, H. Li, X. Liu, and X. Fan, “A new dataset, poisson gan and aquanet for underwater object grabbing,” IEEE TCSVT, vol. 32, no. 5, pp. 2831–2844, 2022.",
+      "line_start": 4,
+      "line_end": 4,
+      "proposed_entries": [
+        "[4] C. Liu, Z. Wang, S. Wang, T. Tang, Y. Tao, C. Yang, H. Li, X. Liu, and X. Fan, “A new dataset, poisson gan and aquanet for underwater object grabbing,” IEEE TCSVT, vol. 32, no. 5, pp. 2831–2844, 2022."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[5] H. Lu, Y. Li, X. Xu, J. Lin, Z. Liu, X. Li, J. Yang, and S. Serikawa, “Underwater image enhancement method using weighted guided trigonometric filtering and artificial light correction,” J. Vis. Commun. Image Represent., vol. 38, pp. 504–516, 2016.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[5] H. Lu, Y. Li, X. Xu, J. Lin, Z. Liu, X. Li, J. Yang, and S. Serikawa, “Underwater image enhancement method using weighted guided trigonometric filtering and artificial light correction,” J. Vis. Commun. Image Represent., vol. 38, pp. 504–516, 2016."
+      ]
+    },
+    {
+      "block_index": 5,
+      "source_text": "[6] H. Lu, Y. Li, Y. Zhang, M. Chen, S. Serikawa, and H. Kim, “Underwater optical image processing: a comprehensive review,” Mob. Networks Appl., vol. 22, no. 6, pp. 1204–1211, 2017.",
+      "line_start": 6,
+      "line_end": 6,
+      "proposed_entries": [
+        "[6] H. Lu, Y. Li, Y. Zhang, M. Chen, S. Serikawa, and H. Kim, “Underwater optical image processing: a comprehensive review,” Mob. Networks Appl., vol. 22, no. 6, pp. 1204–1211, 2017."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[7] R. Geirhos, P. Rubisch, C. Michaelis, M. Bethge, F. A. Wichmann, and W. Brendel, “Imagenet-trained cnns are biased towards texture; increasing shape bias improves accuracy and robustness,” in ICLR, 2019.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[7] R. Geirhos, P. Rubisch, C. Michaelis, M. Bethge, F. A. Wichmann, and W. Brendel, “Imagenet-trained cnns are biased towards texture; increasing shape bias improves accuracy and robustness,” in ICLR, 2019."
+      ]
+    },
+    {
+      "block_index": 7,
+      "source_text": "[8] Z. Cai and N. Vasconcelos, “Cascade R-CNN: delving into high quality object detection,” in CVPR, 2018, pp. 6154–6162.",
+      "line_start": 8,
+      "line_end": 8,
+      "proposed_entries": [
+        "[8] Z. Cai and N. Vasconcelos, “Cascade R-CNN: delving into high quality object detection,” in CVPR, 2018, pp. 6154–6162."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[9] X. Lu, B. Li, Y. Yue, Q. Li, and J. Yan, “Grid R-CNN,” in CVPR, 2019, pp. 7363–7372.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[9] X. Lu, B. Li, Y. Yue, Q. Li, and J. Yan, “Grid R-CNN,” in CVPR, 2019, pp. 7363–7372."
+      ]
+    },
+    {
+      "block_index": 9,
+      "source_text": "[10] J. Wang, K. Chen, S. Yang, C. C. Loy, and D. Lin, “Region proposal by guided anchoring,” in CVPR, 2019, pp. 2965–2974.",
+      "line_start": 10,
+      "line_end": 10,
+      "proposed_entries": [
+        "[10] J. Wang, K. Chen, S. Yang, C. C. Loy, and D. Lin, “Region proposal by guided anchoring,” in CVPR, 2019, pp. 2965–2974."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[11] N. Carion, F. Massa, G. Synnaeve, N. Usunier, A. Kirillov, and S. Zagoruyko, “End-to-end object detection with transformers,” in ECCV, vol. 12346, 2020, pp. 213–229.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[11] N. Carion, F. Massa, G. Synnaeve, N. Usunier, A. Kirillov, and S. Zagoruyko, “End-to-end object detection with transformers,” in ECCV, vol. 12346, 2020, pp. 213–229."
+      ]
+    },
+    {
+      "block_index": 11,
+      "source_text": "[12] Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo, “Swin transformer: Hierarchical vision transformer using shifted windows,” in ICCV, 2021, pp. 9992–10 002.",
+      "line_start": 12,
+      "line_end": 12,
+      "proposed_entries": [
+        "[12] Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo, “Swin transformer: Hierarchical vision transformer using shifted windows,” in ICCV, 2021, pp. 9992–10 002."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[13] W. Wang, E. Xie, X. Li, D. Fan, K. Song, D. Liang, T. Lu, P. Luo, and L. Shao, “Pyramid vision transformer: A versatile backbone for dense prediction without convolutions,” in ICCV, 2021, pp. 548–558.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[13] W. Wang, E. Xie, X. Li, D. Fan, K. Song, D. Liang, T. Lu, P. Luo, and L. Shao, “Pyramid vision transformer: A versatile backbone for dense prediction without convolutions,” in ICCV, 2021, pp. 548–558."
+      ]
+    },
+    {
+      "block_index": 13,
+      "source_text": "[14] M. Everingham, L. V. Gool, C. K. I. Williams, J. M. Winn, and A. Zisserman, “The pascal visual object classes (VOC) challenge,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, 2010.",
+      "line_start": 14,
+      "line_end": 14,
+      "proposed_entries": [
+        "[14] M. Everingham, L. V. Gool, C. K. I. Williams, J. M. Winn, and A. Zisserman, “The pascal visual object classes (VOC) challenge,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, 2010."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[15] T. Lin, M. Maire, S. J. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO: common objects in ´ context,” in ECCV, vol. 8693, 2014, pp. 740–755.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[15] T. Lin, M. Maire, S. J. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO: common objects in ´ context,” in ECCV, vol. 8693, 2014, pp. 740–755."
+      ]
+    },
+    {
+      "block_index": 15,
+      "source_text": "[16] B. Fan, W. Chen, Y. Cong, and J. Tian, “Dual refinement underwater object detection network,” in ECCV, vol. 12365, 2020, pp. 275–291.",
+      "line_start": 16,
+      "line_end": 16,
+      "proposed_entries": [
+        "[16] B. Fan, W. Chen, Y. Cong, and J. Tian, “Dual refinement underwater object detection network,” in ECCV, vol. 12365, 2020, pp. 275–291."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[17] L. Jiang, Y. Wang, Q. Jia, S. Xu, Y. Liu, X. Fan, H. Li, R. Liu, X. Xue, and R. Wang, “Underwater species detection using channel sharpening attention,” in ACM MM, pages $= 4 2 5 9 { \\ - } 4 2 6 7 .$ , year $= 2 0 2 I$ .",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[17] L. Jiang, Y. Wang, Q. Jia, S. Xu, Y. Liu, X. Fan, H. Li, R. Liu, X. Xue, and R. Wang, “Underwater species detection using channel sharpening attention,” in ACM MM, pages $= 4 2 5 9 { \\ - } 4 2 6 7 .$ , year $= 2 0 2 I$ ."
+      ]
+    },
+    {
+      "block_index": 17,
+      "source_text": "[18] D. Akkaynak and T. Treibitz, “Sea-thru: A method for removing water from underwater images,” in CVPR, 2019, pp. 1682–1691.",
+      "line_start": 18,
+      "line_end": 18,
+      "proposed_entries": [
+        "[18] D. Akkaynak and T. Treibitz, “Sea-thru: A method for removing water from underwater images,” in CVPR, 2019, pp. 1682–1691."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[19] D. Berman, D. Levy, S. Avidan, and T. Treibitz, “Underwater single image color restoration using haze-lines and a new quantitative dataset,” IEEE TPAMI, vol. 43, no. 8, pp. 2822–2837, 2021.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[19] D. Berman, D. Levy, S. Avidan, and T. Treibitz, “Underwater single image color restoration using haze-lines and a new quantitative dataset,” IEEE TPAMI, vol. 43, no. 8, pp. 2822–2837, 2021."
+      ]
+    },
+    {
+      "block_index": 19,
+      "source_text": "[20] M. J. Islam, Y. Xia, and J. Sattar, “Fast underwater image enhancement for improved visual perception,” IEEE Robotics Autom. Lett., vol. 5, no. 2, pp. 3227–3234, 2020.",
+      "line_start": 20,
+      "line_end": 20,
+      "proposed_entries": [
+        "[20] M. J. Islam, Y. Xia, and J. Sattar, “Fast underwater image enhancement for improved visual perception,” IEEE Robotics Autom. Lett., vol. 5, no. 2, pp. 3227–3234, 2020."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[21] Z. Bao, M. Hebert, and Y.-X. Wang, “Generative modeling for multi-task visual learning,” in ICML, 2022, pp. 1537–1554.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[21] Z. Bao, M. Hebert, and Y.-X. Wang, “Generative modeling for multi-task visual learning,” in ICML, 2022, pp. 1537–1554."
+      ]
+    },
+    {
+      "block_index": 21,
+      "source_text": "[22] C. Doersch and A. Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp. 2070–2079.",
+      "line_start": 22,
+      "line_end": 22,
+      "proposed_entries": [
+        "[22] C. Doersch and A. Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp. 2070–2079."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[23] M. Teichmann, M. Weber, J. M. Zollner, R. Cipolla, and R. Urtasun, ¨ “Multinet: Real-time joint semantic reasoning for autonomous driving,” in IEEE Intelligent Vehicles Symposium, 2018, pp. 1013–1020.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[23] M. Teichmann, M. Weber, J. M. Zollner, R. Cipolla, and R. Urtasun, ¨ “Multinet: Real-time joint semantic reasoning for autonomous driving,” in IEEE Intelligent Vehicles Symposium, 2018, pp. 1013–1020."
+      ]
+    },
+    {
+      "block_index": 23,
+      "source_text": "[24] A. Kendall, Y. Gal, and R. Cipolla, “Multi-task learning using uncertainty to weigh losses for scene geometry and semantics,” in CVPR, 2018, pp. 7482–7491.",
+      "line_start": 24,
+      "line_end": 24,
+      "proposed_entries": [
+        "[24] A. Kendall, Y. Gal, and R. Cipolla, “Multi-task learning using uncertainty to weigh losses for scene geometry and semantics,” in CVPR, 2018, pp. 7482–7491."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[25] J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi, “You only look once: Unified, real-time object detection,” in CVPR, 2016, pp. 779– 788.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[25] J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi, “You only look once: Unified, real-time object detection,” in CVPR, 2016, pp. 779– 788."
+      ]
+    },
+    {
+      "block_index": 25,
+      "source_text": "[26] W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. E. Reed, C. Fu, and A. C. Berg, “SSD: single shot multibox detector,” in ECCV, vol. 9905, 2016, pp. 21–37.",
+      "line_start": 26,
+      "line_end": 26,
+      "proposed_entries": [
+        "[26] W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. E. Reed, C. Fu, and A. C. Berg, “SSD: single shot multibox detector,” in ECCV, vol. 9905, 2016, pp. 21–37."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[27] T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” IEEE TPAMI, vol. 42, no. 2, pp. 318–327, 2020.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[27] T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” IEEE TPAMI, vol. 42, no. 2, pp. 318–327, 2020."
+      ]
+    },
+    {
+      "block_index": 27,
+      "source_text": "[28] C. Zhu, Y. He, and M. Savvides, “Feature selective anchor-free module for single-shot object detection,” in CVPR, 2019, pp. 840–849.",
+      "line_start": 28,
+      "line_end": 28,
+      "proposed_entries": [
+        "[28] C. Zhu, Y. He, and M. Savvides, “Feature selective anchor-free module for single-shot object detection,” in CVPR, 2019, pp. 840–849."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[29] X. Zhang, F. Wan, C. Liu, R. Ji, and Q. Ye, “Freeanchor: Learning to match anchors for visual object detection,” in NIPS, 2019, pp. 147–155.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[29] X. Zhang, F. Wan, C. Liu, R. Ji, and Q. Ye, “Freeanchor: Learning to match anchors for visual object detection,” in NIPS, 2019, pp. 147–155."
+      ]
+    },
+    {
+      "block_index": 29,
+      "source_text": "[30] T. Kong, F. Sun, H. Liu, Y. Jiang, L. Li, and J. Shi, “Foveabox: Beyound anchor-based object detection,” IEEE TIP, vol. 29, pp. 7389–7398, 2020.",
+      "line_start": 30,
+      "line_end": 30,
+      "proposed_entries": [
+        "[30] T. Kong, F. Sun, H. Liu, Y. Jiang, L. Li, and J. Shi, “Foveabox: Beyound anchor-based object detection,” IEEE TIP, vol. 29, pp. 7389–7398, 2020."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[31] R. L. Wanqi Yuan, Chenping Fu and X. Fan, “Ssob: Searching a scene-oriented architecture for underwater object detection,” The Visual Computer, 2022.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[31] R. L. Wanqi Yuan, Chenping Fu and X. Fan, “Ssob: Searching a scene-oriented architecture for underwater object detection,” The Visual Computer, 2022."
+      ]
+    },
+    {
+      "block_index": 31,
+      "source_text": "[32] R. Liu, J. Gao, J. Zhang, D. Meng, and Z. Lin, “Investigating bi-level optimization for learning and vision from a unified perspective: A survey and beyond,” IEEE TPAMI, 2021.",
+      "line_start": 32,
+      "line_end": 32,
+      "proposed_entries": [
+        "[32] R. Liu, J. Gao, J. Zhang, D. Meng, and Z. Lin, “Investigating bi-level optimization for learning and vision from a unified perspective: A survey and beyond,” IEEE TPAMI, 2021."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[33] P. Ochs, R. Ranftl, T. Brox, and T. Pock, “Bilevel optimization with nonsmooth lower level problems,” in SSVM, vol. 9087, 2015, pp. 654– 665.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[33] P. Ochs, R. Ranftl, T. Brox, and T. Pock, “Bilevel optimization with nonsmooth lower level problems,” in SSVM, vol. 9087, 2015, pp. 654– 665."
+      ]
+    },
+    {
+      "block_index": 33,
+      "source_text": "[34] T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” in ICCV, 2017, pp. 2999–3007.",
+      "line_start": 34,
+      "line_end": 34,
+      "proposed_entries": [
+        "[34] T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” in ICCV, 2017, pp. 2999–3007."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[35] T. Lin, P. Dollar, R. B. Girshick, K. He, B. Hariharan, and S. J. Belongie, ´ “Feature pyramid networks for object detection,” in CVPR, 2017, pp. 936–944.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[35] T. Lin, P. Dollar, R. B. Girshick, K. He, B. Hariharan, and S. J. Belongie, ´ “Feature pyramid networks for object detection,” in CVPR, 2017, pp. 936–944."
+      ]
+    },
+    {
+      "block_index": 35,
+      "source_text": "[36] C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection: Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256, 2023.",
+      "line_start": 36,
+      "line_end": 36,
+      "proposed_entries": [
+        "[36] C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection: Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256, 2023."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[37] C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, and D. Tao, “An underwater image enhancement benchmark dataset and beyond,” IEEE TIP, vol. 29, pp. 4376–4389, 2020.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[37] C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, and D. Tao, “An underwater image enhancement benchmark dataset and beyond,” IEEE TIP, vol. 29, pp. 4376–4389, 2020."
+      ]
+    },
+    {
+      "block_index": 37,
+      "source_text": "[38] H. Blasinski, T. Lian, and J. E. Farrell, “Underwater image systems simulation,” Rundbrief Der Gi-fachgruppe 5.10 Informationssystemarchitekturen, 2017.",
+      "line_start": 38,
+      "line_end": 38,
+      "proposed_entries": [
+        "[38] H. Blasinski, T. Lian, and J. E. Farrell, “Underwater image systems simulation,” Rundbrief Der Gi-fachgruppe 5.10 Informationssystemarchitekturen, 2017."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[39] A. Duarte, F. Codevilla, J. D. O. Gaya, and S. S. C. Botelho, “A dataset to evaluate underwater image restoration methods,” in OCEANS, 2016, pp. 1–6.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[39] A. Duarte, F. Codevilla, J. D. O. Gaya, and S. S. C. Botelho, “A dataset to evaluate underwater image restoration methods,” in OCEANS, 2016, pp. 1–6."
+      ]
+    },
+    {
+      "block_index": 39,
+      "source_text": "[40] C. Li, S. Anwar, and F. Porikli, “Underwater scene prior inspired deep underwater image and video enhancement,” Pattern Recognit., vol. 98, 2020.",
+      "line_start": 40,
+      "line_end": 40,
+      "proposed_entries": [
+        "[40] C. Li, S. Anwar, and F. Porikli, “Underwater scene prior inspired deep underwater image and video enhancement,” Pattern Recognit., vol. 98, 2020."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[41] M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The cityscapes dataset for semantic urban scene understanding,” in CVPR, 2016, pp. 3213–3223.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[41] M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The cityscapes dataset for semantic urban scene understanding,” in CVPR, 2016, pp. 3213–3223."
+      ]
+    },
+    {
+      "block_index": 41,
+      "source_text": "[42] J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei, “Imagenet: A large-scale hierarchical image database,” in CVPR, 2009, pp. 248–255.",
+      "line_start": 42,
+      "line_end": 42,
+      "proposed_entries": [
+        "[42] J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei, “Imagenet: A large-scale hierarchical image database,” in CVPR, 2009, pp. 248–255."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[43] H. Song, L. Chang, Z. Chen, and P. Ren, “Enhancement-registrationhomogenization (ERH): A comprehensive underwater visual reconstruction paradigm,” IEEE TPAMI, vol. 44, no. 10, pp. 6953–6967, 2022.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[43] H. Song, L. Chang, Z. Chen, and P. Ren, “Enhancement-registrationhomogenization (ERH): A comprehensive underwater visual reconstruction paradigm,” IEEE TPAMI, vol. 44, no. 10, pp. 6953–6967, 2022."
+      ]
+    },
+    {
+      "block_index": 43,
+      "source_text": "[44] C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection: Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256, 2023.",
+      "line_start": 44,
+      "line_end": 44,
+      "proposed_entries": [
+        "[44] C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection: Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256, 2023."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[45] S. Wang, K. Ma, H. Yeganeh, Z. Wang, and W. Lin, “A patch-structure representation method for quality assessment of contrast changed images,” IEEE Signal Process. Lett., vol. 22, no. 12, pp. 2387–2390, 2015.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[45] S. Wang, K. Ma, H. Yeganeh, Z. Wang, and W. Lin, “A patch-structure representation method for quality assessment of contrast changed images,” IEEE Signal Process. Lett., vol. 22, no. 12, pp. 2387–2390, 2015."
+      ]
+    },
+    {
+      "block_index": 45,
+      "source_text": "[46] K. Panetta, C. Gao, and S. Agaian, “Human-visual-system-inspired underwater image quality measures,” IEEE Journal of Oceanic Engineering, vol. 41, no. 3, pp. 541–551, 2016.",
+      "line_start": 46,
+      "line_end": 46,
+      "proposed_entries": [
+        "[46] K. Panetta, C. Gao, and S. Agaian, “Human-visual-system-inspired underwater image quality measures,” IEEE Journal of Oceanic Engineering, vol. 41, no. 3, pp. 541–551, 2016."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[47] A. Mittal, R. Soundararajan, and A. C. Bovik, “Making a ”completely blind” image quality analyzer,” IEEE Signal Process. Lett., vol. 20, no. 3, pp. 209–212, 2013.",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[47] A. Mittal, R. Soundararajan, and A. C. Bovik, “Making a ”completely blind” image quality analyzer,” IEEE Signal Process. Lett., vol. 20, no. 3, pp. 209–212, 2013."
+      ]
+    },
+    {
+      "block_index": 47,
+      "source_text": "[48] P. D. Jr., E. R. Nascimento, S. S. C. Botelho, and M. F. M. Campos, “Underwater depth estimation and image restoration based on single images,” IEEE Computer Graphics and Applications, vol. 36, no. 2, pp. 24–35, 2016.",
+      "line_start": 48,
+      "line_end": 48,
+      "proposed_entries": [
+        "[48] P. D. Jr., E. R. Nascimento, S. S. C. Botelho, and M. F. M. Campos, “Underwater depth estimation and image restoration based on single images,” IEEE Computer Graphics and Applications, vol. 36, no. 2, pp. 24–35, 2016."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] C. Fu, X. Fan, J. Xiao, W. Yuan, R. Liu, and Z. Luo, “Learning heavilydegraded prior for underwater object detection,” IEEE TCSVT, pp. 1–1, 2023.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Fu, X. Fan, J. Xiao, W. Yuan, R. Liu, and Z. Luo",
+          "author_candidates": [
+            "Fu, X",
+            "Fan, J",
+            "Xiao, W",
+            "Yuan, R"
+          ],
+          "title_candidate": "Learning heavilydegraded prior for underwater object detection",
+          "container_candidate": "IEEE TCSVT, pp. 1–1, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Fu, X. Fan, J. Xiao, W. Yuan, R. Liu, and Z. Luo, “Learning heavilydegraded prior for underwater object detection,” IEEE TCSVT, pp",
+          "author_candidates": [
+            "Fu, X",
+            "Fan, J",
+            "Xiao, W",
+            "Yuan, R"
+          ],
+          "title_candidate": "1–1, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Fu, X. Fan, J. Xiao, W. Yuan, R. Liu, and Z. Luo, “Learning heavilydegraded prior for underwater object detection,” IEEE TCSVT, pp",
+          "author_candidates": [
+            "Fu, X",
+            "Fan, J",
+            "Xiao, W",
+            "Yuan, R"
+          ],
+          "title_candidate": "1–1",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Fu, X. Fan, J. Xiao, W. Yuan, R. Liu, and Z. Luo, “Learning heavilydegraded prior for underwater object detection,” IEEE TCSVT, pp",
+          "author_candidates": [
+            "Fu, X",
+            "Fan, J",
+            "Xiao, W",
+            "Yuan, R"
+          ],
+          "title_candidate": "1–1, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] R. Liu, X. Fan, M. Zhu, M. Hou, and Z. Luo, “Real-world underwater enhancement: Challenges, benchmarks, and solutions under natural light,” IEEE TCSVT, vol. 30, no. 12, pp. 4861–4875, 2020.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "ieee_quote_title",
+          "author_text": "R. Liu, X. Fan, M. Zhu, M. Hou, and Z. Luo",
+          "author_candidates": [
+            "Liu, X",
+            "Fan, M",
+            "Zhu, M"
+          ],
+          "title_candidate": "Real-world underwater enhancement: Challenges, benchmarks, and solutions under natural light",
+          "container_candidate": "IEEE TCSVT, vol. 30, no. 12, pp. 4861–4875, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "R. Liu, X. Fan, M. Zhu, M. Hou, and Z. Luo, “Real-world underwater enhancement: Challenges, benchmarks, and solutions under natural light,” IEEE TCSVT, vol",
+          "author_candidates": [
+            "Liu, X",
+            "Fan, M",
+            "Zhu, M"
+          ],
+          "title_candidate": "30, no",
+          "container_candidate": "12, pp. 4861–4875,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "R. Liu, X. Fan, M. Zhu, M. Hou, and Z. Luo, “Real-world underwater enhancement",
+          "author_candidates": [
+            "Liu, X",
+            "Fan, M",
+            "Zhu, M"
+          ],
+          "title_candidate": "Challenges, benchmarks, and solutions under natural light,” IEEE TCSVT, vol. 30, no. 12, pp. 4861–4875",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "R. Liu, X. Fan, M. Zhu, M. Hou, and Z. Luo, “Real-world underwater enhancement",
+          "author_candidates": [
+            "Liu, X",
+            "Fan, M",
+            "Zhu, M"
+          ],
+          "title_candidate": "Challenges, benchmarks, and solutions under natural light,” IEEE TCSVT, vol. 30, no. 12, pp. 4861–4875, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] L. Chen, Z. Jiang, L. Tong, Z. Liu, A. Zhao, Q. Zhang, J. Dong, and H. Zhou, “Perceptual underwater image enhancement with deep learning and physical priors,” IEEE TCSVT, vol. 31, no. 8, pp. 3078–3092, 2021.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "ieee_quote_title",
+          "author_text": "L. Chen, Z. Jiang, L. Tong, Z. Liu, A. Zhao, Q. Zhang, J. Dong, and H. Zhou",
+          "author_candidates": [
+            "Chen, Z",
+            "Jiang, L",
+            "Tong, Z",
+            "Liu, A",
+            "Zhao, Q",
+            "Zhang, J"
+          ],
+          "title_candidate": "Perceptual underwater image enhancement with deep learning and physical priors",
+          "container_candidate": "IEEE TCSVT, vol. 31, no. 8, pp. 3078–3092, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "L. Chen, Z. Jiang, L. Tong, Z. Liu, A. Zhao, Q. Zhang, J. Dong, and H. Zhou, “Perceptual underwater image enhancement with deep learning and physical priors,” IEEE TCSVT, vol",
+          "author_candidates": [
+            "Chen, Z",
+            "Jiang, L",
+            "Tong, Z",
+            "Liu, A",
+            "Zhao, Q",
+            "Zhang, J"
+          ],
+          "title_candidate": "31, no",
+          "container_candidate": "8, pp. 3078–3092,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "L. Chen, Z. Jiang, L. Tong, Z. Liu, A. Zhao, Q. Zhang, J. Dong, and H. Zhou, “Perceptual underwater image enhancement with deep learning and physical priors,” IEEE TCSVT, vol",
+          "author_candidates": [
+            "Chen, Z",
+            "Jiang, L",
+            "Tong, Z",
+            "Liu, A",
+            "Zhao, Q",
+            "Zhang, J"
+          ],
+          "title_candidate": "31, no. 8, pp. 3078–3092",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "L. Chen, Z. Jiang, L. Tong, Z. Liu, A. Zhao, Q. Zhang, J. Dong, and H. Zhou, “Perceptual underwater image enhancement with deep learning and physical priors,” IEEE TCSVT, vol",
+          "author_candidates": [
+            "Chen, Z",
+            "Jiang, L",
+            "Tong, Z",
+            "Liu, A",
+            "Zhao, Q",
+            "Zhang, J"
+          ],
+          "title_candidate": "31, no. 8, pp. 3078–3092, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] C. Liu, Z. Wang, S. Wang, T. Tang, Y. Tao, C. Yang, H. Li, X. Liu, and X. Fan, “A new dataset, poisson gan and aquanet for underwater object grabbing,” IEEE TCSVT, vol. 32, no. 5, pp. 2831–2844, 2022.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Liu, Z. Wang, S. Wang, T. Tang, Y. Tao, C. Yang, H. Li, X. Liu, and X. Fan",
+          "author_candidates": [
+            "Liu, Z",
+            "Wang, S",
+            "Wang, T",
+            "Tang, Y",
+            "Tao, C",
+            "Yang, H",
+            "Li, X"
+          ],
+          "title_candidate": "A new dataset, poisson gan and aquanet for underwater object grabbing",
+          "container_candidate": "IEEE TCSVT, vol. 32, no. 5, pp. 2831–2844, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Liu, Z. Wang, S. Wang, T. Tang, Y. Tao, C. Yang, H. Li, X. Liu, and X. Fan, “A new dataset, poisson gan and aquanet for underwater object grabbing,” IEEE TCSVT, vol",
+          "author_candidates": [
+            "Liu, Z",
+            "Wang, S",
+            "Wang, T",
+            "Tang, Y",
+            "Tao, C",
+            "Yang, H",
+            "Li, X"
+          ],
+          "title_candidate": "32, no",
+          "container_candidate": "5, pp. 2831–2844,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Liu, Z. Wang, S. Wang, T. Tang, Y. Tao, C. Yang, H. Li, X. Liu, and X. Fan, “A new dataset, poisson gan and aquanet for underwater object grabbing,” IEEE TCSVT, vol",
+          "author_candidates": [
+            "Liu, Z",
+            "Wang, S",
+            "Wang, T",
+            "Tang, Y",
+            "Tao, C",
+            "Yang, H",
+            "Li, X"
+          ],
+          "title_candidate": "32, no. 5, pp. 2831–2844",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Liu, Z. Wang, S. Wang, T. Tang, Y. Tao, C. Yang, H. Li, X. Liu, and X. Fan, “A new dataset, poisson gan and aquanet for underwater object grabbing,” IEEE TCSVT, vol",
+          "author_candidates": [
+            "Liu, Z",
+            "Wang, S",
+            "Wang, T",
+            "Tang, Y",
+            "Tao, C",
+            "Yang, H",
+            "Li, X"
+          ],
+          "title_candidate": "32, no. 5, pp. 2831–2844, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] H. Lu, Y. Li, X. Xu, J. Lin, Z. Liu, X. Li, J. Yang, and S. Serikawa, “Underwater image enhancement method using weighted guided trigonometric filtering and artificial light correction,” J. Vis. Commun. Image Represent., vol. 38, pp. 504–516, 2016.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "ieee_quote_title",
+          "author_text": "H. Lu, Y. Li, X. Xu, J. Lin, Z. Liu, X. Li, J. Yang, and S. Serikawa",
+          "author_candidates": [
+            "Lu, Y",
+            "Li, X",
+            "Xu, J",
+            "Lin, Z",
+            "Liu, X",
+            "Li, J"
+          ],
+          "title_candidate": "Underwater image enhancement method using weighted guided trigonometric filtering and artificial light correction",
+          "container_candidate": "J. Vis. Commun. Image Represent., vol. 38, pp. 504–516, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "H. Lu, Y. Li, X. Xu, J. Lin, Z. Liu, X. Li, J. Yang, and S. Serikawa, “Underwater image enhancement method using weighted guided trigonometric filtering and artificial light correction,” J",
+          "author_candidates": [
+            "Lu, Y",
+            "Li, X",
+            "Xu, J",
+            "Lin, Z",
+            "Liu, X",
+            "Li, J"
+          ],
+          "title_candidate": "Vis",
+          "container_candidate": "Commun. Image Represent., vol. 38, pp. 504–516,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "H. Lu, Y. Li, X. Xu, J. Lin, Z. Liu, X. Li, J. Yang, and S. Serikawa, “Underwater image enhancement method using weighted guided trigonometric filtering and artificial light correction,” J",
+          "author_candidates": [
+            "Lu, Y",
+            "Li, X",
+            "Xu, J",
+            "Lin, Z",
+            "Liu, X",
+            "Li, J"
+          ],
+          "title_candidate": "Vis. Commun. Image Represent., vol. 38, pp. 504–516",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "H. Lu, Y. Li, X. Xu, J. Lin, Z. Liu, X. Li, J. Yang, and S. Serikawa, “Underwater image enhancement method using weighted guided trigonometric filtering and artificial light correction,” J",
+          "author_candidates": [
+            "Lu, Y",
+            "Li, X",
+            "Xu, J",
+            "Lin, Z",
+            "Liu, X",
+            "Li, J"
+          ],
+          "title_candidate": "Vis. Commun. Image Represent., vol. 38, pp. 504–516, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] H. Lu, Y. Li, Y. Zhang, M. Chen, S. Serikawa, and H. Kim, “Underwater optical image processing: a comprehensive review,” Mob. Networks Appl., vol. 22, no. 6, pp. 1204–1211, 2017.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "ieee_quote_title",
+          "author_text": "H. Lu, Y. Li, Y. Zhang, M. Chen, S. Serikawa, and H. Kim",
+          "author_candidates": [
+            "Lu, Y",
+            "Li, Y",
+            "Zhang, M",
+            "Chen, S"
+          ],
+          "title_candidate": "Underwater optical image processing: a comprehensive review",
+          "container_candidate": "Mob. Networks Appl., vol. 22, no. 6, pp. 1204–1211, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "H. Lu, Y. Li, Y. Zhang, M. Chen, S. Serikawa, and H. Kim, “Underwater optical image processing: a comprehensive review,” Mob",
+          "author_candidates": [
+            "Lu, Y",
+            "Li, Y",
+            "Zhang, M",
+            "Chen, S"
+          ],
+          "title_candidate": "Networks Appl., vol",
+          "container_candidate": "22, no. 6, pp. 1204–1211,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "H. Lu, Y. Li, Y. Zhang, M. Chen, S. Serikawa, and H. Kim, “Underwater optical image processing",
+          "author_candidates": [
+            "Lu, Y",
+            "Li, Y",
+            "Zhang, M",
+            "Chen, S"
+          ],
+          "title_candidate": "a comprehensive review,” Mob. Networks Appl., vol. 22, no. 6, pp. 1204–1211",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "H. Lu, Y. Li, Y. Zhang, M. Chen, S. Serikawa, and H. Kim, “Underwater optical image processing",
+          "author_candidates": [
+            "Lu, Y",
+            "Li, Y",
+            "Zhang, M",
+            "Chen, S"
+          ],
+          "title_candidate": "a comprehensive review,” Mob. Networks Appl., vol. 22, no. 6, pp. 1204–1211, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] R. Geirhos, P. Rubisch, C. Michaelis, M. Bethge, F. A. Wichmann, and W. Brendel, “Imagenet-trained cnns are biased towards texture; increasing shape bias improves accuracy and robustness,” in ICLR, 2019.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "ieee_quote_title",
+          "author_text": "R. Geirhos, P. Rubisch, C. Michaelis, M. Bethge, F. A. Wichmann, and W. Brendel",
+          "author_candidates": [
+            "Geirhos, P",
+            "Rubisch, C",
+            "Michaelis, M",
+            "Bethge, F"
+          ],
+          "title_candidate": "Imagenet-trained cnns are biased towards texture; increasing shape bias improves accuracy and robustness",
+          "container_candidate": "in ICLR, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "R. Geirhos, P. Rubisch, C. Michaelis, M. Bethge, F. A",
+          "author_candidates": [
+            "Geirhos, P",
+            "Rubisch, C",
+            "Michaelis, M",
+            "Bethge, F"
+          ],
+          "title_candidate": "Wichmann, and W. Brendel, “Imagenet-trained cnns are biased towards texture; increasing shape bias improves accuracy and robustness,” in ICLR, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "R. Geirhos, P. Rubisch, C. Michaelis, M. Bethge, F. A",
+          "author_candidates": [
+            "Geirhos, P",
+            "Rubisch, C",
+            "Michaelis, M",
+            "Bethge, F"
+          ],
+          "title_candidate": "Wichmann, and W. Brendel, “Imagenet-trained cnns are biased towards texture; increasing shape bias improves accuracy and robustness,” in ICLR",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "R. Geirhos, P. Rubisch, C. Michaelis, M. Bethge, F. A",
+          "author_candidates": [
+            "Geirhos, P",
+            "Rubisch, C",
+            "Michaelis, M",
+            "Bethge, F"
+          ],
+          "title_candidate": "Wichmann, and W. Brendel, “Imagenet-trained cnns are biased towards texture; increasing shape bias improves accuracy and robustness,” in ICLR, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Z. Cai and N. Vasconcelos, “Cascade R-CNN: delving into high quality object detection,” in CVPR, 2018, pp. 6154–6162.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "ieee_quote_title",
+          "author_text": "Z. Cai and N. Vasconcelos",
+          "author_candidates": [
+            "Z\u0000Cai",
+            "N\u0000Vasconcelos"
+          ],
+          "title_candidate": "Cascade R-CNN: delving into high quality object detection",
+          "container_candidate": "in CVPR, 2018, pp. 6154–6162",
+          "year_candidate": 2018,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Z. Cai and N. Vasconcelos, “Cascade R-CNN: delving into high quality object detection,” in CVPR, 2018, pp",
+          "author_candidates": [
+            "Z\u0000Cai",
+            "N\u0000Vasconcelos, “Cascade R-CNN: delving into high quality object detection,” in CVPR, 2018, pp"
+          ],
+          "title_candidate": "6154–6162",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Z. Cai and N. Vasconcelos, “Cascade R-CNN",
+          "author_candidates": [
+            "Z\u0000Cai and N\u0000Vasconcelos",
+            "“Cascade R-CNN"
+          ],
+          "title_candidate": "delving into high quality object detection,” in CVPR, 2018, pp. 6154–6162",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Z. Cai and N. Vasconcelos, “Cascade R-CNN",
+          "author_candidates": [
+            "Z\u0000Cai and N\u0000Vasconcelos",
+            "“Cascade R-CNN"
+          ],
+          "title_candidate": "delving into high quality object detection,” in CVPR, 2018, pp. 6154–6162",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] X. Lu, B. Li, Y. Yue, Q. Li, and J. Yan, “Grid R-CNN,” in CVPR, 2019, pp. 7363–7372.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "ieee_quote_title",
+          "author_text": "X. Lu, B. Li, Y. Yue, Q. Li, and J. Yan",
+          "author_candidates": [
+            "Lu, B",
+            "Li, Y",
+            "Yue, Q"
+          ],
+          "title_candidate": "Grid R-CNN",
+          "container_candidate": "in CVPR, 2019, pp. 7363–7372",
+          "year_candidate": 2019,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "X. Lu, B. Li, Y. Yue, Q. Li, and J. Yan, “Grid R-CNN,” in CVPR, 2019, pp",
+          "author_candidates": [
+            "Lu, B",
+            "Li, Y",
+            "Yue, Q"
+          ],
+          "title_candidate": "7363–7372",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "X. Lu, B. Li, Y. Yue, Q. Li, and J. Yan, “Grid R-CNN,” in CVPR, 2019, pp",
+          "author_candidates": [
+            "Lu, B",
+            "Li, Y",
+            "Yue, Q"
+          ],
+          "title_candidate": "7363–7372",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "X. Lu, B. Li, Y. Yue, Q. Li, and J. Yan, “Grid R-CNN,” in CVPR, 2019, pp",
+          "author_candidates": [
+            "Lu, B",
+            "Li, Y",
+            "Yue, Q"
+          ],
+          "title_candidate": "7363–7372",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] J. Wang, K. Chen, S. Yang, C. C. Loy, and D. Lin, “Region proposal by guided anchoring,” in CVPR, 2019, pp. 2965–2974.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Wang, K. Chen, S. Yang, C. C. Loy, and D. Lin",
+          "author_candidates": [
+            "Wang, K",
+            "Chen, S",
+            "Yang, C"
+          ],
+          "title_candidate": "Region proposal by guided anchoring",
+          "container_candidate": "in CVPR, 2019, pp. 2965–2974",
+          "year_candidate": 2019,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Wang, K. Chen, S. Yang, C. C",
+          "author_candidates": [
+            "Wang, K",
+            "Chen, S",
+            "Yang, C"
+          ],
+          "title_candidate": "Loy, and D. Lin, “Region proposal by guided anchoring,” in CVPR, 2019, pp",
+          "container_candidate": "2965–2974",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Wang, K. Chen, S. Yang, C. C",
+          "author_candidates": [
+            "Wang, K",
+            "Chen, S",
+            "Yang, C"
+          ],
+          "title_candidate": "Loy, and D. Lin, “Region proposal by guided anchoring,” in CVPR, 2019, pp. 2965–2974",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Wang, K. Chen, S. Yang, C. C",
+          "author_candidates": [
+            "Wang, K",
+            "Chen, S",
+            "Yang, C"
+          ],
+          "title_candidate": "Loy, and D. Lin, “Region proposal by guided anchoring,” in CVPR, 2019, pp. 2965–2974",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] N. Carion, F. Massa, G. Synnaeve, N. Usunier, A. Kirillov, and S. Zagoruyko, “End-to-end object detection with transformers,” in ECCV, vol. 12346, 2020, pp. 213–229.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "ieee_quote_title",
+          "author_text": "N. Carion, F. Massa, G. Synnaeve, N. Usunier, A. Kirillov, and S. Zagoruyko",
+          "author_candidates": [
+            "Carion, F",
+            "Massa, G",
+            "Synnaeve, N",
+            "Usunier, A"
+          ],
+          "title_candidate": "End-to-end object detection with transformers",
+          "container_candidate": "in ECCV, vol. 12346, 2020, pp. 213–229",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "N. Carion, F. Massa, G. Synnaeve, N. Usunier, A. Kirillov, and S. Zagoruyko, “End-to-end object detection with transformers,” in ECCV, vol",
+          "author_candidates": [
+            "Carion, F",
+            "Massa, G",
+            "Synnaeve, N",
+            "Usunier, A"
+          ],
+          "title_candidate": "12346, 2020, pp",
+          "container_candidate": "213–229",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "N. Carion, F. Massa, G. Synnaeve, N. Usunier, A. Kirillov, and S. Zagoruyko, “End-to-end object detection with transformers,” in ECCV, vol",
+          "author_candidates": [
+            "Carion, F",
+            "Massa, G",
+            "Synnaeve, N",
+            "Usunier, A"
+          ],
+          "title_candidate": "12346, 2020, pp. 213–229",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "N. Carion, F. Massa, G. Synnaeve, N. Usunier, A. Kirillov, and S. Zagoruyko, “End-to-end object detection with transformers,” in ECCV, vol",
+          "author_candidates": [
+            "Carion, F",
+            "Massa, G",
+            "Synnaeve, N",
+            "Usunier, A"
+          ],
+          "title_candidate": "12346, 2020, pp. 213–229",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo, “Swin transformer: Hierarchical vision transformer using shifted windows,” in ICCV, 2021, pp. 9992–10 002.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "ieee_quote_title",
+          "author_text": "Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo",
+          "author_candidates": [
+            "Liu, Y",
+            "Lin, Y",
+            "Cao, H",
+            "Hu, Y",
+            "Wei, Z",
+            "Zhang, S"
+          ],
+          "title_candidate": "Swin transformer: Hierarchical vision transformer using shifted windows",
+          "container_candidate": "in ICCV, 2021, pp. 9992–10 002",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo, “Swin transformer: Hierarchical vision transformer using shifted windows,” in ICCV, 2021, pp",
+          "author_candidates": [
+            "Liu, Y",
+            "Lin, Y",
+            "Cao, H",
+            "Hu, Y",
+            "Wei, Z",
+            "Zhang, S"
+          ],
+          "title_candidate": "9992–10 002",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo, “Swin transformer",
+          "author_candidates": [
+            "Liu, Y",
+            "Lin, Y",
+            "Cao, H",
+            "Hu, Y",
+            "Wei, Z",
+            "Zhang, S"
+          ],
+          "title_candidate": "Hierarchical vision transformer using shifted windows,” in ICCV, 2021, pp. 9992–10 002",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo, “Swin transformer",
+          "author_candidates": [
+            "Liu, Y",
+            "Lin, Y",
+            "Cao, H",
+            "Hu, Y",
+            "Wei, Z",
+            "Zhang, S"
+          ],
+          "title_candidate": "Hierarchical vision transformer using shifted windows,” in ICCV, 2021, pp. 9992–10 002",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] W. Wang, E. Xie, X. Li, D. Fan, K. Song, D. Liang, T. Lu, P. Luo, and L. Shao, “Pyramid vision transformer: A versatile backbone for dense prediction without convolutions,” in ICCV, 2021, pp. 548–558.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "ieee_quote_title",
+          "author_text": "W. Wang, E. Xie, X. Li, D. Fan, K. Song, D. Liang, T. Lu, P. Luo, and L. Shao",
+          "author_candidates": [
+            "Wang, E",
+            "Xie, X",
+            "Li, D",
+            "Fan, K",
+            "Song, D",
+            "Liang, T",
+            "Lu, P"
+          ],
+          "title_candidate": "Pyramid vision transformer: A versatile backbone for dense prediction without convolutions",
+          "container_candidate": "in ICCV, 2021, pp. 548–558",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "W. Wang, E. Xie, X. Li, D. Fan, K. Song, D. Liang, T. Lu, P. Luo, and L. Shao, “Pyramid vision transformer: A versatile backbone for dense prediction without convolutions,” in ICCV, 2021, pp",
+          "author_candidates": [
+            "Wang, E",
+            "Xie, X",
+            "Li, D",
+            "Fan, K",
+            "Song, D",
+            "Liang, T",
+            "Lu, P"
+          ],
+          "title_candidate": "548–558",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "W. Wang, E. Xie, X. Li, D. Fan, K. Song, D. Liang, T. Lu, P. Luo, and L. Shao, “Pyramid vision transformer",
+          "author_candidates": [
+            "Wang, E",
+            "Xie, X",
+            "Li, D",
+            "Fan, K",
+            "Song, D",
+            "Liang, T",
+            "Lu, P"
+          ],
+          "title_candidate": "A versatile backbone for dense prediction without convolutions,” in ICCV, 2021, pp. 548–558",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "W. Wang, E. Xie, X. Li, D. Fan, K. Song, D. Liang, T. Lu, P. Luo, and L. Shao, “Pyramid vision transformer",
+          "author_candidates": [
+            "Wang, E",
+            "Xie, X",
+            "Li, D",
+            "Fan, K",
+            "Song, D",
+            "Liang, T",
+            "Lu, P"
+          ],
+          "title_candidate": "A versatile backbone for dense prediction without convolutions,” in ICCV, 2021, pp. 548–558",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] M. Everingham, L. V. Gool, C. K. I. Williams, J. M. Winn, and A. Zisserman, “The pascal visual object classes (VOC) challenge,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, 2010.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "ieee_quote_title",
+          "author_text": "M. Everingham, L. V. Gool, C. K. I. Williams, J. M. Winn, and A. Zisserman",
+          "author_candidates": [
+            "Everingham, L",
+            "Gool, C",
+            "Williams, J"
+          ],
+          "title_candidate": "The pascal visual object classes (VOC) challenge",
+          "container_candidate": "Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, 2010",
+          "year_candidate": 2010,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "M. Everingham, L. V",
+          "author_candidates": [
+            "Everingham, L"
+          ],
+          "title_candidate": "Gool, C. K",
+          "container_candidate": "I. Williams, J. M. Winn, and A. Zisserman, “The pascal visual object classes (VOC) challenge,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338,",
+          "year_candidate": 2010,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "M. Everingham, L. V",
+          "author_candidates": [
+            "Everingham, L"
+          ],
+          "title_candidate": "Gool, C. K. I. Williams, J. M. Winn, and A. Zisserman, “The pascal visual object classes (VOC) challenge,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "M. Everingham, L. V",
+          "author_candidates": [
+            "Everingham, L"
+          ],
+          "title_candidate": "Gool, C. K. I. Williams, J. M. Winn, and A. Zisserman, “The pascal visual object classes (VOC) challenge,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, 2010",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] T. Lin, M. Maire, S. J. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO: common objects in ´ context,” in ECCV, vol. 8693, 2014, pp. 740–755.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "ieee_quote_title",
+          "author_text": "T. Lin, M. Maire, S. J. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick",
+          "author_candidates": [
+            "Lin, M",
+            "Maire, S",
+            "Belongie, J",
+            "Hays, P",
+            "Perona, D",
+            "Ramanan, P"
+          ],
+          "title_candidate": "Microsoft COCO: common objects in ´ context",
+          "container_candidate": "in ECCV, vol. 8693, 2014, pp. 740–755",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "T. Lin, M. Maire, S. J",
+          "author_candidates": [
+            "Lin, M",
+            "Maire, S"
+          ],
+          "title_candidate": "Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L",
+          "container_candidate": "Zitnick, “Microsoft COCO: common objects in ´ context,” in ECCV, vol. 8693, 2014, pp. 740–755",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "T. Lin, M. Maire, S. J. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO",
+          "author_candidates": [
+            "Lin, M",
+            "Maire, S",
+            "Belongie, J",
+            "Hays, P",
+            "Perona, D",
+            "Ramanan, P"
+          ],
+          "title_candidate": "common objects in ´ context,” in ECCV, vol. 8693, 2014, pp. 740–755",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "T. Lin, M. Maire, S. J. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO",
+          "author_candidates": [
+            "Lin, M",
+            "Maire, S",
+            "Belongie, J",
+            "Hays, P",
+            "Perona, D",
+            "Ramanan, P"
+          ],
+          "title_candidate": "common objects in ´ context,” in ECCV, vol. 8693, 2014, pp. 740–755",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] B. Fan, W. Chen, Y. Cong, and J. Tian, “Dual refinement underwater object detection network,” in ECCV, vol. 12365, 2020, pp. 275–291.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "ieee_quote_title",
+          "author_text": "B. Fan, W. Chen, Y. Cong, and J. Tian",
+          "author_candidates": [
+            "Fan, W",
+            "Chen, Y"
+          ],
+          "title_candidate": "Dual refinement underwater object detection network",
+          "container_candidate": "in ECCV, vol. 12365, 2020, pp. 275–291",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "B. Fan, W. Chen, Y. Cong, and J. Tian, “Dual refinement underwater object detection network,” in ECCV, vol",
+          "author_candidates": [
+            "Fan, W",
+            "Chen, Y"
+          ],
+          "title_candidate": "12365, 2020, pp",
+          "container_candidate": "275–291",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "B. Fan, W. Chen, Y. Cong, and J. Tian, “Dual refinement underwater object detection network,” in ECCV, vol",
+          "author_candidates": [
+            "Fan, W",
+            "Chen, Y"
+          ],
+          "title_candidate": "12365, 2020, pp. 275–291",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "B. Fan, W. Chen, Y. Cong, and J. Tian, “Dual refinement underwater object detection network,” in ECCV, vol",
+          "author_candidates": [
+            "Fan, W",
+            "Chen, Y"
+          ],
+          "title_candidate": "12365, 2020, pp. 275–291",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] L. Jiang, Y. Wang, Q. Jia, S. Xu, Y. Liu, X. Fan, H. Li, R. Liu, X. Xue, and R. Wang, “Underwater species detection using channel sharpening attention,” in ACM MM, pages $= 4 2 5 9 { \\ - } 4 2 6 7 .$ , year $= 2 0 2 I$ .",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "ieee_quote_title",
+          "author_text": "L. Jiang, Y. Wang, Q. Jia, S. Xu, Y. Liu, X. Fan, H. Li, R. Liu, X. Xue, and R. Wang",
+          "author_candidates": [
+            "Jiang, Y",
+            "Wang, Q",
+            "Jia, S",
+            "Xu, Y",
+            "Liu, X",
+            "Fan, H",
+            "Li, R",
+            "Liu, X"
+          ],
+          "title_candidate": "Underwater species detection using channel sharpening attention",
+          "container_candidate": "in ACM MM, pages $= 4 2 5 9 { \\ - } 4 2 6 7 .$ , year $= 2 0 2 I$",
+          "year_candidate": null,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "L. Jiang, Y. Wang, Q. Jia, S. Xu, Y. Liu, X. Fan, H. Li, R. Liu, X. Xue, and R. Wang, “Underwater species detection using channel sharpening attention,” in ACM MM, pages $= 4 2 5 9 { \\ - } 4 2 6 7 .$ , year $= 2 0 2 I$ .",
+          "author_candidates": [
+            "Jiang, Y",
+            "Wang, Q",
+            "Jia, S",
+            "Xu, Y",
+            "Liu, X",
+            "Fan, H",
+            "Li, R",
+            "Liu, X"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] D. Akkaynak and T. Treibitz, “Sea-thru: A method for removing water from underwater images,” in CVPR, 2019, pp. 1682–1691.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "ieee_quote_title",
+          "author_text": "D. Akkaynak and T. Treibitz",
+          "author_candidates": [
+            "D\u0000Akkaynak",
+            "T\u0000Treibitz"
+          ],
+          "title_candidate": "Sea-thru: A method for removing water from underwater images",
+          "container_candidate": "in CVPR, 2019, pp. 1682–1691",
+          "year_candidate": 2019,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "D. Akkaynak and T. Treibitz, “Sea-thru: A method for removing water from underwater images,” in CVPR, 2019, pp",
+          "author_candidates": [
+            "D\u0000Akkaynak",
+            "T\u0000Treibitz, “Sea-thru: A method for removing water from underwater images,” in CVPR, 2019, pp"
+          ],
+          "title_candidate": "1682–1691",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "D. Akkaynak and T. Treibitz, “Sea-thru",
+          "author_candidates": [
+            "D\u0000Akkaynak",
+            "T\u0000Treibitz, “Sea-thru"
+          ],
+          "title_candidate": "A method for removing water from underwater images,” in CVPR, 2019, pp. 1682–1691",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "D. Akkaynak and T. Treibitz, “Sea-thru",
+          "author_candidates": [
+            "D\u0000Akkaynak",
+            "T\u0000Treibitz, “Sea-thru"
+          ],
+          "title_candidate": "A method for removing water from underwater images,” in CVPR, 2019, pp. 1682–1691",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] D. Berman, D. Levy, S. Avidan, and T. Treibitz, “Underwater single image color restoration using haze-lines and a new quantitative dataset,” IEEE TPAMI, vol. 43, no. 8, pp. 2822–2837, 2021.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "ieee_quote_title",
+          "author_text": "D. Berman, D. Levy, S. Avidan, and T. Treibitz",
+          "author_candidates": [
+            "Berman, D",
+            "Levy, S"
+          ],
+          "title_candidate": "Underwater single image color restoration using haze-lines and a new quantitative dataset",
+          "container_candidate": "IEEE TPAMI, vol. 43, no. 8, pp. 2822–2837, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "D. Berman, D. Levy, S. Avidan, and T. Treibitz, “Underwater single image color restoration using haze-lines and a new quantitative dataset,” IEEE TPAMI, vol",
+          "author_candidates": [
+            "Berman, D",
+            "Levy, S"
+          ],
+          "title_candidate": "43, no",
+          "container_candidate": "8, pp. 2822–2837,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "D. Berman, D. Levy, S. Avidan, and T. Treibitz, “Underwater single image color restoration using haze-lines and a new quantitative dataset,” IEEE TPAMI, vol",
+          "author_candidates": [
+            "Berman, D",
+            "Levy, S"
+          ],
+          "title_candidate": "43, no. 8, pp. 2822–2837",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "D. Berman, D. Levy, S. Avidan, and T. Treibitz, “Underwater single image color restoration using haze-lines and a new quantitative dataset,” IEEE TPAMI, vol",
+          "author_candidates": [
+            "Berman, D",
+            "Levy, S"
+          ],
+          "title_candidate": "43, no. 8, pp. 2822–2837, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] M. J. Islam, Y. Xia, and J. Sattar, “Fast underwater image enhancement for improved visual perception,” IEEE Robotics Autom. Lett., vol. 5, no. 2, pp. 3227–3234, 2020.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "ieee_quote_title",
+          "author_text": "M. J. Islam, Y. Xia, and J. Sattar",
+          "author_candidates": [
+            "Islam, Y"
+          ],
+          "title_candidate": "Fast underwater image enhancement for improved visual perception",
+          "container_candidate": "IEEE Robotics Autom. Lett., vol. 5, no. 2, pp. 3227–3234, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "M. J",
+          "author_candidates": [
+            "M\u0000J"
+          ],
+          "title_candidate": "Islam, Y. Xia, and J. Sattar, “Fast underwater image enhancement for improved visual perception,” IEEE Robotics Autom",
+          "container_candidate": "Lett., vol. 5, no. 2, pp. 3227–3234,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "M. J",
+          "author_candidates": [
+            "M\u0000J"
+          ],
+          "title_candidate": "Islam, Y. Xia, and J. Sattar, “Fast underwater image enhancement for improved visual perception,” IEEE Robotics Autom. Lett., vol. 5, no. 2, pp. 3227–3234",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "M. J",
+          "author_candidates": [
+            "M\u0000J"
+          ],
+          "title_candidate": "Islam, Y. Xia, and J. Sattar, “Fast underwater image enhancement for improved visual perception,” IEEE Robotics Autom. Lett., vol. 5, no. 2, pp. 3227–3234, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Z. Bao, M. Hebert, and Y.-X. Wang, “Generative modeling for multi-task visual learning,” in ICML, 2022, pp. 1537–1554.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "ieee_quote_title",
+          "author_text": "Z. Bao, M. Hebert, and Y.-X. Wang",
+          "author_candidates": [
+            "Bao, M"
+          ],
+          "title_candidate": "Generative modeling for multi-task visual learning",
+          "container_candidate": "in ICML, 2022, pp. 1537–1554",
+          "year_candidate": 2022,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Z. Bao, M. Hebert, and Y.-X",
+          "author_candidates": [
+            "Bao, M"
+          ],
+          "title_candidate": "Wang, “Generative modeling for multi-task visual learning,” in ICML, 2022, pp",
+          "container_candidate": "1537–1554",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Z. Bao, M. Hebert, and Y.-X",
+          "author_candidates": [
+            "Bao, M"
+          ],
+          "title_candidate": "Wang, “Generative modeling for multi-task visual learning,” in ICML, 2022, pp. 1537–1554",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Z. Bao, M. Hebert, and Y.-X",
+          "author_candidates": [
+            "Bao, M"
+          ],
+          "title_candidate": "Wang, “Generative modeling for multi-task visual learning,” in ICML, 2022, pp. 1537–1554",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] C. Doersch and A. Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp. 2070–2079.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Doersch and A. Zisserman",
+          "author_candidates": [
+            "C\u0000Doersch",
+            "A\u0000Zisserman"
+          ],
+          "title_candidate": "Multi-task self-supervised visual learning",
+          "container_candidate": "in ICCV, 2017, pp. 2070–2079",
+          "year_candidate": 2017,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Doersch and A. Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp",
+          "author_candidates": [
+            "C\u0000Doersch",
+            "A\u0000Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp"
+          ],
+          "title_candidate": "2070–2079",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Doersch and A. Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp",
+          "author_candidates": [
+            "C\u0000Doersch",
+            "A\u0000Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp"
+          ],
+          "title_candidate": "2070–",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Doersch and A. Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp",
+          "author_candidates": [
+            "C\u0000Doersch",
+            "A\u0000Zisserman, “Multi-task self-supervised visual learning,” in ICCV, 2017, pp"
+          ],
+          "title_candidate": "2070–2079",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] M. Teichmann, M. Weber, J. M. Zollner, R. Cipolla, and R. Urtasun, ¨ “Multinet: Real-time joint semantic reasoning for autonomous driving,” in IEEE Intelligent Vehicles Symposium, 2018, pp. 1013–1020.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "M. Teichmann, M. Weber, J. M",
+          "author_candidates": [
+            "Teichmann, M",
+            "Weber, J"
+          ],
+          "title_candidate": "Zollner, R. Cipolla, and R. Urtasun, ¨ “Multinet: Real-time joint semantic reasoning for autonomous driving,” in IEEE Intelligent Vehicles Symposium, 2018, pp",
+          "container_candidate": "1013–1020",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "M. Teichmann, M. Weber, J. M. Zollner, R. Cipolla, and R. Urtasun, ¨ “Multinet",
+          "author_candidates": [
+            "Teichmann, M",
+            "Weber, J",
+            "Zollner, R"
+          ],
+          "title_candidate": "Real-time joint semantic reasoning for autonomous driving,” in IEEE Intelligent Vehicles Symposium, 2018, pp. 1013–1020",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "M. Teichmann, M. Weber, J. M. Zollner, R. Cipolla, and R. Urtasun, ¨ “Multinet",
+          "author_candidates": [
+            "Teichmann, M",
+            "Weber, J",
+            "Zollner, R"
+          ],
+          "title_candidate": "Real-time joint semantic reasoning for autonomous driving,” in IEEE Intelligent Vehicles Symposium, 2018, pp. 1013–1020",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] A. Kendall, Y. Gal, and R. Cipolla, “Multi-task learning using uncertainty to weigh losses for scene geometry and semantics,” in CVPR, 2018, pp. 7482–7491.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "ieee_quote_title",
+          "author_text": "A. Kendall, Y. Gal, and R. Cipolla",
+          "author_candidates": [
+            "Kendall, Y"
+          ],
+          "title_candidate": "Multi-task learning using uncertainty to weigh losses for scene geometry and semantics",
+          "container_candidate": "in CVPR, 2018, pp. 7482–7491",
+          "year_candidate": 2018,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "A. Kendall, Y. Gal, and R. Cipolla, “Multi-task learning using uncertainty to weigh losses for scene geometry and semantics,” in CVPR, 2018, pp",
+          "author_candidates": [
+            "Kendall, Y"
+          ],
+          "title_candidate": "7482–7491",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "A. Kendall, Y. Gal, and R. Cipolla, “Multi-task learning using uncertainty to weigh losses for scene geometry and semantics,” in CVPR, 2018, pp",
+          "author_candidates": [
+            "Kendall, Y"
+          ],
+          "title_candidate": "7482–7491",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "A. Kendall, Y. Gal, and R. Cipolla, “Multi-task learning using uncertainty to weigh losses for scene geometry and semantics,” in CVPR, 2018, pp",
+          "author_candidates": [
+            "Kendall, Y"
+          ],
+          "title_candidate": "7482–7491",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi, “You only look once: Unified, real-time object detection,” in CVPR, 2016, pp. 779– 788.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi",
+          "author_candidates": [
+            "Redmon, S",
+            "Divvala, R"
+          ],
+          "title_candidate": "You only look once: Unified, real-time object detection",
+          "container_candidate": "in CVPR, 2016, pp. 779– 788",
+          "year_candidate": 2016,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Redmon, S. K",
+          "author_candidates": [
+            "Redmon, S"
+          ],
+          "title_candidate": "Divvala, R. B",
+          "container_candidate": "Girshick, and A. Farhadi, “You only look once: Unified, real-time object detection,” in CVPR, 2016, pp. 779– 788",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi, “You only look once",
+          "author_candidates": [
+            "Redmon, S",
+            "Divvala, R"
+          ],
+          "title_candidate": "Unified, real-time object detection,” in CVPR, 2016, pp. 779– 788",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi, “You only look once",
+          "author_candidates": [
+            "Redmon, S",
+            "Divvala, R"
+          ],
+          "title_candidate": "Unified, real-time object detection,” in CVPR, 2016, pp. 779– 788",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. E. Reed, C. Fu, and A. C. Berg, “SSD: single shot multibox detector,” in ECCV, vol. 9905, 2016, pp. 21–37.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "ieee_quote_title",
+          "author_text": "W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. E. Reed, C. Fu, and A. C. Berg",
+          "author_candidates": [
+            "Liu, D",
+            "Anguelov, D",
+            "Erhan, C",
+            "Szegedy, S",
+            "Reed, C"
+          ],
+          "title_candidate": "SSD: single shot multibox detector",
+          "container_candidate": "in ECCV, vol. 9905, 2016, pp. 21–37",
+          "year_candidate": 2016,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. E",
+          "author_candidates": [
+            "Liu, D",
+            "Anguelov, D",
+            "Erhan, C",
+            "Szegedy, S"
+          ],
+          "title_candidate": "Reed, C. Fu, and A. C",
+          "container_candidate": "Berg, “SSD: single shot multibox detector,” in ECCV, vol. 9905, 2016, pp. 21–37",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. E. Reed, C. Fu, and A. C. Berg, “SSD",
+          "author_candidates": [
+            "Liu, D",
+            "Anguelov, D",
+            "Erhan, C",
+            "Szegedy, S",
+            "Reed, C"
+          ],
+          "title_candidate": "single shot multibox detector,” in ECCV, vol. 9905, 2016, pp. 21–37",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. E. Reed, C. Fu, and A. C. Berg, “SSD",
+          "author_candidates": [
+            "Liu, D",
+            "Anguelov, D",
+            "Erhan, C",
+            "Szegedy, S",
+            "Reed, C"
+          ],
+          "title_candidate": "single shot multibox detector,” in ECCV, vol. 9905, 2016, pp. 21–37",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” IEEE TPAMI, vol. 42, no. 2, pp. 318–327, 2020.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "ieee_quote_title",
+          "author_text": "T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar",
+          "author_candidates": [
+            "Lin, P",
+            "Goyal, R",
+            "Girshick, K"
+          ],
+          "title_candidate": "Focal loss for ´ dense object detection",
+          "container_candidate": "IEEE TPAMI, vol. 42, no. 2, pp. 318–327, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "T. Lin, P. Goyal, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Goyal, R"
+          ],
+          "title_candidate": "Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” IEEE TPAMI, vol",
+          "container_candidate": "42, no. 2, pp. 318–327,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "T. Lin, P. Goyal, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Goyal, R"
+          ],
+          "title_candidate": "Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” IEEE TPAMI, vol. 42, no. 2, pp. 318–327",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "T. Lin, P. Goyal, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Goyal, R"
+          ],
+          "title_candidate": "Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” IEEE TPAMI, vol. 42, no. 2, pp. 318–327, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] C. Zhu, Y. He, and M. Savvides, “Feature selective anchor-free module for single-shot object detection,” in CVPR, 2019, pp. 840–849.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Zhu, Y. He, and M. Savvides",
+          "author_candidates": [
+            "Zhu, Y"
+          ],
+          "title_candidate": "Feature selective anchor-free module for single-shot object detection",
+          "container_candidate": "in CVPR, 2019, pp. 840–849",
+          "year_candidate": 2019,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Zhu, Y. He, and M. Savvides, “Feature selective anchor-free module for single-shot object detection,” in CVPR, 2019, pp",
+          "author_candidates": [
+            "Zhu, Y"
+          ],
+          "title_candidate": "840–849",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Zhu, Y. He, and M. Savvides, “Feature selective anchor-free module for single-shot object detection,” in CVPR, 2019, pp",
+          "author_candidates": [
+            "Zhu, Y"
+          ],
+          "title_candidate": "840–849",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Zhu, Y. He, and M. Savvides, “Feature selective anchor-free module for single-shot object detection,” in CVPR, 2019, pp",
+          "author_candidates": [
+            "Zhu, Y"
+          ],
+          "title_candidate": "840–849",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] X. Zhang, F. Wan, C. Liu, R. Ji, and Q. Ye, “Freeanchor: Learning to match anchors for visual object detection,” in NIPS, 2019, pp. 147–155.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "ieee_quote_title",
+          "author_text": "X. Zhang, F. Wan, C. Liu, R. Ji, and Q. Ye",
+          "author_candidates": [
+            "Zhang, F",
+            "Wan, C",
+            "Liu, R"
+          ],
+          "title_candidate": "Freeanchor: Learning to match anchors for visual object detection",
+          "container_candidate": "in NIPS, 2019, pp. 147–155",
+          "year_candidate": 2019,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "X. Zhang, F. Wan, C. Liu, R. Ji, and Q. Ye, “Freeanchor: Learning to match anchors for visual object detection,” in NIPS, 2019, pp",
+          "author_candidates": [
+            "Zhang, F",
+            "Wan, C",
+            "Liu, R"
+          ],
+          "title_candidate": "147–155",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "X. Zhang, F. Wan, C. Liu, R. Ji, and Q. Ye, “Freeanchor",
+          "author_candidates": [
+            "Zhang, F",
+            "Wan, C",
+            "Liu, R"
+          ],
+          "title_candidate": "Learning to match anchors for visual object detection,” in NIPS, 2019, pp. 147–155",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "X. Zhang, F. Wan, C. Liu, R. Ji, and Q. Ye, “Freeanchor",
+          "author_candidates": [
+            "Zhang, F",
+            "Wan, C",
+            "Liu, R"
+          ],
+          "title_candidate": "Learning to match anchors for visual object detection,” in NIPS, 2019, pp. 147–155",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] T. Kong, F. Sun, H. Liu, Y. Jiang, L. Li, and J. Shi, “Foveabox: Beyound anchor-based object detection,” IEEE TIP, vol. 29, pp. 7389–7398, 2020.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "ieee_quote_title",
+          "author_text": "T. Kong, F. Sun, H. Liu, Y. Jiang, L. Li, and J. Shi",
+          "author_candidates": [
+            "Kong, F",
+            "Sun, H",
+            "Liu, Y",
+            "Jiang, L"
+          ],
+          "title_candidate": "Foveabox: Beyound anchor-based object detection",
+          "container_candidate": "IEEE TIP, vol. 29, pp. 7389–7398, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "T. Kong, F. Sun, H. Liu, Y. Jiang, L. Li, and J. Shi, “Foveabox: Beyound anchor-based object detection,” IEEE TIP, vol",
+          "author_candidates": [
+            "Kong, F",
+            "Sun, H",
+            "Liu, Y",
+            "Jiang, L"
+          ],
+          "title_candidate": "29, pp",
+          "container_candidate": "7389–7398,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "T. Kong, F. Sun, H. Liu, Y. Jiang, L. Li, and J. Shi, “Foveabox",
+          "author_candidates": [
+            "Kong, F",
+            "Sun, H",
+            "Liu, Y",
+            "Jiang, L"
+          ],
+          "title_candidate": "Beyound anchor-based object detection,” IEEE TIP, vol. 29, pp. 7389–7398",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "T. Kong, F. Sun, H. Liu, Y. Jiang, L. Li, and J. Shi, “Foveabox",
+          "author_candidates": [
+            "Kong, F",
+            "Sun, H",
+            "Liu, Y",
+            "Jiang, L"
+          ],
+          "title_candidate": "Beyound anchor-based object detection,” IEEE TIP, vol. 29, pp. 7389–7398, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] R. L. Wanqi Yuan, Chenping Fu and X. Fan, “Ssob: Searching a scene-oriented architecture for underwater object detection,” The Visual Computer, 2022.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "ieee_quote_title",
+          "author_text": "R. L. Wanqi Yuan, Chenping Fu and X. Fan",
+          "author_candidates": [
+            "Yuan, Chenping Fu"
+          ],
+          "title_candidate": "Ssob: Searching a scene-oriented architecture for underwater object detection",
+          "container_candidate": "The Visual Computer, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "R. L",
+          "author_candidates": [
+            "R\u0000L"
+          ],
+          "title_candidate": "Wanqi Yuan, Chenping Fu and X. Fan, “Ssob: Searching a scene-oriented architecture for underwater object detection,” The Visual Computer, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "R. L. Wanqi Yuan, Chenping Fu and X. Fan, “Ssob",
+          "author_candidates": [
+            "Yuan, Chenping Fu"
+          ],
+          "title_candidate": "Searching a scene-oriented architecture for underwater object detection,” The Visual Computer",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "R. L. Wanqi Yuan, Chenping Fu and X. Fan, “Ssob",
+          "author_candidates": [
+            "Yuan, Chenping Fu"
+          ],
+          "title_candidate": "Searching a scene-oriented architecture for underwater object detection,” The Visual Computer, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] R. Liu, J. Gao, J. Zhang, D. Meng, and Z. Lin, “Investigating bi-level optimization for learning and vision from a unified perspective: A survey and beyond,” IEEE TPAMI, 2021.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "ieee_quote_title",
+          "author_text": "R. Liu, J. Gao, J. Zhang, D. Meng, and Z. Lin",
+          "author_candidates": [
+            "Liu, J",
+            "Gao, J",
+            "Zhang, D"
+          ],
+          "title_candidate": "Investigating bi-level optimization for learning and vision from a unified perspective: A survey and beyond",
+          "container_candidate": "IEEE TPAMI, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "R. Liu, J. Gao, J. Zhang, D. Meng, and Z. Lin, “Investigating bi-level optimization for learning and vision from a unified perspective",
+          "author_candidates": [
+            "Liu, J",
+            "Gao, J",
+            "Zhang, D"
+          ],
+          "title_candidate": "A survey and beyond,” IEEE TPAMI",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "R. Liu, J. Gao, J. Zhang, D. Meng, and Z. Lin, “Investigating bi-level optimization for learning and vision from a unified perspective",
+          "author_candidates": [
+            "Liu, J",
+            "Gao, J",
+            "Zhang, D"
+          ],
+          "title_candidate": "A survey and beyond,” IEEE TPAMI, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] P. Ochs, R. Ranftl, T. Brox, and T. Pock, “Bilevel optimization with nonsmooth lower level problems,” in SSVM, vol. 9087, 2015, pp. 654– 665.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "ieee_quote_title",
+          "author_text": "P. Ochs, R. Ranftl, T. Brox, and T. Pock",
+          "author_candidates": [
+            "Ochs, R",
+            "Ranftl, T"
+          ],
+          "title_candidate": "Bilevel optimization with nonsmooth lower level problems",
+          "container_candidate": "in SSVM, vol. 9087, 2015, pp. 654– 665",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "P. Ochs, R. Ranftl, T. Brox, and T. Pock, “Bilevel optimization with nonsmooth lower level problems,” in SSVM, vol",
+          "author_candidates": [
+            "Ochs, R",
+            "Ranftl, T"
+          ],
+          "title_candidate": "9087, 2015, pp",
+          "container_candidate": "654– 665",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "P. Ochs, R. Ranftl, T. Brox, and T. Pock, “Bilevel optimization with nonsmooth lower level problems,” in SSVM, vol",
+          "author_candidates": [
+            "Ochs, R",
+            "Ranftl, T"
+          ],
+          "title_candidate": "9087, 2015, pp. 654– 665",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "P. Ochs, R. Ranftl, T. Brox, and T. Pock, “Bilevel optimization with nonsmooth lower level problems,” in SSVM, vol",
+          "author_candidates": [
+            "Ochs, R",
+            "Ranftl, T"
+          ],
+          "title_candidate": "9087, 2015, pp. 654– 665",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34] T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” in ICCV, 2017, pp. 2999–3007.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "ieee_quote_title",
+          "author_text": "T. Lin, P. Goyal, R. B. Girshick, K. He, and P. Dollar",
+          "author_candidates": [
+            "Lin, P",
+            "Goyal, R",
+            "Girshick, K"
+          ],
+          "title_candidate": "Focal loss for ´ dense object detection",
+          "container_candidate": "in ICCV, 2017, pp. 2999–3007",
+          "year_candidate": 2017,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "T. Lin, P. Goyal, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Goyal, R"
+          ],
+          "title_candidate": "Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” in ICCV, 2017, pp",
+          "container_candidate": "2999–3007",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "T. Lin, P. Goyal, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Goyal, R"
+          ],
+          "title_candidate": "Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” in ICCV, 2017, pp. 2999–3007",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "T. Lin, P. Goyal, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Goyal, R"
+          ],
+          "title_candidate": "Girshick, K. He, and P. Dollar, “Focal loss for ´ dense object detection,” in ICCV, 2017, pp. 2999–3007",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] T. Lin, P. Dollar, R. B. Girshick, K. He, B. Hariharan, and S. J. Belongie, ´ “Feature pyramid networks for object detection,” in CVPR, 2017, pp. 936–944.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "T. Lin, P. Dollar, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Dollar, R"
+          ],
+          "title_candidate": "Girshick, K. He, B. Hariharan, and S. J",
+          "container_candidate": "Belongie, ´ “Feature pyramid networks for object detection,” in CVPR, 2017, pp. 936–944",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "T. Lin, P. Dollar, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Dollar, R"
+          ],
+          "title_candidate": "Girshick, K. He, B. Hariharan, and S. J. Belongie, ´ “Feature pyramid networks for object detection,” in CVPR, 2017, pp. 936–944",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "T. Lin, P. Dollar, R. B",
+          "author_candidates": [
+            "Lin, P",
+            "Dollar, R"
+          ],
+          "title_candidate": "Girshick, K. He, B. Hariharan, and S. J. Belongie, ´ “Feature pyramid networks for object detection,” in CVPR, 2017, pp. 936–944",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[36] C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection: Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256, 2023.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo",
+          "author_candidates": [
+            "Fu, R",
+            "Liu, X",
+            "Fan, P",
+            "Chen, H",
+            "Fu, W",
+            "Yuan, M"
+          ],
+          "title_candidate": "Rethinking general underwater object detection: Datasets, challenges, and solutions",
+          "container_candidate": "Neurocomputing, vol. 517, pp. 243–256, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection: Datasets, challenges, and solutions,” Neurocomputing, vol",
+          "author_candidates": [
+            "Fu, R",
+            "Liu, X",
+            "Fan, P",
+            "Chen, H",
+            "Fu, W",
+            "Yuan, M"
+          ],
+          "title_candidate": "517, pp",
+          "container_candidate": "243–256,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection",
+          "author_candidates": [
+            "Fu, R",
+            "Liu, X",
+            "Fan, P",
+            "Chen, H",
+            "Fu, W",
+            "Yuan, M"
+          ],
+          "title_candidate": "Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection",
+          "author_candidates": [
+            "Fu, R",
+            "Liu, X",
+            "Fan, P",
+            "Chen, H",
+            "Fu, W",
+            "Yuan, M"
+          ],
+          "title_candidate": "Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[37] C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, and D. Tao, “An underwater image enhancement benchmark dataset and beyond,” IEEE TIP, vol. 29, pp. 4376–4389, 2020.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, and D. Tao",
+          "author_candidates": [
+            "Li, C",
+            "Guo, W",
+            "Ren, R",
+            "Cong, J",
+            "Hou, S"
+          ],
+          "title_candidate": "An underwater image enhancement benchmark dataset and beyond",
+          "container_candidate": "IEEE TIP, vol. 29, pp. 4376–4389, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, and D. Tao, “An underwater image enhancement benchmark dataset and beyond,” IEEE TIP, vol",
+          "author_candidates": [
+            "Li, C",
+            "Guo, W",
+            "Ren, R",
+            "Cong, J",
+            "Hou, S"
+          ],
+          "title_candidate": "29, pp",
+          "container_candidate": "4376–4389,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, and D. Tao, “An underwater image enhancement benchmark dataset and beyond,” IEEE TIP, vol",
+          "author_candidates": [
+            "Li, C",
+            "Guo, W",
+            "Ren, R",
+            "Cong, J",
+            "Hou, S"
+          ],
+          "title_candidate": "29, pp. 4376–4389",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, and D. Tao, “An underwater image enhancement benchmark dataset and beyond,” IEEE TIP, vol",
+          "author_candidates": [
+            "Li, C",
+            "Guo, W",
+            "Ren, R",
+            "Cong, J",
+            "Hou, S"
+          ],
+          "title_candidate": "29, pp. 4376–4389, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[38] H. Blasinski, T. Lian, and J. E. Farrell, “Underwater image systems simulation,” Rundbrief Der Gi-fachgruppe 5.10 Informationssystemarchitekturen, 2017.",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "ieee_quote_title",
+          "author_text": "H. Blasinski, T. Lian, and J. E. Farrell",
+          "author_candidates": [
+            "Blasinski, T"
+          ],
+          "title_candidate": "Underwater image systems simulation",
+          "container_candidate": "Rundbrief Der Gi-fachgruppe 5.10 Informationssystemarchitekturen, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "H. Blasinski, T. Lian, and J. E",
+          "author_candidates": [
+            "Blasinski, T"
+          ],
+          "title_candidate": "Farrell, “Underwater image systems simulation,” Rundbrief Der Gi-fachgruppe 5.10 Informationssystemarchitekturen, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "H. Blasinski, T. Lian, and J. E",
+          "author_candidates": [
+            "Blasinski, T"
+          ],
+          "title_candidate": "Farrell, “Underwater image systems simulation,” Rundbrief Der Gi-fachgruppe 5.10 Informationssystemarchitekturen",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "H. Blasinski, T. Lian, and J. E",
+          "author_candidates": [
+            "Blasinski, T"
+          ],
+          "title_candidate": "Farrell, “Underwater image systems simulation,” Rundbrief Der Gi-fachgruppe 5.10 Informationssystemarchitekturen, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[39] A. Duarte, F. Codevilla, J. D. O. Gaya, and S. S. C. Botelho, “A dataset to evaluate underwater image restoration methods,” in OCEANS, 2016, pp. 1–6.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "ieee_quote_title",
+          "author_text": "A. Duarte, F. Codevilla, J. D. O. Gaya, and S. S. C. Botelho",
+          "author_candidates": [
+            "Duarte, F",
+            "Codevilla, J"
+          ],
+          "title_candidate": "A dataset to evaluate underwater image restoration methods",
+          "container_candidate": "in OCEANS, 2016, pp. 1–6",
+          "year_candidate": 2016,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "A. Duarte, F. Codevilla, J. D",
+          "author_candidates": [
+            "Duarte, F",
+            "Codevilla, J"
+          ],
+          "title_candidate": "O",
+          "container_candidate": "Gaya, and S. S. C. Botelho, “A dataset to evaluate underwater image restoration methods,” in OCEANS, 2016, pp. 1–6",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "A. Duarte, F. Codevilla, J. D",
+          "author_candidates": [
+            "Duarte, F",
+            "Codevilla, J"
+          ],
+          "title_candidate": "O. Gaya, and S. S. C. Botelho, “A dataset to evaluate underwater image restoration methods,” in OCEANS, 2016, pp. 1–6",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "A. Duarte, F. Codevilla, J. D",
+          "author_candidates": [
+            "Duarte, F",
+            "Codevilla, J"
+          ],
+          "title_candidate": "O. Gaya, and S. S. C. Botelho, “A dataset to evaluate underwater image restoration methods,” in OCEANS, 2016, pp. 1–6",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[40] C. Li, S. Anwar, and F. Porikli, “Underwater scene prior inspired deep underwater image and video enhancement,” Pattern Recognit., vol. 98, 2020.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Li, S. Anwar, and F. Porikli",
+          "author_candidates": [
+            "Li, S"
+          ],
+          "title_candidate": "Underwater scene prior inspired deep underwater image and video enhancement",
+          "container_candidate": "Pattern Recognit., vol. 98, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 39,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Li, S. Anwar, and F. Porikli, “Underwater scene prior inspired deep underwater image and video enhancement,” Pattern Recognit., vol",
+          "author_candidates": [
+            "Li, S"
+          ],
+          "title_candidate": "98, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 39,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Li, S. Anwar, and F. Porikli, “Underwater scene prior inspired deep underwater image and video enhancement,” Pattern Recognit., vol",
+          "author_candidates": [
+            "Li, S"
+          ],
+          "title_candidate": "98",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Li, S. Anwar, and F. Porikli, “Underwater scene prior inspired deep underwater image and video enhancement,” Pattern Recognit., vol",
+          "author_candidates": [
+            "Li, S"
+          ],
+          "title_candidate": "98, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[41] M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The cityscapes dataset for semantic urban scene understanding,” in CVPR, 2016, pp. 3213–3223.",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "ieee_quote_title",
+          "author_text": "M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele",
+          "author_candidates": [
+            "Cordts, M",
+            "Omran, S",
+            "Ramos, T",
+            "Rehfeld, M",
+            "Enzweiler, R",
+            "Benenson, U",
+            "Franke, S"
+          ],
+          "title_candidate": "The cityscapes dataset for semantic urban scene understanding",
+          "container_candidate": "in CVPR, 2016, pp. 3213–3223",
+          "year_candidate": 2016,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The cityscapes dataset for semantic urban scene understanding,” in CVPR, 2016, pp",
+          "author_candidates": [
+            "Cordts, M",
+            "Omran, S",
+            "Ramos, T",
+            "Rehfeld, M",
+            "Enzweiler, R",
+            "Benenson, U",
+            "Franke, S"
+          ],
+          "title_candidate": "3213–3223",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The cityscapes dataset for semantic urban scene understanding,” in CVPR, 2016, pp",
+          "author_candidates": [
+            "Cordts, M",
+            "Omran, S",
+            "Ramos, T",
+            "Rehfeld, M",
+            "Enzweiler, R",
+            "Benenson, U",
+            "Franke, S"
+          ],
+          "title_candidate": "3213–3223",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The cityscapes dataset for semantic urban scene understanding,” in CVPR, 2016, pp",
+          "author_candidates": [
+            "Cordts, M",
+            "Omran, S",
+            "Ramos, T",
+            "Rehfeld, M",
+            "Enzweiler, R",
+            "Benenson, U",
+            "Franke, S"
+          ],
+          "title_candidate": "3213–3223",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "[42] J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei, “Imagenet: A large-scale hierarchical image database,” in CVPR, 2009, pp. 248–255.",
+      "detected_ref_number": 42,
+      "numbering": {
+        "detected_ref_number": 42,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei",
+          "author_candidates": [
+            "Deng, W",
+            "Dong, R",
+            "Socher, L",
+            "Li, K"
+          ],
+          "title_candidate": "Imagenet: A large-scale hierarchical image database",
+          "container_candidate": "in CVPR, 2009, pp. 248–255",
+          "year_candidate": 2009,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 41,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei, “Imagenet: A large-scale hierarchical image database,” in CVPR, 2009, pp",
+          "author_candidates": [
+            "Deng, W",
+            "Dong, R",
+            "Socher, L",
+            "Li, K"
+          ],
+          "title_candidate": "248–255",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 41,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei, “Imagenet",
+          "author_candidates": [
+            "Deng, W",
+            "Dong, R",
+            "Socher, L",
+            "Li, K"
+          ],
+          "title_candidate": "A large-scale hierarchical image database,” in CVPR, 2009, pp. 248–255",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 41,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei, “Imagenet",
+          "author_candidates": [
+            "Deng, W",
+            "Dong, R",
+            "Socher, L",
+            "Li, K"
+          ],
+          "title_candidate": "A large-scale hierarchical image database,” in CVPR, 2009, pp. 248–255",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "[43] H. Song, L. Chang, Z. Chen, and P. Ren, “Enhancement-registrationhomogenization (ERH): A comprehensive underwater visual reconstruction paradigm,” IEEE TPAMI, vol. 44, no. 10, pp. 6953–6967, 2022.",
+      "detected_ref_number": 43,
+      "numbering": {
+        "detected_ref_number": 43,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "ieee_quote_title",
+          "author_text": "H. Song, L. Chang, Z. Chen, and P. Ren",
+          "author_candidates": [
+            "Song, L",
+            "Chang, Z"
+          ],
+          "title_candidate": "Enhancement-registrationhomogenization (ERH): A comprehensive underwater visual reconstruction paradigm",
+          "container_candidate": "IEEE TPAMI, vol. 44, no. 10, pp. 6953–6967, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "H. Song, L. Chang, Z. Chen, and P. Ren, “Enhancement-registrationhomogenization (ERH): A comprehensive underwater visual reconstruction paradigm,” IEEE TPAMI, vol",
+          "author_candidates": [
+            "Song, L",
+            "Chang, Z"
+          ],
+          "title_candidate": "44, no",
+          "container_candidate": "10, pp. 6953–6967,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "H. Song, L. Chang, Z. Chen, and P. Ren, “Enhancement-registrationhomogenization (ERH)",
+          "author_candidates": [
+            "Song, L",
+            "Chang, Z"
+          ],
+          "title_candidate": "A comprehensive underwater visual reconstruction paradigm,” IEEE TPAMI, vol. 44, no. 10, pp. 6953–6967",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "H. Song, L. Chang, Z. Chen, and P. Ren, “Enhancement-registrationhomogenization (ERH)",
+          "author_candidates": [
+            "Song, L",
+            "Chang, Z"
+          ],
+          "title_candidate": "A comprehensive underwater visual reconstruction paradigm,” IEEE TPAMI, vol. 44, no. 10, pp. 6953–6967, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 43,
+      "raw": "[44] C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection: Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256, 2023.",
+      "detected_ref_number": 44,
+      "numbering": {
+        "detected_ref_number": 44,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 43,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo",
+          "author_candidates": [
+            "Fu, R",
+            "Liu, X",
+            "Fan, P",
+            "Chen, H",
+            "Fu, W",
+            "Yuan, M"
+          ],
+          "title_candidate": "Rethinking general underwater object detection: Datasets, challenges, and solutions",
+          "container_candidate": "Neurocomputing, vol. 517, pp. 243–256, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 43,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection: Datasets, challenges, and solutions,” Neurocomputing, vol",
+          "author_candidates": [
+            "Fu, R",
+            "Liu, X",
+            "Fan, P",
+            "Chen, H",
+            "Fu, W",
+            "Yuan, M"
+          ],
+          "title_candidate": "517, pp",
+          "container_candidate": "243–256,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 43,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection",
+          "author_candidates": [
+            "Fu, R",
+            "Liu, X",
+            "Fan, P",
+            "Chen, H",
+            "Fu, W",
+            "Yuan, M"
+          ],
+          "title_candidate": "Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 43,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Fu, R. Liu, X. Fan, P. Chen, H. Fu, W. Yuan, M. Zhu, and Z. Luo, “Rethinking general underwater object detection",
+          "author_candidates": [
+            "Fu, R",
+            "Liu, X",
+            "Fan, P",
+            "Chen, H",
+            "Fu, W",
+            "Yuan, M"
+          ],
+          "title_candidate": "Datasets, challenges, and solutions,” Neurocomputing, vol. 517, pp. 243–256, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 44,
+      "raw": "[45] S. Wang, K. Ma, H. Yeganeh, Z. Wang, and W. Lin, “A patch-structure representation method for quality assessment of contrast changed images,” IEEE Signal Process. Lett., vol. 22, no. 12, pp. 2387–2390, 2015.",
+      "detected_ref_number": 45,
+      "numbering": {
+        "detected_ref_number": 45,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 44,
+          "pattern": "ieee_quote_title",
+          "author_text": "S. Wang, K. Ma, H. Yeganeh, Z. Wang, and W. Lin",
+          "author_candidates": [
+            "Wang, K",
+            "Ma, H",
+            "Yeganeh, Z"
+          ],
+          "title_candidate": "A patch-structure representation method for quality assessment of contrast changed images",
+          "container_candidate": "IEEE Signal Process. Lett., vol. 22, no. 12, pp. 2387–2390, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 44,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "S. Wang, K. Ma, H. Yeganeh, Z. Wang, and W. Lin, “A patch-structure representation method for quality assessment of contrast changed images,” IEEE Signal Process",
+          "author_candidates": [
+            "Wang, K",
+            "Ma, H",
+            "Yeganeh, Z"
+          ],
+          "title_candidate": "Lett., vol",
+          "container_candidate": "22, no. 12, pp. 2387–2390,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 44,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "S. Wang, K. Ma, H. Yeganeh, Z. Wang, and W. Lin, “A patch-structure representation method for quality assessment of contrast changed images,” IEEE Signal Process",
+          "author_candidates": [
+            "Wang, K",
+            "Ma, H",
+            "Yeganeh, Z"
+          ],
+          "title_candidate": "Lett., vol. 22, no. 12, pp. 2387–2390",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 44,
+          "pattern": "fallback_raw_split",
+          "author_text": "S. Wang, K. Ma, H. Yeganeh, Z. Wang, and W. Lin, “A patch-structure representation method for quality assessment of contrast changed images,” IEEE Signal Process",
+          "author_candidates": [
+            "Wang, K",
+            "Ma, H",
+            "Yeganeh, Z"
+          ],
+          "title_candidate": "Lett., vol. 22, no. 12, pp. 2387–2390, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 45,
+      "raw": "[46] K. Panetta, C. Gao, and S. Agaian, “Human-visual-system-inspired underwater image quality measures,” IEEE Journal of Oceanic Engineering, vol. 41, no. 3, pp. 541–551, 2016.",
+      "detected_ref_number": 46,
+      "numbering": {
+        "detected_ref_number": 46,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 45,
+          "pattern": "ieee_quote_title",
+          "author_text": "K. Panetta, C. Gao, and S. Agaian",
+          "author_candidates": [
+            "Panetta, C"
+          ],
+          "title_candidate": "Human-visual-system-inspired underwater image quality measures",
+          "container_candidate": "IEEE Journal of Oceanic Engineering, vol. 41, no. 3, pp. 541–551, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 45,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "K. Panetta, C. Gao, and S. Agaian, “Human-visual-system-inspired underwater image quality measures,” IEEE Journal of Oceanic Engineering, vol",
+          "author_candidates": [
+            "Panetta, C"
+          ],
+          "title_candidate": "41, no",
+          "container_candidate": "3, pp. 541–551,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 45,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "K. Panetta, C. Gao, and S. Agaian, “Human-visual-system-inspired underwater image quality measures,” IEEE Journal of Oceanic Engineering, vol",
+          "author_candidates": [
+            "Panetta, C"
+          ],
+          "title_candidate": "41, no. 3, pp. 541–551",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 45,
+          "pattern": "fallback_raw_split",
+          "author_text": "K. Panetta, C. Gao, and S. Agaian, “Human-visual-system-inspired underwater image quality measures,” IEEE Journal of Oceanic Engineering, vol",
+          "author_candidates": [
+            "Panetta, C"
+          ],
+          "title_candidate": "41, no. 3, pp. 541–551, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 46,
+      "raw": "[47] A. Mittal, R. Soundararajan, and A. C. Bovik, “Making a ”completely blind” image quality analyzer,” IEEE Signal Process. Lett., vol. 20, no. 3, pp. 209–212, 2013.",
+      "detected_ref_number": 47,
+      "numbering": {
+        "detected_ref_number": 47,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 46,
+          "pattern": "ieee_quote_title",
+          "author_text": "A. Mittal, R. Soundararajan, and A. C. Bovik",
+          "author_candidates": [
+            "Mittal, R"
+          ],
+          "title_candidate": "Making a",
+          "container_candidate": "completely blind” image quality analyzer,” IEEE Signal Process. Lett., vol. 20, no. 3, pp. 209–212, 2013",
+          "year_candidate": 2013,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 46,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "A. Mittal, R. Soundararajan, and A. C",
+          "author_candidates": [
+            "Mittal, R"
+          ],
+          "title_candidate": "Bovik, “Making a ”completely blind” image quality analyzer,” IEEE Signal Process",
+          "container_candidate": "Lett., vol. 20, no. 3, pp. 209–212,",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 46,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "A. Mittal, R. Soundararajan, and A. C",
+          "author_candidates": [
+            "Mittal, R"
+          ],
+          "title_candidate": "Bovik, “Making a ”completely blind” image quality analyzer,” IEEE Signal Process. Lett., vol. 20, no. 3, pp. 209–212",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 46,
+          "pattern": "fallback_raw_split",
+          "author_text": "A. Mittal, R. Soundararajan, and A. C",
+          "author_candidates": [
+            "Mittal, R"
+          ],
+          "title_candidate": "Bovik, “Making a ”completely blind” image quality analyzer,” IEEE Signal Process. Lett., vol. 20, no. 3, pp. 209–212, 2013",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 47,
+      "raw": "[48] P. D. Jr., E. R. Nascimento, S. S. C. Botelho, and M. F. M. Campos, “Underwater depth estimation and image restoration based on single images,” IEEE Computer Graphics and Applications, vol. 36, no. 2, pp. 24–35, 2016.",
+      "detected_ref_number": 48,
+      "numbering": {
+        "detected_ref_number": 48,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 47,
+          "pattern": "ieee_quote_title",
+          "author_text": "P. D. Jr., E. R. Nascimento, S. S. C. Botelho, and M. F. M. Campos",
+          "author_candidates": [
+            "Nascimento, S"
+          ],
+          "title_candidate": "Underwater depth estimation and image restoration based on single images",
+          "container_candidate": "IEEE Computer Graphics and Applications, vol. 36, no. 2, pp. 24–35, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 47,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "P. D",
+          "author_candidates": [
+            "P\u0000D"
+          ],
+          "title_candidate": "Jr., E. R",
+          "container_candidate": "Nascimento, S. S. C. Botelho, and M. F. M. Campos, “Underwater depth estimation and image restoration based on single images,” IEEE Computer Graphics and Applications, vol. 36, no. 2, pp. 24–35,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 47,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "P. D",
+          "author_candidates": [
+            "P\u0000D"
+          ],
+          "title_candidate": "Jr., E. R. Nascimento, S. S. C. Botelho, and M. F. M. Campos, “Underwater depth estimation and image restoration based on single images,” IEEE Computer Graphics and Applications, vol. 36, no. 2, pp. 24–35",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 47,
+          "pattern": "fallback_raw_split",
+          "author_text": "P. D",
+          "author_candidates": [
+            "P\u0000D"
+          ],
+          "title_candidate": "Jr., E. R. Nascimento, S. S. C. Botelho, and M. F. M. Campos, “Underwater depth estimation and image restoration based on single images,” IEEE Computer Graphics and Applications, vol. 36, no. 2, pp. 24–35, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 44,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 3,
+      "status": "prepared",
+      "entry_start": 45,
+      "entry_end": 47,
+      "metadata": {
+        "entry_count": 3
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=39",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=41",
+    "reference_pattern_ambiguous: entry_index=42",
+    "reference_pattern_ambiguous: entry_index=43",
+    "reference_pattern_ambiguous: entry_index=44",
+    "reference_pattern_ambiguous: entry_index=45",
+    "reference_pattern_ambiguous: entry_index=46",
+    "reference_pattern_ambiguous: entry_index=47",
+    "reference_title_boundary_suspect: entry_index=16 pattern=fallback_raw_split"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 0.9791666666666666,
+    "warning_density": 1.0208333333333333,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

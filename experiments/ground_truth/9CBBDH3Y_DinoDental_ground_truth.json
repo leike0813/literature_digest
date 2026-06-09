@@ -1,0 +1,1289 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/9CBBDH3Y_DinoDental_ Benchmarking DINOv3 as a Unified Vision Encoder for Dental Image Ana.txt",
+  "entry_style": "numeric",
+  "notes": "纯 numeric + 行末引用页码标记。79 entries。部分条目为 WHO 网页引用、GitHub repo、未发表项目。",
+  "items": [
+    {
+      "author": [
+        "Amani Almalki",
+        "Longin Jan Latecki"
+      ],
+      "title": "Self-supervised learning with masked image modeling for teeth numbering, detection of dental restorations, and instance segmentation",
+      "year": 2023,
+      "container": "WACV",
+      "raw": "[1] Amani Almalki and Longin Jan Latecki. Self-supervised learning... In WACV, pages 5594–5603, 2023.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Johan Andreas Balle Rubak",
+        "Khuram Naveed",
+        "Sanyam Jain",
+        "Lukas Esterle",
+        "Alexandros Iosifidis",
+        "Ruben Pauwels"
+      ],
+      "title": "Impact of labeling inaccuracy and image noise on tooth segmentation in panoramic radiographs",
+      "year": 2026,
+      "container": "Dentomaxillofacial Radiology",
+      "raw": "[2] Johan Andreas Balle Rubak... Impact of labeling inaccuracy... Dentomaxillofacial Radiology, page twag001, 2026.",
+      "confidence": 0.95,
+      "notes": "跨行条目",
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Hangbo Bao",
+        "Li Dong",
+        "Songhao Piao",
+        "Furu Wei"
+      ],
+      "title": "BEiT: BERT pre-training of image transformers",
+      "year": 2021,
+      "container": "arXiv:2106.08254",
+      "raw": "[3] Hangbo Bao... Beit... arXiv preprint arXiv:2106.08254, 2021.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Benedikt Boecking",
+        "Naoto Usuyama",
+        "Shruthi Bannur",
+        "Daniel C. Castro",
+        "Anton Schwaighofer",
+        "Stephanie Hyland",
+        "Maria Wetscherek",
+        "Tristan Naumann",
+        "Aditya Nori",
+        "Javier Alvarez-Valle"
+      ],
+      "title": "Making the most of text semantics to improve biomedical vision-language processing",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "[4] Benedikt Boecking... Making the most of text semantics... In ECCV, pages 1–21. Springer, 2022.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Zijian Cai",
+        "Xinquan Yang",
+        "Xuguang Li",
+        "Xiaoling Luo",
+        "Xuechen Li",
+        "Linlin Shen",
+        "He Meng",
+        "Yongqiang Deng"
+      ],
+      "title": "SSAD: Self-supervised auxiliary detection framework for panoramic x-ray based dental disease diagnosis",
+      "year": 2024,
+      "container": "arXiv:2406.13963",
+      "raw": "[5] Zijian Cai... Ssad... arXiv preprint arXiv:2406.13963, 2024.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Mathilde Caron",
+        "Hugo Touvron",
+        "Ishan Misra",
+        "Hervé Jégou",
+        "Julien Mairal",
+        "Piotr Bojanowski",
+        "Armand Joulin"
+      ],
+      "title": "Emerging properties in self-supervised vision transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[6] Mathilde Caron... Emerging properties in self-supervised vision transformers. In ICCV, pages 9650–9660, 2021.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Bingzhi Chen",
+        "Sisi Fu",
+        "Xiaocheng Fang",
+        "Jieyi Cai",
+        "Boya Zhang",
+        "Minhua Lu",
+        "Yishu Liu"
+      ],
+      "title": "OralXrays-9: Towards hospital-scale panoramic x-ray anomaly detection",
+      "year": 2025,
+      "container": "CVPR",
+      "raw": "[7] Bingzhi Chen... Oralxrays-9... In CVPR, pages 15570–15579, 2025.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Bingzhi Chen",
+        "Sisi Fu",
+        "Yishu Liu",
+        "Jiahui Pan",
+        "Guangming Lu",
+        "Zheng Zhang"
+      ],
+      "title": "CariesXrays: Enhancing caries detection in hospital-scale panoramic dental x-rays",
+      "year": 2024,
+      "container": "AAAI",
+      "raw": "[8] Bingzhi Chen... Cariesxrays... In AAAI, volume 38, pages 21940–21948, 2024.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Kai Chen",
+        "Jiaqi Wang",
+        "Jiangmiao Pang",
+        "Yuhang Cao",
+        "Yu Xiong",
+        "Xiaoxiao Li",
+        "Shuyang Sun",
+        "Wansen Feng",
+        "Ziwei Liu",
+        "Jiarui Xu",
+        "Zheng Zhang",
+        "Dazhi Cheng",
+        "Chenchen Zhu",
+        "Tianheng Cheng",
+        "Qijie Zhao",
+        "Buyu Li",
+        "Xin Lu",
+        "Rui Zhu",
+        "Yue Wu",
+        "Jifeng Dai",
+        "Jingdong Wang",
+        "Jianping Shi",
+        "Wanli Ouyang",
+        "Chen Change Loy",
+        "Dahua Lin"
+      ],
+      "title": "MMDetection: Open mmlab detection toolbox and benchmark",
+      "year": 2019,
+      "container": "arXiv:1906.07155",
+      "raw": "[9] Kai Chen... MMDetection... arXiv preprint arXiv:1906.07155, 2019.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Shoufa Chen",
+        "Chongjian Ge",
+        "Zhan Tong",
+        "Jiangliu Wang",
+        "Yibing Song",
+        "Jue Wang",
+        "Ping Luo"
+      ],
+      "title": "AdaptFormer: Adapting vision transformers for scalable visual recognition",
+      "year": 2022,
+      "container": "NeurIPS",
+      "raw": "[10] Shoufa Chen... Adaptformer... NeurIPS, 35:16664–16678, 2022.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Ting Chen",
+        "Simon Kornblith",
+        "Mohammad Norouzi",
+        "Geoffrey Hinton"
+      ],
+      "title": "A simple framework for contrastive learning of visual representations",
+      "year": 2020,
+      "container": "ICML",
+      "raw": "[11] Ting Chen... A simple framework for contrastive learning... In ICML, pages 1597–1607. PMLR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Xinlei Chen",
+        "Saining Xie",
+        "Kaiming He"
+      ],
+      "title": "An empirical study of training self-supervised vision transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[12] Xinlei Chen... An empirical study of training self-supervised vision transformers. In ICCV, pages 9640–9649, 2021.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Xiangxiang Chu",
+        "Zhi Tian",
+        "Yuqing Wang",
+        "Bo Zhang",
+        "Haibing Ren",
+        "Xiaolin Wei",
+        "Huaxia Xia",
+        "Chunhua Shen"
+      ],
+      "title": "Twins: Revisiting the design of spatial attention in vision transformers",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[13] Xiangxiang Chu... Twins... NeurIPS, 34:9355–9366, 2021.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "MMSegmentation",
+        "Contributors"
+      ],
+      "title": "MMSegmentation: OpenMMLab semantic segmentation toolbox",
+      "year": 2020,
+      "container": "https://github.com/open-mmlab/mmsegmentation",
+      "raw": "[14] MMSegmentation Contributors. MMSegmentation... 2020.",
+      "confidence": 0.75,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "MMEngine",
+        "Contributors"
+      ],
+      "title": "MMEngine: OpenMMLab foundational library",
+      "year": 2022,
+      "container": "(software)",
+      "raw": "[15] MMEngine Contributors. MMEngine... 2022.",
+      "confidence": 0.75,
+      "notes": "软件",
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "MMPreTrain",
+        "Contributors"
+      ],
+      "title": "OpenMMLab pre-training toolbox",
+      "year": 2023,
+      "container": "https://github.com/openmmlab/mmpretrain",
+      "raw": "[16] MMPreTrain Contributors. Openmmlab's pre-training toolbox... 2023.",
+      "confidence": 0.75,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Carl Doersch",
+        "Abhinav Gupta",
+        "Alexei A. Efros"
+      ],
+      "title": "Unsupervised visual representation learning by context prediction",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[17] Carl Doersch... Unsupervised visual representation learning by context prediction. In ICCV, pages 1422–1430, 2015.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Alexey Dosovitskiy",
+        "Lucas Beyer",
+        "Alexander Kolesnikov",
+        "Dirk Weissenborn",
+        "Xiaohua Zhai",
+        "Thomas Unterthiner",
+        "Mostafa Dehghani",
+        "Matthias Minderer",
+        "Georg Heigold",
+        "Sylvain Gelly"
+      ],
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "year": 2020,
+      "container": "arXiv:2010.11929",
+      "raw": "[18] Alexey Dosovitskiy... An image is worth 16x16 words... arXiv preprint arXiv:2010.11929, 2020.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Spyros Gidaris",
+        "Praveer Singh",
+        "Nikos Komodakis"
+      ],
+      "title": "Unsupervised representation learning by predicting image rotations",
+      "year": 2018,
+      "container": "arXiv:1803.07728",
+      "raw": "[19] Spyros Gidaris... Unsupervised representation learning by predicting image rotations. arXiv preprint arXiv:1803.07728, 2018.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Jean-Bastien Grill",
+        "Florian Strub",
+        "Florent Altché",
+        "Corentin Tallec",
+        "Pierre Richemond",
+        "Elena Buchatskaya",
+        "Carl Doersch",
+        "Bernardo Avila Pires",
+        "Zhaohan Guo",
+        "Mohammad Gheshlaghi Azar"
+      ],
+      "title": "Bootstrap your own latent: a new approach to self-supervised learning",
+      "year": 2020,
+      "container": "NeurIPS",
+      "raw": "[20] Jean-Bastien Grill... Bootstrap your own latent... NeurIPS, 33:21271–21284, 2020.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Jie Gui",
+        "Tuo Chen",
+        "Jing Zhang",
+        "Qiong Cao",
+        "Zhenan Sun",
+        "Hao Luo",
+        "Dacheng Tao"
+      ],
+      "title": "A survey on self-supervised learning: Algorithms, applications, and future trends",
+      "year": 2024,
+      "container": "TPAMI",
+      "raw": "[21] Jie Gui... A survey on self-supervised learning... TPAMI, 46(12):9052–9071, 2024.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Meng-Hao Guo",
+        "Cheng-Ze Lu",
+        "Qibin Hou",
+        "Zhengning Liu",
+        "Ming-Ming Cheng",
+        "Shi-Min Hu"
+      ],
+      "title": "SegNeXt: Rethinking convolutional attention design for semantic segmentation",
+      "year": 2022,
+      "container": "NeurIPS",
+      "raw": "[22] Meng-Hao Guo... Segnext... NeurIPS, 35:1140–1156, 2022.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Ibrahim Ethem Hamamci",
+        "Sezgin Er",
+        "Enis Simsar",
+        "Atif Emre Yuksel",
+        "Sadullah Gultekin",
+        "Serife Damla Ozdemir",
+        "Kaiyuan Yang",
+        "Hongwei Bran Li",
+        "Sarthak Pati",
+        "Bernd Stadlinger"
+      ],
+      "title": "Dentex: An abnormal tooth detection with dental enumeration and diagnosis benchmark",
+      "year": 2023,
+      "container": "arXiv:2305.19112",
+      "raw": "[23] Ibrahim Ethem Hamamci... Dentex... arXiv preprint arXiv:2305.19112, 2023.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xinlei Chen",
+        "Saining Xie",
+        "Yanghao Li",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Masked autoencoders are scalable vision learners",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[24] Kaiming He... Masked autoencoders... In CVPR, pages 16000–16009, 2022.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Haoqi Fan",
+        "Yuxin Wu",
+        "Saining Xie",
+        "Ross Girshick"
+      ],
+      "title": "Momentum contrast for unsupervised visual representation learning",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[25] Kaiming He... Momentum contrast... In CVPR, pages 9729–9738, 2020.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Georgia Gkioxari",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "[26] Kaiming He... Mask r-cnn. In ICCV, pages 2961–2969, 2017.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[27] Kaiming He... Deep residual learning... In CVPR, pages 770–778, 2016.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Senbao Hou",
+        "Tao Zhou",
+        "Yuncan Liu",
+        "Pei Dang",
+        "Huiling Lu",
+        "Hongbin Shi"
+      ],
+      "title": "Teeth U-Net: A segmentation model of dental panoramic x-ray images",
+      "year": 2023,
+      "container": "Computers in Biology and Medicine",
+      "raw": "[28] Senbao Hou... Teeth u-net... Computers in biology and medicine, 152:106296, 2023.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Neil Houlsby",
+        "Andrei Giurgiu",
+        "Stanislaw Jastrzebski",
+        "Bruna Morrone",
+        "Quentin De Laroussilhe",
+        "Andrea Gesmundo",
+        "Mona Attariyan",
+        "Sylvain Gelly"
+      ],
+      "title": "Parameter-efficient transfer learning for NLP",
+      "year": 2019,
+      "container": "ICML",
+      "raw": "[29] Neil Houlsby... Parameter-efficient transfer learning... In ICML, pages 2790–2799. PMLR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Edward J. Hu",
+        "Yelong Shen",
+        "Phillip Wallis",
+        "Zeyuan Allen-Zhu",
+        "Yuanzhi Li",
+        "Shean Wang",
+        "Liang Wang",
+        "Weizhu Chen"
+      ],
+      "title": "LoRA: Low-rank adaptation of large language models",
+      "year": 2022,
+      "container": "ICLR",
+      "raw": "[30] Edward J Hu... Lora... ICLR, 1(2):3, 2022.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Meiyu Hu",
+        "Qianli Zhang",
+        "Zhenyang Wei",
+        "Pingyi Jia",
+        "Mu Yuan",
+        "Huajie Yu",
+        "Xu-Cheng Yin",
+        "Junran Peng"
+      ],
+      "title": "Self-supervised learning enhances periapical films segmentation with limited labeled data",
+      "year": 2025,
+      "container": "Journal of Dentistry",
+      "raw": "[31] Meiyu Hu... Self-supervised learning enhances periapical films segmentation... Journal of Dentistry, page 106150, 2025.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Chenxi Huang",
+        "Jiaji Wang",
+        "Shuihua Wang",
+        "Yudong Zhang"
+      ],
+      "title": "A review of deep learning in dentistry",
+      "year": 2023,
+      "container": "Neurocomputing",
+      "raw": "[32] Chenxi Huang... A review of deep learning in dentistry. Neurocomputing, 554:126629, 2023.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Shih-Cheng Huang",
+        "Anuj Pareek",
+        "Malte Jensen",
+        "Matthew P. Lungren",
+        "Serena Yeung",
+        "Akshay S. Chaudhari"
+      ],
+      "title": "Self-supervised learning for medical image classification: a systematic review and implementation guidelines",
+      "year": 2023,
+      "container": "NPJ Digital Medicine",
+      "raw": "[33] Shih-Cheng Huang... Self-supervised learning for medical image classification... NPJ Digital Medicine, 6(1):74, 2023.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Shih-Cheng Huang",
+        "Liyue Shen",
+        "Matthew P. Lungren",
+        "Serena Yeung"
+      ],
+      "title": "GLoRIA: A multimodal global-local representation learning framework",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[34] Shih-Cheng Huang... Gloria... In ICCV, pages 3942–3951, 2021.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Menglin Jia",
+        "Luming Tang",
+        "Bor-Chun Chen",
+        "Claire Cardie",
+        "Serge Belongie",
+        "Bharath Hariharan",
+        "Ser-Nam Lim"
+      ],
+      "title": "Visual prompt tuning",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "[35] Menglin Jia... Visual prompt tuning. In ECCV, pages 709–727. Springer, 2022.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Longlong Jing",
+        "Yingli Tian"
+      ],
+      "title": "Self-supervised visual feature learning with deep neural networks: A survey",
+      "year": 2020,
+      "container": "TPAMI",
+      "raw": "[36] Longlong Jing and Yingli Tian. Self-supervised visual feature learning... TPAMI, 43(11):4037–4058, 2020.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Ismail Kayadibi",
+        "Utku Köse",
+        "Gür Emre Güraksın",
+        "Bilgün Çetin"
+      ],
+      "title": "An AI-assisted explainable MTMCNN architecture for detection of mandibular third molar presence",
+      "year": 2025,
+      "container": "International Journal of Medical Informatics",
+      "raw": "[37] Ismail Kayadibi... An ai-assisted explainable mtmcnn... Int. J. Medical Informatics, 195:105724, 2025.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Xiang Li",
+        "Xuan Ma",
+        "Yibai Zhao",
+        "Jingjing Hu",
+        "Jie Liu",
+        "Zhicheng Yang",
+        "Fangkai Han",
+        "Jie Zhang",
+        "Weifan Liu",
+        "Zhongwei Zhou"
+      ],
+      "title": "A multi-center dental panoramic radiography image dataset",
+      "year": 2024,
+      "container": "Journal of Imaging Informatics in Medicine",
+      "raw": "[38] Xiang Li... A multi-center dental panoramic radiography image dataset... J. Imaging Informatics in Medicine, 37(2):831–841, 2024.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Piotr Dollár",
+        "Ross Girshick",
+        "Kaiming He",
+        "Bharath Hariharan",
+        "Serge Belongie"
+      ],
+      "title": "Feature pyramid networks for object detection",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[39] Tsung-Yi Lin... Feature pyramid networks... In CVPR, pages 2117–2125, 2017.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Che Liu",
+        "Yinda Chen",
+        "Haoyuan Shi",
+        "Jinpeng Lu",
+        "Bailiang Jian",
+        "Jiazhen Pan",
+        "Linghan Cai",
+        "Jiayi Wang",
+        "Yundi Zhang",
+        "Jun Li"
+      ],
+      "title": "Does DINOv3 set a new medical vision standard?",
+      "year": 2025,
+      "container": "arXiv:2509",
+      "raw": "[40] Che Liu... Does dinov3 set a new medical vision standard? arXiv e-prints, pages arXiv–2509, 2025.",
+      "confidence": 0.9,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Ze Liu",
+        "Han Hu",
+        "Yutong Lin",
+        "Zhuliang Yao",
+        "Zhenda Xie",
+        "Yixuan Wei",
+        "Jia Ning",
+        "Yue Cao",
+        "Zheng Zhang",
+        "Li Dong"
+      ],
+      "title": "Swin transformer v2: Scaling up capacity and resolution",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[41] Ze Liu... Swin transformer v2... In CVPR, pages 12009–12019, 2022.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Ze Liu",
+        "Yutong Lin",
+        "Yue Cao",
+        "Han Hu",
+        "Yixuan Wei",
+        "Zheng Zhang",
+        "Stephen Lin",
+        "Baining Guo"
+      ],
+      "title": "Swin transformer: Hierarchical vision transformer using shifted windows",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[42] Ze Liu... Swin transformer... In ICCV, pages 10012–10022, 2021.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Zhuang Liu",
+        "Hanzi Mao",
+        "Chao-Yuan Wu",
+        "Christoph Feichtenhofer",
+        "Trevor Darrell",
+        "Saining Xie"
+      ],
+      "title": "A ConvNet for the 2020s",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[43] Zhuang Liu... A convnet for the 2020s. In CVPR, pages 11976–11986, 2022.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Tian Ma",
+        "Jiahui Li",
+        "Zhenrui Dang",
+        "Yawen Li",
+        "Yuancheng Li"
+      ],
+      "title": "A dual-stream dental panoramic x-ray image segmentation method based on transformer",
+      "year": 2025,
+      "container": "Technologies",
+      "raw": "[44] Tian Ma... A dual-stream dental panoramic x-ray image segmentation... Technologies, 13(7):293, 2025.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Ishan Misra",
+        "Laurens van der Maaten"
+      ],
+      "title": "Self-supervised learning of pretext-invariant representations",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[45] Ishan Misra and Laurens van der Maaten. Self-supervised learning of pretext-invariant representations. In CVPR, pages 6707–6717, 2020.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Hossein Mohammad-Rahimi",
+        "Saeed Reza Motamedian",
+        "Mohammad Hossein Rohban",
+        "Joachim Krois",
+        "Sergio E. Uribe",
+        "Erfan Mahmoudinia",
+        "Rata Rokhshad",
+        "Mohadeseh Nadimi",
+        "Falk Schwendicke"
+      ],
+      "title": "Deep learning for caries detection: a systematic review",
+      "year": 2022,
+      "container": "Journal of Dentistry",
+      "raw": "[46] Hossein Mohammad-Rahimi... Deep learning for caries detection... Journal of dentistry, 122:104115, 2022.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Sorana Mureșanu",
+        "Mihaela Hedeșiu",
+        "Liviu Iacob",
+        "Radu Eftimie",
+        "Eliza Olariu",
+        "Cristian Dinu",
+        "Reinhilde Jacobs"
+      ],
+      "title": "Automating dental condition detection on panoramic radiographs",
+      "year": 2024,
+      "container": "Diagnostics",
+      "raw": "[47] Sorana Mures, anu... Automating dental condition detection... Diagnostics, 14(20):2336, 2024.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "A. M. Mutawa",
+        "Yacoub Yousef Altarakemah",
+        "Karthiga Thirupathy"
+      ],
+      "title": "Deep learning applications for dental-disease classification",
+      "year": 2026,
+      "container": "AI",
+      "raw": "[48] AM Mutawa... Deep learning applications for dental-disease classification... AI, 7(3):85, 2026.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Mehdi Noroozi",
+        "Paolo Favaro"
+      ],
+      "title": "Unsupervised learning of visual representations by solving jigsaw puzzles",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[49] Mehdi Noroozi and Paolo Favaro. Unsupervised learning of visual representations by solving jigsaw puzzles. In ECCV, pages 69–84. Springer, 2016.",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "Shota Okazaki",
+        "Yuichi Mine",
+        "Yuki Yoshimi",
+        "Yuko Iwamoto",
+        "Shota Ito",
+        "Tzu-Yu Peng",
+        "Taku Nishimura",
+        "Tomoya Suehiro",
+        "Yuma Koizumi",
+        "Ryota Nomura"
+      ],
+      "title": "RadImageNet and ImageNet as datasets for transfer learning in the assessment of dental radiographs",
+      "year": 2025,
+      "container": "Journal of Imaging Informatics in Medicine",
+      "raw": "[50] Shota Okazaki... Radimagenet and imagenet... J. Imaging Informatics in Medicine, 38(1):534–544, 2025.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Maxime Oquab",
+        "Timothée Darcet",
+        "Théo Moutakanni",
+        "Huy Vo",
+        "Marc Szafraniec",
+        "Vasil Khalidov",
+        "Pierre Fernandez",
+        "Daniel Haziza",
+        "Francisco Massa",
+        "Alaaeldin El-Nouby"
+      ],
+      "title": "DINOv2: Learning robust visual features without supervision",
+      "year": 2023,
+      "container": "arXiv:2304.07193",
+      "raw": "[51] Maxime Oquab... Dinov2... arXiv preprint arXiv:2304.07193, 2023.",
+      "confidence": 0.95,
+      "entry_index": 50
+    },
+    {
+      "author": [
+        "Deepak Pathak",
+        "Philipp Krähenbühl",
+        "Jeff Donahue",
+        "Trevor Darrell",
+        "Alexei A. Efros"
+      ],
+      "title": "Context encoders: Feature learning by inpainting",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[52] Deepak Pathak... Context encoders... In CVPR, pages 2536–2544, 2016.",
+      "confidence": 0.95,
+      "entry_index": 51
+    },
+    {
+      "author": [
+        "Alec Radford",
+        "Jong Wook Kim",
+        "Chris Hallacy",
+        "Aditya Ramesh",
+        "Gabriel Goh",
+        "Sandhini Agarwal",
+        "Girish Sastry",
+        "Amanda Askell",
+        "Pamela Mishkin",
+        "Jack Clark"
+      ],
+      "title": "Learning transferable visual models from natural language supervision",
+      "year": 2021,
+      "container": "ICML",
+      "raw": "[53] Alec Radford... Learning transferable visual models from natural language supervision. In ICML, pages 8748–8763. PMLR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 52
+    },
+    {
+      "author": [
+        "Ilija Radosavovic",
+        "Raj Prateek Kosaraju",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Designing network design spaces",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[54] Ilija Radosavovic... Designing network design spaces. In CVPR, pages 10428–10436, 2020.",
+      "confidence": 0.95,
+      "entry_index": 53
+    },
+    {
+      "author": [
+        "Falk Schwendicke",
+        "Wojciech Samek",
+        "Joachim Krois"
+      ],
+      "title": "Artificial intelligence in dentistry: chances and challenges",
+      "year": 2020,
+      "container": "Journal of Dental Research",
+      "raw": "[55] Falk Schwendicke... Artificial intelligence in dentistry... Journal of dental research, 99(7):769–774, 2020.",
+      "confidence": 0.95,
+      "entry_index": 54
+    },
+    {
+      "author": [
+        "Oriane Siméoni",
+        "Huy V. Vo",
+        "Maximilian Seitzer",
+        "Federico Baldassarre",
+        "Maxime Oquab",
+        "Cijo Jose",
+        "Vasil Khalidov",
+        "Marc Szafraniec",
+        "Seungeun Yi",
+        "Michaël Ramamonjisoa"
+      ],
+      "title": "DINOv3",
+      "year": 2025,
+      "container": "arXiv:2508.10104",
+      "raw": "[56] Oriane Siméoni... Dinov3. arXiv preprint arXiv:2508.10104, 2025.",
+      "confidence": 0.95,
+      "entry_index": 55
+    },
+    {
+      "author": [
+        "Evgeniy I. Sosnin",
+        "Yuriy L. Vasilev",
+        "Roman A. Solovyev",
+        "Aleksandr L. Stempkovskiy",
+        "Dmitry V. Telpukhov",
+        "Artem A. Vasilev",
+        "Aleksandr A. Amerikanov",
+        "Aleksandr Y. Romanov"
+      ],
+      "title": "AlphaDent: A dataset for automated tooth pathology detection",
+      "year": 2025,
+      "container": "arXiv:2507.22512",
+      "raw": "[57] Evgeniy I Sosnin... Alphadent... arXiv preprint arXiv:2507.22512, 2025.",
+      "confidence": 0.95,
+      "entry_index": 56
+    },
+    {
+      "author": [
+        "Andreas Steiner",
+        "Alexander Kolesnikov",
+        "Xiaohua Zhai",
+        "Ross Wightman",
+        "Jakob Uszkoreit",
+        "Lucas Beyer"
+      ],
+      "title": "How to train your ViT? Data, augmentation, and regularization in vision transformers",
+      "year": 2021,
+      "container": "arXiv:2106.10270",
+      "raw": "[58] Andreas Steiner... How to train your vit?... arXiv preprint arXiv:2106.10270, 2021.",
+      "confidence": 0.95,
+      "entry_index": 57
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientNet: Rethinking model scaling for convolutional neural networks",
+      "year": 2019,
+      "container": "ICML",
+      "raw": "[59] Mingxing Tan and Quoc Le. Efficientnet... In ICML, pages 6105–6114. PMLR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 58
+    },
+    {
+      "author": [
+        "Hugo Touvron",
+        "Matthieu Cord",
+        "Matthijs Douze",
+        "Francisco Massa",
+        "Alexandre Sablayrolles",
+        "Hervé Jégou"
+      ],
+      "title": "Training data-efficient image transformers & distillation through attention",
+      "year": 2021,
+      "container": "ICML",
+      "raw": "[60] Hugo Touvron... Training data-efficient image transformers... In ICML, pages 10347–10357. PMLR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 59
+    },
+    {
+      "author": [
+        "Hugo Touvron",
+        "Matthieu Cord",
+        "Hervé Jégou"
+      ],
+      "title": "DeiT III: Revenge of the ViT",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "[61] Hugo Touvron... Deit iii... In ECCV, pages 516–533. Springer, 2022.",
+      "confidence": 0.95,
+      "entry_index": 60
+    },
+    {
+      "author": [
+        "Natalia Turosz",
+        "Kamila Chęcińska",
+        "Maciej Chęciński",
+        "Anita Brzozowska",
+        "Zuzanna Nowak",
+        "Maciej Sikora"
+      ],
+      "title": "Applications of artificial intelligence in the analysis of dental panoramic radiographs",
+      "year": 2023,
+      "container": "Dentomaxillofacial Radiology",
+      "raw": "[62] Natalia Turosz... Applications of artificial intelligence... Dentomaxillofacial Radiology, 52(7):20230284, 2023.",
+      "confidence": 0.95,
+      "entry_index": 61
+    },
+    {
+      "author": [
+        "Pawan Valluri"
+      ],
+      "title": "DentalAI computer vision project",
+      "year": 2023,
+      "container": "(project)",
+      "raw": "[63] Pawan Valluri. Dentalai computer vision project, 2023.",
+      "confidence": 0.7,
+      "notes": "未发表项目",
+      "entry_index": 62
+    },
+    {
+      "author": [
+        "Jingdong Wang",
+        "Ke Sun",
+        "Tianheng Cheng",
+        "Borui Jiang",
+        "Chaorui Deng",
+        "Yang Zhao",
+        "Dong Liu",
+        "Yadong Mu",
+        "Mingkui Tan",
+        "Xinggang Wang"
+      ],
+      "title": "Deep high-resolution representation learning for visual recognition",
+      "year": 2020,
+      "container": "TPAMI",
+      "raw": "[64] Jingdong Wang... Deep high-resolution representation learning... TPAMI, 43(10):3349–3364, 2020.",
+      "confidence": 0.95,
+      "entry_index": 63
+    },
+    {
+      "author": [
+        "Xianyun Wang",
+        "Sizhe Gao",
+        "Kaisheng Jiang",
+        "Huicong Zhang",
+        "Linhong Wang",
+        "Feng Chen",
+        "Jun Yu",
+        "Fan Yang"
+      ],
+      "title": "Multi-level uncertainty aware learning for semi-supervised dental panoramic caries segmentation",
+      "year": 2023,
+      "container": "Neurocomputing",
+      "raw": "[65] Xianyun Wang... Multi-level uncertainty aware learning... Neurocomputing, 540:126208, 2023.",
+      "confidence": 0.95,
+      "entry_index": 64
+    },
+    {
+      "author": [
+        "Zifeng Wang",
+        "Zhenbang Wu",
+        "Dinesh Agarwal",
+        "Jimeng Sun"
+      ],
+      "title": "MedCLIP: Contrastive learning from unpaired medical images and text",
+      "year": 2022,
+      "container": "EMNLP",
+      "raw": "[66] Zifeng Wang... Medclip... In EMNLP, pages 3876–3887, 2022.",
+      "confidence": 0.95,
+      "entry_index": 65
+    },
+    {
+      "author": [
+        "World Health Organization"
+      ],
+      "title": "WHO highlights oral health neglect",
+      "year": 2022,
+      "container": "https://www.who.int/news/item/18-11-2022-who-highlights-oral-health-neglect",
+      "raw": "[67] World Health Organization. WHO highlights oral health neglect... 2022.",
+      "confidence": 0.7,
+      "notes": "WHO 新闻发布",
+      "entry_index": 66
+    },
+    {
+      "author": [
+        "World Health Organization"
+      ],
+      "title": "Oral health factsheet",
+      "year": 2025,
+      "container": "https://www.who.int/news-room/fact-sheets/detail/oral-health",
+      "raw": "[68] World Health Organization. Oral health. https://www.who.int/news-room/fact-sheets/detail/oral-health, 2025.",
+      "confidence": 0.7,
+      "notes": "WHO factsheet",
+      "entry_index": 67
+    },
+    {
+      "author": [
+        "Tete Xiao",
+        "Yingcheng Liu",
+        "Bolei Zhou",
+        "Yuning Jiang",
+        "Jian Sun"
+      ],
+      "title": "Unified perceptual parsing for scene understanding",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[69] Tete Xiao... Unified perceptual parsing for scene understanding. In ECCV, pages 418–434, 2018.",
+      "confidence": 0.95,
+      "entry_index": 68
+    },
+    {
+      "author": [
+        "Saining Xie",
+        "Ross Girshick",
+        "Piotr Dollár",
+        "Zhuowen Tu",
+        "Kaiming He"
+      ],
+      "title": "Aggregated residual transformations for deep neural networks",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[70] Saining Xie... Aggregated residual transformations... In CVPR, pages 1492–1500, 2017.",
+      "confidence": 0.95,
+      "entry_index": 69
+    },
+    {
+      "author": [
+        "Sicheng Yang",
+        "Hongqiu Wang",
+        "Zhaohu Xing",
+        "Sixiang Chen",
+        "Lei Zhu"
+      ],
+      "title": "SegDINO: An efficient design for medical and natural image segmentation with DINO-V3",
+      "year": 2025,
+      "container": "arXiv:2509.00833",
+      "raw": "[71] Sicheng Yang... Segdino... arXiv preprint arXiv:2509.00833, 2025.",
+      "confidence": 0.95,
+      "entry_index": 70
+    },
+    {
+      "author": [
+        "Weihao Yu",
+        "Mi Luo",
+        "Pan Zhou",
+        "Chenyang Si",
+        "Yichen Zhou",
+        "Xinchao Wang",
+        "Jiashi Feng",
+        "Shuicheng Yan"
+      ],
+      "title": "MetaFormer is actually what you need for vision",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[72] Weihao Yu... Metaformer... In CVPR, pages 10819–10829, 2022.",
+      "confidence": 0.95,
+      "entry_index": 71
+    },
+    {
+      "author": [
+        "John R. Zech",
+        "Marcus A. Badgeley",
+        "Manway Liu",
+        "Anthony B. Costa",
+        "Joseph J. Titano",
+        "Eric Karl Oermann"
+      ],
+      "title": "Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs",
+      "year": 2018,
+      "container": "PLoS Medicine",
+      "raw": "[73] John R Zech... Variable generalization performance... PLoS medicine, 15(11):e1002683, 2018.",
+      "confidence": 0.95,
+      "entry_index": 72
+    },
+    {
+      "author": [
+        "Hang Zhang",
+        "Chongruo Wu",
+        "Zhongyue Zhang",
+        "Yi Zhu",
+        "Haibin Lin",
+        "Zhi Zhang",
+        "Yue Sun",
+        "Tong He",
+        "Jonas Mueller",
+        "R. Manmatha"
+      ],
+      "title": "ResNeSt: Split-attention networks",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[74] Hang Zhang... Resnest... In CVPR, pages 2736–2746, 2022.",
+      "confidence": 0.95,
+      "entry_index": 73
+    },
+    {
+      "author": [
+        "Richard Zhang",
+        "Phillip Isola",
+        "Alexei A. Efros"
+      ],
+      "title": "Colorful image colorization",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[75] Richard Zhang... Colorful image colorization. In ECCV, pages 649–666. Springer, 2016.",
+      "confidence": 0.95,
+      "entry_index": 74
+    },
+    {
+      "author": [
+        "Sheng Zhang",
+        "Yanbo Xu",
+        "Naoto Usuyama",
+        "Hanwen Xu",
+        "Jaspreet Bagga",
+        "Robert Tinn",
+        "Sam Preston",
+        "Rajesh Rao",
+        "Mu Wei",
+        "Naveen Valluri"
+      ],
+      "title": "BioMedCLIP: a multimodal biomedical foundation model",
+      "year": 2023,
+      "container": "arXiv:2303.00915",
+      "raw": "[76] Sheng Zhang... Biomedclip... arXiv preprint arXiv:2303.00915, 2023.",
+      "confidence": 0.95,
+      "entry_index": 75
+    },
+    {
+      "author": [
+        "Yuhao Zhang",
+        "Hang Jiang",
+        "Yasuhide Miura",
+        "Christopher D. Manning",
+        "Curtis P. Langlotz"
+      ],
+      "title": "Contrastive learning of medical visual representations from paired images and text",
+      "year": 2022,
+      "container": "MLHC",
+      "raw": "[77] Yuhao Zhang... Contrastive learning of medical visual representations... In MLHC, pages 2–25. PMLR, 2022.",
+      "confidence": 0.95,
+      "entry_index": 76
+    },
+    {
+      "author": [
+        "Jinghao Zhou",
+        "Chen Wei",
+        "Huiyu Wang",
+        "Wei Shen",
+        "Cihang Xie",
+        "Alan Yuille",
+        "Tao Kong"
+      ],
+      "title": "iBOT: Image BERT pre-training with online tokenizer",
+      "year": 2021,
+      "container": "arXiv:2111.07832",
+      "raw": "[78] Jinghao Zhou... ibot... arXiv preprint arXiv:2111.07832, 2021.",
+      "confidence": 0.95,
+      "entry_index": 77
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Jinguo Zhu",
+        "Hao Li",
+        "Xiaoshi Wu",
+        "Hongsheng Li",
+        "Xiaohua Wang",
+        "Jifeng Dai"
+      ],
+      "title": "Uni-Perceiver: Pre-training unified architecture for generic perception",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "[79] Xizhou Zhu... Uni-perceiver... 2022.",
+      "confidence": 0.95,
+      "entry_index": 78
+    }
+  ]
+}

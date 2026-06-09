@@ -1,0 +1,1099 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:44Z",
+    "entry_count": 11,
+    "candidate_count": 43,
+    "batch_count": 1,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] M. Bencevic, I. Galic, M. Habijan, and D. Babin, “Training on Polar Image Transformations Improves Biomedical Image Segmentation,” IEEE Access, vol. 9, pp. 133365–133375, 2021.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] M. Bencevic, I. Galic, M. Habijan, and D. Babin, “Training on Polar Image Transformations Improves Biomedical Image Segmentation,” IEEE Access, vol. 9, pp. 133365–133375, 2021."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] A. Fantazzini, M. Esposito, A. Finotello, F. Auricchio, B. Pane, C. Basso, G. Spinella, and M. Conti, “3D Automatic Segmentation of Aortic Computed Tomography Angiography Combining Multi-View 2D Convolutional Neural Networks,” Cardiovascular Engineering and Technology, vol. 11, pp. 576–586, Oct. 2020.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] A. Fantazzini, M. Esposito, A. Finotello, F. Auricchio, B. Pane, C. Basso, G. Spinella, and M. Conti, “3D Automatic Segmentation of Aortic Computed Tomography Angiography Combining Multi-View 2D Convolutional Neural Networks,” Cardiovascular Engineering and Technology, vol. 11, pp. 576–586, Oct. 2020."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] Y. Yu, Y. Gao, J. Wei, F. Liao, Q. Xiao, J. Zhang, W. Yin, and B. Lu, “A Three-Dimensional Deep Convolutional Neural Network for Automatic Segmentation and Diameter Measurement of Type B Aortic Dissection,” Korean Journal of Radiology, vol. 22, no. 2, p. 168, 2021.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] Y. Yu, Y. Gao, J. Wei, F. Liao, Q. Xiao, J. Zhang, W. Yin, and B. Lu, “A Three-Dimensional Deep Convolutional Neural Network for Automatic Segmentation and Diameter Measurement of Type B Aortic Dissection,” Korean Journal of Radiology, vol. 22, no. 2, p. 168, 2021."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] D. Chen, X. Zhang, Y. Mei, F. Liao, H. Xu, Z. Li, Q. Xiao, W. Guo, H. Zhang, T. Yan, J. Xiong, and Y. Ventikos, “Multi-stage learning for segmentation of aortic dissections using a prior aortic anatomy simplification,” Medical Image Analysis, vol. 69, p. 101931, Apr. 2021.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] D. Chen, X. Zhang, Y. Mei, F. Liao, H. Xu, Z. Li, Q. Xiao, W. Guo, H. Zhang, T. Yan, J. Xiong, and Y. Ventikos, “Multi-stage learning for segmentation of aortic dissections using a prior aortic anatomy simplification,” Medical Image Analysis, vol. 69, p. 101931, Apr. 2021."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] Q. Liu, X. Hong, W. Ke, Z. Chen, and B. Zou, “DDNet: Cartesian-polar Dual-domain Network for the Joint Optic Disc and Cup Segmentation,” 2019.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] Q. Liu, X. Hong, W. Ke, Z. Chen, and B. Zou, “DDNet: Cartesian-polar Dual-domain Network for the Joint Optic Disc and Cup Segmentation,” 2019."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, “Polar Transformer Networks,” arXiv:1709.01889 [cs], Feb. 2018.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, “Polar Transformer Networks,” arXiv:1709.01889 [cs], Feb. 2018."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] H. Salehinejad, S. Valaee, T. Dowdell, and J. Barfett, “Image Augmentation Using Radial Transform for Training Deep Neural Networks,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Calgary, AB), pp. 3016–3020, IEEE, Apr. 2018.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] H. Salehinejad, S. Valaee, T. Dowdell, and J. Barfett, “Image Augmentation Using Radial Transform for Training Deep Neural Networks,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Calgary, AB), pp. 3016–3020, IEEE, Apr. 2018."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] L. Radl, Y. Jin, A. Pepe, J. Li, C. Gsaxner, F.-h. Zhao, and J. Egger, “AVT: Multicenter aortic vessel tree CTA dataset collection with ground truth segmentation masks,” Data in Brief, vol. 40, p. 107801, Feb. 2022.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] L. Radl, Y. Jin, A. Pepe, J. Li, C. Gsaxner, F.-h. Zhao, and J. Egger, “AVT: Multicenter aortic vessel tree CTA dataset collection with ground truth segmentation masks,” Data in Brief, vol. 40, p. 107801, Feb. 2022."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] O. Ronneberger, P. Fischer, and T. Brox, “U-Net: Convolutional Networks for Biomedical Image Segmentation,” in Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (N. Navab, J. Hornegger, W. M. Wells, and A. F. Frangi, eds.), vol. 9351, pp. 234– 241, Cham: Springer International Publishing, 2015.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] O. Ronneberger, P. Fischer, and T. Brox, “U-Net: Convolutional Networks for Biomedical Image Segmentation,” in Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (N. Navab, J. Hornegger, W. M. Wells, and A. F. Frangi, eds.), vol. 9351, pp. 234– 241, Cham: Springer International Publishing, 2015."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] A. A. Taha and A. Hanbury, “Metrics for evaluating 3D medical image segmentation: Analysis, selection, and tool,” BMC Medical Imaging, vol. 15, p. 29, Dec. 2015.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] A. A. Taha and A. Hanbury, “Metrics for evaluating 3D medical image segmentation: Analysis, selection, and tool,” BMC Medical Imaging, vol. 15, p. 29, Dec. 2015."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] W. K. Cheung, R. Bell, A. Nair, L. Menezies, R. Patel, S. Wan, K. Chou, J. Chen, R. Torii, R. H. Davies, J. C. Moon, D. C. Alexander, and J. Jacob, “A computationally efficient approach to segmentation of the aorta and coronary arteries using deep learning,” preprint, Cardiovascular Medicine, Feb. 2021.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] W. K. Cheung, R. Bell, A. Nair, L. Menezies, R. Patel, S. Wan, K. Chou, J. Chen, R. Torii, R. H. Davies, J. C. Moon, D. C. Alexander, and J. Jacob, “A computationally efficient approach to segmentation of the aorta and coronary arteries using deep learning,” preprint, Cardiovascular Medicine, Feb. 2021."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] M. Bencevic, I. Galic, M. Habijan, and D. Babin, “Training on Polar Image Transformations Improves Biomedical Image Segmentation,” IEEE Access, vol. 9, pp. 133365–133375, 2021.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "ieee_quote_title",
+          "author_text": "M. Bencevic, I. Galic, M. Habijan, and D. Babin",
+          "author_candidates": [
+            "Bencevic, I",
+            "Galic, M"
+          ],
+          "title_candidate": "Training on Polar Image Transformations Improves Biomedical Image Segmentation",
+          "container_candidate": "IEEE Access, vol. 9, pp. 133365–133375, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "M. Bencevic, I. Galic, M. Habijan, and D. Babin, “Training on Polar Image Transformations Improves Biomedical Image Segmentation,” IEEE Access, vol",
+          "author_candidates": [
+            "Bencevic, I",
+            "Galic, M"
+          ],
+          "title_candidate": "9, pp",
+          "container_candidate": "133365–133375,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "M. Bencevic, I. Galic, M. Habijan, and D. Babin, “Training on Polar Image Transformations Improves Biomedical Image Segmentation,” IEEE Access, vol",
+          "author_candidates": [
+            "Bencevic, I",
+            "Galic, M"
+          ],
+          "title_candidate": "9, pp. 133365–133375",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "M. Bencevic, I. Galic, M. Habijan, and D. Babin, “Training on Polar Image Transformations Improves Biomedical Image Segmentation,” IEEE Access, vol",
+          "author_candidates": [
+            "Bencevic, I",
+            "Galic, M"
+          ],
+          "title_candidate": "9, pp. 133365–133375, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] A. Fantazzini, M. Esposito, A. Finotello, F. Auricchio, B. Pane, C. Basso, G. Spinella, and M. Conti, “3D Automatic Segmentation of Aortic Computed Tomography Angiography Combining Multi-View 2D Convolutional Neural Networks,” Cardiovascular Engineering and Technology, vol. 11, pp. 576–586, Oct. 2020.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "ieee_quote_title",
+          "author_text": "A. Fantazzini, M. Esposito, A. Finotello, F. Auricchio, B. Pane, C. Basso, G. Spinella, and M. Conti",
+          "author_candidates": [
+            "Fantazzini, M",
+            "Esposito, A",
+            "Finotello, F",
+            "Auricchio, B",
+            "Pane, C",
+            "Basso, G"
+          ],
+          "title_candidate": "3D Automatic Segmentation of Aortic Computed Tomography Angiography Combining Multi-View 2D Convolutional Neural Networks",
+          "container_candidate": "Cardiovascular Engineering and Technology, vol. 11, pp. 576–586, Oct. 2020",
+          "year_candidate": 2020,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "A. Fantazzini, M. Esposito, A. Finotello, F. Auricchio, B. Pane, C. Basso, G. Spinella, and M. Conti, “3D Automatic Segmentation of Aortic Computed Tomography Angiography Combining Multi-View 2D Convolutional Neural Networks,” Cardiovascular Engineering and Technology, vol",
+          "author_candidates": [
+            "Fantazzini, M",
+            "Esposito, A",
+            "Finotello, F",
+            "Auricchio, B",
+            "Pane, C",
+            "Basso, G"
+          ],
+          "title_candidate": "11, pp",
+          "container_candidate": "576–586, Oct",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "A. Fantazzini, M. Esposito, A. Finotello, F. Auricchio, B. Pane, C. Basso, G. Spinella, and M. Conti, “3D Automatic Segmentation of Aortic Computed Tomography Angiography Combining Multi-View 2D Convolutional Neural Networks,” Cardiovascular Engineering and Technology, vol",
+          "author_candidates": [
+            "Fantazzini, M",
+            "Esposito, A",
+            "Finotello, F",
+            "Auricchio, B",
+            "Pane, C",
+            "Basso, G"
+          ],
+          "title_candidate": "11, pp. 576–586, Oct",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "A. Fantazzini, M. Esposito, A. Finotello, F. Auricchio, B. Pane, C. Basso, G. Spinella, and M. Conti, “3D Automatic Segmentation of Aortic Computed Tomography Angiography Combining Multi-View 2D Convolutional Neural Networks,” Cardiovascular Engineering and Technology, vol",
+          "author_candidates": [
+            "Fantazzini, M",
+            "Esposito, A",
+            "Finotello, F",
+            "Auricchio, B",
+            "Pane, C",
+            "Basso, G"
+          ],
+          "title_candidate": "11, pp. 576–586, Oct. 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Y. Yu, Y. Gao, J. Wei, F. Liao, Q. Xiao, J. Zhang, W. Yin, and B. Lu, “A Three-Dimensional Deep Convolutional Neural Network for Automatic Segmentation and Diameter Measurement of Type B Aortic Dissection,” Korean Journal of Radiology, vol. 22, no. 2, p. 168, 2021.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "ieee_quote_title",
+          "author_text": "Y. Yu, Y. Gao, J. Wei, F. Liao, Q. Xiao, J. Zhang, W. Yin, and B. Lu",
+          "author_candidates": [
+            "Yu, Y",
+            "Gao, J",
+            "Wei, F",
+            "Liao, Q",
+            "Xiao, J",
+            "Zhang, W"
+          ],
+          "title_candidate": "A Three-Dimensional Deep Convolutional Neural Network for Automatic Segmentation and Diameter Measurement of Type B Aortic Dissection",
+          "container_candidate": "Korean Journal of Radiology, vol. 22, no. 2, p. 168, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Y. Yu, Y. Gao, J. Wei, F. Liao, Q. Xiao, J. Zhang, W. Yin, and B. Lu, “A Three-Dimensional Deep Convolutional Neural Network for Automatic Segmentation and Diameter Measurement of Type B Aortic Dissection,” Korean Journal of Radiology, vol",
+          "author_candidates": [
+            "Yu, Y",
+            "Gao, J",
+            "Wei, F",
+            "Liao, Q",
+            "Xiao, J",
+            "Zhang, W"
+          ],
+          "title_candidate": "22, no",
+          "container_candidate": "2, p. 168,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Y. Yu, Y. Gao, J. Wei, F. Liao, Q. Xiao, J. Zhang, W. Yin, and B. Lu, “A Three-Dimensional Deep Convolutional Neural Network for Automatic Segmentation and Diameter Measurement of Type B Aortic Dissection,” Korean Journal of Radiology, vol",
+          "author_candidates": [
+            "Yu, Y",
+            "Gao, J",
+            "Wei, F",
+            "Liao, Q",
+            "Xiao, J",
+            "Zhang, W"
+          ],
+          "title_candidate": "22, no. 2, p. 168",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Y. Yu, Y. Gao, J. Wei, F. Liao, Q. Xiao, J. Zhang, W. Yin, and B. Lu, “A Three-Dimensional Deep Convolutional Neural Network for Automatic Segmentation and Diameter Measurement of Type B Aortic Dissection,” Korean Journal of Radiology, vol",
+          "author_candidates": [
+            "Yu, Y",
+            "Gao, J",
+            "Wei, F",
+            "Liao, Q",
+            "Xiao, J",
+            "Zhang, W"
+          ],
+          "title_candidate": "22, no. 2, p. 168, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] D. Chen, X. Zhang, Y. Mei, F. Liao, H. Xu, Z. Li, Q. Xiao, W. Guo, H. Zhang, T. Yan, J. Xiong, and Y. Ventikos, “Multi-stage learning for segmentation of aortic dissections using a prior aortic anatomy simplification,” Medical Image Analysis, vol. 69, p. 101931, Apr. 2021.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "ieee_quote_title",
+          "author_text": "D. Chen, X. Zhang, Y. Mei, F. Liao, H. Xu, Z. Li, Q. Xiao, W. Guo, H. Zhang, T. Yan, J. Xiong, and Y. Ventikos",
+          "author_candidates": [
+            "Chen, X",
+            "Zhang, Y",
+            "Mei, F",
+            "Liao, H",
+            "Xu, Z",
+            "Li, Q",
+            "Xiao, W",
+            "Guo, H",
+            "Zhang, T",
+            "Yan, J"
+          ],
+          "title_candidate": "Multi-stage learning for segmentation of aortic dissections using a prior aortic anatomy simplification",
+          "container_candidate": "Medical Image Analysis, vol. 69, p. 101931, Apr. 2021",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "D. Chen, X. Zhang, Y. Mei, F. Liao, H. Xu, Z. Li, Q. Xiao, W. Guo, H. Zhang, T. Yan, J. Xiong, and Y. Ventikos, “Multi-stage learning for segmentation of aortic dissections using a prior aortic anatomy simplification,” Medical Image Analysis, vol",
+          "author_candidates": [
+            "Chen, X",
+            "Zhang, Y",
+            "Mei, F",
+            "Liao, H",
+            "Xu, Z",
+            "Li, Q",
+            "Xiao, W",
+            "Guo, H",
+            "Zhang, T",
+            "Yan, J"
+          ],
+          "title_candidate": "69, p",
+          "container_candidate": "101931, Apr",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "D. Chen, X. Zhang, Y. Mei, F. Liao, H. Xu, Z. Li, Q. Xiao, W. Guo, H. Zhang, T. Yan, J. Xiong, and Y. Ventikos, “Multi-stage learning for segmentation of aortic dissections using a prior aortic anatomy simplification,” Medical Image Analysis, vol",
+          "author_candidates": [
+            "Chen, X",
+            "Zhang, Y",
+            "Mei, F",
+            "Liao, H",
+            "Xu, Z",
+            "Li, Q",
+            "Xiao, W",
+            "Guo, H",
+            "Zhang, T",
+            "Yan, J"
+          ],
+          "title_candidate": "69, p. 101931, Apr",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "D. Chen, X. Zhang, Y. Mei, F. Liao, H. Xu, Z. Li, Q. Xiao, W. Guo, H. Zhang, T. Yan, J. Xiong, and Y. Ventikos, “Multi-stage learning for segmentation of aortic dissections using a prior aortic anatomy simplification,” Medical Image Analysis, vol",
+          "author_candidates": [
+            "Chen, X",
+            "Zhang, Y",
+            "Mei, F",
+            "Liao, H",
+            "Xu, Z",
+            "Li, Q",
+            "Xiao, W",
+            "Guo, H",
+            "Zhang, T",
+            "Yan, J"
+          ],
+          "title_candidate": "69, p. 101931, Apr. 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Q. Liu, X. Hong, W. Ke, Z. Chen, and B. Zou, “DDNet: Cartesian-polar Dual-domain Network for the Joint Optic Disc and Cup Segmentation,” 2019.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "ieee_quote_title",
+          "author_text": "Q. Liu, X. Hong, W. Ke, Z. Chen, and B. Zou",
+          "author_candidates": [
+            "Liu, X",
+            "Hong, W",
+            "Ke, Z"
+          ],
+          "title_candidate": "DDNet: Cartesian-polar Dual-domain Network for the Joint Optic Disc and Cup Segmentation",
+          "container_candidate": "2019",
+          "year_candidate": 2019,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Q. Liu, X. Hong, W. Ke, Z. Chen, and B. Zou, “DDNet",
+          "author_candidates": [
+            "Liu, X",
+            "Hong, W",
+            "Ke, Z"
+          ],
+          "title_candidate": "Cartesian-polar Dual-domain Network for the Joint Optic Disc and Cup Segmentation,”",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Q. Liu, X. Hong, W. Ke, Z. Chen, and B. Zou, “DDNet",
+          "author_candidates": [
+            "Liu, X",
+            "Hong, W",
+            "Ke, Z"
+          ],
+          "title_candidate": "Cartesian-polar Dual-domain Network for the Joint Optic Disc and Cup Segmentation,” 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, “Polar Transformer Networks,” arXiv:1709.01889 [cs], Feb. 2018.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis",
+          "author_candidates": [
+            "Esteves, C",
+            "Allen-Blanchette, X"
+          ],
+          "title_candidate": "Polar Transformer Networks",
+          "container_candidate": "arXiv:1709.01889 [cs], Feb. 2018",
+          "year_candidate": 2018,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, “Polar Transformer Networks,” arXiv:1709.01889 [cs], Feb",
+          "author_candidates": [
+            "Esteves, C",
+            "Allen-Blanchette, X"
+          ],
+          "title_candidate": "2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, “Polar Transformer Networks,” arXiv",
+          "author_candidates": [
+            "Esteves, C",
+            "Allen-Blanchette, X"
+          ],
+          "title_candidate": "1709.01889 [cs], Feb",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Esteves, C. Allen-Blanchette, X. Zhou, and K. Daniilidis, “Polar Transformer Networks,” arXiv",
+          "author_candidates": [
+            "Esteves, C",
+            "Allen-Blanchette, X"
+          ],
+          "title_candidate": "1709.01889 [cs], Feb. 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] H. Salehinejad, S. Valaee, T. Dowdell, and J. Barfett, “Image Augmentation Using Radial Transform for Training Deep Neural Networks,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Calgary, AB), pp. 3016–3020, IEEE, Apr. 2018.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "ieee_quote_title",
+          "author_text": "H. Salehinejad, S. Valaee, T. Dowdell, and J. Barfett",
+          "author_candidates": [
+            "Salehinejad, S",
+            "Valaee, T"
+          ],
+          "title_candidate": "Image Augmentation Using Radial Transform for Training Deep Neural Networks",
+          "container_candidate": "in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Calgary, AB), pp. 3016–3020, IEEE, Apr. 2018",
+          "year_candidate": 2018,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "H. Salehinejad, S. Valaee, T. Dowdell, and J. Barfett, “Image Augmentation Using Radial Transform for Training Deep Neural Networks,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Calgary, AB), pp",
+          "author_candidates": [
+            "Salehinejad, S",
+            "Valaee, T",
+            "Acoustics, Speech",
+            "Calgary, AB"
+          ],
+          "title_candidate": "3016–3020, IEEE, Apr",
+          "container_candidate": "2018",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "H. Salehinejad, S. Valaee, T. Dowdell, and J. Barfett, “Image Augmentation Using Radial Transform for Training Deep Neural Networks,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Calgary, AB), pp",
+          "author_candidates": [
+            "Salehinejad, S",
+            "Valaee, T",
+            "Acoustics, Speech",
+            "Calgary, AB"
+          ],
+          "title_candidate": "3016–3020, IEEE, Apr",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "H. Salehinejad, S. Valaee, T. Dowdell, and J. Barfett, “Image Augmentation Using Radial Transform for Training Deep Neural Networks,” in 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Calgary, AB), pp",
+          "author_candidates": [
+            "Salehinejad, S",
+            "Valaee, T",
+            "Acoustics, Speech",
+            "Calgary, AB"
+          ],
+          "title_candidate": "3016–3020, IEEE, Apr. 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] L. Radl, Y. Jin, A. Pepe, J. Li, C. Gsaxner, F.-h. Zhao, and J. Egger, “AVT: Multicenter aortic vessel tree CTA dataset collection with ground truth segmentation masks,” Data in Brief, vol. 40, p. 107801, Feb. 2022.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "ieee_quote_title",
+          "author_text": "L. Radl, Y. Jin, A. Pepe, J. Li, C. Gsaxner, F.-h. Zhao, and J. Egger",
+          "author_candidates": [
+            "Radl, Y",
+            "Jin, A",
+            "Pepe, J",
+            "Li, C",
+            "Gsaxner, F.-h. Zhao"
+          ],
+          "title_candidate": "AVT: Multicenter aortic vessel tree CTA dataset collection with ground truth segmentation masks",
+          "container_candidate": "Data in Brief, vol. 40, p. 107801, Feb. 2022",
+          "year_candidate": 2022,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "L. Radl, Y. Jin, A. Pepe, J. Li, C. Gsaxner, F.-h",
+          "author_candidates": [
+            "Radl, Y",
+            "Jin, A",
+            "Pepe, J",
+            "Li, C",
+            "Gsaxner, F.-h"
+          ],
+          "title_candidate": "Zhao, and J. Egger, “AVT: Multicenter aortic vessel tree CTA dataset collection with ground truth segmentation masks,” Data in Brief, vol",
+          "container_candidate": "40, p. 107801, Feb",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "L. Radl, Y. Jin, A. Pepe, J. Li, C. Gsaxner, F.-h. Zhao, and J. Egger, “AVT",
+          "author_candidates": [
+            "Radl, Y",
+            "Jin, A",
+            "Pepe, J",
+            "Li, C",
+            "Gsaxner, F.-h. Zhao"
+          ],
+          "title_candidate": "Multicenter aortic vessel tree CTA dataset collection with ground truth segmentation masks,” Data in Brief, vol. 40, p. 107801, Feb",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "L. Radl, Y. Jin, A. Pepe, J. Li, C. Gsaxner, F.-h. Zhao, and J. Egger, “AVT",
+          "author_candidates": [
+            "Radl, Y",
+            "Jin, A",
+            "Pepe, J",
+            "Li, C",
+            "Gsaxner, F.-h. Zhao"
+          ],
+          "title_candidate": "Multicenter aortic vessel tree CTA dataset collection with ground truth segmentation masks,” Data in Brief, vol. 40, p. 107801, Feb. 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] O. Ronneberger, P. Fischer, and T. Brox, “U-Net: Convolutional Networks for Biomedical Image Segmentation,” in Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (N. Navab, J. Hornegger, W. M. Wells, and A. F. Frangi, eds.), vol. 9351, pp. 234– 241, Cham: Springer International Publishing, 2015.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "ieee_quote_title",
+          "author_text": "O. Ronneberger, P. Fischer, and T. Brox",
+          "author_candidates": [
+            "Ronneberger, P"
+          ],
+          "title_candidate": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "container_candidate": "in Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (N. Navab, J. Hornegger, W. M. Wells, and A. F. Frangi, eds.), vol. 9351, pp. 234– 241, Cham: Springer International Publishing, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "O. Ronneberger, P. Fischer, and T. Brox, “U-Net: Convolutional Networks for Biomedical Image Segmentation,” in Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (N",
+          "author_candidates": [
+            "Ronneberger, P"
+          ],
+          "title_candidate": "Navab, J. Hornegger, W. M",
+          "container_candidate": "Wells, and A. F. Frangi, eds.), vol. 9351, pp. 234– 241, Cham: Springer International Publishing,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "O. Ronneberger, P. Fischer, and T. Brox, “U-Net",
+          "author_candidates": [
+            "Ronneberger, P"
+          ],
+          "title_candidate": "Convolutional Networks for Biomedical Image Segmentation,” in Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (N. Navab, J. Hornegger, W. M. Wells, and A. F. Frangi, eds.), vol. 9351, pp. 234– 241, Cham: Springer International Publishing",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "O. Ronneberger, P. Fischer, and T. Brox, “U-Net",
+          "author_candidates": [
+            "Ronneberger, P"
+          ],
+          "title_candidate": "Convolutional Networks for Biomedical Image Segmentation,” in Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015 (N. Navab, J. Hornegger, W. M. Wells, and A. F. Frangi, eds.), vol. 9351, pp. 234– 241, Cham: Springer International Publishing, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] A. A. Taha and A. Hanbury, “Metrics for evaluating 3D medical image segmentation: Analysis, selection, and tool,” BMC Medical Imaging, vol. 15, p. 29, Dec. 2015.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "ieee_quote_title",
+          "author_text": "A. A. Taha and A. Hanbury",
+          "author_candidates": [
+            "A\u0000A. Taha",
+            "A\u0000Hanbury"
+          ],
+          "title_candidate": "Metrics for evaluating 3D medical image segmentation: Analysis, selection, and tool",
+          "container_candidate": "BMC Medical Imaging, vol. 15, p. 29, Dec. 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "A. A",
+          "author_candidates": [
+            "A\u0000A"
+          ],
+          "title_candidate": "Taha and A. Hanbury, “Metrics for evaluating 3D medical image segmentation: Analysis, selection, and tool,” BMC Medical Imaging, vol",
+          "container_candidate": "15, p. 29, Dec",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "A. A. Taha and A. Hanbury, “Metrics for evaluating 3D medical image segmentation",
+          "author_candidates": [
+            "A\u0000A. Taha and A\u0000Hanbury",
+            "“Metrics for evaluating 3D medical image segmentation"
+          ],
+          "title_candidate": "Analysis, selection, and tool,” BMC Medical Imaging, vol. 15, p. 29, Dec",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "A. A. Taha and A. Hanbury, “Metrics for evaluating 3D medical image segmentation",
+          "author_candidates": [
+            "A\u0000A. Taha and A\u0000Hanbury",
+            "“Metrics for evaluating 3D medical image segmentation"
+          ],
+          "title_candidate": "Analysis, selection, and tool,” BMC Medical Imaging, vol. 15, p. 29, Dec. 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] W. K. Cheung, R. Bell, A. Nair, L. Menezies, R. Patel, S. Wan, K. Chou, J. Chen, R. Torii, R. H. Davies, J. C. Moon, D. C. Alexander, and J. Jacob, “A computationally efficient approach to segmentation of the aorta and coronary arteries using deep learning,” preprint, Cardiovascular Medicine, Feb. 2021.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "ieee_quote_title",
+          "author_text": "W. K. Cheung, R. Bell, A. Nair, L. Menezies, R. Patel, S. Wan, K. Chou, J. Chen, R. Torii, R. H. Davies, J. C. Moon, D. C. Alexander, and J. Jacob",
+          "author_candidates": [
+            "Cheung, R",
+            "Bell, A",
+            "Nair, L",
+            "Menezies, R",
+            "Patel, S",
+            "Wan, K",
+            "Chou, J",
+            "Chen, R",
+            "Torii, R",
+            "Davies, J",
+            "Moon, D"
+          ],
+          "title_candidate": "A computationally efficient approach to segmentation of the aorta and coronary arteries using deep learning",
+          "container_candidate": "preprint, Cardiovascular Medicine, Feb. 2021",
+          "year_candidate": 2021,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "W. K",
+          "author_candidates": [
+            "W\u0000K"
+          ],
+          "title_candidate": "Cheung, R. Bell, A. Nair, L. Menezies, R. Patel, S. Wan, K. Chou, J. Chen, R. Torii, R. H",
+          "container_candidate": "Davies, J. C. Moon, D. C. Alexander, and J. Jacob, “A computationally efficient approach to segmentation of the aorta and coronary arteries using deep learning,” preprint, Cardiovascular Medicine, Feb",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "W. K",
+          "author_candidates": [
+            "W\u0000K"
+          ],
+          "title_candidate": "Cheung, R. Bell, A. Nair, L. Menezies, R. Patel, S. Wan, K. Chou, J. Chen, R. Torii, R. H. Davies, J. C. Moon, D. C. Alexander, and J. Jacob, “A computationally efficient approach to segmentation of the aorta and coronary arteries using deep learning,” preprint, Cardiovascular Medicine, Feb",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "W. K",
+          "author_candidates": [
+            "W\u0000K"
+          ],
+          "title_candidate": "Cheung, R. Bell, A. Nair, L. Menezies, R. Patel, S. Wan, K. Chou, J. Chen, R. Torii, R. H. Davies, J. C. Moon, D. C. Alexander, and J. Jacob, “A computationally efficient approach to segmentation of the aorta and coronary arteries using deep learning,” preprint, Cardiovascular Medicine, Feb. 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 10,
+      "metadata": {
+        "entry_count": 11
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

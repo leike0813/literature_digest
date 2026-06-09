@@ -1,0 +1,2501 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:41Z",
+    "entry_count": 40,
+    "candidate_count": 93,
+    "batch_count": 3,
+    "entry_style": "mixed",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 2,
+    "requires_split_review": true,
+    "review_generation_id": "review-ed048337"
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] TAYLOR S R. Planetary science: a lunar perspective[M]. Houston, Tex: Lunar and Planetary Institute, 1982.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] TAYLOR S R. Planetary science: a lunar perspective[M]. Houston, Tex: Lunar and Planetary Institute, 1982."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] WILSHIRE H G, STUART A L, JACKSON E D. Apollo 16 rocks: Petrology and classification[J]. Journal of Geophysical Research, 1973, 78(14): 2379- 2392.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] WILSHIRE H G, STUART A L, JACKSON E D. Apollo 16 rocks: Petrology and classification[J]. Journal of Geophysical Research, 1973, 78(14): 2379- 2392."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] TAYLOR G J. Ancient lunar crust: Origin, composition, and implications[J]. Elements, 2009, 5(1): 17- 22.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] TAYLOR G J. Ancient lunar crust: Origin, composition, and implications[J]. Elements, 2009, 5(1): 17- 22."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] NEAL C R. Petrogenesis of mare basalts: A record of lunar volcanism[J]. Geochimica et Cosmochimica Acta, 1992, 56(6): 2177-2211.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] NEAL C R. Petrogenesis of mare basalts: A record of lunar volcanism[J]. Geochimica et Cosmochimica Acta, 1992, 56(6): 2177-2211."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] KIRK R L. The competition between thermal contraction and differentiation in the stress history of the Moon[J]. Journal of Geophysical Research: Solid Earth, 1989, 94(B9): 12133-12144.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] KIRK R L. The competition between thermal contraction and differentiation in the stress history of the Moon[J]. Journal of Geophysical Research: Solid Earth, 1989, 94(B9): 12133-12144."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] LUCEY P G, BLEWETT D T, JOLLIFF B L. Lunar iron and titanium abundance algorithms based on final processing of Clementine ultraviolet-visible images[J]. Journal of Geophysical Research: Planets, 2000, 105(E8): 20297-20305.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] LUCEY P G, BLEWETT D T, JOLLIFF B L. Lunar iron and titanium abundance algorithms based on final processing of Clementine ultraviolet-visible images[J]. Journal of Geophysical Research: Planets, 2000, 105(E8): 20297-20305."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] CHEN J, LING Z C, LIU J Z, et al. Digital and global lithologic mapping of the Moon at a 1:2,500,000 scale[J]. Science Bulletin, 2022, 67(20): 2050-2054.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] CHEN J, LING Z C, LIU J Z, et al. Digital and global lithologic mapping of the Moon at a 1:2,500,000 scale[J]. Science Bulletin, 2022, 67(20): 2050-2054."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] VON ENGELHARDT W, STENGELIN R. Normative composition and classification of lunar igneous rocks and glasses, I: Lunar igneous rocks[J]. Earth and Planetary Science Letters, 1979, 42(2): 213-222.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] VON ENGELHARDT W, STENGELIN R. Normative composition and classification of lunar igneous rocks and glasses, I: Lunar igneous rocks[J]. Earth and Planetary Science Letters, 1979, 42(2): 213-222."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] JIANG Y, ZHOU J, FENG J, TENG Q. Application of DBSCAN algorithm and mathematical morphology in rock thin section image segmentation[J]. Microcomputer Applications, 2016, 35: 39-41.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] JIANG Y, ZHOU J, FENG J, TENG Q. Application of DBSCAN algorithm and mathematical morphology in rock thin section image segmentation[J]. Microcomputer Applications, 2016, 35: 39-41."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] 吴继敏. 薄片显微描绘和自动图像分析技术在岩石学定量评价中的应用[J]. 矿物岩石, 1999(02): 26-31.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] 吴继敏. 薄片显微描绘和自动图像分析技术在岩石学定量评价中的应用[J]. 矿物岩石, 1999(02): 26-31."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] SINGH N, SINGH T N, TIWARY A, SARKAR K M. Textural identification of basaltic rock mass using image processing and neural network[J]. Computational Geosciences, 2010, 14(2): 301-310.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] SINGH N, SINGH T N, TIWARY A, SARKAR K M. Textural identification of basaltic rock mass using image processing and neural network[J]. Computational Geosciences, 2010, 14(2): 301-310."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] 周程阳, 刘伟, 吴天润, 等. 基于混合专家模型的岩石薄片图像分类 [J]. 吉林大学学报(理学版), 2024,62(4): 905-914.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] 周程阳, 刘伟, 吴天润, 等. 基于混合专家模型的岩石薄片图像分类 [J]. 吉林大学学报(理学版), 2024,62(4): 905-914."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[13] 程国建, 李碧, 万晓龙, 等. 基于 SqueezeNet 卷积神经网络的岩石薄片图像分类研究[J]. 矿物岩石,2021, 41(4): 94-101.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[13] 程国建, 李碧, 万晓龙, 等. 基于 SqueezeNet 卷积神经网络的岩石薄片图像分类研究[J]. 矿物岩石,2021, 41(4): 94-101."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[14] SU C, ZHU K Y. Research progress of intelligent image analysis for petrographic thin section images[J]. Bulletin of Mineralogy, Petrology and Geochemistry, 2023, 42(1): 13-25.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[14] SU C, ZHU K Y. Research progress of intelligent image analysis for petrographic thin section images[J]. Bulletin of Mineralogy, Petrology and Geochemistry, 2023, 42(1): 13-25."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[15] ZONG K Q, WANG Z C, LI J W, et al. Bulk compositions of the Chang'E-5 lunar soil: Insights into chemical homogeneity, exotic addition, and origin of landing site basalts[J]. Geochimica et Cosmochimica Acta, 2022, 335: 284-296.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[15] ZONG K Q, WANG Z C, LI J W, et al. Bulk compositions of the Chang'E-5 lunar soil: Insights into chemical homogeneity, exotic addition, and origin of landing site basalts[J]. Geochimica et Cosmochimica Acta, 2022, 335: 284-296."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[16] XIA Z P, MIAO B K, CHEN H Y, et al. The petrology and mineralogy of lunar meteorite EET 96008 from Antarctica[J]. Advances in Polar Science, 2013, 25 (4): 352-361.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[16] XIA Z P, MIAO B K, CHEN H Y, et al. The petrology and mineralogy of lunar meteorite EET 96008 from Antarctica[J]. Advances in Polar Science, 2013, 25 (4): 352-361."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[17] CARON M , TOUVRON H, MISRA I, et al. Emerging Properties in Self- Supervised Vision Transformers[C]// 2021 IEEE/CVF International Conference on Computer Vision (ICCV). Montreal, QC, Canada: IEEE, 2021: 9630-9640.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[17] CARON M , TOUVRON H, MISRA I, et al. Emerging Properties in Self- Supervised Vision Transformers[C]// 2021 IEEE/CVF International Conference on Computer Vision (ICCV). Montreal, QC, Canada: IEEE, 2021: 9630-9640."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[18] NASA Johnson Space Center. Lunar Sample Compendium[DB/OL]. Houston: NASA Johnson Space Center. https://curator.jsc.nasa.gov/lunar/samplecatalog/.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[18] NASA Johnson Space Center. Lunar Sample Compendium[DB/OL]. Houston: NASA Johnson Space Center. https://curator.jsc.nasa.gov/lunar/samplecatalog/."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[19] APOLLO 15 PRELIMINARY EXAMINATION TE-AM. The Apollo 15 lunar samples: A preliminary description[J]. Science, 1972, 175(4020): 363-375.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[19] APOLLO 15 PRELIMINARY EXAMINATION TE-AM. The Apollo 15 lunar samples: A preliminary description[J]. Science, 1972, 175(4020): 363-375."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[20] CHEN H, XIE L, SHU Q, MIAO B. Northwest Africa 12279: Evidence for the interaction between early lunar mantle melt and anorthositic crust[J]. Journal of Geophysical Research: Planets, 2023, 128: e2023 JE007844.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[20] CHEN H, XIE L, SHU Q, MIAO B. Northwest Africa 12279: Evidence for the interaction between early lunar mantle melt and anorthositic crust[J]. Journal of Geophysical Research: Planets, 2023, 128: e2023 JE007844."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[21] DEER W A, HOWIE R A, ZUSSMAN J. An introduction to the rock- forming minerals[M]. 2nd ed. London: Mineralogical Society of Great Britain and Ire-",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[21] DEER W A, HOWIE R A, ZUSSMAN J. An introduction to the rock- forming minerals[M]. 2nd ed. London: Mineralogical Society of Great Britain and Ire-"
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "land, 2013.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "land, 2013."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[22] TATAR A, HAGHIGHI M, ZEINIJAHROMI A. Experiments on image data augmentation techniques for geological rock type classification with convolutional neural networks[J]. Journal of Rock Mechanics and Geotechnical Engineering, 2025, 17(1): 106-125.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[22] TATAR A, HAGHIGHI M, ZEINIJAHROMI A. Experiments on image data augmentation techniques for geological rock type classification with convolutional neural networks[J]. Journal of Rock Mechanics and Geotechnical Engineering, 2025, 17(1): 106-125."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[23] GUI J, CHEN T, ZHANG J, et al. A survey on self-supervised learning: Algorithms, applications, and future trends[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024, 46(12): 9052-9071.",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[23] GUI J, CHEN T, ZHANG J, et al. A survey on self-supervised learning: Algorithms, applications, and future trends[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024, 46(12): 9052-9071."
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[24] ABE M, NIIOKA H, MATSUMOTO A, et al. Self-supervised learning for feature extraction from glomerular images and disease classification with minimal annotations[J]. Journal of the American Society of Nephrology, 2025, 36(3): 471-486.",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[24] ABE M, NIIOKA H, MATSUMOTO A, et al. Self-supervised learning for feature extraction from glomerular images and disease classification with minimal annotations[J]. Journal of the American Society of Nephrology, 2025, 36(3): 471-486."
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[25] BALESTRIERO R, IBRAHIM M, SOBAL V, et al. A Cookbook of Self-Supervised Learning[J]. arXiv preprint arXiv:2304.12210, 2023.",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[25] BALESTRIERO R, IBRAHIM M, SOBAL V, et al. A Cookbook of Self-Supervised Learning[J]. arXiv preprint arXiv:2304.12210, 2023."
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "[26] HE K, ZHANG X, REN S, SUN J. Deep residual learning for image recognition[C]// Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas: IEEE, 2016: 770-778.",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "[26] HE K, ZHANG X, REN S, SUN J. Deep residual learning for image recognition[C]// Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas: IEEE, 2016: 770-778."
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[27] VAN DER MAATEN L, HINTON G. Visualizing data using t- SNE[J]. Journal of Machine Learning Research, 2008, 9: 2579-2605.",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[27] VAN DER MAATEN L, HINTON G. Visualizing data using t- SNE[J]. Journal of Machine Learning Research, 2008, 9: 2579-2605."
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[28] LIU H, HAOCHEN J Z, GAIDON A, et al. Self- supervised Learning is More Robust to Dataset Imbalance[C]// International Conference on Learning Representations, 2022.",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[28] LIU H, HAOCHEN J Z, GAIDON A, et al. Self- supervised Learning is More Robust to Dataset Imbalance[C]// International Conference on Learning Representations, 2022."
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "收稿日期：2025年4月29日",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "收稿日期：2025年4月29日"
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "戴旻昊，山东大学，本科，目前就读于计算机科学与技术专业。",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "戴旻昊，山东大学，本科，目前就读于计算机科学与技术专业。"
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "本文负责本文初稿撰写、模型构建和开展实验。",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "本文负责本文初稿撰写、模型构建和开展实验。"
+      ]
+    },
+    {
+      "block_index": 64,
+      "source_text": "DAI Minhao, is currently pursuing the B.E. degree in Computer Science and Technology at the Shandong University.",
+      "line_start": 65,
+      "line_end": 65,
+      "proposed_entries": [
+        "DAI Minhao, is currently pursuing the B.E. degree in Computer Science and Technology at the Shandong University."
+      ]
+    },
+    {
+      "block_index": 67,
+      "source_text": "In this paper, he is responsible for drafting the paper, building the model and conducting the experiments.",
+      "line_start": 68,
+      "line_end": 68,
+      "proposed_entries": [
+        "In this paper, he is responsible for drafting the paper, building the model and conducting the experiments."
+      ]
+    },
+    {
+      "block_index": 69,
+      "source_text": "E-mail: 3221416220@qq.com",
+      "line_start": 70,
+      "line_end": 70,
+      "proposed_entries": [
+        "E-mail: 3221416220@qq.com"
+      ]
+    },
+    {
+      "block_index": 71,
+      "source_text": "张立，山东大学，副教授。任国家深空探测遥感测绘工作委员会委员、山东宇航学会理事，近年来主要从事机器学习/深度学习在行星数据中应用等方面的教学与科研工作。",
+      "line_start": 72,
+      "line_end": 72,
+      "proposed_entries": [
+        "张立，山东大学，副教授。任国家深空探测遥感测绘工作委员会委员、山东宇航学会理事，近年来主要从事机器学习/深度学习在行星数据中应用等方面的教学与科研工作。"
+      ]
+    },
+    {
+      "block_index": 73,
+      "source_text": "本文负责制定研究计划，论文修改。",
+      "line_start": 74,
+      "line_end": 74,
+      "proposed_entries": [
+        "本文负责制定研究计划，论文修改。"
+      ]
+    },
+    {
+      "block_index": 75,
+      "source_text": "ZHANG Li, is an associate professor at Shandong University. He is a member of the National Committee for Remote Sensing and Mapping of Deep Space Exploration, and council member of Shandong Society of Astronautics. In recent years, he has mainly been engaged in teaching and research work related to the application of machine learning and deep learning techniques to planetary data.",
+      "line_start": 76,
+      "line_end": 76,
+      "proposed_entries": [
+        "ZHANG Li, is an associate professor at Shandong University. He is a member of the National Committee for Remote Sensing and Mapping of Deep Space Exploration, and council member of Shandong Society of Astronautics. In recent years, he has mainly been engaged in teaching and research work related to the application of machine learning and deep learning techniques to planetary data."
+      ]
+    },
+    {
+      "block_index": 78,
+      "source_text": "In this paper, he is responsible for",
+      "line_start": 79,
+      "line_end": 79,
+      "proposed_entries": [
+        "In this paper, he is responsible for"
+      ]
+    },
+    {
+      "block_index": 80,
+      "source_text": "formulating the research plan and revising the manuscript. E-mail: zhangliwh@sdu.edu.cn",
+      "line_start": 81,
+      "line_end": 81,
+      "proposed_entries": [
+        "formulating the research plan and revising the manuscript. E-mail: zhangliwh@sdu.edu.cn"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] TAYLOR S R. Planetary science: a lunar perspective[M]. Houston, Tex: Lunar and Planetary Institute, 1982.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "TAYLOR S R",
+          "author_candidates": [
+            "TAYLOR S R"
+          ],
+          "title_candidate": "Planetary science: a lunar perspective[M]",
+          "container_candidate": "Houston, Tex: Lunar and Planetary Institute,",
+          "year_candidate": 1982,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "TAYLOR S R. Planetary science",
+          "author_candidates": [
+            "TAYLOR S R. Planetary science"
+          ],
+          "title_candidate": "a lunar perspective[M]. Houston, Tex: Lunar and Planetary Institute",
+          "container_candidate": "",
+          "year_candidate": 1982,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "TAYLOR S R. Planetary science",
+          "author_candidates": [
+            "TAYLOR S R. Planetary science"
+          ],
+          "title_candidate": "a lunar perspective[M]. Houston, Tex: Lunar and Planetary Institute, 1982",
+          "container_candidate": "",
+          "year_candidate": 1982,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] WILSHIRE H G, STUART A L, JACKSON E D. Apollo 16 rocks: Petrology and classification[J]. Journal of Geophysical Research, 1973, 78(14): 2379- 2392.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "WILSHIRE H G, STUART A L, JACKSON E D",
+          "author_candidates": [
+            "WILSHIRE H G, STUART A L, JACKSON E D"
+          ],
+          "title_candidate": "Apollo 16 rocks: Petrology and classification[J]",
+          "container_candidate": "Journal of Geophysical Research, 1973, 78(14): 2379- 2392",
+          "year_candidate": 1973,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "WILSHIRE H G, STUART A L, JACKSON E D. Apollo 16 rocks",
+          "author_candidates": [
+            "WILSHIRE H G, STUART A L, JACKSON E D. Apollo 16 rocks"
+          ],
+          "title_candidate": "Petrology and classification[J]. Journal of Geophysical Research, 1973, 78(14): 2379- 2392",
+          "container_candidate": "",
+          "year_candidate": 1973,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "WILSHIRE H G, STUART A L, JACKSON E D. Apollo 16 rocks",
+          "author_candidates": [
+            "WILSHIRE H G, STUART A L, JACKSON E D. Apollo 16 rocks"
+          ],
+          "title_candidate": "Petrology and classification[J]. Journal of Geophysical Research, 1973, 78(14): 2379- 2392",
+          "container_candidate": "",
+          "year_candidate": 1973,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] TAYLOR G J. Ancient lunar crust: Origin, composition, and implications[J]. Elements, 2009, 5(1): 17- 22.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "TAYLOR G J",
+          "author_candidates": [
+            "TAYLOR G J"
+          ],
+          "title_candidate": "Ancient lunar crust: Origin, composition, and implications[J]",
+          "container_candidate": "Elements, 2009, 5(1): 17- 22",
+          "year_candidate": 2009,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "TAYLOR G J. Ancient lunar crust",
+          "author_candidates": [
+            "TAYLOR G J. Ancient lunar crust"
+          ],
+          "title_candidate": "Origin, composition, and implications[J]. Elements, 2009, 5(1): 17- 22",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "TAYLOR G J. Ancient lunar crust",
+          "author_candidates": [
+            "TAYLOR G J. Ancient lunar crust"
+          ],
+          "title_candidate": "Origin, composition, and implications[J]. Elements, 2009, 5(1): 17- 22",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] NEAL C R. Petrogenesis of mare basalts: A record of lunar volcanism[J]. Geochimica et Cosmochimica Acta, 1992, 56(6): 2177-2211.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "NEAL C R",
+          "author_candidates": [
+            "NEAL C R"
+          ],
+          "title_candidate": "Petrogenesis of mare basalts: A record of lunar volcanism[J]",
+          "container_candidate": "Geochimica et Cosmochimica Acta, 1992, 56(6): 2177-2211",
+          "year_candidate": 1992,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "NEAL C R. Petrogenesis of mare basalts",
+          "author_candidates": [
+            "NEAL C R. Petrogenesis of mare basalts"
+          ],
+          "title_candidate": "A record of lunar volcanism[J]. Geochimica et Cosmochimica Acta, 1992, 56(6): 2177-2211",
+          "container_candidate": "",
+          "year_candidate": 1992,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "NEAL C R. Petrogenesis of mare basalts",
+          "author_candidates": [
+            "NEAL C R. Petrogenesis of mare basalts"
+          ],
+          "title_candidate": "A record of lunar volcanism[J]. Geochimica et Cosmochimica Acta, 1992, 56(6): 2177-2211",
+          "container_candidate": "",
+          "year_candidate": 1992,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] KIRK R L. The competition between thermal contraction and differentiation in the stress history of the Moon[J]. Journal of Geophysical Research: Solid Earth, 1989, 94(B9): 12133-12144.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "KIRK R L",
+          "author_candidates": [
+            "KIRK R L"
+          ],
+          "title_candidate": "The competition between thermal contraction and differentiation in the stress history of the Moon[J]",
+          "container_candidate": "Journal of Geophysical Research: Solid Earth, 1989, 94(B9): 12133-12144",
+          "year_candidate": 1989,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "KIRK R L. The competition between thermal contraction and differentiation in the stress history of the Moon[J]. Journal of Geophysical Research",
+          "author_candidates": [
+            "KIRK R L. The competition between thermal contraction",
+            "differentiation in the stress history of the Moon[J]. Journal of Geophysical Research"
+          ],
+          "title_candidate": "Solid Earth, 1989, 94(B9): 12133-12144",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "KIRK R L. The competition between thermal contraction and differentiation in the stress history of the Moon[J]. Journal of Geophysical Research",
+          "author_candidates": [
+            "KIRK R L. The competition between thermal contraction",
+            "differentiation in the stress history of the Moon[J]. Journal of Geophysical Research"
+          ],
+          "title_candidate": "Solid Earth, 1989, 94(B9): 12133-12144",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] LUCEY P G, BLEWETT D T, JOLLIFF B L. Lunar iron and titanium abundance algorithms based on final processing of Clementine ultraviolet-visible images[J]. Journal of Geophysical Research: Planets, 2000, 105(E8): 20297-20305.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "LUCEY P G, BLEWETT D T, JOLLIFF B L",
+          "author_candidates": [
+            "LUCEY P G, BLEWETT D T, JOLLIFF B L"
+          ],
+          "title_candidate": "Lunar iron and titanium abundance algorithms based on final processing of Clementine ultraviolet-visible images[J]",
+          "container_candidate": "Journal of Geophysical Research: Planets, 2000, 105(E8): 20297-20305",
+          "year_candidate": 2000,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "LUCEY P G, BLEWETT D T, JOLLIFF B L. Lunar iron and titanium abundance algorithms based on final processing of Clementine ultraviolet-visible images[J]. Journal of Geophysical Research",
+          "author_candidates": [
+            "LUCEY P G, BLEWETT D T, JOLLIFF B L. Lunar iron",
+            "titanium abundance algorithms based on final processing of Clementine ultraviolet-visible images[J]. Journal of Geophysical Research"
+          ],
+          "title_candidate": "Planets, 2000, 105(E8): 20297-20305",
+          "container_candidate": "",
+          "year_candidate": 2000,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "LUCEY P G, BLEWETT D T, JOLLIFF B L. Lunar iron and titanium abundance algorithms based on final processing of Clementine ultraviolet-visible images[J]. Journal of Geophysical Research",
+          "author_candidates": [
+            "LUCEY P G, BLEWETT D T, JOLLIFF B L. Lunar iron",
+            "titanium abundance algorithms based on final processing of Clementine ultraviolet-visible images[J]. Journal of Geophysical Research"
+          ],
+          "title_candidate": "Planets, 2000, 105(E8): 20297-20305",
+          "container_candidate": "",
+          "year_candidate": 2000,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] CHEN J, LING Z C, LIU J Z, et al. Digital and global lithologic mapping of the Moon at a 1:2,500,000 scale[J]. Science Bulletin, 2022, 67(20): 2050-2054.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "CHEN J, LING Z C, LIU J Z, et al",
+          "author_candidates": [
+            "CHEN J, LING Z C, LIU J Z, et al"
+          ],
+          "title_candidate": "Digital and global lithologic mapping of the Moon at a 1:2,500,000 scale[J]",
+          "container_candidate": "Science Bulletin, 2022, 67(20): 2050-",
+          "year_candidate": null,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CHEN J, LING Z C, LIU J Z, et al. Digital and global lithologic mapping of the Moon at a 1",
+          "author_candidates": [
+            "CHEN J, LING Z C, LIU J Z, et al. Digital",
+            "global lithologic mapping of the Moon at a 1"
+          ],
+          "title_candidate": "2,500,000 scale[J]. Science Bulletin, 2022, 67(20): 2050-",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "CHEN J, LING Z C, LIU J Z, et al. Digital and global lithologic mapping of the Moon at a 1",
+          "author_candidates": [
+            "CHEN J, LING Z C, LIU J Z, et al. Digital",
+            "global lithologic mapping of the Moon at a 1"
+          ],
+          "title_candidate": "2,500,000 scale[J]. Science Bulletin, 2022, 67(20): 2050-2054",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] VON ENGELHARDT W, STENGELIN R. Normative composition and classification of lunar igneous rocks and glasses, I: Lunar igneous rocks[J]. Earth and Planetary Science Letters, 1979, 42(2): 213-222.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "VON ENGELHARDT W, STENGELIN R",
+          "author_candidates": [
+            "VON ENGELHARDT W, STENGELIN R"
+          ],
+          "title_candidate": "Normative composition and classification of lunar igneous rocks and glasses, I: Lunar igneous rocks[J]",
+          "container_candidate": "Earth and Planetary Science Letters, 1979, 42(2): 213-222",
+          "year_candidate": 1979,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "VON ENGELHARDT W, STENGELIN R. Normative composition and classification of lunar igneous rocks and glasses, I",
+          "author_candidates": [
+            "VON ENGELHARDT W, STENGELIN R. Normative composition",
+            "classification of lunar igneous rocks",
+            "glasses, I"
+          ],
+          "title_candidate": "Lunar igneous rocks[J]. Earth and Planetary Science Letters, 1979, 42(2): 213-222",
+          "container_candidate": "",
+          "year_candidate": 1979,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "VON ENGELHARDT W, STENGELIN R. Normative composition and classification of lunar igneous rocks and glasses, I",
+          "author_candidates": [
+            "VON ENGELHARDT W, STENGELIN R. Normative composition",
+            "classification of lunar igneous rocks",
+            "glasses, I"
+          ],
+          "title_candidate": "Lunar igneous rocks[J]. Earth and Planetary Science Letters, 1979, 42(2): 213-222",
+          "container_candidate": "",
+          "year_candidate": 1979,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] JIANG Y, ZHOU J, FENG J, TENG Q. Application of DBSCAN algorithm and mathematical morphology in rock thin section image segmentation[J]. Microcomputer Applications, 2016, 35: 39-41.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "JIANG Y, ZHOU J, FENG J, TENG Q",
+          "author_candidates": [
+            "JIANG Y, ZHOU J, FENG J, TENG Q"
+          ],
+          "title_candidate": "Application of DBSCAN algorithm and mathematical morphology in rock thin section image segmentation[J]",
+          "container_candidate": "Microcomputer Applications, 2016, 35: 39-41",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "JIANG Y, ZHOU J, FENG J, TENG Q. Application of DBSCAN algorithm and mathematical morphology in rock thin section image segmentation[J]. Microcomputer Applications, 2016, 35",
+          "author_candidates": [
+            "JIANG Y, ZHOU J, FENG J, TENG Q. Application of DBSCAN algorithm",
+            "mathematical morphology in rock thin section image segmentation[J]. Microcomputer Applications, 2016, 35"
+          ],
+          "title_candidate": "39-41",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "JIANG Y, ZHOU J, FENG J, TENG Q. Application of DBSCAN algorithm and mathematical morphology in rock thin section image segmentation[J]. Microcomputer Applications, 2016, 35",
+          "author_candidates": [
+            "JIANG Y, ZHOU J, FENG J, TENG Q. Application of DBSCAN algorithm",
+            "mathematical morphology in rock thin section image segmentation[J]. Microcomputer Applications, 2016, 35"
+          ],
+          "title_candidate": "39-41",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] 吴继敏. 薄片显微描绘和自动图像分析技术在岩石学定量评价中的应用[J]. 矿物岩石, 1999(02): 26-31.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "吴继敏",
+          "author_candidates": [
+            "吴继敏"
+          ],
+          "title_candidate": "薄片显微描绘和自动图像分析技术在岩石学定量评价中的应用",
+          "container_candidate": "矿物岩石",
+          "year_candidate": 1999,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] SINGH N, SINGH T N, TIWARY A, SARKAR K M. Textural identification of basaltic rock mass using image processing and neural network[J]. Computational Geosciences, 2010, 14(2): 301-310.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "SINGH N, SINGH T N, TIWARY A, SARKAR K M",
+          "author_candidates": [
+            "SINGH N, SINGH T N, TIWARY A, SARKAR K M"
+          ],
+          "title_candidate": "Textural identification of basaltic rock mass using image processing and neural network[J]",
+          "container_candidate": "Computational Geosciences, 2010, 14(2): 301-310",
+          "year_candidate": 2010,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "SINGH N, SINGH T N, TIWARY A, SARKAR K M. Textural identification of basaltic rock mass using image processing and neural network[J]. Computational Geosciences, 2010, 14(2)",
+          "author_candidates": [
+            "SINGH N, SINGH T N, TIWARY A, SARKAR K M. Textural identification of basaltic rock mass using image processing",
+            "neural network[J]. Computational Geosciences, 2010, 14(2)"
+          ],
+          "title_candidate": "301-310",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "SINGH N, SINGH T N, TIWARY A, SARKAR K M. Textural identification of basaltic rock mass using image processing and neural network[J]. Computational Geosciences, 2010, 14(2)",
+          "author_candidates": [
+            "SINGH N, SINGH T N, TIWARY A, SARKAR K M. Textural identification of basaltic rock mass using image processing",
+            "neural network[J]. Computational Geosciences, 2010, 14(2)"
+          ],
+          "title_candidate": "301-310",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] 周程阳, 刘伟, 吴天润, 等. 基于混合专家模型的岩石薄片图像分类 [J]. 吉林大学学报(理学版), 2024,62(4): 905-914.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "周程阳, 刘伟, 吴天润, 等",
+          "author_candidates": [
+            "周程阳",
+            "刘伟",
+            "吴天润",
+            "等"
+          ],
+          "title_candidate": "基于混合专家模型的岩石薄片图像分类",
+          "container_candidate": "吉林大学学报(理学版)",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] 程国建, 李碧, 万晓龙, 等. 基于 SqueezeNet 卷积神经网络的岩石薄片图像分类研究[J]. 矿物岩石,2021, 41(4): 94-101.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "程国建, 李碧, 万晓龙, 等",
+          "author_candidates": [
+            "程国建",
+            "李碧",
+            "万晓龙",
+            "等"
+          ],
+          "title_candidate": "基于 SqueezeNet 卷积神经网络的岩石薄片图像分类研究",
+          "container_candidate": "矿物岩石",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] SU C, ZHU K Y. Research progress of intelligent image analysis for petrographic thin section images[J]. Bulletin of Mineralogy, Petrology and Geochemistry, 2023, 42(1): 13-25.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "SU C, ZHU K Y",
+          "author_candidates": [
+            "SU C, ZHU K Y"
+          ],
+          "title_candidate": "Research progress of intelligent image analysis for petrographic thin section images[J]",
+          "container_candidate": "Bulletin of Mineralogy, Petrology and Geochemistry, 2023, 42(1): 13-25",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "SU C, ZHU K Y. Research progress of intelligent image analysis for petrographic thin section images[J]. Bulletin of Mineralogy, Petrology and Geochemistry, 2023, 42(1)",
+          "author_candidates": [
+            "Mineralogy, Petrology"
+          ],
+          "title_candidate": "13-25",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "SU C, ZHU K Y. Research progress of intelligent image analysis for petrographic thin section images[J]. Bulletin of Mineralogy, Petrology and Geochemistry, 2023, 42(1)",
+          "author_candidates": [
+            "Mineralogy, Petrology"
+          ],
+          "title_candidate": "13-25",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] ZONG K Q, WANG Z C, LI J W, et al. Bulk compositions of the Chang'E-5 lunar soil: Insights into chemical homogeneity, exotic addition, and origin of landing site basalts[J]. Geochimica et Cosmochimica Acta, 2022, 335: 284-296.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "ZONG K Q, WANG Z C, LI J W, et al",
+          "author_candidates": [
+            "ZONG K Q, WANG Z C, LI J W, et al"
+          ],
+          "title_candidate": "Bulk compositions of the Chang'E-5 lunar soil: Insights into chemical homogeneity, exotic addition, and origin of landing site basalts[J]",
+          "container_candidate": "Geochimica et Cosmochimica Acta, 2022, 335: 284-296",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "ZONG K Q, WANG Z C, LI J W, et al. Bulk compositions of the Chang'E-5 lunar soil",
+          "author_candidates": [
+            "ZONG K Q, WANG Z C, LI J W, et al. Bulk compositions of the Chang'E-5 lunar soil"
+          ],
+          "title_candidate": "Insights into chemical homogeneity, exotic addition, and origin of landing site basalts[J]. Geochimica et Cosmochimica Acta, 2022, 335: 284-296",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "ZONG K Q, WANG Z C, LI J W, et al. Bulk compositions of the Chang'E-5 lunar soil",
+          "author_candidates": [
+            "ZONG K Q, WANG Z C, LI J W, et al. Bulk compositions of the Chang'E-5 lunar soil"
+          ],
+          "title_candidate": "Insights into chemical homogeneity, exotic addition, and origin of landing site basalts[J]. Geochimica et Cosmochimica Acta, 2022, 335: 284-296",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] XIA Z P, MIAO B K, CHEN H Y, et al. The petrology and mineralogy of lunar meteorite EET 96008 from Antarctica[J]. Advances in Polar Science, 2013, 25 (4): 352-361.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "XIA Z P, MIAO B K, CHEN H Y, et al",
+          "author_candidates": [
+            "XIA Z P, MIAO B K, CHEN H Y, et al"
+          ],
+          "title_candidate": "The petrology and mineralogy of lunar meteorite EET 96008 from Antarctica[J]",
+          "container_candidate": "Advances in Polar Science, 2013, 25 (4): 352-361",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "XIA Z P, MIAO B K, CHEN H Y, et al. The petrology and mineralogy of lunar meteorite EET 96008 from Antarctica[J]. Advances in Polar Science, 2013, 25 (4)",
+          "author_candidates": [
+            "XIA Z P, MIAO B K, CHEN H Y, et al. The petrology",
+            "mineralogy of lunar meteorite EET 96008 from Antarctica[J]. Advances in Polar Science, 2013, 25 (4)"
+          ],
+          "title_candidate": "352-361",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "XIA Z P, MIAO B K, CHEN H Y, et al. The petrology and mineralogy of lunar meteorite EET 96008 from Antarctica[J]. Advances in Polar Science, 2013, 25 (4)",
+          "author_candidates": [
+            "XIA Z P, MIAO B K, CHEN H Y, et al. The petrology",
+            "mineralogy of lunar meteorite EET 96008 from Antarctica[J]. Advances in Polar Science, 2013, 25 (4)"
+          ],
+          "title_candidate": "352-361",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] CARON M , TOUVRON H, MISRA I, et al. Emerging Properties in Self- Supervised Vision Transformers[C]// 2021 IEEE/CVF International Conference on Computer Vision (ICCV). Montreal, QC, Canada: IEEE, 2021: 9630-9640.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "CARON M , TOUVRON H, MISRA I, et al",
+          "author_candidates": [
+            "CARON M , TOUVRON H, MISRA I, et al"
+          ],
+          "title_candidate": "Emerging Properties in Self- Supervised Vision Transformers[C]// 2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+          "container_candidate": "Montreal, QC, Canada: IEEE, 2021: 9630-9640",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CARON M , TOUVRON H, MISRA I, et al. Emerging Properties in Self- Supervised Vision Transformers[C]// 2021 IEEE/CVF International Conference on Computer Vision (ICCV). Montreal, QC, Canada",
+          "author_candidates": [
+            "Montreal, QC"
+          ],
+          "title_candidate": "IEEE, 2021: 9630-9640",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "CARON M , TOUVRON H, MISRA I, et al. Emerging Properties in Self- Supervised Vision Transformers[C]// 2021 IEEE/CVF International Conference on Computer Vision (ICCV). Montreal, QC, Canada",
+          "author_candidates": [
+            "Montreal, QC"
+          ],
+          "title_candidate": "IEEE, 2021: 9630-9640",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] NASA Johnson Space Center. Lunar Sample Compendium[DB/OL]. Houston: NASA Johnson Space Center. https://curator.jsc.nasa.gov/lunar/samplecatalog/.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "NASA Johnson Space Center",
+          "author_candidates": [
+            "NASA Johnson Space Center"
+          ],
+          "title_candidate": "Lunar Sample Compendium[DB/OL]",
+          "container_candidate": "Houston: NASA Johnson Space Center. https://curator.jsc.nasa.gov/lunar/samplecatalog/",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "NASA Johnson Space Center. Lunar Sample Compendium[DB/OL]. Houston",
+          "author_candidates": [
+            "NASA Johnson Space Center. Lunar Sample Compendium[DB/OL]. Houston"
+          ],
+          "title_candidate": "NASA Johnson Space Center. https://curator.jsc.nasa.gov/lunar/samplecatalog/",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] APOLLO 15 PRELIMINARY EXAMINATION TE-AM. The Apollo 15 lunar samples: A preliminary description[J]. Science, 1972, 175(4020): 363-375.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "APOLLO 15 PRELIMINARY EXAMINATION TE-AM",
+          "author_candidates": [
+            "APOLLO 15 PRELIMINARY EXAMINATION TE-AM"
+          ],
+          "title_candidate": "The Apollo 15 lunar samples: A preliminary description[J]",
+          "container_candidate": "Science, 1972, 175(4020): 363-375",
+          "year_candidate": 1972,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "APOLLO 15 PRELIMINARY EXAMINATION TE-AM. The Apollo 15 lunar samples",
+          "author_candidates": [
+            "APOLLO 15 PRELIMINARY EXAMINATION TE-AM. The Apollo 15 lunar samples"
+          ],
+          "title_candidate": "A preliminary description[J]. Science, 1972, 175(4020): 363-375",
+          "container_candidate": "",
+          "year_candidate": 1972,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "APOLLO 15 PRELIMINARY EXAMINATION TE-AM. The Apollo 15 lunar samples",
+          "author_candidates": [
+            "APOLLO 15 PRELIMINARY EXAMINATION TE-AM. The Apollo 15 lunar samples"
+          ],
+          "title_candidate": "A preliminary description[J]. Science, 1972, 175(4020): 363-375",
+          "container_candidate": "",
+          "year_candidate": 1972,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] CHEN H, XIE L, SHU Q, MIAO B. Northwest Africa 12279: Evidence for the interaction between early lunar mantle melt and anorthositic crust[J]. Journal of Geophysical Research: Planets, 2023, 128: e2023 JE007844.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "CHEN H, XIE L, SHU Q, MIAO B",
+          "author_candidates": [
+            "CHEN H, XIE L, SHU Q, MIAO B"
+          ],
+          "title_candidate": "Northwest Africa 12279: Evidence for the interaction between early lunar mantle melt and anorthositic crust[J]",
+          "container_candidate": "Journal of Geophysical Research: Planets, 2023, 128: e2023 JE007844",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CHEN H, XIE L, SHU Q, MIAO B. Northwest Africa 12279",
+          "author_candidates": [
+            "CHEN H, XIE L, SHU Q, MIAO B. Northwest Africa 12279"
+          ],
+          "title_candidate": "Evidence for the interaction between early lunar mantle melt and anorthositic crust[J]. Journal of Geophysical Research: Planets, 2023, 128: e2023 JE007844",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "CHEN H, XIE L, SHU Q, MIAO B. Northwest Africa 12279",
+          "author_candidates": [
+            "CHEN H, XIE L, SHU Q, MIAO B. Northwest Africa 12279"
+          ],
+          "title_candidate": "Evidence for the interaction between early lunar mantle melt and anorthositic crust[J]. Journal of Geophysical Research: Planets, 2023, 128: e2023 JE007844",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] DEER W A, HOWIE R A, ZUSSMAN J. An introduction to the rock- forming minerals[M]. 2nd ed. London: Mineralogical Society of Great Britain and Ire-",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "DEER W A, HOWIE R A, ZUSSMAN J",
+          "author_candidates": [
+            "DEER W A, HOWIE R A, ZUSSMAN J"
+          ],
+          "title_candidate": "An introduction to the rock- forming minerals[M]",
+          "container_candidate": "2nd ed. London: Mineralogical Society of Great Britain and Ire-",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "DEER W A, HOWIE R A, ZUSSMAN J. An introduction to the rock- forming minerals[M]. 2nd ed. London",
+          "author_candidates": [
+            "DEER W A, HOWIE R A, ZUSSMAN J. An introduction to the rock- forming minerals[M]. 2nd ed. London"
+          ],
+          "title_candidate": "Mineralogical Society of Great Britain and Ire-",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "land, 2013.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "land, 2013.",
+          "author_candidates": [
+            "land, 2013."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[22] TATAR A, HAGHIGHI M, ZEINIJAHROMI A. Experiments on image data augmentation techniques for geological rock type classification with convolutional neural networks[J]. Journal of Rock Mechanics and Geotechnical Engineering, 2025, 17(1): 106-125.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "TATAR A, HAGHIGHI M, ZEINIJAHROMI A",
+          "author_candidates": [
+            "TATAR A, HAGHIGHI M, ZEINIJAHROMI A"
+          ],
+          "title_candidate": "Experiments on image data augmentation techniques for geological rock type classification with convolutional neural networks[J]",
+          "container_candidate": "Journal of Rock Mechanics and Geotechnical Engineering, 2025, 17(1): 106-125",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "TATAR A, HAGHIGHI M, ZEINIJAHROMI A. Experiments on image data augmentation techniques for geological rock type classification with convolutional neural networks[J]. Journal of Rock Mechanics and Geotechnical Engineering, 2025, 17(1)",
+          "author_candidates": [
+            "TATAR A, HAGHIGHI M, ZEINIJAHROMI A. Experiments on image data augmentation techniques for geological rock type classification with convolutional neural networks[J]. Journal of Rock Mechanics",
+            "Geotechnical Engineering, 2025, 17(1)"
+          ],
+          "title_candidate": "106-125",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "TATAR A, HAGHIGHI M, ZEINIJAHROMI A. Experiments on image data augmentation techniques for geological rock type classification with convolutional neural networks[J]. Journal of Rock Mechanics and Geotechnical Engineering, 2025, 17(1)",
+          "author_candidates": [
+            "TATAR A, HAGHIGHI M, ZEINIJAHROMI A. Experiments on image data augmentation techniques for geological rock type classification with convolutional neural networks[J]. Journal of Rock Mechanics",
+            "Geotechnical Engineering, 2025, 17(1)"
+          ],
+          "title_candidate": "106-125",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[23] GUI J, CHEN T, ZHANG J, et al. A survey on self-supervised learning: Algorithms, applications, and future trends[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024, 46(12): 9052-9071.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "GUI J, CHEN T, ZHANG J, et al",
+          "author_candidates": [
+            "GUI J, CHEN T, ZHANG J, et al"
+          ],
+          "title_candidate": "A survey on self-supervised learning: Algorithms, applications, and future trends[J]",
+          "container_candidate": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024, 46(12): 9052-9071",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "GUI J, CHEN T, ZHANG J, et al. A survey on self-supervised learning",
+          "author_candidates": [
+            "GUI J, CHEN T, ZHANG J, et al. A survey on self-supervised learning"
+          ],
+          "title_candidate": "Algorithms, applications, and future trends[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024, 46(12): 9052-9071",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "GUI J, CHEN T, ZHANG J, et al. A survey on self-supervised learning",
+          "author_candidates": [
+            "GUI J, CHEN T, ZHANG J, et al. A survey on self-supervised learning"
+          ],
+          "title_candidate": "Algorithms, applications, and future trends[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024, 46(12): 9052-9071",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[24] ABE M, NIIOKA H, MATSUMOTO A, et al. Self-supervised learning for feature extraction from glomerular images and disease classification with minimal annotations[J]. Journal of the American Society of Nephrology, 2025, 36(3): 471-486.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "ABE M, NIIOKA H, MATSUMOTO A, et al",
+          "author_candidates": [
+            "ABE M, NIIOKA H, MATSUMOTO A, et al"
+          ],
+          "title_candidate": "Self-supervised learning for feature extraction from glomerular images and disease classification with minimal annotations[J]",
+          "container_candidate": "Journal of the American Society of Nephrology, 2025, 36(3): 471-486",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "ABE M, NIIOKA H, MATSUMOTO A, et al. Self-supervised learning for feature extraction from glomerular images and disease classification with minimal annotations[J]. Journal of the American Society of Nephrology, 2025, 36(3)",
+          "author_candidates": [
+            "ABE M, NIIOKA H, MATSUMOTO A, et al. Self-supervised learning for feature extraction from glomerular images",
+            "disease classification with minimal annotations[J]. Journal of the American Society of Nephrology, 2025, 36(3)"
+          ],
+          "title_candidate": "471-486",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "ABE M, NIIOKA H, MATSUMOTO A, et al. Self-supervised learning for feature extraction from glomerular images and disease classification with minimal annotations[J]. Journal of the American Society of Nephrology, 2025, 36(3)",
+          "author_candidates": [
+            "ABE M, NIIOKA H, MATSUMOTO A, et al. Self-supervised learning for feature extraction from glomerular images",
+            "disease classification with minimal annotations[J]. Journal of the American Society of Nephrology, 2025, 36(3)"
+          ],
+          "title_candidate": "471-486",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[25] BALESTRIERO R, IBRAHIM M, SOBAL V, et al. A Cookbook of Self-Supervised Learning[J]. arXiv preprint arXiv:2304.12210, 2023.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "BALESTRIERO R, IBRAHIM M, SOBAL V, et al",
+          "author_candidates": [
+            "BALESTRIERO R, IBRAHIM M, SOBAL V, et al"
+          ],
+          "title_candidate": "A Cookbook of Self-Supervised Learning[J]. arXiv preprint",
+          "container_candidate": "arXiv:2304.12210, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "BALESTRIERO R, IBRAHIM M, SOBAL V, et al",
+          "author_candidates": [
+            "BALESTRIERO R, IBRAHIM M, SOBAL V, et al"
+          ],
+          "title_candidate": "A Cookbook of Self-Supervised Learning[J]",
+          "container_candidate": "arXiv preprint arXiv:2304.12210,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "BALESTRIERO R, IBRAHIM M, SOBAL V, et al. A Cookbook of Self-Supervised Learning[J]. arXiv preprint arXiv",
+          "author_candidates": [
+            "BALESTRIERO R, IBRAHIM M, SOBAL V, et al. A Cookbook of Self-Supervised Learning[J]. arXiv preprint arXiv"
+          ],
+          "title_candidate": "2304.12210",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "BALESTRIERO R, IBRAHIM M, SOBAL V, et al. A Cookbook of Self-Supervised Learning[J]. arXiv preprint arXiv",
+          "author_candidates": [
+            "BALESTRIERO R, IBRAHIM M, SOBAL V, et al. A Cookbook of Self-Supervised Learning[J]. arXiv preprint arXiv"
+          ],
+          "title_candidate": "2304.12210, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[26] HE K, ZHANG X, REN S, SUN J. Deep residual learning for image recognition[C]// Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas: IEEE, 2016: 770-778.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "HE K, ZHANG X, REN S, SUN J",
+          "author_candidates": [
+            "HE K, ZHANG X, REN S, SUN J"
+          ],
+          "title_candidate": "Deep residual learning for image recognition[C]//",
+          "container_candidate": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas: IEEE, 2016: 770-778",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "HE K, ZHANG X, REN S, SUN J",
+          "author_candidates": [
+            "HE K, ZHANG X, REN S, SUN J"
+          ],
+          "title_candidate": "Deep residual learning for image recognition[C]// Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "container_candidate": "Las Vegas: IEEE, 2016: 770-778",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "HE K, ZHANG X, REN S, SUN J. Deep residual learning for image recognition[C]// Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas",
+          "author_candidates": [
+            "HE K, ZHANG X, REN S, SUN J. Deep residual learning for image recognition[C]// Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition. Las Vegas"
+          ],
+          "title_candidate": "IEEE, 2016: 770-778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "HE K, ZHANG X, REN S, SUN J. Deep residual learning for image recognition[C]// Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. Las Vegas",
+          "author_candidates": [
+            "HE K, ZHANG X, REN S, SUN J. Deep residual learning for image recognition[C]// Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition. Las Vegas"
+          ],
+          "title_candidate": "IEEE, 2016: 770-778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[27] VAN DER MAATEN L, HINTON G. Visualizing data using t- SNE[J]. Journal of Machine Learning Research, 2008, 9: 2579-2605.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "VAN DER MAATEN L, HINTON G",
+          "author_candidates": [
+            "VAN DER MAATEN L, HINTON G"
+          ],
+          "title_candidate": "Visualizing data using t- SNE[J]",
+          "container_candidate": "Journal of Machine Learning Research, 2008, 9: 2579-2605",
+          "year_candidate": 2008,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "VAN DER MAATEN L, HINTON G. Visualizing data using t- SNE[J]. Journal of Machine Learning Research, 2008, 9",
+          "author_candidates": [
+            "VAN DER MAATEN L, HINTON G. Visualizing data using t- SNE[J]. Journal of Machine Learning Research, 2008, 9"
+          ],
+          "title_candidate": "2579-2605",
+          "container_candidate": "",
+          "year_candidate": 2008,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "VAN DER MAATEN L, HINTON G. Visualizing data using t- SNE[J]. Journal of Machine Learning Research, 2008, 9",
+          "author_candidates": [
+            "VAN DER MAATEN L, HINTON G. Visualizing data using t- SNE[J]. Journal of Machine Learning Research, 2008, 9"
+          ],
+          "title_candidate": "2579-2605",
+          "container_candidate": "",
+          "year_candidate": 2008,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[28] LIU H, HAOCHEN J Z, GAIDON A, et al. Self- supervised Learning is More Robust to Dataset Imbalance[C]// International Conference on Learning Representations, 2022.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "LIU H, HAOCHEN J Z, GAIDON A, et al",
+          "author_candidates": [
+            "LIU H, HAOCHEN J Z, GAIDON A, et al"
+          ],
+          "title_candidate": "Self- supervised Learning is More Robust to Dataset Imbalance[C]// International Conference on Learning Representations, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "LIU H, HAOCHEN J Z, GAIDON A, et al",
+          "author_candidates": [
+            "LIU H, HAOCHEN J Z, GAIDON A, et al"
+          ],
+          "title_candidate": "Self- supervised Learning is More Robust to Dataset Imbalance[C]// International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "LIU H, HAOCHEN J Z, GAIDON A, et al",
+          "author_candidates": [
+            "LIU H, HAOCHEN J Z, GAIDON A, et al"
+          ],
+          "title_candidate": "Self- supervised Learning is More Robust to Dataset Imbalance[C]// International Conference on Learning Representations, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "收稿日期：2025年4月29日",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "收稿日期",
+          "author_candidates": [
+            "收稿日期"
+          ],
+          "title_candidate": "2025年4月29日",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "戴旻昊，山东大学，本科，目前就读于计算机科学与技术专业。",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "戴旻昊,山东大学,本科,目前就读于计算机科学与技术专业。",
+          "author_candidates": [
+            "戴旻昊,山东大学,本科,目前就读于计算机科学与技术专业。"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "本文负责本文初稿撰写、模型构建和开展实验。",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "本文负责本文初稿撰写、模型构建和开展实验。",
+          "author_candidates": [
+            "本文负责本文初稿撰写、模型构建和开展实验。"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "DAI Minhao, is currently pursuing the B.E. degree in Computer Science and Technology at the Shandong University.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "DAI Minhao, is currently pursuing the B.E",
+          "author_candidates": [
+            "DAI Minhao",
+            "is currently pursuing the B.E"
+          ],
+          "title_candidate": "degree in Computer Science and Technology at the Shandong University",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "DAI Minhao, is currently pursuing the B.E",
+          "author_candidates": [
+            "DAI Minhao",
+            "is currently pursuing the B.E"
+          ],
+          "title_candidate": "degree in Computer Science and Technology at the Shandong University",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "In this paper, he is responsible for drafting the paper, building the model and conducting the experiments.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "In this paper, he is responsible for drafting the paper, building the model and conducting the experiments.",
+          "author_candidates": [
+            "In this paper",
+            "he is responsible for drafting the paper",
+            "building the model and conducting the experiments."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "E-mail: 3221416220@qq.com",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "E-mail",
+          "author_candidates": [
+            "E-mail"
+          ],
+          "title_candidate": "3221416220@qq.com",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "张立，山东大学，副教授。任国家深空探测遥感测绘工作委员会委员、山东宇航学会理事，近年来主要从事机器学习/深度学习在行星数据中应用等方面的教学与科研工作。",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "张立,山东大学,副教授。任国家深空探测遥感测绘工作委员会委员、山东宇航学会理事,近年来主要从事机器学习/深度学习在行星数据中应用等方面的教学与科研工作。",
+          "author_candidates": [
+            "张立,山东大学,副教授。任国家深空探测遥感测绘工作委员会委员、山东宇航学会理事,近年来主要从事机器学习/深度学习在行星数据中应用等方面的教学与科研工作。"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "本文负责制定研究计划，论文修改。",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "本文负责制定研究计划,论文修改。",
+          "author_candidates": [
+            "本文负责制定研究计划,论文修改。"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "ZHANG Li, is an associate professor at Shandong University. He is a member of the National Committee for Remote Sensing and Mapping of Deep Space Exploration, and council member of Shandong Society of Astronautics. In recent years, he has mainly been engaged in teaching and research work related to the application of machine learning and deep learning techniques to planetary data.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "venue_marker_split",
+          "author_text": "ZHANG Li, is an associate professor at Shandong University",
+          "author_candidates": [
+            "ZHANG Li",
+            "is an associate professor at Shandong University"
+          ],
+          "title_candidate": "He is a member of the National Committee for Remote Sensing and Mapping of Deep Space Exploration, and council member of Shandong Society of Astronautics",
+          "container_candidate": "In recent years, he has mainly been engaged in teaching and research work related to the application of machine learning and deep learning techniques to planetary data",
+          "year_candidate": null,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "ZHANG Li, is an associate professor at Shandong University",
+          "author_candidates": [
+            "ZHANG Li",
+            "is an associate professor at Shandong University"
+          ],
+          "title_candidate": "He is a member of the National Committee for Remote Sensing and Mapping of Deep Space Exploration, and council member of Shandong Society of Astronautics",
+          "container_candidate": "In recent years, he has mainly been engaged in teaching and research work related to the application of machine learning and deep learning techniques to planetary data",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "ZHANG Li, is an associate professor at Shandong University",
+          "author_candidates": [
+            "ZHANG Li",
+            "is an associate professor at Shandong University"
+          ],
+          "title_candidate": "He is a member of the National Committee for Remote Sensing and Mapping of Deep Space Exploration, and council member of Shandong Society of Astronautics. In recent years, he has mainly been engaged in teaching and research work related to the application of machine learning and deep learning techniques to planetary data",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "In this paper, he is responsible for",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "In this paper, he is responsible for",
+          "author_candidates": [
+            "In this paper",
+            "he is responsible for"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "formulating the research plan and revising the manuscript. E-mail: zhangliwh@sdu.edu.cn",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "formulating the research plan and revising the manuscript. E-mail",
+          "author_candidates": [
+            "formulating the research plan",
+            "revising the manuscript. E-mail"
+          ],
+          "title_candidate": "zhangliwh@sdu.edu.cn",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 39,
+      "metadata": {
+        "entry_count": 10
+      }
+    }
+  ],
+  "suspect_blocks": [
+    {
+      "block_index": 40,
+      "source_text": "[21] DEER W A, HOWIE R A, ZUSSMAN J. An introduction to the rock- forming minerals[M]. 2nd ed. London: Mineralogical Society of Great Britain and Ire- land, 2013.",
+      "line_start": 41,
+      "line_end": 43,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[21] DEER W A, HOWIE R A, ZUSSMAN J. An introduction to the rock- forming minerals[M]. 2nd ed. London: Mineralogical Society of Great Britain and Ire-",
+        "land, 2013."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    },
+    {
+      "block_index": 58,
+      "source_text": "收稿日期：2025年4月29日 戴旻昊，山东大学，本科，目前就读于计算机科学与技术专业。 本文负责本文初稿撰写、模型构建和开展实验。 DAI Minhao, is currently pursuing the B.E. degree in Computer Science and Technology at the Shandong University. In this paper, he is responsible for drafting the paper, building the model and conducting the experiments. E-mail: 3221416220@qq.com 张立，山东大学，副教授。任国家深空探测遥感测绘工作委员会委员、山东宇航学会理事，近年来主要从事机器学习/深度学习在行星数据中应用等方面的教学与科研工作。 本文负责制定研究计划，论文修改。 ZHANG Li, is an associate professor at Shandong University. He is a member of the National Committee for Remote Sensing and Mapping of Deep Space Exploration, and council member of Shandong Society of Astronautics. In recent years, he has mainly been engaged in teaching and research work related to the application of machine learning and deep learning techniques to planetary data. In this paper, he is responsible for formulating the research plan and revising the manuscript. E-mail: zhangliwh@sdu.edu.cn",
+      "line_start": 59,
+      "line_end": 81,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "收稿日期：2025年4月29日",
+        "戴旻昊，山东大学，本科，目前就读于计算机科学与技术专业。",
+        "本文负责本文初稿撰写、模型构建和开展实验。",
+        "DAI Minhao, is currently pursuing the B.E. degree in Computer Science and Technology at the Shandong University.",
+        "In this paper, he is responsible for drafting the paper, building the model and conducting the experiments.",
+        "E-mail: 3221416220@qq.com",
+        "张立，山东大学，副教授。任国家深空探测遥感测绘工作委员会委员、山东宇航学会理事，近年来主要从事机器学习/深度学习在行星数据中应用等方面的教学与科研工作。",
+        "本文负责制定研究计划，论文修改。",
+        "ZHANG Li, is an associate professor at Shandong University. He is a member of the National Committee for Remote Sensing and Mapping of Deep Space Exploration, and council member of Shandong Society of Astronautics. In recent years, he has mainly been engaged in teaching and research work related to the application of machine learning and deep learning techniques to planetary data.",
+        "In this paper, he is responsible for",
+        "formulating the research plan and revising the manuscript. E-mail: zhangliwh@sdu.edu.cn"
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    }
+  ],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_title_boundary_suspect: entry_index=21 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=30 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=31 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=33 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=35 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=36 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=38 pattern=fallback_raw_split",
+    "reference_entry_grouping_suspect: block_index=40",
+    "reference_entry_grouping_suspect: block_index=58"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.25,
+    "year_ratio": 0.65,
+    "warning_density": 0.9,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.175
+  },
+  "file_quality_low": false
+}

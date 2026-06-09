@@ -1,0 +1,674 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/ELUGCCPA_基于计算机视觉的Transformer研究进展.txt",
+  "entry_style": "numeric",
+  "notes": "计算机视觉Transformer综述，74条参考文献，混合中英文条目。中文条目均附带英文翻译。",
+  "items": [
+    {
+      "author": ["Yann LeCun", "Léon Bottou"],
+      "title": "Gradient-based learning applied to document recognition",
+      "year": 1998,
+      "container": "Proceedings of the IEEE, 86(11): 2278-2324",
+      "raw": "[1] LECUN Y，BOTTOU L.Gradient-based learning applied todocument recognition[J].Proceedings of the IEEE，1998，86（11）：2278-2324.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": ["周飞燕", "金林鹏", "董军"],
+      "title": "卷积神经网络研究综述",
+      "year": 2017,
+      "container": "计算机学报, 40(6): 1229-1251",
+      "raw": "[2] 周飞燕，金林鹏，董军.卷积神经网络研究综述[J].计算机学报，2017，40（6）：1229-1251.ZHOU F Y，JIN L P，DONG J.Review of convolutional neural networks[J].Chinese Journal of Computers，2017，40（6）：1229-1251.",
+      "confidence": 0.90,
+      "entry_index": 1
+    },
+    {
+      "author": ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "et al."],
+      "title": "Generative adversarial networks",
+      "year": 2014,
+      "container": "Advances in Neural Information Processing Systems, 3: 2672-2680",
+      "raw": "[3] GOODFELLOW I J，POUGET-ABADIE J，MIRZA M，et al. Generative adversarial networks[J].Advances in Neural Information Processing Systems，2014，3：2672-2680.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "et al."],
+      "title": "Attention is all you need",
+      "year": 2017,
+      "container": "Advances in Neural Information Processing Systems, pp. 5998-6008",
+      "raw": "[4] VASWANI A，SHAZEER N，PARMAR N，et al.Attention is all you need[C]//Advances in Neural Information Processing Systems，2017：5998-6008.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": ["Niki Parmar", "Ashish Vaswani", "Jakob Uszkoreit", "et al."],
+      "title": "Image transformer",
+      "year": 2018,
+      "container": "International Conference on Machine Learning, pp. 4055-4064",
+      "raw": "[5] PARMAR N，VASWANI A，USZKOREIT J，et al.Image transformer[C]//International Conference on Machine Learning，2018：4055-4064.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": ["Nicolas Carion", "Francisco Massa", "Gabriel Synnaeve", "et al."],
+      "title": "End-to-end object detection with transformers",
+      "year": 2020,
+      "container": "European Conference on Computer Vision, pp. 213-229",
+      "raw": "[6] CARION N，MASSA F，SYNNAEVE G，et al.End-to-end object detection with transformers[C]//European Conference on Computer Vision.Cham：Springer，2020：213-229.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": ["Mark Chen", "Alec Radford", "Rewon Child", "et al."],
+      "title": "Generative pretraining from pixels",
+      "year": 2020,
+      "container": "International Conference on Machine Learning, pp. 1691-1703",
+      "raw": "[7] CHEN M，RADFORD A，CHILD R，et al.Generative pretraining from pixels[C]//International Conference on Machine Learning，2020：1691-1703.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": ["Alexey Dosovitskiy", "Lucas Beyer", "Alexander Kolesnikov", "et al."],
+      "title": "An image is worth 16x16 words: transformers for image recognition at scale",
+      "year": 2020,
+      "container": "arXiv:2010.11929",
+      "raw": "[8] DOSOVITSKIY A，BEYER L，KOLESNIKOV A，et al.An image is worth 16×16 words：transformers for image recognition at scale[J].arXiv：2010.11929，2020.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": ["Patrick Esser", "Robin Rombach", "Björn Ommer"],
+      "title": "Taming transformers for high-resolution image synthesis",
+      "year": 2021,
+      "container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 12873-12883",
+      "raw": "[9] ESSER P，ROMBACH R，OMMER B.Taming transform-ers for high- resolution image synthesis[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition，2021：12873-12883.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": ["Alec Radford", "Jeffrey Wu", "Rewon Child", "et al."],
+      "title": "Language models are unsupervised multitask learners",
+      "year": 2019,
+      "container": "OpenAI Blog, 1(8): 9",
+      "raw": "[10] RADFORD A，WU J，CHILD R，et al.Language modelsare unsupervised multitask learners[J].OpenAI Blog，2019，1（8）：9.",
+      "confidence": 0.90,
+      "entry_index": 9
+    },
+    {
+      "author": ["Yao-Hung Tsai", "Shaojie Bai", "Paul Pu Liang"],
+      "title": "Multimodal transformer for unaligned multimodal language sequences",
+      "year": 2019,
+      "container": "arXiv:1906.00295",
+      "raw": "[11] TSAI Y H，BAI S，LIANG P.Multimodal transformer for unaligned multimodal language sequences[J].arXiv：1906. 00295，2019.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": ["杨丽", "吴雨茜", "王俊丽"],
+      "title": "循环神经网络研究综述",
+      "year": 2018,
+      "container": "计算机应用, 38(S2): 1-6",
+      "raw": "[12] 杨丽，吴雨茜，王俊丽.循环神经网络研究综述[J].计算机应用，2018，38（S2）：1-6.YANG L，WU Y Q，WANG J L.Research on recurrent neural network[J].Journal of Computer Applications，2018，38（S2）：1-6.",
+      "confidence": 0.90,
+      "entry_index": 11
+    },
+    {
+      "author": ["任欢", "王旭光"],
+      "title": "注意力机制综述",
+      "year": 2021,
+      "container": "计算机应用, 41(S1): 1-6",
+      "raw": "[13] 任欢，王旭光.注意力机制综述[J].计算机应用，2021，41（S1）：1-6.",
+      "confidence": 0.90,
+      "entry_index": 12
+    },
+    {
+      "author": ["刘金花"],
+      "title": "基于主动半监督极限学习机多类图像分类方法研究",
+      "year": 2016,
+      "container": "东南大学",
+      "raw": "[14] 刘金花.基于主动半监督极限学习机多类图像分类方法 研究[D].南京：东南大学，2016. LIU J H.Active and semi- supervised learning based on ELM for multi-class image classification[D].Nanjing：Southeast University，2016.",
+      "confidence": 0.90,
+      "entry_index": 13
+    },
+    {
+      "author": ["王红", "史金钏", "张志伟"],
+      "title": "基于注意力机制的LSTM的语义关系抽取",
+      "year": 2018,
+      "container": "计算机应用研究, 35(5): 1417-1420",
+      "raw": "[15] 王红，史金钏，张志伟.基于注意力机制的LSTM的语义关系抽取[J]. 计算机应用研究，2018，35（5）：1417-1420.WANG H，SHI J C，ZHANG Z W.Text semantic relation extraction of LSTM based on attention mechanism[J].Application Research of Computers，2018，35（5）：1417-1420.",
+      "confidence": 0.90,
+      "entry_index": 14
+    },
+    {
+      "author": ["唐海桃", "薛嘉宾", "韩纪庆"],
+      "title": "一种多尺度前向注意力模型的语音识别方法",
+      "year": 2020,
+      "container": "电子学报, 48(7): 1255-1260",
+      "raw": "[16] 唐海桃，薛嘉宾，韩纪庆.一种多尺度前向注意力模型的语音识别方法[J]. 电子学报，2020，48（7）：1255-1260.TANG H T，XUE J B，HAN J Q.A method of multi-scale forward attention model for speech recognition[J].Acta Electronica Sinica，2020，48（7）：1255-1260.",
+      "confidence": 0.90,
+      "entry_index": 15
+    },
+    {
+      "author": ["Wenguan Wang", "Jianbing Shen", "Yizhou Yu", "et al."],
+      "title": "Stereoscopic thumbnail creation via efficient stereo saliency detection",
+      "year": 2016,
+      "container": "IEEE Transactions on Visualization and Computer Graphics, 23(8): 2014-2027",
+      "raw": "[17] WANG W，SHEN J，YU Y，et al.Stereoscopic thumbnail creation via efficient stereo saliency detection[J].IEEE Transactions on Visualization and Computer Graphics， 2016，23（8）：2014-2027.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": ["Zhouhan Lin", "Minwei Feng", "Cicero Nogueira dos Santos", "et al."],
+      "title": "A structured self-attentive sentence embedding",
+      "year": 2017,
+      "container": "International Conference on Learning Representations",
+      "raw": "[18] LIN Z，FENG M，SANTOS C N，et al.A structured selfattentive sentence embedding[C]//Proceedings of the International Conference on Learning Representations，Toulon， France，2017.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": ["Kai Han", "Yunhe Wang", "Hanting Chen", "et al."],
+      "title": "A survey on visual transformer",
+      "year": 2020,
+      "container": "arXiv:2012.12556",
+      "raw": "[19] HAN K，WANG Y，CHEN H，et al.A survey on visualtransformer[J].arXiv：2012.12556，2020.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": ["Salman Khan", "Muzammal Naseer", "Muhammad Hayat", "et al."],
+      "title": "Transformers in vision: a survey",
+      "year": 2021,
+      "container": "arXiv:2101.01169",
+      "raw": "[20] KHAN S，NASEER M，HAYAT M，et al.Transformers invision：a survey[J].arXiv：2101.01169，2021.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": ["Kai Han", "An Xiao", "Enhua Wu", "et al."],
+      "title": "Transformer in transformer",
+      "year": 2021,
+      "container": "arXiv:2103.00112",
+      "raw": "[21] HAN K，XIAO A，WU E，et al.Transformer in transformer[J].arXiv：2103.00112，2021.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": ["Li Yuan", "Yunpeng Chen", "Tao Wang", "et al."],
+      "title": "Tokens-to-token ViT: training vision transformers from scratch on ImageNet",
+      "year": 2021,
+      "container": "arXiv:2101.11986",
+      "raw": "[22] YUAN L，CHEN Y，WANG T，et al.Tokens-to-token vit： training vision transformers from scratch on imagenet[J]. arXiv：2101.11986，2021.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": ["Zihao Jiang", "Qibin Hou", "Li Yuan", "et al."],
+      "title": "Token labeling: training a 85.5% top-1 accuracy vision transformer with 56M parameters on ImageNet",
+      "year": 2021,
+      "container": "arXiv:2104.10858",
+      "raw": "[23] JIANG Z，HOU Q，YUAN L，et al.Token labeling：training a 85.5% top-1 accuracy vision transformer with 56 m parameters on imagenet[J].arXiv：2104.10858，2021.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": ["Daquan Zhou", "Bingyi Kang", "Xiaojie Jin", "et al."],
+      "title": "DeepViT: towards deeper vision transformer",
+      "year": 2021,
+      "container": "arXiv:2103.11886",
+      "raw": "[24] ZHOU D，KANG B，JIN X，et al.Deepvit：towards deepervision transformer[J].arXiv：2103.11886，2021.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": ["Xizhou Zhu", "Weijie Su", "Lewei Lu", "et al."],
+      "title": "Deformable DETR: deformable transformers for end-to-end object detection",
+      "year": 2020,
+      "container": "arXiv:2010.04159",
+      "raw": "[25] ZHU X，SU W，LU L，et al.Deformable DETR：deformable transformers for end-to-end object detection[J].arXiv： 2010.04159，2020.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": ["Zhiqing Sun", "Shengcao Cao", "Yiming Yang"],
+      "title": "Rethinking transformer-based set prediction for object detection",
+      "year": 2020,
+      "container": "arXiv:2011.10881",
+      "raw": "[26] SUN Z，CAO S，YANG Y.Rethinking transformer-based set prediction for object detection[J].arXiv：2011.10881，2020.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": ["Zhiguo Dai", "Bolun Cai", "Yinggong Lin", "et al."],
+      "title": "UP-DETR: unsupervised pre-training for object detection with transformers",
+      "year": 2020,
+      "container": "arXiv:2011.09094",
+      "raw": "[27] DAI Z，CAI B，LIN Y，et al.UP-DETR：unsupervised pretraining for object detection with transformers[J].arXiv： 2011.09094，2020.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": ["Minghang Zheng", "Peng Gao", "Xiaogang Wang", "et al."],
+      "title": "End-to-end object detection with adaptive clustering transformer",
+      "year": 2020,
+      "container": "arXiv:2011.09315",
+      "raw": "[28] ZHENG M，GAO P，WANG X，et al.End-to-end object detection with adaptive clustering transformer[J].arXiv： 2011.09315，2020.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": ["Sixiao Zheng", "Jiachen Lu", "Hengshuang Zhao", "et al."],
+      "title": "Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers",
+      "year": 2020,
+      "container": "arXiv:2012.15840",
+      "raw": "[29] ZHENG S，LU J，ZHAO H，et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers[J].arXiv：2012.15840，2020.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": ["Robin Strudel", "Ricardo Garcia", "Ivan Laptev", "et al."],
+      "title": "Segmenter: transformer for semantic segmentation",
+      "year": 2021,
+      "container": "arXiv:2105.05633",
+      "raw": "[30] STRUDEL R，GARCIA R，LAPTEV I，et al.Segmenter：transformer for semantic segmentation[J].arXiv：2105.05633，2021.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": ["Enze Xie", "Wenhai Wang", "Zhiding Yu", "et al."],
+      "title": "SegFormer: simple and efficient design for semantic segmentation with transformers",
+      "year": 2021,
+      "container": "arXiv:2105.15203",
+      "raw": "[31] XIE E，WANG W，YU Z，et al.SegFormer：simple and efficient design for semantic segmentation with transformers[J].arXiv：2105.15203，2021.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": ["Huiyu Wang", "Yukun Zhu", "Hartwig Adam", "et al."],
+      "title": "MaX-DeepLab: end-to-end panoptic segmentation with mask transformers",
+      "year": 2020,
+      "container": "arXiv:2012.00759",
+      "raw": "[32] WANG H，ZHU Y，ADAM H，et al.MaX-DeepLab：endto-end panoptic segmentation with mask transformers[J]. arXiv：2012.00759，2020.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": ["Yuqing Wang", "Zhaoyang Xu", "Xinlong Wang", "et al."],
+      "title": "End-to-end video instance segmentation with transformers",
+      "year": 2020,
+      "container": "arXiv:2011.14503",
+      "raw": "[33] WANG Y，XU Z，WANG X，et al.End-to-end video instance segmentation with transformers[J].arXiv：2011.14503，2020.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": ["Fuyan Ma", "Bin Sun", "Shutao Li"],
+      "title": "Robust facial expression recognition with convolutional visual transformers",
+      "year": 2021,
+      "container": "arXiv:2103.16854",
+      "raw": "[34] MA F，SUN B，LI S.Robust facial expression recognition with convolutional visual transformers[J].arXiv：2103. 16854，2021.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": ["Ce Zheng", "Sijie Zhu", "Mendieta Matias", "et al."],
+      "title": "3D human pose estimation with spatial and temporal transformers",
+      "year": 2021,
+      "container": "arXiv:2103.10455",
+      "raw": "[35] ZHENG C，ZHU S，MENDIETA M，et al.3d human pose estimation with spatial and temporal transformers[J].arXiv： 2103.10455，2021.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": ["Shuting He", "Hao Luo", "Pichao Wang", "et al."],
+      "title": "TransReID: transformer-based object re-identification",
+      "year": 2021,
+      "container": "arXiv:2102.04378",
+      "raw": "[36] HE S，LUO H，WANG P，et al.TransReID：transformerbased object re-identification[J].arXiv：2102.04378，2021.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": ["Ruijin Liu", "Zehui Yuan", "Tie Liu", "et al."],
+      "title": "End-to-end lane shape prediction with transformers",
+      "year": 2021,
+      "container": "2021 IEEE/CVF Winter Conference on Applications of Computer Vision, pp. 3694-3702",
+      "raw": "[37] LIU R，YUAN Z，LIU T，et al.End-to-end lane shape prediction with transformers[C]//Proceedings of the IEEE/ CVF Winter Conference on Applications of Computer Vision，2021：3694-3702.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": ["Hanting Chen", "Yunhe Wang", "Tianyu Guo", "et al."],
+      "title": "Pre-trained image processing transformer",
+      "year": 2020,
+      "container": "arXiv:2012.00364",
+      "raw": "[38] CHEN H，WANG Y，GUO T，et al.Pre-trained image processing transformer[J].arXiv：2012.00364，2020.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": ["Fuzhi Yang", "Huan Yang", "Jianlong Fu", "et al."],
+      "title": "Learning texture transformer network for image super-resolution",
+      "year": 2020,
+      "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 5791-5800",
+      "raw": "[39] YANG F，YANG H，FU J，et al.Learning texture transformer network for image super- resolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：5791-5800.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": ["Yifan Jiang", "Shiyu Chang", "Zhangyang Wang"],
+      "title": "TransGAN: two transformers can make one strong GAN",
+      "year": 2021,
+      "container": "arXiv:2102.07074",
+      "raw": "[40] JIANG Y，CHANG S，WANG Z.Transgan：two transform-ers can make one strong gan[J].arXiv：2102.07074，2021.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": ["Yihong Chen", "Yue Cao", "Han Hu", "et al."],
+      "title": "Memory enhanced global-local aggregation for video object detection",
+      "year": 2020,
+      "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10337-10346",
+      "raw": "[41] CHEN Y，CAO Y，HU H，et al.Memory enhanced globallocal aggregation for video object detection[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：10337-10346.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": ["Yanhong Zeng", "Jianlong Fu", "Hongyang Chao"],
+      "title": "Learning joint spatial-temporal transformations for video inpainting",
+      "year": 2020,
+      "container": "European Conference on Computer Vision, pp. 528-543",
+      "raw": "[42] ZENG Y，FU J，CHAO H.Learning joint spatial-temporal transformations for video inpainting[C]//European Conference on Computer Vision.Cham：Springer，2020：528-543.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": ["Gedas Bertasius", "Heng Wang", "Lorenzo Torresani"],
+      "title": "Is space-time attention all you need for video understanding?",
+      "year": 2021,
+      "container": "arXiv:2102.05095",
+      "raw": "[43] BERTASIUS G，WANG H，TORRESANI L.Is space-time attention all you need for video understanding?[J].arXiv： 2102.05095，2021.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": ["Zhuang Liu", "Shengju Luo", "Wenyuan Li", "et al."],
+      "title": "ConvTransformer: a convolutional transformer network for video frame synthesis",
+      "year": 2020,
+      "container": "arXiv:2011.10185",
+      "raw": "[44] LIU Z，LUO S，LI W，et al.ConvTransformer：a convolu-tional transformer network for video frame synthesis[J].arXiv：2011.10185，2020.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "et al."],
+      "title": "BERT: pre-training of deep bidirectional transformers for language understanding",
+      "year": 2018,
+      "container": "arXiv:1810.04805",
+      "raw": "[45] DEVLIN J，CHANG M W，LEE K，et al.Bert：pre-training of deep bidirectional transformers for language understanding[J].arXiv：1810.04805，2018.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": ["Sergey Zagoruyko", "Nikos Komodakis"],
+      "title": "Wide residual networks",
+      "year": 2016,
+      "container": "British Machine Vision Conference",
+      "raw": "[46] ZAGORUYKO S，KOMODAKIS N.Wide residual networks[C]//British Machine Vision Conference，2016.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": ["Mingxing Tan", "Quoc Le"],
+      "title": "EfficientNet: rethinking model scaling for convolutional neural networks",
+      "year": 2019,
+      "container": "International Conference on Machine Learning, pp. 6105-6114",
+      "raw": "[47] TAN M，LE Q.Efficientnet：rethinking model scaling for convolutional neural networks[C]//International Confer-ence on Machine Learning，2019：6105-6114.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": ["Alexander Kolesnikov", "Lucas Beyer", "Xiaohua Zhai", "et al."],
+      "title": "Big transfer (BiT): general visual representation learning",
+      "year": 2020,
+      "container": "16th European Conference on Computer Vision (ECCV 2020), pp. 491-507",
+      "raw": "[48] KOLESNIKOV A，BEYER L，ZHAI X，et al.Big transfer（bit）：general visual representation learning[C]//16th Euro-pean Conference on Computer Vision（ECCV 2020），Glasgow，UK，August 23-28，2020：491-507.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "et al."],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 770-778",
+      "raw": "[49] HE K，ZHANG X，REN S，et al.Deep residual learning for image recognition[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition， 2016：770-778.",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": ["Andrew G. Howard", "Menglong Zhu", "Bo Chen"],
+      "title": "MobileNets: efficient convolutional neural networks for mobile vision applications",
+      "year": 2017,
+      "container": "arXiv:1704.04861",
+      "raw": "[50] HOWARD A G，ZHU M，CHEN B.Mobilenets：efficient convolutional neural networks for mobile vision applications[J].arXiv：1704.04861，2017.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": ["Mark Sandler", "Andrew Howard", "Menglong Zhu", "et al."],
+      "title": "MobileNetV2: inverted residuals and linear bottlenecks",
+      "year": 2018,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 4510-4520",
+      "raw": "[51] SANDLER M，HOWARD A，ZHU M，et al.Mobilenetv2： inverted residuals and linear bottlenecks[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2018：4510-4520.",
+      "confidence": 0.95,
+      "entry_index": 50
+    },
+    {
+      "author": ["Sangdoo Yun", "Seong Joon Oh", "Byeongho Heo"],
+      "title": "Re-labeling ImageNet: from single to multi-labels, from global to localized labels",
+      "year": 2021,
+      "container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 2340-2350",
+      "raw": "[52] YUN S，OH S J，HEO B.Re- labeling imagenet：from single to multi-labels，from global to localized labels[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2021：2340-2350.",
+      "confidence": 0.95,
+      "entry_index": 51
+    },
+    {
+      "author": ["Ross Girshick", "Jeff Donahue", "Trevor Darrell", "et al."],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 580-587",
+      "raw": "[53] GIRSHICK R，DONAHUE J，DARRELL T，et al.Rich feature hierarchies for accurate object detection and semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2014：580-587.",
+      "confidence": 0.95,
+      "entry_index": 52
+    },
+    {
+      "author": ["Joseph Redmon", "Santosh Divvala", "Ross Girshick", "et al."],
+      "title": "You only look once: unified, real-time object detection",
+      "year": 2016,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 779-788",
+      "raw": "[54] REDMON J，DIVVALA S，GIRSHICK R，et al.You only look once：unified，real-time object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2016：779-788.",
+      "confidence": 0.95,
+      "entry_index": 53
+    },
+    {
+      "author": ["李彦冬"],
+      "title": "基于卷积神经网络的计算机视觉关键技术研究",
+      "year": 2017,
+      "container": "电子科技大学",
+      "raw": "[55] 李彦冬.基于卷积神经网络的计算机视觉关键技术研究[D].成都：电子科技大学，2017.LI Y D.Convolutional neural networks based research on image understanding[D].Chengdu：University of Electronic Science and Technology of China，2017.",
+      "confidence": 0.90,
+      "entry_index": 54
+    },
+    {
+      "author": ["Jifeng Dai", "Haozhi Qi", "Yuwen Xiong", "et al."],
+      "title": "Deformable convolutional networks",
+      "year": 2017,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision, pp. 764-773",
+      "raw": "[56] DAI J，QI H，XIONG Y，et al.Deformable convolutional networks[C]//Proceedings of the IEEE International Conference on Computer Vision，2017：764-773.",
+      "confidence": 0.95,
+      "entry_index": 55
+    },
+    {
+      "author": ["Tsung-Yi Lin", "Piotr Dollár", "Ross Girshick", "et al."],
+      "title": "Feature pyramid networks for object detection",
+      "year": 2017,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2117-2125",
+      "raw": "[57] LIN T Y，DOLLÁR P，GIRSHICK R，et al.Feature pyramid networks for object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2017：2117-2125.",
+      "confidence": 0.95,
+      "entry_index": 56
+    },
+    {
+      "author": ["Zhi Tian", "Chunhua Shen", "Hao Chen", "et al."],
+      "title": "FCOS: fully convolutional one-stage object detection",
+      "year": 2019,
+      "container": "2019 IEEE/CVF International Conference on Computer Vision, pp. 9627-9636",
+      "raw": "[58] TIAN Z，SHEN C，CHEN H，et al.Fcos：fully convolutional onestage object detection[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：9627-9636.",
+      "confidence": 0.95,
+      "entry_index": 57
+    },
+    {
+      "author": ["Yilun Chen", "Zhicheng Wang", "Yuxiang Peng", "et al."],
+      "title": "Cascaded pyramid network for multi-person pose estimation",
+      "year": 2018,
+      "container": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 7103-7112",
+      "raw": "[59] CHEN Y，WANG Z，PENG Y，et al.Cascaded pyramid network for multi- person pose estimation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2018：7103-7112.",
+      "confidence": 0.95,
+      "entry_index": 58
+    },
+    {
+      "author": ["Xiaohan Ding", "Yuchen Guo", "Guiguang Ding", "et al."],
+      "title": "ACNet: strengthening the kernel skeletons for powerful CNN via asymmetric convolution blocks",
+      "year": 2019,
+      "container": "2019 IEEE/CVF International Conference on Computer Vision, pp. 1911-1920",
+      "raw": "[60] DING X，GUO Y，DING G，et al.ACNet：strengthening the kernel skeletons for powerful CNN via asymmetric convolution blocks[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision，2019：1911-1920.",
+      "confidence": 0.95,
+      "entry_index": 59
+    },
+    {
+      "author": ["Linjie Yang", "Yuchen Fan", "Ning Xu"],
+      "title": "Video instance segmentation",
+      "year": 2019,
+      "container": "2019 IEEE/CVF International Conference on Computer Vision, pp. 5188-5197",
+      "raw": "[61] YANG L，FAN Y，XU N.Video instance segmentation[C]//Proceedings of the IEEE/CVF International Conferenceon Computer Vision，2019：5188-5197.",
+      "confidence": 0.95,
+      "entry_index": 60
+    },
+    {
+      "author": ["Kai Wang", "Xiaojiang Peng", "Jianfei Yang", "et al."],
+      "title": "Suppressing uncertainties for large-scale facial expression recognition",
+      "year": 2020,
+      "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 6897-6906",
+      "raw": "[62] WANG K，PENG X，YANG J，et al.Suppressing uncertainties for large-scale facial expression recognition[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：6897-6906.",
+      "confidence": 0.95,
+      "entry_index": 61
+    },
+    {
+      "author": ["Kevin Lin", "Lijun Wang", "Zicheng Liu"],
+      "title": "End-to-end human pose and mesh reconstruction with transformers",
+      "year": 2021,
+      "container": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 1954-1963",
+      "raw": "[63] LIN K，WANG L，LIU Z.End-to-end human pose andmesh reconstruction with transformers[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition，2021：1954-1963.",
+      "confidence": 0.95,
+      "entry_index": 62
+    },
+    {
+      "author": ["Hao Luo"],
+      "title": "Bag of tricks and a strong baseline for deep person re-identification",
+      "year": 2019,
+      "container": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+      "raw": "[64] HAO L.Bags of tricks and a strong baseline for deep person re- identification[C]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops （CVPRW），2019.",
+      "confidence": 0.95,
+      "entry_index": 63
+    },
+    {
+      "author": ["Tianlong Chen", "Shuang Ding", "Jingyi Xie", "et al."],
+      "title": "ABD-Net: attentive but diverse person re-identification",
+      "year": 2019,
+      "container": "2019 IEEE/CVF International Conference on Computer Vision, pp. 8351-8361",
+      "raw": "[65] CHEN T，DING S，XIE J，et al.Abd- net：attentive but diverse person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：8351-8361.",
+      "confidence": 0.95,
+      "entry_index": 64
+    },
+    {
+      "author": ["Jiaxu Miao", "Yu Wu", "Pin Liu", "et al."],
+      "title": "Pose-guided feature alignment for occluded person re-identification",
+      "year": 2019,
+      "container": "2019 IEEE/CVF International Conference on Computer Vision, pp. 542-551",
+      "raw": "[66] MIAO J，WU Y，LIU P，et al.Pose-guided feature alignment for occluded person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision，2019：542-551.",
+      "confidence": 0.95,
+      "entry_index": 65
+    },
+    {
+      "author": ["Pirazh Khorramshahi", "Neehar Peri", "Jui-Chen Chen", "et al."],
+      "title": "The devil is in the details: self-supervised attention for vehicle re-identification",
+      "year": 2020,
+      "container": "European Conference on Computer Vision, pp. 369-386",
+      "raw": "[67] KHORRAMSHAHI P，PERI N，CHEN J，et al.The devil is in the details：self-supervised attention for vehicle reidentification[C]//European Conference on Computer Vision. Cham：Springer，2020：369-386.",
+      "confidence": 0.95,
+      "entry_index": 66
+    },
+    {
+      "author": ["Lucas Tabelini", "Rodrigo Berriel", "Thiago M. Paixao", "et al."],
+      "title": "PolyLaneNet: lane estimation via deep polynomial regression",
+      "year": 2021,
+      "container": "2020 25th International Conference on Pattern Recognition (ICPR), pp. 6150-6156",
+      "raw": "[68] TABELINI L，BERRIEL R，PAIXAO T M，et al.Polylanenet：lane estimation via deep polynomial regression[C]//202025th International Conference on Pattern Recognition（ICPR），2021：6150-6156.",
+      "confidence": 0.95,
+      "entry_index": 67
+    },
+    {
+      "author": ["Xiang Li", "Jun Li", "Xiaolin Hu", "et al."],
+      "title": "Line-CNN: end-to-end traffic line detection with line proposal unit",
+      "year": 2019,
+      "container": "IEEE Transactions on Intelligent Transportation Systems, 21(1): 248-258",
+      "raw": "[69] LI X，LI J，HU X，et al.Line- CNN：end- to- end traffic line detection with line proposal unit[J].IEEE Transactions on Intelligent Transportation Systems，2019，21（1）： 248-258.",
+      "confidence": 0.95,
+      "entry_index": 68
+    },
+    {
+      "author": ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "et al."],
+      "title": "Generative adversarial networks",
+      "year": 2014,
+      "container": "Advances in Neural Information Processing Systems, 3: 2672-2680",
+      "raw": "[70] GOODFELLOW I J，POUGET-ABADIE J，MIRZA M， et al.Generative adversarial networks[J].Advances in Neural Information Processing Systems，2014，3：2672-2680.",
+      "confidence": 0.95,
+      "entry_index": 69
+    },
+    {
+      "author": ["Tero Karras", "Samuli Laine", "Miika Aittala", "et al."],
+      "title": "Analyzing and improving the image quality of StyleGAN",
+      "year": 2020,
+      "container": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 8110-8119",
+      "raw": "[71] KARRAS T，LAINE S，AITTALA M，et al.Analyzing and improving the image quality of stylegan[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：8110-8119.",
+      "confidence": 0.95,
+      "entry_index": 70
+    },
+    {
+      "author": ["Christoph Feichtenhofer", "Haoqi Fan", "Jitendra Malik", "et al."],
+      "title": "SlowFast networks for video recognition",
+      "year": 2019,
+      "container": "2019 IEEE/CVF International Conference on Computer Vision, pp. 6202-6211",
+      "raw": "[72] FEICHTENHOFER C，FAN H，MALIK J，et al.Slowfast networks for video recognition[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：6202-6211.",
+      "confidence": 0.95,
+      "entry_index": 71
+    },
+    {
+      "author": ["Ziwei Liu", "Raymond A. Yeh", "Xiaoou Tang", "et al."],
+      "title": "Video frame synthesis using deep voxel flow",
+      "year": 2017,
+      "container": "Proceedings of the IEEE International Conference on Computer Vision, pp. 4463-4471",
+      "raw": "[73] LIU Z，YEH R A，TANG X，et al.Video frame synthesis using deep voxel flow[C]//Proceedings of the IEEE International Conference on Computer Vision，2017：4463-4471.",
+      "confidence": 0.95,
+      "entry_index": 72
+    },
+    {
+      "author": ["Ruben Villegas", "Jimei Yang", "Seunghoon Hong", "et al."],
+      "title": "Decomposing motion and content for natural video sequence prediction",
+      "year": 2017,
+      "container": "arXiv:1706.08033",
+      "raw": "[74] VILLEGAS R，YANG J，HONG S，et al.Decomposing motion and content for natural video sequence prediction[J].arXiv：1706.08033，2017.",
+      "confidence": 0.95,
+      "entry_index": 73
+    }
+  ]
+}

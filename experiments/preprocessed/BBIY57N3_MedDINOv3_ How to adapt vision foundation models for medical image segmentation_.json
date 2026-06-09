@@ -1,0 +1,3925 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:42Z",
+    "entry_count": 45,
+    "candidate_count": 166,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhanng, Wanling Ma, Xiang Wan, et al. Amos: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation. Advances in neural information processing systems, 35:36722–36732, 2022.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhanng, Wanling Ma, Xiang Wan, et al. Amos: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation. Advances in neural information processing systems, 35:36722–36732, 2022."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] Yuheng Li, Jacob F Wynne, Yizhou Wu, Richard LJ Qiu, Sibo Tian, Tonghe Wang, Pretesh R Patel, David S Yu, and Xiaofeng Yang. Automatic medical imaging segmentation via self-supervising large-scale convolutional neural networks. Radiotherapy and Oncology, 204:110711, 2025.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] Yuheng Li, Jacob F Wynne, Yizhou Wu, Richard LJ Qiu, Sibo Tian, Tonghe Wang, Pretesh R Patel, David S Yu, and Xiaofeng Yang. Automatic medical imaging segmentation via self-supervising large-scale convolutional neural networks. Radiotherapy and Oncology, 204:110711, 2025."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] Yucheng Tang, Dong Yang, et al. Self-supervised pre-training of swinunetr for 3d medical image analysis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 207–218, 2022.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] Yucheng Tang, Dong Yang, et al. Self-supervised pre-training of swinunetr for 3d medical image analysis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 207–218, 2022."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] Fabian Isensee, Paul F Jaeger, Simon A A Kohl, Jens Petersen, and Klaus H Maier-Hein. nnu-net: a self-adapting framework for u-net-based medical image segmentation. Nature Methods, 18(2):203–211, 2021.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] Fabian Isensee, Paul F Jaeger, Simon A A Kohl, Jens Petersen, and Klaus H Maier-Hein. nnu-net: a self-adapting framework for u-net-based medical image segmentation. Nature Methods, 18(2):203–211, 2021."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] Ali Hatamizadeh, Vishwesh Nath, et al. Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images. In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pages 272–284. Springer, 2022.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] Ali Hatamizadeh, Vishwesh Nath, et al. Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images. In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pages 272–284. Springer, 2022."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] Jun Ma, Bo Wang, et al. Segment anything in medical images. Nature Communications, 14(1):2578, 2023.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] Jun Ma, Bo Wang, et al. Segment anything in medical images. Nature Communications, 14(1):2578, 2023."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] Rishi Bommasani, Drew A Hudson, Ehsan Adeli, and et al. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258, 2021.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] Rishi Bommasani, Drew A Hudson, Ehsan Adeli, and et al. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258, 2021."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] Xingyu Zhou, Zheng Zhang, et al. A comprehensive survey on pretraining-based foundation models: A history from bert to chatgpt. arXiv preprint arXiv:2302.09419, 2023.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] Xingyu Zhou, Zheng Zhang, et al. A comprehensive survey on pretraining-based foundation models: A history from bert to chatgpt. arXiv preprint arXiv:2302.09419, 2023."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] Yuheng Li, Mingzhe Hu, and Xiaofeng Yang. Polyp-sam: Transfer sam for polyp segmentation. In Medical imaging 2024: computer-aided diagnosis, volume 12927, pages 749–754. SPIE, 2024.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] Yuheng Li, Mingzhe Hu, and Xiaofeng Yang. Polyp-sam: Transfer sam for polyp segmentation. In Medical imaging 2024: computer-aided diagnosis, volume 12927, pages 749–754. SPIE, 2024."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] Shansong Wang, Mojtaba Safari, Mingzhe Hu, Qiang Li, Chih-Wei Chang, Richard LJ Qiu, and Xiaofeng Yang. Dinov3 with test-time training for medical image registration. arXiv preprint arXiv:2508.14809, 2025.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] Shansong Wang, Mojtaba Safari, Mingzhe Hu, Qiang Li, Chih-Wei Chang, Richard LJ Qiu, and Xiaofeng Yang. Dinov3 with test-time training for medical image registration. arXiv preprint arXiv:2508.14809, 2025."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] Mathilde Caron, Hugo Touvron, Ishan Misra, and et al. Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9630–9640, 2021.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] Mathilde Caron, Hugo Touvron, Ishan Misra, and et al. Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9630–9640, 2021."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamala Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever. Learning transferable visual models from natural language supervision. In Proceedings of the 38th International Conference on Machine Learning (ICML), pages 8748–8763, 2021.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamala Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever. Learning transferable visual models from natural language supervision. In Proceedings of the 38th International Conference on Machine Learning (ICML), pages 8748–8763, 2021."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[13] Michael Tschannen, Xiaohua Zhai, Andreas Steiner, Lucas Beyer, et al. Siglip 2: Better, faster, stronger. arXiv preprint arXiv:2501.01536, 2025.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[13] Michael Tschannen, Xiaohua Zhai, Andreas Steiner, Lucas Beyer, et al. Siglip 2: Better, faster, stronger. arXiv preprint arXiv:2501.01536, 2025."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[14] Maxime Oquab, Timothée Darcet, Théo Moutakanni, and et al. Dinov2: Learning robust visual features without supervision. arXiv preprint arXiv:2304.07193, 2023.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[14] Maxime Oquab, Timothée Darcet, Théo Moutakanni, and et al. Dinov2: Learning robust visual features without supervision. arXiv preprint arXiv:2304.07193, 2023."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[15] Oriane Siméoni, Huy V Vo, Maximilian Seitzer, and et al. Dinov3: Advancing self-supervised learning at scale. arXiv preprint arXiv:2508.10104, 2025.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[15] Oriane Siméoni, Huy V Vo, Maximilian Seitzer, and et al. Dinov3: Advancing self-supervised learning at scale. arXiv preprint arXiv:2508.10104, 2025."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[16] Fabian Isensee, Tassilo Wald, Constantin Ulrich, Michael Baumgartner, Saikat Roy, Klaus Maier-Hein, and Paul F Jaeger. nnu-net revisited: A call for rigorous validation in 3d medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 488–498. Springer, 2024.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[16] Fabian Isensee, Tassilo Wald, Constantin Ulrich, Michael Baumgartner, Saikat Roy, Klaus Maier-Hein, and Paul F Jaeger. nnu-net revisited: A call for rigorous validation in 3d medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 488–498. Springer, 2024."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[17] Mohammed Baharoon, Waseem Qureshi, Jiahong Ouyang, Yanwu Xu, Abdulrhman Aljouie, and Wei Peng. Evaluating general purpose vision foundation models for medical image analysis: An experimental study of dinov2 on radiology benchmarks. arXiv preprint arXiv:2312.02366, 2024.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[17] Mohammed Baharoon, Waseem Qureshi, Jiahong Ouyang, Yanwu Xu, Abdulrhman Aljouie, and Wei Peng. Evaluating general purpose vision foundation models for medical image analysis: An experimental study of dinov2 on radiology benchmarks. arXiv preprint arXiv:2312.02366, 2024."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[18] Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer. Scaling vision transformers. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12104–12113, 2022.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[18] Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer. Scaling vision transformers. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12104–12113, 2022."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[19] Haotian Zhang, Xuanyu Dong, Jie Chen, et al. Vit-adapter: Exploring efficient adaptation of vision transformers for dense predictions. Advances in Neural Information Processing Systems (NeurIPS), 2023.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[19] Haotian Zhang, Xuanyu Dong, Jie Chen, et al. Vit-adapter: Exploring efficient adaptation of vision transformers for dense predictions. Advances in Neural Information Processing Systems (NeurIPS), 2023."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[20] Bowen Cheng, Alexander Schwing, and Alexander Kirillov. Masked-attention mask transformer for universal image segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 1290–1299, 2022.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[20] Bowen Cheng, Alexander Schwing, and Alexander Kirillov. Masked-attention mask transformer for universal image segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 1290–1299, 2022."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[21] Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger R Roth, and Daguang Xu. Unetr: Transformers for 3d medical image segmentation. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 574–584, 2022.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[21] Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger R Roth, and Daguang Xu. Unetr: Transformers for 3d medical image segmentation. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 574–584, 2022."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[22] Yutong Xie, Jianpeng Zhang, Chunhua Shen, and Yong Xia. Cotr: Efficiently bridging cnn and transformer for 3d medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 171–180. Springer, 2021.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[22] Yutong Xie, Jianpeng Zhang, Chunhua Shen, and Yong Xia. Cotr: Efficiently bridging cnn and transformer for 3d medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 171–180. Springer, 2021."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[23] Yutong Xie, Jianpeng Zhang, Yong Xia, and Qi Wu. Unimiss: Universal medical self-supervised learning via breaking dimensionality barrier. In European Conference on Computer Vision, pages 558–575. Springer, 2022.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[23] Yutong Xie, Jianpeng Zhang, Yong Xia, and Qi Wu. Unimiss: Universal medical self-supervised learning via breaking dimensionality barrier. In European Conference on Computer Vision, pages 558–575. Springer, 2022."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[24] Jieneng Chen, Yongyi Lu, et al. Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306, 2021.",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[24] Jieneng Chen, Yongyi Lu, et al. Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306, 2021."
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[25] Hong-Yu Zhou, Jiansen Guo, Yinghao Zhang, Lequan Yu, Liansheng Wang, and Yizhou Yu. nnformer: Interleaved transformer for volumetric segmentation. arXiv preprint arXiv:2109.03201, 2021.",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[25] Hong-Yu Zhou, Jiansen Guo, Yinghao Zhang, Lequan Yu, Liansheng Wang, and Yizhou Yu. nnformer: Interleaved transformer for volumetric segmentation. arXiv preprint arXiv:2109.03201, 2021."
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[26] Tassilo Wald, Saikat Roy, Fabian Isensee, et al. Primus: Enforcing attention usage for 3d medical image segmentation. arXiv preprint arXiv:2503.01835, 2025.",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[26] Tassilo Wald, Saikat Roy, Fabian Isensee, et al. Primus: Enforcing attention usage for 3d medical image segmentation. arXiv preprint arXiv:2503.01835, 2025."
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "[27] Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, et al. Your vit is secretly an image segmentation model. arXiv preprint arXiv:2503.19108, 2025.",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "[27] Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, et al. Your vit is secretly an image segmentation model. arXiv preprint arXiv:2503.19108, 2025."
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[28] Zongwei Zhou, Vatsal Sodha, Jiaxuan Pang, Michael B Gotway, and Jianming Liang. Models genesis. Medical image analysis, 67:101840, 2021.",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[28] Zongwei Zhou, Vatsal Sodha, Jiaxuan Pang, Michael B Gotway, and Jianming Liang. Models genesis. Medical image analysis, 67:101840, 2021."
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[29] Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Maximilian Miller, Leander Maerkisch, Paul Jaeger, and Klaus Maier-Hein. Revisiting mae pre-training for 3d medical image segmentation. In Proceedings of the Computer Vision and Pattern Recognition Conference, pages 5186–5196, 2025.",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[29] Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Maximilian Miller, Leander Maerkisch, Paul Jaeger, and Klaus Maier-Hein. Revisiting mae pre-training for 3d medical image segmentation. In Proceedings of the Computer Vision and Pattern Recognition Conference, pages 5186–5196, 2025."
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "[30] Yuheng Li, Tianyu Luan, Yizhou Wu, Shaoyan Pan, Yenho Chen, and Xiaofeng Yang. Anatomask: Enhancing medical image segmentation with reconstruction-guided self-masking. In European Conference on Computer Vision, pages 146–163. Springer, 2024.",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "[30] Yuheng Li, Tianyu Luan, Yizhou Wu, Shaoyan Pan, Yenho Chen, and Xiaofeng Yang. Anatomask: Enhancing medical image segmentation with reconstruction-guided self-masking. In European Conference on Computer Vision, pages 146–163. Springer, 2024."
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "[31] Guoping Xu, Xuan Zhang, Xinwei He, and Xinglong Wu. Levit-unet: Make faster encoders with transformer for medical image segmentation. In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), pages 42–53. Springer, 2023.",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "[31] Guoping Xu, Xuan Zhang, Xinwei He, and Xinglong Wu. Levit-unet: Make faster encoders with transformer for medical image segmentation. In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), pages 42–53. Springer, 2023."
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "[32] Yunhe Gao, Mu Zhou, and Dimitris N Metaxas. Utnet: a hybrid transformer architecture for medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 61–71. Springer, 2021.",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "[32] Yunhe Gao, Mu Zhou, and Dimitris N Metaxas. Utnet: a hybrid transformer architecture for medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 61–71. Springer, 2021."
+      ]
+    },
+    {
+      "block_index": 64,
+      "source_text": "[33] Bennett Landman, Zhoubing Xu, Juan Igelsias, Martin Styner, Thomas Langerak, and Arno Klein. Miccai multi-atlas labeling beyond the cranial vault–workshop and challenge. In Proc. MICCAI multi-atlas labeling beyond cranial vault—workshop challenge, volume 5, page 12. Munich, Germany, 2015.",
+      "line_start": 65,
+      "line_end": 65,
+      "proposed_entries": [
+        "[33] Bennett Landman, Zhoubing Xu, Juan Igelsias, Martin Styner, Thomas Langerak, and Arno Klein. Miccai multi-atlas labeling beyond the cranial vault–workshop and challenge. In Proc. MICCAI multi-atlas labeling beyond cranial vault—workshop challenge, volume 5, page 12. Munich, Germany, 2015."
+      ]
+    },
+    {
+      "block_index": 66,
+      "source_text": "[34] Holger R Roth, Le Lu, Amal Farag, Hoo-Chang Shin, Jiamin Liu, Evrim B Turkbey, and Ronald M Summers. Deeporgan: Multi-level deep convolutional networks for automated pancreas segmentation. In International conference on medical image computing and computer-assisted intervention, pages 556–564. Springer, 2015.",
+      "line_start": 67,
+      "line_end": 67,
+      "proposed_entries": [
+        "[34] Holger R Roth, Le Lu, Amal Farag, Hoo-Chang Shin, Jiamin Liu, Evrim B Turkbey, and Ronald M Summers. Deeporgan: Multi-level deep convolutional networks for automated pancreas segmentation. In International conference on medical image computing and computer-assisted intervention, pages 556–564. Springer, 2015."
+      ]
+    },
+    {
+      "block_index": 68,
+      "source_text": "[35] A Emre Kavur, N Sinem Gezer, Mustafa Barı¸s, Sinem Aslan, Pierre-Henri Conze, Vladimir Groza, Duc Duy Pham, Soumick Chatterjee, Philipp Ernst, Sava¸s Özkan, et al. Chaos challenge-combined (ct-mr) healthy abdominal organ segmentation. Medical image analysis, 69:101950, 2021.",
+      "line_start": 69,
+      "line_end": 69,
+      "proposed_entries": [
+        "[35] A Emre Kavur, N Sinem Gezer, Mustafa Barı¸s, Sinem Aslan, Pierre-Henri Conze, Vladimir Groza, Duc Duy Pham, Soumick Chatterjee, Philipp Ernst, Sava¸s Özkan, et al. Chaos challenge-combined (ct-mr) healthy abdominal organ segmentation. Medical image analysis, 69:101950, 2021."
+      ]
+    },
+    {
+      "block_index": 70,
+      "source_text": "[36] Patrick Bilic, Patrick Christ, Hongwei Bran Li, Eugene Vorontsov, Avi Ben-Cohen, Georgios Kaissis, Adi Szeskin, Colin Jacobs, Gabriel Efrain Humpire Mamani, Gabriel Chartrand, et al. The liver tumor segmentation benchmark (lits). Medical image analysis, 84:102680, 2023.",
+      "line_start": 71,
+      "line_end": 71,
+      "proposed_entries": [
+        "[36] Patrick Bilic, Patrick Christ, Hongwei Bran Li, Eugene Vorontsov, Avi Ben-Cohen, Georgios Kaissis, Adi Szeskin, Colin Jacobs, Gabriel Efrain Humpire Mamani, Gabriel Chartrand, et al. The liver tumor segmentation benchmark (lits). Medical image analysis, 84:102680, 2023."
+      ]
+    },
+    {
+      "block_index": 72,
+      "source_text": "[37] Nicholas Heller, Fabian Isensee, Dasha Trofimova, Resha Tejpaul, Zhongchen Zhao, Huai Chen, Lisheng Wang, Alex Golts, Daniel Khapun, Daniel Shats, et al. The kits21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct. arXiv preprint arXiv:2307.01984, 2023.",
+      "line_start": 73,
+      "line_end": 73,
+      "proposed_entries": [
+        "[37] Nicholas Heller, Fabian Isensee, Dasha Trofimova, Resha Tejpaul, Zhongchen Zhao, Huai Chen, Lisheng Wang, Alex Golts, Daniel Khapun, Daniel Shats, et al. The kits21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct. arXiv preprint arXiv:2307.01984, 2023."
+      ]
+    },
+    {
+      "block_index": 74,
+      "source_text": "[38] Xiangde Luo, Wenjun Liao, Jianghong Xiao, Jieneng Chen, Tao Song, Xiaofan Zhang, Kang Li, Dimitris N Metaxas, Guotai Wang, and Shaoting Zhang. Word: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from ct image. Medical Image Analysis, 82:102642, 2022.",
+      "line_start": 75,
+      "line_end": 75,
+      "proposed_entries": [
+        "[38] Xiangde Luo, Wenjun Liao, Jianghong Xiao, Jieneng Chen, Tao Song, Xiaofan Zhang, Kang Li, Dimitris N Metaxas, Guotai Wang, and Shaoting Zhang. Word: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from ct image. Medical Image Analysis, 82:102642, 2022."
+      ]
+    },
+    {
+      "block_index": 76,
+      "source_text": "[39] Jun Ma, Yao Zhang, Song Gu, Cheng Zhu, Cheng Ge, Yichi Zhang, Xingle An, Congcong Wang, Qiyuan Wang, Xin Liu, et al. Abdomenct-1k: Is abdominal organ segmentation a solved problem? IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(10):6695–6714, 2021.",
+      "line_start": 77,
+      "line_end": 77,
+      "proposed_entries": [
+        "[39] Jun Ma, Yao Zhang, Song Gu, Cheng Zhu, Cheng Ge, Yichi Zhang, Xingle An, Congcong Wang, Qiyuan Wang, Xin Liu, et al. Abdomenct-1k: Is abdominal organ segmentation a solved problem? IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(10):6695–6714, 2021."
+      ]
+    },
+    {
+      "block_index": 78,
+      "source_text": "[40] Michela Antonelli, Annika Reinke, Spyridon Bakas, Keyvan Farahani, Annette Kopp-Schneider, Bennett A Landman, Geert Litjens, Bjoern Menze, Olaf Ronneberger, Ronald M Summers, et al. The medical segmentation decathlon. Nature communications, 13(1):4128, 2022.",
+      "line_start": 79,
+      "line_end": 79,
+      "proposed_entries": [
+        "[40] Michela Antonelli, Annika Reinke, Spyridon Bakas, Keyvan Farahani, Annette Kopp-Schneider, Bennett A Landman, Geert Litjens, Bjoern Menze, Olaf Ronneberger, Ronald M Summers, et al. The medical segmentation decathlon. Nature communications, 13(1):4128, 2022."
+      ]
+    },
+    {
+      "block_index": 80,
+      "source_text": "[41] Blaine Rister, Darvin Yi, Kaushik Shivakumar, Tomomi Nobashi, and Daniel L Rubin. Ct-org, a new dataset for multiple organ segmentation in computed tomography. Scientific Data, 7(1):381, 2020.",
+      "line_start": 81,
+      "line_end": 81,
+      "proposed_entries": [
+        "[41] Blaine Rister, Darvin Yi, Kaushik Shivakumar, Tomomi Nobashi, and Daniel L Rubin. Ct-org, a new dataset for multiple organ segmentation in computed tomography. Scientific Data, 7(1):381, 2020."
+      ]
+    },
+    {
+      "block_index": 82,
+      "source_text": "[42] Jakob Wasserthal, Hanns-Christian Breit, Manfred T Meyer, Maurice Pradella, Daniel Hinck, Alexander W Sauter, Tobias Heye, Daniel T Boll, Joshy Cyriac, Shan Yang, et al. Totalsegmentator: robust segmentation of 104 anatomic structures in ct images. Radiology: Artificial Intelligence, 5(5):e230024, 2023.",
+      "line_start": 83,
+      "line_end": 83,
+      "proposed_entries": [
+        "[42] Jakob Wasserthal, Hanns-Christian Breit, Manfred T Meyer, Maurice Pradella, Daniel Hinck, Alexander W Sauter, Tobias Heye, Daniel T Boll, Joshy Cyriac, Shan Yang, et al. Totalsegmentator: robust segmentation of 104 anatomic structures in ct images. Radiology: Artificial Intelligence, 5(5):e230024, 2023."
+      ]
+    },
+    {
+      "block_index": 84,
+      "source_text": "[43] Pedro RAS Bassi, Mehmet Can Yavuz, Kang Wang, Xiaoxi Chen, Wenxuan Li, Sergio Decherchi, Andrea Cavalli, Yang Yang, Alan Yuille, and Zongwei Zhou. Radgpt: Constructing 3d image-text tumor datasets. arXiv preprint arXiv:2501.04678, 2025.",
+      "line_start": 85,
+      "line_end": 85,
+      "proposed_entries": [
+        "[43] Pedro RAS Bassi, Mehmet Can Yavuz, Kang Wang, Xiaoxi Chen, Wenxuan Li, Sergio Decherchi, Andrea Cavalli, Yang Yang, Alan Yuille, and Zongwei Zhou. Radgpt: Constructing 3d image-text tumor datasets. arXiv preprint arXiv:2501.04678, 2025."
+      ]
+    },
+    {
+      "block_index": 86,
+      "source_text": "[44] Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M Alvarez, and Ping Luo. Segformer: Simple and efficient design for semantic segmentation with transformers. Advances in neural information processing systems, 34:12077–12090, 2021.",
+      "line_start": 87,
+      "line_end": 87,
+      "proposed_entries": [
+        "[44] Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M Alvarez, and Ping Luo. Segformer: Simple and efficient design for semantic segmentation with transformers. Advances in neural information processing systems, 34:12077–12090, 2021."
+      ]
+    },
+    {
+      "block_index": 88,
+      "source_text": "[45] Yifan Gao, Haoyue Li, Feng Yuan, Xiaosong Wang, and Xin Gao. Dino u-net: Exploiting high-fidelity dense features from foundation models for medical image segmentation. arXiv preprint arXiv:2508.20909, 2025.",
+      "line_start": 89,
+      "line_end": 89,
+      "proposed_entries": [
+        "[45] Yifan Gao, Haoyue Li, Feng Yuan, Xiaosong Wang, and Xin Gao. Dino u-net: Exploiting high-fidelity dense features from foundation models for medical image segmentation. arXiv preprint arXiv:2508.20909, 2025."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhanng, Wanling Ma, Xiang Wan, et al. Amos: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation. Advances in neural information processing systems, 35:36722–36732, 2022.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhanng, Wanling Ma, Xiang Wan, et al",
+          "author_candidates": [
+            "Ji, Haotian Bai",
+            "Ge, Jie Yang",
+            "Zhu, Ruimao Zhang",
+            "Li, Lingyan Zhanng",
+            "Ma, Xiang Wan"
+          ],
+          "title_candidate": "Amos: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation",
+          "container_candidate": "Advances in neural information processing systems, 35:36722–36732,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhanng, Wanling Ma, Xiang Wan, et al. Amos",
+          "author_candidates": [
+            "Ji, Haotian Bai",
+            "Ge, Jie Yang",
+            "Zhu, Ruimao Zhang",
+            "Li, Lingyan Zhanng",
+            "Ma, Xiang Wan"
+          ],
+          "title_candidate": "A large-scale abdominal multi-organ benchmark for versatile medical image segmentation. Advances in neural information processing systems, 35:36722–36732",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhanng, Wanling Ma, Xiang Wan, et al. Amos",
+          "author_candidates": [
+            "Ji, Haotian Bai",
+            "Ge, Jie Yang",
+            "Zhu, Ruimao Zhang",
+            "Li, Lingyan Zhanng",
+            "Ma, Xiang Wan"
+          ],
+          "title_candidate": "A large-scale abdominal multi-organ benchmark for versatile medical image segmentation. Advances in neural information processing systems, 35:36722–36732, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Yuheng Li, Jacob F Wynne, Yizhou Wu, Richard LJ Qiu, Sibo Tian, Tonghe Wang, Pretesh R Patel, David S Yu, and Xiaofeng Yang. Automatic medical imaging segmentation via self-supervising large-scale convolutional neural networks. Radiotherapy and Oncology, 204:110711, 2025.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuheng Li, Jacob F Wynne, Yizhou Wu, Richard LJ Qiu, Sibo Tian, Tonghe Wang, Pretesh R Patel, David S Yu, and Xiaofeng Yang",
+          "author_candidates": [
+            "Li, Jacob F Wynne",
+            "Wu, Richard LJ Qiu",
+            "Tian, Tonghe Wang",
+            "Patel, David S Yu"
+          ],
+          "title_candidate": "Automatic medical imaging segmentation via self-supervising large-scale convolutional neural networks",
+          "container_candidate": "Radiotherapy and Oncology, 204:110711,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuheng Li, Jacob F Wynne, Yizhou Wu, Richard LJ Qiu, Sibo Tian, Tonghe Wang, Pretesh R Patel, David S Yu, and Xiaofeng Yang. Automatic medical imaging segmentation via self-supervising large-scale convolutional neural networks. Radiotherapy and Oncology, 204",
+          "author_candidates": [
+            "Li, Jacob F Wynne",
+            "Wu, Richard LJ Qiu",
+            "Tian, Tonghe Wang",
+            "Patel, David S Yu"
+          ],
+          "title_candidate": "110711",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuheng Li, Jacob F Wynne, Yizhou Wu, Richard LJ Qiu, Sibo Tian, Tonghe Wang, Pretesh R Patel, David S Yu, and Xiaofeng Yang. Automatic medical imaging segmentation via self-supervising large-scale convolutional neural networks. Radiotherapy and Oncology, 204",
+          "author_candidates": [
+            "Li, Jacob F Wynne",
+            "Wu, Richard LJ Qiu",
+            "Tian, Tonghe Wang",
+            "Patel, David S Yu"
+          ],
+          "title_candidate": "110711, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Yucheng Tang, Dong Yang, et al. Self-supervised pre-training of swinunetr for 3d medical image analysis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 207–218, 2022.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Yucheng Tang, Dong Yang, et al",
+          "author_candidates": [
+            "Tang, Dong Yang"
+          ],
+          "title_candidate": "Self-supervised pre-training of swinunetr for 3d medical image analysis",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 207–218, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yucheng Tang, Dong Yang, et al",
+          "author_candidates": [
+            "Tang, Dong Yang"
+          ],
+          "title_candidate": "Self-supervised pre-training of swinunetr for 3d medical image analysis",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 207–218,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yucheng Tang, Dong Yang, et al",
+          "author_candidates": [
+            "Tang, Dong Yang"
+          ],
+          "title_candidate": "Self-supervised pre-training of swinunetr for 3d medical image analysis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 207–218",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yucheng Tang, Dong Yang, et al",
+          "author_candidates": [
+            "Tang, Dong Yang"
+          ],
+          "title_candidate": "Self-supervised pre-training of swinunetr for 3d medical image analysis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 207–218, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Fabian Isensee, Paul F Jaeger, Simon A A Kohl, Jens Petersen, and Klaus H Maier-Hein. nnu-net: a self-adapting framework for u-net-based medical image segmentation. Nature Methods, 18(2):203–211, 2021.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Fabian Isensee, Paul F Jaeger, Simon A A Kohl, Jens Petersen, and Klaus H Maier-Hein",
+          "author_candidates": [
+            "Isensee, Paul F Jaeger",
+            "Kohl, Jens Petersen"
+          ],
+          "title_candidate": "nnu-net: a self-adapting framework for u-net-based medical image segmentation",
+          "container_candidate": "Nature Methods, 18(2):203–211,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Fabian Isensee, Paul F Jaeger, Simon A A Kohl, Jens Petersen, and Klaus H Maier-Hein. nnu-net",
+          "author_candidates": [
+            "Isensee, Paul F Jaeger",
+            "Kohl, Jens Petersen"
+          ],
+          "title_candidate": "a self-adapting framework for u-net-based medical image segmentation. Nature Methods, 18(2):203–211",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Fabian Isensee, Paul F Jaeger, Simon A A Kohl, Jens Petersen, and Klaus H Maier-Hein. nnu-net",
+          "author_candidates": [
+            "Isensee, Paul F Jaeger",
+            "Kohl, Jens Petersen"
+          ],
+          "title_candidate": "a self-adapting framework for u-net-based medical image segmentation. Nature Methods, 18(2):203–211, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Ali Hatamizadeh, Vishwesh Nath, et al. Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images. In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pages 272–284. Springer, 2022.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "venue_marker_split",
+          "author_text": "Ali Hatamizadeh, Vishwesh Nath, et al",
+          "author_candidates": [
+            "Hatamizadeh, Vishwesh Nath"
+          ],
+          "title_candidate": "Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images",
+          "container_candidate": "In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pages 272–284. Springer, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ali Hatamizadeh, Vishwesh Nath, et al",
+          "author_candidates": [
+            "Hatamizadeh, Vishwesh Nath"
+          ],
+          "title_candidate": "Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images",
+          "container_candidate": "In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pages 272–284. Springer,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ali Hatamizadeh, Vishwesh Nath, et al. Swin unetr",
+          "author_candidates": [
+            "Hatamizadeh, Vishwesh Nath"
+          ],
+          "title_candidate": "Swin transformers for semantic segmentation of brain tumors in mri images. In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pages 272–284. Springer",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ali Hatamizadeh, Vishwesh Nath, et al. Swin unetr",
+          "author_candidates": [
+            "Hatamizadeh, Vishwesh Nath"
+          ],
+          "title_candidate": "Swin transformers for semantic segmentation of brain tumors in mri images. In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pages 272–284. Springer, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Jun Ma, Bo Wang, et al. Segment anything in medical images. Nature Communications, 14(1):2578, 2023.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jun Ma, Bo Wang, et al",
+          "author_candidates": [
+            "Ma, Bo Wang"
+          ],
+          "title_candidate": "Segment anything in medical images",
+          "container_candidate": "Nature Communications, 14(1):2578,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jun Ma, Bo Wang, et al. Segment anything in medical images. Nature Communications, 14(1)",
+          "author_candidates": [
+            "Ma, Bo Wang"
+          ],
+          "title_candidate": "2578",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jun Ma, Bo Wang, et al. Segment anything in medical images. Nature Communications, 14(1)",
+          "author_candidates": [
+            "Ma, Bo Wang"
+          ],
+          "title_candidate": "2578, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Rishi Bommasani, Drew A Hudson, Ehsan Adeli, and et al. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258, 2021.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Rishi Bommasani, Drew A Hudson, Ehsan Adeli, and et al",
+          "author_candidates": [
+            "Bommasani, Drew A Hudson"
+          ],
+          "title_candidate": "On the opportunities and risks of foundation models. arXiv preprint",
+          "container_candidate": "arXiv:2108.07258, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Rishi Bommasani, Drew A Hudson, Ehsan Adeli, and et al",
+          "author_candidates": [
+            "Bommasani, Drew A Hudson"
+          ],
+          "title_candidate": "On the opportunities and risks of foundation models",
+          "container_candidate": "arXiv preprint arXiv:2108.07258,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Rishi Bommasani, Drew A Hudson, Ehsan Adeli, and et al. On the opportunities and risks of foundation models. arXiv preprint arXiv",
+          "author_candidates": [
+            "Bommasani, Drew A Hudson"
+          ],
+          "title_candidate": "2108.07258",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Rishi Bommasani, Drew A Hudson, Ehsan Adeli, and et al. On the opportunities and risks of foundation models. arXiv preprint arXiv",
+          "author_candidates": [
+            "Bommasani, Drew A Hudson"
+          ],
+          "title_candidate": "2108.07258, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Xingyu Zhou, Zheng Zhang, et al. A comprehensive survey on pretraining-based foundation models: A history from bert to chatgpt. arXiv preprint arXiv:2302.09419, 2023.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Xingyu Zhou, Zheng Zhang, et al",
+          "author_candidates": [
+            "Zhou, Zheng Zhang"
+          ],
+          "title_candidate": "A comprehensive survey on pretraining-based foundation models: A history from bert to chatgpt. arXiv preprint",
+          "container_candidate": "arXiv:2302.09419, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xingyu Zhou, Zheng Zhang, et al",
+          "author_candidates": [
+            "Zhou, Zheng Zhang"
+          ],
+          "title_candidate": "A comprehensive survey on pretraining-based foundation models: A history from bert to chatgpt",
+          "container_candidate": "arXiv preprint arXiv:2302.09419,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xingyu Zhou, Zheng Zhang, et al. A comprehensive survey on pretraining-based foundation models",
+          "author_candidates": [
+            "Zhou, Zheng Zhang"
+          ],
+          "title_candidate": "A history from bert to chatgpt. arXiv preprint arXiv:2302.09419",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xingyu Zhou, Zheng Zhang, et al. A comprehensive survey on pretraining-based foundation models",
+          "author_candidates": [
+            "Zhou, Zheng Zhang"
+          ],
+          "title_candidate": "A history from bert to chatgpt. arXiv preprint arXiv:2302.09419, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Yuheng Li, Mingzhe Hu, and Xiaofeng Yang. Polyp-sam: Transfer sam for polyp segmentation. In Medical imaging 2024: computer-aided diagnosis, volume 12927, pages 749–754. SPIE, 2024.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuheng Li, Mingzhe Hu, and Xiaofeng Yang",
+          "author_candidates": [
+            "Li, Mingzhe Hu"
+          ],
+          "title_candidate": "Polyp-sam: Transfer sam for polyp segmentation",
+          "container_candidate": "In Medical imaging 2024: computer-aided diagnosis, volume 12927, pages 749–754. SPIE, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuheng Li, Mingzhe Hu, and Xiaofeng Yang",
+          "author_candidates": [
+            "Li, Mingzhe Hu"
+          ],
+          "title_candidate": "Polyp-sam: Transfer sam for polyp segmentation",
+          "container_candidate": "In Medical imaging 2024: computer-aided diagnosis, volume 12927, pages 749–754. SPIE,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuheng Li, Mingzhe Hu, and Xiaofeng Yang. Polyp-sam",
+          "author_candidates": [
+            "Li, Mingzhe Hu"
+          ],
+          "title_candidate": "Transfer sam for polyp segmentation. In Medical imaging 2024: computer-aided diagnosis, volume 12927, pages 749–754. SPIE",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuheng Li, Mingzhe Hu, and Xiaofeng Yang. Polyp-sam",
+          "author_candidates": [
+            "Li, Mingzhe Hu"
+          ],
+          "title_candidate": "Transfer sam for polyp segmentation. In Medical imaging 2024: computer-aided diagnosis, volume 12927, pages 749–754. SPIE, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Shansong Wang, Mojtaba Safari, Mingzhe Hu, Qiang Li, Chih-Wei Chang, Richard LJ Qiu, and Xiaofeng Yang. Dinov3 with test-time training for medical image registration. arXiv preprint arXiv:2508.14809, 2025.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Shansong Wang, Mojtaba Safari, Mingzhe Hu, Qiang Li, Chih-Wei Chang, Richard LJ Qiu, and Xiaofeng Yang",
+          "author_candidates": [
+            "Wang, Mojtaba Safari",
+            "Hu, Qiang Li",
+            "Chang, Richard LJ Qiu"
+          ],
+          "title_candidate": "Dinov3 with test-time training for medical image registration. arXiv preprint",
+          "container_candidate": "arXiv:2508.14809, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shansong Wang, Mojtaba Safari, Mingzhe Hu, Qiang Li, Chih-Wei Chang, Richard LJ Qiu, and Xiaofeng Yang",
+          "author_candidates": [
+            "Wang, Mojtaba Safari",
+            "Hu, Qiang Li",
+            "Chang, Richard LJ Qiu"
+          ],
+          "title_candidate": "Dinov3 with test-time training for medical image registration",
+          "container_candidate": "arXiv preprint arXiv:2508.14809,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shansong Wang, Mojtaba Safari, Mingzhe Hu, Qiang Li, Chih-Wei Chang, Richard LJ Qiu, and Xiaofeng Yang. Dinov3 with test-time training for medical image registration. arXiv preprint arXiv",
+          "author_candidates": [
+            "Wang, Mojtaba Safari",
+            "Hu, Qiang Li",
+            "Chang, Richard LJ Qiu"
+          ],
+          "title_candidate": "2508.14809",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shansong Wang, Mojtaba Safari, Mingzhe Hu, Qiang Li, Chih-Wei Chang, Richard LJ Qiu, and Xiaofeng Yang. Dinov3 with test-time training for medical image registration. arXiv preprint arXiv",
+          "author_candidates": [
+            "Wang, Mojtaba Safari",
+            "Hu, Qiang Li",
+            "Chang, Richard LJ Qiu"
+          ],
+          "title_candidate": "2508.14809, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Mathilde Caron, Hugo Touvron, Ishan Misra, and et al. Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9630–9640, 2021.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "venue_marker_split",
+          "author_text": "Mathilde Caron, Hugo Touvron, Ishan Misra, and et al",
+          "author_candidates": [
+            "Caron, Hugo Touvron"
+          ],
+          "title_candidate": "Emerging properties in self-supervised vision transformers",
+          "container_candidate": "In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9630–9640, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Mathilde Caron, Hugo Touvron, Ishan Misra, and et al",
+          "author_candidates": [
+            "Caron, Hugo Touvron"
+          ],
+          "title_candidate": "Emerging properties in self-supervised vision transformers",
+          "container_candidate": "In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9630–9640,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Mathilde Caron, Hugo Touvron, Ishan Misra, and et al",
+          "author_candidates": [
+            "Caron, Hugo Touvron"
+          ],
+          "title_candidate": "Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9630–9640",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Mathilde Caron, Hugo Touvron, Ishan Misra, and et al",
+          "author_candidates": [
+            "Caron, Hugo Touvron"
+          ],
+          "title_candidate": "Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9630–9640, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamala Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever. Learning transferable visual models from natural language supervision. In Proceedings of the 38th International Conference on Machine Learning (ICML), pages 8748–8763, 2021.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamala Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever",
+          "author_candidates": [
+            "Radford, Jong Wook Kim",
+            "Hallacy, Aditya Ramesh",
+            "Goh, Sandhini Agarwal",
+            "Sastry, Amanda Askell",
+            "Mishkin, Jack Clark"
+          ],
+          "title_candidate": "Learning transferable visual models from natural language supervision",
+          "container_candidate": "In Proceedings of the 38th International Conference on Machine Learning (ICML), pages 8748–8763, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamala Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever",
+          "author_candidates": [
+            "Radford, Jong Wook Kim",
+            "Hallacy, Aditya Ramesh",
+            "Goh, Sandhini Agarwal",
+            "Sastry, Amanda Askell",
+            "Mishkin, Jack Clark"
+          ],
+          "title_candidate": "Learning transferable visual models from natural language supervision",
+          "container_candidate": "In Proceedings of the 38th International Conference on Machine Learning (ICML), pages 8748–8763,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamala Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever",
+          "author_candidates": [
+            "Radford, Jong Wook Kim",
+            "Hallacy, Aditya Ramesh",
+            "Goh, Sandhini Agarwal",
+            "Sastry, Amanda Askell",
+            "Mishkin, Jack Clark"
+          ],
+          "title_candidate": "Learning transferable visual models from natural language supervision. In Proceedings of the 38th International Conference on Machine Learning (ICML), pages 8748–8763",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamala Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever",
+          "author_candidates": [
+            "Radford, Jong Wook Kim",
+            "Hallacy, Aditya Ramesh",
+            "Goh, Sandhini Agarwal",
+            "Sastry, Amanda Askell",
+            "Mishkin, Jack Clark"
+          ],
+          "title_candidate": "Learning transferable visual models from natural language supervision. In Proceedings of the 38th International Conference on Machine Learning (ICML), pages 8748–8763, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Michael Tschannen, Xiaohua Zhai, Andreas Steiner, Lucas Beyer, et al. Siglip 2: Better, faster, stronger. arXiv preprint arXiv:2501.01536, 2025.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Michael Tschannen, Xiaohua Zhai, Andreas Steiner, Lucas Beyer, et al",
+          "author_candidates": [
+            "Tschannen, Xiaohua Zhai",
+            "Steiner, Lucas Beyer"
+          ],
+          "title_candidate": "Siglip 2: Better, faster, stronger. arXiv preprint",
+          "container_candidate": "arXiv:2501.01536, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Michael Tschannen, Xiaohua Zhai, Andreas Steiner, Lucas Beyer, et al",
+          "author_candidates": [
+            "Tschannen, Xiaohua Zhai",
+            "Steiner, Lucas Beyer"
+          ],
+          "title_candidate": "Siglip 2: Better, faster, stronger",
+          "container_candidate": "arXiv preprint arXiv:2501.01536,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Michael Tschannen, Xiaohua Zhai, Andreas Steiner, Lucas Beyer, et al. Siglip 2",
+          "author_candidates": [
+            "Tschannen, Xiaohua Zhai",
+            "Steiner, Lucas Beyer"
+          ],
+          "title_candidate": "Better, faster, stronger. arXiv preprint arXiv:2501.01536",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Michael Tschannen, Xiaohua Zhai, Andreas Steiner, Lucas Beyer, et al. Siglip 2",
+          "author_candidates": [
+            "Tschannen, Xiaohua Zhai",
+            "Steiner, Lucas Beyer"
+          ],
+          "title_candidate": "Better, faster, stronger. arXiv preprint arXiv:2501.01536, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] Maxime Oquab, Timothée Darcet, Théo Moutakanni, and et al. Dinov2: Learning robust visual features without supervision. arXiv preprint arXiv:2304.07193, 2023.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "Maxime Oquab, Timothée Darcet, Théo Moutakanni, and et al",
+          "author_candidates": [
+            "Oquab, Timoth",
+            "Darcet, Th"
+          ],
+          "title_candidate": "Dinov2: Learning robust visual features without supervision. arXiv preprint",
+          "container_candidate": "arXiv:2304.07193, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Maxime Oquab, Timothée Darcet, Théo Moutakanni, and et al",
+          "author_candidates": [
+            "Oquab, Timoth",
+            "Darcet, Th"
+          ],
+          "title_candidate": "Dinov2: Learning robust visual features without supervision",
+          "container_candidate": "arXiv preprint arXiv:2304.07193,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Maxime Oquab, Timothée Darcet, Théo Moutakanni, and et al. Dinov2",
+          "author_candidates": [
+            "Oquab, Timoth",
+            "Darcet, Th"
+          ],
+          "title_candidate": "Learning robust visual features without supervision. arXiv preprint arXiv:2304.07193",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Maxime Oquab, Timothée Darcet, Théo Moutakanni, and et al. Dinov2",
+          "author_candidates": [
+            "Oquab, Timoth",
+            "Darcet, Th"
+          ],
+          "title_candidate": "Learning robust visual features without supervision. arXiv preprint arXiv:2304.07193, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Oriane Siméoni, Huy V Vo, Maximilian Seitzer, and et al. Dinov3: Advancing self-supervised learning at scale. arXiv preprint arXiv:2508.10104, 2025.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Oriane Siméoni, Huy V Vo, Maximilian Seitzer, and et al",
+          "author_candidates": [
+            "Vo, Maximilian Seitzer"
+          ],
+          "title_candidate": "Dinov3: Advancing self-supervised learning at scale. arXiv preprint",
+          "container_candidate": "arXiv:2508.10104, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Oriane Siméoni, Huy V Vo, Maximilian Seitzer, and et al",
+          "author_candidates": [
+            "Vo, Maximilian Seitzer"
+          ],
+          "title_candidate": "Dinov3: Advancing self-supervised learning at scale",
+          "container_candidate": "arXiv preprint arXiv:2508.10104,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Oriane Siméoni, Huy V Vo, Maximilian Seitzer, and et al. Dinov3",
+          "author_candidates": [
+            "Vo, Maximilian Seitzer"
+          ],
+          "title_candidate": "Advancing self-supervised learning at scale. arXiv preprint arXiv:2508.10104",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Oriane Siméoni, Huy V Vo, Maximilian Seitzer, and et al. Dinov3",
+          "author_candidates": [
+            "Vo, Maximilian Seitzer"
+          ],
+          "title_candidate": "Advancing self-supervised learning at scale. arXiv preprint arXiv:2508.10104, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Fabian Isensee, Tassilo Wald, Constantin Ulrich, Michael Baumgartner, Saikat Roy, Klaus Maier-Hein, and Paul F Jaeger. nnu-net revisited: A call for rigorous validation in 3d medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 488–498. Springer, 2024.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Fabian Isensee, Tassilo Wald, Constantin Ulrich, Michael Baumgartner, Saikat Roy, Klaus Maier-Hein, and Paul F Jaeger",
+          "author_candidates": [
+            "Isensee, Tassilo Wald",
+            "Ulrich, Michael Baumgartner",
+            "Roy, Klaus Maier-Hein"
+          ],
+          "title_candidate": "nnu-net revisited: A call for rigorous validation in 3d medical image segmentation",
+          "container_candidate": "In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 488–498. Springer, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Fabian Isensee, Tassilo Wald, Constantin Ulrich, Michael Baumgartner, Saikat Roy, Klaus Maier-Hein, and Paul F Jaeger",
+          "author_candidates": [
+            "Isensee, Tassilo Wald",
+            "Ulrich, Michael Baumgartner",
+            "Roy, Klaus Maier-Hein"
+          ],
+          "title_candidate": "nnu-net revisited: A call for rigorous validation in 3d medical image segmentation",
+          "container_candidate": "In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 488–498. Springer,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Fabian Isensee, Tassilo Wald, Constantin Ulrich, Michael Baumgartner, Saikat Roy, Klaus Maier-Hein, and Paul F Jaeger. nnu-net revisited",
+          "author_candidates": [
+            "Isensee, Tassilo Wald",
+            "Ulrich, Michael Baumgartner",
+            "Roy, Klaus Maier-Hein"
+          ],
+          "title_candidate": "A call for rigorous validation in 3d medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 488–498. Springer",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Fabian Isensee, Tassilo Wald, Constantin Ulrich, Michael Baumgartner, Saikat Roy, Klaus Maier-Hein, and Paul F Jaeger. nnu-net revisited",
+          "author_candidates": [
+            "Isensee, Tassilo Wald",
+            "Ulrich, Michael Baumgartner",
+            "Roy, Klaus Maier-Hein"
+          ],
+          "title_candidate": "A call for rigorous validation in 3d medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 488–498. Springer, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Mohammed Baharoon, Waseem Qureshi, Jiahong Ouyang, Yanwu Xu, Abdulrhman Aljouie, and Wei Peng. Evaluating general purpose vision foundation models for medical image analysis: An experimental study of dinov2 on radiology benchmarks. arXiv preprint arXiv:2312.02366, 2024.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Mohammed Baharoon, Waseem Qureshi, Jiahong Ouyang, Yanwu Xu, Abdulrhman Aljouie, and Wei Peng",
+          "author_candidates": [
+            "Baharoon, Waseem Qureshi",
+            "Ouyang, Yanwu Xu"
+          ],
+          "title_candidate": "Evaluating general purpose vision foundation models for medical image analysis: An experimental study of dinov2 on radiology benchmarks. arXiv preprint",
+          "container_candidate": "arXiv:2312.02366, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Mohammed Baharoon, Waseem Qureshi, Jiahong Ouyang, Yanwu Xu, Abdulrhman Aljouie, and Wei Peng",
+          "author_candidates": [
+            "Baharoon, Waseem Qureshi",
+            "Ouyang, Yanwu Xu"
+          ],
+          "title_candidate": "Evaluating general purpose vision foundation models for medical image analysis: An experimental study of dinov2 on radiology benchmarks",
+          "container_candidate": "arXiv preprint arXiv:2312.02366,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Mohammed Baharoon, Waseem Qureshi, Jiahong Ouyang, Yanwu Xu, Abdulrhman Aljouie, and Wei Peng. Evaluating general purpose vision foundation models for medical image analysis",
+          "author_candidates": [
+            "Baharoon, Waseem Qureshi",
+            "Ouyang, Yanwu Xu"
+          ],
+          "title_candidate": "An experimental study of dinov2 on radiology benchmarks. arXiv preprint arXiv:2312.02366",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Mohammed Baharoon, Waseem Qureshi, Jiahong Ouyang, Yanwu Xu, Abdulrhman Aljouie, and Wei Peng. Evaluating general purpose vision foundation models for medical image analysis",
+          "author_candidates": [
+            "Baharoon, Waseem Qureshi",
+            "Ouyang, Yanwu Xu"
+          ],
+          "title_candidate": "An experimental study of dinov2 on radiology benchmarks. arXiv preprint arXiv:2312.02366, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer. Scaling vision transformers. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12104–12113, 2022.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer",
+          "author_candidates": [
+            "Zhai, Alexander Kolesnikov"
+          ],
+          "title_candidate": "Scaling vision transformers",
+          "container_candidate": "In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12104–12113, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer",
+          "author_candidates": [
+            "Zhai, Alexander Kolesnikov"
+          ],
+          "title_candidate": "Scaling vision transformers",
+          "container_candidate": "In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12104–12113,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer",
+          "author_candidates": [
+            "Zhai, Alexander Kolesnikov"
+          ],
+          "title_candidate": "Scaling vision transformers. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12104–12113",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer",
+          "author_candidates": [
+            "Zhai, Alexander Kolesnikov"
+          ],
+          "title_candidate": "Scaling vision transformers. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12104–12113, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Haotian Zhang, Xuanyu Dong, Jie Chen, et al. Vit-adapter: Exploring efficient adaptation of vision transformers for dense predictions. Advances in Neural Information Processing Systems (NeurIPS), 2023.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Haotian Zhang, Xuanyu Dong, Jie Chen, et al",
+          "author_candidates": [
+            "Zhang, Xuanyu Dong"
+          ],
+          "title_candidate": "Vit-adapter: Exploring efficient adaptation of vision transformers for dense predictions",
+          "container_candidate": "Advances in Neural Information Processing Systems (NeurIPS),",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Haotian Zhang, Xuanyu Dong, Jie Chen, et al. Vit-adapter",
+          "author_candidates": [
+            "Zhang, Xuanyu Dong"
+          ],
+          "title_candidate": "Exploring efficient adaptation of vision transformers for dense predictions. Advances in Neural Information Processing Systems (NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Haotian Zhang, Xuanyu Dong, Jie Chen, et al. Vit-adapter",
+          "author_candidates": [
+            "Zhang, Xuanyu Dong"
+          ],
+          "title_candidate": "Exploring efficient adaptation of vision transformers for dense predictions. Advances in Neural Information Processing Systems (NeurIPS), 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Bowen Cheng, Alexander Schwing, and Alexander Kirillov. Masked-attention mask transformer for universal image segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 1290–1299, 2022.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Bowen Cheng, Alexander Schwing, and Alexander Kirillov",
+          "author_candidates": [
+            "Cheng, Alexander Schwing"
+          ],
+          "title_candidate": "Masked-attention mask transformer for universal image segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 1290–1299, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bowen Cheng, Alexander Schwing, and Alexander Kirillov",
+          "author_candidates": [
+            "Cheng, Alexander Schwing"
+          ],
+          "title_candidate": "Masked-attention mask transformer for universal image segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 1290–1299,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bowen Cheng, Alexander Schwing, and Alexander Kirillov",
+          "author_candidates": [
+            "Cheng, Alexander Schwing"
+          ],
+          "title_candidate": "Masked-attention mask transformer for universal image segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 1290–1299",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bowen Cheng, Alexander Schwing, and Alexander Kirillov",
+          "author_candidates": [
+            "Cheng, Alexander Schwing"
+          ],
+          "title_candidate": "Masked-attention mask transformer for universal image segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 1290–1299, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger R Roth, and Daguang Xu. Unetr: Transformers for 3d medical image segmentation. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 574–584, 2022.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger R Roth, and Daguang Xu",
+          "author_candidates": [
+            "Hatamizadeh, Yucheng Tang",
+            "Nath, Dong Yang",
+            "Myronenko, Bennett Landman"
+          ],
+          "title_candidate": "Unetr: Transformers for 3d medical image segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 574–584, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger R Roth, and Daguang Xu",
+          "author_candidates": [
+            "Hatamizadeh, Yucheng Tang",
+            "Nath, Dong Yang",
+            "Myronenko, Bennett Landman"
+          ],
+          "title_candidate": "Unetr: Transformers for 3d medical image segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 574–584,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger R Roth, and Daguang Xu. Unetr",
+          "author_candidates": [
+            "Hatamizadeh, Yucheng Tang",
+            "Nath, Dong Yang",
+            "Myronenko, Bennett Landman"
+          ],
+          "title_candidate": "Transformers for 3d medical image segmentation. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 574–584",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger R Roth, and Daguang Xu. Unetr",
+          "author_candidates": [
+            "Hatamizadeh, Yucheng Tang",
+            "Nath, Dong Yang",
+            "Myronenko, Bennett Landman"
+          ],
+          "title_candidate": "Transformers for 3d medical image segmentation. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 574–584, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Yutong Xie, Jianpeng Zhang, Chunhua Shen, and Yong Xia. Cotr: Efficiently bridging cnn and transformer for 3d medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 171–180. Springer, 2021.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Yutong Xie, Jianpeng Zhang, Chunhua Shen, and Yong Xia",
+          "author_candidates": [
+            "Xie, Jianpeng Zhang"
+          ],
+          "title_candidate": "Cotr: Efficiently bridging cnn and transformer for 3d medical image segmentation",
+          "container_candidate": "In International conference on medical image computing and computer-assisted intervention, pages 171–180. Springer, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yutong Xie, Jianpeng Zhang, Chunhua Shen, and Yong Xia",
+          "author_candidates": [
+            "Xie, Jianpeng Zhang"
+          ],
+          "title_candidate": "Cotr: Efficiently bridging cnn and transformer for 3d medical image segmentation",
+          "container_candidate": "In International conference on medical image computing and computer-assisted intervention, pages 171–180. Springer,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yutong Xie, Jianpeng Zhang, Chunhua Shen, and Yong Xia. Cotr",
+          "author_candidates": [
+            "Xie, Jianpeng Zhang"
+          ],
+          "title_candidate": "Efficiently bridging cnn and transformer for 3d medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 171–180. Springer",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yutong Xie, Jianpeng Zhang, Chunhua Shen, and Yong Xia. Cotr",
+          "author_candidates": [
+            "Xie, Jianpeng Zhang"
+          ],
+          "title_candidate": "Efficiently bridging cnn and transformer for 3d medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 171–180. Springer, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Yutong Xie, Jianpeng Zhang, Yong Xia, and Qi Wu. Unimiss: Universal medical self-supervised learning via breaking dimensionality barrier. In European Conference on Computer Vision, pages 558–575. Springer, 2022.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Yutong Xie, Jianpeng Zhang, Yong Xia, and Qi Wu",
+          "author_candidates": [
+            "Xie, Jianpeng Zhang"
+          ],
+          "title_candidate": "Unimiss: Universal medical self-supervised learning via breaking dimensionality barrier",
+          "container_candidate": "In European Conference on Computer Vision, pages 558–575. Springer, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yutong Xie, Jianpeng Zhang, Yong Xia, and Qi Wu",
+          "author_candidates": [
+            "Xie, Jianpeng Zhang"
+          ],
+          "title_candidate": "Unimiss: Universal medical self-supervised learning via breaking dimensionality barrier",
+          "container_candidate": "In European Conference on Computer Vision, pages 558–575. Springer,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yutong Xie, Jianpeng Zhang, Yong Xia, and Qi Wu. Unimiss",
+          "author_candidates": [
+            "Xie, Jianpeng Zhang"
+          ],
+          "title_candidate": "Universal medical self-supervised learning via breaking dimensionality barrier. In European Conference on Computer Vision, pages 558–575. Springer",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yutong Xie, Jianpeng Zhang, Yong Xia, and Qi Wu. Unimiss",
+          "author_candidates": [
+            "Xie, Jianpeng Zhang"
+          ],
+          "title_candidate": "Universal medical self-supervised learning via breaking dimensionality barrier. In European Conference on Computer Vision, pages 558–575. Springer, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Jieneng Chen, Yongyi Lu, et al. Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306, 2021.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "venue_marker_split",
+          "author_text": "Jieneng Chen, Yongyi Lu, et al",
+          "author_candidates": [
+            "Chen, Yongyi Lu"
+          ],
+          "title_candidate": "Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint",
+          "container_candidate": "arXiv:2102.04306, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jieneng Chen, Yongyi Lu, et al",
+          "author_candidates": [
+            "Chen, Yongyi Lu"
+          ],
+          "title_candidate": "Transunet: Transformers make strong encoders for medical image segmentation",
+          "container_candidate": "arXiv preprint arXiv:2102.04306,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jieneng Chen, Yongyi Lu, et al. Transunet",
+          "author_candidates": [
+            "Chen, Yongyi Lu"
+          ],
+          "title_candidate": "Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jieneng Chen, Yongyi Lu, et al. Transunet",
+          "author_candidates": [
+            "Chen, Yongyi Lu"
+          ],
+          "title_candidate": "Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Hong-Yu Zhou, Jiansen Guo, Yinghao Zhang, Lequan Yu, Liansheng Wang, and Yizhou Yu. nnformer: Interleaved transformer for volumetric segmentation. arXiv preprint arXiv:2109.03201, 2021.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "venue_marker_split",
+          "author_text": "Hong-Yu Zhou, Jiansen Guo, Yinghao Zhang, Lequan Yu, Liansheng Wang, and Yizhou Yu",
+          "author_candidates": [
+            "Zhou, Jiansen Guo",
+            "Zhang, Lequan Yu"
+          ],
+          "title_candidate": "nnformer: Interleaved transformer for volumetric segmentation. arXiv preprint",
+          "container_candidate": "arXiv:2109.03201, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Hong-Yu Zhou, Jiansen Guo, Yinghao Zhang, Lequan Yu, Liansheng Wang, and Yizhou Yu",
+          "author_candidates": [
+            "Zhou, Jiansen Guo",
+            "Zhang, Lequan Yu"
+          ],
+          "title_candidate": "nnformer: Interleaved transformer for volumetric segmentation",
+          "container_candidate": "arXiv preprint arXiv:2109.03201,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hong-Yu Zhou, Jiansen Guo, Yinghao Zhang, Lequan Yu, Liansheng Wang, and Yizhou Yu. nnformer",
+          "author_candidates": [
+            "Zhou, Jiansen Guo",
+            "Zhang, Lequan Yu"
+          ],
+          "title_candidate": "Interleaved transformer for volumetric segmentation. arXiv preprint arXiv:2109.03201",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hong-Yu Zhou, Jiansen Guo, Yinghao Zhang, Lequan Yu, Liansheng Wang, and Yizhou Yu. nnformer",
+          "author_candidates": [
+            "Zhou, Jiansen Guo",
+            "Zhang, Lequan Yu"
+          ],
+          "title_candidate": "Interleaved transformer for volumetric segmentation. arXiv preprint arXiv:2109.03201, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Tassilo Wald, Saikat Roy, Fabian Isensee, et al. Primus: Enforcing attention usage for 3d medical image segmentation. arXiv preprint arXiv:2503.01835, 2025.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "Tassilo Wald, Saikat Roy, Fabian Isensee, et al",
+          "author_candidates": [
+            "Wald, Saikat Roy"
+          ],
+          "title_candidate": "Primus: Enforcing attention usage for 3d medical image segmentation. arXiv preprint",
+          "container_candidate": "arXiv:2503.01835, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tassilo Wald, Saikat Roy, Fabian Isensee, et al",
+          "author_candidates": [
+            "Wald, Saikat Roy"
+          ],
+          "title_candidate": "Primus: Enforcing attention usage for 3d medical image segmentation",
+          "container_candidate": "arXiv preprint arXiv:2503.01835,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tassilo Wald, Saikat Roy, Fabian Isensee, et al. Primus",
+          "author_candidates": [
+            "Wald, Saikat Roy"
+          ],
+          "title_candidate": "Enforcing attention usage for 3d medical image segmentation. arXiv preprint arXiv:2503.01835",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tassilo Wald, Saikat Roy, Fabian Isensee, et al. Primus",
+          "author_candidates": [
+            "Wald, Saikat Roy"
+          ],
+          "title_candidate": "Enforcing attention usage for 3d medical image segmentation. arXiv preprint arXiv:2503.01835, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, et al. Your vit is secretly an image segmentation model. arXiv preprint arXiv:2503.19108, 2025.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, et al",
+          "author_candidates": [
+            "Kerssies, Niccol",
+            "Cavagnero, Alexander Hermans"
+          ],
+          "title_candidate": "Your vit is secretly an image segmentation model. arXiv preprint",
+          "container_candidate": "arXiv:2503.19108, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, et al",
+          "author_candidates": [
+            "Kerssies, Niccol",
+            "Cavagnero, Alexander Hermans"
+          ],
+          "title_candidate": "Your vit is secretly an image segmentation model",
+          "container_candidate": "arXiv preprint arXiv:2503.19108,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, et al. Your vit is secretly an image segmentation model. arXiv preprint arXiv",
+          "author_candidates": [
+            "Kerssies, Niccol",
+            "Cavagnero, Alexander Hermans"
+          ],
+          "title_candidate": "2503.19108",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, et al. Your vit is secretly an image segmentation model. arXiv preprint arXiv",
+          "author_candidates": [
+            "Kerssies, Niccol",
+            "Cavagnero, Alexander Hermans"
+          ],
+          "title_candidate": "2503.19108, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Zongwei Zhou, Vatsal Sodha, Jiaxuan Pang, Michael B Gotway, and Jianming Liang. Models genesis. Medical image analysis, 67:101840, 2021.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zongwei Zhou, Vatsal Sodha, Jiaxuan Pang, Michael B Gotway, and Jianming Liang",
+          "author_candidates": [
+            "Zhou, Vatsal Sodha",
+            "Pang, Michael B Gotway"
+          ],
+          "title_candidate": "Models genesis",
+          "container_candidate": "Medical image analysis, 67:101840,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zongwei Zhou, Vatsal Sodha, Jiaxuan Pang, Michael B Gotway, and Jianming Liang. Models genesis. Medical image analysis, 67",
+          "author_candidates": [
+            "Zhou, Vatsal Sodha",
+            "Pang, Michael B Gotway"
+          ],
+          "title_candidate": "101840",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zongwei Zhou, Vatsal Sodha, Jiaxuan Pang, Michael B Gotway, and Jianming Liang. Models genesis. Medical image analysis, 67",
+          "author_candidates": [
+            "Zhou, Vatsal Sodha",
+            "Pang, Michael B Gotway"
+          ],
+          "title_candidate": "101840, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Maximilian Miller, Leander Maerkisch, Paul Jaeger, and Klaus Maier-Hein. Revisiting mae pre-training for 3d medical image segmentation. In Proceedings of the Computer Vision and Pattern Recognition Conference, pages 5186–5196, 2025.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Maximilian Miller, Leander Maerkisch, Paul Jaeger, and Klaus Maier-Hein",
+          "author_candidates": [
+            "Wald, Constantin Ulrich",
+            "Lukyanenko, Andrei Goncharov",
+            "Paderno, Maximilian Miller",
+            "Maerkisch, Paul Jaeger"
+          ],
+          "title_candidate": "Revisiting mae pre-training for 3d medical image segmentation",
+          "container_candidate": "In Proceedings of the Computer Vision and Pattern Recognition Conference, pages 5186–5196, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Maximilian Miller, Leander Maerkisch, Paul Jaeger, and Klaus Maier-Hein",
+          "author_candidates": [
+            "Wald, Constantin Ulrich",
+            "Lukyanenko, Andrei Goncharov",
+            "Paderno, Maximilian Miller",
+            "Maerkisch, Paul Jaeger"
+          ],
+          "title_candidate": "Revisiting mae pre-training for 3d medical image segmentation",
+          "container_candidate": "In Proceedings of the Computer Vision and Pattern Recognition Conference, pages 5186–5196,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Maximilian Miller, Leander Maerkisch, Paul Jaeger, and Klaus Maier-Hein",
+          "author_candidates": [
+            "Wald, Constantin Ulrich",
+            "Lukyanenko, Andrei Goncharov",
+            "Paderno, Maximilian Miller",
+            "Maerkisch, Paul Jaeger"
+          ],
+          "title_candidate": "Revisiting mae pre-training for 3d medical image segmentation. In Proceedings of the Computer Vision and Pattern Recognition Conference, pages 5186–5196",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Maximilian Miller, Leander Maerkisch, Paul Jaeger, and Klaus Maier-Hein",
+          "author_candidates": [
+            "Wald, Constantin Ulrich",
+            "Lukyanenko, Andrei Goncharov",
+            "Paderno, Maximilian Miller",
+            "Maerkisch, Paul Jaeger"
+          ],
+          "title_candidate": "Revisiting mae pre-training for 3d medical image segmentation. In Proceedings of the Computer Vision and Pattern Recognition Conference, pages 5186–5196, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Yuheng Li, Tianyu Luan, Yizhou Wu, Shaoyan Pan, Yenho Chen, and Xiaofeng Yang. Anatomask: Enhancing medical image segmentation with reconstruction-guided self-masking. In European Conference on Computer Vision, pages 146–163. Springer, 2024.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuheng Li, Tianyu Luan, Yizhou Wu, Shaoyan Pan, Yenho Chen, and Xiaofeng Yang",
+          "author_candidates": [
+            "Li, Tianyu Luan",
+            "Wu, Shaoyan Pan"
+          ],
+          "title_candidate": "Anatomask: Enhancing medical image segmentation with reconstruction-guided self-masking",
+          "container_candidate": "In European Conference on Computer Vision, pages 146–163. Springer, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuheng Li, Tianyu Luan, Yizhou Wu, Shaoyan Pan, Yenho Chen, and Xiaofeng Yang",
+          "author_candidates": [
+            "Li, Tianyu Luan",
+            "Wu, Shaoyan Pan"
+          ],
+          "title_candidate": "Anatomask: Enhancing medical image segmentation with reconstruction-guided self-masking",
+          "container_candidate": "In European Conference on Computer Vision, pages 146–163. Springer,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuheng Li, Tianyu Luan, Yizhou Wu, Shaoyan Pan, Yenho Chen, and Xiaofeng Yang. Anatomask",
+          "author_candidates": [
+            "Li, Tianyu Luan",
+            "Wu, Shaoyan Pan"
+          ],
+          "title_candidate": "Enhancing medical image segmentation with reconstruction-guided self-masking. In European Conference on Computer Vision, pages 146–163. Springer",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuheng Li, Tianyu Luan, Yizhou Wu, Shaoyan Pan, Yenho Chen, and Xiaofeng Yang. Anatomask",
+          "author_candidates": [
+            "Li, Tianyu Luan",
+            "Wu, Shaoyan Pan"
+          ],
+          "title_candidate": "Enhancing medical image segmentation with reconstruction-guided self-masking. In European Conference on Computer Vision, pages 146–163. Springer, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] Guoping Xu, Xuan Zhang, Xinwei He, and Xinglong Wu. Levit-unet: Make faster encoders with transformer for medical image segmentation. In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), pages 42–53. Springer, 2023.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Guoping Xu, Xuan Zhang, Xinwei He, and Xinglong Wu",
+          "author_candidates": [
+            "Xu, Xuan Zhang"
+          ],
+          "title_candidate": "Levit-unet: Make faster encoders with transformer for medical image segmentation",
+          "container_candidate": "In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), pages 42–53. Springer, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Guoping Xu, Xuan Zhang, Xinwei He, and Xinglong Wu",
+          "author_candidates": [
+            "Xu, Xuan Zhang"
+          ],
+          "title_candidate": "Levit-unet: Make faster encoders with transformer for medical image segmentation",
+          "container_candidate": "In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), pages 42–53. Springer,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Guoping Xu, Xuan Zhang, Xinwei He, and Xinglong Wu. Levit-unet",
+          "author_candidates": [
+            "Xu, Xuan Zhang"
+          ],
+          "title_candidate": "Make faster encoders with transformer for medical image segmentation. In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), pages 42–53. Springer",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Guoping Xu, Xuan Zhang, Xinwei He, and Xinglong Wu. Levit-unet",
+          "author_candidates": [
+            "Xu, Xuan Zhang"
+          ],
+          "title_candidate": "Make faster encoders with transformer for medical image segmentation. In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), pages 42–53. Springer, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] Yunhe Gao, Mu Zhou, and Dimitris N Metaxas. Utnet: a hybrid transformer architecture for medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 61–71. Springer, 2021.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "venue_marker_split",
+          "author_text": "Yunhe Gao, Mu Zhou, and Dimitris N Metaxas",
+          "author_candidates": [
+            "Gao, Mu Zhou"
+          ],
+          "title_candidate": "Utnet: a hybrid transformer architecture for medical image segmentation",
+          "container_candidate": "In International conference on medical image computing and computer-assisted intervention, pages 61–71. Springer, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yunhe Gao, Mu Zhou, and Dimitris N Metaxas",
+          "author_candidates": [
+            "Gao, Mu Zhou"
+          ],
+          "title_candidate": "Utnet: a hybrid transformer architecture for medical image segmentation",
+          "container_candidate": "In International conference on medical image computing and computer-assisted intervention, pages 61–71. Springer,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yunhe Gao, Mu Zhou, and Dimitris N Metaxas. Utnet",
+          "author_candidates": [
+            "Gao, Mu Zhou"
+          ],
+          "title_candidate": "a hybrid transformer architecture for medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 61–71. Springer",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yunhe Gao, Mu Zhou, and Dimitris N Metaxas. Utnet",
+          "author_candidates": [
+            "Gao, Mu Zhou"
+          ],
+          "title_candidate": "a hybrid transformer architecture for medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 61–71. Springer, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] Bennett Landman, Zhoubing Xu, Juan Igelsias, Martin Styner, Thomas Langerak, and Arno Klein. Miccai multi-atlas labeling beyond the cranial vault–workshop and challenge. In Proc. MICCAI multi-atlas labeling beyond cranial vault—workshop challenge, volume 5, page 12. Munich, Germany, 2015.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "venue_marker_split",
+          "author_text": "Bennett Landman, Zhoubing Xu, Juan Igelsias, Martin Styner, Thomas Langerak, and Arno Klein",
+          "author_candidates": [
+            "Landman, Zhoubing Xu",
+            "Igelsias, Martin Styner"
+          ],
+          "title_candidate": "Miccai multi-atlas labeling beyond the cranial vault–workshop and challenge",
+          "container_candidate": "In Proc. MICCAI multi-atlas labeling beyond cranial vault—workshop challenge, volume 5, page 12. Munich, Germany, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bennett Landman, Zhoubing Xu, Juan Igelsias, Martin Styner, Thomas Langerak, and Arno Klein",
+          "author_candidates": [
+            "Landman, Zhoubing Xu",
+            "Igelsias, Martin Styner"
+          ],
+          "title_candidate": "Miccai multi-atlas labeling beyond the cranial vault–workshop and challenge",
+          "container_candidate": "In Proc. MICCAI multi-atlas labeling beyond cranial vault—workshop challenge, volume 5, page 12. Munich, Germany,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bennett Landman, Zhoubing Xu, Juan Igelsias, Martin Styner, Thomas Langerak, and Arno Klein",
+          "author_candidates": [
+            "Landman, Zhoubing Xu",
+            "Igelsias, Martin Styner"
+          ],
+          "title_candidate": "Miccai multi-atlas labeling beyond the cranial vault–workshop and challenge. In Proc. MICCAI multi-atlas labeling beyond cranial vault—workshop challenge, volume 5, page 12. Munich, Germany",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bennett Landman, Zhoubing Xu, Juan Igelsias, Martin Styner, Thomas Langerak, and Arno Klein",
+          "author_candidates": [
+            "Landman, Zhoubing Xu",
+            "Igelsias, Martin Styner"
+          ],
+          "title_candidate": "Miccai multi-atlas labeling beyond the cranial vault–workshop and challenge. In Proc. MICCAI multi-atlas labeling beyond cranial vault—workshop challenge, volume 5, page 12. Munich, Germany, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34] Holger R Roth, Le Lu, Amal Farag, Hoo-Chang Shin, Jiamin Liu, Evrim B Turkbey, and Ronald M Summers. Deeporgan: Multi-level deep convolutional networks for automated pancreas segmentation. In International conference on medical image computing and computer-assisted intervention, pages 556–564. Springer, 2015.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "venue_marker_split",
+          "author_text": "Holger R Roth, Le Lu, Amal Farag, Hoo-Chang Shin, Jiamin Liu, Evrim B Turkbey, and Ronald M Summers",
+          "author_candidates": [
+            "Roth, Le Lu",
+            "Farag, Hoo-Chang Shin",
+            "Liu, Evrim B Turkbey"
+          ],
+          "title_candidate": "Deeporgan: Multi-level deep convolutional networks for automated pancreas segmentation",
+          "container_candidate": "In International conference on medical image computing and computer-assisted intervention, pages 556–564. Springer, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Holger R Roth, Le Lu, Amal Farag, Hoo-Chang Shin, Jiamin Liu, Evrim B Turkbey, and Ronald M Summers",
+          "author_candidates": [
+            "Roth, Le Lu",
+            "Farag, Hoo-Chang Shin",
+            "Liu, Evrim B Turkbey"
+          ],
+          "title_candidate": "Deeporgan: Multi-level deep convolutional networks for automated pancreas segmentation",
+          "container_candidate": "In International conference on medical image computing and computer-assisted intervention, pages 556–564. Springer,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Holger R Roth, Le Lu, Amal Farag, Hoo-Chang Shin, Jiamin Liu, Evrim B Turkbey, and Ronald M Summers. Deeporgan",
+          "author_candidates": [
+            "Roth, Le Lu",
+            "Farag, Hoo-Chang Shin",
+            "Liu, Evrim B Turkbey"
+          ],
+          "title_candidate": "Multi-level deep convolutional networks for automated pancreas segmentation. In International conference on medical image computing and computer-assisted intervention, pages 556–564. Springer",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Holger R Roth, Le Lu, Amal Farag, Hoo-Chang Shin, Jiamin Liu, Evrim B Turkbey, and Ronald M Summers. Deeporgan",
+          "author_candidates": [
+            "Roth, Le Lu",
+            "Farag, Hoo-Chang Shin",
+            "Liu, Evrim B Turkbey"
+          ],
+          "title_candidate": "Multi-level deep convolutional networks for automated pancreas segmentation. In International conference on medical image computing and computer-assisted intervention, pages 556–564. Springer, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] A Emre Kavur, N Sinem Gezer, Mustafa Barı¸s, Sinem Aslan, Pierre-Henri Conze, Vladimir Groza, Duc Duy Pham, Soumick Chatterjee, Philipp Ernst, Sava¸s Özkan, et al. Chaos challenge-combined (ct-mr) healthy abdominal organ segmentation. Medical image analysis, 69:101950, 2021.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "A Emre Kavur, N Sinem Gezer, Mustafa Barı¸s, Sinem Aslan, Pierre-Henri Conze, Vladimir Groza, Duc Duy Pham, Soumick Chatterjee, Philipp Ernst, Sava¸s Özkan, et al",
+          "author_candidates": [
+            "Kavur, N Sinem Gezer",
+            "Aslan, Pierre-Henri Conze",
+            "Groza, Duc Duy Pham",
+            "Chatterjee, Philipp Ernst"
+          ],
+          "title_candidate": "Chaos challenge-combined (ct-mr) healthy abdominal organ segmentation",
+          "container_candidate": "Medical image analysis, 69:101950,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "A Emre Kavur, N Sinem Gezer, Mustafa Barı¸s, Sinem Aslan, Pierre-Henri Conze, Vladimir Groza, Duc Duy Pham, Soumick Chatterjee, Philipp Ernst, Sava¸s Özkan, et al. Chaos challenge-combined (ct-mr) healthy abdominal organ segmentation. Medical image analysis, 69",
+          "author_candidates": [
+            "Kavur, N Sinem Gezer",
+            "Aslan, Pierre-Henri Conze",
+            "Groza, Duc Duy Pham",
+            "Chatterjee, Philipp Ernst"
+          ],
+          "title_candidate": "101950",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "A Emre Kavur, N Sinem Gezer, Mustafa Barı¸s, Sinem Aslan, Pierre-Henri Conze, Vladimir Groza, Duc Duy Pham, Soumick Chatterjee, Philipp Ernst, Sava¸s Özkan, et al. Chaos challenge-combined (ct-mr) healthy abdominal organ segmentation. Medical image analysis, 69",
+          "author_candidates": [
+            "Kavur, N Sinem Gezer",
+            "Aslan, Pierre-Henri Conze",
+            "Groza, Duc Duy Pham",
+            "Chatterjee, Philipp Ernst"
+          ],
+          "title_candidate": "101950, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[36] Patrick Bilic, Patrick Christ, Hongwei Bran Li, Eugene Vorontsov, Avi Ben-Cohen, Georgios Kaissis, Adi Szeskin, Colin Jacobs, Gabriel Efrain Humpire Mamani, Gabriel Chartrand, et al. The liver tumor segmentation benchmark (lits). Medical image analysis, 84:102680, 2023.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Patrick Bilic, Patrick Christ, Hongwei Bran Li, Eugene Vorontsov, Avi Ben-Cohen, Georgios Kaissis, Adi Szeskin, Colin Jacobs, Gabriel Efrain Humpire Mamani, Gabriel Chartrand, et al",
+          "author_candidates": [
+            "Bilic, Patrick Christ",
+            "Li, Eugene Vorontsov",
+            "Ben-Cohen, Georgios Kaissis",
+            "Szeskin, Colin Jacobs",
+            "Mamani, Gabriel Chartrand"
+          ],
+          "title_candidate": "The liver tumor segmentation benchmark (lits)",
+          "container_candidate": "Medical image analysis, 84:102680,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Patrick Bilic, Patrick Christ, Hongwei Bran Li, Eugene Vorontsov, Avi Ben-Cohen, Georgios Kaissis, Adi Szeskin, Colin Jacobs, Gabriel Efrain Humpire Mamani, Gabriel Chartrand, et al. The liver tumor segmentation benchmark (lits). Medical image analysis, 84",
+          "author_candidates": [
+            "Bilic, Patrick Christ",
+            "Li, Eugene Vorontsov",
+            "Ben-Cohen, Georgios Kaissis",
+            "Szeskin, Colin Jacobs",
+            "Mamani, Gabriel Chartrand"
+          ],
+          "title_candidate": "102680",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "Patrick Bilic, Patrick Christ, Hongwei Bran Li, Eugene Vorontsov, Avi Ben-Cohen, Georgios Kaissis, Adi Szeskin, Colin Jacobs, Gabriel Efrain Humpire Mamani, Gabriel Chartrand, et al. The liver tumor segmentation benchmark (lits). Medical image analysis, 84",
+          "author_candidates": [
+            "Bilic, Patrick Christ",
+            "Li, Eugene Vorontsov",
+            "Ben-Cohen, Georgios Kaissis",
+            "Szeskin, Colin Jacobs",
+            "Mamani, Gabriel Chartrand"
+          ],
+          "title_candidate": "102680, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[37] Nicholas Heller, Fabian Isensee, Dasha Trofimova, Resha Tejpaul, Zhongchen Zhao, Huai Chen, Lisheng Wang, Alex Golts, Daniel Khapun, Daniel Shats, et al. The kits21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct. arXiv preprint arXiv:2307.01984, 2023.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "venue_marker_split",
+          "author_text": "Nicholas Heller, Fabian Isensee, Dasha Trofimova, Resha Tejpaul, Zhongchen Zhao, Huai Chen, Lisheng Wang, Alex Golts, Daniel Khapun, Daniel Shats, et al",
+          "author_candidates": [
+            "Heller, Fabian Isensee",
+            "Trofimova, Resha Tejpaul",
+            "Zhao, Huai Chen",
+            "Wang, Alex Golts",
+            "Khapun, Daniel Shats"
+          ],
+          "title_candidate": "The kits21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct. arXiv preprint",
+          "container_candidate": "arXiv:2307.01984, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Nicholas Heller, Fabian Isensee, Dasha Trofimova, Resha Tejpaul, Zhongchen Zhao, Huai Chen, Lisheng Wang, Alex Golts, Daniel Khapun, Daniel Shats, et al",
+          "author_candidates": [
+            "Heller, Fabian Isensee",
+            "Trofimova, Resha Tejpaul",
+            "Zhao, Huai Chen",
+            "Wang, Alex Golts",
+            "Khapun, Daniel Shats"
+          ],
+          "title_candidate": "The kits21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct",
+          "container_candidate": "arXiv preprint arXiv:2307.01984,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Nicholas Heller, Fabian Isensee, Dasha Trofimova, Resha Tejpaul, Zhongchen Zhao, Huai Chen, Lisheng Wang, Alex Golts, Daniel Khapun, Daniel Shats, et al. The kits21 challenge",
+          "author_candidates": [
+            "Heller, Fabian Isensee",
+            "Trofimova, Resha Tejpaul",
+            "Zhao, Huai Chen",
+            "Wang, Alex Golts",
+            "Khapun, Daniel Shats"
+          ],
+          "title_candidate": "Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct. arXiv preprint arXiv:2307.01984",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "Nicholas Heller, Fabian Isensee, Dasha Trofimova, Resha Tejpaul, Zhongchen Zhao, Huai Chen, Lisheng Wang, Alex Golts, Daniel Khapun, Daniel Shats, et al. The kits21 challenge",
+          "author_candidates": [
+            "Heller, Fabian Isensee",
+            "Trofimova, Resha Tejpaul",
+            "Zhao, Huai Chen",
+            "Wang, Alex Golts",
+            "Khapun, Daniel Shats"
+          ],
+          "title_candidate": "Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct. arXiv preprint arXiv:2307.01984, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[38] Xiangde Luo, Wenjun Liao, Jianghong Xiao, Jieneng Chen, Tao Song, Xiaofan Zhang, Kang Li, Dimitris N Metaxas, Guotai Wang, and Shaoting Zhang. Word: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from ct image. Medical Image Analysis, 82:102642, 2022.",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xiangde Luo, Wenjun Liao, Jianghong Xiao, Jieneng Chen, Tao Song, Xiaofan Zhang, Kang Li, Dimitris N Metaxas, Guotai Wang, and Shaoting Zhang",
+          "author_candidates": [
+            "Luo, Wenjun Liao",
+            "Xiao, Jieneng Chen",
+            "Song, Xiaofan Zhang",
+            "Li, Dimitris N Metaxas"
+          ],
+          "title_candidate": "Word: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from ct image",
+          "container_candidate": "Medical Image Analysis, 82:102642,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xiangde Luo, Wenjun Liao, Jianghong Xiao, Jieneng Chen, Tao Song, Xiaofan Zhang, Kang Li, Dimitris N Metaxas, Guotai Wang, and Shaoting Zhang. Word",
+          "author_candidates": [
+            "Luo, Wenjun Liao",
+            "Xiao, Jieneng Chen",
+            "Song, Xiaofan Zhang",
+            "Li, Dimitris N Metaxas"
+          ],
+          "title_candidate": "A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from ct image. Medical Image Analysis, 82:102642",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xiangde Luo, Wenjun Liao, Jianghong Xiao, Jieneng Chen, Tao Song, Xiaofan Zhang, Kang Li, Dimitris N Metaxas, Guotai Wang, and Shaoting Zhang. Word",
+          "author_candidates": [
+            "Luo, Wenjun Liao",
+            "Xiao, Jieneng Chen",
+            "Song, Xiaofan Zhang",
+            "Li, Dimitris N Metaxas"
+          ],
+          "title_candidate": "A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from ct image. Medical Image Analysis, 82:102642, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[39] Jun Ma, Yao Zhang, Song Gu, Cheng Zhu, Cheng Ge, Yichi Zhang, Xingle An, Congcong Wang, Qiyuan Wang, Xin Liu, et al. Abdomenct-1k: Is abdominal organ segmentation a solved problem? IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(10):6695–6714, 2021.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jun Ma, Yao Zhang, Song Gu, Cheng Zhu, Cheng Ge, Yichi Zhang, Xingle An, Congcong Wang, Qiyuan Wang, Xin Liu, et al",
+          "author_candidates": [
+            "Ma, Yao Zhang",
+            "Gu, Cheng Zhu",
+            "Ge, Yichi Zhang",
+            "An, Congcong Wang",
+            "Wang, Xin Liu"
+          ],
+          "title_candidate": "Abdomenct-1k: Is abdominal organ segmentation a solved problem? IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(10):6695–6714, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jun Ma, Yao Zhang, Song Gu, Cheng Zhu, Cheng Ge, Yichi Zhang, Xingle An, Congcong Wang, Qiyuan Wang, Xin Liu, et al. Abdomenct-1k",
+          "author_candidates": [
+            "Ma, Yao Zhang",
+            "Gu, Cheng Zhu",
+            "Ge, Yichi Zhang",
+            "An, Congcong Wang",
+            "Wang, Xin Liu"
+          ],
+          "title_candidate": "Is abdominal organ segmentation a solved problem? IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(10):6695–6714",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jun Ma, Yao Zhang, Song Gu, Cheng Zhu, Cheng Ge, Yichi Zhang, Xingle An, Congcong Wang, Qiyuan Wang, Xin Liu, et al. Abdomenct-1k",
+          "author_candidates": [
+            "Ma, Yao Zhang",
+            "Gu, Cheng Zhu",
+            "Ge, Yichi Zhang",
+            "An, Congcong Wang",
+            "Wang, Xin Liu"
+          ],
+          "title_candidate": "Is abdominal organ segmentation a solved problem? IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(10):6695–6714, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[40] Michela Antonelli, Annika Reinke, Spyridon Bakas, Keyvan Farahani, Annette Kopp-Schneider, Bennett A Landman, Geert Litjens, Bjoern Menze, Olaf Ronneberger, Ronald M Summers, et al. The medical segmentation decathlon. Nature communications, 13(1):4128, 2022.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Michela Antonelli, Annika Reinke, Spyridon Bakas, Keyvan Farahani, Annette Kopp-Schneider, Bennett A Landman, Geert Litjens, Bjoern Menze, Olaf Ronneberger, Ronald M Summers, et al",
+          "author_candidates": [
+            "Antonelli, Annika Reinke",
+            "Bakas, Keyvan Farahani",
+            "Kopp-Schneider, Bennett A Landman",
+            "Litjens, Bjoern Menze",
+            "Ronneberger, Ronald M Summers"
+          ],
+          "title_candidate": "The medical segmentation decathlon",
+          "container_candidate": "Nature communications, 13(1):4128,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 39,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Michela Antonelli, Annika Reinke, Spyridon Bakas, Keyvan Farahani, Annette Kopp-Schneider, Bennett A Landman, Geert Litjens, Bjoern Menze, Olaf Ronneberger, Ronald M Summers, et al. The medical segmentation decathlon. Nature communications, 13(1)",
+          "author_candidates": [
+            "Antonelli, Annika Reinke",
+            "Bakas, Keyvan Farahani",
+            "Kopp-Schneider, Bennett A Landman",
+            "Litjens, Bjoern Menze",
+            "Ronneberger, Ronald M Summers"
+          ],
+          "title_candidate": "4128",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "Michela Antonelli, Annika Reinke, Spyridon Bakas, Keyvan Farahani, Annette Kopp-Schneider, Bennett A Landman, Geert Litjens, Bjoern Menze, Olaf Ronneberger, Ronald M Summers, et al. The medical segmentation decathlon. Nature communications, 13(1)",
+          "author_candidates": [
+            "Antonelli, Annika Reinke",
+            "Bakas, Keyvan Farahani",
+            "Kopp-Schneider, Bennett A Landman",
+            "Litjens, Bjoern Menze",
+            "Ronneberger, Ronald M Summers"
+          ],
+          "title_candidate": "4128, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[41] Blaine Rister, Darvin Yi, Kaushik Shivakumar, Tomomi Nobashi, and Daniel L Rubin. Ct-org, a new dataset for multiple organ segmentation in computed tomography. Scientific Data, 7(1):381, 2020.",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Blaine Rister, Darvin Yi, Kaushik Shivakumar, Tomomi Nobashi, and Daniel L Rubin",
+          "author_candidates": [
+            "Rister, Darvin Yi",
+            "Shivakumar, Tomomi Nobashi"
+          ],
+          "title_candidate": "Ct-org, a new dataset for multiple organ segmentation in computed tomography",
+          "container_candidate": "Scientific Data, 7(1):381,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Blaine Rister, Darvin Yi, Kaushik Shivakumar, Tomomi Nobashi, and Daniel L Rubin. Ct-org, a new dataset for multiple organ segmentation in computed tomography. Scientific Data, 7(1)",
+          "author_candidates": [
+            "Rister, Darvin Yi",
+            "Shivakumar, Tomomi Nobashi"
+          ],
+          "title_candidate": "381",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "Blaine Rister, Darvin Yi, Kaushik Shivakumar, Tomomi Nobashi, and Daniel L Rubin. Ct-org, a new dataset for multiple organ segmentation in computed tomography. Scientific Data, 7(1)",
+          "author_candidates": [
+            "Rister, Darvin Yi",
+            "Shivakumar, Tomomi Nobashi"
+          ],
+          "title_candidate": "381, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "[42] Jakob Wasserthal, Hanns-Christian Breit, Manfred T Meyer, Maurice Pradella, Daniel Hinck, Alexander W Sauter, Tobias Heye, Daniel T Boll, Joshy Cyriac, Shan Yang, et al. Totalsegmentator: robust segmentation of 104 anatomic structures in ct images. Radiology: Artificial Intelligence, 5(5):e230024, 2023.",
+      "detected_ref_number": 42,
+      "numbering": {
+        "detected_ref_number": 42,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jakob Wasserthal, Hanns-Christian Breit, Manfred T Meyer, Maurice Pradella, Daniel Hinck, Alexander W Sauter, Tobias Heye, Daniel T Boll, Joshy Cyriac, Shan Yang, et al",
+          "author_candidates": [
+            "Wasserthal, Hanns-Christian Breit",
+            "Meyer, Maurice Pradella",
+            "Hinck, Alexander W Sauter",
+            "Heye, Daniel T Boll",
+            "Cyriac, Shan Yang"
+          ],
+          "title_candidate": "Totalsegmentator: robust segmentation of 104 anatomic structures in ct images",
+          "container_candidate": "Radiology: Artificial Intelligence, 5(5):e230024,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 41,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jakob Wasserthal, Hanns-Christian Breit, Manfred T Meyer, Maurice Pradella, Daniel Hinck, Alexander W Sauter, Tobias Heye, Daniel T Boll, Joshy Cyriac, Shan Yang, et al. Totalsegmentator",
+          "author_candidates": [
+            "Wasserthal, Hanns-Christian Breit",
+            "Meyer, Maurice Pradella",
+            "Hinck, Alexander W Sauter",
+            "Heye, Daniel T Boll",
+            "Cyriac, Shan Yang"
+          ],
+          "title_candidate": "robust segmentation of 104 anatomic structures in ct images. Radiology: Artificial Intelligence, 5(5):e230024",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 41,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jakob Wasserthal, Hanns-Christian Breit, Manfred T Meyer, Maurice Pradella, Daniel Hinck, Alexander W Sauter, Tobias Heye, Daniel T Boll, Joshy Cyriac, Shan Yang, et al. Totalsegmentator",
+          "author_candidates": [
+            "Wasserthal, Hanns-Christian Breit",
+            "Meyer, Maurice Pradella",
+            "Hinck, Alexander W Sauter",
+            "Heye, Daniel T Boll",
+            "Cyriac, Shan Yang"
+          ],
+          "title_candidate": "robust segmentation of 104 anatomic structures in ct images. Radiology: Artificial Intelligence, 5(5):e230024, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "[43] Pedro RAS Bassi, Mehmet Can Yavuz, Kang Wang, Xiaoxi Chen, Wenxuan Li, Sergio Decherchi, Andrea Cavalli, Yang Yang, Alan Yuille, and Zongwei Zhou. Radgpt: Constructing 3d image-text tumor datasets. arXiv preprint arXiv:2501.04678, 2025.",
+      "detected_ref_number": 43,
+      "numbering": {
+        "detected_ref_number": 43,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "venue_marker_split",
+          "author_text": "Pedro RAS Bassi, Mehmet Can Yavuz, Kang Wang, Xiaoxi Chen, Wenxuan Li, Sergio Decherchi, Andrea Cavalli, Yang Yang, Alan Yuille, and Zongwei Zhou",
+          "author_candidates": [
+            "Bassi, Mehmet Can Yavuz",
+            "Wang, Xiaoxi Chen",
+            "Li, Sergio Decherchi",
+            "Cavalli, Yang Yang"
+          ],
+          "title_candidate": "Radgpt: Constructing 3d image-text tumor datasets. arXiv preprint",
+          "container_candidate": "arXiv:2501.04678, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Pedro RAS Bassi, Mehmet Can Yavuz, Kang Wang, Xiaoxi Chen, Wenxuan Li, Sergio Decherchi, Andrea Cavalli, Yang Yang, Alan Yuille, and Zongwei Zhou",
+          "author_candidates": [
+            "Bassi, Mehmet Can Yavuz",
+            "Wang, Xiaoxi Chen",
+            "Li, Sergio Decherchi",
+            "Cavalli, Yang Yang"
+          ],
+          "title_candidate": "Radgpt: Constructing 3d image-text tumor datasets",
+          "container_candidate": "arXiv preprint arXiv:2501.04678,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Pedro RAS Bassi, Mehmet Can Yavuz, Kang Wang, Xiaoxi Chen, Wenxuan Li, Sergio Decherchi, Andrea Cavalli, Yang Yang, Alan Yuille, and Zongwei Zhou. Radgpt",
+          "author_candidates": [
+            "Bassi, Mehmet Can Yavuz",
+            "Wang, Xiaoxi Chen",
+            "Li, Sergio Decherchi",
+            "Cavalli, Yang Yang"
+          ],
+          "title_candidate": "Constructing 3d image-text tumor datasets. arXiv preprint arXiv:2501.04678",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "Pedro RAS Bassi, Mehmet Can Yavuz, Kang Wang, Xiaoxi Chen, Wenxuan Li, Sergio Decherchi, Andrea Cavalli, Yang Yang, Alan Yuille, and Zongwei Zhou. Radgpt",
+          "author_candidates": [
+            "Bassi, Mehmet Can Yavuz",
+            "Wang, Xiaoxi Chen",
+            "Li, Sergio Decherchi",
+            "Cavalli, Yang Yang"
+          ],
+          "title_candidate": "Constructing 3d image-text tumor datasets. arXiv preprint arXiv:2501.04678, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 43,
+      "raw": "[44] Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M Alvarez, and Ping Luo. Segformer: Simple and efficient design for semantic segmentation with transformers. Advances in neural information processing systems, 34:12077–12090, 2021.",
+      "detected_ref_number": 44,
+      "numbering": {
+        "detected_ref_number": 44,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 43,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M Alvarez, and Ping Luo",
+          "author_candidates": [
+            "Xie, Wenhai Wang",
+            "Yu, Anima Anandkumar"
+          ],
+          "title_candidate": "Segformer: Simple and efficient design for semantic segmentation with transformers",
+          "container_candidate": "Advances in neural information processing systems, 34:12077–12090,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 43,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M Alvarez, and Ping Luo. Segformer",
+          "author_candidates": [
+            "Xie, Wenhai Wang",
+            "Yu, Anima Anandkumar"
+          ],
+          "title_candidate": "Simple and efficient design for semantic segmentation with transformers. Advances in neural information processing systems, 34:12077–12090",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 43,
+          "pattern": "fallback_raw_split",
+          "author_text": "Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M Alvarez, and Ping Luo. Segformer",
+          "author_candidates": [
+            "Xie, Wenhai Wang",
+            "Yu, Anima Anandkumar"
+          ],
+          "title_candidate": "Simple and efficient design for semantic segmentation with transformers. Advances in neural information processing systems, 34:12077–12090, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 44,
+      "raw": "[45] Yifan Gao, Haoyue Li, Feng Yuan, Xiaosong Wang, and Xin Gao. Dino u-net: Exploiting high-fidelity dense features from foundation models for medical image segmentation. arXiv preprint arXiv:2508.20909, 2025.",
+      "detected_ref_number": 45,
+      "numbering": {
+        "detected_ref_number": 45,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 44,
+          "pattern": "venue_marker_split",
+          "author_text": "Yifan Gao, Haoyue Li, Feng Yuan, Xiaosong Wang, and Xin Gao",
+          "author_candidates": [
+            "Gao, Haoyue Li",
+            "Yuan, Xiaosong Wang"
+          ],
+          "title_candidate": "Dino u-net: Exploiting high-fidelity dense features from foundation models for medical image segmentation. arXiv preprint",
+          "container_candidate": "arXiv:2508.20909, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 44,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yifan Gao, Haoyue Li, Feng Yuan, Xiaosong Wang, and Xin Gao",
+          "author_candidates": [
+            "Gao, Haoyue Li",
+            "Yuan, Xiaosong Wang"
+          ],
+          "title_candidate": "Dino u-net: Exploiting high-fidelity dense features from foundation models for medical image segmentation",
+          "container_candidate": "arXiv preprint arXiv:2508.20909,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 44,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yifan Gao, Haoyue Li, Feng Yuan, Xiaosong Wang, and Xin Gao. Dino u-net",
+          "author_candidates": [
+            "Gao, Haoyue Li",
+            "Yuan, Xiaosong Wang"
+          ],
+          "title_candidate": "Exploiting high-fidelity dense features from foundation models for medical image segmentation. arXiv preprint arXiv:2508.20909",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 44,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yifan Gao, Haoyue Li, Feng Yuan, Xiaosong Wang, and Xin Gao. Dino u-net",
+          "author_candidates": [
+            "Gao, Haoyue Li",
+            "Yuan, Xiaosong Wang"
+          ],
+          "title_candidate": "Exploiting high-fidelity dense features from foundation models for medical image segmentation. arXiv preprint arXiv:2508.20909, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 44,
+      "metadata": {
+        "entry_count": 15
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=39",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=41",
+    "reference_pattern_ambiguous: entry_index=42",
+    "reference_pattern_ambiguous: entry_index=43",
+    "reference_pattern_ambiguous: entry_index=44"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

@@ -1,0 +1,3725 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:42Z",
+    "entry_count": 43,
+    "candidate_count": 157,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Alexey Bochkovskiy, Chien-Yao Wang,and Hong-Yuan Mark Liao.Yolov4: Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934,2020.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Alexey Bochkovskiy, Chien-Yao Wang,and Hong-Yuan Mark Liao.Yolov4: Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934,2020."
+      ]
+    },
+    {
+      "block_index": 1,
+      "source_text": "[2] Daniel Bogdoll, Maximilian Nitsche,and JMarius Zollner. Anomaly detection in autonomous driving: A survey. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4488-4499,2022.",
+      "line_start": 2,
+      "line_end": 2,
+      "proposed_entries": [
+        "[2] Daniel Bogdoll, Maximilian Nitsche,and JMarius Zollner. Anomaly detection in autonomous driving: A survey. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4488-4499,2022."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[3] Yuxuan Cai, Yizhuang Zhou, Qi Han, Jianjian Sun, Xiangwen Kong, Jun Li,and Xiangyu Zhang. Reversible column networks. In International Conference on Learning Representations,2022.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[3] Yuxuan Cai, Yizhuang Zhou, Qi Han, Jianjian Sun, Xiangwen Kong, Jun Li,and Xiangyu Zhang. Reversible column networks. In International Conference on Learning Representations,2022."
+      ]
+    },
+    {
+      "block_index": 3,
+      "source_text": "[4] Nicolas Carion,Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko. End-toend object detection with transformers.In European Conference on Computer Vision,pages 213-229.Springer, 2020.",
+      "line_start": 4,
+      "line_end": 4,
+      "proposed_entries": [
+        "[4] Nicolas Carion,Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko. End-toend object detection with transformers.In European Conference on Computer Vision,pages 213-229.Springer, 2020."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[5] Qiang Chen, Xiaokang Chen, Gang Zeng,and Jingdong Wang. Group detr: Fast training convergence with decoupled oneto-many label assignment. arXiv preprint arXiv:2207.13085, 2022.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[5] Qiang Chen, Xiaokang Chen, Gang Zeng,and Jingdong Wang. Group detr: Fast training convergence with decoupled oneto-many label assignment. arXiv preprint arXiv:2207.13085, 2022."
+      ]
+    },
+    {
+      "block_index": 5,
+      "source_text": "[6] Qiang Chen,Jian Wang,Chuchu Han, Shan Zhang,Zexian Li, Xiaokang Chen, Jiahui Chen, Xiaodi Wang,Shuming Han, Gang Zhang, et al. Group detr v2: Strong object detector with encoder-decoder pretraining. arXiv preprint arXiv:2211.03594,2022.",
+      "line_start": 6,
+      "line_end": 6,
+      "proposed_entries": [
+        "[6] Qiang Chen,Jian Wang,Chuchu Han, Shan Zhang,Zexian Li, Xiaokang Chen, Jiahui Chen, Xiaodi Wang,Shuming Han, Gang Zhang, et al. Group detr v2: Strong object detector with encoder-decoder pretraining. arXiv preprint arXiv:2211.03594,2022."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[7] Xiaohan Ding, Xiangyu Zhang,Ningning Ma, Jungong Han, Guiguang Ding,and Jian Sun. Repvgg: Making vgg-style convnets great again.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13733-13742, 2021.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[7] Xiaohan Ding, Xiangyu Zhang,Ningning Ma, Jungong Han, Guiguang Ding,and Jian Sun. Repvgg: Making vgg-style convnets great again.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13733-13742, 2021."
+      ]
+    },
+    {
+      "block_index": 7,
+      "source_text": "[8] Peng Gao,Minghang Zheng,Xiaogang Wang, Jifeng Dai, and Hongsheng Li. Fast convergence of detr with spatially modulated co-attention.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3621- 3630,2021.",
+      "line_start": 8,
+      "line_end": 8,
+      "proposed_entries": [
+        "[8] Peng Gao,Minghang Zheng,Xiaogang Wang, Jifeng Dai, and Hongsheng Li. Fast convergence of detr with spatially modulated co-attention.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3621- 3630,2021."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[9] Zheng Ge, Songtao Liu, Feng Wang, Zeming Li,and Jian Sun.Yolox: Exceeding yolo series in 2021.arXiv preprint arXiv:2107.08430,2021.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[9] Zheng Ge, Songtao Liu, Feng Wang, Zeming Li,and Jian Sun.Yolox: Exceeding yolo series in 2021.arXiv preprint arXiv:2107.08430,2021."
+      ]
+    },
+    {
+      "block_index": 9,
+      "source_text": "[10] Jocher Glenn. Yolov5 release v7.0. https ://github. com/ultralytics/yolov5/tree/v7.0,2022.",
+      "line_start": 10,
+      "line_end": 10,
+      "proposed_entries": [
+        "[10] Jocher Glenn. Yolov5 release v7.0. https ://github. com/ultralytics/yolov5/tree/v7.0,2022."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[11] Jocher Glenn.Yolov8.https://github.com / ultralytics/ultralytics/tree/main, 2023.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[11] Jocher Glenn.Yolov8.https://github.com / ultralytics/ultralytics/tree/main, 2023."
+      ]
+    },
+    {
+      "block_index": 11,
+      "source_text": "[12] Kaiming He, Xiangyu Zhang, Shaoqing Ren,and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 770-778,2016.",
+      "line_start": 12,
+      "line_end": 12,
+      "proposed_entries": [
+        "[12] Kaiming He, Xiangyu Zhang, Shaoqing Ren,and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 770-778,2016."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[13] Tong He, Zhi Zhang,Hang Zhang, Zhongyue Zhang,Junyuan Xie,and Mu Li. Bag of tricks for image classification with convolutional neural networks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 558-567,2019.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[13] Tong He, Zhi Zhang,Hang Zhang, Zhongyue Zhang,Junyuan Xie,and Mu Li. Bag of tricks for image classification with convolutional neural networks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 558-567,2019."
+      ]
+    },
+    {
+      "block_index": 13,
+      "source_text": "[14] Xin Huang, Xinxin Wang, Wenyu Lv, Xiaying Bai, Xiang Long, Kaipeng Deng, Qingqing Dang, Shumin Han, Qiwen Liu,Xiaoguang Hu, et al. Pp-yolov2: A practical object detector. arXiv preprint arXiv:2i04.10419,2021.",
+      "line_start": 14,
+      "line_end": 14,
+      "proposed_entries": [
+        "[14] Xin Huang, Xinxin Wang, Wenyu Lv, Xiaying Bai, Xiang Long, Kaipeng Deng, Qingqing Dang, Shumin Han, Qiwen Liu,Xiaoguang Hu, et al. Pp-yolov2: A practical object detector. arXiv preprint arXiv:2i04.10419,2021."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[15] Chuyi Li, Lulu Li, Yifei Geng,Hongliang Jiang,Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu,and Xiangxiang Chu. Yolov6 v3.0: A ful-scale reloading. arXiv preprint arXiv:2301.05586,2023.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[15] Chuyi Li, Lulu Li, Yifei Geng,Hongliang Jiang,Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu,and Xiangxiang Chu. Yolov6 v3.0: A ful-scale reloading. arXiv preprint arXiv:2301.05586,2023."
+      ]
+    },
+    {
+      "block_index": 15,
+      "source_text": "[16] Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang. Dn-detr: Accelerate detr training by introducing query denoising. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13619- 13627,2022.",
+      "line_start": 16,
+      "line_end": 16,
+      "proposed_entries": [
+        "[16] Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang. Dn-detr: Accelerate detr training by introducing query denoising. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13619- 13627,2022."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[17] Feng Li, Ailing Zeng, Shilong Liu, Hao Zhang,Hongyang Li,Lei Zhang,and Lionel MNi. Lite detr: An interleaved multi-scale encoder for efficient detr. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 18558-18567,2023.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[17] Feng Li, Ailing Zeng, Shilong Liu, Hao Zhang,Hongyang Li,Lei Zhang,and Lionel MNi. Lite detr: An interleaved multi-scale encoder for efficient detr. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 18558-18567,2023."
+      ]
+    },
+    {
+      "block_index": 17,
+      "source_text": "[18] Junyu Lin, Xiaofeng Mao, Yuefeng Chen,Lei Xu, Yuan He,and Hui Xue. D' 2etr: Decoder-only detr with computationally efficient cross-scale attention. arXiv preprint arXiv:2203.00860,2022.",
+      "line_start": 18,
+      "line_end": 18,
+      "proposed_entries": [
+        "[18] Junyu Lin, Xiaofeng Mao, Yuefeng Chen,Lei Xu, Yuan He,and Hui Xue. D' 2etr: Decoder-only detr with computationally efficient cross-scale attention. arXiv preprint arXiv:2203.00860,2022."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[19] Tsung-YiLin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan,Piotr Dollar,and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European Conference on Computer Vision, pages 740-755. Springer, 2014.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[19] Tsung-YiLin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan,Piotr Dollar,and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European Conference on Computer Vision, pages 740-755. Springer, 2014."
+      ]
+    },
+    {
+      "block_index": 19,
+      "source_text": "[20] Tsung-Yi Lin,Priya Goyal,Ross Girshick,Kaiming He,and Piotr Dollar.Focal loss for dense object detection.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 2980-2988,2017.",
+      "line_start": 20,
+      "line_end": 20,
+      "proposed_entries": [
+        "[20] Tsung-Yi Lin,Priya Goyal,Ross Girshick,Kaiming He,and Piotr Dollar.Focal loss for dense object detection.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 2980-2988,2017."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[21] Shu Liu,Lu Qi, Haifang Qin,Jianping Shi,and Jiaya Jia. Path aggregation network for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8759-8768,2018.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[21] Shu Liu,Lu Qi, Haifang Qin,Jianping Shi,and Jiaya Jia. Path aggregation network for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8759-8768,2018."
+      ]
+    },
+    {
+      "block_index": 21,
+      "source_text": "[22] Shilong Liu, Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu,and Lei Zhang. Dab-detr: Dynamic anchor boxes are better queries for detr. In International Conference on Learning Representations, 2021.",
+      "line_start": 22,
+      "line_end": 22,
+      "proposed_entries": [
+        "[22] Shilong Liu, Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu,and Lei Zhang. Dab-detr: Dynamic anchor boxes are better queries for detr. In International Conference on Learning Representations, 2021."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[23] Wei Liu,Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, ScottReed, Cheng-Yang Fu,and Alexander C Berg. Ssd: Single shot multibox detector. In European Conference on Computer Vision,pages 21-37. Springer,2016.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[23] Wei Liu,Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, ScottReed, Cheng-Yang Fu,and Alexander C Berg. Ssd: Single shot multibox detector. In European Conference on Computer Vision,pages 21-37. Springer,2016."
+      ]
+    },
+    {
+      "block_index": 23,
+      "source_text": "[24] Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao,Hui Shen, Jianguo Ren, Shumin Han,Errui Ding,et al.Pp-yolo: An effective and efficient implementation of object detector.arXiv preprint arXiv:2007.12099,2020.",
+      "line_start": 24,
+      "line_end": 24,
+      "proposed_entries": [
+        "[24] Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao,Hui Shen, Jianguo Ren, Shumin Han,Errui Ding,et al.Pp-yolo: An effective and efficient implementation of object detector.arXiv preprint arXiv:2007.12099,2020."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[25] Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang. Conditional detr for fast training convergence.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3651-3660,2021.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[25] Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang. Conditional detr for fast training convergence.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3651-3660,2021."
+      ]
+    },
+    {
+      "block_index": 25,
+      "source_text": "[26] Rashmika Nawaratne,Damminda Alahakoon, Daswin De Silva,and Xinghuo Yu. Spatiotemporal anomaly detection using deep learning for real-time video surveillance.IEEE Transactions on Industrial Informatics,16(1):393-402,2019.",
+      "line_start": 26,
+      "line_end": 26,
+      "proposed_entries": [
+        "[26] Rashmika Nawaratne,Damminda Alahakoon, Daswin De Silva,and Xinghuo Yu. Spatiotemporal anomaly detection using deep learning for real-time video surveillance.IEEE Transactions on Industrial Informatics,16(1):393-402,2019."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[27] Joseph Redmon and Ali Farhadi. Yolo9OoO:better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263-7271, 2017.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[27] Joseph Redmon and Ali Farhadi. Yolo9OoO:better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263-7271, 2017."
+      ]
+    },
+    {
+      "block_index": 27,
+      "source_text": "[28] Joseph Redmon and Ali Farhadi. Yolov3:An incremental improvement. arXiv preprint arXiv:1804.02767,2018.",
+      "line_start": 28,
+      "line_end": 28,
+      "proposed_entries": [
+        "[28] Joseph Redmon and Ali Farhadi. Yolov3:An incremental improvement. arXiv preprint arXiv:1804.02767,2018."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[29] Joseph Redmon, Santosh Divvala,Ross Girshick,and Ali Farhadi. You only look once: Unified,real-time object detection．In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,pages 779-788, 2016.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[29] Joseph Redmon, Santosh Divvala,Ross Girshick,and Ali Farhadi. You only look once: Unified,real-time object detection．In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,pages 779-788, 2016."
+      ]
+    },
+    {
+      "block_index": 29,
+      "source_text": "[30] Tianhe Ren, Jianwei Yang, Shilong Liu, Ailing Zeng,Feng Li, Hao Zhang, Hongyang Li, Zhaoyang Zeng, and Lei Zhang. A strong and reproducible object detector with only public datasets. arXiv preprint arXiv:2304.13027,2023.",
+      "line_start": 30,
+      "line_end": 30,
+      "proposed_entries": [
+        "[30] Tianhe Ren, Jianwei Yang, Shilong Liu, Ailing Zeng,Feng Li, Hao Zhang, Hongyang Li, Zhaoyang Zeng, and Lei Zhang. A strong and reproducible object detector with only public datasets. arXiv preprint arXiv:2304.13027,2023."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[31] Byungseok Roh,JaeWoong Shin, Wuhyun Shin,and Saehoon Kim. Sparse detr: Efficient end-to-end object detection with learnable sparsity. In International Conference on Learning Representations,2021.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[31] Byungseok Roh,JaeWoong Shin, Wuhyun Shin,and Saehoon Kim. Sparse detr: Efficient end-to-end object detection with learnable sparsity. In International Conference on Learning Representations,2021."
+      ]
+    },
+    {
+      "block_index": 31,
+      "source_text": "[32] Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang, Jing Li,and Jian Sun. Objects365: A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 8430-8439,2019.",
+      "line_start": 32,
+      "line_end": 32,
+      "proposed_entries": [
+        "[32] Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang, Jing Li,and Jian Sun. Objects365: A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 8430-8439,2019."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[33] Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu,Wei Zhan, Masayoshi Tomizuka,Lei Li, Zehuan Yuan, Changhu Wang,et al. Sparse r-cnn: End-to-end object detection with learnable proposals.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 14454-14463,2021.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[33] Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu,Wei Zhan, Masayoshi Tomizuka,Lei Li, Zehuan Yuan, Changhu Wang,et al. Sparse r-cnn: End-to-end object detection with learnable proposals.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 14454-14463,2021."
+      ]
+    },
+    {
+      "block_index": 33,
+      "source_text": "[34] Chien-Yao Wang, Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Scaled-yolov4: Scaling cross stage partial network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13029-13038,2021.",
+      "line_start": 34,
+      "line_end": 34,
+      "proposed_entries": [
+        "[34] Chien-Yao Wang, Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Scaled-yolov4: Scaling cross stage partial network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13029-13038,2021."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[35] Chien-Yao Wang,Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Yolov7: Trainable bag-of-freebies sets new state-ofthe-art for real-time object detectors.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464-7475,2023.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[35] Chien-Yao Wang,Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Yolov7: Trainable bag-of-freebies sets new state-ofthe-art for real-time object detectors.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464-7475,2023."
+      ]
+    },
+    {
+      "block_index": 35,
+      "source_text": "[36] Yingming Wang,Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr: Query design for transformer-based detector. In Proceedings ofthe AAI Conference on Artificial Intelligence, pages 2567-2575,2022.",
+      "line_start": 36,
+      "line_end": 36,
+      "proposed_entries": [
+        "[36] Yingming Wang,Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr: Query design for transformer-based detector. In Proceedings ofthe AAI Conference on Artificial Intelligence, pages 2567-2575,2022."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[37] Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. $\\mathrm { P p }$ -yoloe:An evolved version of yolo. arXiv preprint arXiv:2203.16250,2022.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[37] Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. $\\mathrm { P p }$ -yoloe:An evolved version of yolo. arXiv preprint arXiv:2203.16250,2022."
+      ]
+    },
+    {
+      "block_index": 37,
+      "source_text": "[38] Jianwei Yang,Chunyuan Li, Xiyang Dai,and Jianfeng Gao. Focal modulation networks.Advances in Neural Information Processing Systems,35:4203-4217,2022.",
+      "line_start": 38,
+      "line_end": 38,
+      "proposed_entries": [
+        "[38] Jianwei Yang,Chunyuan Li, Xiyang Dai,and Jianfeng Gao. Focal modulation networks.Advances in Neural Information Processing Systems,35:4203-4217,2022."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[39] Zhuyu Yao,Jiangbo Ai,Boxun Li,and Chi Zhang.Efficient detr: improving end-to-end object detector with dense prior. arXiv preprint arXiv:2104.01318,2021.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[39] Zhuyu Yao,Jiangbo Ai,Boxun Li,and Chi Zhang.Efficient detr: improving end-to-end object detector with dense prior. arXiv preprint arXiv:2104.01318,2021."
+      ]
+    },
+    {
+      "block_index": 39,
+      "source_text": "[40] Fangao Zeng,Bin Dong,Yuang Zhang, Tiancai Wang, Xiangyu Zhang,and Yichen Wei.Motr: End-to-end multipleobject tracking with transformer. In European Conference on Computer Vision,pages 659-675. Springer,2022.",
+      "line_start": 40,
+      "line_end": 40,
+      "proposed_entries": [
+        "[40] Fangao Zeng,Bin Dong,Yuang Zhang, Tiancai Wang, Xiangyu Zhang,and Yichen Wei.Motr: End-to-end multipleobject tracking with transformer. In European Conference on Computer Vision,pages 659-675. Springer,2022."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[41] Hao Zhang,Feng Li, Shilong Liu,Lei Zhang, Hang Su, Jun Zhu,Lionel Ni,and Heung-Yeung Shum. Dino: Detr with improved denoising anchor boxes for end-to-end object detection.In International Conference on Learning Representations,2022.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[41] Hao Zhang,Feng Li, Shilong Liu,Lei Zhang, Hang Su, Jun Zhu,Lionel Ni,and Heung-Yeung Shum. Dino: Detr with improved denoising anchor boxes for end-to-end object detection.In International Conference on Learning Representations,2022."
+      ]
+    },
+    {
+      "block_index": 41,
+      "source_text": "[42] Xizhou Zhu,Weijie Su,Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr: Deformable transformers for end-to-end object detection.In International Conference onLearning Representations,2020.",
+      "line_start": 42,
+      "line_end": 42,
+      "proposed_entries": [
+        "[42] Xizhou Zhu,Weijie Su,Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr: Deformable transformers for end-to-end object detection.In International Conference onLearning Representations,2020."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[43] Zhuofan Zong,Guanglu Song,and Yu Liu. Detrs with collaborative hybrid assignments training. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 6748-6758,2023.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[43] Zhuofan Zong,Guanglu Song,and Yu Liu. Detrs with collaborative hybrid assignments training. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 6748-6758,2023."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Alexey Bochkovskiy, Chien-Yao Wang,and Hong-Yuan Mark Liao.Yolov4: Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934,2020.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "venue_marker_split",
+          "author_text": "Alexey Bochkovskiy, Chien-Yao Wang,and Hong-Yuan Mark Liao.Yolov4: Optimal speed and accuracy of object detection",
+          "author_candidates": [
+            "Bochkovskiy, Chien-Yao Wang"
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2004.10934,2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alexey Bochkovskiy, Chien-Yao Wang,and Hong-Yuan Mark Liao.Yolov4: Optimal speed and accuracy of object detection",
+          "author_candidates": [
+            "Bochkovskiy, Chien-Yao Wang"
+          ],
+          "title_candidate": "arXiv preprint arXiv:2004.10934,2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alexey Bochkovskiy, Chien-Yao Wang,and Hong-Yuan Mark Liao.Yolov4",
+          "author_candidates": [
+            "Bochkovskiy, Chien-Yao Wang"
+          ],
+          "title_candidate": "Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alexey Bochkovskiy, Chien-Yao Wang,and Hong-Yuan Mark Liao.Yolov4",
+          "author_candidates": [
+            "Bochkovskiy, Chien-Yao Wang"
+          ],
+          "title_candidate": "Optimal speed and accuracy of object detection. arXiv preprint arXiv:2004.10934,2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Daniel Bogdoll, Maximilian Nitsche,and JMarius Zollner. Anomaly detection in autonomous driving: A survey. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4488-4499,2022.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Daniel Bogdoll, Maximilian Nitsche,and JMarius Zollner",
+          "author_candidates": [
+            "Bogdoll, Maximilian Nitsche"
+          ],
+          "title_candidate": "Anomaly detection in autonomous driving: A survey",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4488-4499,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Daniel Bogdoll, Maximilian Nitsche,and JMarius Zollner",
+          "author_candidates": [
+            "Bogdoll, Maximilian Nitsche"
+          ],
+          "title_candidate": "Anomaly detection in autonomous driving: A survey",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4488-4499,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Daniel Bogdoll, Maximilian Nitsche,and JMarius Zollner. Anomaly detection in autonomous driving",
+          "author_candidates": [
+            "Bogdoll, Maximilian Nitsche"
+          ],
+          "title_candidate": "A survey. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4488-4499",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Daniel Bogdoll, Maximilian Nitsche,and JMarius Zollner. Anomaly detection in autonomous driving",
+          "author_candidates": [
+            "Bogdoll, Maximilian Nitsche"
+          ],
+          "title_candidate": "A survey. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4488-4499,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Yuxuan Cai, Yizhuang Zhou, Qi Han, Jianjian Sun, Xiangwen Kong, Jun Li,and Xiangyu Zhang. Reversible column networks. In International Conference on Learning Representations,2022.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuxuan Cai, Yizhuang Zhou, Qi Han, Jianjian Sun, Xiangwen Kong, Jun Li,and Xiangyu Zhang",
+          "author_candidates": [
+            "Cai, Yizhuang Zhou",
+            "Han, Jianjian Sun",
+            "Kong, Jun Li"
+          ],
+          "title_candidate": "Reversible column networks",
+          "container_candidate": "In International Conference on Learning Representations,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuxuan Cai, Yizhuang Zhou, Qi Han, Jianjian Sun, Xiangwen Kong, Jun Li,and Xiangyu Zhang",
+          "author_candidates": [
+            "Cai, Yizhuang Zhou",
+            "Han, Jianjian Sun",
+            "Kong, Jun Li"
+          ],
+          "title_candidate": "Reversible column networks",
+          "container_candidate": "In International Conference on Learning Representations,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuxuan Cai, Yizhuang Zhou, Qi Han, Jianjian Sun, Xiangwen Kong, Jun Li,and Xiangyu Zhang",
+          "author_candidates": [
+            "Cai, Yizhuang Zhou",
+            "Han, Jianjian Sun",
+            "Kong, Jun Li"
+          ],
+          "title_candidate": "Reversible column networks. In International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuxuan Cai, Yizhuang Zhou, Qi Han, Jianjian Sun, Xiangwen Kong, Jun Li,and Xiangyu Zhang",
+          "author_candidates": [
+            "Cai, Yizhuang Zhou",
+            "Han, Jianjian Sun",
+            "Kong, Jun Li"
+          ],
+          "title_candidate": "Reversible column networks. In International Conference on Learning Representations,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Nicolas Carion,Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko. End-toend object detection with transformers.In European Conference on Computer Vision,pages 213-229.Springer, 2020.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Nicolas Carion,Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion,Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-toend object detection with transformers.In European Conference on Computer Vision,pages 213-229.Springer, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Nicolas Carion,Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion,Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-toend object detection with transformers.In European Conference on Computer Vision,pages 213-229.Springer",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Nicolas Carion,Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion,Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-toend object detection with transformers.In European Conference on Computer Vision,pages 213-229.Springer, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Qiang Chen, Xiaokang Chen, Gang Zeng,and Jingdong Wang. Group detr: Fast training convergence with decoupled oneto-many label assignment. arXiv preprint arXiv:2207.13085, 2022.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "venue_marker_split",
+          "author_text": "Qiang Chen, Xiaokang Chen, Gang Zeng,and Jingdong Wang",
+          "author_candidates": [
+            "Chen, Xiaokang Chen"
+          ],
+          "title_candidate": "Group detr: Fast training convergence with decoupled oneto-many label assignment. arXiv preprint",
+          "container_candidate": "arXiv:2207.13085, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Qiang Chen, Xiaokang Chen, Gang Zeng,and Jingdong Wang",
+          "author_candidates": [
+            "Chen, Xiaokang Chen"
+          ],
+          "title_candidate": "Group detr: Fast training convergence with decoupled oneto-many label assignment",
+          "container_candidate": "arXiv preprint arXiv:2207.13085,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Qiang Chen, Xiaokang Chen, Gang Zeng,and Jingdong Wang. Group detr",
+          "author_candidates": [
+            "Chen, Xiaokang Chen"
+          ],
+          "title_candidate": "Fast training convergence with decoupled oneto-many label assignment. arXiv preprint arXiv:2207.13085",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Qiang Chen, Xiaokang Chen, Gang Zeng,and Jingdong Wang. Group detr",
+          "author_candidates": [
+            "Chen, Xiaokang Chen"
+          ],
+          "title_candidate": "Fast training convergence with decoupled oneto-many label assignment. arXiv preprint arXiv:2207.13085, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Qiang Chen,Jian Wang,Chuchu Han, Shan Zhang,Zexian Li, Xiaokang Chen, Jiahui Chen, Xiaodi Wang,Shuming Han, Gang Zhang, et al. Group detr v2: Strong object detector with encoder-decoder pretraining. arXiv preprint arXiv:2211.03594,2022.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Qiang Chen,Jian Wang,Chuchu Han, Shan Zhang,Zexian Li, Xiaokang Chen, Jiahui Chen, Xiaodi Wang,Shuming Han, Gang Zhang, et al",
+          "author_candidates": [
+            "Chen,Jian Wang",
+            "Han, Shan Zhang",
+            "Li, Xiaokang Chen",
+            "Chen, Xiaodi Wang",
+            "Han, Gang Zhang"
+          ],
+          "title_candidate": "Group detr v2: Strong object detector with encoder-decoder pretraining. arXiv preprint",
+          "container_candidate": "arXiv:2211.03594,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Qiang Chen,Jian Wang,Chuchu Han, Shan Zhang,Zexian Li, Xiaokang Chen, Jiahui Chen, Xiaodi Wang,Shuming Han, Gang Zhang, et al",
+          "author_candidates": [
+            "Chen,Jian Wang",
+            "Han, Shan Zhang",
+            "Li, Xiaokang Chen",
+            "Chen, Xiaodi Wang",
+            "Han, Gang Zhang"
+          ],
+          "title_candidate": "Group detr v2: Strong object detector with encoder-decoder pretraining",
+          "container_candidate": "arXiv preprint arXiv:2211.03594,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Qiang Chen,Jian Wang,Chuchu Han, Shan Zhang,Zexian Li, Xiaokang Chen, Jiahui Chen, Xiaodi Wang,Shuming Han, Gang Zhang, et al. Group detr v2",
+          "author_candidates": [
+            "Chen,Jian Wang",
+            "Han, Shan Zhang",
+            "Li, Xiaokang Chen",
+            "Chen, Xiaodi Wang",
+            "Han, Gang Zhang"
+          ],
+          "title_candidate": "Strong object detector with encoder-decoder pretraining. arXiv preprint arXiv:2211.03594",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Qiang Chen,Jian Wang,Chuchu Han, Shan Zhang,Zexian Li, Xiaokang Chen, Jiahui Chen, Xiaodi Wang,Shuming Han, Gang Zhang, et al. Group detr v2",
+          "author_candidates": [
+            "Chen,Jian Wang",
+            "Han, Shan Zhang",
+            "Li, Xiaokang Chen",
+            "Chen, Xiaodi Wang",
+            "Han, Gang Zhang"
+          ],
+          "title_candidate": "Strong object detector with encoder-decoder pretraining. arXiv preprint arXiv:2211.03594,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Xiaohan Ding, Xiangyu Zhang,Ningning Ma, Jungong Han, Guiguang Ding,and Jian Sun. Repvgg: Making vgg-style convnets great again.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13733-13742, 2021.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Xiaohan Ding, Xiangyu Zhang,Ningning Ma, Jungong Han, Guiguang Ding,and Jian Sun",
+          "author_candidates": [
+            "Ding, Xiangyu Zhang",
+            "Ma, Jungong Han"
+          ],
+          "title_candidate": "Repvgg: Making vgg-style convnets great again.In",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13733-13742, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xiaohan Ding, Xiangyu Zhang,Ningning Ma, Jungong Han, Guiguang Ding,and Jian Sun",
+          "author_candidates": [
+            "Ding, Xiangyu Zhang",
+            "Ma, Jungong Han"
+          ],
+          "title_candidate": "Repvgg: Making vgg-style convnets great again.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13733-13742, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xiaohan Ding, Xiangyu Zhang,Ningning Ma, Jungong Han, Guiguang Ding,and Jian Sun. Repvgg",
+          "author_candidates": [
+            "Ding, Xiangyu Zhang",
+            "Ma, Jungong Han"
+          ],
+          "title_candidate": "Making vgg-style convnets great again.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13733-13742",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xiaohan Ding, Xiangyu Zhang,Ningning Ma, Jungong Han, Guiguang Ding,and Jian Sun. Repvgg",
+          "author_candidates": [
+            "Ding, Xiangyu Zhang",
+            "Ma, Jungong Han"
+          ],
+          "title_candidate": "Making vgg-style convnets great again.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13733-13742, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Peng Gao,Minghang Zheng,Xiaogang Wang, Jifeng Dai, and Hongsheng Li. Fast convergence of detr with spatially modulated co-attention.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3621- 3630,2021.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Peng Gao,Minghang Zheng,Xiaogang Wang, Jifeng Dai, and Hongsheng Li",
+          "author_candidates": [
+            "Gao,Minghang Zheng",
+            "Wang, Jifeng Dai"
+          ],
+          "title_candidate": "Fast convergence of detr with spatially modulated co-attention.In",
+          "container_candidate": "Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3621- 3630,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Peng Gao,Minghang Zheng,Xiaogang Wang, Jifeng Dai, and Hongsheng Li",
+          "author_candidates": [
+            "Gao,Minghang Zheng",
+            "Wang, Jifeng Dai"
+          ],
+          "title_candidate": "Fast convergence of detr with spatially modulated co-attention.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3621- 3630,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Peng Gao,Minghang Zheng,Xiaogang Wang, Jifeng Dai, and Hongsheng Li",
+          "author_candidates": [
+            "Gao,Minghang Zheng",
+            "Wang, Jifeng Dai"
+          ],
+          "title_candidate": "Fast convergence of detr with spatially modulated co-attention.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3621- 3630",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Peng Gao,Minghang Zheng,Xiaogang Wang, Jifeng Dai, and Hongsheng Li",
+          "author_candidates": [
+            "Gao,Minghang Zheng",
+            "Wang, Jifeng Dai"
+          ],
+          "title_candidate": "Fast convergence of detr with spatially modulated co-attention.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3621- 3630,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Zheng Ge, Songtao Liu, Feng Wang, Zeming Li,and Jian Sun.Yolox: Exceeding yolo series in 2021.arXiv preprint arXiv:2107.08430,2021.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "Zheng Ge, Songtao Liu, Feng Wang, Zeming Li,and Jian Sun.Yolox",
+          "author_candidates": [
+            "Ge, Songtao Liu",
+            "Wang, Zeming Li"
+          ],
+          "title_candidate": "Exceeding yolo series in 2021.arXiv preprint",
+          "container_candidate": "arXiv:2107.08430,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zheng Ge, Songtao Liu, Feng Wang, Zeming Li,and Jian Sun.Yolox",
+          "author_candidates": [
+            "Ge, Songtao Liu",
+            "Wang, Zeming Li"
+          ],
+          "title_candidate": "Exceeding yolo series in 2021.arXiv preprint arXiv:2107.08430",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zheng Ge, Songtao Liu, Feng Wang, Zeming Li,and Jian Sun.Yolox",
+          "author_candidates": [
+            "Ge, Songtao Liu",
+            "Wang, Zeming Li"
+          ],
+          "title_candidate": "Exceeding yolo series in 2021.arXiv preprint arXiv:2107.08430,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Jocher Glenn. Yolov5 release v7.0. https ://github. com/ultralytics/yolov5/tree/v7.0,2022.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jocher Glenn",
+          "author_candidates": [
+            "Jocher Glenn"
+          ],
+          "title_candidate": "Yolov5 release v7.0",
+          "container_candidate": "https ://github. com/ultralytics/yolov5/tree/v7.0,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jocher Glenn. Yolov5 release v7.0. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolov5 release v7.0. https"
+          ],
+          "title_candidate": "//github. com/ultralytics/yolov5/tree/v7.0",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jocher Glenn. Yolov5 release v7.0. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolov5 release v7.0. https"
+          ],
+          "title_candidate": "//github. com/ultralytics/yolov5/tree/v7.0,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Jocher Glenn.Yolov8.https://github.com / ultralytics/ultralytics/tree/main, 2023.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jocher Glenn.Yolov8.https",
+          "author_candidates": [
+            "Jocher Glenn.Yolov8.https"
+          ],
+          "title_candidate": "//github.com / ultralytics/ultralytics/tree/main",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jocher Glenn.Yolov8.https",
+          "author_candidates": [
+            "Jocher Glenn.Yolov8.https"
+          ],
+          "title_candidate": "//github.com / ultralytics/ultralytics/tree/main, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Kaiming He, Xiangyu Zhang, Shaoqing Ren,and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 770-778,2016.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren,and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 770-778,2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren,and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 770-778,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren,and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 770-778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren,and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 770-778,2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Tong He, Zhi Zhang,Hang Zhang, Zhongyue Zhang,Junyuan Xie,and Mu Li. Bag of tricks for image classification with convolutional neural networks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 558-567,2019.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Tong He, Zhi Zhang,Hang Zhang, Zhongyue Zhang,Junyuan Xie,and Mu Li",
+          "author_candidates": [
+            "He, Zhi Zhang",
+            "Zhang, Zhongyue Zhang"
+          ],
+          "title_candidate": "Bag of tricks for image classification with convolutional neural networks",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 558-567,2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tong He, Zhi Zhang,Hang Zhang, Zhongyue Zhang,Junyuan Xie,and Mu Li",
+          "author_candidates": [
+            "He, Zhi Zhang",
+            "Zhang, Zhongyue Zhang"
+          ],
+          "title_candidate": "Bag of tricks for image classification with convolutional neural networks",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 558-567,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tong He, Zhi Zhang,Hang Zhang, Zhongyue Zhang,Junyuan Xie,and Mu Li",
+          "author_candidates": [
+            "He, Zhi Zhang",
+            "Zhang, Zhongyue Zhang"
+          ],
+          "title_candidate": "Bag of tricks for image classification with convolutional neural networks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 558-567",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tong He, Zhi Zhang,Hang Zhang, Zhongyue Zhang,Junyuan Xie,and Mu Li",
+          "author_candidates": [
+            "He, Zhi Zhang",
+            "Zhang, Zhongyue Zhang"
+          ],
+          "title_candidate": "Bag of tricks for image classification with convolutional neural networks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 558-567,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] Xin Huang, Xinxin Wang, Wenyu Lv, Xiaying Bai, Xiang Long, Kaipeng Deng, Qingqing Dang, Shumin Han, Qiwen Liu,Xiaoguang Hu, et al. Pp-yolov2: A practical object detector. arXiv preprint arXiv:2i04.10419,2021.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "Xin Huang, Xinxin Wang, Wenyu Lv, Xiaying Bai, Xiang Long, Kaipeng Deng, Qingqing Dang, Shumin Han, Qiwen Liu,Xiaoguang Hu, et al",
+          "author_candidates": [
+            "Huang, Xinxin Wang",
+            "Lv, Xiaying Bai",
+            "Long, Kaipeng Deng",
+            "Dang, Shumin Han",
+            "Liu,Xiaoguang Hu"
+          ],
+          "title_candidate": "Pp-yolov2: A practical object detector. arXiv preprint",
+          "container_candidate": "arXiv:2i04.10419,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xin Huang, Xinxin Wang, Wenyu Lv, Xiaying Bai, Xiang Long, Kaipeng Deng, Qingqing Dang, Shumin Han, Qiwen Liu,Xiaoguang Hu, et al",
+          "author_candidates": [
+            "Huang, Xinxin Wang",
+            "Lv, Xiaying Bai",
+            "Long, Kaipeng Deng",
+            "Dang, Shumin Han",
+            "Liu,Xiaoguang Hu"
+          ],
+          "title_candidate": "Pp-yolov2: A practical object detector",
+          "container_candidate": "arXiv preprint arXiv:2i04.10419,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xin Huang, Xinxin Wang, Wenyu Lv, Xiaying Bai, Xiang Long, Kaipeng Deng, Qingqing Dang, Shumin Han, Qiwen Liu,Xiaoguang Hu, et al. Pp-yolov2",
+          "author_candidates": [
+            "Huang, Xinxin Wang",
+            "Lv, Xiaying Bai",
+            "Long, Kaipeng Deng",
+            "Dang, Shumin Han",
+            "Liu,Xiaoguang Hu"
+          ],
+          "title_candidate": "A practical object detector. arXiv preprint arXiv:2i04.10419",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xin Huang, Xinxin Wang, Wenyu Lv, Xiaying Bai, Xiang Long, Kaipeng Deng, Qingqing Dang, Shumin Han, Qiwen Liu,Xiaoguang Hu, et al. Pp-yolov2",
+          "author_candidates": [
+            "Huang, Xinxin Wang",
+            "Lv, Xiaying Bai",
+            "Long, Kaipeng Deng",
+            "Dang, Shumin Han",
+            "Liu,Xiaoguang Hu"
+          ],
+          "title_candidate": "A practical object detector. arXiv preprint arXiv:2i04.10419,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Chuyi Li, Lulu Li, Yifei Geng,Hongliang Jiang,Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu,and Xiangxiang Chu. Yolov6 v3.0: A ful-scale reloading. arXiv preprint arXiv:2301.05586,2023.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng,Hongliang Jiang,Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu,and Xiangxiang Chu",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng,Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "Yolov6 v3.0: A ful-scale reloading. arXiv preprint",
+          "container_candidate": "arXiv:2301.05586,2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng,Hongliang Jiang,Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu,and Xiangxiang Chu",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng,Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "Yolov6 v3.0: A ful-scale reloading",
+          "container_candidate": "arXiv preprint arXiv:2301.05586,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng,Hongliang Jiang,Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu,and Xiangxiang Chu. Yolov6 v3.0",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng,Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "A ful-scale reloading. arXiv preprint arXiv:2301.05586",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng,Hongliang Jiang,Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu,and Xiangxiang Chu. Yolov6 v3.0",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng,Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "A ful-scale reloading. arXiv preprint arXiv:2301.05586,2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang. Dn-detr: Accelerate detr training by introducing query denoising. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13619- 13627,2022.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang",
+          "author_candidates": [
+            "Li,Hao Zhang",
+            "Liu,Jian Guo"
+          ],
+          "title_candidate": "Dn-detr: Accelerate detr training by introducing query denoising",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13619- 13627,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang",
+          "author_candidates": [
+            "Li,Hao Zhang",
+            "Liu,Jian Guo"
+          ],
+          "title_candidate": "Dn-detr: Accelerate detr training by introducing query denoising",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13619- 13627,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang. Dn-detr",
+          "author_candidates": [
+            "Li,Hao Zhang",
+            "Liu,Jian Guo"
+          ],
+          "title_candidate": "Accelerate detr training by introducing query denoising. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13619- 13627",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang. Dn-detr",
+          "author_candidates": [
+            "Li,Hao Zhang",
+            "Liu,Jian Guo"
+          ],
+          "title_candidate": "Accelerate detr training by introducing query denoising. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13619- 13627,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Feng Li, Ailing Zeng, Shilong Liu, Hao Zhang,Hongyang Li,Lei Zhang,and Lionel MNi. Lite detr: An interleaved multi-scale encoder for efficient detr. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 18558-18567,2023.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Feng Li, Ailing Zeng, Shilong Liu, Hao Zhang,Hongyang Li,Lei Zhang,and Lionel MNi",
+          "author_candidates": [
+            "Li, Ailing Zeng",
+            "Liu, Hao Zhang",
+            "Li,Lei Zhang"
+          ],
+          "title_candidate": "Lite detr: An interleaved multi-scale encoder for efficient detr",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 18558-18567,2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Feng Li, Ailing Zeng, Shilong Liu, Hao Zhang,Hongyang Li,Lei Zhang,and Lionel MNi",
+          "author_candidates": [
+            "Li, Ailing Zeng",
+            "Liu, Hao Zhang",
+            "Li,Lei Zhang"
+          ],
+          "title_candidate": "Lite detr: An interleaved multi-scale encoder for efficient detr",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 18558-18567,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Feng Li, Ailing Zeng, Shilong Liu, Hao Zhang,Hongyang Li,Lei Zhang,and Lionel MNi. Lite detr",
+          "author_candidates": [
+            "Li, Ailing Zeng",
+            "Liu, Hao Zhang",
+            "Li,Lei Zhang"
+          ],
+          "title_candidate": "An interleaved multi-scale encoder for efficient detr. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 18558-18567",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Feng Li, Ailing Zeng, Shilong Liu, Hao Zhang,Hongyang Li,Lei Zhang,and Lionel MNi. Lite detr",
+          "author_candidates": [
+            "Li, Ailing Zeng",
+            "Liu, Hao Zhang",
+            "Li,Lei Zhang"
+          ],
+          "title_candidate": "An interleaved multi-scale encoder for efficient detr. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 18558-18567,2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Junyu Lin, Xiaofeng Mao, Yuefeng Chen,Lei Xu, Yuan He,and Hui Xue. D' 2etr: Decoder-only detr with computationally efficient cross-scale attention. arXiv preprint arXiv:2203.00860,2022.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Junyu Lin, Xiaofeng Mao, Yuefeng Chen,Lei Xu, Yuan He,and Hui Xue",
+          "author_candidates": [
+            "Lin, Xiaofeng Mao",
+            "Chen,Lei Xu"
+          ],
+          "title_candidate": "D' 2etr: Decoder-only detr with computationally efficient cross-scale attention. arXiv preprint",
+          "container_candidate": "arXiv:2203.00860,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Junyu Lin, Xiaofeng Mao, Yuefeng Chen,Lei Xu, Yuan He,and Hui Xue",
+          "author_candidates": [
+            "Lin, Xiaofeng Mao",
+            "Chen,Lei Xu"
+          ],
+          "title_candidate": "D' 2etr: Decoder-only detr with computationally efficient cross-scale attention",
+          "container_candidate": "arXiv preprint arXiv:2203.00860,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Junyu Lin, Xiaofeng Mao, Yuefeng Chen,Lei Xu, Yuan He,and Hui Xue. D' 2etr",
+          "author_candidates": [
+            "Lin, Xiaofeng Mao",
+            "Chen,Lei Xu"
+          ],
+          "title_candidate": "Decoder-only detr with computationally efficient cross-scale attention. arXiv preprint arXiv:2203.00860",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Junyu Lin, Xiaofeng Mao, Yuefeng Chen,Lei Xu, Yuan He,and Hui Xue. D' 2etr",
+          "author_candidates": [
+            "Lin, Xiaofeng Mao",
+            "Chen,Lei Xu"
+          ],
+          "title_candidate": "Decoder-only detr with computationally efficient cross-scale attention. arXiv preprint arXiv:2203.00860,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Tsung-YiLin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan,Piotr Dollar,and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European Conference on Computer Vision, pages 740-755. Springer, 2014.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-YiLin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan,Piotr Dollar,and C Lawrence Zitnick",
+          "author_candidates": [
+            "Tsung-YiLin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft coco: Common objects in context",
+          "container_candidate": "In European Conference on Computer Vision, pages 740-755. Springer, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-YiLin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan,Piotr Dollar,and C Lawrence Zitnick",
+          "author_candidates": [
+            "Tsung-YiLin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft coco: Common objects in context",
+          "container_candidate": "In European Conference on Computer Vision, pages 740-755. Springer,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-YiLin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan,Piotr Dollar,and C Lawrence Zitnick. Microsoft coco",
+          "author_candidates": [
+            "Tsung-YiLin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In European Conference on Computer Vision, pages 740-755. Springer",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-YiLin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan,Piotr Dollar,and C Lawrence Zitnick. Microsoft coco",
+          "author_candidates": [
+            "Tsung-YiLin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In European Conference on Computer Vision, pages 740-755. Springer, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Tsung-Yi Lin,Priya Goyal,Ross Girshick,Kaiming He,and Piotr Dollar.Focal loss for dense object detection.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 2980-2988,2017.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin,Priya Goyal,Ross Girshick,Kaiming He,and Piotr Dollar.Focal loss for dense object detection.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 2980-2988,2017.",
+          "author_candidates": [
+            "Lin,Priya Goyal",
+            "Girshick,Kaiming He"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Shu Liu,Lu Qi, Haifang Qin,Jianping Shi,and Jiaya Jia. Path aggregation network for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8759-8768,2018.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Shu Liu,Lu Qi, Haifang Qin,Jianping Shi,and Jiaya Jia",
+          "author_candidates": [
+            "Liu,Lu Qi",
+            "Qin,Jianping Shi"
+          ],
+          "title_candidate": "Path aggregation network for instance segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8759-8768,2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shu Liu,Lu Qi, Haifang Qin,Jianping Shi,and Jiaya Jia",
+          "author_candidates": [
+            "Liu,Lu Qi",
+            "Qin,Jianping Shi"
+          ],
+          "title_candidate": "Path aggregation network for instance segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8759-8768,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shu Liu,Lu Qi, Haifang Qin,Jianping Shi,and Jiaya Jia",
+          "author_candidates": [
+            "Liu,Lu Qi",
+            "Qin,Jianping Shi"
+          ],
+          "title_candidate": "Path aggregation network for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8759-8768",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shu Liu,Lu Qi, Haifang Qin,Jianping Shi,and Jiaya Jia",
+          "author_candidates": [
+            "Liu,Lu Qi",
+            "Qin,Jianping Shi"
+          ],
+          "title_candidate": "Path aggregation network for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8759-8768,2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Shilong Liu, Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu,and Lei Zhang. Dab-detr: Dynamic anchor boxes are better queries for detr. In International Conference on Learning Representations, 2021.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Shilong Liu, Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu,and Lei Zhang",
+          "author_candidates": [
+            "Liu, Feng Li",
+            "Zhang, Xiao Yang",
+            "Qi, Hang Su"
+          ],
+          "title_candidate": "Dab-detr: Dynamic anchor boxes are better queries for detr",
+          "container_candidate": "In International Conference on Learning Representations, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shilong Liu, Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu,and Lei Zhang",
+          "author_candidates": [
+            "Liu, Feng Li",
+            "Zhang, Xiao Yang",
+            "Qi, Hang Su"
+          ],
+          "title_candidate": "Dab-detr: Dynamic anchor boxes are better queries for detr",
+          "container_candidate": "In International Conference on Learning Representations,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shilong Liu, Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu,and Lei Zhang. Dab-detr",
+          "author_candidates": [
+            "Liu, Feng Li",
+            "Zhang, Xiao Yang",
+            "Qi, Hang Su"
+          ],
+          "title_candidate": "Dynamic anchor boxes are better queries for detr. In International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shilong Liu, Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu,and Lei Zhang. Dab-detr",
+          "author_candidates": [
+            "Liu, Feng Li",
+            "Zhang, Xiao Yang",
+            "Qi, Hang Su"
+          ],
+          "title_candidate": "Dynamic anchor boxes are better queries for detr. In International Conference on Learning Representations, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Wei Liu,Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, ScottReed, Cheng-Yang Fu,and Alexander C Berg. Ssd: Single shot multibox detector. In European Conference on Computer Vision,pages 21-37. Springer,2016.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Wei Liu,Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, ScottReed, Cheng-Yang Fu,and Alexander C Berg",
+          "author_candidates": [
+            "Liu,Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "ScottReed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector",
+          "container_candidate": "In European Conference on Computer Vision,pages 21-37. Springer,2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Wei Liu,Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, ScottReed, Cheng-Yang Fu,and Alexander C Berg",
+          "author_candidates": [
+            "Liu,Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "ScottReed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector",
+          "container_candidate": "In European Conference on Computer Vision,pages 21-37. Springer,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Wei Liu,Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, ScottReed, Cheng-Yang Fu,and Alexander C Berg. Ssd",
+          "author_candidates": [
+            "Liu,Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "ScottReed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Single shot multibox detector. In European Conference on Computer Vision,pages 21-37. Springer",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Wei Liu,Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, ScottReed, Cheng-Yang Fu,and Alexander C Berg. Ssd",
+          "author_candidates": [
+            "Liu,Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "ScottReed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Single shot multibox detector. In European Conference on Computer Vision,pages 21-37. Springer,2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao,Hui Shen, Jianguo Ren, Shumin Han,Errui Ding,et al.Pp-yolo: An effective and efficient implementation of object detector.arXiv preprint arXiv:2007.12099,2020.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "venue_marker_split",
+          "author_text": "Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao,Hui Shen, Jianguo Ren, Shumin Han,Errui Ding,et al.Pp-yolo",
+          "author_candidates": [
+            "Long, Kaipeng Deng",
+            "Wang, Yang Zhang",
+            "Dang, Yuan Gao",
+            "Shen, Jianguo Ren",
+            "Han,Errui Ding"
+          ],
+          "title_candidate": "An effective and efficient implementation of object detector.arXiv preprint",
+          "container_candidate": "arXiv:2007.12099,2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao,Hui Shen, Jianguo Ren, Shumin Han,Errui Ding,et al.Pp-yolo",
+          "author_candidates": [
+            "Long, Kaipeng Deng",
+            "Wang, Yang Zhang",
+            "Dang, Yuan Gao",
+            "Shen, Jianguo Ren",
+            "Han,Errui Ding"
+          ],
+          "title_candidate": "An effective and efficient implementation of object detector.arXiv preprint arXiv:2007.12099",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao,Hui Shen, Jianguo Ren, Shumin Han,Errui Ding,et al.Pp-yolo",
+          "author_candidates": [
+            "Long, Kaipeng Deng",
+            "Wang, Yang Zhang",
+            "Dang, Yuan Gao",
+            "Shen, Jianguo Ren",
+            "Han,Errui Ding"
+          ],
+          "title_candidate": "An effective and efficient implementation of object detector.arXiv preprint arXiv:2007.12099,2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang. Conditional detr for fast training convergence.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3651-3660,2021.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "venue_marker_split",
+          "author_text": "Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang",
+          "author_candidates": [
+            "Meng, Xiaokang Chen",
+            "Fan, Gang Zeng",
+            "Li, Yuhui Yuan"
+          ],
+          "title_candidate": "Conditional detr for fast training convergence.In",
+          "container_candidate": "Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3651-3660,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang",
+          "author_candidates": [
+            "Meng, Xiaokang Chen",
+            "Fan, Gang Zeng",
+            "Li, Yuhui Yuan"
+          ],
+          "title_candidate": "Conditional detr for fast training convergence.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3651-3660,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang",
+          "author_candidates": [
+            "Meng, Xiaokang Chen",
+            "Fan, Gang Zeng",
+            "Li, Yuhui Yuan"
+          ],
+          "title_candidate": "Conditional detr for fast training convergence.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3651-3660",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Depu Meng, Xiaokang Chen, Zejia Fan, Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang",
+          "author_candidates": [
+            "Meng, Xiaokang Chen",
+            "Fan, Gang Zeng",
+            "Li, Yuhui Yuan"
+          ],
+          "title_candidate": "Conditional detr for fast training convergence.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3651-3660,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Rashmika Nawaratne,Damminda Alahakoon, Daswin De Silva,and Xinghuo Yu. Spatiotemporal anomaly detection using deep learning for real-time video surveillance.IEEE Transactions on Industrial Informatics,16(1):393-402,2019.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Rashmika Nawaratne,Damminda Alahakoon, Daswin De Silva,and Xinghuo Yu",
+          "author_candidates": [
+            "Nawaratne,Damminda Alahakoon"
+          ],
+          "title_candidate": "Spatiotemporal anomaly detection using deep learning for real-time video surveillance.IEEE Transactions on Industrial Informatics,16(1):393-402,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Rashmika Nawaratne,Damminda Alahakoon, Daswin De Silva,and Xinghuo Yu. Spatiotemporal anomaly detection using deep learning for real-time video surveillance.IEEE Transactions on Industrial Informatics,16(1)",
+          "author_candidates": [
+            "Nawaratne,Damminda Alahakoon"
+          ],
+          "title_candidate": "393-402",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Rashmika Nawaratne,Damminda Alahakoon, Daswin De Silva,and Xinghuo Yu. Spatiotemporal anomaly detection using deep learning for real-time video surveillance.IEEE Transactions on Industrial Informatics,16(1)",
+          "author_candidates": [
+            "Nawaratne,Damminda Alahakoon"
+          ],
+          "title_candidate": "393-402,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Joseph Redmon and Ali Farhadi. Yolo9OoO:better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263-7271, 2017.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolo9OoO:better, faster, stronger",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263-7271, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolo9OoO:better, faster, stronger",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263-7271,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolo9OoO",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolo9OoO"
+          ],
+          "title_candidate": "better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263-7271",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolo9OoO",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolo9OoO"
+          ],
+          "title_candidate": "better, faster, stronger. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7263-7271, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Joseph Redmon and Ali Farhadi. Yolov3:An incremental improvement. arXiv preprint arXiv:1804.02767,2018.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolov3:An incremental improvement. arXiv preprint",
+          "container_candidate": "arXiv:1804.02767,2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolov3:An incremental improvement",
+          "container_candidate": "arXiv preprint arXiv:1804.02767,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolov3",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolov3"
+          ],
+          "title_candidate": "An incremental improvement. arXiv preprint arXiv:1804.02767",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolov3",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolov3"
+          ],
+          "title_candidate": "An incremental improvement. arXiv preprint arXiv:1804.02767,2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Joseph Redmon, Santosh Divvala,Ross Girshick,and Ali Farhadi. You only look once: Unified,real-time object detection．In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,pages 779-788, 2016.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon, Santosh Divvala,Ross Girshick,and Ali Farhadi",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "You only look once: Unified,real-time object detection.In",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,pages 779-788, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon, Santosh Divvala,Ross Girshick,and Ali Farhadi",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "You only look once: Unified,real-time object detection.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,pages 779-788, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon, Santosh Divvala,Ross Girshick,and Ali Farhadi. You only look once",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "Unified,real-time object detection.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,pages 779-788",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon, Santosh Divvala,Ross Girshick,and Ali Farhadi. You only look once",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "Unified,real-time object detection.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,pages 779-788, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Tianhe Ren, Jianwei Yang, Shilong Liu, Ailing Zeng,Feng Li, Hao Zhang, Hongyang Li, Zhaoyang Zeng, and Lei Zhang. A strong and reproducible object detector with only public datasets. arXiv preprint arXiv:2304.13027,2023.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "venue_marker_split",
+          "author_text": "Tianhe Ren, Jianwei Yang, Shilong Liu, Ailing Zeng,Feng Li, Hao Zhang, Hongyang Li, Zhaoyang Zeng, and Lei Zhang",
+          "author_candidates": [
+            "Ren, Jianwei Yang",
+            "Liu, Ailing Zeng",
+            "Li, Hao Zhang",
+            "Li, Zhaoyang Zeng"
+          ],
+          "title_candidate": "A strong and reproducible object detector with only public datasets. arXiv preprint",
+          "container_candidate": "arXiv:2304.13027,2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tianhe Ren, Jianwei Yang, Shilong Liu, Ailing Zeng,Feng Li, Hao Zhang, Hongyang Li, Zhaoyang Zeng, and Lei Zhang",
+          "author_candidates": [
+            "Ren, Jianwei Yang",
+            "Liu, Ailing Zeng",
+            "Li, Hao Zhang",
+            "Li, Zhaoyang Zeng"
+          ],
+          "title_candidate": "A strong and reproducible object detector with only public datasets",
+          "container_candidate": "arXiv preprint arXiv:2304.13027,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tianhe Ren, Jianwei Yang, Shilong Liu, Ailing Zeng,Feng Li, Hao Zhang, Hongyang Li, Zhaoyang Zeng, and Lei Zhang. A strong and reproducible object detector with only public datasets. arXiv preprint arXiv",
+          "author_candidates": [
+            "Ren, Jianwei Yang",
+            "Liu, Ailing Zeng",
+            "Li, Hao Zhang",
+            "Li, Zhaoyang Zeng"
+          ],
+          "title_candidate": "2304.13027",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tianhe Ren, Jianwei Yang, Shilong Liu, Ailing Zeng,Feng Li, Hao Zhang, Hongyang Li, Zhaoyang Zeng, and Lei Zhang. A strong and reproducible object detector with only public datasets. arXiv preprint arXiv",
+          "author_candidates": [
+            "Ren, Jianwei Yang",
+            "Liu, Ailing Zeng",
+            "Li, Hao Zhang",
+            "Li, Zhaoyang Zeng"
+          ],
+          "title_candidate": "2304.13027,2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] Byungseok Roh,JaeWoong Shin, Wuhyun Shin,and Saehoon Kim. Sparse detr: Efficient end-to-end object detection with learnable sparsity. In International Conference on Learning Representations,2021.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Byungseok Roh,JaeWoong Shin, Wuhyun Shin,and Saehoon Kim",
+          "author_candidates": [
+            "Roh,JaeWoong Shin"
+          ],
+          "title_candidate": "Sparse detr: Efficient end-to-end object detection with learnable sparsity",
+          "container_candidate": "In International Conference on Learning Representations,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Byungseok Roh,JaeWoong Shin, Wuhyun Shin,and Saehoon Kim",
+          "author_candidates": [
+            "Roh,JaeWoong Shin"
+          ],
+          "title_candidate": "Sparse detr: Efficient end-to-end object detection with learnable sparsity",
+          "container_candidate": "In International Conference on Learning Representations,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Byungseok Roh,JaeWoong Shin, Wuhyun Shin,and Saehoon Kim. Sparse detr",
+          "author_candidates": [
+            "Roh,JaeWoong Shin"
+          ],
+          "title_candidate": "Efficient end-to-end object detection with learnable sparsity. In International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Byungseok Roh,JaeWoong Shin, Wuhyun Shin,and Saehoon Kim. Sparse detr",
+          "author_candidates": [
+            "Roh,JaeWoong Shin"
+          ],
+          "title_candidate": "Efficient end-to-end object detection with learnable sparsity. In International Conference on Learning Representations,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang, Jing Li,and Jian Sun. Objects365: A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 8430-8439,2019.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "venue_marker_split",
+          "author_text": "Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang, Jing Li,and Jian Sun",
+          "author_candidates": [
+            "Shao, Zeming Li",
+            "Zhang, Chao Peng",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "Objects365: A large-scale, high-quality dataset for object detection",
+          "container_candidate": "In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 8430-8439,2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang, Jing Li,and Jian Sun",
+          "author_candidates": [
+            "Shao, Zeming Li",
+            "Zhang, Chao Peng",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "Objects365: A large-scale, high-quality dataset for object detection",
+          "container_candidate": "In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 8430-8439,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang, Jing Li,and Jian Sun. Objects365",
+          "author_candidates": [
+            "Shao, Zeming Li",
+            "Zhang, Chao Peng",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 8430-8439",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang, Jing Li,and Jian Sun. Objects365",
+          "author_candidates": [
+            "Shao, Zeming Li",
+            "Zhang, Chao Peng",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 8430-8439,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu,Wei Zhan, Masayoshi Tomizuka,Lei Li, Zehuan Yuan, Changhu Wang,et al. Sparse r-cnn: End-to-end object detection with learnable proposals.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 14454-14463,2021.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "venue_marker_split",
+          "author_text": "Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu,Wei Zhan, Masayoshi Tomizuka,Lei Li, Zehuan Yuan, Changhu Wang,et al",
+          "author_candidates": [
+            "Sun, Rufeng Zhang",
+            "Jiang, Tao Kong",
+            "Xu,Wei Zhan",
+            "Tomizuka,Lei Li",
+            "Yuan, Changhu Wang"
+          ],
+          "title_candidate": "Sparse r-cnn: End-to-end object detection with learnable proposals.In",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 14454-14463,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu,Wei Zhan, Masayoshi Tomizuka,Lei Li, Zehuan Yuan, Changhu Wang,et al",
+          "author_candidates": [
+            "Sun, Rufeng Zhang",
+            "Jiang, Tao Kong",
+            "Xu,Wei Zhan",
+            "Tomizuka,Lei Li",
+            "Yuan, Changhu Wang"
+          ],
+          "title_candidate": "Sparse r-cnn: End-to-end object detection with learnable proposals.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 14454-14463,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu,Wei Zhan, Masayoshi Tomizuka,Lei Li, Zehuan Yuan, Changhu Wang,et al. Sparse r-cnn",
+          "author_candidates": [
+            "Sun, Rufeng Zhang",
+            "Jiang, Tao Kong",
+            "Xu,Wei Zhan",
+            "Tomizuka,Lei Li",
+            "Yuan, Changhu Wang"
+          ],
+          "title_candidate": "End-to-end object detection with learnable proposals.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 14454-14463",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Peize Sun, Rufeng Zhang, Yi Jiang, Tao Kong, Chenfeng Xu,Wei Zhan, Masayoshi Tomizuka,Lei Li, Zehuan Yuan, Changhu Wang,et al. Sparse r-cnn",
+          "author_candidates": [
+            "Sun, Rufeng Zhang",
+            "Jiang, Tao Kong",
+            "Xu,Wei Zhan",
+            "Tomizuka,Lei Li",
+            "Yuan, Changhu Wang"
+          ],
+          "title_candidate": "End-to-end object detection with learnable proposals.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 14454-14463,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34] Chien-Yao Wang, Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Scaled-yolov4: Scaling cross stage partial network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13029-13038,2021.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "venue_marker_split",
+          "author_text": "Chien-Yao Wang, Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Scaled-yolov4",
+          "author_candidates": [
+            "Wang, Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Scaling cross stage partial network",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13029-13038,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chien-Yao Wang, Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Scaled-yolov4: Scaling cross stage partial network",
+          "author_candidates": [
+            "Wang, Alexey Bochkovskiy"
+          ],
+          "title_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13029-13038,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chien-Yao Wang, Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Scaled-yolov4",
+          "author_candidates": [
+            "Wang, Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Scaling cross stage partial network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13029-13038",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chien-Yao Wang, Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Scaled-yolov4",
+          "author_candidates": [
+            "Wang, Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Scaling cross stage partial network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 13029-13038,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] Chien-Yao Wang,Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Yolov7: Trainable bag-of-freebies sets new state-ofthe-art for real-time object detectors.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464-7475,2023.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "venue_marker_split",
+          "author_text": "Chien-Yao Wang,Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Yolov7",
+          "author_candidates": [
+            "Wang,Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Trainable bag-of-freebies sets new state-ofthe-art for real-time object detectors.In",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464-7475,2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chien-Yao Wang,Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Yolov7",
+          "author_candidates": [
+            "Wang,Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Trainable bag-of-freebies sets new state-ofthe-art for real-time object detectors.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464-7475",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chien-Yao Wang,Alexey Bochkovskiy,and Hong-Yuan Mark Liao.Yolov7",
+          "author_candidates": [
+            "Wang,Alexey Bochkovskiy"
+          ],
+          "title_candidate": "Trainable bag-of-freebies sets new state-ofthe-art for real-time object detectors.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7464-7475,2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[36] Yingming Wang,Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr: Query design for transformer-based detector. In Proceedings ofthe AAI Conference on Artificial Intelligence, pages 2567-2575,2022.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "venue_marker_split",
+          "author_text": "Yingming Wang,Xiangyu Zhang, Tong Yang,and Jian Sun",
+          "author_candidates": [
+            "Wang,Xiangyu Zhang"
+          ],
+          "title_candidate": "Anchor detr: Query design for transformer-based detector",
+          "container_candidate": "In Proceedings ofthe AAI Conference on Artificial Intelligence, pages 2567-2575,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yingming Wang,Xiangyu Zhang, Tong Yang,and Jian Sun",
+          "author_candidates": [
+            "Wang,Xiangyu Zhang"
+          ],
+          "title_candidate": "Anchor detr: Query design for transformer-based detector",
+          "container_candidate": "In Proceedings ofthe AAI Conference on Artificial Intelligence, pages 2567-2575,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yingming Wang,Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr",
+          "author_candidates": [
+            "Wang,Xiangyu Zhang"
+          ],
+          "title_candidate": "Query design for transformer-based detector. In Proceedings ofthe AAI Conference on Artificial Intelligence, pages 2567-2575",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yingming Wang,Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr",
+          "author_candidates": [
+            "Wang,Xiangyu Zhang"
+          ],
+          "title_candidate": "Query design for transformer-based detector. In Proceedings ofthe AAI Conference on Artificial Intelligence, pages 2567-2575,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[37] Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. $\\mathrm { P p }$ -yoloe:An evolved version of yolo. arXiv preprint arXiv:2203.16250,2022.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "venue_marker_split",
+          "author_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al",
+          "author_candidates": [
+            "Xu, Xinxin Wang",
+            "Lv, Qinyao Chang",
+            "Cui, Kaipeng Deng",
+            "Wang, Qingqing Dang",
+            "Wei, Yuning Du"
+          ],
+          "title_candidate": "$\\mathrm { P p }$ -yoloe:An evolved version of yolo. arXiv preprint",
+          "container_candidate": "arXiv:2203.16250,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al",
+          "author_candidates": [
+            "Xu, Xinxin Wang",
+            "Lv, Qinyao Chang",
+            "Cui, Kaipeng Deng",
+            "Wang, Qingqing Dang",
+            "Wei, Yuning Du"
+          ],
+          "title_candidate": "$\\mathrm { P p }$ -yoloe:An evolved version of yolo",
+          "container_candidate": "arXiv preprint arXiv:2203.16250,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. $\\mathrm { P p }$ -yoloe",
+          "author_candidates": [
+            "Xu, Xinxin Wang",
+            "Lv, Qinyao Chang",
+            "Cui, Kaipeng Deng",
+            "Wang, Qingqing Dang",
+            "Wei, Yuning Du"
+          ],
+          "title_candidate": "An evolved version of yolo. arXiv preprint arXiv:2203.16250",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shangliang Xu, Xinxin Wang, Wenyu Lv, Qinyao Chang, Cheng Cui, Kaipeng Deng, Guanzhong Wang, Qingqing Dang, Shengyu Wei, Yuning Du, et al. $\\mathrm { P p }$ -yoloe",
+          "author_candidates": [
+            "Xu, Xinxin Wang",
+            "Lv, Qinyao Chang",
+            "Cui, Kaipeng Deng",
+            "Wang, Qingqing Dang",
+            "Wei, Yuning Du"
+          ],
+          "title_candidate": "An evolved version of yolo. arXiv preprint arXiv:2203.16250,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[38] Jianwei Yang,Chunyuan Li, Xiyang Dai,and Jianfeng Gao. Focal modulation networks.Advances in Neural Information Processing Systems,35:4203-4217,2022.",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jianwei Yang,Chunyuan Li, Xiyang Dai,and Jianfeng Gao",
+          "author_candidates": [
+            "Yang,Chunyuan Li"
+          ],
+          "title_candidate": "Focal modulation networks.Advances in Neural Information Processing Systems,35:4203-4217,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jianwei Yang,Chunyuan Li, Xiyang Dai,and Jianfeng Gao. Focal modulation networks.Advances in Neural Information Processing Systems,35",
+          "author_candidates": [
+            "Yang,Chunyuan Li"
+          ],
+          "title_candidate": "4203-4217",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jianwei Yang,Chunyuan Li, Xiyang Dai,and Jianfeng Gao. Focal modulation networks.Advances in Neural Information Processing Systems,35",
+          "author_candidates": [
+            "Yang,Chunyuan Li"
+          ],
+          "title_candidate": "4203-4217,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[39] Zhuyu Yao,Jiangbo Ai,Boxun Li,and Chi Zhang.Efficient detr: improving end-to-end object detector with dense prior. arXiv preprint arXiv:2104.01318,2021.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhuyu Yao,Jiangbo Ai,Boxun Li,and Chi Zhang.Efficient detr: improving end-to-end object detector with dense prior",
+          "author_candidates": [
+            "Yao,Jiangbo Ai"
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2104.01318,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhuyu Yao,Jiangbo Ai,Boxun Li,and Chi Zhang.Efficient detr: improving end-to-end object detector with dense prior",
+          "author_candidates": [
+            "Yao,Jiangbo Ai"
+          ],
+          "title_candidate": "arXiv preprint arXiv:2104.01318,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhuyu Yao,Jiangbo Ai,Boxun Li,and Chi Zhang.Efficient detr",
+          "author_candidates": [
+            "Yao,Jiangbo Ai"
+          ],
+          "title_candidate": "improving end-to-end object detector with dense prior. arXiv preprint arXiv:2104.01318",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhuyu Yao,Jiangbo Ai,Boxun Li,and Chi Zhang.Efficient detr",
+          "author_candidates": [
+            "Yao,Jiangbo Ai"
+          ],
+          "title_candidate": "improving end-to-end object detector with dense prior. arXiv preprint arXiv:2104.01318,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[40] Fangao Zeng,Bin Dong,Yuang Zhang, Tiancai Wang, Xiangyu Zhang,and Yichen Wei.Motr: End-to-end multipleobject tracking with transformer. In European Conference on Computer Vision,pages 659-675. Springer,2022.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "venue_marker_split",
+          "author_text": "Fangao Zeng,Bin Dong,Yuang Zhang, Tiancai Wang, Xiangyu Zhang,and Yichen Wei.Motr",
+          "author_candidates": [
+            "Zeng,Bin Dong",
+            "Zhang, Tiancai Wang"
+          ],
+          "title_candidate": "End-to-end multipleobject tracking with transformer",
+          "container_candidate": "In European Conference on Computer Vision,pages 659-675. Springer,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 39,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Fangao Zeng,Bin Dong,Yuang Zhang, Tiancai Wang, Xiangyu Zhang,and Yichen Wei.Motr: End-to-end multipleobject tracking with transformer",
+          "author_candidates": [
+            "Zeng,Bin Dong",
+            "Zhang, Tiancai Wang"
+          ],
+          "title_candidate": "In European Conference on Computer Vision,pages 659-675",
+          "container_candidate": "Springer,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 39,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Fangao Zeng,Bin Dong,Yuang Zhang, Tiancai Wang, Xiangyu Zhang,and Yichen Wei.Motr",
+          "author_candidates": [
+            "Zeng,Bin Dong",
+            "Zhang, Tiancai Wang"
+          ],
+          "title_candidate": "End-to-end multipleobject tracking with transformer. In European Conference on Computer Vision,pages 659-675. Springer",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "Fangao Zeng,Bin Dong,Yuang Zhang, Tiancai Wang, Xiangyu Zhang,and Yichen Wei.Motr",
+          "author_candidates": [
+            "Zeng,Bin Dong",
+            "Zhang, Tiancai Wang"
+          ],
+          "title_candidate": "End-to-end multipleobject tracking with transformer. In European Conference on Computer Vision,pages 659-675. Springer,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[41] Hao Zhang,Feng Li, Shilong Liu,Lei Zhang, Hang Su, Jun Zhu,Lionel Ni,and Heung-Yeung Shum. Dino: Detr with improved denoising anchor boxes for end-to-end object detection.In International Conference on Learning Representations,2022.",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Hao Zhang,Feng Li, Shilong Liu,Lei Zhang, Hang Su, Jun Zhu,Lionel Ni,and Heung-Yeung Shum",
+          "author_candidates": [
+            "Zhang,Feng Li",
+            "Liu,Lei Zhang",
+            "Su, Jun Zhu"
+          ],
+          "title_candidate": "Dino: Detr with improved denoising anchor boxes for end-to-end object detection.In International Conference on Learning Representations,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hao Zhang,Feng Li, Shilong Liu,Lei Zhang, Hang Su, Jun Zhu,Lionel Ni,and Heung-Yeung Shum. Dino",
+          "author_candidates": [
+            "Zhang,Feng Li",
+            "Liu,Lei Zhang",
+            "Su, Jun Zhu"
+          ],
+          "title_candidate": "Detr with improved denoising anchor boxes for end-to-end object detection.In International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hao Zhang,Feng Li, Shilong Liu,Lei Zhang, Hang Su, Jun Zhu,Lionel Ni,and Heung-Yeung Shum. Dino",
+          "author_candidates": [
+            "Zhang,Feng Li",
+            "Liu,Lei Zhang",
+            "Su, Jun Zhu"
+          ],
+          "title_candidate": "Detr with improved denoising anchor boxes for end-to-end object detection.In International Conference on Learning Representations,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "[42] Xizhou Zhu,Weijie Su,Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr: Deformable transformers for end-to-end object detection.In International Conference onLearning Representations,2020.",
+      "detected_ref_number": 42,
+      "numbering": {
+        "detected_ref_number": 42,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xizhou Zhu,Weijie Su,Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr",
+          "author_candidates": [
+            "Zhu,Weijie Su",
+            "Lu,Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection.In International Conference onLearning Representations",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 41,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xizhou Zhu,Weijie Su,Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr",
+          "author_candidates": [
+            "Zhu,Weijie Su",
+            "Lu,Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection.In International Conference onLearning Representations,2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "[43] Zhuofan Zong,Guanglu Song,and Yu Liu. Detrs with collaborative hybrid assignments training. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 6748-6758,2023.",
+      "detected_ref_number": 43,
+      "numbering": {
+        "detected_ref_number": 43,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhuofan Zong,Guanglu Song,and Yu Liu",
+          "author_candidates": [
+            "Zong,Guanglu Song"
+          ],
+          "title_candidate": "Detrs with collaborative hybrid assignments training",
+          "container_candidate": "In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 6748-6758,2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhuofan Zong,Guanglu Song,and Yu Liu",
+          "author_candidates": [
+            "Zong,Guanglu Song"
+          ],
+          "title_candidate": "Detrs with collaborative hybrid assignments training",
+          "container_candidate": "In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 6748-6758,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhuofan Zong,Guanglu Song,and Yu Liu",
+          "author_candidates": [
+            "Zong,Guanglu Song"
+          ],
+          "title_candidate": "Detrs with collaborative hybrid assignments training. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 6748-6758",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhuofan Zong,Guanglu Song,and Yu Liu",
+          "author_candidates": [
+            "Zong,Guanglu Song"
+          ],
+          "title_candidate": "Detrs with collaborative hybrid assignments training. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 6748-6758,2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 42,
+      "metadata": {
+        "entry_count": 13
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=39",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=41",
+    "reference_pattern_ambiguous: entry_index=42",
+    "reference_title_boundary_suspect: entry_index=19 pattern=fallback_raw_split"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.023255813953488372,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.023255813953488372
+  },
+  "file_quality_low": false
+}

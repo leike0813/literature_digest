@@ -1,0 +1,1394 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/D6BUKS9Q_DETRs with Hybrid Matching.txt",
+  "entry_style": "numeric",
+  "notes": "Numeric + 行末引用页码标记。89 entries。行181+为补充材料。",
+  "items": [
+    {
+      "entry_index": 0,
+      "author": [
+        "Xuyang Bai",
+        "Zeyu Hu",
+        "Xinge Zhu",
+        "Qingqiu Huang",
+        "Yilun Chen",
+        "Hongbo Fu",
+        "Chiew-Lan Tai"
+      ],
+      "title": "TransFusion: Robust lidar-camera fusion for 3d object detection with transformers",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[1] Xuyang Bai, Zeyu Hu, Xinge Zhu, Qingqiu Huang, Yilun Chen, Hongbo Fu, and Chiew-Lan Tai. Transfusion... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 1,
+      "author": [
+        "Guillem Brasó",
+        "Nikita Kister",
+        "Laura Leal-Taixé"
+      ],
+      "title": "The center of attention: Center-keypoint grouping via attention for multi-person pose estimation",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[2] Guillem Braso, Nikita Kister, and Laura Leal-Taixe. The center of attention... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 2,
+      "author": [
+        "Holger Caesar",
+        "Varun Bankiti",
+        "Alex H. Lang",
+        "Sourabh Vora",
+        "Venice Erin Liong",
+        "Qiang Xu",
+        "Anush Krishnan",
+        "Yu Pan",
+        "Giancarlo Baldan",
+        "Oscar Beijbom"
+      ],
+      "title": "nuScenes: A multimodal dataset for autonomous driving",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[3] Holger Caesar, Varun Bankiti, Alex H Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom. nuscenes... In CVPR, 2020.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 3,
+      "author": [
+        "Xipeng Cao",
+        "Peng Yuan",
+        "Bailan Feng",
+        "Kun Niu",
+        "Yao Zhao"
+      ],
+      "title": "CF-DETR: Coarse-to-fine transformers for end-to-end object detection",
+      "year": 2022,
+      "container": "AAAI",
+      "raw": "[4] Xipeng Cao, Peng Yuan, Bailan Feng, Kun Niu, and Yao Zhao. Cf-detr... In AAAI, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 4,
+      "author": [
+        "Nicolas Carion",
+        "Francisco Massa",
+        "Gabriel Synnaeve",
+        "Nicolas Usunier",
+        "Alexander Kirillov",
+        "Sergey Zagoruyko"
+      ],
+      "title": "End-to-end object detection with transformers",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[5] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 5,
+      "author": [
+        "Qiang Chen",
+        "Xiaokang Chen",
+        "Gang Zeng",
+        "Jingdong Wang"
+      ],
+      "title": "Group DETR: Fast training convergence with decoupled one-to-many label assignment",
+      "year": 2022,
+      "container": "arXiv:2207.13085",
+      "raw": "[6] Qiang Chen, Xiaokang Chen, Gang Zeng, and Jingdong Wang. Group detr... arXiv:2207.13085, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 6,
+      "author": [
+        "Xin Chen",
+        "Bin Yan",
+        "Jiawen Zhu",
+        "Dong Wang",
+        "Xiaoyun Yang",
+        "Huchuan Lu"
+      ],
+      "title": "Transformer tracking",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[7] Xin Chen, Bin Yan, Jiawen Zhu, Dong Wang, Xiaoyun Yang, and Huchuan Lu. Transformer tracking. In CVPR, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 7,
+      "author": [
+        "Bowen Cheng",
+        "Anwesa Choudhuri",
+        "Ishan Misra",
+        "Alexander Kirillov",
+        "Rohit Girdhar",
+        "Alexander G. Schwing"
+      ],
+      "title": "Mask2Former for video instance segmentation",
+      "year": 2021,
+      "container": "arXiv:2112.10764",
+      "raw": "[8] Bowen Cheng, Anwesa Choudhuri, Ishan Misra, Alexander Kirillov, Rohit Girdhar, and Alexander G Schwing. Mask2former for video instance segmentation. arXiv:2112.10764, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 8,
+      "author": [
+        "Bowen Cheng",
+        "Ishan Misra",
+        "Alexander G. Schwing",
+        "Alexander Kirillov",
+        "Rohit Girdhar"
+      ],
+      "title": "Masked-attention mask transformer for universal image segmentation",
+      "year": 2021,
+      "container": "arXiv:2112.01527",
+      "raw": "[9] Bowen Cheng, Ishan Misra, Alexander G Schwing, Alexander Kirillov, and Rohit Girdhar. Maskedattention mask transformer... arXiv:2112.01527, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 9,
+      "author": [
+        "Angela Dai",
+        "Angel X. Chang",
+        "Manolis Savva",
+        "Maciej Halber",
+        "Thomas Funkhouser",
+        "Matthias Nießner"
+      ],
+      "title": "ScanNet: Richly-annotated 3d reconstructions of indoor scenes",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[10] Angela Dai, Angel X Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, and Matthias Nießner. Scannet... In CVPR, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 10,
+      "author": [
+        "Xiyang Dai",
+        "Yinpeng Chen",
+        "Jianwei Yang",
+        "Pengchuan Zhang",
+        "Lu Yuan",
+        "Lei Zhang"
+      ],
+      "title": "Dynamic DETR: End-to-end object detection with dynamic attention",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[11] Xiyang Dai, Yinpeng Chen, Jianwei Yang, Pengchuan Zhang, Lu Yuan, and Lei Zhang. Dynamic detr... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 11,
+      "author": [
+        "Tri Dao",
+        "Daniel Y. Fu",
+        "Stefano Ermon",
+        "Atri Rudra",
+        "Christopher Ré"
+      ],
+      "title": "FlashAttention: Fast and memory-efficient exact attention with IO-awareness",
+      "year": 2022,
+      "container": "NeurIPS",
+      "raw": "[12] Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, and Christopher Re. FlashAttention... In NeurIPS, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 12,
+      "author": [
+        "Bin Dong",
+        "Fangao Zeng",
+        "Tiancai Wang",
+        "Xiangyu Zhang",
+        "Yichen Wei"
+      ],
+      "title": "SOLQ: Segmenting objects by learning queries",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[13] Bin Dong, Fangao Zeng, Tiancai Wang, Xiangyu Zhang, and Yichen Wei. Solq... NeurIPS, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 13,
+      "author": [
+        "Yuxin Fang",
+        "Shusheng Yang",
+        "Xinggang Wang",
+        "Yu Li",
+        "Chen Fang",
+        "Ying Shan",
+        "Bin Feng",
+        "Wenyu Liu"
+      ],
+      "title": "Instances as queries",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[14] Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang, Ying Shan, Bin Feng, and Wenyu Liu. Instances as queries. In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 14,
+      "author": [
+        "Peng Gao",
+        "Minghang Zheng",
+        "Xiaogang Wang",
+        "Jifeng Dai",
+        "Hongsheng Li"
+      ],
+      "title": "Fast convergence of DETR with spatially modulated co-attention",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[15] Peng Gao, Minghang Zheng, Xiaogang Wang, Jifeng Dai, and Hongsheng Li. Fast convergence of detr... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 15,
+      "author": [
+        "Ziteng Gao",
+        "Limin Wang",
+        "Bing Han",
+        "Sheng Guo"
+      ],
+      "title": "AdaMixer: A fast-converging query-based object detector",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[16] Ziteng Gao, Limin Wang, Bing Han, and Sheng Guo. Adamixer... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 16,
+      "author": [
+        "Ross Girshick"
+      ],
+      "title": "Fast R-CNN",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[17] Ross Girshick. Fast r-cnn. In ICCV, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 17,
+      "author": [
+        "Brent A. Griffin",
+        "Jason J. Corso"
+      ],
+      "title": "Depth from camera motion and object detection",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[18] Brent A Griffin and Jason J Corso. Depth from camera motion and object detection. In CVPR, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 18,
+      "author": [
+        "Agrim Gupta",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "LVIS: A dataset for large vocabulary instance segmentation",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[19] Agrim Gupta, Piotr Dollar, and Ross Girshick. Lvis... In CVPR, 2019.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 19,
+      "author": [
+        "Junjie Huang",
+        "Guan Huang"
+      ],
+      "title": "BEVDet4D: Exploit temporal cues in multi-camera 3d object detection",
+      "year": 2022,
+      "container": "arXiv:2203.17054",
+      "raw": "[20] Junjie Huang and Guan Huang. Bevdet4d... arXiv:2203.17054, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 20,
+      "author": [
+        "Junjie Huang",
+        "Guan Huang",
+        "Zheng Zhu",
+        "Dalong Du"
+      ],
+      "title": "BEVDet: High-performance multi-camera 3d object detection in bird-eye-view",
+      "year": 2021,
+      "container": "arXiv:2112.11790",
+      "raw": "[21] Junjie Huang, Guan Huang, Zheng Zhu, and Dalong Du. Bevdet... arXiv:2112.11790, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 21,
+      "author": [
+        "Aishwarya Kamath",
+        "Mannat Singh",
+        "Yann LeCun",
+        "Gabriel Synnaeve",
+        "Ishan Misra",
+        "Nicolas Carion"
+      ],
+      "title": "MDETR — Modulated detection for end-to-end multi-modal understanding",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[22] Aishwarya Kamath, Mannat Singh, Yann LeCun, Gabriel Synnaeve, Ishan Misra, and Nicolas Carion. Mdetr... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 22,
+      "author": [
+        "Youngwan Lee",
+        "Jongyoul Park"
+      ],
+      "title": "CenterMask: Real-time anchor-free instance segmentation",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[23] Youngwan Lee and Jongyoul Park. Centermask... In CVPR, 2020.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 23,
+      "author": [
+        "Feng Li",
+        "Hao Zhang",
+        "Shilong Liu",
+        "Jian Guo",
+        "Lionel M. Ni",
+        "Lei Zhang"
+      ],
+      "title": "DN-DETR: Accelerate DETR training by introducing query denoising",
+      "year": 2022,
+      "container": "arXiv:2203.01305",
+      "raw": "[24] Feng Li, Hao Zhang, Shilong Liu, Jian Guo, Lionel M Ni, and Lei Zhang. Dn-detr... arXiv:2203.01305, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 24,
+      "author": [
+        "Feng Li",
+        "Hao Zhang",
+        "Shilong Liu",
+        "Lei Zhang",
+        "Lionel M. Ni",
+        "Heung-Yeung Shum"
+      ],
+      "title": "Mask DINO: Towards a unified transformer-based framework for object detection and segmentation",
+      "year": 2022,
+      "container": "arXiv:2206.02777",
+      "raw": "[25] Feng Li, Hao Zhang, Shilong Liu, Lei Zhang, Lionel M Ni, Heung-Yeung Shum, et al. Mask dino... arXiv:2206.02777, 2022.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 25,
+      "author": [
+        "Ke Li",
+        "Shijie Wang",
+        "Xiang Zhang",
+        "Yifan Xu",
+        "Weijian Xu",
+        "Zhuowen Tu"
+      ],
+      "title": "Pose recognition with cascade transformers",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[26] Ke Li, Shijie Wang, Xiang Zhang, Yifan Xu, Weijian Xu, and Zhuowen Tu. Pose recognition with cascade transformers. In CVPR, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 26,
+      "author": [
+        "Yanghao Li",
+        "Chao-Yuan Wu",
+        "Haoqi Fan",
+        "Karttikeya Mangalam",
+        "Bo Xiong",
+        "Jitendra Malik",
+        "Christoph Feichtenhofer"
+      ],
+      "title": "Improved multiscale vision transformers for classification and detection",
+      "year": 2021,
+      "container": "arXiv:2112.01526",
+      "raw": "[27] Yanghao Li, Chao-Yuan Wu, Haoqi Fan... Improved multiscale vision transformers... arXiv:2112.01526, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 27,
+      "author": [
+        "Yanjie Li",
+        "Shoukui Zhang",
+        "Zhicheng Wang",
+        "Sen Yang",
+        "Wankou Yang",
+        "Shu-Tao Xia",
+        "Erjin Zhou"
+      ],
+      "title": "TokenPose: Learning keypoint tokens for human pose estimation",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[28] Yanjie Li, Shoukui Zhang... Tokenpose... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 28,
+      "author": [
+        "Zhenyu Li",
+        "Zehui Chen",
+        "Xianming Liu",
+        "Junjun Jiang"
+      ],
+      "title": "DepthFormer: Exploiting long-range correlation and local information for accurate monocular depth estimation",
+      "year": 2022,
+      "container": "arXiv:2203.14211",
+      "raw": "[29] Zhenyu Li, Zehui Chen... Depthformer... arXiv:2203.14211, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 29,
+      "author": [
+        "Zhiqi Li",
+        "Wenhai Wang",
+        "Hongyang Li",
+        "Enze Xie",
+        "Chonghao Sima",
+        "Tong Lu",
+        "Yu Qiao",
+        "Jifeng Dai"
+      ],
+      "title": "BEVFormer: Learning bird's-eye-view representation from multi-camera images via spatiotemporal transformers",
+      "year": 2022,
+      "container": "arXiv:2203.17270",
+      "raw": "[30] Zhiqi Li, Wenhai Wang... Bevformer... arXiv:2203.17270, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 30,
+      "author": [
+        "Zhiqi Li",
+        "Wenhai Wang",
+        "Enze Xie",
+        "Zhiding Yu",
+        "Anima Anandkumar",
+        "Jose M. Alvarez",
+        "Ping Luo",
+        "Tong Lu"
+      ],
+      "title": "Panoptic SegFormer: Delving deeper into panoptic segmentation with transformers",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[31] Zhiqi Li, Wenhai Wang... Panoptic segformer... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 31,
+      "author": [
+        "Zhenyu Li",
+        "Xuyang Wang",
+        "Xianming Liu",
+        "Junjun Jiang"
+      ],
+      "title": "BinsFormer: Revisiting adaptive bins for monocular depth estimation",
+      "year": 2022,
+      "container": "arXiv:2204.00987",
+      "raw": "[32] Zhenyu Li, Xuyang Wang... Binsformer... arXiv:2204.00987, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 32,
+      "author": [
+        "Tingting Liang",
+        "Xiaojie Chu",
+        "Yudong Liu",
+        "Yongtao Wang",
+        "Zhi Tang",
+        "Wei Chu",
+        "Jingdong Chen",
+        "Haibin Ling"
+      ],
+      "title": "CBNet: A composite backbone network architecture for object detection",
+      "year": 2022,
+      "container": "IEEE TIP",
+      "raw": "[33] Tingting Liang, Xiaojie Chu... Cbnet... TIP, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 33,
+      "author": [
+        "Tingting Liang",
+        "Hongwei Xie",
+        "Kaicheng Yu",
+        "Zhongyu Xia",
+        "Zhiwei Lin",
+        "Yongtao Wang",
+        "Tao Tang",
+        "Bing Wang",
+        "Zhi Tang"
+      ],
+      "title": "BEVFusion: A simple and robust lidar-camera fusion framework",
+      "year": 2022,
+      "container": "arXiv:2205.13790",
+      "raw": "[34] Tingting Liang, Hongwei Xie... Bevfusion... arXiv:2205.13790, 2022.",
+      "confidence": 0.95,
+      "notes": "跨行条目"
+    },
+    {
+      "entry_index": 34,
+      "author": [
+        "Tsung-Yi Lin",
+        "Priya Goyal",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Focal loss for dense object detection",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "[35] Tsung-Yi Lin, Priya Goyal... Focal loss... In ICCV, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 35,
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[36] Tsung-Yi Lin, Michael Maire... Microsoft coco... In ECCV, 2014.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 36,
+      "author": [
+        "Shilong Liu",
+        "Feng Li",
+        "Hao Zhang",
+        "Xiao Yang",
+        "Xianbiao Qi",
+        "Hang Su",
+        "Jun Zhu",
+        "Lei Zhang"
+      ],
+      "title": "DAB-DETR: Dynamic anchor boxes are better queries for DETR",
+      "year": 2022,
+      "container": "arXiv:2201.12329",
+      "raw": "[37] Shilong Liu, Feng Li... Dab-detr... arXiv:2201.12329, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 37,
+      "author": [
+        "Wei Liu",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Christian Szegedy",
+        "Scott Reed",
+        "Cheng-Yang Fu",
+        "Alexander C. Berg"
+      ],
+      "title": "SSD: Single shot multibox detector",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[38] Wei Liu, Dragomir Anguelov... Ssd... In ECCV, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 38,
+      "author": [
+        "Yingfei Liu",
+        "Tiancai Wang",
+        "Xiangyu Zhang",
+        "Jian Sun"
+      ],
+      "title": "PETR: Position embedding transformation for multi-view 3d object detection",
+      "year": 2022,
+      "container": "arXiv:2203.05625",
+      "raw": "[39] Yingfei Liu, Tiancai Wang... Petr... arXiv:2203.05625, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 39,
+      "author": [
+        "Yingfei Liu",
+        "Junjie Yan",
+        "Fan Jia",
+        "Shuailin Li",
+        "Qi Gao",
+        "Tiancai Wang",
+        "Xiangyu Zhang",
+        "Jian Sun"
+      ],
+      "title": "PETRv2: A unified framework for 3d perception from multi-camera images",
+      "year": 2022,
+      "container": "arXiv:2206.01256",
+      "raw": "[40] Yingfei Liu, Junjie Yan... Petrv2... arXiv:2206.01256, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 40,
+      "author": [
+        "Ze Liu",
+        "Han Hu",
+        "Yutong Lin",
+        "Zhuliang Yao",
+        "Zhenda Xie",
+        "Yixuan Wei",
+        "Jia Ning",
+        "Yue Cao",
+        "Zheng Zhang",
+        "Li Dong"
+      ],
+      "title": "Swin Transformer v2: Scaling up capacity and resolution",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[41] Ze Liu, Han Hu... Swin transformer v2... In CVPR, 2022.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 41,
+      "author": [
+        "Ze Liu",
+        "Yutong Lin",
+        "Yue Cao",
+        "Han Hu",
+        "Yixuan Wei",
+        "Zheng Zhang",
+        "Stephen Lin",
+        "Baining Guo"
+      ],
+      "title": "Swin transformer: Hierarchical vision transformer using shifted windows",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[42] Ze Liu, Yutong Lin... Swin transformer... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 42,
+      "author": [
+        "Zhuang Liu",
+        "Hanzi Mao",
+        "Chao-Yuan Wu",
+        "Christoph Feichtenhofer",
+        "Trevor Darrell",
+        "Saining Xie"
+      ],
+      "title": "A ConvNet for the 2020s",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[43] Zhuang Liu, Hanzi Mao... A convnet for the 2020s. In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 43,
+      "author": [
+        "Zhijian Liu",
+        "Haotian Tang",
+        "Alexander Amini",
+        "Xinyu Yang",
+        "Huizi Mao",
+        "Daniela Rus",
+        "Song Han"
+      ],
+      "title": "BEVFusion: Multi-task multi-sensor fusion with unified bird's-eye view representation",
+      "year": 2022,
+      "container": "arXiv:2205.13542",
+      "raw": "[44] Zhijian Liu, Haotian Tang... Bevfusion... arXiv:2205.13542, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 44,
+      "author": [
+        "Ze Liu",
+        "Zheng Zhang",
+        "Yue Cao",
+        "Han Hu",
+        "Xin Tong"
+      ],
+      "title": "Group-free 3d object detection via transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[45]... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 45,
+      "author": [
+        "Shangbang Long",
+        "Siyang Qin",
+        "Dmitry Panteleev",
+        "Alessandro Bissacco",
+        "Yasuhisa Fujii",
+        "Michalis Raptis"
+      ],
+      "title": "Towards end-to-end unified scene text detection and layout analysis",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[46]... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 46,
+      "author": [
+        "Qian Lou",
+        "Yen-Chang Hsu",
+        "Burak Uzkent",
+        "Ting Hua",
+        "Yilin Shen",
+        "Hongxia Jin"
+      ],
+      "title": "Lite-MDETR: A lightweight multimodal detector",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[47]... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 47,
+      "author": [
+        "Weian Mao",
+        "Yongtao Ge",
+        "Chunhua Shen",
+        "Zhi Tian",
+        "Xinlong Wang",
+        "Zhibin Wang"
+      ],
+      "title": "TFPose: Direct human pose estimation with transformers",
+      "year": 2021,
+      "container": "arXiv:2103.15320",
+      "raw": "[48]... arXiv:2103.15320, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 48,
+      "author": [
+        "Tim Meinhardt",
+        "Alexander Kirillov",
+        "Laura Leal-Taixé",
+        "Christoph Feichtenhofer"
+      ],
+      "title": "TrackFormer: Multi-object tracking with transformers",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[49]... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 49,
+      "author": [
+        "Depu Meng",
+        "Xiaokang Chen",
+        "Zejia Fan",
+        "Gang Zeng",
+        "Houqiang Li",
+        "Yuhui Yuan",
+        "Lei Sun",
+        "Jingdong Wang"
+      ],
+      "title": "Conditional DETR for fast training convergence",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[50]... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 50,
+      "author": [
+        "Anton Milan",
+        "Laura Leal-Taixé",
+        "Ian Reid",
+        "Stefan Roth",
+        "Konrad Schindler"
+      ],
+      "title": "MOT16: A benchmark for multi-object tracking",
+      "year": 2016,
+      "container": "arXiv:1603.00831",
+      "raw": "[51]... arXiv:1603.00831, 2016.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 51,
+      "author": [
+        "Ishan Misra",
+        "Rohit Girdhar",
+        "Armand Joulin"
+      ],
+      "title": "An end-to-end transformer model for 3d object detection",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[52]... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 52,
+      "author": [
+        "Alexander Neubeck",
+        "Luc Van Gool"
+      ],
+      "title": "Efficient non-maximum suppression",
+      "year": 2006,
+      "container": "ICPR",
+      "raw": "[53]... In ICPR, 2006.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 53,
+      "author": [
+        "Kemal Oksuz",
+        "Baris Can Cam",
+        "Sinan Kalkan",
+        "Emre Akbas"
+      ],
+      "title": "One metric to measure them all: Localisation recall precision (LRP)",
+      "year": 2021,
+      "container": "TPAMI",
+      "raw": "[54]... TPAMI, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 54,
+      "author": [
+        "Zobeir Raisi",
+        "Mohamed A. Naiel",
+        "Georges Younes",
+        "Steven Wardell",
+        "John S. Zelek"
+      ],
+      "title": "Transformer-based text detection in the wild",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[55]... In CVPR, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 55,
+      "author": [
+        "Zobeir Raisi",
+        "Georges Younes",
+        "John Zelek"
+      ],
+      "title": "Arbitrary shape text detection using transformers",
+      "year": 2022,
+      "container": "arXiv:2202.11221",
+      "raw": "[56]... arXiv:2202.11221, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 56,
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NeurIPS",
+      "raw": "[57]... NeurIPS, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 57,
+      "author": [
+        "Byungseok Roh",
+        "JaeWoong Shin",
+        "Wuhyun Shin",
+        "Saehoon Kim"
+      ],
+      "title": "Sparse DETR: Efficient end-to-end object detection with learnable sparsity",
+      "year": 2021,
+      "container": "arXiv:2111.14330",
+      "raw": "[58]... arXiv:2111.14330, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 58,
+      "author": [
+        "Dahu Shi",
+        "Xing Wei",
+        "Liangqi Li",
+        "Ye Ren",
+        "Wenming Tan"
+      ],
+      "title": "End-to-end multi-person pose estimation with transformers",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[59]... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 59,
+      "author": [
+        "Lucas Stoffl",
+        "Maxime Vidal",
+        "Alexander Mathis"
+      ],
+      "title": "End-to-end trainable multi-instance pose estimation with transformers",
+      "year": 2021,
+      "container": "arXiv:2103.12115",
+      "raw": "[60]... arXiv:2103.12115, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 60,
+      "author": [
+        "Peize Sun",
+        "Jinkun Cao",
+        "Yi Jiang",
+        "Rufeng Zhang",
+        "Enze Xie",
+        "Zehuan Yuan",
+        "Changhu Wang",
+        "Ping Luo"
+      ],
+      "title": "TransTrack: Multiple object tracking with transformer",
+      "year": 2020,
+      "container": "arXiv:2012.15460",
+      "raw": "[61]... arXiv:2012.15460, 2020.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 61,
+      "author": [
+        "Zhi Tian",
+        "Chunhua Shen",
+        "Hao Chen",
+        "Tong He"
+      ],
+      "title": "FCOS: Fully convolutional one-stage object detection",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[62]... In ICCV, 2019.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 62,
+      "author": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "title": "Attention is all you need",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "[63]... In NeurIPS, 2017.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 63,
+      "author": [
+        "Huiyu Wang",
+        "Yukun Zhu",
+        "Hartwig Adam",
+        "Alan Yuille",
+        "Liang-Chieh Chen"
+      ],
+      "title": "MaX-DeepLab: End-to-end panoptic segmentation with mask transformers",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[64]... In CVPR, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 64,
+      "author": [
+        "Jianfeng Wang",
+        "Lin Song",
+        "Zeming Li",
+        "Hongbin Sun",
+        "Jian Sun",
+        "Nanning Zheng"
+      ],
+      "title": "End-to-end object detection with fully convolutional network",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[65]... In CVPR, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 65,
+      "author": [
+        "Wen Wang",
+        "Jing Zhang",
+        "Yang Cao",
+        "Yongliang Shen",
+        "Dacheng Tao"
+      ],
+      "title": "Towards data-efficient detection transformers",
+      "year": 2022,
+      "container": "arXiv:2203.09507",
+      "raw": "[66]... arXiv:2203.09507, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 66,
+      "author": [
+        "Yue Wang",
+        "Vitor Campagnolo Guizilini",
+        "Tianyuan Zhang",
+        "Yilun Wang",
+        "Hang Zhao",
+        "Justin Solomon"
+      ],
+      "title": "DETR3D: 3d object detection from multi-view images via 3D-to-2D queries",
+      "year": 2022,
+      "container": "CoRL",
+      "raw": "[67]... In CoRL, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 67,
+      "author": [
+        "Yingming Wang",
+        "Xiangyu Zhang",
+        "Tong Yang",
+        "Jian Sun"
+      ],
+      "title": "Anchor DETR: Query design for transformer-based detector",
+      "year": 2021,
+      "container": "arXiv:2109.07107",
+      "raw": "[68]... arXiv:2109.07107, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 68,
+      "author": [
+        "Jiannan Wu",
+        "Yi Jiang",
+        "Peize Sun",
+        "Zehuan Yuan",
+        "Ping Luo"
+      ],
+      "title": "Language as queries for referring video object segmentation",
+      "year": 2022,
+      "container": "arXiv:2201.00487",
+      "raw": "[69]... arXiv:2201.00487, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 69,
+      "author": [
+        "Junfeng Wu",
+        "Yi Jiang",
+        "Wenqing Zhang",
+        "Xiang Bai",
+        "Song Bai"
+      ],
+      "title": "SeqFormer: A frustratingly simple model for video instance segmentation",
+      "year": 2021,
+      "container": "arXiv:2112.08275",
+      "raw": "[70]... arXiv:2112.08275, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 70,
+      "author": [
+        "Yifan Xu",
+        "Weijian Xu",
+        "David Cheung",
+        "Zhuowen Tu"
+      ],
+      "title": "Line segment detection using transformers without edges",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[71]... In CVPR, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 71,
+      "author": [
+        "Bin Yan",
+        "Houwen Peng",
+        "Jianlong Fu",
+        "Dong Wang",
+        "Huchuan Lu"
+      ],
+      "title": "Learning spatio-temporal transformer for visual tracking",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[72]... In ICCV, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 72,
+      "author": [
+        "Chenglin Yang",
+        "Siyuan Qiao",
+        "Qihang Yu",
+        "Xiaoding Yuan",
+        "Yukun Zhu",
+        "Alan Yuille",
+        "Hartwig Adam",
+        "Liang-Chieh Chen"
+      ],
+      "title": "MOAT: Alternating mobile convolution and attention brings strong vision models",
+      "year": 2022,
+      "container": "arXiv:2210.01820",
+      "raw": "[73]... arXiv:2210.01820, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 73,
+      "author": [
+        "Zhao Yang",
+        "Jiaqi Wang",
+        "Yansong Tang",
+        "Kai Chen",
+        "Hengshuang Zhao",
+        "Philip H. S. Torr"
+      ],
+      "title": "LAVT: Language-aware vision transformer for referring image segmentation",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[74]... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 74,
+      "author": [
+        "Qihang Yu",
+        "Huiyu Wang",
+        "Dahun Kim",
+        "Siyuan Qiao",
+        "Maxwell Collins",
+        "Yukun Zhu",
+        "Hartwig Adam",
+        "Alan Yuille",
+        "Liang-Chieh Chen"
+      ],
+      "title": "CMT-DeepLab: Clustering mask transformers for panoptic segmentation",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[75]... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 75,
+      "author": [
+        "Qihang Yu",
+        "Huiyu Wang",
+        "Dahun Kim",
+        "Siyuan Qiao",
+        "Maxwell Collins",
+        "Yukun Zhu",
+        "Hartwig Adam",
+        "Alan Yuille",
+        "Liang-Chieh Chen"
+      ],
+      "title": "CMT-DeepLab (repeat)",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[76]... In CVPR, 2022.",
+      "confidence": 0.95,
+      "notes": "与[75]为同一论文的重复引用"
+    },
+    {
+      "entry_index": 76,
+      "author": [
+        "Qihang Yu",
+        "Huiyu Wang",
+        "Siyuan Qiao",
+        "Maxwell Collins",
+        "Yukun Zhu",
+        "Hartwig Adam",
+        "Alan Yuille",
+        "Liang-Chieh Chen"
+      ],
+      "title": "k-means Mask Transformer",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "[77]... In ECCV, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 77,
+      "author": [
+        "Xiaodong Yu",
+        "Dahu Shi",
+        "Xing Wei",
+        "Ye Ren",
+        "Tingqun Ye",
+        "Wenming Tan"
+      ],
+      "title": "SOIT: Segmenting objects with instance-aware transformers",
+      "year": 2021,
+      "container": "arXiv:2112.11037",
+      "raw": "[78]... arXiv:2112.11037, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 78,
+      "author": [
+        "Yuhui Yuan",
+        "Xilin Chen",
+        "Jingdong Wang"
+      ],
+      "title": "Object-contextual representations for semantic segmentation",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[79]... In ECCV, 2020.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 79,
+      "author": [
+        "Fangao Zeng",
+        "Bin Dong",
+        "Tiancai Wang",
+        "Xiangyu Zhang",
+        "Yichen Wei"
+      ],
+      "title": "MOTR: End-to-end multiple-object tracking with transformer",
+      "year": 2021,
+      "container": "arXiv:2105.03247",
+      "raw": "[80]... arXiv:2105.03247, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 80,
+      "author": [
+        "Gongjie Zhang",
+        "Zhipeng Luo",
+        "Yingchen Yu",
+        "Kaiwen Cui",
+        "Shijian Lu"
+      ],
+      "title": "Accelerating DETR convergence via semantic-aligned matching",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[81]... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 81,
+      "author": [
+        "Hao Zhang",
+        "Feng Li",
+        "Shilong Liu",
+        "Lei Zhang",
+        "Hang Su",
+        "Jun Zhu",
+        "Lionel M. Ni",
+        "Heung-Yeung Shum"
+      ],
+      "title": "DINO: DETR with improved denoising anchor boxes for end-to-end object detection",
+      "year": 2022,
+      "container": "arXiv:2203.03605",
+      "raw": "[82]... arXiv:2203.03605, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 82,
+      "author": [
+        "Jianfeng Zhang",
+        "Yujun Cai",
+        "Shuicheng Yan",
+        "Jiashi Feng"
+      ],
+      "title": "Direct multi-view multi-person 3d pose estimation",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[83]... NeurIPS, 2021.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 83,
+      "author": [
+        "Shifeng Zhang",
+        "Cheng Chi",
+        "Yongqiang Yao",
+        "Zhen Lei",
+        "Stan Z. Li"
+      ],
+      "title": "Bridging the gap between anchor-based and anchor-free detection via adaptive training sample selection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[84]... In CVPR, 2020.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 84,
+      "author": [
+        "Xiang Zhang",
+        "Yongwen Su",
+        "Subarna Tripathi",
+        "Zhuowen Tu"
+      ],
+      "title": "Text spotting transformers",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[85]... In CVPR, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 85,
+      "author": [
+        "Moju Zhao",
+        "Kei Okada",
+        "Masayuki Inaba"
+      ],
+      "title": "TRTR: Visual tracking with transformer",
+      "year": 2021,
+      "container": "arXiv:2105.03817",
+      "raw": "[86]... arXiv:2105.03817, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 86,
+      "author": [
+        "Xingyi Zhou",
+        "Rohit Girdhar",
+        "Armand Joulin",
+        "Philipp Krähenbühl",
+        "Ishan Misra"
+      ],
+      "title": "Detecting twenty-thousand classes using image-level supervision",
+      "year": 2022,
+      "container": "arXiv:2201.02605",
+      "raw": "[87]... arXiv:2201.02605, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 87,
+      "author": [
+        "Benjin Zhu",
+        "Jianfeng Wang",
+        "Zhengkai Jiang",
+        "Fuhang Zong",
+        "Songtao Liu",
+        "Zeming Li",
+        "Jian Sun"
+      ],
+      "title": "AutoAssign: Differentiable label assignment for dense object detection",
+      "year": 2020,
+      "container": "arXiv:2007.03496",
+      "raw": "[88]... arXiv:2007.03496, 2020.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 88,
+      "author": [
+        "Xizhou Zhu",
+        "Weijie Su",
+        "Lewei Lu",
+        "Bin Li",
+        "Xiaogang Wang",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable DETR: Deformable transformers for end-to-end object detection",
+      "year": 2020,
+      "container": "arXiv:2010.04159",
+      "raw": "[89]... arXiv:2010.04159, 2020.",
+      "confidence": 0.95
+    }
+  ]
+}

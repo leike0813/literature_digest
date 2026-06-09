@@ -1,0 +1,2655 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:44Z",
+    "entry_count": 31,
+    "candidate_count": 105,
+    "batch_count": 3,
+    "entry_style": "mixed",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 2,
+    "requires_split_review": true,
+    "review_generation_id": "review-53c07e01"
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "1. Uijlings, J.R., van de Sande, K.E., Gevers, T., Smeulders, A.W.: Selective search for object recognition. IJCV 104, 154 (2013)",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "1. Uijlings, J.R., van de Sande, K.E., Gevers, T., Smeulders, A.W.: Selective search for object recognition. IJCV 104, 154 (2013)"
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "2. Ren, S., He, K., Girshick, R., Sun, J.: Faster R-CNN: towards real-time object detection with region proposal networks. In: NIPS (2015)",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "2. Ren, S., He, K., Girshick, R., Sun, J.: Faster R-CNN: towards real-time object detection with region proposal networks. In: NIPS (2015)"
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "3. He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: CVPR (2016)",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "3. He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: CVPR (2016)"
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "4. Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., LeCun, Y.: Overfeat: integrated recognition, localization and detection using convolutional networks. In: ICLR (2014)",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "4. Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., LeCun, Y.: Overfeat: integrated recognition, localization and detection using convolutional networks. In: ICLR (2014)"
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "5. Redmon, J., Divvala, S., Girshick, R., Farhadi, A.: You only look once: unified, real-time object detection. In: CVPR (2016)",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "5. Redmon, J., Divvala, S., Girshick, R., Farhadi, A.: You only look once: unified, real-time object detection. In: CVPR (2016)"
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "6. Girshick, R.: Fast R-CNN. In: ICCV (2015)",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "6. Girshick, R.: Fast R-CNN. In: ICCV (2015)"
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "7. Erhan, D., Szegedy, C., Toshev, A., Anguelov, D.: Scalable object detection using deep neural networks. In: CVPR (2014)",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "7. Erhan, D., Szegedy, C., Toshev, A., Anguelov, D.: Scalable object detection using deep neural networks. In: CVPR (2014)"
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "8. Szegedy, C., Reed, S., Erhan, D., Anguelov, D.: Scalable, high-quality object detection. arXiv preprint v3 (2015). arXiv:1412.1441",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "8. Szegedy, C., Reed, S., Erhan, D., Anguelov, D.: Scalable, high-quality object detection. arXiv preprint v3 (2015). arXiv:1412.1441"
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "9. He, K., Zhang, X., Ren, S., Sun, J.: Spatial pyramid pooling in deep convolutional networks for visual recognition. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014. LNCS, vol. 8691, pp. 346–361. Springer, Heidelberg (2014). doi:10.1007/978-3-319-10578-9 23",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "9. He, K., Zhang, X., Ren, S., Sun, J.: Spatial pyramid pooling in deep convolutional networks for visual recognition. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014.",
+        "LNCS, vol.",
+        "8691, pp.",
+        "346–361.",
+        "Springer, Heidelberg (2014). doi:10.1007/978-3-319-10578-9 23"
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "10. Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic segmentation. In: CVPR (2015)",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "10. Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic segmentation. In: CVPR (2015)"
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "11. Hariharan, B., Arbel´aez, P., Girshick, R., Malik, J.: Hypercolumns for object segmentation and fine-grained localization. In: CVPR (2015)",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "11. Hariharan, B., Arbel´aez, P., Girshick, R., Malik, J.: Hypercolumns for object segmentation and fine-grained localization. In: CVPR (2015)"
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "12. Liu, W., Rabinovich, A., Berg, A.C.: ParseNet: looking wider to see better. In: ILCR (2016)",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "12. Liu, W., Rabinovich, A., Berg, A.C.: ParseNet: looking wider to see better. In: ILCR (2016)"
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "13. Howard, A.G.: Some improvements on deep convolutional neural network based image classification. arXiv preprint (2013). arXiv:1312.5402",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "13. Howard, A.G.: Some improvements on deep convolutional neural network based image classification. arXiv preprint (2013). arXiv:1312.5402"
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "14. Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition. In: NIPS (2015)",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "14. Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition. In: NIPS (2015)"
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "15. Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., Berg, A.C., Fei-Fei, L.: Imagenet large scale visual recognition challenge. IJCV 115, 211 (2015)",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "15. Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., Berg, A.C., Fei-Fei, L.: Imagenet large scale visual recognition challenge. IJCV 115, 211 (2015)"
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "16. Chen, L.C., Papandreou, G., Kokkinos, I., Murphy, K., Yuille, A.L.: Semantic image segmentation with deep convolutional nets and fully connected CRFs. In: ICLR (2015)",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "16. Chen, L.C., Papandreou, G., Kokkinos, I., Murphy, K., Yuille, A.L.: Semantic image segmentation with deep convolutional nets and fully connected CRFs. In: ICLR (2015)"
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "17. Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.: Caffe: convolutional architecture for fast feature embedding. In: MM. ACM (2014)",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "17. Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.: Caffe: convolutional architecture for fast feature embedding. In: MM. ACM (2014)"
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "18. Glorot, X., Bengio, Y.: Understanding the difficulty of training deep feedforward neural networks. In: AISTATS (2010)",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "18. Glorot, X., Bengio, Y.: Understanding the difficulty of training deep feedforward neural networks. In: AISTATS (2010)"
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "19. Hoiem, D., Chodpathumwan, Y., Dai, Q.: Diagnosing error in object detectors. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012. LNCS, vol. 7574, pp. 340–353. Springer, Heidelberg (2012). doi:10.1007/ 978-3-642-33712-3 25",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "19. Hoiem, D., Chodpathumwan, Y., Dai, Q.: Diagnosing error in object detectors. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012.",
+        "LNCS, vol.",
+        "7574, pp.",
+        "340–353.",
+        "Springer, Heidelberg (2012). doi:10.1007/ 978-3-642-33712-3 25"
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "20. Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich feature hierarchies for accurate object detection and semantic segmentation. In: CVPR (2014)",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "20. Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich feature hierarchies for accurate object detection and semantic segmentation. In: CVPR (2014)"
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "21. Bell, S., Zitnick, C.L., Bala, K., Girshick, R.: Inside-outside net: detecting objects in context with skip pooling and recurrent neural networks. In: CVPR (2016)",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "21. Bell, S., Zitnick, C.L., Bala, K., Girshick, R.: Inside-outside net: detecting objects in context with skip pooling and recurrent neural networks. In: CVPR (2016)"
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "22. COCO:Common Objects in Context (2016). http://mscoco.org/dataset/# detections-leaderboard. Accessed 25 July 2016",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "22. COCO:Common Objects in Context (2016). http://mscoco.org/dataset/# detections-leaderboard. Accessed 25 July 2016"
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "23. Felzenszwalb, P., McAllester, D., Ramanan, D.: A discriminatively trained, multiscale, deformable part model. In: CVPR (2008)",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "23. Felzenszwalb, P., McAllester, D., Ramanan, D.: A discriminatively trained, multiscale, deformable part model. In: CVPR (2008)"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "1. Uijlings, J.R., van de Sande, K.E., Gevers, T., Smeulders, A.W.: Selective search for object recognition. IJCV 104, 154 (2013)",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Uijlings, J.R., van de Sande, K.E., Gevers, T., Smeulders, A.W.",
+          "author_candidates": [
+            "Uijlings, J.R.",
+            "Sande, K.E.",
+            "Gevers, T.",
+            "Smeulders, A.W."
+          ],
+          "title_candidate": "Selective search for object recognition. IJCV 104, 154",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Uijlings, J.R., van de Sande, K.E., Gevers, T., Smeulders, A.W.",
+          "author_candidates": [
+            "Uijlings, J.R.",
+            "Sande, K.E.",
+            "Gevers, T.",
+            "Smeulders, A.W."
+          ],
+          "title_candidate": "Selective search for object recognition. IJCV 104, 154",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Uijlings, J.R., van de Sande, K.E., Gevers, T., Smeulders, A.W.",
+          "author_candidates": [
+            "Uijlings, J.R.",
+            "Sande, K.E.",
+            "Gevers, T.",
+            "Smeulders, A.W."
+          ],
+          "title_candidate": "Selective search for object recognition. IJCV 104, 154 (2013)",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "2. Ren, S., He, K., Girshick, R., Sun, J.: Faster R-CNN: towards real-time object detection with region proposal networks. In: NIPS (2015)",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Ren, S., He, K., Girshick, R., Sun, J.",
+          "author_candidates": [
+            "Ren, S.",
+            "He, K.",
+            "Girshick, R.",
+            "Sun, J."
+          ],
+          "title_candidate": "Faster R-CNN: towards real-time object detection with region proposal networks",
+          "container_candidate": "In: NIPS (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Ren, S., He, K., Girshick, R., Sun, J.",
+          "author_candidates": [
+            "Ren, S.",
+            "He, K.",
+            "Girshick, R.",
+            "Sun, J."
+          ],
+          "title_candidate": "Faster R-CNN: towards real-time object detection with region proposal networks",
+          "container_candidate": "NIPS",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ren, S., He, K., Girshick, R., Sun, J.",
+          "author_candidates": [
+            "Ren, S.",
+            "He, K.",
+            "Girshick, R.",
+            "Sun, J."
+          ],
+          "title_candidate": "Faster R-CNN: towards real-time object detection with region proposal networks. In: NIPS",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ren, S., He, K., Girshick, R., Sun, J.",
+          "author_candidates": [
+            "Ren, S.",
+            "He, K.",
+            "Girshick, R.",
+            "Sun, J."
+          ],
+          "title_candidate": "Faster R-CNN: towards real-time object detection with region proposal networks. In: NIPS (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "3. He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: CVPR (2016)",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In: CVPR (2016)",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "CVPR",
+          "year_candidate": 2016,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In: CVPR (2016)",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "4. Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., LeCun, Y.: Overfeat: integrated recognition, localization and detection using convolutional networks. In: ICLR (2014)",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., LeCun, Y.",
+          "author_candidates": [
+            "Sermanet, P.",
+            "Eigen, D.",
+            "Zhang, X.",
+            "Mathieu, M.",
+            "Fergus, R.",
+            "LeCun, Y."
+          ],
+          "title_candidate": "Overfeat: integrated recognition, localization and detection using convolutional networks",
+          "container_candidate": "In: ICLR (2014)",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., LeCun, Y.",
+          "author_candidates": [
+            "Sermanet, P.",
+            "Eigen, D.",
+            "Zhang, X.",
+            "Mathieu, M.",
+            "Fergus, R.",
+            "LeCun, Y."
+          ],
+          "title_candidate": "Overfeat: integrated recognition, localization and detection using convolutional networks",
+          "container_candidate": "ICLR",
+          "year_candidate": 2014,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., LeCun, Y.",
+          "author_candidates": [
+            "Sermanet, P.",
+            "Eigen, D.",
+            "Zhang, X.",
+            "Mathieu, M.",
+            "Fergus, R.",
+            "LeCun, Y."
+          ],
+          "title_candidate": "Overfeat: integrated recognition, localization and detection using convolutional networks. In: ICLR",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Sermanet, P., Eigen, D., Zhang, X., Mathieu, M., Fergus, R., LeCun, Y.",
+          "author_candidates": [
+            "Sermanet, P.",
+            "Eigen, D.",
+            "Zhang, X.",
+            "Mathieu, M.",
+            "Fergus, R.",
+            "LeCun, Y."
+          ],
+          "title_candidate": "Overfeat: integrated recognition, localization and detection using convolutional networks. In: ICLR (2014)",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "5. Redmon, J., Divvala, S., Girshick, R., Farhadi, A.: You only look once: unified, real-time object detection. In: CVPR (2016)",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "venue_marker_split",
+          "author_text": "Redmon, J., Divvala, S., Girshick, R., Farhadi, A.",
+          "author_candidates": [
+            "Redmon, J.",
+            "Divvala, S.",
+            "Girshick, R.",
+            "Farhadi, A."
+          ],
+          "title_candidate": "You only look once: unified, real-time object detection",
+          "container_candidate": "In: CVPR (2016)",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Redmon, J., Divvala, S., Girshick, R., Farhadi, A.",
+          "author_candidates": [
+            "Redmon, J.",
+            "Divvala, S.",
+            "Girshick, R.",
+            "Farhadi, A."
+          ],
+          "title_candidate": "You only look once: unified, real-time object detection",
+          "container_candidate": "CVPR",
+          "year_candidate": 2016,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Redmon, J., Divvala, S., Girshick, R., Farhadi, A.",
+          "author_candidates": [
+            "Redmon, J.",
+            "Divvala, S.",
+            "Girshick, R.",
+            "Farhadi, A."
+          ],
+          "title_candidate": "You only look once: unified, real-time object detection. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Redmon, J., Divvala, S., Girshick, R., Farhadi, A.",
+          "author_candidates": [
+            "Redmon, J.",
+            "Divvala, S.",
+            "Girshick, R.",
+            "Farhadi, A."
+          ],
+          "title_candidate": "You only look once: unified, real-time object detection. In: CVPR (2016)",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "6. Girshick, R.: Fast R-CNN. In: ICCV (2015)",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Girshick, R.",
+          "author_candidates": [
+            "Girshick, R."
+          ],
+          "title_candidate": "Fast R-CNN",
+          "container_candidate": "In: ICCV (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Girshick, R.",
+          "author_candidates": [
+            "Girshick, R."
+          ],
+          "title_candidate": "Fast R-CNN",
+          "container_candidate": "ICCV",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Girshick, R.",
+          "author_candidates": [
+            "Girshick, R."
+          ],
+          "title_candidate": "Fast R-CNN. In: ICCV",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Girshick, R.",
+          "author_candidates": [
+            "Girshick, R."
+          ],
+          "title_candidate": "Fast R-CNN. In: ICCV (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "7. Erhan, D., Szegedy, C., Toshev, A., Anguelov, D.: Scalable object detection using deep neural networks. In: CVPR (2014)",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Erhan, D., Szegedy, C., Toshev, A., Anguelov, D.",
+          "author_candidates": [
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Toshev, A.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "Scalable object detection using deep neural networks",
+          "container_candidate": "In: CVPR (2014)",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Erhan, D., Szegedy, C., Toshev, A., Anguelov, D.",
+          "author_candidates": [
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Toshev, A.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "Scalable object detection using deep neural networks",
+          "container_candidate": "CVPR",
+          "year_candidate": 2014,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Erhan, D., Szegedy, C., Toshev, A., Anguelov, D.",
+          "author_candidates": [
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Toshev, A.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "Scalable object detection using deep neural networks. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Erhan, D., Szegedy, C., Toshev, A., Anguelov, D.",
+          "author_candidates": [
+            "Erhan, D.",
+            "Szegedy, C.",
+            "Toshev, A.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "Scalable object detection using deep neural networks. In: CVPR (2014)",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "8. Szegedy, C., Reed, S., Erhan, D., Anguelov, D.: Scalable, high-quality object detection. arXiv preprint v3 (2015). arXiv:1412.1441",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Szegedy, C., Reed, S., Erhan, D., Anguelov, D.: Scalable, high-quality object detection",
+          "author_candidates": [
+            "Szegedy, C.",
+            "Reed, S.",
+            "Erhan, D.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "arXiv preprint v3 (2015)",
+          "container_candidate": "arXiv:1412.1441",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Szegedy, C., Reed, S., Erhan, D., Anguelov, D.: Scalable, high-quality object detection",
+          "author_candidates": [
+            "Szegedy, C.",
+            "Reed, S.",
+            "Erhan, D.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "arXiv preprint v3 (2015)",
+          "container_candidate": "arXiv:1412.1441",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_year_paren_title_venue",
+          "author_text": "Szegedy, C., Reed, S., Erhan, D., Anguelov, D.: Scalable, high-quality object detection. arXiv preprint v3",
+          "author_candidates": [
+            "Szegedy, C.",
+            "Reed, S.",
+            "Erhan, D.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "arXiv:1412.1441",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.8,
+          "metadata": {
+            "split_basis": "authors before year parentheses, title after year marker"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Szegedy, C., Reed, S., Erhan, D., Anguelov, D.",
+          "author_candidates": [
+            "Szegedy, C.",
+            "Reed, S.",
+            "Erhan, D.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "Scalable, high-quality object detection. arXiv preprint v3 (2015). arXiv:1412.1441",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Szegedy, C., Reed, S., Erhan, D., Anguelov, D.",
+          "author_candidates": [
+            "Szegedy, C.",
+            "Reed, S.",
+            "Erhan, D.",
+            "Anguelov, D."
+          ],
+          "title_candidate": "Scalable, high-quality object detection. arXiv preprint v3 (2015). arXiv:1412.1441",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "9. He, K., Zhang, X., Ren, S., Sun, J.: Spatial pyramid pooling in deep convolutional networks for visual recognition. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Spatial pyramid pooling in deep convolutional networks for visual recognition",
+          "container_candidate": "In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.: Spatial pyramid pooling in deep convolutional networks for visual recognition",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T",
+          "container_candidate": "(eds.) ECCV",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Spatial pyramid pooling in deep convolutional networks for visual recognition. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "He, K., Zhang, X., Ren, S., Sun, J.",
+          "author_candidates": [
+            "He, K.",
+            "Zhang, X.",
+            "Ren, S.",
+            "Sun, J."
+          ],
+          "title_candidate": "Spatial pyramid pooling in deep convolutional networks for visual recognition. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "LNCS, vol.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "LNCS, vol.",
+          "author_candidates": [
+            "LNCS, vol."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "8691, pp.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "8691, pp.",
+          "author_candidates": [
+            "8691, pp."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "346–361.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "346–361.",
+          "author_candidates": [
+            "346–361."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "Springer, Heidelberg (2014). doi:10.1007/978-3-319-10578-9 23",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "authors_year_paren_title_venue",
+          "author_text": "Springer, Heidelberg",
+          "author_candidates": [
+            "Springer, Heidelberg"
+          ],
+          "title_candidate": "doi:10.1007/978-3-319-10578-9 23",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.8,
+          "metadata": {
+            "split_basis": "authors before year parentheses, title after year marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Springer, Heidelberg (2014). doi",
+          "author_candidates": [
+            "Springer, Heidelberg"
+          ],
+          "title_candidate": "10.1007/978-3-319-10578-9 23",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Springer, Heidelberg (2014). doi",
+          "author_candidates": [
+            "Springer, Heidelberg"
+          ],
+          "title_candidate": "10.1007/978-3-319-10578-9 23",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "10. Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic segmentation. In: CVPR (2015)",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "Long, J., Shelhamer, E., Darrell, T.",
+          "author_candidates": [
+            "Long, J.",
+            "Shelhamer, E.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation",
+          "container_candidate": "In: CVPR (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Long, J., Shelhamer, E., Darrell, T.",
+          "author_candidates": [
+            "Long, J.",
+            "Shelhamer, E.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation",
+          "container_candidate": "CVPR",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Long, J., Shelhamer, E., Darrell, T.",
+          "author_candidates": [
+            "Long, J.",
+            "Shelhamer, E.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Long, J., Shelhamer, E., Darrell, T.",
+          "author_candidates": [
+            "Long, J.",
+            "Shelhamer, E.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation. In: CVPR (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "11. Hariharan, B., Arbel´aez, P., Girshick, R., Malik, J.: Hypercolumns for object segmentation and fine-grained localization. In: CVPR (2015)",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Hariharan, B., Arbel´aez, P., Girshick, R., Malik, J.",
+          "author_candidates": [
+            "Hariharan, B.",
+            "Girshick, R.",
+            "Malik, J."
+          ],
+          "title_candidate": "Hypercolumns for object segmentation and fine-grained localization",
+          "container_candidate": "In: CVPR (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Hariharan, B., Arbel´aez, P., Girshick, R., Malik, J.",
+          "author_candidates": [
+            "Hariharan, B.",
+            "Girshick, R.",
+            "Malik, J."
+          ],
+          "title_candidate": "Hypercolumns for object segmentation and fine-grained localization",
+          "container_candidate": "CVPR",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hariharan, B., Arbel´aez, P., Girshick, R., Malik, J.",
+          "author_candidates": [
+            "Hariharan, B.",
+            "Girshick, R.",
+            "Malik, J."
+          ],
+          "title_candidate": "Hypercolumns for object segmentation and fine-grained localization. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hariharan, B., Arbel´aez, P., Girshick, R., Malik, J.",
+          "author_candidates": [
+            "Hariharan, B.",
+            "Girshick, R.",
+            "Malik, J."
+          ],
+          "title_candidate": "Hypercolumns for object segmentation and fine-grained localization. In: CVPR (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "12. Liu, W., Rabinovich, A., Berg, A.C.: ParseNet: looking wider to see better. In: ILCR (2016)",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Liu, W., Rabinovich, A., Berg, A.C.",
+          "author_candidates": [
+            "Liu, W.",
+            "Rabinovich, A.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "ParseNet: looking wider to see better",
+          "container_candidate": "In: ILCR (2016)",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Liu, W., Rabinovich, A., Berg, A.C.",
+          "author_candidates": [
+            "Liu, W.",
+            "Rabinovich, A.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "ParseNet: looking wider to see better",
+          "container_candidate": "ILCR",
+          "year_candidate": 2016,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liu, W., Rabinovich, A., Berg, A.C.",
+          "author_candidates": [
+            "Liu, W.",
+            "Rabinovich, A.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "ParseNet: looking wider to see better. In: ILCR",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liu, W., Rabinovich, A., Berg, A.C.",
+          "author_candidates": [
+            "Liu, W.",
+            "Rabinovich, A.",
+            "Berg, A.C."
+          ],
+          "title_candidate": "ParseNet: looking wider to see better. In: ILCR (2016)",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "13. Howard, A.G.: Some improvements on deep convolutional neural network based image classification. arXiv preprint (2013). arXiv:1312.5402",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Howard, A.G.: Some improvements on deep convolutional neural network based image classification",
+          "author_candidates": [
+            "Howard, A.G."
+          ],
+          "title_candidate": "arXiv preprint (2013)",
+          "container_candidate": "arXiv:1312.5402",
+          "year_candidate": 2013,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Howard, A.G.: Some improvements on deep convolutional neural network based image classification",
+          "author_candidates": [
+            "Howard, A.G."
+          ],
+          "title_candidate": "arXiv preprint (2013)",
+          "container_candidate": "arXiv:1312.5402",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_year_paren_title_venue",
+          "author_text": "Howard, A.G.: Some improvements on deep convolutional neural network based image classification. arXiv preprint",
+          "author_candidates": [
+            "Howard, A.G."
+          ],
+          "title_candidate": "arXiv:1312.5402",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.8,
+          "metadata": {
+            "split_basis": "authors before year parentheses, title after year marker"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Howard, A.G.",
+          "author_candidates": [
+            "Howard, A.G."
+          ],
+          "title_candidate": "Some improvements on deep convolutional neural network based image classification. arXiv preprint (2013). arXiv:1312.5402",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Howard, A.G.",
+          "author_candidates": [
+            "Howard, A.G."
+          ],
+          "title_candidate": "Some improvements on deep convolutional neural network based image classification. arXiv preprint (2013). arXiv:1312.5402",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "14. Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition. In: NIPS (2015)",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Simonyan, K., Zisserman, A.",
+          "author_candidates": [
+            "Simonyan, K.",
+            "Zisserman, A."
+          ],
+          "title_candidate": "Very deep convolutional networks for large-scale image recognition",
+          "container_candidate": "In: NIPS (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Simonyan, K., Zisserman, A.",
+          "author_candidates": [
+            "Simonyan, K.",
+            "Zisserman, A."
+          ],
+          "title_candidate": "Very deep convolutional networks for large-scale image recognition",
+          "container_candidate": "NIPS",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Simonyan, K., Zisserman, A.",
+          "author_candidates": [
+            "Simonyan, K.",
+            "Zisserman, A."
+          ],
+          "title_candidate": "Very deep convolutional networks for large-scale image recognition. In: NIPS",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Simonyan, K., Zisserman, A.",
+          "author_candidates": [
+            "Simonyan, K.",
+            "Zisserman, A."
+          ],
+          "title_candidate": "Very deep convolutional networks for large-scale image recognition. In: NIPS (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "15. Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., Berg, A.C., Fei-Fei, L.: Imagenet large scale visual recognition challenge. IJCV 115, 211 (2015)",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., Berg, A.C., Fei-Fei, L.",
+          "author_candidates": [
+            "Russakovsky, O.",
+            "Deng, J.",
+            "Su, H.",
+            "Krause, J.",
+            "Satheesh, S.",
+            "Ma, S.",
+            "Huang, Z.",
+            "Karpathy, A.",
+            "Khosla, A.",
+            "Bernstein, M.",
+            "Berg, A.C.",
+            "Fei-Fei, L."
+          ],
+          "title_candidate": "Imagenet large scale visual recognition challenge. IJCV 115, 211",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., Berg, A.C., Fei-Fei, L.",
+          "author_candidates": [
+            "Russakovsky, O.",
+            "Deng, J.",
+            "Su, H.",
+            "Krause, J.",
+            "Satheesh, S.",
+            "Ma, S.",
+            "Huang, Z.",
+            "Karpathy, A.",
+            "Khosla, A.",
+            "Bernstein, M.",
+            "Berg, A.C.",
+            "Fei-Fei, L."
+          ],
+          "title_candidate": "Imagenet large scale visual recognition challenge. IJCV 115, 211",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., Berg, A.C., Fei-Fei, L.",
+          "author_candidates": [
+            "Russakovsky, O.",
+            "Deng, J.",
+            "Su, H.",
+            "Krause, J.",
+            "Satheesh, S.",
+            "Ma, S.",
+            "Huang, Z.",
+            "Karpathy, A.",
+            "Khosla, A.",
+            "Bernstein, M.",
+            "Berg, A.C.",
+            "Fei-Fei, L."
+          ],
+          "title_candidate": "Imagenet large scale visual recognition challenge. IJCV 115, 211 (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "16. Chen, L.C., Papandreou, G., Kokkinos, I., Murphy, K., Yuille, A.L.: Semantic image segmentation with deep convolutional nets and fully connected CRFs. In: ICLR (2015)",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Chen, L.C., Papandreou, G., Kokkinos, I., Murphy, K., Yuille, A.L.",
+          "author_candidates": [
+            "Chen, L.C.",
+            "Papandreou, G.",
+            "Kokkinos, I.",
+            "Murphy, K.",
+            "Yuille, A.L."
+          ],
+          "title_candidate": "Semantic image segmentation with deep convolutional nets and fully connected CRFs",
+          "container_candidate": "In: ICLR (2015)",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Chen, L.C., Papandreou, G., Kokkinos, I., Murphy, K., Yuille, A.L.",
+          "author_candidates": [
+            "Chen, L.C.",
+            "Papandreou, G.",
+            "Kokkinos, I.",
+            "Murphy, K.",
+            "Yuille, A.L."
+          ],
+          "title_candidate": "Semantic image segmentation with deep convolutional nets and fully connected CRFs",
+          "container_candidate": "ICLR",
+          "year_candidate": 2015,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chen, L.C., Papandreou, G., Kokkinos, I., Murphy, K., Yuille, A.L.",
+          "author_candidates": [
+            "Chen, L.C.",
+            "Papandreou, G.",
+            "Kokkinos, I.",
+            "Murphy, K.",
+            "Yuille, A.L."
+          ],
+          "title_candidate": "Semantic image segmentation with deep convolutional nets and fully connected CRFs. In: ICLR",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chen, L.C., Papandreou, G., Kokkinos, I., Murphy, K., Yuille, A.L.",
+          "author_candidates": [
+            "Chen, L.C.",
+            "Papandreou, G.",
+            "Kokkinos, I.",
+            "Murphy, K.",
+            "Yuille, A.L."
+          ],
+          "title_candidate": "Semantic image segmentation with deep convolutional nets and fully connected CRFs. In: ICLR (2015)",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "17. Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.: Caffe: convolutional architecture for fast feature embedding. In: MM. ACM (2014)",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.",
+          "author_candidates": [
+            "Jia, Y.",
+            "Shelhamer, E.",
+            "Donahue, J.",
+            "Karayev, S.",
+            "Long, J.",
+            "Girshick, R.",
+            "Guadarrama, S.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Caffe: convolutional architecture for fast feature embedding",
+          "container_candidate": "In: MM. ACM (2014)",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.",
+          "author_candidates": [
+            "Jia, Y.",
+            "Shelhamer, E.",
+            "Donahue, J.",
+            "Karayev, S.",
+            "Long, J.",
+            "Girshick, R.",
+            "Guadarrama, S.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Caffe: convolutional architecture for fast feature embedding",
+          "container_candidate": "MM. ACM",
+          "year_candidate": 2014,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.: Caffe: convolutional architecture for fast feature embedding",
+          "author_candidates": [
+            "Jia, Y.",
+            "Shelhamer, E.",
+            "Donahue, J.",
+            "Karayev, S.",
+            "Long, J.",
+            "Girshick, R.",
+            "Guadarrama, S.",
+            "Darrell, T."
+          ],
+          "title_candidate": "In: MM",
+          "container_candidate": "ACM",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.",
+          "author_candidates": [
+            "Jia, Y.",
+            "Shelhamer, E.",
+            "Donahue, J.",
+            "Karayev, S.",
+            "Long, J.",
+            "Girshick, R.",
+            "Guadarrama, S.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Caffe: convolutional architecture for fast feature embedding. In: MM. ACM",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jia, Y., Shelhamer, E., Donahue, J., Karayev, S., Long, J., Girshick, R., Guadarrama, S., Darrell, T.",
+          "author_candidates": [
+            "Jia, Y.",
+            "Shelhamer, E.",
+            "Donahue, J.",
+            "Karayev, S.",
+            "Long, J.",
+            "Girshick, R.",
+            "Guadarrama, S.",
+            "Darrell, T."
+          ],
+          "title_candidate": "Caffe: convolutional architecture for fast feature embedding. In: MM. ACM (2014)",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "18. Glorot, X., Bengio, Y.: Understanding the difficulty of training deep feedforward neural networks. In: AISTATS (2010)",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Glorot, X., Bengio, Y.",
+          "author_candidates": [
+            "Glorot, X.",
+            "Bengio, Y."
+          ],
+          "title_candidate": "Understanding the difficulty of training deep feedforward neural networks",
+          "container_candidate": "In: AISTATS (2010)",
+          "year_candidate": 2010,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Glorot, X., Bengio, Y.",
+          "author_candidates": [
+            "Glorot, X.",
+            "Bengio, Y."
+          ],
+          "title_candidate": "Understanding the difficulty of training deep feedforward neural networks",
+          "container_candidate": "AISTATS",
+          "year_candidate": 2010,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Glorot, X., Bengio, Y.",
+          "author_candidates": [
+            "Glorot, X.",
+            "Bengio, Y."
+          ],
+          "title_candidate": "Understanding the difficulty of training deep feedforward neural networks. In: AISTATS",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Glorot, X., Bengio, Y.",
+          "author_candidates": [
+            "Glorot, X.",
+            "Bengio, Y."
+          ],
+          "title_candidate": "Understanding the difficulty of training deep feedforward neural networks. In: AISTATS (2010)",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "19. Hoiem, D., Chodpathumwan, Y., Dai, Q.: Diagnosing error in object detectors. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Hoiem, D., Chodpathumwan, Y., Dai, Q.",
+          "author_candidates": [
+            "Hoiem, D.",
+            "Chodpathumwan, Y.",
+            "Dai, Q."
+          ],
+          "title_candidate": "Diagnosing error in object detectors",
+          "container_candidate": "In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012",
+          "year_candidate": 2012,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Hoiem, D., Chodpathumwan, Y., Dai, Q.: Diagnosing error in object detectors",
+          "author_candidates": [
+            "Hoiem, D.",
+            "Chodpathumwan, Y.",
+            "Dai, Q."
+          ],
+          "title_candidate": "In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C",
+          "container_candidate": "(eds.) ECCV",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hoiem, D., Chodpathumwan, Y., Dai, Q.",
+          "author_candidates": [
+            "Hoiem, D.",
+            "Chodpathumwan, Y.",
+            "Dai, Q."
+          ],
+          "title_candidate": "Diagnosing error in object detectors. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hoiem, D., Chodpathumwan, Y., Dai, Q.",
+          "author_candidates": [
+            "Hoiem, D.",
+            "Chodpathumwan, Y.",
+            "Dai, Q."
+          ],
+          "title_candidate": "Diagnosing error in object detectors. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "LNCS, vol.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "LNCS, vol.",
+          "author_candidates": [
+            "LNCS, vol."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "7574, pp.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "7574, pp.",
+          "author_candidates": [
+            "7574, pp."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "340–353.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "340–353.",
+          "author_candidates": [
+            "340–353."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "Springer, Heidelberg (2012). doi:10.1007/ 978-3-642-33712-3 25",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "authors_year_paren_title_venue",
+          "author_text": "Springer, Heidelberg",
+          "author_candidates": [
+            "Springer, Heidelberg"
+          ],
+          "title_candidate": "doi:10.1007/ 978-3-642-33712-3 25",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.8,
+          "metadata": {
+            "split_basis": "authors before year parentheses, title after year marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Springer, Heidelberg (2012). doi",
+          "author_candidates": [
+            "Springer, Heidelberg"
+          ],
+          "title_candidate": "10.1007/ 978-3-642-33712-3 25",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Springer, Heidelberg (2012). doi",
+          "author_candidates": [
+            "Springer, Heidelberg"
+          ],
+          "title_candidate": "10.1007/ 978-3-642-33712-3 25",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "20. Girshick, R., Donahue, J., Darrell, T., Malik, J.: Rich feature hierarchies for accurate object detection and semantic segmentation. In: CVPR (2014)",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Girshick, R., Donahue, J., Darrell, T., Malik, J.",
+          "author_candidates": [
+            "Girshick, R.",
+            "Donahue, J.",
+            "Darrell, T.",
+            "Malik, J."
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+          "container_candidate": "In: CVPR (2014)",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Girshick, R., Donahue, J., Darrell, T., Malik, J.",
+          "author_candidates": [
+            "Girshick, R.",
+            "Donahue, J.",
+            "Darrell, T.",
+            "Malik, J."
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+          "container_candidate": "CVPR",
+          "year_candidate": 2014,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Girshick, R., Donahue, J., Darrell, T., Malik, J.",
+          "author_candidates": [
+            "Girshick, R.",
+            "Donahue, J.",
+            "Darrell, T.",
+            "Malik, J."
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Girshick, R., Donahue, J., Darrell, T., Malik, J.",
+          "author_candidates": [
+            "Girshick, R.",
+            "Donahue, J.",
+            "Darrell, T.",
+            "Malik, J."
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation. In: CVPR (2014)",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "21. Bell, S., Zitnick, C.L., Bala, K., Girshick, R.: Inside-outside net: detecting objects in context with skip pooling and recurrent neural networks. In: CVPR (2016)",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Bell, S., Zitnick, C.L., Bala, K., Girshick, R.",
+          "author_candidates": [
+            "Bell, S.",
+            "Zitnick, C.L.",
+            "Bala, K.",
+            "Girshick, R."
+          ],
+          "title_candidate": "Inside-outside net: detecting objects in context with skip pooling and recurrent neural networks",
+          "container_candidate": "In: CVPR (2016)",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Bell, S., Zitnick, C.L., Bala, K., Girshick, R.",
+          "author_candidates": [
+            "Bell, S.",
+            "Zitnick, C.L.",
+            "Bala, K.",
+            "Girshick, R."
+          ],
+          "title_candidate": "Inside-outside net: detecting objects in context with skip pooling and recurrent neural networks",
+          "container_candidate": "CVPR",
+          "year_candidate": 2016,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bell, S., Zitnick, C.L., Bala, K., Girshick, R.",
+          "author_candidates": [
+            "Bell, S.",
+            "Zitnick, C.L.",
+            "Bala, K.",
+            "Girshick, R."
+          ],
+          "title_candidate": "Inside-outside net: detecting objects in context with skip pooling and recurrent neural networks. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bell, S., Zitnick, C.L., Bala, K., Girshick, R.",
+          "author_candidates": [
+            "Bell, S.",
+            "Zitnick, C.L.",
+            "Bala, K.",
+            "Girshick, R."
+          ],
+          "title_candidate": "Inside-outside net: detecting objects in context with skip pooling and recurrent neural networks. In: CVPR (2016)",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "22. COCO:Common Objects in Context (2016). http://mscoco.org/dataset/# detections-leaderboard. Accessed 25 July 2016",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "COCO:Common Objects in Context (2016)",
+          "author_candidates": [
+            "COCO:Common Objects in Context (2016)"
+          ],
+          "title_candidate": "http://mscoco.org/dataset/# detections-leaderboard",
+          "container_candidate": "Accessed 25 July",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_year_paren_title_venue",
+          "author_text": "COCO:Common Objects in Context",
+          "author_candidates": [
+            "COCO:Common Objects in Context"
+          ],
+          "title_candidate": "http://mscoco.org/dataset/# detections-leaderboard",
+          "container_candidate": "Accessed 25 July 2016",
+          "year_candidate": 2016,
+          "confidence": 0.8,
+          "metadata": {
+            "split_basis": "authors before year parentheses, title after year marker"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "COCO",
+          "author_candidates": [
+            "COCO"
+          ],
+          "title_candidate": "Common Objects in Context (2016). http://mscoco.org/dataset/# detections-leaderboard. Accessed 25 July",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "COCO",
+          "author_candidates": [
+            "COCO"
+          ],
+          "title_candidate": "Common Objects in Context (2016). http://mscoco.org/dataset/# detections-leaderboard. Accessed 25 July 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "23. Felzenszwalb, P., McAllester, D., Ramanan, D.: A discriminatively trained, multiscale, deformable part model. In: CVPR (2008)",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Felzenszwalb, P., McAllester, D., Ramanan, D.",
+          "author_candidates": [
+            "Felzenszwalb, P.",
+            "McAllester, D.",
+            "Ramanan, D."
+          ],
+          "title_candidate": "A discriminatively trained, multiscale, deformable part model",
+          "container_candidate": "In: CVPR (2008)",
+          "year_candidate": 2008,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_colon_title_in_year",
+          "author_text": "Felzenszwalb, P., McAllester, D., Ramanan, D.",
+          "author_candidates": [
+            "Felzenszwalb, P.",
+            "McAllester, D.",
+            "Ramanan, D."
+          ],
+          "title_candidate": "A discriminatively trained, multiscale, deformable part model",
+          "container_candidate": "CVPR",
+          "year_candidate": 2008,
+          "confidence": 0.92,
+          "metadata": {
+            "split_basis": "authors block before ':' and title before optional In:/year tail"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Felzenszwalb, P., McAllester, D., Ramanan, D.",
+          "author_candidates": [
+            "Felzenszwalb, P.",
+            "McAllester, D.",
+            "Ramanan, D."
+          ],
+          "title_candidate": "A discriminatively trained, multiscale, deformable part model. In: CVPR",
+          "container_candidate": "",
+          "year_candidate": 2008,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Felzenszwalb, P., McAllester, D., Ramanan, D.",
+          "author_candidates": [
+            "Felzenszwalb, P.",
+            "McAllester, D.",
+            "Ramanan, D."
+          ],
+          "title_candidate": "A discriminatively trained, multiscale, deformable part model. In: CVPR (2008)",
+          "container_candidate": "",
+          "year_candidate": 2008,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 30,
+      "metadata": {
+        "entry_count": 1
+      }
+    }
+  ],
+  "suspect_blocks": [
+    {
+      "block_index": 16,
+      "source_text": "9. He, K., Zhang, X., Ren, S., Sun, J.: Spatial pyramid pooling in deep convolutional networks for visual recognition. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014. LNCS, vol. 8691, pp. 346–361. Springer, Heidelberg (2014). doi:10.1007/978-3-319-10578-9 23",
+      "line_start": 17,
+      "line_end": 17,
+      "reasons": [
+        "single line contains multiple strong reference starts"
+      ],
+      "proposed_entries": [
+        "9. He, K., Zhang, X., Ren, S., Sun, J.: Spatial pyramid pooling in deep convolutional networks for visual recognition. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014.",
+        "LNCS, vol.",
+        "8691, pp.",
+        "346–361.",
+        "Springer, Heidelberg (2014). doi:10.1007/978-3-319-10578-9 23"
+      ],
+      "suspicion_kind": "grouped_entries_in_single_line"
+    },
+    {
+      "block_index": 36,
+      "source_text": "19. Hoiem, D., Chodpathumwan, Y., Dai, Q.: Diagnosing error in object detectors. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012. LNCS, vol. 7574, pp. 340–353. Springer, Heidelberg (2012). doi:10.1007/ 978-3-642-33712-3 25",
+      "line_start": 37,
+      "line_end": 37,
+      "reasons": [
+        "single line contains multiple strong reference starts"
+      ],
+      "proposed_entries": [
+        "19. Hoiem, D., Chodpathumwan, Y., Dai, Q.: Diagnosing error in object detectors. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012.",
+        "LNCS, vol.",
+        "7574, pp.",
+        "340–353.",
+        "Springer, Heidelberg (2012). doi:10.1007/ 978-3-642-33712-3 25"
+      ],
+      "suspicion_kind": "grouped_entries_in_single_line"
+    }
+  ],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_title_boundary_suspect: entry_index=9 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=10 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=11 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=23 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=24 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=25 pattern=fallback_raw_split",
+    "reference_entry_grouping_suspect: block_index=16",
+    "reference_entry_grouping_suspect: block_index=36"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.1935483870967742,
+    "year_ratio": 0.8064516129032258,
+    "warning_density": 1.064516129032258,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.1935483870967742
+  },
+  "file_quality_low": false
+}

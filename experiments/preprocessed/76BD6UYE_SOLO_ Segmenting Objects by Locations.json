@@ -1,0 +1,2308 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:41Z",
+    "entry_count": 35,
+    "candidate_count": 88,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, Cichos F, Kapral R, Gaspard P, Ripoll M, Sagues F, Doostmohammadi A, Yeomans J M, Aranson I S, Bechinger C, Stark H, Hemelrijk C K, Nedelec F J, Sarkar T, Aryaksama T, Lacroix M, Duclos G, Yashunsky V, Silberzan P, Arroyo M and Kale S 2020 Journal of Physics: Condensed Matter 32 193001 URL https://doi.org/10.1088/ 1361-648x/ab6348",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, Cichos F, Kapral R, Gaspard P, Ripoll M, Sagues F, Doostmohammadi A, Yeomans J M, Aranson I S, Bechinger C, Stark H, Hemelrijk C K, Nedelec F J, Sarkar T, Aryaksama T, Lacroix M, Duclos G, Yashunsky V, Silberzan P, Arroyo M and Kale S 2020 Journal of Physics: Condensed Matter 32 193001 URL https://doi.org/10.1088/ 1361-648x/ab6348"
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https: //doi.org/10.1146/annurev-conmatphys-070909-104101",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https: //doi.org/10.1146/annurev-conmatphys-070909-104101"
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M and Simha R A 2013 Rev. Mod. Phys. 85(3) 1143–1189 URL https://link.aps.org/doi/10.1103/RevModPhys. 85.1143",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M and Simha R A 2013 Rev. Mod. Phys. 85(3) 1143–1189 URL https://link.aps.org/doi/10.1103/RevModPhys.",
+        "85.1143"
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] Bechinger C, Di Leonardo R, L¨owen H, Reichhardt C, Volpe G and Volpe G 2016 Reviews of Modern Physics 88 045006 URL https://journals.aps.org/rmp/abstract/10.1103/ RevModPhys.88.045006",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] Bechinger C, Di Leonardo R, L¨owen H, Reichhardt C, Volpe G and Volpe G 2016 Reviews of Modern Physics 88 045006 URL https://journals.aps.org/rmp/abstract/10.1103/ RevModPhys.88.045006"
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] Golestanian R 2019 Phoretic Active Matter (Preprint arXiv:1909.03747)",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] Golestanian R 2019 Phoretic Active Matter (Preprint arXiv:1909.03747)"
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] Cates M E and Tailleur J 2015 Annu. Rev. Condens. Matter Phys. 6 219–244 URL http: //www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031214-014710",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] Cates M E and Tailleur J 2015 Annu. Rev. Condens. Matter Phys. 6 219–244 URL http: //www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031214-014710"
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] Henkes S, Fily Y and Marchetti M C 2011 Phys. Rev. E 84(4) 040301 URL https://link.aps. org/doi/10.1103/PhysRevE.84.040301",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] Henkes S, Fily Y and Marchetti M C 2011 Phys. Rev. E 84(4) 040301 URL https://link.aps. org/doi/10.1103/PhysRevE.84.040301"
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] Redner G S, Hagan M F and Baskaran A 2013 Phys. Rev. Lett. 110(5) 055701 URL https: //link.aps.org/doi/10.1103/PhysRevLett.110.055701",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] Redner G S, Hagan M F and Baskaran A 2013 Phys. Rev. Lett. 110(5) 055701 URL https: //link.aps.org/doi/10.1103/PhysRevLett.110.055701"
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C and Speck T 2013 Phys. Rev. Lett. 110(23) 238301 URL https://link.aps.org/doi/10.1103/PhysRevLett.110.238301",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C and Speck T 2013 Phys. Rev. Lett. 110(23) 238301 URL https://link.aps.org/doi/10.1103/PhysRevLett.110.238301"
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] Soto R and Golestanian R 2014 Phys. Rev. E 89(1) 012706 URL https://link.aps.org/doi/ 10.1103/PhysRevE.89.012706",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] Soto R and Golestanian R 2014 Phys. Rev. E 89(1) 012706 URL https://link.aps.org/doi/ 10.1103/PhysRevE.89.012706"
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12 9821–9831 URL https://doi.org/10.1039/c6sm02042a",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12 9821–9831 URL https://doi.org/10.1039/c6sm02042a"
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G and Pagonabarraga I 2018 Phys. Rev. Lett. 121(9) 098003 URL https://link.aps.org/doi/10.1103/PhysRevLett.121.098003",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G and Pagonabarraga I 2018 Phys. Rev. Lett. 121(9) 098003 URL https://link.aps.org/doi/10.1103/PhysRevLett.121.098003"
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[13] Abaurrea Velasco C, Abkenar M, Gompper G and Auth T 2018 Phys. Rev. E 98(2) 022605 URL https://link.aps.org/doi/10.1103/PhysRevE.98.022605",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[13] Abaurrea Velasco C, Abkenar M, Gompper G and Auth T 2018 Phys. Rev. E 98(2) 022605 URL https://link.aps.org/doi/10.1103/PhysRevE.98.022605"
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[14] Solon A P, Chat´e H and Tailleur J 2015 Phys. Rev. Lett. 114 068101 URL https://journals. aps.org/prl/abstract/10.1103/PhysRevLett.114.068101",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[14] Solon A P, Chat´e H and Tailleur J 2015 Phys. Rev. Lett. 114 068101 URL https://journals. aps.org/prl/abstract/10.1103/PhysRevLett.114.068101"
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[15] Chat´e H 2020 Annual Review of Condensed Matter Physics 11 URL https://doi.org/10.1146/ annurev-conmatphys-031119-050752",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[15] Chat´e H 2020 Annual Review of Condensed Matter Physics 11 URL https://doi.org/10.1146/ annurev-conmatphys-031119-050752"
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[16] Golestanian R 2012 Phys. Rev. Lett. 108(3) 038303 URL https://link.aps.org/doi/10.1103/ PhysRevLett.108.038303",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[16] Golestanian R 2012 Phys. Rev. Lett. 108(3) 038303 URL https://link.aps.org/doi/10.1103/ PhysRevLett.108.038303"
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[17] Taktikos J, Zaburdaev V and Stark H 2012 Phys. Rev. E 85(5) 051901 URL https://link.aps. org/doi/10.1103/PhysRevE.85.051901",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[17] Taktikos J, Zaburdaev V and Stark H 2012 Phys. Rev. E 85(5) 051901 URL https://link.aps. org/doi/10.1103/PhysRevE.85.051901"
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[18] Saha S, Golestanian R and Ramaswamy S 2014 Phys. Rev. E 89(6) 062316 URL https: //link.aps.org/doi/10.1103/PhysRevE.89.062316",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[18] Saha S, Golestanian R and Ramaswamy S 2014 Phys. Rev. E 89(6) 062316 URL https: //link.aps.org/doi/10.1103/PhysRevE.89.062316"
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[19] Liebchen B, Marenduzzo D, Pagonabarraga I and Cates M E 2015 Phys. Rev. Lett. 115(25) 258301 URL https://link.aps.org/doi/10.1103/PhysRevLett.115.258301",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[19] Liebchen B, Marenduzzo D, Pagonabarraga I and Cates M E 2015 Phys. Rev. Lett. 115(25) 258301 URL https://link.aps.org/doi/10.1103/PhysRevLett.115.258301"
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[20] Varma A, Montenegro-Johnson T D and Michelin S 2018 Soft Matter 14(35) 7155–7173 URL http://dx.doi.org/10.1039/C8SM00690C",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[20] Varma A, Montenegro-Johnson T D and Michelin S 2018 Soft Matter 14(35) 7155–7173 URL http://dx.doi.org/10.1039/C8SM00690C"
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[21] Agudo-Canalejo J and Golestanian R 2019 Phys. Rev. Lett. 123(1) 018101 URL https://link. aps.org/doi/10.1103/PhysRevLett.123.018101",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[21] Agudo-Canalejo J and Golestanian R 2019 Phys. Rev. Lett. 123(1) 018101 URL https://link. aps.org/doi/10.1103/PhysRevLett.123.018101"
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[22] Z¨ottl A and Stark H 2014 Phys. Rev. Lett. 112(11) 118101 URL https://link.aps.org/doi/ 10.1103/PhysRevLett.112.118101",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[22] Z¨ottl A and Stark H 2014 Phys. Rev. Lett. 112(11) 118101 URL https://link.aps.org/doi/ 10.1103/PhysRevLett.112.118101"
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[23] Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12(48) 9821–9831 URL http://dx.doi.org/10.1039/C6SM02042A",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[23] Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12(48) 9821–9831 URL http://dx.doi.org/10.1039/C6SM02042A"
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[24] Toner J, Tu Y and Ramaswamy S 2005 Annals of Physics 318 170 – 244 ISSN 0003-4916 special Issue URL http://www.sciencedirect.com/science/article/pii/S0003491605000540",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[24] Toner J, Tu Y and Ramaswamy S 2005 Annals of Physics 318 170 – 244 ISSN 0003-4916 special Issue URL http://www.sciencedirect.com/science/article/pii/S0003491605000540"
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[25] Golestanian R 2019 Phys. Rev. E 100(1) 010601 URL https://link.aps.org/doi/10.1103/ PhysRevE.100.010601",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[25] Golestanian R 2019 Phys. Rev. E 100(1) 010601 URL https://link.aps.org/doi/10.1103/ PhysRevE.100.010601"
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[26] Tjhung E, Nardini C and Cates M E 2018 Phys. Rev. X 8(3) 031080 URL https://link.aps. org/doi/10.1103/PhysRevX.8.031080",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[26] Tjhung E, Nardini C and Cates M E 2018 Phys. Rev. X 8(3) 031080 URL https://link.aps. org/doi/10.1103/PhysRevX.8.031080"
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "[27] Golestanian R and Ajdari A 2002 EPL (Europhysics Letters) 59 800 URL http://stacks.iop. org/0295-5075/59/i=6/a=800",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "[27] Golestanian R and Ajdari A 2002 EPL (Europhysics Letters) 59 800 URL http://stacks.iop. org/0295-5075/59/i=6/a=800"
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[28] Ziff R M, Uhlenbeck G E and Kac M 1977 Physics Reports 32 169 – 248 ISSN 0370-1573 URL http://www.sciencedirect.com/science/article/pii/0370157377900527",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[28] Ziff R M, Uhlenbeck G E and Kac M 1977 Physics Reports 32 169 – 248 ISSN 0370-1573 URL http://www.sciencedirect.com/science/article/pii/0370157377900527"
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[29] Bagnato V, Pritchard D E and Kleppner D 1987 Phys. Rev. A 35(10) 4354–4358 URL https: //link.aps.org/doi/10.1103/PhysRevA.35.4354",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[29] Bagnato V, Pritchard D E and Kleppner D 1987 Phys. Rev. A 35(10) 4354–4358 URL https: //link.aps.org/doi/10.1103/PhysRevA.35.4354"
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "[30] Dalfovo F, Giorgini S, Pitaevskii L P and Stringari S 1999 Rev. Mod. Phys. 71(3) 463–512 URL https://link.aps.org/doi/10.1103/RevModPhys.71.463",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "[30] Dalfovo F, Giorgini S, Pitaevskii L P and Stringari S 1999 Rev. Mod. Phys. 71(3) 463–512 URL https://link.aps.org/doi/10.1103/RevModPhys.71.463"
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "[31] Mahault B and Golestanian R 2020 in preparation",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "[31] Mahault B and Golestanian R 2020 in preparation"
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "[32] Chavanis P H 2008 The European Physical Journal B 62 179–208 ISSN 1434-6036 URL https: //doi.org/10.1140/epjb/e2008-00142-9",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "[32] Chavanis P H 2008 The European Physical Journal B 62 179–208 ISSN 1434-6036 URL https: //doi.org/10.1140/epjb/e2008-00142-9"
+      ]
+    },
+    {
+      "block_index": 64,
+      "source_text": "[33] Romero-Roch´ın V 2005 Phys. Rev. Lett. 94(13) 130601 URL https://link.aps.org/doi/10. 1103/PhysRevLett.94.130601",
+      "line_start": 65,
+      "line_end": 65,
+      "proposed_entries": [
+        "[33] Romero-Roch´ın V 2005 Phys. Rev. Lett. 94(13) 130601 URL https://link.aps.org/doi/10. 1103/PhysRevLett.94.130601"
+      ]
+    },
+    {
+      "block_index": 66,
+      "source_text": "[34] Solon A P, Fily Y, Baskaran A, Cates M E, Kafri Y, Kardar M and Tailleur J 2015 Nature Physics 11 673 EP – URL https://doi.org/10.1038/nphys3377",
+      "line_start": 67,
+      "line_end": 67,
+      "proposed_entries": [
+        "[34] Solon A P, Fily Y, Baskaran A, Cates M E, Kafri Y, Kardar M and Tailleur J 2015 Nature Physics 11 673 EP – URL https://doi.org/10.1038/nphys3377"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, Cichos F, Kapral R, Gaspard P, Ripoll M, Sagues F, Doostmohammadi A, Yeomans J M, Aranson I S, Bechinger C, Stark H, Hemelrijk C K, Nedelec F J, Sarkar T, Aryaksama T, Lacroix M, Duclos G, Yashunsky V, Silberzan P, Arroyo M and Kale S 2020 Journal of Physics: Condensed Matter 32 193001 URL https://doi.org/10.1088/ 1361-648x/ab6348",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, Cichos F, Kapral R, Gaspard P, Ripoll M, Sagues F, Doostmohammadi A, Yeomans J M, Aranson I S, Bechinger C, Stark H, Hemelrijk C K, Nedelec F J, Sarkar T, Aryaksama T, Lacroix M, Duclos G, Yashunsky V, Silberzan P, Arroyo M and Kale S 2020 Journal of Physics",
+          "author_candidates": [
+            "Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, Cichos F, Kapral R, Gaspard P, Ripoll M, Sagues F, Doostmohammadi A, Yeomans J M, Aranson I S, Bechinger C, Stark H, Hemelrijk C K, Nedelec F J, Sarkar T, Aryaksama T, Lacroix M, Duclos G, Yashunsky V, Silberzan P, Arroyo M",
+            "Kale S 2020 Journal of Physics"
+          ],
+          "title_candidate": "Condensed Matter 32 193001 URL https://doi.org/10.1088/ 1361-648x/ab6348",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, Cichos F, Kapral R, Gaspard P, Ripoll M, Sagues F, Doostmohammadi A, Yeomans J M, Aranson I S, Bechinger C, Stark H, Hemelrijk C K, Nedelec F J, Sarkar T, Aryaksama T, Lacroix M, Duclos G, Yashunsky V, Silberzan P, Arroyo M and Kale S 2020 Journal of Physics",
+          "author_candidates": [
+            "Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, Cichos F, Kapral R, Gaspard P, Ripoll M, Sagues F, Doostmohammadi A, Yeomans J M, Aranson I S, Bechinger C, Stark H, Hemelrijk C K, Nedelec F J, Sarkar T, Aryaksama T, Lacroix M, Duclos G, Yashunsky V, Silberzan P, Arroyo M",
+            "Kale S 2020 Journal of Physics"
+          ],
+          "title_candidate": "Condensed Matter 32 193001 URL https://doi.org/10.1088/ 1361-648x/ab6348",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https: //doi.org/10.1146/annurev-conmatphys-070909-104101",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https",
+          "author_candidates": [
+            "Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https"
+          ],
+          "title_candidate": "//doi.org/10.1146/annurev-conmatphys-070909-104101",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https",
+          "author_candidates": [
+            "Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https"
+          ],
+          "title_candidate": "//doi.org/10.1146/annurev-conmatphys-070909-104101",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M and Simha R A 2013 Rev. Mod. Phys. 85(3) 1143–1189 URL https://link.aps.org/doi/10.1103/RevModPhys.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M and Simha R A 2013 Rev",
+          "author_candidates": [
+            "Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M",
+            "Simha R A 2013 Rev"
+          ],
+          "title_candidate": "Mod",
+          "container_candidate": "Phys. 85(3) 1143–1189 URL https://link.aps.org/doi/10.1103/RevModPhys",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M and Simha R A 2013 Rev. Mod. Phys. 85(3) 1143–1189 URL https",
+          "author_candidates": [
+            "Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M",
+            "Simha R A 2013 Rev. Mod. Phys. 85(3) 1143–1189 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/RevModPhys",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M and Simha R A 2013 Rev. Mod. Phys. 85(3) 1143–1189 URL https",
+          "author_candidates": [
+            "Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M",
+            "Simha R A 2013 Rev. Mod. Phys. 85(3) 1143–1189 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/RevModPhys",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "85.1143",
+      "detected_ref_number": 85,
+      "numbering": {
+        "detected_ref_number": 85,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 3: reference numbering is not continuous (detected_ref_number=85)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "1143",
+          "author_candidates": [
+            "1143"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[4] Bechinger C, Di Leonardo R, L¨owen H, Reichhardt C, Volpe G and Volpe G 2016 Reviews of Modern Physics 88 045006 URL https://journals.aps.org/rmp/abstract/10.1103/ RevModPhys.88.045006",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 4: reference numbering is not strictly increasing (detected_ref_number=4)",
+          "reference entry 4: reference numbering is not continuous (detected_ref_number=4)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bechinger C, Di Leonardo R, L¨owen H, Reichhardt C, Volpe G and Volpe G 2016 Reviews of Modern Physics 88 045006 URL https",
+          "author_candidates": [
+            "Bechinger C, Di Leonardo R, L¨owen H, Reichhardt C, Volpe G",
+            "Volpe G 2016 Reviews of Modern Physics 88 045006 URL https"
+          ],
+          "title_candidate": "//journals.aps.org/rmp/abstract/10.1103/ RevModPhys.88.045006",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bechinger C, Di Leonardo R, L¨owen H, Reichhardt C, Volpe G and Volpe G 2016 Reviews of Modern Physics 88 045006 URL https",
+          "author_candidates": [
+            "Bechinger C, Di Leonardo R, L¨owen H, Reichhardt C, Volpe G",
+            "Volpe G 2016 Reviews of Modern Physics 88 045006 URL https"
+          ],
+          "title_candidate": "//journals.aps.org/rmp/abstract/10.1103/ RevModPhys.88.045006",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[5] Golestanian R 2019 Phoretic Active Matter (Preprint arXiv:1909.03747)",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Golestanian R 2019 Phoretic Active Matter (Preprint arXiv",
+          "author_candidates": [
+            "Golestanian R 2019 Phoretic Active Matter (Preprint arXiv"
+          ],
+          "title_candidate": "1909.03747)",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Golestanian R 2019 Phoretic Active Matter (Preprint arXiv",
+          "author_candidates": [
+            "Golestanian R 2019 Phoretic Active Matter (Preprint arXiv"
+          ],
+          "title_candidate": "1909.03747)",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[6] Cates M E and Tailleur J 2015 Annu. Rev. Condens. Matter Phys. 6 219–244 URL http: //www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031214-014710",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Cates M E and Tailleur J 2015 Annu",
+          "author_candidates": [
+            "Cates M E",
+            "Tailleur J 2015 Annu"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Condens. Matter Phys. 6 219–244 URL http: //www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031214-014710",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Cates M E and Tailleur J 2015 Annu. Rev. Condens. Matter Phys. 6 219–244 URL http",
+          "author_candidates": [
+            "Cates M E",
+            "Tailleur J 2015 Annu. Rev. Condens. Matter Phys. 6 219–244 URL http"
+          ],
+          "title_candidate": "//www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031214-014710",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Cates M E and Tailleur J 2015 Annu. Rev. Condens. Matter Phys. 6 219–244 URL http",
+          "author_candidates": [
+            "Cates M E",
+            "Tailleur J 2015 Annu. Rev. Condens. Matter Phys. 6 219–244 URL http"
+          ],
+          "title_candidate": "//www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031214-014710",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[7] Henkes S, Fily Y and Marchetti M C 2011 Phys. Rev. E 84(4) 040301 URL https://link.aps. org/doi/10.1103/PhysRevE.84.040301",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Henkes S, Fily Y and Marchetti M C 2011 Phys",
+          "author_candidates": [
+            "Henkes S, Fily Y",
+            "Marchetti M C 2011 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "E 84(4) 040301 URL https://link.aps. org/doi/10.1103/PhysRevE.84.040301",
+          "year_candidate": 2011,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Henkes S, Fily Y and Marchetti M C 2011 Phys. Rev. E 84(4) 040301 URL https",
+          "author_candidates": [
+            "Henkes S, Fily Y",
+            "Marchetti M C 2011 Phys. Rev. E 84(4) 040301 URL https"
+          ],
+          "title_candidate": "//link.aps. org/doi/10.1103/PhysRevE.84.040301",
+          "container_candidate": "",
+          "year_candidate": 2011,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Henkes S, Fily Y and Marchetti M C 2011 Phys. Rev. E 84(4) 040301 URL https",
+          "author_candidates": [
+            "Henkes S, Fily Y",
+            "Marchetti M C 2011 Phys. Rev. E 84(4) 040301 URL https"
+          ],
+          "title_candidate": "//link.aps. org/doi/10.1103/PhysRevE.84.040301",
+          "container_candidate": "",
+          "year_candidate": 2011,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[8] Redner G S, Hagan M F and Baskaran A 2013 Phys. Rev. Lett. 110(5) 055701 URL https: //link.aps.org/doi/10.1103/PhysRevLett.110.055701",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Redner G S, Hagan M F and Baskaran A 2013 Phys",
+          "author_candidates": [
+            "Redner G S, Hagan M F",
+            "Baskaran A 2013 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 110(5) 055701 URL https: //link.aps.org/doi/10.1103/PhysRevLett.110.055701",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Redner G S, Hagan M F and Baskaran A 2013 Phys. Rev. Lett. 110(5) 055701 URL https",
+          "author_candidates": [
+            "Redner G S, Hagan M F",
+            "Baskaran A 2013 Phys. Rev. Lett. 110(5) 055701 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevLett.110.055701",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Redner G S, Hagan M F and Baskaran A 2013 Phys. Rev. Lett. 110(5) 055701 URL https",
+          "author_candidates": [
+            "Redner G S, Hagan M F",
+            "Baskaran A 2013 Phys. Rev. Lett. 110(5) 055701 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevLett.110.055701",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[9] Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C and Speck T 2013 Phys. Rev. Lett. 110(23) 238301 URL https://link.aps.org/doi/10.1103/PhysRevLett.110.238301",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C and Speck T 2013 Phys",
+          "author_candidates": [
+            "Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C",
+            "Speck T 2013 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 110(23) 238301 URL https://link.aps.org/doi/10.1103/PhysRevLett.110.238301",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C and Speck T 2013 Phys. Rev. Lett. 110(23) 238301 URL https",
+          "author_candidates": [
+            "Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C",
+            "Speck T 2013 Phys. Rev. Lett. 110(23) 238301 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevLett.110.238301",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C and Speck T 2013 Phys. Rev. Lett. 110(23) 238301 URL https",
+          "author_candidates": [
+            "Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C",
+            "Speck T 2013 Phys. Rev. Lett. 110(23) 238301 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevLett.110.238301",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[10] Soto R and Golestanian R 2014 Phys. Rev. E 89(1) 012706 URL https://link.aps.org/doi/ 10.1103/PhysRevE.89.012706",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Soto R and Golestanian R 2014 Phys",
+          "author_candidates": [
+            "Soto R",
+            "Golestanian R 2014 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "E 89(1) 012706 URL https://link.aps.org/doi/ 10.1103/PhysRevE.89.012706",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Soto R and Golestanian R 2014 Phys. Rev. E 89(1) 012706 URL https",
+          "author_candidates": [
+            "Soto R",
+            "Golestanian R 2014 Phys. Rev. E 89(1) 012706 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/ 10.1103/PhysRevE.89.012706",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Soto R and Golestanian R 2014 Phys. Rev. E 89(1) 012706 URL https",
+          "author_candidates": [
+            "Soto R",
+            "Golestanian R 2014 Phys. Rev. E 89(1) 012706 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/ 10.1103/PhysRevE.89.012706",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[11] Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12 9821–9831 URL https://doi.org/10.1039/c6sm02042a",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12 9821–9831 URL https",
+          "author_candidates": [
+            "Blaschke J, Maurer M, Menon K, Z¨ottl A",
+            "Stark H 2016 Soft Matter 12 9821–9831 URL https"
+          ],
+          "title_candidate": "//doi.org/10.1039/c6sm02042a",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12 9821–9831 URL https",
+          "author_candidates": [
+            "Blaschke J, Maurer M, Menon K, Z¨ottl A",
+            "Stark H 2016 Soft Matter 12 9821–9831 URL https"
+          ],
+          "title_candidate": "//doi.org/10.1039/c6sm02042a",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[12] Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G and Pagonabarraga I 2018 Phys. Rev. Lett. 121(9) 098003 URL https://link.aps.org/doi/10.1103/PhysRevLett.121.098003",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G and Pagonabarraga I 2018 Phys",
+          "author_candidates": [
+            "Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G",
+            "Pagonabarraga I 2018 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 121(9) 098003 URL https://link.aps.org/doi/10.1103/PhysRevLett.121.098003",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G and Pagonabarraga I 2018 Phys. Rev. Lett. 121(9) 098003 URL https",
+          "author_candidates": [
+            "Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G",
+            "Pagonabarraga I 2018 Phys. Rev. Lett. 121(9) 098003 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevLett.121.098003",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G and Pagonabarraga I 2018 Phys. Rev. Lett. 121(9) 098003 URL https",
+          "author_candidates": [
+            "Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G",
+            "Pagonabarraga I 2018 Phys. Rev. Lett. 121(9) 098003 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevLett.121.098003",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[13] Abaurrea Velasco C, Abkenar M, Gompper G and Auth T 2018 Phys. Rev. E 98(2) 022605 URL https://link.aps.org/doi/10.1103/PhysRevE.98.022605",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Abaurrea Velasco C, Abkenar M, Gompper G and Auth T 2018 Phys",
+          "author_candidates": [
+            "Abaurrea Velasco C, Abkenar M, Gompper G",
+            "Auth T 2018 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "E 98(2) 022605 URL https://link.aps.org/doi/10.1103/PhysRevE.98.022605",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Abaurrea Velasco C, Abkenar M, Gompper G and Auth T 2018 Phys. Rev. E 98(2) 022605 URL https",
+          "author_candidates": [
+            "Abaurrea Velasco C, Abkenar M, Gompper G",
+            "Auth T 2018 Phys. Rev. E 98(2) 022605 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevE.98.022605",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Abaurrea Velasco C, Abkenar M, Gompper G and Auth T 2018 Phys. Rev. E 98(2) 022605 URL https",
+          "author_candidates": [
+            "Abaurrea Velasco C, Abkenar M, Gompper G",
+            "Auth T 2018 Phys. Rev. E 98(2) 022605 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevE.98.022605",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[14] Solon A P, Chat´e H and Tailleur J 2015 Phys. Rev. Lett. 114 068101 URL https://journals. aps.org/prl/abstract/10.1103/PhysRevLett.114.068101",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Solon A P, Chat´e H and Tailleur J 2015 Phys",
+          "author_candidates": [
+            "Solon A P, Chat´e H",
+            "Tailleur J 2015 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 114 068101 URL https://journals. aps.org/prl/abstract/10.1103/PhysRevLett.114.068101",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Solon A P, Chat´e H and Tailleur J 2015 Phys. Rev. Lett. 114 068101 URL https",
+          "author_candidates": [
+            "Solon A P, Chat´e H",
+            "Tailleur J 2015 Phys. Rev. Lett. 114 068101 URL https"
+          ],
+          "title_candidate": "//journals. aps.org/prl/abstract/10.1103/PhysRevLett.114.068101",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Solon A P, Chat´e H and Tailleur J 2015 Phys. Rev. Lett. 114 068101 URL https",
+          "author_candidates": [
+            "Solon A P, Chat´e H",
+            "Tailleur J 2015 Phys. Rev. Lett. 114 068101 URL https"
+          ],
+          "title_candidate": "//journals. aps.org/prl/abstract/10.1103/PhysRevLett.114.068101",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[15] Chat´e H 2020 Annual Review of Condensed Matter Physics 11 URL https://doi.org/10.1146/ annurev-conmatphys-031119-050752",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chat´e H 2020 Annual Review of Condensed Matter Physics 11 URL https",
+          "author_candidates": [
+            "Chat´e H 2020 Annual Review of Condensed Matter Physics 11 URL https"
+          ],
+          "title_candidate": "//doi.org/10.1146/ annurev-conmatphys-031119-050752",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chat´e H 2020 Annual Review of Condensed Matter Physics 11 URL https",
+          "author_candidates": [
+            "Chat´e H 2020 Annual Review of Condensed Matter Physics 11 URL https"
+          ],
+          "title_candidate": "//doi.org/10.1146/ annurev-conmatphys-031119-050752",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[16] Golestanian R 2012 Phys. Rev. Lett. 108(3) 038303 URL https://link.aps.org/doi/10.1103/ PhysRevLett.108.038303",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Golestanian R 2012 Phys",
+          "author_candidates": [
+            "Golestanian R 2012 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 108(3) 038303 URL https://link.aps.org/doi/10.1103/ PhysRevLett.108.038303",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Golestanian R 2012 Phys. Rev. Lett. 108(3) 038303 URL https",
+          "author_candidates": [
+            "Golestanian R 2012 Phys. Rev. Lett. 108(3) 038303 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/ PhysRevLett.108.038303",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Golestanian R 2012 Phys. Rev. Lett. 108(3) 038303 URL https",
+          "author_candidates": [
+            "Golestanian R 2012 Phys. Rev. Lett. 108(3) 038303 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/ PhysRevLett.108.038303",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[17] Taktikos J, Zaburdaev V and Stark H 2012 Phys. Rev. E 85(5) 051901 URL https://link.aps. org/doi/10.1103/PhysRevE.85.051901",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Taktikos J, Zaburdaev V and Stark H 2012 Phys",
+          "author_candidates": [
+            "Taktikos J, Zaburdaev V",
+            "Stark H 2012 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "E 85(5) 051901 URL https://link.aps. org/doi/10.1103/PhysRevE.85.05",
+          "year_candidate": 1901,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Taktikos J, Zaburdaev V and Stark H 2012 Phys. Rev. E 85(5) 051901 URL https",
+          "author_candidates": [
+            "Taktikos J, Zaburdaev V",
+            "Stark H 2012 Phys. Rev. E 85(5) 051901 URL https"
+          ],
+          "title_candidate": "//link.aps. org/doi/10.1103/PhysRevE.85.051901",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Taktikos J, Zaburdaev V and Stark H 2012 Phys. Rev. E 85(5) 051901 URL https",
+          "author_candidates": [
+            "Taktikos J, Zaburdaev V",
+            "Stark H 2012 Phys. Rev. E 85(5) 051901 URL https"
+          ],
+          "title_candidate": "//link.aps. org/doi/10.1103/PhysRevE.85.051901",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[18] Saha S, Golestanian R and Ramaswamy S 2014 Phys. Rev. E 89(6) 062316 URL https: //link.aps.org/doi/10.1103/PhysRevE.89.062316",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Saha S, Golestanian R and Ramaswamy S 2014 Phys",
+          "author_candidates": [
+            "Saha S, Golestanian R",
+            "Ramaswamy S 2014 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "E 89(6) 062316 URL https: //link.aps.org/doi/10.1103/PhysRevE.89.062316",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Saha S, Golestanian R and Ramaswamy S 2014 Phys. Rev. E 89(6) 062316 URL https",
+          "author_candidates": [
+            "Saha S, Golestanian R",
+            "Ramaswamy S 2014 Phys. Rev. E 89(6) 062316 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevE.89.062316",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Saha S, Golestanian R and Ramaswamy S 2014 Phys. Rev. E 89(6) 062316 URL https",
+          "author_candidates": [
+            "Saha S, Golestanian R",
+            "Ramaswamy S 2014 Phys. Rev. E 89(6) 062316 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevE.89.062316",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[19] Liebchen B, Marenduzzo D, Pagonabarraga I and Cates M E 2015 Phys. Rev. Lett. 115(25) 258301 URL https://link.aps.org/doi/10.1103/PhysRevLett.115.258301",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liebchen B, Marenduzzo D, Pagonabarraga I and Cates M E 2015 Phys",
+          "author_candidates": [
+            "Liebchen B, Marenduzzo D, Pagonabarraga I",
+            "Cates M E 2015 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 115(25) 258301 URL https://link.aps.org/doi/10.1103/PhysRevLett.115.258301",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liebchen B, Marenduzzo D, Pagonabarraga I and Cates M E 2015 Phys. Rev. Lett. 115(25) 258301 URL https",
+          "author_candidates": [
+            "Liebchen B, Marenduzzo D, Pagonabarraga I",
+            "Cates M E 2015 Phys. Rev. Lett. 115(25) 258301 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevLett.115.258301",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liebchen B, Marenduzzo D, Pagonabarraga I and Cates M E 2015 Phys. Rev. Lett. 115(25) 258301 URL https",
+          "author_candidates": [
+            "Liebchen B, Marenduzzo D, Pagonabarraga I",
+            "Cates M E 2015 Phys. Rev. Lett. 115(25) 258301 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevLett.115.258301",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[20] Varma A, Montenegro-Johnson T D and Michelin S 2018 Soft Matter 14(35) 7155–7173 URL http://dx.doi.org/10.1039/C8SM00690C",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Varma A, Montenegro-Johnson T D and Michelin S 2018 Soft Matter 14(35) 7155–7173 URL http",
+          "author_candidates": [
+            "Varma A, Montenegro-Johnson T D",
+            "Michelin S 2018 Soft Matter 14(35) 7155–7173 URL http"
+          ],
+          "title_candidate": "//dx.doi.org/10.1039/C8SM00690C",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Varma A, Montenegro-Johnson T D and Michelin S 2018 Soft Matter 14(35) 7155–7173 URL http",
+          "author_candidates": [
+            "Varma A, Montenegro-Johnson T D",
+            "Michelin S 2018 Soft Matter 14(35) 7155–7173 URL http"
+          ],
+          "title_candidate": "//dx.doi.org/10.1039/C8SM00690C",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[21] Agudo-Canalejo J and Golestanian R 2019 Phys. Rev. Lett. 123(1) 018101 URL https://link. aps.org/doi/10.1103/PhysRevLett.123.018101",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Agudo-Canalejo J and Golestanian R 2019 Phys",
+          "author_candidates": [
+            "Agudo-Canalejo J",
+            "Golestanian R 2019 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 123(1) 018101 URL https://link. aps.org/doi/10.1103/PhysRevLett.123.018101",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Agudo-Canalejo J and Golestanian R 2019 Phys. Rev. Lett. 123(1) 018101 URL https",
+          "author_candidates": [
+            "Agudo-Canalejo J",
+            "Golestanian R 2019 Phys. Rev. Lett. 123(1) 018101 URL https"
+          ],
+          "title_candidate": "//link. aps.org/doi/10.1103/PhysRevLett.123.018101",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Agudo-Canalejo J and Golestanian R 2019 Phys. Rev. Lett. 123(1) 018101 URL https",
+          "author_candidates": [
+            "Agudo-Canalejo J",
+            "Golestanian R 2019 Phys. Rev. Lett. 123(1) 018101 URL https"
+          ],
+          "title_candidate": "//link. aps.org/doi/10.1103/PhysRevLett.123.018101",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[22] Z¨ottl A and Stark H 2014 Phys. Rev. Lett. 112(11) 118101 URL https://link.aps.org/doi/ 10.1103/PhysRevLett.112.118101",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Z¨ottl A and Stark H 2014 Phys",
+          "author_candidates": [
+            "Z¨ottl A",
+            "Stark H 2014 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 112(11) 118101 URL https://link.aps.org/doi/ 10.1103/PhysRevLett.112.118101",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Z¨ottl A and Stark H 2014 Phys. Rev. Lett. 112(11) 118101 URL https",
+          "author_candidates": [
+            "Z¨ottl A",
+            "Stark H 2014 Phys. Rev. Lett. 112(11) 118101 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/ 10.1103/PhysRevLett.112.118101",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Z¨ottl A and Stark H 2014 Phys. Rev. Lett. 112(11) 118101 URL https",
+          "author_candidates": [
+            "Z¨ottl A",
+            "Stark H 2014 Phys. Rev. Lett. 112(11) 118101 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/ 10.1103/PhysRevLett.112.118101",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[23] Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12(48) 9821–9831 URL http://dx.doi.org/10.1039/C6SM02042A",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12(48) 9821–9831 URL http",
+          "author_candidates": [
+            "Blaschke J, Maurer M, Menon K, Z¨ottl A",
+            "Stark H 2016 Soft Matter 12(48) 9821–9831 URL http"
+          ],
+          "title_candidate": "//dx.doi.org/10.1039/C6SM02042A",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12(48) 9821–9831 URL http",
+          "author_candidates": [
+            "Blaschke J, Maurer M, Menon K, Z¨ottl A",
+            "Stark H 2016 Soft Matter 12(48) 9821–9831 URL http"
+          ],
+          "title_candidate": "//dx.doi.org/10.1039/C6SM02042A",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[24] Toner J, Tu Y and Ramaswamy S 2005 Annals of Physics 318 170 – 244 ISSN 0003-4916 special Issue URL http://www.sciencedirect.com/science/article/pii/S0003491605000540",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Toner J, Tu Y and Ramaswamy S 2005 Annals of Physics 318 170 – 244 ISSN 0003-4916 special Issue URL http",
+          "author_candidates": [
+            "Toner J, Tu Y",
+            "Ramaswamy S 2005 Annals of Physics 318 170 – 244 ISSN 0003-4916 special Issue URL http"
+          ],
+          "title_candidate": "//www.sciencedirect.com/science/article/pii/S0003491605000540",
+          "container_candidate": "",
+          "year_candidate": 2005,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Toner J, Tu Y and Ramaswamy S 2005 Annals of Physics 318 170 – 244 ISSN 0003-4916 special Issue URL http",
+          "author_candidates": [
+            "Toner J, Tu Y",
+            "Ramaswamy S 2005 Annals of Physics 318 170 – 244 ISSN 0003-4916 special Issue URL http"
+          ],
+          "title_candidate": "//www.sciencedirect.com/science/article/pii/S0003491605000540",
+          "container_candidate": "",
+          "year_candidate": 2005,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[25] Golestanian R 2019 Phys. Rev. E 100(1) 010601 URL https://link.aps.org/doi/10.1103/ PhysRevE.100.010601",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Golestanian R 2019 Phys",
+          "author_candidates": [
+            "Golestanian R 2019 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "E 100(1) 010601 URL https://link.aps.org/doi/10.1103/ PhysRevE.100.010601",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Golestanian R 2019 Phys. Rev. E 100(1) 010601 URL https",
+          "author_candidates": [
+            "Golestanian R 2019 Phys. Rev. E 100(1) 010601 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/ PhysRevE.100.010601",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Golestanian R 2019 Phys. Rev. E 100(1) 010601 URL https",
+          "author_candidates": [
+            "Golestanian R 2019 Phys. Rev. E 100(1) 010601 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/ PhysRevE.100.010601",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[26] Tjhung E, Nardini C and Cates M E 2018 Phys. Rev. X 8(3) 031080 URL https://link.aps. org/doi/10.1103/PhysRevX.8.031080",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tjhung E, Nardini C and Cates M E 2018 Phys",
+          "author_candidates": [
+            "Tjhung E, Nardini C",
+            "Cates M E 2018 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "X 8(3) 031080 URL https://link.aps. org/doi/10.1103/PhysRevX.8.031080",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tjhung E, Nardini C and Cates M E 2018 Phys. Rev. X 8(3) 031080 URL https",
+          "author_candidates": [
+            "Tjhung E, Nardini C",
+            "Cates M E 2018 Phys. Rev. X 8(3) 031080 URL https"
+          ],
+          "title_candidate": "//link.aps. org/doi/10.1103/PhysRevX.8.031080",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tjhung E, Nardini C and Cates M E 2018 Phys. Rev. X 8(3) 031080 URL https",
+          "author_candidates": [
+            "Tjhung E, Nardini C",
+            "Cates M E 2018 Phys. Rev. X 8(3) 031080 URL https"
+          ],
+          "title_candidate": "//link.aps. org/doi/10.1103/PhysRevX.8.031080",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[27] Golestanian R and Ajdari A 2002 EPL (Europhysics Letters) 59 800 URL http://stacks.iop. org/0295-5075/59/i=6/a=800",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Golestanian R and Ajdari A 2002 EPL (Europhysics Letters) 59 800 URL http",
+          "author_candidates": [
+            "Golestanian R",
+            "Ajdari A 2002 EPL (Europhysics Letters) 59 800 URL http"
+          ],
+          "title_candidate": "//stacks.iop. org/0295-5075/59/i=6/a=800",
+          "container_candidate": "",
+          "year_candidate": 2002,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Golestanian R and Ajdari A 2002 EPL (Europhysics Letters) 59 800 URL http",
+          "author_candidates": [
+            "Golestanian R",
+            "Ajdari A 2002 EPL (Europhysics Letters) 59 800 URL http"
+          ],
+          "title_candidate": "//stacks.iop. org/0295-5075/59/i=6/a=800",
+          "container_candidate": "",
+          "year_candidate": 2002,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[28] Ziff R M, Uhlenbeck G E and Kac M 1977 Physics Reports 32 169 – 248 ISSN 0370-1573 URL http://www.sciencedirect.com/science/article/pii/0370157377900527",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ziff R M, Uhlenbeck G E and Kac M 1977 Physics Reports 32 169 – 248 ISSN 0370-1573 URL http",
+          "author_candidates": [
+            "Ziff R M, Uhlenbeck G E",
+            "Kac M 1977 Physics Reports 32 169 – 248 ISSN 0370-1573 URL http"
+          ],
+          "title_candidate": "//www.sciencedirect.com/science/article/pii/0370157377900527",
+          "container_candidate": "",
+          "year_candidate": 1977,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ziff R M, Uhlenbeck G E and Kac M 1977 Physics Reports 32 169 – 248 ISSN 0370-1573 URL http",
+          "author_candidates": [
+            "Ziff R M, Uhlenbeck G E",
+            "Kac M 1977 Physics Reports 32 169 – 248 ISSN 0370-1573 URL http"
+          ],
+          "title_candidate": "//www.sciencedirect.com/science/article/pii/0370157377900527",
+          "container_candidate": "",
+          "year_candidate": 1977,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[29] Bagnato V, Pritchard D E and Kleppner D 1987 Phys. Rev. A 35(10) 4354–4358 URL https: //link.aps.org/doi/10.1103/PhysRevA.35.4354",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bagnato V, Pritchard D E and Kleppner D 1987 Phys",
+          "author_candidates": [
+            "Bagnato V, Pritchard D E",
+            "Kleppner D 1987 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "A 35(10) 4354–4358 URL https: //link.aps.org/doi/10.1103/PhysRevA.35.4354",
+          "year_candidate": 1987,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bagnato V, Pritchard D E and Kleppner D 1987 Phys. Rev. A 35(10) 4354–4358 URL https",
+          "author_candidates": [
+            "Bagnato V, Pritchard D E",
+            "Kleppner D 1987 Phys. Rev. A 35(10) 4354–4358 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevA.35.4354",
+          "container_candidate": "",
+          "year_candidate": 1987,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bagnato V, Pritchard D E and Kleppner D 1987 Phys. Rev. A 35(10) 4354–4358 URL https",
+          "author_candidates": [
+            "Bagnato V, Pritchard D E",
+            "Kleppner D 1987 Phys. Rev. A 35(10) 4354–4358 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/PhysRevA.35.4354",
+          "container_candidate": "",
+          "year_candidate": 1987,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[30] Dalfovo F, Giorgini S, Pitaevskii L P and Stringari S 1999 Rev. Mod. Phys. 71(3) 463–512 URL https://link.aps.org/doi/10.1103/RevModPhys.71.463",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Dalfovo F, Giorgini S, Pitaevskii L P and Stringari S 1999 Rev",
+          "author_candidates": [
+            "Dalfovo F, Giorgini S, Pitaevskii L P",
+            "Stringari S 1999 Rev"
+          ],
+          "title_candidate": "Mod",
+          "container_candidate": "Phys. 71(3) 463–512 URL https://link.aps.org/doi/10.1103/RevModPhys.71.463",
+          "year_candidate": 1999,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Dalfovo F, Giorgini S, Pitaevskii L P and Stringari S 1999 Rev. Mod. Phys. 71(3) 463–512 URL https",
+          "author_candidates": [
+            "Dalfovo F, Giorgini S, Pitaevskii L P",
+            "Stringari S 1999 Rev. Mod. Phys. 71(3) 463–512 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/RevModPhys.71.463",
+          "container_candidate": "",
+          "year_candidate": 1999,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Dalfovo F, Giorgini S, Pitaevskii L P and Stringari S 1999 Rev. Mod. Phys. 71(3) 463–512 URL https",
+          "author_candidates": [
+            "Dalfovo F, Giorgini S, Pitaevskii L P",
+            "Stringari S 1999 Rev. Mod. Phys. 71(3) 463–512 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10.1103/RevModPhys.71.463",
+          "container_candidate": "",
+          "year_candidate": 1999,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[31] Mahault B and Golestanian R 2020 in preparation",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Mahault B and Golestanian R 2020 in preparation",
+          "author_candidates": [
+            "Mahault B",
+            "Golestanian R 2020 in preparation"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[32] Chavanis P H 2008 The European Physical Journal B 62 179–208 ISSN 1434-6036 URL https: //doi.org/10.1140/epjb/e2008-00142-9",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chavanis P H 2008 The European Physical Journal B 62 179–208 ISSN 1434-6036 URL https",
+          "author_candidates": [
+            "Chavanis P H 2008 The European Physical Journal B 62 179–208 ISSN 1434-6036 URL https"
+          ],
+          "title_candidate": "//doi.org/10.1140/epjb/e2008-00142-9",
+          "container_candidate": "",
+          "year_candidate": 2008,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chavanis P H 2008 The European Physical Journal B 62 179–208 ISSN 1434-6036 URL https",
+          "author_candidates": [
+            "Chavanis P H 2008 The European Physical Journal B 62 179–208 ISSN 1434-6036 URL https"
+          ],
+          "title_candidate": "//doi.org/10.1140/epjb/e2008-00142-9",
+          "container_candidate": "",
+          "year_candidate": 2008,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[33] Romero-Roch´ın V 2005 Phys. Rev. Lett. 94(13) 130601 URL https://link.aps.org/doi/10. 1103/PhysRevLett.94.130601",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Romero-Roch´ın V 2005 Phys",
+          "author_candidates": [
+            "Romero-Roch´ın V 2005 Phys"
+          ],
+          "title_candidate": "Rev",
+          "container_candidate": "Lett. 94(13) 130601 URL https://link.aps.org/doi/10. 1103/PhysRevLett.94.130601",
+          "year_candidate": 2005,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Romero-Roch´ın V 2005 Phys. Rev. Lett. 94(13) 130601 URL https",
+          "author_candidates": [
+            "Romero-Roch´ın V 2005 Phys. Rev. Lett. 94(13) 130601 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10. 1103/PhysRevLett.94.130601",
+          "container_candidate": "",
+          "year_candidate": 2005,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Romero-Roch´ın V 2005 Phys. Rev. Lett. 94(13) 130601 URL https",
+          "author_candidates": [
+            "Romero-Roch´ın V 2005 Phys. Rev. Lett. 94(13) 130601 URL https"
+          ],
+          "title_candidate": "//link.aps.org/doi/10. 1103/PhysRevLett.94.130601",
+          "container_candidate": "",
+          "year_candidate": 2005,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[34] Solon A P, Fily Y, Baskaran A, Cates M E, Kafri Y, Kardar M and Tailleur J 2015 Nature Physics 11 673 EP – URL https://doi.org/10.1038/nphys3377",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Solon A P, Fily Y, Baskaran A, Cates M E, Kafri Y, Kardar M and Tailleur J 2015 Nature Physics 11 673 EP – URL https",
+          "author_candidates": [
+            "Solon A P, Fily Y, Baskaran A, Cates M E, Kafri Y, Kardar M",
+            "Tailleur J 2015 Nature Physics 11 673 EP – URL https"
+          ],
+          "title_candidate": "//doi.org/10.1038/nphys3377",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Solon A P, Fily Y, Baskaran A, Cates M E, Kafri Y, Kardar M and Tailleur J 2015 Nature Physics 11 673 EP – URL https",
+          "author_candidates": [
+            "Solon A P, Fily Y, Baskaran A, Cates M E, Kafri Y, Kardar M",
+            "Tailleur J 2015 Nature Physics 11 673 EP – URL https"
+          ],
+          "title_candidate": "//doi.org/10.1038/nphys3377",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 34,
+      "metadata": {
+        "entry_count": 5
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference entry 3: reference numbering is not continuous (detected_ref_number=85)",
+    "reference entry 4: reference numbering is not strictly increasing (detected_ref_number=4)",
+    "reference entry 4: reference numbering is not continuous (detected_ref_number=4)",
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_title_boundary_suspect: entry_index=3 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=31 pattern=fallback_raw_split"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.05714285714285714,
+    "year_ratio": 0.9714285714285714,
+    "warning_density": 1.0857142857142856,
+    "numbering_anomaly": 1.0,
+    "empty_title_ratio": 0.05714285714285714
+  },
+  "file_quality_low": false
+}

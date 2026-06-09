@@ -1,0 +1,4788 @@
+{
+  "total_files": 65,
+  "composite": {
+    "mean": 0.7722573927567615,
+    "median": 0.7939811076604554,
+    "min": 0.39401851851851855,
+    "max": 0.9765499608785154,
+    "std": 0.13231512932328449
+  },
+  "entry_count": {
+    "mean": 0.8187964649718287,
+    "median": 0.9444444444444444,
+    "min": 0.07012987012987015,
+    "max": 1.0,
+    "std": 0.23433640159891198
+  },
+  "entry_style": {
+    "mean": 0.6,
+    "median": 1.0,
+    "min": 0.0,
+    "max": 1.0,
+    "std": 0.49371044145328746
+  },
+  "year_accuracy": {
+    "mean": 0.9648160422426064,
+    "median": 1.0,
+    "min": 0.5333333333333333,
+    "max": 1.0,
+    "std": 0.08095078924675968
+  },
+  "title_quality": {
+    "mean": 0.8114327510756257,
+    "median": 0.9018393012519765,
+    "min": 0.003095975232198142,
+    "max": 1.0,
+    "std": 0.22723051440440983
+  },
+  "author_detection": {
+    "mean": 0.5154310609931841,
+    "median": 0.4220837947582134,
+    "min": 0.28833333333333333,
+    "max": 1.0,
+    "std": 0.2053532204532143
+  },
+  "suspect_alert": {
+    "mean": 0.5289279533351934,
+    "median": 0.6825396825396826,
+    "min": 0.0,
+    "max": 1.0,
+    "std": 0.42694496456159475
+  },
+  "top_5": [
+    {
+      "file": "VI9JURUB",
+      "composite": 0.9765499608785154
+    },
+    {
+      "file": "XKJFVI8H",
+      "composite": 0.9666100566100566
+    },
+    {
+      "file": "8YS3DEMI",
+      "composite": 0.949297816878462
+    },
+    {
+      "file": "I6XI39WA",
+      "composite": 0.9397385771954738
+    },
+    {
+      "file": "USRNFHXP",
+      "composite": 0.9383406204906205
+    }
+  ],
+  "bottom_5": [
+    {
+      "file": "76BD6UYE",
+      "composite": 0.5690002032107295
+    },
+    {
+      "file": "8WM66ZL3",
+      "composite": 0.5348133358026407
+    },
+    {
+      "file": "ANFVBN87",
+      "composite": 0.5018780075492524
+    },
+    {
+      "file": "UFJQE7PA",
+      "composite": 0.3984083039880141
+    },
+    {
+      "file": "S7IWH3CG",
+      "composite": 0.39401851851851855
+    }
+  ],
+  "diagnostics": {
+    "over_split_files": 22,
+    "over_split_examples": [
+      {
+        "file": "29IBKEUR",
+        "delta": 26
+      },
+      {
+        "file": "34WIW5FH",
+        "delta": 38
+      },
+      {
+        "file": "4FUJYLNY",
+        "delta": 207
+      },
+      {
+        "file": "53A2WXX8",
+        "delta": 81
+      },
+      {
+        "file": "5HBHAWIV",
+        "delta": 21
+      },
+      {
+        "file": "7T29H6SR",
+        "delta": 33
+      },
+      {
+        "file": "7WIXRD9R",
+        "delta": 12
+      },
+      {
+        "file": "8838AH6P",
+        "delta": 31
+      },
+      {
+        "file": "8WM66ZL3",
+        "delta": 358
+      },
+      {
+        "file": "ANFVBN87",
+        "delta": 99
+      }
+    ],
+    "style_mismatches": [
+      {
+        "file": "2KUGMFL2",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "34WIW5FH",
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      {
+        "file": "3YG8UNCI",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "4DB3YS8Y",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "53A2WXX8",
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      {
+        "file": "5HBHAWIV",
+        "gt": "author-year",
+        "pp": "mixed"
+      },
+      {
+        "file": "76BD6UYE",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "7WIXRD9R",
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      {
+        "file": "8838AH6P",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "8AXAW2GX",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "8ET4QJ6S",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "8WM66ZL3",
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      {
+        "file": "AHF2RU48",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "ANFVBN87",
+        "gt": "author-year",
+        "pp": "mixed"
+      },
+      {
+        "file": "BBIY57N3",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "DDT5Q9QF",
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      {
+        "file": "IY3FMWQM",
+        "gt": "author-year",
+        "pp": "mixed"
+      },
+      {
+        "file": "JMWG9XVD",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "LUM266YT",
+        "gt": "author-year",
+        "pp": "mixed"
+      },
+      {
+        "file": "M3AU5AC9",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "NXLIGKF5",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "S7IWH3CG",
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      {
+        "file": "S86GB385",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "UFJQE7PA",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "VA9QJETD",
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      {
+        "file": "Z25GLKZV",
+        "gt": "author-year",
+        "pp": "numeric"
+      }
+    ],
+    "low_alignment_files": []
+  },
+  "timestamp": "2026-06-08T23:05:32Z",
+  "schema": "batch_evaluation.v1",
+  "plugin": "line-first-v16",
+  "negative_case": {
+    "_file_id": "M68XPFA9",
+    "is_negative_case": true,
+    "entry_counts": {
+      "gt": 2,
+      "pp": 83
+    },
+    "negative_assessment": {
+      "self_awareness_score": 0.7,
+      "pp_entry_count": 83,
+      "warning_count": 121,
+      "warnings_per_entry": 1.4578313253012047,
+      "suspect_blocks": 2
+    }
+  },
+  "per_file": [
+    {
+      "entry_counts": {
+        "gt": 74,
+        "pp": 74,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 74,
+        "pp_total": 74,
+        "aligned_count": 74,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.827933097676566
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 74,
+          "pp_count": 74,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "mixed",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 0.9864864864864865,
+          "correct": 73,
+          "total": 74,
+          "errors": [
+            {
+              "gt_index": 29,
+              "pp_index": 29,
+              "gt_year": 2022,
+              "pp_year": 2020
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9241277714419898,
+          "aligned_count": 74,
+          "mean_f1": 0.9241277714419898
+        },
+        "author_detection": {
+          "score": 0.9889639639639639,
+          "aligned_count": 74,
+          "mean_count_accuracy": 0.9889639639639639
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 74,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 74,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 74
+        }
+      },
+      "composite_score": 0.9765499608785154,
+      "is_negative_case": false,
+      "_file_id": "VI9JURUB"
+    },
+    {
+      "entry_counts": {
+        "gt": 11,
+        "pp": 11,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 11,
+        "pp_total": 11,
+        "aligned_count": 11,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 11,
+          "pp_count": 11,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 11,
+          "total": 11,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 1.0,
+          "aligned_count": 11,
+          "mean_f1": 1.0
+        },
+        "author_detection": {
+          "score": 0.6661005661005661,
+          "aligned_count": 11,
+          "mean_count_accuracy": 0.6661005661005661
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 11,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 11,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 11
+        }
+      },
+      "composite_score": 0.9666100566100566,
+      "is_negative_case": false,
+      "_file_id": "XKJFVI8H"
+    },
+    {
+      "entry_counts": {
+        "gt": 31,
+        "pp": 31,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 31,
+        "pp_total": 31,
+        "aligned_count": 31,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9975186104218362
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 31,
+          "pp_count": 31,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 31,
+          "total": 31,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9889400921658986,
+          "aligned_count": 31,
+          "mean_f1": 0.9889400921658986
+        },
+        "author_detection": {
+          "score": 0.5206279383698739,
+          "aligned_count": 31,
+          "mean_count_accuracy": 0.5206279383698739
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 31,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 31,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 31
+        }
+      },
+      "composite_score": 0.949297816878462,
+      "is_negative_case": false,
+      "_file_id": "8YS3DEMI"
+    },
+    {
+      "entry_counts": {
+        "gt": 92,
+        "pp": 92,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 92,
+        "pp_total": 92,
+        "aligned_count": 87,
+        "unmatched_gt": 5,
+        "avg_similarity": 0.5800754906981458
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 92,
+          "pp_count": 92,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 87,
+          "total": 87,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9568342576963267,
+          "aligned_count": 87,
+          "mean_f1": 0.9568342576963267
+        },
+        "author_detection": {
+          "score": 0.5053001277139209,
+          "aligned_count": 87,
+          "mean_count_accuracy": 0.5053001277139209
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 92,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 92,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 92
+        }
+      },
+      "composite_score": 0.9397385771954738,
+      "is_negative_case": false,
+      "_file_id": "I6XI39WA"
+    },
+    {
+      "entry_counts": {
+        "gt": 54,
+        "pp": 55,
+        "delta": 1
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 54,
+        "pp_total": 55,
+        "aligned_count": 50,
+        "unmatched_gt": 4,
+        "avg_similarity": 0.5289191576344798
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9818181818181818,
+          "gt_count": 54,
+          "pp_count": 55,
+          "delta": 1
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 50,
+          "total": 50,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.984,
+          "aligned_count": 50,
+          "mean_f1": 0.984
+        },
+        "author_detection": {
+          "score": 0.4597698412698413,
+          "aligned_count": 50,
+          "mean_count_accuracy": 0.4597698412698413
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 55,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 55,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 55
+        }
+      },
+      "composite_score": 0.9383406204906205,
+      "is_negative_case": false,
+      "_file_id": "USRNFHXP"
+    },
+    {
+      "entry_counts": {
+        "gt": 17,
+        "pp": 17,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "author-year"
+      },
+      "alignment": {
+        "gt_total": 17,
+        "pp_total": 17,
+        "aligned_count": 17,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 17,
+          "pp_count": 17,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "author-year",
+          "pp_style": "author-year"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 17,
+          "total": 17,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9336601307189543,
+          "aligned_count": 17,
+          "mean_f1": 0.9336601307189543
+        },
+        "author_detection": {
+          "score": 0.546451914098973,
+          "aligned_count": 17,
+          "mean_count_accuracy": 0.546451914098973
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 17,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 17,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 17
+        }
+      },
+      "composite_score": 0.938060224089636,
+      "is_negative_case": false,
+      "_file_id": "8PP8HQMY"
+    },
+    {
+      "entry_counts": {
+        "gt": 48,
+        "pp": 48,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 48,
+        "pp_total": 48,
+        "aligned_count": 48,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9915178571428571
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 48,
+          "pp_count": 48,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 48,
+          "total": 48,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9694436928811929,
+          "aligned_count": 48,
+          "mean_f1": 0.9694436928811929
+        },
+        "author_detection": {
+          "score": 0.39879298941798946,
+          "aligned_count": 48,
+          "mean_count_accuracy": 0.39879298941798946
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 48,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 48,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 48
+        }
+      },
+      "composite_score": 0.9322402221620972,
+      "is_negative_case": false,
+      "_file_id": "P5NLH47E"
+    },
+    {
+      "entry_counts": {
+        "gt": 48,
+        "pp": 48,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 48,
+        "pp_total": 48,
+        "aligned_count": 48,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 48,
+          "pp_count": 48,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9791666666666666,
+          "correct": 47,
+          "total": 48,
+          "errors": [
+            {
+              "gt_index": 16,
+              "pp_index": 16,
+              "gt_year": 2021,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9483308966861599,
+          "aligned_count": 48,
+          "mean_f1": 0.9483308966861599
+        },
+        "author_detection": {
+          "score": 0.5908730158730159,
+          "aligned_count": 48,
+          "mean_count_accuracy": 0.5908730158730159
+        },
+        "suspect_alert": {
+          "score": 0.8611111111111112,
+          "total_warnings": 49,
+          "genuine_warnings": 1,
+          "pattern_ambiguous": 48,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.020833333333333332,
+          "entry_count": 48
+        }
+      },
+      "composite_score": 0.9270728035366194,
+      "is_negative_case": false,
+      "_file_id": "4IUAXCCZ"
+    },
+    {
+      "entry_counts": {
+        "gt": 43,
+        "pp": 43,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 43,
+        "pp_total": 43,
+        "aligned_count": 43,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9906174819566961
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 43,
+          "pp_count": 43,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 42,
+          "total": 42,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.956493012990961,
+          "aligned_count": 43,
+          "mean_f1": 0.956493012990961
+        },
+        "author_detection": {
+          "score": 0.3683106575963719,
+          "aligned_count": 42,
+          "mean_count_accuracy": 0.3683106575963719
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 42,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 42,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 43
+        }
+      },
+      "composite_score": 0.9259543190073776,
+      "is_negative_case": false,
+      "_file_id": "I4ZU2PCY"
+    },
+    {
+      "entry_counts": {
+        "gt": 33,
+        "pp": 33,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 33,
+        "pp_total": 33,
+        "aligned_count": 33,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 33,
+          "pp_count": 33,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 33,
+          "total": 33,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9380347766711403,
+          "aligned_count": 33,
+          "mean_f1": 0.9380347766711403
+        },
+        "author_detection": {
+          "score": 0.37608225108225113,
+          "aligned_count": 33,
+          "mean_count_accuracy": 0.37608225108225113
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 33,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 33,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 33
+        }
+      },
+      "composite_score": 0.9221169192760102,
+      "is_negative_case": false,
+      "_file_id": "GHWYS7AF"
+    },
+    {
+      "entry_counts": {
+        "gt": 41,
+        "pp": 41,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "author-year"
+      },
+      "alignment": {
+        "gt_total": 41,
+        "pp_total": 41,
+        "aligned_count": 41,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9958153993304639
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 41,
+          "pp_count": 41,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "author-year",
+          "pp_style": "author-year"
+        },
+        "year_accuracy": {
+          "score": 0.975609756097561,
+          "correct": 40,
+          "total": 41,
+          "errors": [
+            {
+              "gt_index": 17,
+              "pp_index": 17,
+              "gt_year": 2017,
+              "pp_year": 2019
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.8612101313320826,
+          "aligned_count": 41,
+          "mean_f1": 0.8612101313320826
+        },
+        "author_detection": {
+          "score": 0.41254795340161193,
+          "aligned_count": 41,
+          "mean_count_accuracy": 0.41254795340161193
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 41,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 41,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 41
+        }
+      },
+      "composite_score": 0.9004597671975721,
+      "is_negative_case": false,
+      "_file_id": "CGJBFE6C"
+    },
+    {
+      "entry_counts": {
+        "gt": 79,
+        "pp": 80,
+        "delta": 1
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 79,
+        "pp_total": 80,
+        "aligned_count": 64,
+        "unmatched_gt": 15,
+        "avg_similarity": 0.41404371687761904
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9875,
+          "gt_count": 79,
+          "pp_count": 80,
+          "delta": 1
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.96875,
+          "correct": 62,
+          "total": 64,
+          "errors": [
+            {
+              "gt_index": 66,
+              "pp_index": 67,
+              "gt_year": 2022,
+              "pp_year": 2026
+            },
+            {
+              "gt_index": 67,
+              "pp_index": 68,
+              "gt_year": 2025,
+              "pp_year": 2026
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9164812502908123,
+          "aligned_count": 64,
+          "mean_f1": 0.9164812502908123
+        },
+        "author_detection": {
+          "score": 0.44431423611111115,
+          "aligned_count": 64,
+          "mean_count_accuracy": 0.44431423611111115
+        },
+        "suspect_alert": {
+          "score": 0.8333333333333333,
+          "total_warnings": 81,
+          "genuine_warnings": 2,
+          "pattern_ambiguous": 79,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.025,
+          "entry_count": 80
+        }
+      },
+      "composite_score": 0.8965725695171475,
+      "is_negative_case": false,
+      "_file_id": "9CBBDH3Y"
+    },
+    {
+      "entry_counts": {
+        "gt": 41,
+        "pp": 41,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 41,
+        "pp_total": 41,
+        "aligned_count": 41,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.7834671936518716
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 41,
+          "pp_count": 41,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 41,
+          "total": 41,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9181842547696206,
+          "aligned_count": 41,
+          "mean_f1": 0.9181842547696206
+        },
+        "author_detection": {
+          "score": 0.9869918699186991,
+          "aligned_count": 41,
+          "mean_count_accuracy": 0.9869918699186991
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 41,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 41,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 41
+        }
+      },
+      "composite_score": 0.878245250684275,
+      "is_negative_case": false,
+      "_file_id": "AHF2RU48"
+    },
+    {
+      "entry_counts": {
+        "gt": 45,
+        "pp": 45,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 45,
+        "pp_total": 45,
+        "aligned_count": 45,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 45,
+          "pp_count": 45,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 45,
+          "total": 45,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9223761683410806,
+          "aligned_count": 45,
+          "mean_f1": 0.9223761683410806
+        },
+        "author_detection": {
+          "score": 0.9431481481481482,
+          "aligned_count": 45,
+          "mean_count_accuracy": 0.9431481481481482
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 45,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 45,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 45
+        }
+      },
+      "composite_score": 0.874908856900085,
+      "is_negative_case": false,
+      "_file_id": "8AXAW2GX"
+    },
+    {
+      "entry_counts": {
+        "gt": 43,
+        "pp": 43,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 43,
+        "pp_total": 43,
+        "aligned_count": 43,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 43,
+          "pp_count": 43,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 43,
+          "total": 43,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.7900711872812765,
+          "aligned_count": 43,
+          "mean_f1": 0.7900711872812765
+        },
+        "author_detection": {
+          "score": 0.4220837947582134,
+          "aligned_count": 43,
+          "mean_count_accuracy": 0.4220837947582134
+        },
+        "suspect_alert": {
+          "score": 0.8449612403100775,
+          "total_warnings": 43,
+          "genuine_warnings": 1,
+          "pattern_ambiguous": 42,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.023255813953488372,
+          "entry_count": 43
+        }
+      },
+      "composite_score": 0.8742223003271483,
+      "is_negative_case": false,
+      "_file_id": "CBJWE4JX"
+    },
+    {
+      "entry_counts": {
+        "gt": 14,
+        "pp": 14,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 14,
+        "pp_total": 14,
+        "aligned_count": 14,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 14,
+          "pp_count": 14,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 12,
+          "total": 12,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.8904746955830547,
+          "aligned_count": 14,
+          "mean_f1": 0.8904746955830547
+        },
+        "author_detection": {
+          "score": 1.0,
+          "aligned_count": 12,
+          "mean_count_accuracy": 1.0
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 12,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 12,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 14
+        }
+      },
+      "composite_score": 0.8726186738957636,
+      "is_negative_case": false,
+      "_file_id": "8ET4QJ6S"
+    },
+    {
+      "entry_counts": {
+        "gt": 42,
+        "pp": 45,
+        "delta": 3
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 42,
+        "pp_total": 45,
+        "aligned_count": 32,
+        "unmatched_gt": 10,
+        "avg_similarity": 0.7063418521085897
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9333333333333333,
+          "gt_count": 42,
+          "pp_count": 45,
+          "delta": 3
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.96875,
+          "correct": 31,
+          "total": 32,
+          "errors": [
+            {
+              "gt_index": 34,
+              "pp_index": 42,
+              "gt_year": 2018,
+              "pp_year": 2017
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.8273420807277017,
+          "aligned_count": 32,
+          "mean_f1": 0.8273420807277017
+        },
+        "author_detection": {
+          "score": 0.36102430555555554,
+          "aligned_count": 32,
+          "mean_count_accuracy": 0.36102430555555554
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 45,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 45,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 45
+        }
+      },
+      "composite_score": 0.8717921174041475,
+      "is_negative_case": false,
+      "_file_id": "UVI9ULI2"
+    },
+    {
+      "entry_counts": {
+        "gt": 85,
+        "pp": 90,
+        "delta": 5
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 85,
+        "pp_total": 90,
+        "aligned_count": 72,
+        "unmatched_gt": 13,
+        "avg_similarity": 0.43089701168225203
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9444444444444444,
+          "gt_count": 85,
+          "pp_count": 90,
+          "delta": 5
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9861111111111112,
+          "correct": 71,
+          "total": 72,
+          "errors": [
+            {
+              "gt_index": 72,
+              "pp_index": 76,
+              "gt_year": 2020,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.8942891979630044,
+          "aligned_count": 72,
+          "mean_f1": 0.8942891979630044
+        },
+        "author_detection": {
+          "score": 0.4822420634920635,
+          "aligned_count": 72,
+          "mean_count_accuracy": 0.4822420634920635
+        },
+        "suspect_alert": {
+          "score": 0.4814814814814814,
+          "total_warnings": 92,
+          "genuine_warnings": 7,
+          "pattern_ambiguous": 85,
+          "suspect_blocks": 5,
+          "genuine_warnings_per_entry": 0.07777777777777778,
+          "entry_count": 90
+        }
+      },
+      "composite_score": 0.8553613206547722,
+      "is_negative_case": false,
+      "_file_id": "95F26DIX"
+    },
+    {
+      "entry_counts": {
+        "gt": 42,
+        "pp": 44,
+        "delta": 2
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 42,
+        "pp_total": 44,
+        "aligned_count": 42,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9541807027742127
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9545454545454546,
+          "gt_count": 42,
+          "pp_count": 44,
+          "delta": 2
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 42,
+          "total": 42,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.8000304588650453,
+          "aligned_count": 42,
+          "mean_f1": 0.8000304588650453
+        },
+        "author_detection": {
+          "score": 0.3442165558019217,
+          "aligned_count": 41,
+          "mean_count_accuracy": 0.3442165558019217
+        },
+        "suspect_alert": {
+          "score": 0.696969696969697,
+          "total_warnings": 45,
+          "genuine_warnings": 2,
+          "pattern_ambiguous": 43,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.045454545454545456,
+          "entry_count": 44
+        }
+      },
+      "composite_score": 0.8450353309025141,
+      "is_negative_case": false,
+      "_file_id": "3JUY9GBQ"
+    },
+    {
+      "entry_counts": {
+        "gt": 52,
+        "pp": 64,
+        "delta": 12
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 52,
+        "pp_total": 64,
+        "aligned_count": 52,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9745930880713489
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.8125,
+          "gt_count": 52,
+          "pp_count": 64,
+          "delta": 12
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "mixed",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 52,
+          "total": 52,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9534747167165458,
+          "aligned_count": 52,
+          "mean_f1": 0.9534747167165458
+        },
+        "author_detection": {
+          "score": 0.9307921245421246,
+          "aligned_count": 52,
+          "mean_count_accuracy": 0.9307921245421246
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 68,
+          "genuine_warnings": 12,
+          "pattern_ambiguous": 56,
+          "suspect_blocks": 3,
+          "genuine_warnings_per_entry": 0.1875,
+          "entry_count": 64
+        }
+      },
+      "composite_score": 0.8439478916333488,
+      "is_negative_case": false,
+      "_file_id": "EIMSDEU3"
+    },
+    {
+      "entry_counts": {
+        "gt": 97,
+        "pp": 97,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 97,
+        "pp_total": 97,
+        "aligned_count": 88,
+        "unmatched_gt": 9,
+        "avg_similarity": 0.3879166783693778
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 97,
+          "pp_count": 97,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 88,
+          "total": 88,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.7751590663020732,
+          "aligned_count": 88,
+          "mean_f1": 0.7751590663020732
+        },
+        "author_detection": {
+          "score": 0.40452290764790766,
+          "aligned_count": 88,
+          "mean_count_accuracy": 0.40452290764790766
+        },
+        "suspect_alert": {
+          "score": 0.5876288659793814,
+          "total_warnings": 101,
+          "genuine_warnings": 6,
+          "pattern_ambiguous": 95,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.061855670103092786,
+          "entry_count": 97
+        }
+      },
+      "composite_score": 0.8430049439382472,
+      "is_negative_case": false,
+      "_file_id": "ABTG2CFC"
+    },
+    {
+      "entry_counts": {
+        "gt": 51,
+        "pp": 103,
+        "delta": 52
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 51,
+        "pp_total": 103,
+        "aligned_count": 51,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.7774529076245126
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.49514563106796117,
+          "gt_count": 51,
+          "pp_count": 103,
+          "delta": 52
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "mixed",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 0.9803921568627451,
+          "correct": 50,
+          "total": 51,
+          "errors": [
+            {
+              "gt_index": 18,
+              "pp_index": 18,
+              "gt_year": 2005,
+              "pp_year": 2012
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.8837639287265949,
+          "aligned_count": 51,
+          "mean_f1": 0.8837639287265949
+        },
+        "author_detection": {
+          "score": 0.942156862745098,
+          "aligned_count": 51,
+          "mean_count_accuracy": 0.942156862745098
+        },
+        "suspect_alert": {
+          "score": 0.8058252427184466,
+          "total_warnings": 106,
+          "genuine_warnings": 3,
+          "pattern_ambiguous": 103,
+          "suspect_blocks": 3,
+          "genuine_warnings_per_entry": 0.02912621359223301,
+          "entry_count": 103
+        }
+      },
+      "composite_score": 0.8398663581572817,
+      "is_negative_case": false,
+      "_file_id": "B3REC7HH"
+    },
+    {
+      "entry_counts": {
+        "gt": 78,
+        "pp": 78,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 78,
+        "pp_total": 78,
+        "aligned_count": 78,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 78,
+          "pp_count": 78,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 78,
+          "total": 78,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9807929626934152,
+          "aligned_count": 78,
+          "mean_f1": 0.9807929626934152
+        },
+        "author_detection": {
+          "score": 0.383974358974359,
+          "aligned_count": 78,
+          "mean_count_accuracy": 0.383974358974359
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 79,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 79,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 78
+        }
+      },
+      "composite_score": 0.8335956765707897,
+      "is_negative_case": false,
+      "_file_id": "3YG8UNCI"
+    },
+    {
+      "entry_counts": {
+        "gt": 53,
+        "pp": 53,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 53,
+        "pp_total": 53,
+        "aligned_count": 53,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 53,
+          "pp_count": 53,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9811320754716981,
+          "correct": 52,
+          "total": 53,
+          "errors": [
+            {
+              "gt_index": 19,
+              "pp_index": 19,
+              "gt_year": 1955,
+              "pp_year": 1995
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.6790253087109237,
+          "aligned_count": 53,
+          "mean_f1": 0.6790253087109237
+        },
+        "author_detection": {
+          "score": 0.41913746630727766,
+          "aligned_count": 53,
+          "mean_count_accuracy": 0.41913746630727766
+        },
+        "suspect_alert": {
+          "score": 0.7484276729559749,
+          "total_warnings": 54,
+          "genuine_warnings": 2,
+          "pattern_ambiguous": 52,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.03773584905660377,
+          "entry_count": 53
+        }
+      },
+      "composite_score": 0.8317958599719807,
+      "is_negative_case": false,
+      "_file_id": "W4CDLU28"
+    },
+    {
+      "entry_counts": {
+        "gt": 45,
+        "pp": 45,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 45,
+        "pp_total": 45,
+        "aligned_count": 45,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 45,
+          "pp_count": 45,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 45,
+          "total": 45,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9583297550926301,
+          "aligned_count": 45,
+          "mean_f1": 0.9583297550926301
+        },
+        "author_detection": {
+          "score": 0.40962081128747796,
+          "aligned_count": 45,
+          "mean_count_accuracy": 0.40962081128747796
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 45,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 45,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 45
+        }
+      },
+      "composite_score": 0.8305445199019053,
+      "is_negative_case": false,
+      "_file_id": "BBIY57N3"
+    },
+    {
+      "entry_counts": {
+        "gt": 47,
+        "pp": 47,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 47,
+        "pp_total": 47,
+        "aligned_count": 47,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 47,
+          "pp_count": 47,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 47,
+          "total": 47,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.6567656370007994,
+          "aligned_count": 47,
+          "mean_f1": 0.6567656370007994
+        },
+        "author_detection": {
+          "score": 0.3993245525160419,
+          "aligned_count": 47,
+          "mean_count_accuracy": 0.3993245525160419
+        },
+        "suspect_alert": {
+          "score": 0.7163120567375887,
+          "total_warnings": 47,
+          "genuine_warnings": 2,
+          "pattern_ambiguous": 45,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0425531914893617,
+          "entry_count": 47
+        }
+      },
+      "composite_score": 0.8257550701755629,
+      "is_negative_case": false,
+      "_file_id": "DBYQ4LWE"
+    },
+    {
+      "entry_counts": {
+        "gt": 45,
+        "pp": 45,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 45,
+        "pp_total": 45,
+        "aligned_count": 45,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 45,
+          "pp_count": 45,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 45,
+          "total": 45,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.942388640166418,
+          "aligned_count": 45,
+          "mean_f1": 0.942388640166418
+        },
+        "author_detection": {
+          "score": 0.3768571428571429,
+          "aligned_count": 45,
+          "mean_count_accuracy": 0.3768571428571429
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 45,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 45,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 45
+        }
+      },
+      "composite_score": 0.8232828743273188,
+      "is_negative_case": false,
+      "_file_id": "4DB3YS8Y"
+    },
+    {
+      "entry_counts": {
+        "gt": 32,
+        "pp": 32,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 32,
+        "pp_total": 32,
+        "aligned_count": 32,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 32,
+          "pp_count": 32,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "author-year",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 32,
+          "total": 32,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.8750608215314097,
+          "aligned_count": 32,
+          "mean_f1": 0.8750608215314097
+        },
+        "author_detection": {
+          "score": 0.5450148809523809,
+          "aligned_count": 32,
+          "mean_count_accuracy": 0.5450148809523809
+        },
+        "suspect_alert": {
+          "score": 1.0,
+          "total_warnings": 32,
+          "genuine_warnings": 0,
+          "pattern_ambiguous": 32,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.0,
+          "entry_count": 32
+        }
+      },
+      "composite_score": 0.8232666934780906,
+      "is_negative_case": false,
+      "_file_id": "Z25GLKZV"
+    },
+    {
+      "entry_counts": {
+        "gt": 34,
+        "pp": 67,
+        "delta": 33
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "author-year"
+      },
+      "alignment": {
+        "gt_total": 34,
+        "pp_total": 67,
+        "aligned_count": 25,
+        "unmatched_gt": 9,
+        "avg_similarity": 0.3868363809201262
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.5074626865671642,
+          "gt_count": 34,
+          "pp_count": 67,
+          "delta": 33
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "author-year",
+          "pp_style": "author-year"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 25,
+          "total": 25,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9506981965403019,
+          "aligned_count": 25,
+          "mean_f1": 0.9506981965403019
+        },
+        "author_detection": {
+          "score": 0.3817619047619048,
+          "aligned_count": 25,
+          "mean_count_accuracy": 0.3817619047619048
+        },
+        "suspect_alert": {
+          "score": 0.900497512437811,
+          "total_warnings": 68,
+          "genuine_warnings": 1,
+          "pattern_ambiguous": 67,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.014925373134328358,
+          "entry_count": 67
+        }
+      },
+      "composite_score": 0.8173930281684799,
+      "is_negative_case": false,
+      "_file_id": "7T29H6SR"
+    },
+    {
+      "entry_counts": {
+        "gt": 47,
+        "pp": 48,
+        "delta": 1
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 47,
+        "pp_total": 48,
+        "aligned_count": 47,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9817749337209146
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9791666666666666,
+          "gt_count": 47,
+          "pp_count": 48,
+          "delta": 1
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9787234042553191,
+          "correct": 46,
+          "total": 47,
+          "errors": [
+            {
+              "gt_index": 12,
+              "pp_index": 12,
+              "gt_year": 2017,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9701524209297776,
+          "aligned_count": 47,
+          "mean_f1": 0.9701524209297776
+        },
+        "author_detection": {
+          "score": 0.43070753123944616,
+          "aligned_count": 47,
+          "mean_count_accuracy": 0.43070753123944616
+        },
+        "suspect_alert": {
+          "score": 0.8611111111111112,
+          "total_warnings": 48,
+          "genuine_warnings": 1,
+          "pattern_ambiguous": 47,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.020833333333333332,
+          "entry_count": 48
+        }
+      },
+      "composite_score": 0.8122341538646632,
+      "is_negative_case": false,
+      "_file_id": "2KUGMFL2"
+    },
+    {
+      "entry_counts": {
+        "gt": 23,
+        "pp": 31,
+        "delta": 8
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 23,
+        "pp_total": 31,
+        "aligned_count": 23,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9668465767116442
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.7419354838709677,
+          "gt_count": 23,
+          "pp_count": 31,
+          "delta": 8
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "mixed",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 23,
+          "total": 23,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.8508361204013378,
+          "aligned_count": 23,
+          "mean_f1": 0.8508361204013378
+        },
+        "author_detection": {
+          "score": 0.9886363636363636,
+          "aligned_count": 22,
+          "mean_count_accuracy": 0.9886363636363636
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 33,
+          "genuine_warnings": 8,
+          "pattern_ambiguous": 25,
+          "suspect_blocks": 2,
+          "genuine_warnings_per_entry": 0.25806451612903225,
+          "entry_count": 31
+        }
+      },
+      "composite_score": 0.8099597632381644,
+      "is_negative_case": false,
+      "_file_id": "V3TMPN22"
+    },
+    {
+      "entry_counts": {
+        "gt": 43,
+        "pp": 43,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 43,
+        "pp_total": 43,
+        "aligned_count": 43,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 43,
+          "pp_count": 43,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 43,
+          "total": 43,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.6638450893163099,
+          "aligned_count": 43,
+          "mean_f1": 0.6638450893163099
+        },
+        "author_detection": {
+          "score": 0.40382982650424515,
+          "aligned_count": 43,
+          "mean_count_accuracy": 0.40382982650424515
+        },
+        "suspect_alert": {
+          "score": 0.5348837209302326,
+          "total_warnings": 43,
+          "genuine_warnings": 3,
+          "pattern_ambiguous": 40,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.06976744186046512,
+          "entry_count": 43
+        }
+      },
+      "composite_score": 0.8098326270725253,
+      "is_negative_case": false,
+      "_file_id": "7AERRYC7"
+    },
+    {
+      "entry_counts": {
+        "gt": 40,
+        "pp": 46,
+        "delta": 6
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 40,
+        "pp_total": 46,
+        "aligned_count": 40,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9985294117647059
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.8695652173913043,
+          "gt_count": 40,
+          "pp_count": 46,
+          "delta": 6
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 40,
+          "total": 40,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9523809523809523,
+          "aligned_count": 40,
+          "mean_f1": 0.9523809523809523
+        },
+        "author_detection": {
+          "score": 0.6095833333333334,
+          "aligned_count": 40,
+          "mean_count_accuracy": 0.6095833333333334
+        },
+        "suspect_alert": {
+          "score": 0.7101449275362319,
+          "total_warnings": 49,
+          "genuine_warnings": 2,
+          "pattern_ambiguous": 47,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.043478260869565216,
+          "entry_count": 46
+        }
+      },
+      "composite_score": 0.7939811076604554,
+      "is_negative_case": false,
+      "_file_id": "M3AU5AC9"
+    },
+    {
+      "entry_counts": {
+        "gt": 52,
+        "pp": 65,
+        "delta": 13
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "author-year"
+      },
+      "alignment": {
+        "gt_total": 52,
+        "pp_total": 65,
+        "aligned_count": 33,
+        "unmatched_gt": 19,
+        "avg_similarity": 0.4613826014870211
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.8,
+          "gt_count": 52,
+          "pp_count": 65,
+          "delta": 13
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "author-year",
+          "pp_style": "author-year"
+        },
+        "year_accuracy": {
+          "score": 0.9696969696969697,
+          "correct": 32,
+          "total": 33,
+          "errors": [
+            {
+              "gt_index": 48,
+              "pp_index": 48,
+              "gt_year": 2022,
+              "pp_year": 2021
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9751221001221001,
+          "aligned_count": 33,
+          "mean_f1": 0.9751221001221001
+        },
+        "author_detection": {
+          "score": 0.43658008658008657,
+          "aligned_count": 33,
+          "mean_count_accuracy": 0.43658008658008657
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 66,
+          "genuine_warnings": 13,
+          "pattern_ambiguous": 53,
+          "suspect_blocks": 2,
+          "genuine_warnings_per_entry": 0.2,
+          "entry_count": 65
+        }
+      },
+      "composite_score": 0.7898627761127761,
+      "is_negative_case": false,
+      "_file_id": "MERSIDHN"
+    },
+    {
+      "entry_counts": {
+        "gt": 35,
+        "pp": 35,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 35,
+        "pp_total": 35,
+        "aligned_count": 35,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 35,
+          "pp_count": 35,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9714285714285714,
+          "correct": 34,
+          "total": 35,
+          "errors": [
+            {
+              "gt_index": 25,
+              "pp_index": 25,
+              "gt_year": 2019,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.6691968280529902,
+          "aligned_count": 35,
+          "mean_f1": 0.6691968280529902
+        },
+        "author_detection": {
+          "score": 0.34705215419501134,
+          "aligned_count": 35,
+          "mean_count_accuracy": 0.34705215419501134
+        },
+        "suspect_alert": {
+          "score": 0.4285714285714285,
+          "total_warnings": 35,
+          "genuine_warnings": 3,
+          "pattern_ambiguous": 32,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.08571428571428572,
+          "entry_count": 35
+        }
+      },
+      "composite_score": 0.7877187081470344,
+      "is_negative_case": false,
+      "_file_id": "VQ2WLIDR"
+    },
+    {
+      "entry_counts": {
+        "gt": 39,
+        "pp": 46,
+        "delta": 7
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 39,
+        "pp_total": 46,
+        "aligned_count": 26,
+        "unmatched_gt": 13,
+        "avg_similarity": 0.4773156771975312
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.8478260869565217,
+          "gt_count": 39,
+          "pp_count": 46,
+          "delta": 7
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.8846153846153846,
+          "correct": 23,
+          "total": 26,
+          "errors": [
+            {
+              "gt_index": 11,
+              "pp_index": 11,
+              "gt_year": 2020,
+              "pp_year": null
+            },
+            {
+              "gt_index": 22,
+              "pp_index": 23,
+              "gt_year": 2017,
+              "pp_year": null
+            },
+            {
+              "gt_index": 24,
+              "pp_index": 26,
+              "gt_year": 2015,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9201217642007116,
+          "aligned_count": 26,
+          "mean_f1": 0.9201217642007116
+        },
+        "author_detection": {
+          "score": 0.4116758241758242,
+          "aligned_count": 26,
+          "mean_count_accuracy": 0.4116758241758242
+        },
+        "suspect_alert": {
+          "score": 0.13043478260869568,
+          "total_warnings": 49,
+          "genuine_warnings": 6,
+          "pattern_ambiguous": 43,
+          "suspect_blocks": 4,
+          "genuine_warnings_per_entry": 0.13043478260869565,
+          "entry_count": 46
+        }
+      },
+      "composite_score": 0.7749605652737804,
+      "is_negative_case": false,
+      "_file_id": "CHPBJDLU"
+    },
+    {
+      "entry_counts": {
+        "gt": 43,
+        "pp": 52,
+        "delta": 9
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 43,
+        "pp_total": 52,
+        "aligned_count": 43,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9665399556337808
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.8269230769230769,
+          "gt_count": 43,
+          "pp_count": 52,
+          "delta": 9
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9534883720930233,
+          "correct": 41,
+          "total": 43,
+          "errors": [
+            {
+              "gt_index": 32,
+              "pp_index": 33,
+              "gt_year": 2019,
+              "pp_year": null
+            },
+            {
+              "gt_index": 33,
+              "pp_index": 35,
+              "gt_year": 2017,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.8809799818608792,
+          "aligned_count": 43,
+          "mean_f1": 0.8809799818608792
+        },
+        "author_detection": {
+          "score": 0.4580841638981174,
+          "aligned_count": 43,
+          "mean_count_accuracy": 0.4580841638981174
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 57,
+          "genuine_warnings": 13,
+          "pattern_ambiguous": 44,
+          "suspect_blocks": 5,
+          "genuine_warnings_per_entry": 0.25,
+          "entry_count": 52
+        }
+      },
+      "composite_score": 0.7698101202629027,
+      "is_negative_case": false,
+      "_file_id": "VHBU3NI6"
+    },
+    {
+      "entry_counts": {
+        "gt": 91,
+        "pp": 180,
+        "delta": 89
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "author-year"
+      },
+      "alignment": {
+        "gt_total": 91,
+        "pp_total": 180,
+        "aligned_count": 79,
+        "unmatched_gt": 12,
+        "avg_similarity": 0.580924719944968
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.5055555555555555,
+          "gt_count": 91,
+          "pp_count": 180,
+          "delta": 89
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "author-year",
+          "pp_style": "author-year"
+        },
+        "year_accuracy": {
+          "score": 0.961038961038961,
+          "correct": 74,
+          "total": 77,
+          "errors": [
+            {
+              "gt_index": 44,
+              "pp_index": 45,
+              "gt_year": 2017,
+              "pp_year": null
+            },
+            {
+              "gt_index": 48,
+              "pp_index": 51,
+              "gt_year": 2020,
+              "pp_year": null
+            },
+            {
+              "gt_index": 66,
+              "pp_index": 72,
+              "gt_year": 2023,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9148908385952318,
+          "aligned_count": 79,
+          "mean_f1": 0.9148908385952318
+        },
+        "author_detection": {
+          "score": 0.4137130801687764,
+          "aligned_count": 79,
+          "mean_count_accuracy": 0.4137130801687764
+        },
+        "suspect_alert": {
+          "score": 0.5555555555555556,
+          "total_warnings": 189,
+          "genuine_warnings": 12,
+          "pattern_ambiguous": 177,
+          "suspect_blocks": 9,
+          "genuine_warnings_per_entry": 0.06666666666666667,
+          "entry_count": 180
+        }
+      },
+      "composite_score": 0.7670204245920925,
+      "is_negative_case": false,
+      "_file_id": "HDDAIKQQ"
+    },
+    {
+      "entry_counts": {
+        "gt": 39,
+        "pp": 40,
+        "delta": 1
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 39,
+        "pp_total": 40,
+        "aligned_count": 39,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9722107132633449
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.975,
+          "gt_count": 39,
+          "pp_count": 40,
+          "delta": 1
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 39,
+          "total": 39,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.7820179015609908,
+          "aligned_count": 39,
+          "mean_f1": 0.7820179015609908
+        },
+        "author_detection": {
+          "score": 0.4276048026048026,
+          "aligned_count": 39,
+          "mean_count_accuracy": 0.4276048026048026
+        },
+        "suspect_alert": {
+          "score": 0.8333333333333333,
+          "total_warnings": 41,
+          "genuine_warnings": 1,
+          "pattern_ambiguous": 40,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.025,
+          "entry_count": 40
+        }
+      },
+      "composite_score": 0.7665982889840613,
+      "is_negative_case": false,
+      "_file_id": "VA9QJETD"
+    },
+    {
+      "entry_counts": {
+        "gt": 93,
+        "pp": 93,
+        "delta": 0
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 93,
+        "pp_total": 93,
+        "aligned_count": 91,
+        "unmatched_gt": 2,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 1.0,
+          "gt_count": 93,
+          "pp_count": 93,
+          "delta": 0
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 91,
+          "total": 91,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.729891696164781,
+          "aligned_count": 91,
+          "mean_f1": 0.729891696164781
+        },
+        "author_detection": {
+          "score": 0.4386316064887494,
+          "aligned_count": 91,
+          "mean_count_accuracy": 0.4386316064887494
+        },
+        "suspect_alert": {
+          "score": 0.8566308243727598,
+          "total_warnings": 93,
+          "genuine_warnings": 2,
+          "pattern_ambiguous": 91,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.021505376344086023,
+          "entry_count": 93
+        }
+      },
+      "composite_score": 0.7619991671273463,
+      "is_negative_case": false,
+      "_file_id": "JMWG9XVD"
+    },
+    {
+      "entry_counts": {
+        "gt": 89,
+        "pp": 145,
+        "delta": 56
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 89,
+        "pp_total": 145,
+        "aligned_count": 47,
+        "unmatched_gt": 42,
+        "avg_similarity": 0.58888043451585
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.6137931034482759,
+          "gt_count": 89,
+          "pp_count": 145,
+          "delta": 56
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 47,
+          "total": 47,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9693765685943408,
+          "aligned_count": 47,
+          "mean_f1": 0.9693765685943408
+        },
+        "author_detection": {
+          "score": 0.41887875717662953,
+          "aligned_count": 47,
+          "mean_count_accuracy": 0.41887875717662953
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 154,
+          "genuine_warnings": 43,
+          "pattern_ambiguous": 111,
+          "suspect_blocks": 2,
+          "genuine_warnings_per_entry": 0.296551724137931,
+          "entry_count": 145
+        }
+      },
+      "composite_score": 0.7569906385559033,
+      "is_negative_case": false,
+      "_file_id": "D6BUKS9Q"
+    },
+    {
+      "entry_counts": {
+        "gt": 59,
+        "pp": 119,
+        "delta": 60
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 59,
+        "pp_total": 119,
+        "aligned_count": 35,
+        "unmatched_gt": 24,
+        "avg_similarity": 0.35500718379905055
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.4957983193277311,
+          "gt_count": 59,
+          "pp_count": 119,
+          "delta": 60
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9428571428571428,
+          "correct": 33,
+          "total": 35,
+          "errors": [
+            {
+              "gt_index": 1,
+              "pp_index": 1,
+              "gt_year": 2020,
+              "pp_year": 2001
+            },
+            {
+              "gt_index": 55,
+              "pp_index": 55,
+              "gt_year": 2021,
+              "pp_year": 1911
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.7828355312189899,
+          "aligned_count": 35,
+          "mean_f1": 0.7828355312189899
+        },
+        "author_detection": {
+          "score": 0.428843537414966,
+          "aligned_count": 35,
+          "mean_count_accuracy": 0.428843537414966
+        },
+        "suspect_alert": {
+          "score": 0.7759103641456583,
+          "total_warnings": 122,
+          "genuine_warnings": 4,
+          "pattern_ambiguous": 118,
+          "suspect_blocks": 2,
+          "genuine_warnings_per_entry": 0.03361344537815126,
+          "entry_count": 119
+        }
+      },
+      "composite_score": 0.7510582225406419,
+      "is_negative_case": false,
+      "_file_id": "UW8ZLVA6"
+    },
+    {
+      "entry_counts": {
+        "gt": 45,
+        "pp": 53,
+        "delta": 8
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 45,
+        "pp_total": 53,
+        "aligned_count": 45,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9874287566642228
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.8490566037735849,
+          "gt_count": 45,
+          "pp_count": 53,
+          "delta": 8
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.8888888888888888,
+          "correct": 40,
+          "total": 45,
+          "errors": [
+            {
+              "gt_index": 22,
+              "pp_index": 25,
+              "gt_year": 2016,
+              "pp_year": null
+            },
+            {
+              "gt_index": 26,
+              "pp_index": 30,
+              "gt_year": 2017,
+              "pp_year": null
+            },
+            {
+              "gt_index": 28,
+              "pp_index": 33,
+              "gt_year": 2020,
+              "pp_year": null
+            },
+            {
+              "gt_index": 29,
+              "pp_index": 35,
+              "gt_year": 2016,
+              "pp_year": null
+            },
+            {
+              "gt_index": 30,
+              "pp_index": 37,
+              "gt_year": 1955,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.8287333654000321,
+          "aligned_count": 45,
+          "mean_f1": 0.8287333654000321
+        },
+        "author_detection": {
+          "score": 0.40325396825396825,
+          "aligned_count": 45,
+          "mean_count_accuracy": 0.40325396825396825
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 62,
+          "genuine_warnings": 17,
+          "pattern_ambiguous": 45,
+          "suspect_blocks": 7,
+          "genuine_warnings_per_entry": 0.32075471698113206,
+          "entry_count": 53
+        }
+      },
+      "composite_score": 0.7395422811523441,
+      "is_negative_case": false,
+      "_file_id": "RPRBE2QN"
+    },
+    {
+      "entry_counts": {
+        "gt": 56,
+        "pp": 78,
+        "delta": 22
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "author-year"
+      },
+      "alignment": {
+        "gt_total": 56,
+        "pp_total": 78,
+        "aligned_count": 29,
+        "unmatched_gt": 27,
+        "avg_similarity": 0.37191604856908245
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.717948717948718,
+          "gt_count": 56,
+          "pp_count": 78,
+          "delta": 22
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "author-year",
+          "pp_style": "author-year"
+        },
+        "year_accuracy": {
+          "score": 0.9310344827586207,
+          "correct": 27,
+          "total": 29,
+          "errors": [
+            {
+              "gt_index": 16,
+              "pp_index": 16,
+              "gt_year": 2023,
+              "pp_year": null
+            },
+            {
+              "gt_index": 17,
+              "pp_index": 18,
+              "gt_year": 2024,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.6946683224370851,
+          "aligned_count": 29,
+          "mean_f1": 0.6946683224370851
+        },
+        "author_detection": {
+          "score": 0.39704433497536945,
+          "aligned_count": 29,
+          "mean_count_accuracy": 0.39704433497536945
+        },
+        "suspect_alert": {
+          "score": 0.4871794871794871,
+          "total_warnings": 81,
+          "genuine_warnings": 6,
+          "pattern_ambiguous": 75,
+          "suspect_blocks": 3,
+          "genuine_warnings_per_entry": 0.07692307692307693,
+          "entry_count": 78
+        }
+      },
+      "composite_score": 0.7384378271041556,
+      "is_negative_case": false,
+      "_file_id": "SZ3GNWT9"
+    },
+    {
+      "entry_counts": {
+        "gt": 99,
+        "pp": 105,
+        "delta": 6
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 99,
+        "pp_total": 105,
+        "aligned_count": 99,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9811038289495835
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9428571428571428,
+          "gt_count": 99,
+          "pp_count": 105,
+          "delta": 6
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.6767676767676768,
+          "correct": 67,
+          "total": 99,
+          "errors": [
+            {
+              "gt_index": 11,
+              "pp_index": 12,
+              "gt_year": 2017,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 13,
+              "pp_index": 14,
+              "gt_year": 2019,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 22,
+              "pp_index": 23,
+              "gt_year": 2018,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 24,
+              "pp_index": 25,
+              "gt_year": 2015,
+              "pp_year": 1916
+            },
+            {
+              "gt_index": 25,
+              "pp_index": 26,
+              "gt_year": 2020,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 27,
+              "pp_index": 29,
+              "gt_year": 2019,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 28,
+              "pp_index": 30,
+              "gt_year": 2020,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 29,
+              "pp_index": 31,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 31,
+              "pp_index": 33,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 32,
+              "pp_index": 34,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 34,
+              "pp_index": 36,
+              "gt_year": 2023,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 38,
+              "pp_index": 40,
+              "gt_year": 2020,
+              "pp_year": null
+            },
+            {
+              "gt_index": 39,
+              "pp_index": 42,
+              "gt_year": 2021,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 40,
+              "pp_index": 43,
+              "gt_year": 2021,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 41,
+              "pp_index": 44,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 43,
+              "pp_index": 46,
+              "gt_year": 2023,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 44,
+              "pp_index": 47,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 47,
+              "pp_index": 50,
+              "gt_year": 2017,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 48,
+              "pp_index": 51,
+              "gt_year": 2017,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 50,
+              "pp_index": 53,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 51,
+              "pp_index": 54,
+              "gt_year": 2019,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 53,
+              "pp_index": 56,
+              "gt_year": 2020,
+              "pp_year": 1951
+            },
+            {
+              "gt_index": 55,
+              "pp_index": 58,
+              "gt_year": 2019,
+              "pp_year": 1946
+            },
+            {
+              "gt_index": 57,
+              "pp_index": 60,
+              "gt_year": 2019,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 59,
+              "pp_index": 62,
+              "gt_year": 2019,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 60,
+              "pp_index": 63,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 61,
+              "pp_index": 64,
+              "gt_year": 2020,
+              "pp_year": 1929
+            },
+            {
+              "gt_index": 65,
+              "pp_index": 68,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 67,
+              "pp_index": 70,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 76,
+              "pp_index": 79,
+              "gt_year": 2020,
+              "pp_year": null
+            },
+            {
+              "gt_index": 89,
+              "pp_index": 93,
+              "gt_year": 2023,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 92,
+              "pp_index": 96,
+              "gt_year": 2018,
+              "pp_year": 2024
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.689521636038145,
+          "aligned_count": 99,
+          "mean_f1": 0.689521636038145
+        },
+        "author_detection": {
+          "score": 0.3493265993265993,
+          "aligned_count": 99,
+          "mean_count_accuracy": 0.3493265993265993
+        },
+        "suspect_alert": {
+          "score": 0.6825396825396826,
+          "total_warnings": 108,
+          "genuine_warnings": 5,
+          "pattern_ambiguous": 103,
+          "suspect_blocks": 5,
+          "genuine_warnings_per_entry": 0.047619047619047616,
+          "entry_count": 105
+        }
+      },
+      "composite_score": 0.7333303849595122,
+      "is_negative_case": false,
+      "_file_id": "VP3VWENB"
+    },
+    {
+      "entry_counts": {
+        "gt": 66,
+        "pp": 131,
+        "delta": 65
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 66,
+        "pp_total": 131,
+        "aligned_count": 55,
+        "unmatched_gt": 11,
+        "avg_similarity": 0.46126139997988774
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.5038167938931297,
+          "gt_count": 66,
+          "pp_count": 131,
+          "delta": 65
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9818181818181818,
+          "correct": 54,
+          "total": 55,
+          "errors": [
+            {
+              "gt_index": 2,
+              "pp_index": 2,
+              "gt_year": 2006,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9606867879595152,
+          "aligned_count": 55,
+          "mean_f1": 0.9606867879595152
+        },
+        "author_detection": {
+          "score": 0.45461760461760464,
+          "aligned_count": 55,
+          "mean_count_accuracy": 0.45461760461760464
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 141,
+          "genuine_warnings": 44,
+          "pattern_ambiguous": 97,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.33587786259541985,
+          "entry_count": 131
+        }
+      },
+      "composite_score": 0.7318513616848107,
+      "is_negative_case": false,
+      "_file_id": "J6DSFFBH"
+    },
+    {
+      "entry_counts": {
+        "gt": 67,
+        "pp": 98,
+        "delta": 31
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 67,
+        "pp_total": 98,
+        "aligned_count": 66,
+        "unmatched_gt": 1,
+        "avg_similarity": 0.608036460987698
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.6836734693877551,
+          "gt_count": 67,
+          "pp_count": 98,
+          "delta": 31
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 66,
+          "total": 66,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.8553665063804156,
+          "aligned_count": 66,
+          "mean_f1": 0.8553665063804156
+        },
+        "author_detection": {
+          "score": 0.9833721833721834,
+          "aligned_count": 66,
+          "mean_count_accuracy": 0.9833721833721834
+        },
+        "suspect_alert": {
+          "score": 0.2517006802721088,
+          "total_warnings": 107,
+          "genuine_warnings": 11,
+          "pattern_ambiguous": 96,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.11224489795918367,
+          "entry_count": 98
+        }
+      },
+      "composite_score": 0.7240836068370841,
+      "is_negative_case": false,
+      "_file_id": "8838AH6P"
+    },
+    {
+      "entry_counts": {
+        "gt": 32,
+        "pp": 58,
+        "delta": 26
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "author-year"
+      },
+      "alignment": {
+        "gt_total": 32,
+        "pp_total": 58,
+        "aligned_count": 31,
+        "unmatched_gt": 1,
+        "avg_similarity": 0.5248321447522795
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.5517241379310345,
+          "gt_count": 32,
+          "pp_count": 58,
+          "delta": 26
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "author-year",
+          "pp_style": "author-year"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 31,
+          "total": 31,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9025933602334282,
+          "aligned_count": 31,
+          "mean_f1": 0.9025933602334282
+        },
+        "author_detection": {
+          "score": 0.3684853676789161,
+          "aligned_count": 31,
+          "mean_count_accuracy": 0.3684853676789161
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 58,
+          "genuine_warnings": 11,
+          "pattern_ambiguous": 47,
+          "suspect_blocks": 2,
+          "genuine_warnings_per_entry": 0.1896551724137931,
+          "entry_count": 58
+        }
+      },
+      "composite_score": 0.7228417044124554,
+      "is_negative_case": false,
+      "_file_id": "29IBKEUR"
+    },
+    {
+      "entry_counts": {
+        "gt": 39,
+        "pp": 71,
+        "delta": 32
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 39,
+        "pp_total": 71,
+        "aligned_count": 39,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9908262108262108
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.5492957746478873,
+          "gt_count": 39,
+          "pp_count": 71,
+          "delta": 32
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "mixed",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 0.8974358974358975,
+          "correct": 35,
+          "total": 39,
+          "errors": [
+            {
+              "gt_index": 15,
+              "pp_index": 15,
+              "gt_year": 2022,
+              "pp_year": 2021
+            },
+            {
+              "gt_index": 17,
+              "pp_index": 17,
+              "gt_year": 2014,
+              "pp_year": null
+            },
+            {
+              "gt_index": 25,
+              "pp_index": 26,
+              "gt_year": 2017,
+              "pp_year": null
+            },
+            {
+              "gt_index": 38,
+              "pp_index": 40,
+              "gt_year": 2021,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.9269259230797693,
+          "aligned_count": 39,
+          "mean_f1": 0.9269259230797693
+        },
+        "author_detection": {
+          "score": 0.4177294927294927,
+          "aligned_count": 39,
+          "mean_count_accuracy": 0.4177294927294927
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 92,
+          "genuine_warnings": 15,
+          "pattern_ambiguous": 77,
+          "suspect_blocks": 3,
+          "genuine_warnings_per_entry": 0.2112676056338028,
+          "entry_count": 71
+        }
+      },
+      "composite_score": 0.7077225593314435,
+      "is_negative_case": false,
+      "_file_id": "HPLZ65Z2"
+    },
+    {
+      "entry_counts": {
+        "gt": 60,
+        "pp": 78,
+        "delta": 18
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 60,
+        "pp_total": 78,
+        "aligned_count": 47,
+        "unmatched_gt": 13,
+        "avg_similarity": 0.3975046516709421
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.7692307692307692,
+          "gt_count": 60,
+          "pp_count": 78,
+          "delta": 18
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "numeric",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 47,
+          "total": 47,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9738891594789053,
+          "aligned_count": 47,
+          "mean_f1": 0.9738891594789053
+        },
+        "author_detection": {
+          "score": 0.3933046268152651,
+          "aligned_count": 47,
+          "mean_count_accuracy": 0.3933046268152651
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 84,
+          "genuine_warnings": 12,
+          "pattern_ambiguous": 72,
+          "suspect_blocks": 3,
+          "genuine_warnings_per_entry": 0.15384615384615385,
+          "entry_count": 78
+        }
+      },
+      "composite_score": 0.6866489063974067,
+      "is_negative_case": false,
+      "_file_id": "DDT5Q9QF"
+    },
+    {
+      "entry_counts": {
+        "gt": 44,
+        "pp": 65,
+        "delta": 21
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 44,
+        "pp_total": 65,
+        "aligned_count": 43,
+        "unmatched_gt": 1,
+        "avg_similarity": 0.5187153470083189
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.676923076923077,
+          "gt_count": 44,
+          "pp_count": 65,
+          "delta": 21
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "author-year",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 43,
+          "total": 43,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.957798080472499,
+          "aligned_count": 43,
+          "mean_f1": 0.957798080472499
+        },
+        "author_detection": {
+          "score": 0.38990402362495385,
+          "aligned_count": 43,
+          "mean_count_accuracy": 0.38990402362495385
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 70,
+          "genuine_warnings": 13,
+          "pattern_ambiguous": 57,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.2,
+          "entry_count": 65
+        }
+      },
+      "composite_score": 0.6638245378652357,
+      "is_negative_case": false,
+      "_file_id": "5HBHAWIV"
+    },
+    {
+      "entry_counts": {
+        "gt": 20,
+        "pp": 21,
+        "delta": 1
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 20,
+        "pp_total": 21,
+        "aligned_count": 20,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9789473684210527
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9523809523809523,
+          "gt_count": 20,
+          "pp_count": 21,
+          "delta": 1
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.95,
+          "correct": 19,
+          "total": 20,
+          "errors": [
+            {
+              "gt_index": 8,
+              "pp_index": 9,
+              "gt_year": 2017,
+              "pp_year": 2018
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.6862570207570208,
+          "aligned_count": 20,
+          "mean_f1": 0.6862570207570208
+        },
+        "author_detection": {
+          "score": 0.3925,
+          "aligned_count": 20,
+          "mean_count_accuracy": 0.3925
+        },
+        "suspect_alert": {
+          "score": 0.04761904761904767,
+          "total_warnings": 22,
+          "genuine_warnings": 3,
+          "pattern_ambiguous": 19,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.14285714285714285,
+          "entry_count": 21
+        }
+      },
+      "composite_score": 0.6435523504273504,
+      "is_negative_case": false,
+      "_file_id": "NXLIGKF5"
+    },
+    {
+      "entry_counts": {
+        "gt": 64,
+        "pp": 70,
+        "delta": 6
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 64,
+        "pp_total": 70,
+        "aligned_count": 63,
+        "unmatched_gt": 1,
+        "avg_similarity": 0.9743045622236353
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9142857142857143,
+          "gt_count": 64,
+          "pp_count": 70,
+          "delta": 6
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9365079365079365,
+          "correct": 59,
+          "total": 63,
+          "errors": [
+            {
+              "gt_index": 10,
+              "pp_index": 12,
+              "gt_year": 2018,
+              "pp_year": 2017
+            },
+            {
+              "gt_index": 12,
+              "pp_index": 13,
+              "gt_year": 2016,
+              "pp_year": null
+            },
+            {
+              "gt_index": 52,
+              "pp_index": 55,
+              "gt_year": 2021,
+              "pp_year": null
+            },
+            {
+              "gt_index": 57,
+              "pp_index": 60,
+              "gt_year": 2019,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.7295065213154874,
+          "aligned_count": 63,
+          "mean_f1": 0.7295065213154874
+        },
+        "author_detection": {
+          "score": 0.4107331821617536,
+          "aligned_count": 63,
+          "mean_count_accuracy": 0.4107331821617536
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 74,
+          "genuine_warnings": 12,
+          "pattern_ambiguous": 62,
+          "suspect_blocks": 2,
+          "genuine_warnings_per_entry": 0.17142857142857143,
+          "entry_count": 70
+        }
+      },
+      "composite_score": 0.6404340755291742,
+      "is_negative_case": false,
+      "_file_id": "S86GB385"
+    },
+    {
+      "entry_counts": {
+        "gt": 24,
+        "pp": 231,
+        "delta": 207
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 24,
+        "pp_total": 231,
+        "aligned_count": 22,
+        "unmatched_gt": 2,
+        "avg_similarity": 0.5931788088046883
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.10389610389610393,
+          "gt_count": 24,
+          "pp_count": 231,
+          "delta": 207
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9545454545454546,
+          "correct": 21,
+          "total": 22,
+          "errors": [
+            {
+              "gt_index": 8,
+              "pp_index": 8,
+              "gt_year": 2017,
+              "pp_year": 2025
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.36002265530718214,
+          "aligned_count": 22,
+          "mean_f1": 0.36002265530718214
+        },
+        "author_detection": {
+          "score": 0.990909090909091,
+          "aligned_count": 22,
+          "mean_count_accuracy": 0.990909090909091
+        },
+        "suspect_alert": {
+          "score": 0.9134199134199135,
+          "total_warnings": 232,
+          "genuine_warnings": 3,
+          "pattern_ambiguous": 229,
+          "suspect_blocks": 2,
+          "genuine_warnings_per_entry": 0.012987012987012988,
+          "entry_count": 231
+        }
+      },
+      "composite_score": 0.6398541486752805,
+      "is_negative_case": false,
+      "_file_id": "4FUJYLNY"
+    },
+    {
+      "entry_counts": {
+        "gt": 28,
+        "pp": 40,
+        "delta": 12
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 28,
+        "pp_total": 40,
+        "aligned_count": 28,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9953416149068323
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.7,
+          "gt_count": 28,
+          "pp_count": 40,
+          "delta": 12
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "numeric",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 0.9259259259259259,
+          "correct": 25,
+          "total": 27,
+          "errors": [
+            {
+              "gt_index": 6,
+              "pp_index": 6,
+              "gt_year": 2022,
+              "pp_year": null
+            },
+            {
+              "gt_index": 20,
+              "pp_index": 20,
+              "gt_year": 2013,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.8395695056168399,
+          "aligned_count": 28,
+          "mean_f1": 0.8395695056168399
+        },
+        "author_detection": {
+          "score": 0.4761904761904762,
+          "aligned_count": 28,
+          "mean_count_accuracy": 0.4761904761904762
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 40,
+          "genuine_warnings": 10,
+          "pattern_ambiguous": 30,
+          "suspect_blocks": 2,
+          "genuine_warnings_per_entry": 0.25,
+          "entry_count": 40
+        }
+      },
+      "composite_score": 0.6289929055047391,
+      "is_negative_case": false,
+      "_file_id": "7WIXRD9R"
+    },
+    {
+      "entry_counts": {
+        "gt": 47,
+        "pp": 85,
+        "delta": 38
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 47,
+        "pp_total": 85,
+        "aligned_count": 47,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.7146795736913389
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.5529411764705883,
+          "gt_count": 47,
+          "pp_count": 85,
+          "delta": 38
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "numeric",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 47,
+          "total": 47,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.7387260086453044,
+          "aligned_count": 47,
+          "mean_f1": 0.7387260086453044
+        },
+        "author_detection": {
+          "score": 0.5541877744005403,
+          "aligned_count": 47,
+          "mean_count_accuracy": 0.5541877744005403
+        },
+        "suspect_alert": {
+          "score": 0.21568627450980393,
+          "total_warnings": 107,
+          "genuine_warnings": 10,
+          "pattern_ambiguous": 97,
+          "suspect_blocks": 4,
+          "genuine_warnings_per_entry": 0.11764705882352941,
+          "entry_count": 85
+        }
+      },
+      "composite_score": 0.6222571423464782,
+      "is_negative_case": false,
+      "_file_id": "34WIW5FH"
+    },
+    {
+      "entry_counts": {
+        "gt": 54,
+        "pp": 105,
+        "delta": 51
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 54,
+        "pp_total": 105,
+        "aligned_count": 51,
+        "unmatched_gt": 3,
+        "avg_similarity": 0.7308947452470933
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.5142857142857142,
+          "gt_count": 54,
+          "pp_count": 105,
+          "delta": 51
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "author-year",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 51,
+          "total": 51,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9018393012519765,
+          "aligned_count": 51,
+          "mean_f1": 0.9018393012519765
+        },
+        "author_detection": {
+          "score": 0.4119981325863679,
+          "aligned_count": 51,
+          "mean_count_accuracy": 0.4119981325863679
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 107,
+          "genuine_warnings": 22,
+          "pattern_ambiguous": 85,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.20952380952380953,
+          "entry_count": 105
+        }
+      },
+      "composite_score": 0.6195167814287738,
+      "is_negative_case": false,
+      "_file_id": "LUM266YT"
+    },
+    {
+      "entry_counts": {
+        "gt": 66,
+        "pp": 147,
+        "delta": 81
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 66,
+        "pp_total": 147,
+        "aligned_count": 66,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9028332035734572
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.44897959183673475,
+          "gt_count": 66,
+          "pp_count": 147,
+          "delta": 81
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "numeric",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 66,
+          "total": 66,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9654932189023098,
+          "aligned_count": 66,
+          "mean_f1": 0.9654932189023098
+        },
+        "author_detection": {
+          "score": 0.38172799422799425,
+          "aligned_count": 66,
+          "mean_count_accuracy": 0.38172799422799425
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 186,
+          "genuine_warnings": 28,
+          "pattern_ambiguous": 158,
+          "suspect_blocks": 4,
+          "genuine_warnings_per_entry": 0.19047619047619047,
+          "entry_count": 147
+        }
+      },
+      "composite_score": 0.6193420225157238,
+      "is_negative_case": false,
+      "_file_id": "53A2WXX8"
+    },
+    {
+      "entry_counts": {
+        "gt": 23,
+        "pp": 51,
+        "delta": 28
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 23,
+        "pp_total": 51,
+        "aligned_count": 20,
+        "unmatched_gt": 3,
+        "avg_similarity": 0.41873933763461346
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.4509803921568627,
+          "gt_count": 23,
+          "pp_count": 51,
+          "delta": 28
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "author-year",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 20,
+          "total": 20,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9236688311688311,
+          "aligned_count": 20,
+          "mean_f1": 0.9236688311688311
+        },
+        "author_detection": {
+          "score": 0.38708333333333333,
+          "aligned_count": 20,
+          "mean_count_accuracy": 0.38708333333333333
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 62,
+          "genuine_warnings": 11,
+          "pattern_ambiguous": 51,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 0.21568627450980393,
+          "entry_count": 51
+        }
+      },
+      "composite_score": 0.6098216195569137,
+      "is_negative_case": false,
+      "_file_id": "IY3FMWQM"
+    },
+    {
+      "entry_counts": {
+        "gt": 74,
+        "pp": 77,
+        "delta": 3
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 74,
+        "pp_total": 77,
+        "aligned_count": 74,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.976762801008157
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.961038961038961,
+          "gt_count": 74,
+          "pp_count": 77,
+          "delta": 3
+        },
+        "entry_style": {
+          "score": 1.0,
+          "gt_style": "numeric",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9324324324324325,
+          "correct": 69,
+          "total": 74,
+          "errors": [
+            {
+              "gt_index": 16,
+              "pp_index": 17,
+              "gt_year": 2016,
+              "pp_year": 2027
+            },
+            {
+              "gt_index": 28,
+              "pp_index": 29,
+              "gt_year": 2020,
+              "pp_year": null
+            },
+            {
+              "gt_index": 46,
+              "pp_index": 48,
+              "gt_year": 2019,
+              "pp_year": null
+            },
+            {
+              "gt_index": 59,
+              "pp_index": 62,
+              "gt_year": 2019,
+              "pp_year": 1920
+            },
+            {
+              "gt_index": 62,
+              "pp_index": 65,
+              "gt_year": 2021,
+              "pp_year": 1963
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.059863030451265745,
+          "aligned_count": 74,
+          "mean_f1": 0.059863030451265745
+        },
+        "author_detection": {
+          "score": 0.365990990990991,
+          "aligned_count": 74,
+          "mean_count_accuracy": 0.365990990990991
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 80,
+          "genuine_warnings": 71,
+          "pattern_ambiguous": 9,
+          "suspect_blocks": 3,
+          "genuine_warnings_per_entry": 0.922077922077922,
+          "entry_count": 77
+        }
+      },
+      "composite_score": 0.5768807570278159,
+      "is_negative_case": false,
+      "_file_id": "ELUGCCPA"
+    },
+    {
+      "entry_counts": {
+        "gt": 34,
+        "pp": 35,
+        "delta": 1
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 34,
+        "pp_total": 35,
+        "aligned_count": 34,
+        "unmatched_gt": 0,
+        "avg_similarity": 1.0
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9714285714285714,
+          "gt_count": 34,
+          "pp_count": 35,
+          "delta": 1
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.9705882352941176,
+          "correct": 33,
+          "total": 34,
+          "errors": [
+            {
+              "gt_index": 16,
+              "pp_index": 17,
+              "gt_year": 2012,
+              "pp_year": 1901
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.003095975232198142,
+          "aligned_count": 34,
+          "mean_f1": 0.003095975232198142
+        },
+        "author_detection": {
+          "score": 0.6938867438867439,
+          "aligned_count": 34,
+          "mean_count_accuracy": 0.6938867438867439
+        },
+        "suspect_alert": {
+          "score": 0.6190476190476191,
+          "total_warnings": 38,
+          "genuine_warnings": 2,
+          "pattern_ambiguous": 36,
+          "suspect_blocks": 0,
+          "genuine_warnings_per_entry": 0.05714285714285714,
+          "entry_count": 35
+        }
+      },
+      "composite_score": 0.5690002032107295,
+      "is_negative_case": false,
+      "_file_id": "76BD6UYE"
+    },
+    {
+      "entry_counts": {
+        "gt": 27,
+        "pp": 385,
+        "delta": 358
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 27,
+        "pp_total": 385,
+        "aligned_count": 22,
+        "unmatched_gt": 5,
+        "avg_similarity": 0.6813389840048933
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.07012987012987015,
+          "gt_count": 27,
+          "pp_count": 385,
+          "delta": 358
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "numeric",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 1.0,
+          "correct": 22,
+          "total": 22,
+          "errors": []
+        },
+        "title_quality": {
+          "score": 0.9043799337916985,
+          "aligned_count": 22,
+          "mean_f1": 0.9043799337916985
+        },
+        "author_detection": {
+          "score": 0.44692378328741966,
+          "aligned_count": 22,
+          "mean_count_accuracy": 0.44692378328741966
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 428,
+          "genuine_warnings": 85,
+          "pattern_ambiguous": 343,
+          "suspect_blocks": 5,
+          "genuine_warnings_per_entry": 0.22077922077922077,
+          "entry_count": 385
+        }
+      },
+      "composite_score": 0.5348133358026407,
+      "is_negative_case": false,
+      "_file_id": "8WM66ZL3"
+    },
+    {
+      "entry_counts": {
+        "gt": 58,
+        "pp": 157,
+        "delta": 99
+      },
+      "entry_style": {
+        "gt": "author-year",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 58,
+        "pp_total": 157,
+        "aligned_count": 58,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.7605055255150666
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.3694267515923567,
+          "gt_count": 58,
+          "pp_count": 157,
+          "delta": 99
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "author-year",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 0.9655172413793104,
+          "correct": 56,
+          "total": 58,
+          "errors": [
+            {
+              "gt_index": 34,
+              "pp_index": 35,
+              "gt_year": 2009,
+              "pp_year": null
+            },
+            {
+              "gt_index": 41,
+              "pp_index": 43,
+              "gt_year": 2008,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.4026219699192926,
+          "aligned_count": 58,
+          "mean_f1": 0.4026219699192926
+        },
+        "author_detection": {
+          "score": 0.8595785440613026,
+          "aligned_count": 58,
+          "mean_count_accuracy": 0.8595785440613026
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 161,
+          "genuine_warnings": 44,
+          "pattern_ambiguous": 117,
+          "suspect_blocks": 4,
+          "genuine_warnings_per_entry": 0.2802547770700637,
+          "entry_count": 157
+        }
+      },
+      "composite_score": 0.5018780075492524,
+      "is_negative_case": false,
+      "_file_id": "ANFVBN87"
+    },
+    {
+      "entry_counts": {
+        "gt": 20,
+        "pp": 26,
+        "delta": 6
+      },
+      "entry_style": {
+        "gt": "mixed",
+        "pp": "numeric"
+      },
+      "alignment": {
+        "gt_total": 20,
+        "pp_total": 26,
+        "aligned_count": 15,
+        "unmatched_gt": 5,
+        "avg_similarity": 0.6296405794917592
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.7692307692307692,
+          "gt_count": 20,
+          "pp_count": 26,
+          "delta": 6
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "mixed",
+          "pp_style": "numeric"
+        },
+        "year_accuracy": {
+          "score": 0.5333333333333333,
+          "correct": 8,
+          "total": 15,
+          "errors": [
+            {
+              "gt_index": 2,
+              "pp_index": 2,
+              "gt_year": 2021,
+              "pp_year": null
+            },
+            {
+              "gt_index": 5,
+              "pp_index": 6,
+              "gt_year": 2023,
+              "pp_year": null
+            },
+            {
+              "gt_index": 9,
+              "pp_index": 10,
+              "gt_year": 2018,
+              "pp_year": null
+            },
+            {
+              "gt_index": 12,
+              "pp_index": 13,
+              "gt_year": 2020,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 13,
+              "pp_index": 14,
+              "gt_year": 2017,
+              "pp_year": null
+            },
+            {
+              "gt_index": 18,
+              "pp_index": 20,
+              "gt_year": 2020,
+              "pp_year": null
+            },
+            {
+              "gt_index": 19,
+              "pp_index": 21,
+              "gt_year": 2023,
+              "pp_year": null
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.2604708227896634,
+          "aligned_count": 15,
+          "mean_f1": 0.2604708227896634
+        },
+        "author_detection": {
+          "score": 0.46111111111111114,
+          "aligned_count": 15,
+          "mean_count_accuracy": 0.46111111111111114
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 27,
+          "genuine_warnings": 6,
+          "pattern_ambiguous": 21,
+          "suspect_blocks": 3,
+          "genuine_warnings_per_entry": 0.23076923076923078,
+          "entry_count": 26
+        }
+      },
+      "composite_score": 0.3984083039880141,
+      "is_negative_case": false,
+      "_file_id": "UFJQE7PA"
+    },
+    {
+      "entry_counts": {
+        "gt": 50,
+        "pp": 54,
+        "delta": 4
+      },
+      "entry_style": {
+        "gt": "numeric",
+        "pp": "mixed"
+      },
+      "alignment": {
+        "gt_total": 50,
+        "pp_total": 54,
+        "aligned_count": 50,
+        "unmatched_gt": 0,
+        "avg_similarity": 0.9827850678733032
+      },
+      "scores": {
+        "entry_count": {
+          "score": 0.9259259259259259,
+          "gt_count": 50,
+          "pp_count": 54,
+          "delta": 4
+        },
+        "entry_style": {
+          "score": 0.0,
+          "gt_style": "numeric",
+          "pp_style": "mixed"
+        },
+        "year_accuracy": {
+          "score": 0.68,
+          "correct": 34,
+          "total": 50,
+          "errors": [
+            {
+              "gt_index": 3,
+              "pp_index": 3,
+              "gt_year": 2017,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 4,
+              "pp_index": 4,
+              "gt_year": 2020,
+              "pp_year": 2010
+            },
+            {
+              "gt_index": 12,
+              "pp_index": 12,
+              "gt_year": 2021,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 16,
+              "pp_index": 16,
+              "gt_year": 2021,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 18,
+              "pp_index": 18,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 21,
+              "pp_index": 21,
+              "gt_year": 2021,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 23,
+              "pp_index": 23,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 25,
+              "pp_index": 25,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 28,
+              "pp_index": 29,
+              "gt_year": 2022,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 34,
+              "pp_index": 35,
+              "gt_year": 2023,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 35,
+              "pp_index": 36,
+              "gt_year": 2021,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 37,
+              "pp_index": 38,
+              "gt_year": 2021,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 38,
+              "pp_index": 40,
+              "gt_year": 2018,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 39,
+              "pp_index": 41,
+              "gt_year": 2018,
+              "pp_year": 2024
+            },
+            {
+              "gt_index": 41,
+              "pp_index": 43,
+              "gt_year": 2020,
+              "pp_year": 2006
+            },
+            {
+              "gt_index": 47,
+              "pp_index": 49,
+              "gt_year": 2023,
+              "pp_year": 2024
+            }
+          ]
+        },
+        "title_quality": {
+          "score": 0.04,
+          "aligned_count": 50,
+          "mean_f1": 0.04
+        },
+        "author_detection": {
+          "score": 0.28833333333333333,
+          "aligned_count": 50,
+          "mean_count_accuracy": 0.28833333333333333
+        },
+        "suspect_alert": {
+          "score": 0.0,
+          "total_warnings": 55,
+          "genuine_warnings": 55,
+          "pattern_ambiguous": 0,
+          "suspect_blocks": 1,
+          "genuine_warnings_per_entry": 1.0185185185185186,
+          "entry_count": 54
+        }
+      },
+      "composite_score": 0.39401851851851855,
+      "is_negative_case": false,
+      "_file_id": "S7IWH3CG"
+    }
+  ]
+}

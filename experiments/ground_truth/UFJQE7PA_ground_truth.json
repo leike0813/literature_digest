@@ -1,0 +1,188 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/UFJQE7PA_基于改进RT-DETR的铁路施工场景下人员安全穿戴检测.txt",
+  "entry_style": "mixed",
+  "notes": "OCR质量极差，大量条目参考编号丢失（显示为［］），中文文字OOV严重，卷期页码大面积缺失。21条可识别引文，但超过半数仅有部分元数据可确认。建议作为低质反例参考。",
+  "items": [
+    {
+      "author": ["李晓健", "陈雍君", "邱实", "et al."],
+      "title": "复杂地区铁路工程建设风险知识图谱的建立与分析方法",
+      "year": 2024,
+      "container": "铁道学报 (Journal of the China Railway Society)",
+      "raw": "［］李晓健，陈雍君，邱实，等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法［ ］铁道学报， ［ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html.",
+      "confidence": 0.60,
+      "entry_index": 0
+    },
+    {
+      "author": ["鲁帅", "侯继伟", "高春风", "et al."],
+      "title": "分布式视频监控系统在铁路站前工程的应用与研究",
+      "year": null,
+      "container": "铁路计算机应用, pp. 12-16",
+      "raw": "［］鲁帅，侯继伟，高春风，等 分布式视频监控系统在铁路站前工程的应用与研究 ［］铁路计算机应用， ， ( ) :12-16.",
+      "confidence": 0.40,
+      "entry_index": 1
+    },
+    {
+      "author": ["曹燕"],
+      "title": "基于深度学习的建筑工人安全帽检测方法研究",
+      "year": 2021,
+      "container": "苏州科技大学",
+      "raw": "［］曹燕 基于深度学习的建筑工人安全帽检测方法研究［ ］苏州: 苏州科技大学，CAO Yan. Research on Detection Methods of Construction Workers' Hard Hats Based on Deep Learning[D]. Suzhou: Suzhou University of Science and Technology, 2021.",
+      "confidence": 0.60,
+      "entry_index": 2
+    },
+    {
+      "author": ["黄志清", "张煜森", "张严心", "et al."],
+      "title": "基于改进型YOLOv4的室内安全帽佩戴状态检测算法",
+      "year": null,
+      "container": "天津大学学报(自然科学与工程技术版)",
+      "raw": "［］黄志清，张煜森，张严心，等 基于改进型YOLOv4的室内安全帽佩戴状态检测算法［］天津大学学报(自然科学与工程技术版)",
+      "confidence": 0.40,
+      "entry_index": 3
+    },
+    {
+      "author": ["张学立", "贾新春", "王美刚", "et al."],
+      "title": "安全帽与反光衣的轻量化检测: 改进YOLOv5s算法",
+      "year": null,
+      "container": "计算机工程与应用",
+      "raw": "［］张学立，贾新春，王美刚，等 安全帽与反光衣的轻量化检测: 改进YOLOv5s算法［］计算机工程与应用",
+      "confidence": 0.40,
+      "entry_index": 4
+    },
+    {
+      "author": ["S. Wang", "X. Hai", "Y. Y. Cao"],
+      "title": "Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD",
+      "year": 2023,
+      "container": "Asian Journal of Research in Computer Science, 15(2): 11-24",
+      "raw": "[6] WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2) : 11-24.",
+      "confidence": 0.75,
+      "entry_index": 5
+    },
+    {
+      "author": ["李天宇", "吴浩", "毛艳玲", "et al."],
+      "title": "改进YOLOv4的安全帽佩戴检测方法",
+      "year": null,
+      "container": "计算机工程与设计",
+      "raw": "［］李天宇，吴浩，毛艳玲，等 改进YOLOv4的安全帽佩戴检测方法［］计算机工程与设计",
+      "confidence": 0.40,
+      "entry_index": 6
+    },
+    {
+      "author": ["Joseph Redmon", "Santosh Divvala", "Ross Girshick", "et al."],
+      "title": "You Only Look Once: Unified, Real-time Object Detection",
+      "year": 2016,
+      "container": "2016 IEEE Conference on Computer Vision and Pattern Recognition",
+      "raw": "[7] REDMON J,DIVVALA S,GIRSHICK R,et al.You Only Look Once:Unified,Real-time Object Detection[C] //2016 IEEE Conference on Computer Vision and Pattern Recognition.",
+      "confidence": 0.90,
+      "entry_index": 7
+    },
+    {
+      "author": ["Kaiming He", "Georgia Gkioxari", "Piotr Dollar", "Ross Girshick"],
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "container": "2017 IEEE International Conference on Computer Vision, pp. 7263-7271",
+      "raw": "[8] HE K, GKIOXARI G, DOLLAR P, et al. Mask R-CNN[C]//2017 IEEE Conference on Computer Vision and Pattern Recognition. Piscataway:IEEE,2017:7263-7271.",
+      "confidence": 0.85,
+      "entry_index": 8
+    },
+    {
+      "author": ["Joseph Redmon", "Ali Farhadi"],
+      "title": "YOLOv3: An Incremental Improvement",
+      "year": 2018,
+      "container": "arXiv:1804.02767",
+      "raw": "[10] REDMON J,FARHADI A. Yolov3: an Incremental Improvement[EB/OL]. arXiv:1804.02767.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": ["Chien-Yao Wang", "Alexey Bochkovskiy", "Hong-Yuan Mark Liao"],
+      "title": "Scaled-YOLOv4: Scaling Cross Stage Partial Network",
+      "year": 2021,
+      "container": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 13024-13033",
+      "raw": "[11] WANG C Y,BOCHKOVSKIY A,LIAO H Y M. Scaled-YOLOv4[C]//IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway:IEEE,2021:13024-13033.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": ["N. O. Salscheider"],
+      "title": "FeatureNMS: Non-maximum Suppression by Learning Feature Embeddings",
+      "year": 2021,
+      "container": "2020 25th International Conference on Pattern Recognition, pp. 7848-7854",
+      "raw": "[12] SALSCHEIDERNO.FeatureNMS:Non-maximum Suppression by Learning Feature Embeddings[C] //2020 25th International Conference on Pattern Recognition. Piscataway:IEEE,2021: 7848-7854.",
+      "confidence": 0.90,
+      "entry_index": 11
+    },
+    {
+      "author": ["Nicolas Carion", "Francisco Massa", "Gabriel Synnaeve", "et al."],
+      "title": "End-to-End Object Detection with Transformers",
+      "year": 2020,
+      "container": "arXiv:2005.12872",
+      "raw": "[13] CARION N，MASSA F,SYNNAEVE G，et al. End-to-End Object Detection with Transformers[EB/OL]. arXiv:2005.12872.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "et al."],
+      "title": "Attention is All You Need",
+      "year": 2017,
+      "container": "arXiv:1706.03762",
+      "raw": "[14] VASWANI A，SHAZEER N,PARMAR N，et al. Attention is All You Need[EB/OL]. arXiv:1706.03762.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": ["Y. Zhao", "W. Lv", "S. Xu", "et al."],
+      "title": "DETRs beat YOLOs on Real-Time Object Detection",
+      "year": 2024,
+      "container": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 16965-16974",
+      "raw": "[2] ZHAO Y A, LV W Y, XU S L, et al. DETRs beat YOLOs on Real-Time Object Detection[C]//2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway:IEEE,2024:16965-16974.",
+      "confidence": 0.90,
+      "entry_index": 14
+    },
+    {
+      "author": ["管岭", "贾利民", "谢征宇"],
+      "title": "融合注意力机制的轨道入侵异物检测轻量级模型研究",
+      "year": null,
+      "container": "铁道学报 (Journal of the China Railway Society)",
+      "raw": "［］管岭，贾利民，谢征宇 融合注意力机制的轨道入侵异物检测轻量级模型研究［］铁道学报",
+      "confidence": 0.40,
+      "entry_index": 15
+    },
+    {
+      "author": ["Hao-Rei Zhan", "et al."],
+      "title": "Efficient Vision Transformer with Cascaded Group Attention",
+      "year": 2023,
+      "container": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 14420-14430",
+      "raw": "[17] ZHAO Y A, et al. Efficient Vision Transformer with Cascaded Group Attention[C]//2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway:IEEE,2023:14420-14430.",
+      "confidence": 0.70,
+      "entry_index": 16
+    },
+    {
+      "author": ["Hamid Rezatofighi", "Nathan Tsoi", "JunYoung Gwak", "et al."],
+      "title": "Generalized Intersection over Union: A Metric and a Loss for Bounding Box Regression",
+      "year": 2019,
+      "container": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 658-666",
+      "raw": "[18] REZATOFIGHI H,TSOI N,GWAK J,et al.Generalized Intersection over Union:a Metric and a Loss for Bounding Box Regression[C]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway:IEEE,2019: 658-666.",
+      "confidence": 0.90,
+      "entry_index": 17
+    },
+    {
+      "author": ["Zheng Z", "et al."],
+      "title": "Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression",
+      "year": 2020,
+      "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "raw": "[19] ZHENG Z, WANG P, LIU W, et al. Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression[C]//AAAI, 2020.",
+      "confidence": 0.75,
+      "entry_index": 18
+    },
+    {
+      "author": ["Zhang H", "et al."],
+      "title": "Inner-CIoU: Intersection over Union Loss with Auxiliary Bounding Box",
+      "year": 2023,
+      "container": "arXiv:2311.02877",
+      "raw": "[20] ZHANG H, et al. Inner-CIoU: Intersection over Union Loss with Auxiliary Bounding Box[EB/OL]. arXiv:2311.02877.",
+      "confidence": 0.75,
+      "entry_index": 19
+    }
+  ]
+}

@@ -1,0 +1,2755 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:44Z",
+    "entry_count": 32,
+    "candidate_count": 118,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. CoRR, abs/1409.0473, 2014.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. CoRR, abs/1409.0473, 2014."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V. Le. Massive exploration of neural machine translation architectures. CoRR, abs/1703.03906, 2017.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V. Le. Massive exploration of neural machine translation architectures. CoRR, abs/1703.03906, 2017."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine reading. arXiv preprint arXiv:1601.06733, 2016.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine reading. arXiv preprint arXiv:1601.06733, 2016."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv preprint arXiv:1610.02357, 2016.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv preprint arXiv:1610.02357, 2016."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2, 2017.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2, 2017."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850, 2013.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850, 2013."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778, 2016.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778, 2016."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780, 1997.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780, 1997."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[13] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[13] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[14] Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn algorithms. In International Conference on Learning Representations (ICLR), 2016.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[14] Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn algorithms. In International Conference on Learning Representations (ICLR), 2016."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[15] Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv:1610.10099v2, 2017.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[15] Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv:1610.10099v2, 2017."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[16] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks. In International Conference on Learning Representations, 2017.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[16] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks. In International Conference on Learning Representations, 2017."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[17] Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[17] Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[18] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv:1703.10722, 2017.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[18] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv:1703.10722, 2017."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[19] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint arXiv:1703.03130, 2017.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[19] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint arXiv:1703.03130, 2017."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[20] Samy Bengio Łukasz Kaiser. Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS), 2016.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[20] Samy Bengio Łukasz Kaiser. Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS), 2016."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[21] Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attentionbased neural machine translation. arXiv preprint arXiv:1508.04025, 2015.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[21] Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attentionbased neural machine translation. arXiv preprint arXiv:1508.04025, 2015."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[22] Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit. A decomposable attention model. In Empirical Methods in Natural Language Processing, 2016.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[22] Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit. A decomposable attention model. In Empirical Methods in Natural Language Processing, 2016."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[23] Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive summarization. arXiv preprint arXiv:1705.04304, 2017.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[23] Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive summarization. arXiv preprint arXiv:1705.04304, 2017."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[24] Ofir Press and Lior Wolf. Using the output embedding to improve language models. arXiv preprint arXiv:1608.05859, 2016.",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[24] Ofir Press and Lior Wolf. Using the output embedding to improve language models. arXiv preprint arXiv:1608.05859, 2016."
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[25] Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909, 2015.",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[25] Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909, 2015."
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[26] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017.",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[26] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017."
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "[27] Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout: a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(1):1929–1958, 2014.",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "[27] Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout: a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(1):1929–1958, 2014."
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[28] Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus. End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc., 2015.",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[28] Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus. End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc., 2015."
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[29] Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[29] Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014."
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "[30] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "[30] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015."
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "[31] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144, 2016.",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "[31] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144, 2016."
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "[32] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with fast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016.",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "[32] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with fast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "venue_marker_split",
+          "author_text": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton",
+          "author_candidates": [
+            "Ba, Jamie Ryan Kiros"
+          ],
+          "title_candidate": "Layer normalization. arXiv preprint",
+          "container_candidate": "arXiv:1607.06450, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton",
+          "author_candidates": [
+            "Ba, Jamie Ryan Kiros"
+          ],
+          "title_candidate": "Layer normalization",
+          "container_candidate": "arXiv preprint arXiv:1607.06450,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv",
+          "author_candidates": [
+            "Ba, Jamie Ryan Kiros"
+          ],
+          "title_candidate": "1607.06450",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv",
+          "author_candidates": [
+            "Ba, Jamie Ryan Kiros"
+          ],
+          "title_candidate": "1607.06450, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. CoRR, abs/1409.0473, 2014.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio",
+          "author_candidates": [
+            "Bahdanau, Kyunghyun Cho"
+          ],
+          "title_candidate": "Neural machine translation by jointly learning to align and translate",
+          "container_candidate": "CoRR, abs/1409.0473,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio",
+          "author_candidates": [
+            "Bahdanau, Kyunghyun Cho"
+          ],
+          "title_candidate": "Neural machine translation by jointly learning to align and translate. CoRR, abs/1409.0473",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio",
+          "author_candidates": [
+            "Bahdanau, Kyunghyun Cho"
+          ],
+          "title_candidate": "Neural machine translation by jointly learning to align and translate. CoRR, abs/1409.0473, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V. Le. Massive exploration of neural machine translation architectures. CoRR, abs/1703.03906, 2017.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V",
+          "author_candidates": [
+            "Britz, Anna Goldie"
+          ],
+          "title_candidate": "Le",
+          "container_candidate": "Massive exploration of neural machine translation architectures. CoRR, abs/1703.03906,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V",
+          "author_candidates": [
+            "Britz, Anna Goldie"
+          ],
+          "title_candidate": "Le. Massive exploration of neural machine translation architectures. CoRR, abs/1703.03906",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V",
+          "author_candidates": [
+            "Britz, Anna Goldie"
+          ],
+          "title_candidate": "Le. Massive exploration of neural machine translation architectures. CoRR, abs/1703.03906, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine reading. arXiv preprint arXiv:1601.06733, 2016.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Jianpeng Cheng, Li Dong, and Mirella Lapata",
+          "author_candidates": [
+            "Cheng, Li Dong"
+          ],
+          "title_candidate": "Long short-term memory-networks for machine reading. arXiv preprint",
+          "container_candidate": "arXiv:1601.06733, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jianpeng Cheng, Li Dong, and Mirella Lapata",
+          "author_candidates": [
+            "Cheng, Li Dong"
+          ],
+          "title_candidate": "Long short-term memory-networks for machine reading",
+          "container_candidate": "arXiv preprint arXiv:1601.06733,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine reading. arXiv preprint arXiv",
+          "author_candidates": [
+            "Cheng, Li Dong"
+          ],
+          "title_candidate": "1601.06733",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine reading. arXiv preprint arXiv",
+          "author_candidates": [
+            "Cheng, Li Dong"
+          ],
+          "title_candidate": "1601.06733, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio",
+          "author_candidates": [
+            "Cho, Bart",
+            "Merrienboer, Caglar Gulcehre",
+            "Bougares, Holger Schwenk"
+          ],
+          "title_candidate": "Learning phrase representations using rnn encoder-decoder for statistical machine translation",
+          "container_candidate": "CoRR, abs/1406.1078,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio",
+          "author_candidates": [
+            "Cho, Bart",
+            "Merrienboer, Caglar Gulcehre",
+            "Bougares, Holger Schwenk"
+          ],
+          "title_candidate": "Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio",
+          "author_candidates": [
+            "Cho, Bart",
+            "Merrienboer, Caglar Gulcehre",
+            "Bougares, Holger Schwenk"
+          ],
+          "title_candidate": "Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv preprint arXiv:1610.02357, 2016.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Francois Chollet",
+          "author_candidates": [
+            "Francois Chollet"
+          ],
+          "title_candidate": "Xception: Deep learning with depthwise separable convolutions. arXiv preprint",
+          "container_candidate": "arXiv:1610.02357, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Francois Chollet",
+          "author_candidates": [
+            "Francois Chollet"
+          ],
+          "title_candidate": "Xception: Deep learning with depthwise separable convolutions",
+          "container_candidate": "arXiv preprint arXiv:1610.02357,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Francois Chollet. Xception",
+          "author_candidates": [
+            "Francois Chollet. Xception"
+          ],
+          "title_candidate": "Deep learning with depthwise separable convolutions. arXiv preprint arXiv:1610.02357",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Francois Chollet. Xception",
+          "author_candidates": [
+            "Francois Chollet. Xception"
+          ],
+          "title_candidate": "Deep learning with depthwise separable convolutions. arXiv preprint arXiv:1610.02357, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio",
+          "author_candidates": [
+            "Junyoung Chung",
+            "Çaglar Gülçehre",
+            "Kyunghyun Cho",
+            "and Yoshua Bengio"
+          ],
+          "title_candidate": "Empirical evaluation of gated recurrent neural networks on sequence modeling",
+          "container_candidate": "CoRR, abs/1412.3555,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio",
+          "author_candidates": [
+            "Junyoung Chung",
+            "Çaglar Gülçehre",
+            "Kyunghyun Cho",
+            "and Yoshua Bengio"
+          ],
+          "title_candidate": "Empirical evaluation of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio",
+          "author_candidates": [
+            "Junyoung Chung",
+            "Çaglar Gülçehre",
+            "Kyunghyun Cho",
+            "and Yoshua Bengio"
+          ],
+          "title_candidate": "Empirical evaluation of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2, 2017.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N",
+          "author_candidates": [
+            "Gehring, Michael Auli",
+            "Grangier, Denis Yarats"
+          ],
+          "title_candidate": "Dauphin. Convolutional sequence to sequence learning. arXiv preprint",
+          "container_candidate": "arXiv:1705.03122v2, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N",
+          "author_candidates": [
+            "Gehring, Michael Auli",
+            "Grangier, Denis Yarats"
+          ],
+          "title_candidate": "Dauphin",
+          "container_candidate": "Convolutional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. arXiv preprint arXiv",
+          "author_candidates": [
+            "Gehring, Michael Auli",
+            "Grangier, Denis Yarats"
+          ],
+          "title_candidate": "1705.03122v2",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. arXiv preprint arXiv",
+          "author_candidates": [
+            "Gehring, Michael Auli",
+            "Grangier, Denis Yarats"
+          ],
+          "title_candidate": "1705.03122v2, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850, 2013.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "Alex Graves",
+          "author_candidates": [
+            "Alex Graves"
+          ],
+          "title_candidate": "Generating sequences with recurrent neural networks. arXiv preprint",
+          "container_candidate": "arXiv:1308.0850, 2013",
+          "year_candidate": 2013,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alex Graves",
+          "author_candidates": [
+            "Alex Graves"
+          ],
+          "title_candidate": "Generating sequences with recurrent neural networks",
+          "container_candidate": "arXiv preprint arXiv:1308.0850,",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv",
+          "author_candidates": [
+            "Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv"
+          ],
+          "title_candidate": "1308.0850",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv",
+          "author_candidates": [
+            "Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint arXiv"
+          ],
+          "title_candidate": "1308.0850, 2013",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778, 2016.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber",
+          "author_candidates": [
+            "Hochreiter, Yoshua Bengio"
+          ],
+          "title_candidate": "Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001",
+          "container_candidate": "",
+          "year_candidate": 2001,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient flow in recurrent nets",
+          "author_candidates": [
+            "Hochreiter, Yoshua Bengio"
+          ],
+          "title_candidate": "the difficulty of learning long-term dependencies",
+          "container_candidate": "",
+          "year_candidate": 2001,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient flow in recurrent nets",
+          "author_candidates": [
+            "Hochreiter, Yoshua Bengio"
+          ],
+          "title_candidate": "the difficulty of learning long-term dependencies, 2001",
+          "container_candidate": "",
+          "year_candidate": 2001,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780, 1997.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Sepp Hochreiter and Jürgen Schmidhuber",
+          "author_candidates": [
+            "Sepp Hochreiter",
+            "Jürgen Schmidhuber"
+          ],
+          "title_candidate": "Long short-term memory",
+          "container_candidate": "Neural computation, 9(8):1735–1780,",
+          "year_candidate": 1997,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8)",
+          "author_candidates": [
+            "Sepp Hochreiter",
+            "Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8)"
+          ],
+          "title_candidate": "1735–1780",
+          "container_candidate": "",
+          "year_candidate": 1997,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8)",
+          "author_candidates": [
+            "Sepp Hochreiter",
+            "Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8)"
+          ],
+          "title_candidate": "1735–1780, 1997",
+          "container_candidate": "",
+          "year_candidate": 1997,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu",
+          "author_candidates": [
+            "Jozefowicz, Oriol Vinyals",
+            "Schuster, Noam Shazeer"
+          ],
+          "title_candidate": "Exploring the limits of language modeling. arXiv preprint",
+          "container_candidate": "arXiv:1602.02410, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu",
+          "author_candidates": [
+            "Jozefowicz, Oriol Vinyals",
+            "Schuster, Noam Shazeer"
+          ],
+          "title_candidate": "Exploring the limits of language modeling",
+          "container_candidate": "arXiv preprint arXiv:1602.02410,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv",
+          "author_candidates": [
+            "Jozefowicz, Oriol Vinyals",
+            "Schuster, Noam Shazeer"
+          ],
+          "title_candidate": "1602.02410",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv",
+          "author_candidates": [
+            "Jozefowicz, Oriol Vinyals",
+            "Schuster, Noam Shazeer"
+          ],
+          "title_candidate": "1602.02410, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn algorithms. In International Conference on Learning Representations (ICLR), 2016.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "Łukasz Kaiser and Ilya Sutskever",
+          "author_candidates": [
+            "Łukasz Kaiser",
+            "Ilya Sutskever"
+          ],
+          "title_candidate": "Neural GPUs learn algorithms",
+          "container_candidate": "In International Conference on Learning Representations (ICLR), 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Łukasz Kaiser and Ilya Sutskever",
+          "author_candidates": [
+            "Łukasz Kaiser",
+            "Ilya Sutskever"
+          ],
+          "title_candidate": "Neural GPUs learn algorithms",
+          "container_candidate": "In International Conference on Learning Representations (ICLR),",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Łukasz Kaiser and Ilya Sutskever",
+          "author_candidates": [
+            "Łukasz Kaiser",
+            "Ilya Sutskever"
+          ],
+          "title_candidate": "Neural GPUs learn algorithms. In International Conference on Learning Representations (ICLR",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Łukasz Kaiser and Ilya Sutskever",
+          "author_candidates": [
+            "Łukasz Kaiser",
+            "Ilya Sutskever"
+          ],
+          "title_candidate": "Neural GPUs learn algorithms. In International Conference on Learning Representations (ICLR), 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv:1610.10099v2, 2017.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu",
+          "author_candidates": [
+            "Kalchbrenner, Lasse Espeholt",
+            "Simonyan, Aaron",
+            "Oord, Alex Graves"
+          ],
+          "title_candidate": "Neural machine translation in linear time. arXiv preprint",
+          "container_candidate": "arXiv:1610.10099v2, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu",
+          "author_candidates": [
+            "Kalchbrenner, Lasse Espeholt",
+            "Simonyan, Aaron",
+            "Oord, Alex Graves"
+          ],
+          "title_candidate": "Neural machine translation in linear time",
+          "container_candidate": "arXiv preprint arXiv:1610.10099v2,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv",
+          "author_candidates": [
+            "Kalchbrenner, Lasse Espeholt",
+            "Simonyan, Aaron",
+            "Oord, Alex Graves"
+          ],
+          "title_candidate": "1610.10099v2",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv",
+          "author_candidates": [
+            "Kalchbrenner, Lasse Espeholt",
+            "Simonyan, Aaron",
+            "Oord, Alex Graves"
+          ],
+          "title_candidate": "1610.10099v2, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks. In International Conference on Learning Representations, 2017.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Yoon Kim, Carl Denton, Luong Hoang, and Alexander M",
+          "author_candidates": [
+            "Kim, Carl Denton"
+          ],
+          "title_candidate": "Rush. Structured attention networks",
+          "container_candidate": "In International Conference on Learning Representations, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yoon Kim, Carl Denton, Luong Hoang, and Alexander M",
+          "author_candidates": [
+            "Kim, Carl Denton"
+          ],
+          "title_candidate": "Rush",
+          "container_candidate": "Structured attention networks. In International Conference on Learning Representations,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yoon Kim, Carl Denton, Luong Hoang, and Alexander M",
+          "author_candidates": [
+            "Kim, Carl Denton"
+          ],
+          "title_candidate": "Rush. Structured attention networks. In International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yoon Kim, Carl Denton, Luong Hoang, and Alexander M",
+          "author_candidates": [
+            "Kim, Carl Denton"
+          ],
+          "title_candidate": "Rush. Structured attention networks. In International Conference on Learning Representations, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Diederik Kingma and Jimmy Ba",
+          "author_candidates": [
+            "Diederik Kingma",
+            "Jimmy Ba"
+          ],
+          "title_candidate": "Adam: A method for stochastic optimization",
+          "container_candidate": "In ICLR, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Diederik Kingma and Jimmy Ba",
+          "author_candidates": [
+            "Diederik Kingma",
+            "Jimmy Ba"
+          ],
+          "title_candidate": "Adam: A method for stochastic optimization",
+          "container_candidate": "In ICLR,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Diederik Kingma and Jimmy Ba. Adam",
+          "author_candidates": [
+            "Diederik Kingma",
+            "Jimmy Ba. Adam"
+          ],
+          "title_candidate": "A method for stochastic optimization. In ICLR",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Diederik Kingma and Jimmy Ba. Adam",
+          "author_candidates": [
+            "Diederik Kingma",
+            "Jimmy Ba. Adam"
+          ],
+          "title_candidate": "A method for stochastic optimization. In ICLR, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv:1703.10722, 2017.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Oleksii Kuchaiev and Boris Ginsburg",
+          "author_candidates": [
+            "Oleksii Kuchaiev",
+            "Boris Ginsburg"
+          ],
+          "title_candidate": "Factorization tricks for LSTM networks. arXiv preprint",
+          "container_candidate": "arXiv:1703.10722, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Oleksii Kuchaiev and Boris Ginsburg",
+          "author_candidates": [
+            "Oleksii Kuchaiev",
+            "Boris Ginsburg"
+          ],
+          "title_candidate": "Factorization tricks for LSTM networks",
+          "container_candidate": "arXiv preprint arXiv:1703.10722,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv",
+          "author_candidates": [
+            "Oleksii Kuchaiev",
+            "Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv"
+          ],
+          "title_candidate": "1703.10722",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv",
+          "author_candidates": [
+            "Oleksii Kuchaiev",
+            "Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv"
+          ],
+          "title_candidate": "1703.10722, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint arXiv:1703.03130, 2017.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio",
+          "author_candidates": [
+            "Lin, Minwei Feng",
+            "Santos, Mo Yu",
+            "Xiang, Bowen Zhou"
+          ],
+          "title_candidate": "A structured self-attentive sentence embedding. arXiv preprint",
+          "container_candidate": "arXiv:1703.03130, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio",
+          "author_candidates": [
+            "Lin, Minwei Feng",
+            "Santos, Mo Yu",
+            "Xiang, Bowen Zhou"
+          ],
+          "title_candidate": "A structured self-attentive sentence embedding",
+          "container_candidate": "arXiv preprint arXiv:1703.03130,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint arXiv",
+          "author_candidates": [
+            "Lin, Minwei Feng",
+            "Santos, Mo Yu",
+            "Xiang, Bowen Zhou"
+          ],
+          "title_candidate": "1703.03130",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint arXiv",
+          "author_candidates": [
+            "Lin, Minwei Feng",
+            "Santos, Mo Yu",
+            "Xiang, Bowen Zhou"
+          ],
+          "title_candidate": "1703.03130, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Samy Bengio Łukasz Kaiser. Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS), 2016.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Samy Bengio Łukasz Kaiser",
+          "author_candidates": [
+            "Samy Bengio Łukasz Kaiser"
+          ],
+          "title_candidate": "Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS), 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Samy Bengio Łukasz Kaiser",
+          "author_candidates": [
+            "Samy Bengio Łukasz Kaiser"
+          ],
+          "title_candidate": "Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Samy Bengio Łukasz Kaiser",
+          "author_candidates": [
+            "Samy Bengio Łukasz Kaiser"
+          ],
+          "title_candidate": "Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS), 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attentionbased neural machine translation. arXiv preprint arXiv:1508.04025, 2015.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Minh-Thang Luong, Hieu Pham, and Christopher D Manning",
+          "author_candidates": [
+            "Luong, Hieu Pham"
+          ],
+          "title_candidate": "Effective approaches to attentionbased neural machine translation. arXiv preprint",
+          "container_candidate": "arXiv:1508.04025, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Minh-Thang Luong, Hieu Pham, and Christopher D Manning",
+          "author_candidates": [
+            "Luong, Hieu Pham"
+          ],
+          "title_candidate": "Effective approaches to attentionbased neural machine translation",
+          "container_candidate": "arXiv preprint arXiv:1508.04025,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attentionbased neural machine translation. arXiv preprint arXiv",
+          "author_candidates": [
+            "Luong, Hieu Pham"
+          ],
+          "title_candidate": "1508.04025",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attentionbased neural machine translation. arXiv preprint arXiv",
+          "author_candidates": [
+            "Luong, Hieu Pham"
+          ],
+          "title_candidate": "1508.04025, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit. A decomposable attention model. In Empirical Methods in Natural Language Processing, 2016.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit",
+          "author_candidates": [
+            "Parikh, Oscar T"
+          ],
+          "title_candidate": "A decomposable attention model",
+          "container_candidate": "In Empirical Methods in Natural Language Processing, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit",
+          "author_candidates": [
+            "Parikh, Oscar T"
+          ],
+          "title_candidate": "A decomposable attention model",
+          "container_candidate": "In Empirical Methods in Natural Language Processing,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit",
+          "author_candidates": [
+            "Parikh, Oscar T"
+          ],
+          "title_candidate": "A decomposable attention model. In Empirical Methods in Natural Language Processing",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit",
+          "author_candidates": [
+            "Parikh, Oscar T"
+          ],
+          "title_candidate": "A decomposable attention model. In Empirical Methods in Natural Language Processing, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive summarization. arXiv preprint arXiv:1705.04304, 2017.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Romain Paulus, Caiming Xiong, and Richard Socher",
+          "author_candidates": [
+            "Paulus, Caiming Xiong"
+          ],
+          "title_candidate": "A deep reinforced model for abstractive summarization. arXiv preprint",
+          "container_candidate": "arXiv:1705.04304, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Romain Paulus, Caiming Xiong, and Richard Socher",
+          "author_candidates": [
+            "Paulus, Caiming Xiong"
+          ],
+          "title_candidate": "A deep reinforced model for abstractive summarization",
+          "container_candidate": "arXiv preprint arXiv:1705.04304,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive summarization. arXiv preprint arXiv",
+          "author_candidates": [
+            "Paulus, Caiming Xiong"
+          ],
+          "title_candidate": "1705.04304",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive summarization. arXiv preprint arXiv",
+          "author_candidates": [
+            "Paulus, Caiming Xiong"
+          ],
+          "title_candidate": "1705.04304, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Ofir Press and Lior Wolf. Using the output embedding to improve language models. arXiv preprint arXiv:1608.05859, 2016.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "venue_marker_split",
+          "author_text": "Ofir Press and Lior Wolf",
+          "author_candidates": [
+            "Ofir Press",
+            "Lior Wolf"
+          ],
+          "title_candidate": "Using the output embedding to improve language models. arXiv preprint",
+          "container_candidate": "arXiv:1608.05859, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ofir Press and Lior Wolf",
+          "author_candidates": [
+            "Ofir Press",
+            "Lior Wolf"
+          ],
+          "title_candidate": "Using the output embedding to improve language models",
+          "container_candidate": "arXiv preprint arXiv:1608.05859,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ofir Press and Lior Wolf. Using the output embedding to improve language models. arXiv preprint arXiv",
+          "author_candidates": [
+            "Ofir Press",
+            "Lior Wolf. Using the output embedding to improve language models. arXiv preprint arXiv"
+          ],
+          "title_candidate": "1608.05859",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ofir Press and Lior Wolf. Using the output embedding to improve language models. arXiv preprint arXiv",
+          "author_candidates": [
+            "Ofir Press",
+            "Lior Wolf. Using the output embedding to improve language models. arXiv preprint arXiv"
+          ],
+          "title_candidate": "1608.05859, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units. arXiv preprint arXiv:1508.07909, 2015.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "venue_marker_split",
+          "author_text": "Rico Sennrich, Barry Haddow, and Alexandra Birch",
+          "author_candidates": [
+            "Sennrich, Barry Haddow"
+          ],
+          "title_candidate": "Neural machine translation of rare words with subword units. arXiv preprint",
+          "container_candidate": "arXiv:1508.07909, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Rico Sennrich, Barry Haddow, and Alexandra Birch",
+          "author_candidates": [
+            "Sennrich, Barry Haddow"
+          ],
+          "title_candidate": "Neural machine translation of rare words with subword units",
+          "container_candidate": "arXiv preprint arXiv:1508.07909,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units. arXiv preprint arXiv",
+          "author_candidates": [
+            "Sennrich, Barry Haddow"
+          ],
+          "title_candidate": "1508.07909",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with subword units. arXiv preprint arXiv",
+          "author_candidates": [
+            "Sennrich, Barry Haddow"
+          ],
+          "title_candidate": "1508.07909, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean",
+          "author_candidates": [
+            "Shazeer, Azalia Mirhoseini",
+            "Maziarz, Andy Davis",
+            "Le, Geoffrey Hinton"
+          ],
+          "title_candidate": "Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint",
+          "container_candidate": "arXiv:1701.06538, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean",
+          "author_candidates": [
+            "Shazeer, Azalia Mirhoseini",
+            "Maziarz, Andy Davis",
+            "Le, Geoffrey Hinton"
+          ],
+          "title_candidate": "Outrageously large neural networks: The sparsely-gated mixture-of-experts layer",
+          "container_candidate": "arXiv preprint arXiv:1701.06538,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks",
+          "author_candidates": [
+            "Shazeer, Azalia Mirhoseini",
+            "Maziarz, Andy Davis",
+            "Le, Geoffrey Hinton"
+          ],
+          "title_candidate": "The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks",
+          "author_candidates": [
+            "Shazeer, Azalia Mirhoseini",
+            "Maziarz, Andy Davis",
+            "Le, Geoffrey Hinton"
+          ],
+          "title_candidate": "The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout: a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(1):1929–1958, 2014.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov",
+          "author_candidates": [
+            "Srivastava, Geoffrey E Hinton",
+            "Krizhevsky, Ilya Sutskever"
+          ],
+          "title_candidate": "Dropout: a simple way to prevent neural networks from overfitting",
+          "container_candidate": "Journal of Machine Learning Research, 15(1):1929–1958,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout",
+          "author_candidates": [
+            "Srivastava, Geoffrey E Hinton",
+            "Krizhevsky, Ilya Sutskever"
+          ],
+          "title_candidate": "a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(1):1929–1958",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Dropout",
+          "author_candidates": [
+            "Srivastava, Geoffrey E Hinton",
+            "Krizhevsky, Ilya Sutskever"
+          ],
+          "title_candidate": "a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(1):1929–1958, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus. End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc., 2015.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus",
+          "author_candidates": [
+            "Sainbayar Sukhbaatar",
+            "arthur szlam",
+            "Jason Weston",
+            "and Rob Fergus"
+          ],
+          "title_candidate": "End-to-end memory networks",
+          "container_candidate": "In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc., 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus",
+          "author_candidates": [
+            "Sainbayar Sukhbaatar",
+            "arthur szlam",
+            "Jason Weston",
+            "and Rob Fergus"
+          ],
+          "title_candidate": "End-to-end memory networks",
+          "container_candidate": "In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc.,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus",
+          "author_candidates": [
+            "Sainbayar Sukhbaatar",
+            "arthur szlam",
+            "Jason Weston",
+            "and Rob Fergus"
+          ],
+          "title_candidate": "End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Sainbayar Sukhbaatar, arthur szlam, Jason Weston, and Rob Fergus",
+          "author_candidates": [
+            "Sainbayar Sukhbaatar",
+            "arthur szlam",
+            "Jason Weston",
+            "and Rob Fergus"
+          ],
+          "title_candidate": "End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc., 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Ilya Sutskever, Oriol Vinyals, and Quoc VV Le",
+          "author_candidates": [
+            "Sutskever, Oriol Vinyals"
+          ],
+          "title_candidate": "Sequence to sequence learning with neural networks",
+          "container_candidate": "In Advances in Neural Information Processing Systems, pages 3104–3112, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ilya Sutskever, Oriol Vinyals, and Quoc VV Le",
+          "author_candidates": [
+            "Sutskever, Oriol Vinyals"
+          ],
+          "title_candidate": "Sequence to sequence learning with neural networks",
+          "container_candidate": "In Advances in Neural Information Processing Systems, pages 3104–3112,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ilya Sutskever, Oriol Vinyals, and Quoc VV Le",
+          "author_candidates": [
+            "Sutskever, Oriol Vinyals"
+          ],
+          "title_candidate": "Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems, pages 3104–3112",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ilya Sutskever, Oriol Vinyals, and Quoc VV Le",
+          "author_candidates": [
+            "Sutskever, Oriol Vinyals"
+          ],
+          "title_candidate": "Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna",
+          "author_candidates": [
+            "Szegedy, Vincent Vanhoucke",
+            "Ioffe, Jonathon Shlens"
+          ],
+          "title_candidate": "Rethinking the inception architecture for computer vision",
+          "container_candidate": "CoRR, abs/1512.00567,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna",
+          "author_candidates": [
+            "Szegedy, Vincent Vanhoucke",
+            "Ioffe, Jonathon Shlens"
+          ],
+          "title_candidate": "Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna",
+          "author_candidates": [
+            "Szegedy, Vincent Vanhoucke",
+            "Ioffe, Jonathon Shlens"
+          ],
+          "title_candidate": "Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144, 2016.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al",
+          "author_candidates": [
+            "Wu, Mike Schuster",
+            "Chen, Quoc V Le",
+            "Norouzi, Wolfgang Macherey",
+            "Krikun, Yuan Cao",
+            "Gao, Klaus Macherey"
+          ],
+          "title_candidate": "Google’s neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint",
+          "container_candidate": "arXiv:1609.08144, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al",
+          "author_candidates": [
+            "Wu, Mike Schuster",
+            "Chen, Quoc V Le",
+            "Norouzi, Wolfgang Macherey",
+            "Krikun, Yuan Cao",
+            "Gao, Klaus Macherey"
+          ],
+          "title_candidate": "Google’s neural machine translation system: Bridging the gap between human and machine translation",
+          "container_candidate": "arXiv preprint arXiv:1609.08144,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system",
+          "author_candidates": [
+            "Wu, Mike Schuster",
+            "Chen, Quoc V Le",
+            "Norouzi, Wolfgang Macherey",
+            "Krikun, Yuan Cao",
+            "Gao, Klaus Macherey"
+          ],
+          "title_candidate": "Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system",
+          "author_candidates": [
+            "Wu, Mike Schuster",
+            "Chen, Quoc V Le",
+            "Norouzi, Wolfgang Macherey",
+            "Krikun, Yuan Cao",
+            "Gao, Klaus Macherey"
+          ],
+          "title_candidate": "Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with fast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu",
+          "author_candidates": [
+            "Zhou, Ying Cao",
+            "Wang, Peng Li"
+          ],
+          "title_candidate": "Deep recurrent models with fast-forward connections for neural machine translation",
+          "container_candidate": "CoRR, abs/1606.04199,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu",
+          "author_candidates": [
+            "Zhou, Ying Cao",
+            "Wang, Peng Li"
+          ],
+          "title_candidate": "Deep recurrent models with fast-forward connections for neural machine translation. CoRR, abs/1606.04199",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu",
+          "author_candidates": [
+            "Zhou, Ying Cao",
+            "Wang, Peng Li"
+          ],
+          "title_candidate": "Deep recurrent models with fast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 31,
+      "metadata": {
+        "entry_count": 2
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

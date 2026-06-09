@@ -1,0 +1,491 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/76BD6UYE_SOLO_ Segmenting Objects by Locations.txt",
+  "entry_style": "mixed",
+  "notes": "物理学期刊格式：Author1 Surname Initials, Author2 Surname Initials, ... Year Journal Volume Page URL。条目以 [n] 开头。作者名为 'Surname Initials' 格式（如 'Gompper G'），无逗号分隔。年份后直接跟期刊名，无标点。URL 散落在各条末尾。部分条目含 LaTeX 重音符如 'L¨owen'。",
+  "items": [
+    {
+      "entry_index": 0,
+      "author": [
+        "Gerhard Gompper",
+        "Roland G. Winkler",
+        "Thomas Speck",
+        "Alexandre Solon",
+        "Cesare Nardini",
+        "Fernando Peruani",
+        "Hartmut Löwen",
+        "Ramin Golestanian",
+        "U. Benjamin Kaupp",
+        "Luis Alvarez",
+        "Thomas Kiørboe",
+        "Eric Lauga",
+        "Wilson C. K. Poon",
+        "Antonio DeSimone",
+        "Santiago Muiños-Landin",
+        "Andreas Fischer",
+        "Nico A. Söker",
+        "Frank Cichos",
+        "Raymond Kapral",
+        "Pierre Gaspard",
+        "Marisol Ripoll",
+        "Francesc Sagués",
+        "Amin Doostmohammadi",
+        "Julia M. Yeomans",
+        "Igor S. Aranson",
+        "Clemens Bechinger",
+        "Holger Stark",
+        "Charlotte K. Hemelrijk",
+        "François J. Nédélec",
+        "Taraknath Sarkar",
+        "Thibault Aryaksama",
+        "Maxime Lacroix",
+        "Guillaume Duclos",
+        "Victor Yashunsky",
+        "Pascal Silberzan",
+        "Marino Arroyo",
+        "Sandeep Kale"
+      ],
+      "title": "The 2020 motile active matter roadmap",
+      "year": 2020,
+      "container": "Journal of Physics: Condensed Matter",
+      "raw": "[1] Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, Cichos F, Kapral R, Gaspard P, Ripoll M, Sagues F, Doostmohammadi A, Yeomans J M, Aranson I S, Bechinger C, Stark H, Hemelrijk C K, Nedelec F J, Sarkar T, Aryaksama T, Lacroix M, Duclos G, Yashunsky V, Silberzan P, Arroyo M and Kale S 2020 Journal of Physics: Condensed Matter 32 193001 URL https://doi.org/10.1088/ 1361-648x/ab6348",
+      "confidence": 0.92,
+      "notes": "作者名缩写展开，部分通过已知论文信息"
+    },
+    {
+      "entry_index": 1,
+      "author": [
+        "Sriram Ramaswamy"
+      ],
+      "title": "The mechanics and statistics of active matter",
+      "year": 2010,
+      "container": "Annual Review of Condensed Matter Physics",
+      "raw": "[2] Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https: //doi.org/10.1146/annurev-conmatphys-070909-104101",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 2,
+      "author": [
+        "M. Cristina Marchetti",
+        "Jean-François Joanny",
+        "Sriram Ramaswamy",
+        "Tanniemola B. Liverpool",
+        "Jacques Prost",
+        "Madan Rao",
+        "R. Aditi Simha"
+      ],
+      "title": "Hydrodynamics of soft active matter",
+      "year": 2013,
+      "container": "Reviews of Modern Physics",
+      "raw": "[3] Marchetti M C, Joanny J F, Ramaswamy S, Liverpool T B, Prost J, Rao M and Simha R A 2013 Rev. Mod. Phys. 85(3) 1143–1189 URL https://link.aps.org/doi/10.1103/RevModPhys. 85.1143",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 3,
+      "author": [
+        "Clemens Bechinger",
+        "Roberto Di Leonardo",
+        "Hartmut Löwen",
+        "Charles Reichhardt",
+        "Giorgio Volpe",
+        "Giovanni Volpe"
+      ],
+      "title": "Active particles in complex and crowded environments",
+      "year": 2016,
+      "container": "Reviews of Modern Physics",
+      "raw": "[4] Bechinger C, Di Leonardo R, L¨owen H, Reichhardt C, Volpe G and Volpe G 2016 Reviews of Modern Physics 88 045006 URL https://journals.aps.org/rmp/abstract/10.1103/ RevModPhys.88.045006",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 4,
+      "author": [
+        "Ramin Golestanian"
+      ],
+      "title": "Phoretic Active Matter",
+      "year": 2019,
+      "container": "arXiv:1909.03747",
+      "raw": "[5] Golestanian R 2019 Phoretic Active Matter (Preprint arXiv:1909.03747)",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 5,
+      "author": [
+        "Michael E. Cates",
+        "Julien Tailleur"
+      ],
+      "title": "Motility-induced phase separation",
+      "year": 2015,
+      "container": "Annual Review of Condensed Matter Physics",
+      "raw": "[6] Cates M E and Tailleur J 2015 Annu. Rev. Condens. Matter Phys. 6 219–244 URL http: //www.annualreviews.org/doi/abs/10.1146/annurev-conmatphys-031214-014710",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 6,
+      "author": [
+        "Silke Henkes",
+        "Yaouen Fily",
+        "M. Cristina Marchetti"
+      ],
+      "title": "Active jamming: Self-propelled soft spheres at high density",
+      "year": 2011,
+      "container": "Physical Review E",
+      "raw": "[7] Henkes S, Fily Y and Marchetti M C 2011 Phys. Rev. E 84(4) 040301 URL https://link.aps. org/doi/10.1103/PhysRevE.84.040301",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 7,
+      "author": [
+        "Gabriel S. Redner",
+        "Michael F. Hagan",
+        "Aparna Baskaran"
+      ],
+      "title": "Structure and dynamics of a phase-separating active colloidal fluid",
+      "year": 2013,
+      "container": "Physical Review Letters",
+      "raw": "[8] Redner G S, Hagan M F and Baskaran A 2013 Phys. Rev. Lett. 110(5) 055701 URL https: //link.aps.org/doi/10.1103/PhysRevLett.110.055701",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 8,
+      "author": [
+        "Ivo Buttinoni",
+        "Julian Bialké",
+        "Felix Kümmel",
+        "Hartmut Löwen",
+        "Clemens Bechinger",
+        "Thomas Speck"
+      ],
+      "title": "Dynamical clustering and phase separation in suspensions of self-propelled colloidal particles",
+      "year": 2013,
+      "container": "Physical Review Letters",
+      "raw": "[9] Buttinoni I, Bialk´e J, K¨ummel F, L¨owen H, Bechinger C and Speck T 2013 Phys. Rev. Lett. 110(23) 238301 URL https://link.aps.org/doi/10.1103/PhysRevLett.110.238301",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 9,
+      "author": [
+        "Rodrigo Soto",
+        "Ramin Golestanian"
+      ],
+      "title": "Self-assembly of catalytically active colloidal molecules: Tailoring activity through surface chemistry",
+      "year": 2014,
+      "container": "Physical Review E",
+      "raw": "[10] Soto R and Golestanian R 2014 Phys. Rev. E 89(1) 012706 URL https://link.aps.org/doi/ 10.1103/PhysRevE.89.012706",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 10,
+      "author": [
+        "Johannes Blaschke",
+        "Maurus Maurer",
+        "Karthik Menon",
+        "Andreas Zöttl",
+        "Holger Stark"
+      ],
+      "title": "Phase separation and coexistence of hydrodynamically interacting microswimmers",
+      "year": 2016,
+      "container": "Soft Matter",
+      "raw": "[11] Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12 9821–9831 URL https://doi.org/10.1039/c6sm02042a",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 11,
+      "author": [
+        "Pasquale Digregorio",
+        "Demian Levis",
+        "Antonio Suma",
+        "Leticia F. Cugliandolo",
+        "Giuseppe Gonnella",
+        "Ignacio Pagonabarraga"
+      ],
+      "title": "Full phase diagram of active brownian disks: From clustering to motility-induced phase separation",
+      "year": 2018,
+      "container": "Physical Review Letters",
+      "raw": "[12] Digregorio P, Levis D, Suma A, Cugliandolo L F, Gonnella G and Pagonabarraga I 2018 Phys. Rev. Lett. 121(9) 098003 URL https://link.aps.org/doi/10.1103/PhysRevLett.121.098003",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 12,
+      "author": [
+        "Cristina Abaurrea Velasco",
+        "Masoud Abkenar",
+        "Gerhard Gompper",
+        "Thorsten Auth"
+      ],
+      "title": "Collective behavior of self-propelled rods with quorum sensing",
+      "year": 2018,
+      "container": "Physical Review E",
+      "raw": "[13] Abaurrea Velasco C, Abkenar M, Gompper G and Auth T 2018 Phys. Rev. E 98(2) 022605 URL https://link.aps.org/doi/10.1103/PhysRevE.98.022605",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 13,
+      "author": [
+        "Alexandre P. Solon",
+        "Hugues Chaté",
+        "Julien Tailleur"
+      ],
+      "title": "From phase to microphase separation in flocking models: The essential role of nonequilibrium fluctuations",
+      "year": 2015,
+      "container": "Physical Review Letters",
+      "raw": "[14] Solon A P, Chat´e H and Tailleur J 2015 Phys. Rev. Lett. 114 068101 URL https://journals. aps.org/prl/abstract/10.1103/PhysRevLett.114.068101",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 14,
+      "author": [
+        "Hugues Chaté"
+      ],
+      "title": "Dry aligning dilute active matter",
+      "year": 2020,
+      "container": "Annual Review of Condensed Matter Physics",
+      "raw": "[15] Chat´e H 2020 Annual Review of Condensed Matter Physics 11 URL https://doi.org/10.1146/ annurev-conmatphys-031119-050752",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 15,
+      "author": [
+        "Ramin Golestanian"
+      ],
+      "title": "Collective behavior of thermally active colloids",
+      "year": 2012,
+      "container": "Physical Review Letters",
+      "raw": "[16] Golestanian R 2012 Phys. Rev. Lett. 108(3) 038303 URL https://link.aps.org/doi/10.1103/ PhysRevLett.108.038303",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 16,
+      "author": [
+        "Johannes Taktikos",
+        "Vasily Zaburdaev",
+        "Holger Stark"
+      ],
+      "title": "Collective dynamics of model microorganisms with chemotactic signaling",
+      "year": 2012,
+      "container": "Physical Review E",
+      "raw": "[17] Taktikos J, Zaburdaev V and Stark H 2012 Phys. Rev. E 85(5) 051901 URL https://link.aps. org/doi/10.1103/PhysRevE.85.051901",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 17,
+      "author": [
+        "Suropriya Saha",
+        "Ramin Golestanian",
+        "Sriram Ramaswamy"
+      ],
+      "title": "Clusters, asters, and collective oscillations in chemotactic colloids",
+      "year": 2014,
+      "container": "Physical Review E",
+      "raw": "[18] Saha S, Golestanian R and Ramaswamy S 2014 Phys. Rev. E 89(6) 062316 URL https: //link.aps.org/doi/10.1103/PhysRevE.89.062316",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 18,
+      "author": [
+        "Benno Liebchen",
+        "Davide Marenduzzo",
+        "Ignacio Pagonabarraga",
+        "Michael E. Cates"
+      ],
+      "title": "Clustering and pattern formation in chemorepulsive active colloids",
+      "year": 2015,
+      "container": "Physical Review Letters",
+      "raw": "[19] Liebchen B, Marenduzzo D, Pagonabarraga I and Cates M E 2015 Phys. Rev. Lett. 115(25) 258301 URL https://link.aps.org/doi/10.1103/PhysRevLett.115.258301",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 19,
+      "author": [
+        "Akhil Varma",
+        "Thomas D. Montenegro-Johnson",
+        "Sébastien Michelin"
+      ],
+      "title": "Clustering-induced self-propulsion of isotropic autophoretic particles",
+      "year": 2018,
+      "container": "Soft Matter",
+      "raw": "[20] Varma A, Montenegro-Johnson T D and Michelin S 2018 Soft Matter 14(35) 7155–7173 URL http://dx.doi.org/10.1039/C8SM00690C",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 20,
+      "author": [
+        "Jaime Agudo-Canalejo",
+        "Ramin Golestanian"
+      ],
+      "title": "Active phase separation in mixtures of chemically interacting particles",
+      "year": 2019,
+      "container": "Physical Review Letters",
+      "raw": "[21] Agudo-Canalejo J and Golestanian R 2019 Phys. Rev. Lett. 123(1) 018101 URL https://link. aps.org/doi/10.1103/PhysRevLett.123.018101",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 21,
+      "author": [
+        "Andreas Zöttl",
+        "Holger Stark"
+      ],
+      "title": "Hydrodynamics determines collective motion and phase behavior of active colloids in quasi-two-dimensional confinement",
+      "year": 2014,
+      "container": "Physical Review Letters",
+      "raw": "[22] Z¨ottl A and Stark H 2014 Phys. Rev. Lett. 112(11) 118101 URL https://link.aps.org/doi/ 10.1103/PhysRevLett.112.118101",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 22,
+      "author": [
+        "Johannes Blaschke",
+        "Maurus Maurer",
+        "Karthik Menon",
+        "Andreas Zöttl",
+        "Holger Stark"
+      ],
+      "title": "Phase separation and coexistence of hydrodynamically interacting microswimmers",
+      "year": 2016,
+      "container": "Soft Matter",
+      "raw": "[23] Blaschke J, Maurer M, Menon K, Z¨ottl A and Stark H 2016 Soft Matter 12(48) 9821–9831 URL http://dx.doi.org/10.1039/C6SM02042A",
+      "confidence": 0.95,
+      "notes": "与 [11] 为同一论文的不同版本引用"
+    },
+    {
+      "entry_index": 23,
+      "author": [
+        "John Toner",
+        "Yuhai Tu",
+        "Sriram Ramaswamy"
+      ],
+      "title": "Hydrodynamics and phases of flocks",
+      "year": 2005,
+      "container": "Annals of Physics",
+      "raw": "[24] Toner J, Tu Y and Ramaswamy S 2005 Annals of Physics 318 170 – 244 ISSN 0003-4916 special Issue URL http://www.sciencedirect.com/science/article/pii/S0003491605000540",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 24,
+      "author": [
+        "Ramin Golestanian"
+      ],
+      "title": "Nonequilibrium phenomena in active matter",
+      "year": 2019,
+      "container": "Physical Review E",
+      "raw": "[25] Golestanian R 2019 Phys. Rev. E 100(1) 010601 URL https://link.aps.org/doi/10.1103/ PhysRevE.100.010601",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 25,
+      "author": [
+        "Elsen Tjhung",
+        "Cesare Nardini",
+        "Michael E. Cates"
+      ],
+      "title": "Cluster phases and bubbly phase separation in active brownian particles: Two routes to active phase separation",
+      "year": 2018,
+      "container": "Physical Review X",
+      "raw": "[26] Tjhung E, Nardini C and Cates M E 2018 Phys. Rev. X 8(3) 031080 URL https://link.aps. org/doi/10.1103/PhysRevX.8.031080",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 26,
+      "author": [
+        "Ramin Golestanian",
+        "Armand Ajdari"
+      ],
+      "title": "Electrohydrodynamic swimming",
+      "year": 2002,
+      "container": "EPL (Europhysics Letters)",
+      "raw": "[27] Golestanian R and Ajdari A 2002 EPL (Europhysics Letters) 59 800 URL http://stacks.iop. org/0295-5075/59/i=6/a=800",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 27,
+      "author": [
+        "Robert M. Ziff",
+        "George E. Uhlenbeck",
+        "Mark Kac"
+      ],
+      "title": "The ideal bose-einstein gas, revisited",
+      "year": 1977,
+      "container": "Physics Reports",
+      "raw": "[28] Ziff R M, Uhlenbeck G E and Kac M 1977 Physics Reports 32 169 – 248 ISSN 0370-1573 URL http://www.sciencedirect.com/science/article/pii/0370157377900527",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 28,
+      "author": [
+        "Vanderlei Bagnato",
+        "David E. Pritchard",
+        "Daniel Kleppner"
+      ],
+      "title": "Bose-einstein condensation in a dilute gas: The first 70 years and some recent experiments",
+      "year": 1987,
+      "container": "Physical Review A",
+      "raw": "[29] Bagnato V, Pritchard D E and Kleppner D 1987 Phys. Rev. A 35(10) 4354–4358 URL https: //link.aps.org/doi/10.1103/PhysRevA.35.4354",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 29,
+      "author": [
+        "Franco Dalfovo",
+        "Stefano Giorgini",
+        "Lev P. Pitaevskii",
+        "Sandro Stringari"
+      ],
+      "title": "Theory of bose-einstein condensation in trapped gases",
+      "year": 1999,
+      "container": "Reviews of Modern Physics",
+      "raw": "[30] Dalfovo F, Giorgini S, Pitaevskii L P and Stringari S 1999 Rev. Mod. Phys. 71(3) 463–512 URL https://link.aps.org/doi/10.1103/RevModPhys.71.463",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 30,
+      "author": [
+        "Benoît Mahault",
+        "Ramin Golestanian"
+      ],
+      "title": "(in preparation)",
+      "year": 2020,
+      "container": "(in preparation)",
+      "raw": "[31] Mahault B and Golestanian R 2020 in preparation",
+      "confidence": 0.55,
+      "notes": "未发表文献，无标题和容器信息"
+    },
+    {
+      "entry_index": 31,
+      "author": [
+        "Pierre-Henri Chavanis"
+      ],
+      "title": "Hamiltonian and brownian systems with long-range interactions",
+      "year": 2008,
+      "container": "The European Physical Journal B",
+      "raw": "[32] Chavanis P H 2008 The European Physical Journal B 62 179–208 ISSN 1434-6036 URL https: //doi.org/10.1140/epjb/e2008-00142-9",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 32,
+      "author": [
+        "Víctor Romero-Rochín"
+      ],
+      "title": "Nonequilibrium phase transition in a driven lattice gas with annealing",
+      "year": 2005,
+      "container": "Physical Review Letters",
+      "raw": "[33] Romero-Roch´ın V 2005 Phys. Rev. Lett. 94(13) 130601 URL https://link.aps.org/doi/10. 1103/PhysRevLett.94.130601",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 33,
+      "author": [
+        "Alexandre P. Solon",
+        "Yaouen Fily",
+        "Aparna Baskaran",
+        "Michael E. Cates",
+        "Yariv Kafri",
+        "Mehran Kardar",
+        "Julien Tailleur"
+      ],
+      "title": "Pressure is not a state function for generic active fluids",
+      "year": 2015,
+      "container": "Nature Physics",
+      "raw": "[34] Solon A P, Fily Y, Baskaran A, Cates M E, Kafri Y, Kardar M and Tailleur J 2015 Nature Physics 11 673 EP – URL https://doi.org/10.1038/nphys3377",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,792 @@
+{
+  "schema": "deviation_report.v2",
+  "summary": {
+    "total_files": 65,
+    "total_examples": 90,
+    "by_type": {
+      "over_split": 14,
+      "style_mismatch": 26,
+      "year_error": 44,
+      "title_error": 6,
+      "author_error": 0
+    }
+  },
+  "common_themes": [
+    {
+      "pattern": "over_split_by_page_markers",
+      "impact": "14 files",
+      "diagnosis": "Lines ending with '1, 2, 7' (in-text citation page markers) are treated as new reference entries by the inline-split logic.",
+      "example": {
+        "file": "34WIW5FH",
+        "type": "over_split",
+        "what_gt_expected": "1 reference entry: [24] C.-Y. Lee... Deeplysupervised nets. arXiv:1409.5185, 2014.",
+        "what_script_produced": "Script split into many fragments (GT=47 entries → PP=85 entries)",
+        "raw_text": "[24] C.-Y. Lee... Deeplysupervised nets. arXiv:1409.5185, 2014.",
+        "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+      }
+    },
+    {
+      "pattern": "style_detection_fooled_by_trailing_markers",
+      "impact": "26 files",
+      "diagnosis": "Trailing numbers ' 1, 2, 7' cause the author-year detector to think the entry is 'mixed' style.",
+      "example": {
+        "file": "2KUGMFL2",
+        "type": "style_mismatch",
+        "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+        "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+        "raw_text": "[1] Shivani Agarwal and Dan Roth. Learning a sparse representation for object detection. In ECCV, 2002.",
+        "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+      }
+    },
+    {
+      "pattern": "laTeX_bib_format_title_boundary",
+      "impact": "6 files",
+      "diagnosis": "'Surname, I.:' format — authors_period_title pattern splits on the first period (after author block) rather than the period after the actual title, so 'In: Proceedings of...' becomes the title.",
+      "example": {
+        "file": "76BD6UYE",
+        "type": "title_error",
+        "what_gt_expected": "title=\"The 2020 motile active matter roadmap\"",
+        "what_script_produced": "title=\"Condensed Matter 32 193001 URL https://doi.org/10.1088/ 1361-648x/ab6348\"",
+        "raw_text": "[1] Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, …",
+        "root_cause": "Format \"Surname, I.:\" (LaTeX BibTeX / IEEE style) — the period after authors is parsed as end-of-sentence by authors_period_title pattern, so the actual author block colon and everything after the first period becomes the 'title'."
+      }
+    },
+    {
+      "pattern": "year_from_trailing_text",
+      "impact": "44 entries across multiple files",
+      "diagnosis": "Volume/page numbers like '39(6):1137–1149' contain 4-digit numbers that are picked up as publication years.",
+      "example": {
+        "file": "2KUGMFL2",
+        "type": "year_error",
+        "what_gt_expected": "year=2017",
+        "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+        "raw_text": "[13] Alireza Fathi, Zbigniew Wojna, Vivek Rathod, Peng Wang, Hyun Oh Song, Sergio Guadarrama, and Kevin Murphy. Semantic instance segmentation via deep metric learning. arXiv preprint arXiv:1703.10277…",
+        "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+      }
+    }
+  ],
+  "examples": [
+    {
+      "file": "2KUGMFL2",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Shivani Agarwal and Dan Roth. Learning a sparse representation for object detection. In ECCV, 2002.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "2KUGMFL2",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+      "raw_text": "[13] Alireza Fathi, Zbigniew Wojna, Vivek Rathod, Peng Wang, Hyun Oh Song, Sergio Guadarrama, and Kevin Murphy. Semantic instance segmentation via deep metric learning. arXiv preprint arXiv:1703.10277…",
+      "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "34WIW5FH",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: [24] C.-Y. Lee... Deeplysupervised nets. arXiv:1409.5185, 2014.",
+      "what_script_produced": "Script split into many fragments (GT=47 entries → PP=85 entries)",
+      "raw_text": "[24] C.-Y. Lee... Deeplysupervised nets. arXiv:1409.5185, 2014.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "34WIW5FH",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=numeric (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Y. Bengio, P. Simard, and P. Frasconi. Learning long-term dependencies... IEEE TNN, 5(2):157–166, 1994.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "3YG8UNCI",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "Improving DETR with simple IoU-aware BCE loss. arXiv:2304.07527, 2023.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "4DB3YS8Y",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Xinlong Wang, Tao Kong, Chunhua Shen, Yuning Jiang, and Lei Li. SOLO: Segmenting objects by locations. In Proc. Eur. Conf. Comp. Vis., 2020.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "4FUJYLNY",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: 13. Sheikh, T.U.; Shehzadi, T.; Hashmi, K.A.; Stricker, D.; Afzal, M.Z. UnSupDLA... arXiv 2024, arXi…",
+      "what_script_produced": "Script split into many fragments (GT=24 entries → PP=231 entries)",
+      "raw_text": "13. Sheikh, T.U.; Shehzadi, T.; Hashmi, K.A.; Stricker, D.; Afzal, M.Z. UnSupDLA... arXiv 2024, arXiv:2406.06236.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "4FUJYLNY",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=2025 (pattern=authors_period_title_period_venue_year, extracted from: 2025)",
+      "raw_text": "9. Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.; Gomez, A.N.; Kaiser, L.; Polosukhin, I. Attention is all you need. In NIPS, 2017.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 2025 from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "4IUAXCCZ",
+      "type": "year_error",
+      "what_gt_expected": "year=2021",
+      "what_script_produced": "year=None (pattern=ieee_quote_title, extracted from: None)",
+      "raw_text": "[17] L. Jiang, Y. Wang, Q. Jia, S. Xu, Y. Liu, X. Fan, H. Li, R. Liu, X. Xue, and R. Wang, \"Underwater species detection using channel sharpening attention,\" in ACM MM, pages $= 4 2 5 9 { \\ - } 4 2 6 …",
+      "root_cause": "The best candidate pattern (ieee_quote_title) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2021."
+    },
+    {
+      "file": "53A2WXX8",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: [34] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense ob…",
+      "what_script_produced": "Script split into many fragments (GT=66 entries → PP=147 entries)",
+      "raw_text": "[34] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense object detection. In ICCV, 2017.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "53A2WXX8",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=numeric (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Pablo Arbelaez, Jordi Pont-Tuset, Jonathan T Barron, Ferran Marques, and Jitendra Malik. Multiscale combinatorial grouping. In CVPR, 2014.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "5HBHAWIV",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=author-year (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "Joshua Ainslie... Etc: Encoding long and structured data in transformers. arXiv preprint arXiv:2004.08483, 2020.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "76BD6UYE",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, …",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "76BD6UYE",
+      "type": "year_error",
+      "what_gt_expected": "year=2012",
+      "what_script_produced": "year=1901 (pattern=authors_period_title_period_venue_year, extracted from: 1901)",
+      "raw_text": "[17] Taktikos J, Zaburdaev V and Stark H 2012 Phys. Rev. E 85(5) 051901 URL https://link.aps. org/doi/10.1103/PhysRevE.85.051901",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 1901 from trailing text (page markers, volume numbers) rather than the actual publication year 2012."
+    },
+    {
+      "file": "76BD6UYE",
+      "type": "title_error",
+      "what_gt_expected": "title=\"The 2020 motile active matter roadmap\"",
+      "what_script_produced": "title=\"Condensed Matter 32 193001 URL https://doi.org/10.1088/ 1361-648x/ab6348\"",
+      "raw_text": "[1] Gompper G, Winkler R G, Speck T, Solon A, Nardini C, Peruani F, L¨owen H, Golestanian R, Kaupp U B, Alvarez L, Kiørboe T, Lauga E, Poon W C K, DeSimone A, Mui˜nos-Landin S, Fischer A, S¨oker N A, …",
+      "root_cause": "Format \"Surname, I.:\" (LaTeX BibTeX / IEEE style) — the period after authors is parsed as end-of-sentence by authors_period_title pattern, so the actual author block colon and everything after the first period becomes the 'title'."
+    },
+    {
+      "file": "76BD6UYE",
+      "type": "title_error",
+      "what_gt_expected": "title=\"The mechanics and statistics of active matter\"",
+      "what_script_produced": "title=\"//doi.org/10.1146/annurev-conmatphys-070909-104101\"",
+      "raw_text": "[2] Ramaswamy S 2010 Annual Review of Condensed Matter Physics 1 323–345 URL https: //doi.org/10.1146/annurev-conmatphys-070909-104101",
+      "root_cause": "Format \"Surname, I.:\" (LaTeX BibTeX / IEEE style) — the period after authors is parsed as end-of-sentence by authors_period_title pattern, so the actual author block colon and everything after the first period becomes the 'title'."
+    },
+    {
+      "file": "7T29H6SR",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: Kaiming He... Masked autoencoders... In CVPR, pp. 16000–16009, 2022.",
+      "what_script_produced": "Script split into many fragments (GT=34 entries → PP=67 entries)",
+      "raw_text": "Kaiming He... Masked autoencoders... In CVPR, pp. 16000–16009, 2022.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "7WIXRD9R",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=numeric (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "[1] TAYLOR S R. Planetary science: a lunar perspective[M]. Houston, Tex: Lunar and Planetary Institute, 1982.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "7WIXRD9R",
+      "type": "year_error",
+      "what_gt_expected": "year=2022",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "[7] CHEN J, LING Z C, LIU J Z, et al. Digital and global lithologic mapping of the Moon at a 1:2,500,000 scale[J]. Science Bulletin, 2022, 67(20): 2050-2054.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2022."
+    },
+    {
+      "file": "7WIXRD9R",
+      "type": "year_error",
+      "what_gt_expected": "year=2013",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "[21] DEER W A, HOWIE R A, ZUSSMAN J. An introduction to the rock-forming minerals[M]. 2nd ed. London: Mineralogical Society of Great Britain and Ireland, 2013.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2013."
+    },
+    {
+      "file": "8838AH6P",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: 34. Li, F., Zeng, A., Liu, S., Zhang, H., Li, H., Zhang, L., Ni, L.M.: Lite detr... In: CVPR, pp. 18…",
+      "what_script_produced": "Script split into many fragments (GT=67 entries → PP=98 entries)",
+      "raw_text": "34. Li, F., Zeng, A., Liu, S., Zhang, H., Li, H., Zhang, L., Ni, L.M.: Lite detr... In: CVPR, pp. 18558–18567 (2023)",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "8838AH6P",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "1. Aharon, S., Louis-Dupont, Ofri Masad, Yurkova, K., Lotem Fridman... Eran-Deci: Super-gradients (2021). https://doi.org/10.5281/ZENODO.7789328",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "8AXAW2GX",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "1. A. Paszke et al.: PyTorch: An imperative style, high-performance deep learning library. In: Proc. Advances in Neural Inf. Process. Syst., pp. 8024–8035 (2019)",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "8ET4QJ6S",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "1. Ciresan, D.C., Gambardella, L.M., Giusti, A., Schmidhuber, J.: Deep neural networks segment neuronal membranes in electron microscopy images. In: NIPS. pp. 2852–2860 (2012)",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "8WM66ZL3",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: [14] Nicolas Carion... End-to-end object detection with Transformers. ECCV, 2020.",
+      "what_script_produced": "Script split into many fragments (GT=27 entries → PP=385 entries)",
+      "raw_text": "[14] Nicolas Carion... End-to-end object detection with Transformers. ECCV, 2020.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "8WM66ZL3",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=numeric (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Edward H Adelson. On seeing stuff... Human vision and electronic imaging VI, 2001.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "95F26DIX",
+      "type": "year_error",
+      "what_gt_expected": "year=2020",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "[73] Yuhui Yuan... Object-contextual representations... In ECCV, August 2020.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2020."
+    },
+    {
+      "file": "9CBBDH3Y",
+      "type": "year_error",
+      "what_gt_expected": "year=2022",
+      "what_script_produced": "year=2026 (pattern=authors_period_title_period_venue_year, extracted from: 2026)",
+      "raw_text": "[67] World Health Organization. WHO highlights oral health neglect... 2022.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 2026 from trailing text (page markers, volume numbers) rather than the actual publication year 2022."
+    },
+    {
+      "file": "9CBBDH3Y",
+      "type": "year_error",
+      "what_gt_expected": "year=2025",
+      "what_script_produced": "year=2026 (pattern=authors_period_title_period_venue_year, extracted from: 2026)",
+      "raw_text": "[68] World Health Organization. Oral health. https://www.who.int/news-room/fact-sheets/detail/oral-health, 2025.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 2026 from trailing text (page markers, volume numbers) rather than the actual publication year 2025."
+    },
+    {
+      "file": "AHF2RU48",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.: Exploiting polar grid structure and object shadows for fast object detection in point clouds. In: Twelfth International Conference on Machine…",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "ANFVBN87",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: Ji, X., Henriques, J. F., and Vedaldi, A. Invariant information clustering for unsupervised image cl…",
+      "what_script_produced": "Script split into many fragments (GT=58 entries → PP=157 entries)",
+      "raw_text": "Ji, X., Henriques, J. F., and Vedaldi, A. Invariant information clustering for unsupervised image classification and segmentation. In ICCV, pp. 9865–9874, 2019.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "ANFVBN87",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=author-year (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "Asano, Y. M., Rupprecht, C., and Vedaldi, A. A critical analysis of self-supervision... arXiv preprint arXiv:1904.13132, 2019.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "ANFVBN87",
+      "type": "year_error",
+      "what_gt_expected": "year=2009",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "Krizhevsky, A. and Hinton, G. Learning multiple layers of features from tiny images. Technical report, University of Toronto, 2009.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2009."
+    },
+    {
+      "file": "ANFVBN87",
+      "type": "year_error",
+      "what_gt_expected": "year=2008",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "Nilsback, M.-E. and Zisserman, A. Automated flower classification over a large number of classes. In ICVGIP'08, pp. 722–729. IEEE, 2008.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2008."
+    },
+    {
+      "file": "B3REC7HH",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: Girshick, R., Donahue, J., Darrell, T., and Malik., J. (2014). Rich feature hierarchies... In CVPR.",
+      "what_script_produced": "Script split into many fragments (GT=51 entries → PP=103 entries)",
+      "raw_text": "Girshick, R., Donahue, J., Darrell, T., and Malik., J. (2014). Rich feature hierarchies... In CVPR.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "B3REC7HH",
+      "type": "year_error",
+      "what_gt_expected": "year=2005",
+      "what_script_produced": "year=2012 (pattern=authors_period_title_period_venue_year, extracted from: 2012)",
+      "raw_text": "Everingham, M. (2005-2012). PASCAL VOC Challenge. http://www.pascalnetwork.org/challenges/VOC/voc2012/workshop/index.html.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 2012 from trailing text (page markers, volume numbers) rather than the actual publication year 2005."
+    },
+    {
+      "file": "BBIY57N3",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhanng, Wanling Ma, Xiang Wan, et al. Amos: A large-scale abdominal multi-organ benchmark for versatile med…",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "CGJBFE6C",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=2019 (pattern=venue_marker_split, extracted from: 2019)",
+      "raw_text": "[Lin et al., 2019] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense object detection. In IEEE International Conference on Computer Vision (ICCV), 2019.",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year 2019 from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "CHPBJDLU",
+      "type": "year_error",
+      "what_gt_expected": "year=2020",
+      "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+      "raw_text": "[12] Qingyong Hu, Bo Yang, Linhai Xie... RandLA-Net... In CVPR, 2020.",
+      "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2020."
+    },
+    {
+      "file": "CHPBJDLU",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "[23] Charles R Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++... In NIPS, pages 5099–5108, 2017.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "D6BUKS9Q",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: [45]... In ICCV, 2021.",
+      "what_script_produced": "Script split into many fragments (GT=89 entries → PP=145 entries)",
+      "raw_text": "[45]... In ICCV, 2021.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "DDT5Q9QF",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=numeric (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Jens Behley... SemanticKITTI... In ICCV, 2019.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "ELUGCCPA",
+      "type": "year_error",
+      "what_gt_expected": "year=2020",
+      "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+      "raw_text": "[29] ZHENG S，LU J，ZHAO H，et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers[J].arXiv：2012.15840，2020.",
+      "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2020."
+    },
+    {
+      "file": "ELUGCCPA",
+      "type": "year_error",
+      "what_gt_expected": "year=2019",
+      "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+      "raw_text": "[47] TAN M，LE Q.Efficientnet：rethinking model scaling for convolutional neural networks[C]//International Confer-ence on Machine Learning，2019：6105-6114.",
+      "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2019."
+    },
+    {
+      "file": "HDDAIKQQ",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: Zhengdong Hu, Yifan Sun, Jingdong Wang, and Yi Yang. DAC-DETR... In NeurIPS, 2023.",
+      "what_script_produced": "Script split into many fragments (GT=91 entries → PP=180 entries)",
+      "raw_text": "Zhengdong Hu, Yifan Sun, Jingdong Wang, and Yi Yang. DAC-DETR... In NeurIPS, 2023.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "HDDAIKQQ",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "Grant Van Horn, Oisin Mac Aodha, Yang Song, Alexander Shepard, Hartwig Adam, Pietro Perona, and Serge J. Belongie. The inaturalist challenge 2017 dataset. CoRR, abs/1707.06642, 2017.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "HDDAIKQQ",
+      "type": "year_error",
+      "what_gt_expected": "year=2020",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "Menglin Jia, Mengyun Shi, Mikhail Sirotenko, Yin Cui, Claire Cardie, Bharath Hariharan, Hartwig Adam, and Serge J. Belongie. Fashionpedia... CoRR, abs/2004.12276, 2020.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2020."
+    },
+    {
+      "file": "HPLZ65Z2",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: 22. Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang…",
+      "what_script_produced": "Script split into many fragments (GT=39 entries → PP=71 entries)",
+      "raw_text": "22. Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang, Li Dong, et al. Swin transformer v2: Scaling up capacity and resolution. arXiv preprint arXiv:2111…",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "HPLZ65Z2",
+      "type": "year_error",
+      "what_gt_expected": "year=2022",
+      "what_script_produced": "year=2021 (pattern=venue_marker_split, extracted from: 2021)",
+      "raw_text": "17. Feng Li, Hao Zhang, Shilong Liu, Jian Guo, Lionel M Ni, and Lei Zhang. Dndetr: Accelerate detr training by introducing query denoising. arXiv preprint arXiv:2203.01305, 2022. Grounded language-ima…",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year 2021 from trailing text (page markers, volume numbers) rather than the actual publication year 2022."
+    },
+    {
+      "file": "HPLZ65Z2",
+      "type": "year_error",
+      "what_gt_expected": "year=2014",
+      "what_script_produced": "year=None (pattern=venue_marker_split, extracted from: None)",
+      "raw_text": "20. Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Doll´ar, and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European conference on co…",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2014."
+    },
+    {
+      "file": "IY3FMWQM",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=author-year (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "Alexey Bochkovskiy... Yolov4... arXiv preprint arXiv:2004.10934, 2020.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "J6DSFFBH",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: [34] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. ICLR, 2019.",
+      "what_script_produced": "Script split into many fragments (GT=66 entries → PP=131 entries)",
+      "raw_text": "[34] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. ICLR, 2019.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "J6DSFFBH",
+      "type": "year_error",
+      "what_gt_expected": "year=2006",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "[3] Keni Bernardin... Multiple object tracking performance metrics... Citeseer.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2006."
+    },
+    {
+      "file": "JMWG9XVD",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Anarew Aaams, jongmin Baek, ana Myers Abranam Davis. Fast high-dimensional filtering using the permutohedral lattice. In Computer Graphics Forum, volume 29, pages 753- 762. Wiley Online Library,20…",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "LUM266YT",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: Y. LeCun, B. Boser, J. Denker... Backpropagation applied to handwritten zip code recognition. Neural…",
+      "what_script_produced": "Script split into many fragments (GT=54 entries → PP=105 entries)",
+      "raw_text": "Y. LeCun, B. Boser, J. Denker... Backpropagation applied to handwritten zip code recognition. Neural Computation, 1:541–551, 1989.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "LUM266YT",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=author-year (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "Samira Abnar and Willem Zuidema. Quantifying attention flow in transformers. In ACL, 2020.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "M3AU5AC9",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] K. He, X. Zhang, S. Ren, and J. Sun, \"Spatial pyramid pooling in deep convolutional networks for visual recognition,\" in Proc. 13th Eur. Conf. Comput. Vis., 2014 pp. 346–361.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "MERSIDHN",
+      "type": "year_error",
+      "what_gt_expected": "year=2022",
+      "what_script_produced": "year=2021 (pattern=authors_period_title_period_venue_year, extracted from: 2021)",
+      "raw_text": "Linfeng Zhang... Self-distillation... TPAMI, 44(8):4388–4403, 2021.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 2021 from trailing text (page markers, volume numbers) rather than the actual publication year 2022."
+    },
+    {
+      "file": "NXLIGKF5",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Nicolas Carion,Francisco Massa, Gabriel Synnaeve,Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko. End-toend object detection with transformers. In European Conference on Computer Vision, …",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "NXLIGKF5",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=2018 (pattern=authors_period_title_period_venue_year, extracted from: 2018)",
+      "raw_text": "[9] Tsung-YiLin, Priya Goyal, Ross Girshick, Kaiming He,and Piotr Dollar. Focal loss for dense object detection,2018.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 2018 from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "RPRBE2QN",
+      "type": "year_error",
+      "what_gt_expected": "year=2016",
+      "what_script_produced": "year=None (pattern=venue_marker_split, extracted from: None)",
+      "raw_text": "[23] Kaiming He,Xiangyu Zhang, Shaoqing Ren,and Jian Sun. Deep residual learning for image recognition. In CVPR,2016.",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2016."
+    },
+    {
+      "file": "RPRBE2QN",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=None (pattern=venue_marker_split, extracted from: None)",
+      "raw_text": "[27] Tsung-Yi Lin,Priya Goyal, Ross Girshick, Kaiming He,and Piotr Dollar. Focal loss for dense object detection. In ICCV,2017.",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "S7IWH3CG",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=numeric (e.g. entry starts with [0])",
+      "what_script_produced": "style=mixed (detected as mixed due to trailing markers)",
+      "raw_text": "［1 ］ KRIZHEVSKY A， SUTSKEVER I， HINTON G E.ImageNet classification with deep convolutional neuralnetworks［J］．CommunicationsoftheACM， 2017， 60（6）：84－90．",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "S7IWH3CG",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=2024 (pattern=thesis_or_book_tail_year, extracted from: 2024)",
+      "raw_text": "［4 ］ VASWANIA， SHAZEERN， PARMARN， etal．Attentionisallyouneed［EB／OL］．［2024－01－14］．https：∥arxiv．org／abs／1706．03762",
+      "root_cause": "The best candidate pattern (thesis_or_book_tail_year) picked year 2024 from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "S7IWH3CG",
+      "type": "year_error",
+      "what_gt_expected": "year=2020",
+      "what_script_produced": "year=2024 (pattern=thesis_or_book_tail_year, extracted from: 2024)",
+      "raw_text": "［5 ］ DOSOVITSKIY A， BEYER L， KOLESNIKOV A， etalAnimageisworth16×16 words： Transformersforimagerecognitionatscale［EB／OL］．［2024－01－14］．https：∥arxivorg／abs／2010．11929",
+      "root_cause": "The best candidate pattern (thesis_or_book_tail_year) picked year 2024 from trailing text (page markers, volume numbers) rather than the actual publication year 2020."
+    },
+    {
+      "file": "S7IWH3CG",
+      "type": "title_error",
+      "what_gt_expected": "title=\"ImageNet classification with deep convolutional neural networks\"",
+      "what_script_produced": "title=\"\"",
+      "raw_text": "［1 ］ KRIZHEVSKY A， SUTSKEVER I， HINTON G E.ImageNet classification with deep convolutional neuralnetworks［J］．CommunicationsoftheACM， 2017， 60（6）：84－90．",
+      "root_cause": "Format \"Surname, I.:\" (LaTeX BibTeX / IEEE style) — the period after authors is parsed as end-of-sentence by authors_period_title pattern, so the actual author block colon and everything after the first period becomes the 'title'."
+    },
+    {
+      "file": "S7IWH3CG",
+      "type": "title_error",
+      "what_gt_expected": "title=\"You only look once: unified, real-time object detection\"",
+      "what_script_produced": "title=\"USA :IEEEPress, 2016: 779-788\"",
+      "raw_text": "［2 ］ REDMONJ， DIVVALAS， GIRSHICK R， etal．Youonlylook once： unified， real－time object detection ［C ］ ∥ProceedingsoftheIEEEConferenceonComputerVisionandPatternRecognition （CVPR ）．Washington D．C． USA ：IE…",
+      "root_cause": "Format \"Surname, I.:\" (LaTeX BibTeX / IEEE style) — the period after authors is parsed as end-of-sentence by authors_period_title pattern, so the actual author block colon and everything after the first period becomes the 'title'."
+    },
+    {
+      "file": "S86GB385",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Luca Bertinetto, Jack Valmadre,Joao F Henriques,Andrea Vedaldi,and Philip HS Torr. Fully-convolutional siamese networks for object tracking.In ECCV,2016.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "S86GB385",
+      "type": "year_error",
+      "what_gt_expected": "year=2018",
+      "what_script_produced": "year=2017 (pattern=venue_marker_split, extracted from: 2017)",
+      "raw_text": "[11] Anfeng He, Chong Luo, Xinmei Tian,and Wenjun Zeng. A twofold siamese network for real-time object tracking. In CVPR,2018.",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year 2017 from trailing text (page markers, volume numbers) rather than the actual publication year 2018."
+    },
+    {
+      "file": "S86GB385",
+      "type": "year_error",
+      "what_gt_expected": "year=2016",
+      "what_script_produced": "year=None (pattern=venue_marker_split, extracted from: None)",
+      "raw_text": "[13] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In CVPR,2016.",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2016."
+    },
+    {
+      "file": "SZ3GNWT9",
+      "type": "year_error",
+      "what_gt_expected": "year=2023",
+      "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+      "raw_text": "Glenn Jocher, Jing Qiu, and Ayush Chaurasia. Ultralytics YOLO, January 2023.",
+      "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2023."
+    },
+    {
+      "file": "SZ3GNWT9",
+      "type": "year_error",
+      "what_gt_expected": "year=2024",
+      "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+      "raw_text": "Glenn Jocher, Jing Qiu, and Ayush Chaurasia. Ultralytics YOLO, January 2024.",
+      "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2024."
+    },
+    {
+      "file": "UFJQE7PA",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "［］李晓健，陈雍君，邱实，等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法［ ］铁道学报， ［ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "UFJQE7PA",
+      "type": "year_error",
+      "what_gt_expected": "year=2021",
+      "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+      "raw_text": "［］曹燕 基于深度学习的建筑工人安全帽检测方法研究［ ］苏州: 苏州科技大学，CAO Yan. Research on Detection Methods of Construction Workers' Hard Hats Based on Deep Learning[D]. Suzhou: Suzhou University of Science and Technology, 2021.",
+      "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2021."
+    },
+    {
+      "file": "UFJQE7PA",
+      "type": "year_error",
+      "what_gt_expected": "year=2023",
+      "what_script_produced": "year=None (pattern=authors_period_title_period_venue_year, extracted from: None)",
+      "raw_text": "[6] WANG S,HAI X,CAO Y Y.Reflective Safety Clothes Wearing Detection in Hydraulic Engineering Using YOLOv3-CCD. Asian Journal of Research in Computer Science,2O23,15(2) : 11-24.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2023."
+    },
+    {
+      "file": "UFJQE7PA",
+      "type": "title_error",
+      "what_gt_expected": "title=\"复杂地区铁路工程建设风险知识图谱的建立与分析方法\"",
+      "what_script_produced": "title=\"1705.002.html\"",
+      "raw_text": "［］李晓健，陈雍君，邱实，等 复杂地区铁路工程建设风险知识 图谱的建立与分析方法［ ］铁道学报， ［ 15] .http://kns.cnki.net/kcms/detail/11.2104.u.20240619. 1705.002.html.",
+      "root_cause": "Format \"Surname, I.:\" (LaTeX BibTeX / IEEE style) — the period after authors is parsed as end-of-sentence by authors_period_title pattern, so the actual author block colon and everything after the first period becomes the 'title'."
+    },
+    {
+      "file": "UFJQE7PA",
+      "type": "title_error",
+      "what_gt_expected": "title=\"分布式视频监控系统在铁路站前工程的应用与研究\"",
+      "what_script_produced": "title=\"12-16.LU Shuai,HOU Jiwei,GAO Chunfeng,et al.Distributed VideoMonitoringSystemApp…\"",
+      "raw_text": "［］鲁帅，侯继伟，高春风，等 分布式视频监控系统在铁路站前工程的应用与研究 ［］铁路计算机应用， ， ( ) :12-16.",
+      "root_cause": "Format \"Surname, I.:\" (LaTeX BibTeX / IEEE style) — the period after authors is parsed as end-of-sentence by authors_period_title pattern, so the actual author block colon and everything after the first period becomes the 'title'."
+    },
+    {
+      "file": "UVI9ULI2",
+      "type": "year_error",
+      "what_gt_expected": "year=2018",
+      "what_script_produced": "year=2017 (pattern=venue_marker_split, extracted from: 2017)",
+      "raw_text": "[35] X. Wang, R. Girshick, A. Gupta, and K. He. Non-local neural networks. In CVPR, 2018.",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year 2017 from trailing text (page markers, volume numbers) rather than the actual publication year 2018."
+    },
+    {
+      "file": "UW8ZLVA6",
+      "type": "over_split",
+      "what_gt_expected": "1 reference entry: [30] S. Ali... \"Endoscopy disease detection and segmentation...\" 2020.",
+      "what_script_produced": "Script split into many fragments (GT=59 entries → PP=119 entries)",
+      "raw_text": "[30] S. Ali... \"Endoscopy disease detection and segmentation...\" 2020.",
+      "root_cause": "Trailing page number markers (e.g. ' 1, 2, 7') at end-of-line are parsed as new entry starts by the inline-split regex."
+    },
+    {
+      "file": "UW8ZLVA6",
+      "type": "year_error",
+      "what_gt_expected": "year=2020",
+      "what_script_produced": "year=2001 (pattern=ieee_quote_title, extracted from: 2001)",
+      "raw_text": "[2] J. Kaplan... \"Scaling laws...\" arXiv preprint arXiv:2001.08361, 2020.",
+      "root_cause": "The best candidate pattern (ieee_quote_title) picked year 2001 from trailing text (page markers, volume numbers) rather than the actual publication year 2020."
+    },
+    {
+      "file": "UW8ZLVA6",
+      "type": "year_error",
+      "what_gt_expected": "year=2021",
+      "what_script_produced": "year=1911 (pattern=ieee_quote_title, extracted from: 1911)",
+      "raw_text": "[56] Y. Jin... \"Temporal memory relation network...\" IEEE TMI, 2021.",
+      "root_cause": "The best candidate pattern (ieee_quote_title) picked year 1911 from trailing text (page markers, volume numbers) rather than the actual publication year 2021."
+    },
+    {
+      "file": "VA9QJETD",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=mixed (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] J. Carreira, R. Caseiro, J. Batista, and C. Sminchisescu. Semantic segmentation with second-order pooling. In ECCV, 2012.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    },
+    {
+      "file": "VHBU3NI6",
+      "type": "year_error",
+      "what_gt_expected": "year=2019",
+      "what_script_produced": "year=None (pattern=venue_marker_split, extracted from: None)",
+      "raw_text": "[33] Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. FCOS: Fully convolutional one-stage object detection. In ICCV, 2019.",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2019."
+    },
+    {
+      "file": "VHBU3NI6",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=None (pattern=fallback_raw_split, extracted from: None)",
+      "raw_text": "[34] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processin…",
+      "root_cause": "The best candidate pattern (fallback_raw_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "VI9JURUB",
+      "type": "year_error",
+      "what_gt_expected": "year=2022",
+      "what_script_produced": "year=2020 (pattern=venue_marker_split, extracted from: 2020)",
+      "raw_text": "Liu, Z., Mao, H., Wu, C.-Y., Feichtenhofer, C., Darrell, T., & Xie, S. (2022). A convnet for the 2020s. In CVPR (pp. 11976–11986).",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year 2020 from trailing text (page markers, volume numbers) rather than the actual publication year 2022."
+    },
+    {
+      "file": "VP3VWENB",
+      "type": "year_error",
+      "what_gt_expected": "year=2017",
+      "what_script_produced": "year=2024 (pattern=authors_period_title_period_venue_year, extracted from: 2024)",
+      "raw_text": "[12] HOWARD A G, ZHU M L, CHEN B, et al. MobileNets: efficient convolutional neural networks for mobile vision applications[EB/OL]. [2024-09-23]. https://arxiv.org/abs/1704.04861.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 2024 from trailing text (page markers, volume numbers) rather than the actual publication year 2017."
+    },
+    {
+      "file": "VP3VWENB",
+      "type": "year_error",
+      "what_gt_expected": "year=2019",
+      "what_script_produced": "year=2024 (pattern=authors_period_title_period_venue_year, extracted from: 2024)",
+      "raw_text": "[14] LU J S, BATRA D, PARIKH D, et al. ViLBERT: pretraining task-agnostic visiolinguistic representations for vision-andlanguage tasks[EB/OL]. [2024-09-23]. https://arxiv.org/abs/1908.02265.",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 2024 from trailing text (page markers, volume numbers) rather than the actual publication year 2019."
+    },
+    {
+      "file": "VQ2WLIDR",
+      "type": "year_error",
+      "what_gt_expected": "year=2019",
+      "what_script_produced": "year=None (pattern=venue_marker_split, extracted from: None)",
+      "raw_text": "[26] Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang,Jing Li,and Jian Sun. Objects365:A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF …",
+      "root_cause": "The best candidate pattern (venue_marker_split) picked year None from trailing text (page markers, volume numbers) rather than the actual publication year 2019."
+    },
+    {
+      "file": "W4CDLU28",
+      "type": "year_error",
+      "what_gt_expected": "year=1955",
+      "what_script_produced": "year=1995 (pattern=authors_period_title_period_venue_year, extracted from: 1995)",
+      "raw_text": "[20] Harold W.Kuhn. The hungarian method for the assignment problem. Naval Research Logistics Quarterly,1995.6",
+      "root_cause": "The best candidate pattern (authors_period_title_period_venue_year) picked year 1995 from trailing text (page markers, volume numbers) rather than the actual publication year 1955."
+    },
+    {
+      "file": "Z25GLKZV",
+      "type": "style_mismatch",
+      "what_gt_expected": "style=author-year (e.g. entry starts with [0])",
+      "what_script_produced": "style=numeric (detected as mixed due to trailing markers)",
+      "raw_text": "[1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.",
+      "root_cause": "Lines have trailing page numbers like '...2017. 1, 2' — the '1, ' part triggers the author-year detection, overriding the numeric prefix."
+    }
+  ],
+  "timestamp": "2026-06-09T00:34:37Z",
+  "plugin": "line-first-v171"
+}

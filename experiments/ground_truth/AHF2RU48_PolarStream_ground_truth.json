@@ -1,0 +1,610 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/AHF2RU48_PolarStream_ Streaming Lidar Object Detection and Segmentation with Polar Pillar.txt",
+  "entry_style": "mixed",
+  "notes": "\"Surname, I.:\" LaTeX bib 风格。所有条目独占一行，末尾无引用页码标记（干净）。41 entries.",
+  "items": [
+    {
+      "author": [
+        "Michael Alsfasser",
+        "Jan Siegemund",
+        "John Kurian",
+        "Anton Kummert"
+      ],
+      "title": "Exploiting polar grid structure and object shadows for fast object detection in point clouds",
+      "year": 2020,
+      "container": "ICMV 2019",
+      "raw": "[1] Alsfasser, M., Siegemund, J., Kurian, J., Kummert, A.: Exploiting polar grid structure and object shadows for fast object detection in point clouds. In: Twelfth International Conference on Machine Vision (ICMV 2019). vol. 11433, p. 114330G. International Society for Optics and Photonics (2020)",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Maxim Berman",
+        "Amal Rannen Triki",
+        "Matthew B. Blaschko"
+      ],
+      "title": "The Lovász-softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[2] Berman, M., Triki, A.R., Blaschko, M.B.: The lovász-softmax loss... In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4413–4421 (2018)",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Holger Caesar",
+        "Varun Bankiti",
+        "Alex H. Lang",
+        "Sourabh Vora",
+        "Venice Erin Liong",
+        "Qiang Xu",
+        "Anush Krishnan",
+        "Yu Pan",
+        "Giancarlo Baldan",
+        "Oscar Beijbom"
+      ],
+      "title": "nuScenes: A multimodal dataset for autonomous driving",
+      "year": 2019,
+      "container": "arXiv:1903.11027",
+      "raw": "[3] Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O.: nuscenes: A multimodal dataset for autonomous driving. arXiv preprint arXiv:1903.11027 (2019)",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Sergio Casas",
+        "Wenjie Luo",
+        "Raquel Urtasun"
+      ],
+      "title": "IntentNet: Learning to predict intention from raw sensor data",
+      "year": 2018,
+      "container": "CoRL",
+      "raw": "[4] Casas, S., Luo, W., Urtasun, R.: Intentnet: Learning to predict intention from raw sensor data. In: Proceedings of The 2nd Conference on Robot Learning. pp. 947–956 (2018)",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Qi Chen",
+        "Lin Sun",
+        "Ernest Cheung",
+        "Alan L. Yuille"
+      ],
+      "title": "Every view counts: Cross-view consistency in 3d object detection with hybrid-cylindrical-spherical voxelization",
+      "year": 2020,
+      "container": "NeurIPS",
+      "raw": "[5] Chen, Q., Sun, L., Cheung, E., Yuille, A.L.: Every view counts... Advances in Neural Information Processing Systems (2020)",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Qi Chen",
+        "Lin Sun",
+        "Zhirong Wang",
+        "Kui Jia",
+        "Alan L. Yuille"
+      ],
+      "title": "Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[6] Chen, Q., Sun, L., Wang, Z., Jia, K., Yuille, A.: Object as hotspots... In: European Conference on Computer Vision. pp. 68–84. Springer (2020)",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Xiaozhi Chen",
+        "Huimin Ma",
+        "Ji Wan",
+        "Bo Li",
+        "Tian Xia"
+      ],
+      "title": "Multi-view 3d object detection network for autonomous driving",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[7] Chen, X., Ma, H., Wan, J., Li, B., Xia, T.: Multi-view 3d object detection network for autonomous driving. In: CVPR (2017)",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Ran Cheng",
+        "Ryan Razani",
+        "Ehsan Taghavi",
+        "Enxu Li",
+        "Bingbing Liu"
+      ],
+      "title": "2-S3Net: Attentive feature fusion with adaptive feature selection for sparse semantic segmentation network",
+      "year": 2021,
+      "container": "arXiv:2102.04530",
+      "raw": "[8] Cheng, R., Razani, R., Taghavi, E., Li, E., Liu, B.: 2-s3net... arXiv preprint arXiv:2102.04530 (2021)",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Tiago Cortinhal",
+        "George Tzelepis",
+        "Eren Erdal Aksoy"
+      ],
+      "title": "SalsaNext: Fast, uncertainty-aware semantic segmentation of lidar point clouds for autonomous driving",
+      "year": 2020,
+      "container": "arXiv:2003.03653",
+      "raw": "[9] Cortinhal, T., Tzelepis, G., Aksoy, E.E.: Salsanext... arXiv preprint arXiv:2003.03653 (2020)",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Lue Fan",
+        "Xuan Xiong",
+        "Feng Wang",
+        "Naiyan Wang",
+        "Zhaoxiang Zhang"
+      ],
+      "title": "RangeDet: In defense of range view for lidar-based 3d object detection",
+      "year": 2021,
+      "container": "arXiv:2103.10039",
+      "raw": "[10] Fan, L., Xiong, X., Wang, F., Wang, N., Zhang, Z.: Rangedet... arXiv preprint arXiv:2103.10039 (2021)",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Davi Frossard",
+        "Simon Suo",
+        "Sergio Casas",
+        "James Tu",
+        "Rui Hu",
+        "Raquel Urtasun"
+      ],
+      "title": "Strobe: Streaming object detection from lidar packets",
+      "year": 2020,
+      "container": "arXiv:2011.06425",
+      "raw": "[11] Frossard, D., Suo, S., Casas, S., Tu, J., Hu, R., Urtasun, R.: Strobe... arXiv preprint arXiv:2011.06425 (2020)",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Andreas Geiger",
+        "Philip Lenz",
+        "Christoph Stiller",
+        "Raquel Urtasun"
+      ],
+      "title": "Vision meets robotics: The KITTI dataset",
+      "year": 2013,
+      "container": "IJRR",
+      "raw": "[12] Geiger, A., Lenz, P., Stiller, C., Urtasun, R.: Vision meets robotics: The kitti dataset. The International Journal of Robotics Research 32(11), 1231–1237 (2013)",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Wei Han",
+        "Zhengdong Zhang",
+        "Benjamin Caine",
+        "Brandon Yang",
+        "Christoph Sprunk",
+        "Ouais Alsharif",
+        "Jiquan Ngiam",
+        "Vijay Vasudevan",
+        "Jonathon Shlens",
+        "Zhifeng Chen"
+      ],
+      "title": "Streaming object detection for 3-D point clouds",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[13] Han, W., Zhang, Z., Caine, B., Yang, B., Sprunk, C., Alsharif, O., Ngiam, J., Vasudevan, V., Shlens, J., Chen, Z.: Streaming object detection for 3-d point clouds. In: European Conference on Computer Vision. pp. 423–441. Springer (2020)",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[14] He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016)",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Sergey Ioffe",
+        "Christian Szegedy"
+      ],
+      "title": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+      "year": 2015,
+      "container": "ICML",
+      "raw": "[15] Ioffe, S., Szegedy, C.: Batch normalization... In: International conference on machine learning. pp. 448–456. PMLR (2015)",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Alex H. Lang",
+        "Sourabh Vora",
+        "Holger Caesar",
+        "Lubing Zhou",
+        "Jiong Yang",
+        "Oscar Beijbom"
+      ],
+      "title": "PointPillars: Fast encoders for object detection from point clouds",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[16] Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., Beijbom, O.: Pointpillars... In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 12697–12705 (2019)",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Priya Goyal",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Focal loss for dense object detection",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "[17] Lin, T.Y., Goyal, P., Girshick, R., He, K., Dollár, P.: Focal loss for dense object detection. In: Proceedings of the IEEE international conference on computer vision. pp. 2980–2988 (2017)",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Wei Liu",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Christian Szegedy",
+        "Scott Reed",
+        "Cheng-Yang Fu",
+        "Alexander C. Berg"
+      ],
+      "title": "SSD: Single shot multibox detector",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[18] Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.: Ssd: Single shot multibox detector. In: European conference on computer vision. pp. 21–37. Springer (2016)",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Wenjie Luo",
+        "Bin Yang",
+        "Raquel Urtasun"
+      ],
+      "title": "Fast and furious: Real time end-to-end 3d detection, tracking and motion forecasting with a single convolutional net",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[19] Luo, W., Yang, B., Urtasun, R.: Fast and furious... In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (June 2018)",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Daniel Maturana",
+        "Sebastian Scherer"
+      ],
+      "title": "VoxNet: A 3d convolutional neural network for real-time object recognition",
+      "year": 2015,
+      "container": "IROS",
+      "raw": "[20] Maturana, D., Scherer, S.: Voxnet... In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp. 922–928. IEEE (2015)",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Gregory P. Meyer",
+        "Ankit Laddha",
+        "Eric Kee",
+        "Carlos Vallespi-Gonzalez",
+        "Carl K. Wellington"
+      ],
+      "title": "LaserNet: An efficient probabilistic 3d object detector for autonomous driving",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[21] Meyer, G.P., Laddha, A., Kee, E., Vallespi-Gonzalez, C., Wellington, C.K.: Lasernet... In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 12677–12686 (2019)",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Charles R. Qi",
+        "Hao Su",
+        "Kaichun Mo",
+        "Leonidas J. Guibas"
+      ],
+      "title": "PointNet: Deep learning on point sets for 3d classification and segmentation",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[22] Qi, C.R., Su, H., Mo, K., Guibas, L.J.: Pointnet... In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 652–660 (2017)",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Meytal Rapoport-Lavie",
+        "Dan Raviv"
+      ],
+      "title": "It's all around you: Range-guided cylindrical network for 3d object detection",
+      "year": 2020,
+      "container": "arXiv:2012.03121",
+      "raw": "[23] Rapoport-Lavie, M., Raviv, D.: It's all around you... arXiv preprint arXiv:2012.03121 (2020)",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: towards real-time object detection with region proposal networks",
+      "year": 2016,
+      "container": "TPAMI",
+      "raw": "[24] Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn... IEEE transactions on pattern analysis and machine intelligence 39(6), 1137–1149 (2016)",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Olaf Ronneberger",
+        "Philipp Fischer",
+        "Thomas Brox"
+      ],
+      "title": "U-Net: Convolutional networks for biomedical image segmentation",
+      "year": 2015,
+      "container": "MICCAI",
+      "raw": "[25] Ronneberger, O., Fischer, P., Brox, T.: U-net... In: International Conference on Medical image computing and computer-assisted intervention. pp. 234–241. Springer (2015)",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Martin Simon",
+        "Stefan Milz",
+        "Karl Amende",
+        "Horst-Michael Gross"
+      ],
+      "title": "Complex-YOLO: Real-time 3d object detection on point clouds",
+      "year": 2018,
+      "container": "CoRR",
+      "raw": "[26] Simon, M., Milz, S., Amende, K., Gross, H.M.: Complex-yolo... CoRR (2018)",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Pei Sun",
+        "Henrik Kretzschmar",
+        "Xerxes Dotiwalla",
+        "Aurélien Chouard",
+        "Vijaysai Patnaik",
+        "Paul Tsui",
+        "James Guo",
+        "Yin Zhou",
+        "Yuning Chai",
+        "Benjamin Caine"
+      ],
+      "title": "Scalability in perception for autonomous driving: Waymo open dataset",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[27] Sun, P., Kretzschmar, H., Dotiwalla, X., Chouard, A., Patnaik, V., Tsui, P., Guo, J., Zhou, Y., Chai, Y., Caine, B., et al.: Scalability in perception for autonomous driving: Waymo open dataset. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 2446–2454 (2020)",
+      "confidence": 0.92,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Haotian Tang",
+        "Zhijian Liu",
+        "Shengyu Zhao",
+        "Yujun Lin",
+        "Ji Lin",
+        "Hanrui Wang",
+        "Song Han"
+      ],
+      "title": "Searching efficient 3d architectures with sparse point-voxel convolution",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[28] Tang, H., Liu, Z., Zhao, S., Lin, Y., Lin, J., Wang, H., Han, S.: Searching efficient 3d architectures... In: European Conference on Computer Vision. pp. 685–702. Springer (2020)",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Sourabh Vora",
+        "Alex H. Lang",
+        "Bassam Helou",
+        "Oscar Beijbom"
+      ],
+      "title": "PointPainting: Sequential fusion for 3d object detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[29] Vora, S., Lang, A.H., Helou, B., Beijbom, O.: Pointpainting... In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 4604–4612 (2020)",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Yan Yan",
+        "Yuxing Mao",
+        "Bo Li"
+      ],
+      "title": "SECOND: Sparsely embedded convolutional detection",
+      "year": 2018,
+      "container": "Sensors",
+      "raw": "[30] Yan, Y., Mao, Y., Li, B.: Second: Sparsely embedded convolutional detection. Sensors 18(10), 3337 (2018)",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Bin Yang",
+        "Ming Liang",
+        "Raquel Urtasun"
+      ],
+      "title": "HDNET: Exploiting HD maps for 3d object detection",
+      "year": 2018,
+      "container": "CoRL",
+      "raw": "[31] Yang, B., Liang, M., Urtasun, R.: HDNET: Exploiting HD maps for 3d object detection. In: CoRL (2018)",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Bin Yang",
+        "Wenjie Luo",
+        "Raquel Urtasun"
+      ],
+      "title": "PIXOR: Real-time 3d object detection from point clouds",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[32] Yang, B., Luo, W., Urtasun, R.: Pixor: Real-time 3d object detection from point clouds. In: Proceedings of the IEEE conference on Computer Vision and Pattern Recognition. pp. 7652–7660 (2018)",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Bin Yang",
+        "Wenjie Luo",
+        "Raquel Urtasun"
+      ],
+      "title": "PIXOR: Real-time 3d object detection from point clouds",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[33] Yang, B., Luo, W., Urtasun, R.: PIXOR: Real-time 3d object detection from point clouds. In: CVPR (2018)",
+      "confidence": 0.95,
+      "notes": "与 [32] 重复引用",
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Ye Ye",
+        "Hao Chen",
+        "Chi Zhang",
+        "Xiaobin Hao",
+        "Zhaoxiang Zhang"
+      ],
+      "title": "SARPNET: Shape attention regional proposal network for lidar-based 3d object detection",
+      "year": 2020,
+      "container": "Neurocomputing",
+      "raw": "[34] Ye, Y., Chen, H., Zhang, C., Hao, X., Zhang, Z.: Sarpnet... Neurocomputing 379, 53–63 (2020)",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Tianwei Yin",
+        "Xingyi Zhou",
+        "Philipp Krähenbühl"
+      ],
+      "title": "Center-based 3d object detection and tracking",
+      "year": 2020,
+      "container": "arXiv:2006.11275",
+      "raw": "[35] Yin, T., Zhou, X., Krähenbühl, P.: Center-based 3d object detection and tracking. arXiv preprint arXiv:2006.11275 (2020)",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Yang Zhang",
+        "Zixiang Zhou",
+        "Philip David",
+        "Xiangyu Yue",
+        "Zerong Xi",
+        "Hassan Foroosh"
+      ],
+      "title": "PolarNet: An improved grid representation for online lidar point clouds semantic segmentation",
+      "year": 2020,
+      "container": "arXiv:2003.14032",
+      "raw": "[36] Zhang, Y., Zhou, Z., David, P., Yue, X., Xi, Z., Foroosh, H.: Polarnet... arXiv preprint arXiv:2003.14032 (2020)",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Hui Zhou",
+        "Xinge Zhu",
+        "Xiao Song",
+        "Yuexin Ma",
+        "Zhe Wang",
+        "Hongsheng Li",
+        "Dahua Lin"
+      ],
+      "title": "Cylinder3D: An effective 3d framework for driving-scene lidar semantic segmentation",
+      "year": 2020,
+      "container": "arXiv:2008.01550",
+      "raw": "[37] Zhou, H., Zhu, X., Song, X., Ma, Y., Wang, Z., Li, H., Lin, D.: Cylinder3d... arXiv preprint arXiv:2008.01550 (2020)",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Yin Zhou",
+        "Pei Sun",
+        "Yu Zhang",
+        "Dragomir Anguelov",
+        "Jiyang Gao",
+        "Tom Ouyang",
+        "James Guo",
+        "Jiquan Ngiam",
+        "Vijay Vasudevan"
+      ],
+      "title": "End-to-end multi-view fusion for 3d object detection in lidar point clouds",
+      "year": 2019,
+      "container": "arXiv:1910.06528",
+      "raw": "[38] Zhou, Y., Sun, P., Zhang, Y., Anguelov, D., Gao, J., Ouyang, T., Guo, J., Ngiam, J., Vasudevan, V.: End-to-end multi-view fusion... arXiv preprint arXiv:1910.06528 (2019)",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Yin Zhou",
+        "Oncel Tuzel"
+      ],
+      "title": "VoxelNet: End-to-end learning for point cloud based 3d object detection",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[39] Zhou, Y., Tuzel, O.: Voxelnet... In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. pp. 4490–4499 (2018)",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Zixiang Zhou",
+        "Yang Zhang",
+        "Hassan Foroosh"
+      ],
+      "title": "Panoptic-PolarNet: Proposal-free lidar point cloud panoptic segmentation",
+      "year": 2021,
+      "container": "arXiv:2103.14962",
+      "raw": "[40] Zhou, Z., Zhang, Y., Foroosh, H.: Panoptic-polarnet... arXiv preprint arXiv:2103.14962 (2021)",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Benjin Zhu",
+        "Zhengkai Jiang",
+        "Xingyi Zhou",
+        "Zeming Li",
+        "Gang Yu"
+      ],
+      "title": "Class-balanced grouping and sampling for point cloud 3d object detection",
+      "year": 2019,
+      "container": "arXiv:1908.09492",
+      "raw": "[41] Zhu, B., Jiang, Z., Zhou, X., Li, Z., Yu, G.: Class-balanced grouping and sampling for point cloud 3d object detection. arXiv preprint arXiv:1908.09492 (2019)",
+      "confidence": 0.95,
+      "entry_index": 40
+    }
+  ]
+}

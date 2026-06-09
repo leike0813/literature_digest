@@ -1,0 +1,923 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/SZ3GNWT9_RF-DETR_ neural architecture search for real-time detection transformers.txt",
+  "entry_style": "author-year",
+  "notes": "Author-year 段落格式，无 [n] 前缀。[113]+为附录正文。约56条refs。",
+  "items": [
+    {
+      "author": [
+        "Lucas Beyer",
+        "Pavel Izmailov",
+        "Alexander Kolesnikov",
+        "Mathilde Caron",
+        "Simon Kornblith",
+        "Xiaohua Zhai",
+        "Matthias Minderer",
+        "Michael Tschannen",
+        "Ibrahim Alabdulmohsin",
+        "Filip Pavetic"
+      ],
+      "title": "FlexiViT: One model for all patch sizes",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Lucas Beyer... Flexivit... In CVPR, pp. 14496–14506, 2023.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Daniel Bolya",
+        "Chong Zhou",
+        "Fanyi Xiao",
+        "Yong Jae Lee"
+      ],
+      "title": "YOLACT: Real-time instance segmentation",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Daniel Bolya... Yolact... In ICCV, pp. 9157–9166, 2019.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Han Cai",
+        "Tianyao Chen",
+        "Weinan Zhang",
+        "Yong Yu",
+        "Jun Wang"
+      ],
+      "title": "Efficient architecture search by network transformation",
+      "year": 2018,
+      "container": "AAAI",
+      "raw": "Han Cai... Efficient architecture search... In AAAI, 2018a.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Han Cai",
+        "Ligeng Zhu",
+        "Song Han"
+      ],
+      "title": "ProxylessNAS: Direct neural architecture search on target task and hardware",
+      "year": 2018,
+      "container": "arXiv:1812.00332",
+      "raw": "Han Cai... Proxylessnas... arXiv preprint arXiv:1812.00332, 2018b.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Han Cai",
+        "Chuang Gan",
+        "Tianzhe Wang",
+        "Zhekai Zhang",
+        "Song Han"
+      ],
+      "title": "Once-for-All: Train one network and specialize it for efficient deployment",
+      "year": 2019,
+      "container": "arXiv:1908.09791",
+      "raw": "Han Cai... Once-for-all... arXiv preprint arXiv:1908.09791, 2019.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Nicolas Carion",
+        "Francisco Massa",
+        "Gabriel Synnaeve",
+        "Nicolas Usunier",
+        "Alexander Kirillov",
+        "Sergey Zagoruyko"
+      ],
+      "title": "End-to-end object detection with transformers",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "Nicolas Carion... End-to-end object detection... In ECCV, pp. 213–229. Springer, 2020.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Kai Chen",
+        "Jiangmiao Pang",
+        "Jiaqi Wang",
+        "Yu Xiong",
+        "Xiaoxiao Li",
+        "Shuyang Sun",
+        "Wansen Feng",
+        "Ziwei Liu",
+        "Jianping Shi",
+        "Wanli Ouyang"
+      ],
+      "title": "Hybrid task cascade for instance segmentation",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "Kai Chen... Hybrid task cascade... In CVPR, pp. 4974–4983, 2019.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Qiang Chen",
+        "Xiangbo Su",
+        "Xinyu Zhang",
+        "Jian Wang",
+        "Jiahui Chen",
+        "Yunpeng Shen",
+        "Chuchu Han",
+        "Ziliang Chen",
+        "Weixiang Xu",
+        "Fanrong Li"
+      ],
+      "title": "LW-DETR: A transformer replacement to YOLO",
+      "year": 2024,
+      "container": "arXiv:2406.03459",
+      "raw": "Qiang Chen... Lw-detr... arXiv preprint arXiv:2406.03459, 2024a.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Qiang Chen",
+        "Xiangbo Su",
+        "Xinyu Zhang",
+        "Jian Wang",
+        "Jiahui Chen",
+        "Yunpeng Shen",
+        "Chuchu Han",
+        "Ziliang Chen",
+        "Weixiang Xu",
+        "Fanrong Li"
+      ],
+      "title": "LW-DETR: a transformer replacement to YOLO (b)",
+      "year": 2024,
+      "container": "arXiv:2406.03459",
+      "raw": "Qiang Chen... Lw-detr... arXiv preprint arXiv:2406.03459, 2024b.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Tianheng Cheng",
+        "Lin Song",
+        "Yixiao Ge",
+        "Wenyu Liu",
+        "Xinggang Wang",
+        "Ying Shan"
+      ],
+      "title": "YOLO-World: Real-time open-vocabulary object detection",
+      "year": 2024,
+      "container": "CVPR",
+      "raw": "Tianheng Cheng... Yolo-world... In CVPR, 2024.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Mark Everingham",
+        "S. M. Ali Eslami",
+        "Luc Van Gool",
+        "Christopher K. I. Williams",
+        "John Winn",
+        "Andrew Zisserman"
+      ],
+      "title": "The PASCAL visual object classes challenge: A retrospective",
+      "year": 2015,
+      "container": "IJCV",
+      "raw": "M. Everingham, S. M. A. Eslami... The pascal visual object classes challenge... IJCV, 111, 2015.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Pedro F. Felzenszwalb",
+        "Ross B. Girshick",
+        "David McAllester",
+        "Deva Ramanan"
+      ],
+      "title": "Object detection with discriminatively trained part-based models",
+      "year": 2009,
+      "container": "TPAMI",
+      "raw": "Pedro F Felzenszwalb... Object detection... TPAMI, 32(9):1627–1645, 2009.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Shenghao Fu",
+        "Qize Yang",
+        "Qijie Mo",
+        "Junkai Yan",
+        "Xihan Wei",
+        "Jingke Meng",
+        "Xiaohua Xie",
+        "Wei-Shi Zheng"
+      ],
+      "title": "LLMDet: Learning strong open-vocabulary object detectors",
+      "year": 2025,
+      "container": "CVPR",
+      "raw": "Shenghao Fu... Llmdet... In CVPR, pp. 14987–14997, 2025.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Golnaz Ghiasi",
+        "Tsung-Yi Lin",
+        "Quoc V. Le"
+      ],
+      "title": "NAS-FPN: Learning scalable feature pyramid architecture",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "Golnaz Ghiasi... Nas-fpn... In CVPR, pp. 7036–7045, 2019.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Junjie He",
+        "Pengyu Li",
+        "Yifeng Geng",
+        "Xuansong Xie"
+      ],
+      "title": "FastInst: A simple query-based model for real-time instance segmentation",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Junjie He... Fastinst... In CVPR, pp. 23663–23672, 2023.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Georgia Gkioxari",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "Kaiming He... Mask r-cnn. In ICCV, pp. 2961–2969, 2017.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Glenn Jocher",
+        "Jing Qiu",
+        "Ayush Chaurasia"
+      ],
+      "title": "Ultralytics YOLO (v8)",
+      "year": 2023,
+      "container": "URL",
+      "raw": "Glenn Jocher, Jing Qiu, and Ayush Chaurasia. Ultralytics YOLO, January 2023.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Glenn Jocher",
+        "Jing Qiu",
+        "Ayush Chaurasia"
+      ],
+      "title": "Ultralytics YOLO (v11)",
+      "year": 2024,
+      "container": "URL",
+      "raw": "Glenn Jocher, Jing Qiu, and Ayush Chaurasia. Ultralytics YOLO, January 2024.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Mehar Khurana",
+        "Neehar Peri",
+        "Deva Ramanan",
+        "James Hays"
+      ],
+      "title": "Shelf-supervised multi-modal pretraining for 3d object detection",
+      "year": 2024,
+      "container": "arXiv:2406.10115",
+      "raw": "Mehar Khurana... Shelf-supervised multi-modal pretraining... arXiv preprint arXiv:2406.10115, 2024.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Feng Li",
+        "Hao Zhang",
+        "Huaizhe Xu",
+        "Shilong Liu",
+        "Lei Zhang",
+        "Lionel M. Ni",
+        "Heung-Yeung Shum"
+      ],
+      "title": "Mask DINO: Towards a unified transformer-based framework",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Feng Li... Mask dino... In CVPR, pp. 3041–3050, 2023.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Liunian Harold Li",
+        "Pengchuan Zhang",
+        "Haotian Zhang",
+        "Jianwei Yang",
+        "Chunyuan Li",
+        "Yiwu Zhong",
+        "Lijuan Wang",
+        "Lu Yuan",
+        "Lei Zhang",
+        "Jenq-Neng Hwang"
+      ],
+      "title": "GLIP: Grounded language-image pre-training",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Liunian Harold Li... Grounded language-image pre-training. In CVPR, pp. 10965–10975, 2022.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "Tsung-Yi Lin... Microsoft COCO... In ECCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Shilong Liu",
+        "Feng Li",
+        "Hao Zhang",
+        "Xiao Yang",
+        "Xianbiao Qi",
+        "Hang Su",
+        "Jun Zhu",
+        "Lei Zhang"
+      ],
+      "title": "DAB-DETR: Dynamic anchor boxes are better queries for DETR",
+      "year": 2022,
+      "container": "arXiv:2201.12329",
+      "raw": "Shilong Liu... Dab-detr... arXiv preprint arXiv:2201.12329, 2022.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Shilong Liu",
+        "Zhaoyang Zeng",
+        "Tianhe Ren",
+        "Feng Li",
+        "Hao Zhang",
+        "Jie Yang",
+        "Chunyuan Li",
+        "Jianwei Yang",
+        "Hang Su",
+        "Jun Zhu"
+      ],
+      "title": "Grounding DINO",
+      "year": 2023,
+      "container": "arXiv:2303.05499",
+      "raw": "Shilong Liu... Grounding dino... arXiv preprint arXiv:2303.05499, 2023.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Wei Liu",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Christian Szegedy",
+        "Scott Reed",
+        "Cheng-Yang Fu",
+        "Alexander C. Berg"
+      ],
+      "title": "SSD: Single shot multibox detector",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "Wei Liu... Ssd... In ECCV, 2016.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Yechi Ma",
+        "Neehar Peri",
+        "Shuoquan Wei",
+        "Wei Hua",
+        "Deva Ramanan",
+        "Yanan Li",
+        "Shu Kong"
+      ],
+      "title": "Long-tailed 3d detection via 2d late fusion",
+      "year": 2023,
+      "container": "arXiv:2312.10986",
+      "raw": "Yechi Ma... Longtailed 3d detection... arXiv preprint arXiv:2312.10986, 2023.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Depu Meng",
+        "Xiaokang Chen",
+        "Zejia Fan",
+        "Gang Zeng",
+        "Houqiang Li",
+        "Yuhui Yuan",
+        "Lei Sun",
+        "Jingdong Wang"
+      ],
+      "title": "Conditional DETR for fast training convergence",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "Depu Meng... Conditional detr... In ICCV, pp. 3651–3660, 2021.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Maxime Oquab",
+        "Timothée Darcet",
+        "Théo Moutakanni",
+        "Huy Vo",
+        "Marc Szafraniec",
+        "Vasil Khalidov",
+        "Pierre Fernandez",
+        "Daniel Haziza",
+        "Francisco Massa",
+        "Alaaeldin El-Nouby"
+      ],
+      "title": "DINOv2: Learning robust visual features without supervision",
+      "year": 2023,
+      "container": "arXiv:2304.07193",
+      "raw": "Maxime Oquab... Dinov2... arXiv preprint arXiv:2304.07193, 2023.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Aljoša Ošep",
+        "Tim Meinhardt",
+        "Francesco Ferroni",
+        "Neehar Peri",
+        "Deva Ramanan",
+        "Laura Leal-Taixé"
+      ],
+      "title": "Better call SAL",
+      "year": 2024,
+      "container": "preprint",
+      "raw": "Aljosa Osep... Better call sal... 2024.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Yansong Peng",
+        "Hebei Li",
+        "Peixi Wu",
+        "Yueyi Zhang",
+        "Xiaoyan Sun",
+        "Feng Wu"
+      ],
+      "title": "D-FINE: Redefine regression task in DETRs",
+      "year": 2024,
+      "container": "arXiv:2410.13842",
+      "raw": "Yansong Peng... D-fine... arXiv preprint arXiv:2410.13842, 2024.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Neehar Peri",
+        "Achal Dave",
+        "Deva Ramanan",
+        "Shu Kong"
+      ],
+      "title": "Towards long-tailed 3d detection",
+      "year": 2023,
+      "container": "preprint",
+      "raw": "Neehar Peri... Towards long-tailed 3d detection. 2023.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Nikhila Ravi",
+        "Valentin Gabeur",
+        "Yuan-Ting Hu",
+        "Ronghang Hu",
+        "Chaitanya Ryali",
+        "Tengyu Ma",
+        "Haitham Khedr",
+        "Roman Rädle",
+        "Chloe Rolland",
+        "Laura Gustafson",
+        "Eric Mintun",
+        "Junting Pan",
+        "Kalyan Vasudev Alwala",
+        "Nicolas Carion",
+        "Chao-Yuan Wu",
+        "Ross Girshick",
+        "Piotr Dollár",
+        "Christoph Feichtenhofer"
+      ],
+      "title": "SAM 2: Segment anything in images and videos",
+      "year": 2024,
+      "container": "arXiv:2408.00714",
+      "raw": "Nikhila Ravi... Sam 2... arXiv preprint arXiv:2408.00714, 2024.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Esteban Real",
+        "Alok Aggarwal",
+        "Yanping Huang",
+        "Quoc V. Le"
+      ],
+      "title": "Regularized evolution for image classifier architecture search",
+      "year": 2019,
+      "container": "AAAI",
+      "raw": "Esteban Real... Regularized evolution... In AAAI, 2019.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Joseph Redmon",
+        "Santosh Divvala",
+        "Ross Girshick",
+        "Ali Farhadi"
+      ],
+      "title": "You only look once: Unified, real-time object detection",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "Joseph Redmon... You only look once... In CVPR, pp. 779–788, 2016.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN",
+      "year": 2015,
+      "container": "NeurIPS",
+      "raw": "Shaoqing Ren... Faster r-cnn... In NeurIPS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Peter Robicheaux",
+        "Matvei Popov",
+        "Anish Madan",
+        "Isaac Robinson",
+        "Joseph Nelson",
+        "Deva Ramanan",
+        "Neehar Peri"
+      ],
+      "title": "Roboflow100-VL",
+      "year": 2025,
+      "container": "arXiv:2505.20612",
+      "raw": "Peter Robicheaux... Roboflow100-vl... arXiv preprint arXiv:2505.20612, 2025.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Olga Russakovsky",
+        "Jia Deng",
+        "Hao Su",
+        "Jonathan Krause",
+        "Sanjeev Satheesh",
+        "Sean Ma",
+        "Zhiheng Huang",
+        "Andrej Karpathy",
+        "Aditya Khosla",
+        "Michael Bernstein"
+      ],
+      "title": "ImageNet large scale visual recognition challenge",
+      "year": 2015,
+      "container": "IJCV",
+      "raw": "Olga Russakovsky... Imagenet... IJCV, 115:211–252, 2015.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Shuai Shao",
+        "Zeming Li",
+        "Tianyuan Zhang",
+        "Chao Peng",
+        "Gang Yu",
+        "Xiangyu Zhang",
+        "Jing Li",
+        "Jian Sun"
+      ],
+      "title": "Objects365: A large-scale, high-quality dataset",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Shuai Shao... Objects365... In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Oriane Siméoni",
+        "Huy V. Vo",
+        "Maximilian Seitzer",
+        "Federico Baldassarre",
+        "Maxime Oquab",
+        "Cijo Jose",
+        "Vasil Khalidov",
+        "Marc Szafraniec",
+        "Seungeun Yi",
+        "Michaël Ramamonjisoa"
+      ],
+      "title": "DINOv3",
+      "year": 2025,
+      "container": "arXiv:2508.10104",
+      "raw": "Oriane Simeoni... Dinov3. arXiv preprint arXiv:2508.10104, 2025.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Nitish Srivastava",
+        "Geoffrey E. Hinton",
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Ruslan Salakhutdinov"
+      ],
+      "title": "Dropout",
+      "year": 2014,
+      "container": "JMLR",
+      "raw": "Nitish Srivastava... Dropout... JMLR, 15(1):1929–1958, 2014.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Ayça Takmaz",
+        "Cristiano Saltori",
+        "Neehar Peri",
+        "Tim Meinhardt",
+        "Riccardo de Lutio",
+        "Laura Leal-Taixé",
+        "Aljoša Ošep"
+      ],
+      "title": "Towards Learning to Complete Anything in LiDAR",
+      "year": 2025,
+      "container": "ICML",
+      "raw": "Ayca Takmaz... Towards Learning to Complete Anything in Lidar. ICML, 2025.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientNet",
+      "year": 2019,
+      "container": "ICML",
+      "raw": "Mingxing Tan and Quoc Le. Efficientnet... In ICML, 2019.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Bo Chen",
+        "Ruoming Pang",
+        "Vijay Vasudevan",
+        "Mark Sandler",
+        "Andrew Howard",
+        "Quoc V. Le"
+      ],
+      "title": "MnasNet",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "Mingxing Tan... Mnasnet... In CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Ruoming Pang",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientDet",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "Mingxing Tan... Efficientdet... In CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "Alexey Bochkovskiy",
+        "Hong-Yuan Mark Liao"
+      ],
+      "title": "YOLOv7",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Chien-Yao Wang... Yolov7... In CVPR, 2023.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "I-Hau Yeh",
+        "Hong-Yuan Mark Liao"
+      ],
+      "title": "YOLOv9",
+      "year": 2024,
+      "container": "ECCV",
+      "raw": "Chien-Yao Wang... Yolov9... In ECCV, 2024.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Bichen Wu",
+        "Xiaoliang Dai",
+        "Peizhao Zhang",
+        "Yanghan Wang",
+        "Fei Sun",
+        "Yiming Wu",
+        "Yuandong Tian",
+        "Peter Vajda",
+        "Yangqing Jia",
+        "Kurt Keutzer"
+      ],
+      "title": "FBNet",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "Bichen Wu... Fbnet... In CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "Yifan Xu",
+        "Mengdan Zhang",
+        "Chaoyou Fu",
+        "Peixian Chen",
+        "Xiaoshan Yang",
+        "Ke Li",
+        "Changsheng Xu"
+      ],
+      "title": "Multi-modal queried object detection",
+      "year": 2024,
+      "container": "NeurIPS",
+      "raw": "Yifan Xu... Multi-modal queried object detection... NeurIPS, 2024.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Xiaoju Ye"
+      ],
+      "title": "calflops",
+      "year": 2023,
+      "container": "URL",
+      "raw": "Xiaoju Ye. calflops... 2023.",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "Hao Zhang",
+        "Feng Li",
+        "Shilong Liu",
+        "Lei Zhang",
+        "Hang Su",
+        "Jun Zhu",
+        "Lionel M. Ni",
+        "Heung-Yeung Shum"
+      ],
+      "title": "DINO",
+      "year": 2022,
+      "container": "arXiv:2203.03605",
+      "raw": "Hao Zhang... Dino... arXiv preprint arXiv:2203.03605, 2022a.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Xinyu Zhang",
+        "Jiahui Chen",
+        "Junkun Yuan",
+        "Qiang Chen",
+        "Jian Wang",
+        "Xiaodi Wang",
+        "Shumin Han",
+        "Xiaokang Chen",
+        "Jimin Pi",
+        "Kun Yao"
+      ],
+      "title": "CAE v2",
+      "year": 2022,
+      "container": "arXiv:2211.09799",
+      "raw": "Xinyu Zhang... Cae v2... arXiv preprint arXiv:2211.09799, 2022b.",
+      "confidence": 0.95,
+      "entry_index": 50
+    },
+    {
+      "author": [
+        "Yian Zhao",
+        "Wenyu Lv",
+        "Shangliang Xu",
+        "Jinman Wei",
+        "Guanzhong Wang",
+        "Qingqing Dang",
+        "Yi Liu",
+        "Jie Chen"
+      ],
+      "title": "DETRs beat YOLOs",
+      "year": 2024,
+      "container": "CVPR",
+      "raw": "Yian Zhao... Detrs beat yolos... In CVPR, 2024.",
+      "confidence": 0.95,
+      "entry_index": 51
+    },
+    {
+      "author": [
+        "Xingyi Zhou",
+        "Rohit Girdhar",
+        "Armand Joulin",
+        "Philipp Krähenbühl",
+        "Ishan Misra"
+      ],
+      "title": "Detecting twenty-thousand classes using image-level supervision",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "Xingyi Zhou... Detecting twenty-thousand classes... ECCV, 2022.",
+      "confidence": 0.95,
+      "entry_index": 52
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Weijie Su",
+        "Lewei Lu",
+        "Bin Li",
+        "Xiaogang Wang",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable DETR",
+      "year": 2020,
+      "container": "arXiv:2010.04159",
+      "raw": "Xizhou Zhu... Deformable detr... arXiv preprint arXiv:2010.04159, 2020.",
+      "confidence": 0.95,
+      "entry_index": 53
+    },
+    {
+      "author": [
+        "Barret Zoph",
+        "Quoc V. Le"
+      ],
+      "title": "Neural architecture search with reinforcement learning",
+      "year": 2016,
+      "container": "arXiv:1611.01578",
+      "raw": "Barret Zoph and Quoc V Le. Neural architecture search... arXiv preprint arXiv:1611.01578, 2016.",
+      "confidence": 0.95,
+      "entry_index": 54
+    },
+    {
+      "author": [
+        "Barret Zoph",
+        "Vijay Vasudevan",
+        "Jonathon Shlens",
+        "Quoc V. Le"
+      ],
+      "title": "Learning transferable architectures for scalable image recognition",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "Barret Zoph... Learning transferable architectures... In CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 55
+    }
+  ]
+}

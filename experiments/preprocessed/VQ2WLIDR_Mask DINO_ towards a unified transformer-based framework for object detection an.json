@@ -1,0 +1,2928 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:44Z",
+    "entry_count": 35,
+    "candidate_count": 121,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko. End-toend object detection with transformers.In European conference on computer vision, pages 213-229.Springer,2020.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko. End-toend object detection with transformers.In European conference on computer vision, pages 213-229.Springer,2020."
+      ]
+    },
+    {
+      "block_index": 1,
+      "source_text": "[2] Kai Chen,Jiangmiao Pang, Jiaqi Wang,Yu Xiong,Xiaoxiao Li,Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, et al. Hybrid task cascade for instance segmentation.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4974-4983, 2019.",
+      "line_start": 2,
+      "line_end": 2,
+      "proposed_entries": [
+        "[2] Kai Chen,Jiangmiao Pang, Jiaqi Wang,Yu Xiong,Xiaoxiao Li,Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, et al. Hybrid task cascade for instance segmentation.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4974-4983, 2019."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[3] Bowen Cheng, Ishan Misra,Alexander G. Schwing,Alexander Kirillov,and Rohit Girdhar. Masked-attention Mask Transformer for Universal Image Segmentation. 2022.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[3] Bowen Cheng, Ishan Misra,Alexander G. Schwing,Alexander Kirillov,and Rohit Girdhar. Masked-attention Mask Transformer for Universal Image Segmentation. 2022."
+      ]
+    },
+    {
+      "block_index": 3,
+      "source_text": "[4] Bowen Cheng,Alexander G. Schwing,and Alexander Kirillov.Per-Pixel Clasification is Not Al You Need for Semantic Segmentation. 2021.",
+      "line_start": 4,
+      "line_end": 4,
+      "proposed_entries": [
+        "[4] Bowen Cheng,Alexander G. Schwing,and Alexander Kirillov.Per-Pixel Clasification is Not Al You Need for Semantic Segmentation. 2021."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[5] Marius Cordts,Mohamed Omran, Sebastian Ramos, Timo Rehfeld,Markus Enzweiler,Rodrigo Benenson, Uwe Franke, Stefan Roth,and Bernt Schiele.The cityscapes dataset for semantic urban scene understanding.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3213-3223,2016.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[5] Marius Cordts,Mohamed Omran, Sebastian Ramos, Timo Rehfeld,Markus Enzweiler,Rodrigo Benenson, Uwe Franke, Stefan Roth,and Bernt Schiele.The cityscapes dataset for semantic urban scene understanding.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3213-3223,2016."
+      ]
+    },
+    {
+      "block_index": 5,
+      "source_text": "[6] Xianzhi Du, Barret Zoph,Wei-Chih Hung,and Tsung-Yi Lin. Simple training strategies and model scaling for object detection. arXiv preprint arXiv:2107.00057,2021.",
+      "line_start": 6,
+      "line_end": 6,
+      "proposed_entries": [
+        "[6] Xianzhi Du, Barret Zoph,Wei-Chih Hung,and Tsung-Yi Lin. Simple training strategies and model scaling for object detection. arXiv preprint arXiv:2107.00057,2021."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[7] Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang,Ying Shan,Bin Feng,and Wenyu Liu. Instances as queries. In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 6910-6919,2021.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[7] Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang,Ying Shan,Bin Feng,and Wenyu Liu. Instances as queries. In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 6910-6919,2021."
+      ]
+    },
+    {
+      "block_index": 7,
+      "source_text": "[8] Golnaz Ghiasi, Yin Cui, Aravind Srinivas,Rui Qian, Tsung-Yi Lin,Ekin D Cubuk, Quoc VLe,and Barret Zoph. Simple copy-paste is a strong data augmentation method for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2918- 2928,2021.",
+      "line_start": 8,
+      "line_end": 8,
+      "proposed_entries": [
+        "[8] Golnaz Ghiasi, Yin Cui, Aravind Srinivas,Rui Qian, Tsung-Yi Lin,Ekin D Cubuk, Quoc VLe,and Barret Zoph. Simple copy-paste is a strong data augmentation method for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2918- 2928,2021."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[9] Kaiming He,Georgia Gkioxari, Piotr Dollar,and Ross Girshick.Mask r-cnn.In Proceedings of the IEEE international conference on computer vision,pages 2961-2969,2017.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[9] Kaiming He,Georgia Gkioxari, Piotr Dollar,and Ross Girshick.Mask r-cnn.In Proceedings of the IEEE international conference on computer vision,pages 2961-2969,2017."
+      ]
+    },
+    {
+      "block_index": 9,
+      "source_text": "[10] Kaiming He,Xiangyu Zhang,Shaoqing Ren,and Jian Sun. Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770-778,2016.",
+      "line_start": 10,
+      "line_end": 10,
+      "proposed_entries": [
+        "[10] Kaiming He,Xiangyu Zhang,Shaoqing Ren,and Jian Sun. Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770-778,2016."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[11] Jitesh Jain, Jiachen Li,MangTik Chiu,Ali Hassani,Nikita Orlov,and Humphrey Shi. OneFormer: One Transformer to Rule Universal Image Segmentation.arXiv preprint arXiv:2211.06220,2022.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[11] Jitesh Jain, Jiachen Li,MangTik Chiu,Ali Hassani,Nikita Orlov,and Humphrey Shi. OneFormer: One Transformer to Rule Universal Image Segmentation.arXiv preprint arXiv:2211.06220,2022."
+      ]
+    },
+    {
+      "block_index": 11,
+      "source_text": "[12] Jitesh Jain,Anukriti Singh,Nikita Orlov, Zilong Huang, Jiachen Li, Steven Walton,and Humphrey Shi. SeMask: Semantically Masked Transformers for Semantic Segmentation. arXiv preprint arXiv:2112.12782,2021.",
+      "line_start": 12,
+      "line_end": 12,
+      "proposed_entries": [
+        "[12] Jitesh Jain,Anukriti Singh,Nikita Orlov, Zilong Huang, Jiachen Li, Steven Walton,and Humphrey Shi. SeMask: Semantically Masked Transformers for Semantic Segmentation. arXiv preprint arXiv:2112.12782,2021."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[13] Alexander Kirillov,Ross Girshick, Kaiming He,and Piotr Dollar. Panoptic feature pyramid networks.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 6399-6408,2019.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[13] Alexander Kirillov,Ross Girshick, Kaiming He,and Piotr Dollar. Panoptic feature pyramid networks.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 6399-6408,2019."
+      ]
+    },
+    {
+      "block_index": 13,
+      "source_text": "[14] Alexander Kirillov,Kaiming He,Ross Girshick,Carsten Rother, and Piotr Dollar. Panoptic segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9404-9413,2019.",
+      "line_start": 14,
+      "line_end": 14,
+      "proposed_entries": [
+        "[14] Alexander Kirillov,Kaiming He,Ross Girshick,Carsten Rother, and Piotr Dollar. Panoptic segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9404-9413,2019."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[15] Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang.DN-DETR: Accelerate DETR Training by Introducing Query DeNoising. arXiv preprint arXiv:2203.01305, 2022.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[15] Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang.DN-DETR: Accelerate DETR Training by Introducing Query DeNoising. arXiv preprint arXiv:2203.01305, 2022."
+      ]
+    },
+    {
+      "block_index": 15,
+      "source_text": "[16] Zhiqi Li,Wenhai Wang,Enze Xie,Zhiding Yu,Anima Anandkumar, Jose M Alvarez,Tong Lu,and Ping Luo.Panoptic SegFormer. arXiv preprint arXiv:2109.03814,2021.",
+      "line_start": 16,
+      "line_end": 16,
+      "proposed_entries": [
+        "[16] Zhiqi Li,Wenhai Wang,Enze Xie,Zhiding Yu,Anima Anandkumar, Jose M Alvarez,Tong Lu,and Ping Luo.Panoptic SegFormer. arXiv preprint arXiv:2109.03814,2021."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[17] Tsung-Yi Lin,Michael Maire, Serge Belongie,James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,and C Lawrence Zitnick.Microsoft COCO: Common objects in context. In European conference on computer vision, pages 740-755. Springer,2014.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[17] Tsung-Yi Lin,Michael Maire, Serge Belongie,James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,and C Lawrence Zitnick.Microsoft COCO: Common objects in context. In European conference on computer vision, pages 740-755. Springer,2014."
+      ]
+    },
+    {
+      "block_index": 17,
+      "source_text": "[18] Shilong Liu,Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu, and Lei Zhang. DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR. arXiv preprint arXiv:2201.12329,2022.",
+      "line_start": 18,
+      "line_end": 18,
+      "proposed_entries": [
+        "[18] Shilong Liu,Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu, and Lei Zhang. DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR. arXiv preprint arXiv:2201.12329,2022."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[19] Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang,Li Dong, et al. Swin Transformer V2: Scaling Up Capacity and Resolution. arXiv preprint arXiv:2111.09883,2021.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[19] Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang,Li Dong, et al. Swin Transformer V2: Scaling Up Capacity and Resolution. arXiv preprint arXiv:2111.09883,2021."
+      ]
+    },
+    {
+      "block_index": 19,
+      "source_text": "[20] Ze Liu, Yutong Lin, YueCao,Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin,and Baining Guo.Swin transformer: Hierarchical vision transformer using shifted windows.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10012-10022,2021.",
+      "line_start": 20,
+      "line_end": 20,
+      "proposed_entries": [
+        "[20] Ze Liu, Yutong Lin, YueCao,Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin,and Baining Guo.Swin transformer: Hierarchical vision transformer using shifted windows.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10012-10022,2021."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[21] Jonathan Long,Evan Shelhamer,and Trevor Darrell.Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3431-3440, 2015.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[21] Jonathan Long,Evan Shelhamer,and Trevor Darrell.Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3431-3440, 2015."
+      ]
+    },
+    {
+      "block_index": 21,
+      "source_text": "[22] Depu Meng，Xiaokang Chen， Zejia Fan,Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang. Conditional DETR for Fast Training Convergence. arXiv preprint arXiv:2108.06152,2021.",
+      "line_start": 22,
+      "line_end": 22,
+      "proposed_entries": [
+        "[22] Depu Meng，Xiaokang Chen， Zejia Fan,Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang. Conditional DETR for Fast Training Convergence. arXiv preprint arXiv:2108.06152,2021."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[23] Zipeng Qin, Jianbo Liu, Xiaolin Zhang,Maoqing Tian, Ao-jun Zhou, Shuai Yi,and Hongsheng Li. Pyramid Fusion Transformer for Semantic Segmentation.arXiv preprint arXiv:2201.04019,2022.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[23] Zipeng Qin, Jianbo Liu, Xiaolin Zhang,Maoqing Tian, Ao-jun Zhou, Shuai Yi,and Hongsheng Li. Pyramid Fusion Transformer for Semantic Segmentation.arXiv preprint arXiv:2201.04019,2022."
+      ]
+    },
+    {
+      "block_index": 23,
+      "source_text": "[24] Shaoqing Ren,Kaiming He,Ross Girshick,and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. Advances in neural information processing systems,28,2015.",
+      "line_start": 24,
+      "line_end": 24,
+      "proposed_entries": [
+        "[24] Shaoqing Ren,Kaiming He,Ross Girshick,and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. Advances in neural information processing systems,28,2015."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[25] Olaf Ronneberger,Philipp Fischer,and Thomas Brox.U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234-241.Springer, 2015.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[25] Olaf Ronneberger,Philipp Fischer,and Thomas Brox.U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234-241.Springer, 2015."
+      ]
+    },
+    {
+      "block_index": 25,
+      "source_text": "[26] Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang,Jing Li,and Jian Sun. Objects365:A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF international conference on comnutar vicinn nagac 843n_8430 2n10 27",
+      "line_start": 26,
+      "line_end": 26,
+      "proposed_entries": [
+        "[26] Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang,Jing Li,and Jian Sun. Objects365:A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF international conference on comnutar vicinn nagac 843n_8430 2n10 27"
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[27] Ashish Vaswani,Noam Shazeer,Niki Parmar, Jakob Uszkoreit,Llion Jones,Aidan N Gomez,Lukasz Kaiser,and Illia Polosukhin.Attention is all you need.In Advances in neural information processing systems, pages 5998-6008,2017.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[27] Ashish Vaswani,Noam Shazeer,Niki Parmar, Jakob Uszkoreit,Llion Jones,Aidan N Gomez,Lukasz Kaiser,and Illia Polosukhin.Attention is all you need.In Advances in neural information processing systems, pages 5998-6008,2017."
+      ]
+    },
+    {
+      "block_index": 27,
+      "source_text": "[28] Huiyu Wang, Yukun Zhu, Hartwig Adam,Alan Yuille,and Liang-Chieh Chen. Max-deeplab: End-to-end panoptic segmentation with mask transformers. In Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5463-5474,2021.",
+      "line_start": 28,
+      "line_end": 28,
+      "proposed_entries": [
+        "[28] Huiyu Wang, Yukun Zhu, Hartwig Adam,Alan Yuille,and Liang-Chieh Chen. Max-deeplab: End-to-end panoptic segmentation with mask transformers. In Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5463-5474,2021."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[29] Yingming Wang, Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr: Query design for transformer-based detector. arXiv preprint arXiv:2109.07107,2021.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[29] Yingming Wang, Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr: Query design for transformer-based detector. arXiv preprint arXiv:2109.07107,2021."
+      ]
+    },
+    {
+      "block_index": 29,
+      "source_text": "[30] Yuwen Xiong,Renjie Liao,Hengshuang Zhao,Rui Hu, Min Bai,Ersin Yumer,and Raquel Urtasun．Upsnet:A unified panoptic segmentation network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8818-8826,2019.",
+      "line_start": 30,
+      "line_end": 30,
+      "proposed_entries": [
+        "[30] Yuwen Xiong,Renjie Liao,Hengshuang Zhao,Rui Hu, Min Bai,Ersin Yumer,and Raquel Urtasun．Upsnet:A unified panoptic segmentation network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8818-8826,2019."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[31]Mengde Xu,Zheng Zhang,Han Hu, Jianfeng Wang,Lijuan Wang,Fangyun Wei,Xiang Bai,and ZichengLiu. End-toend semi-supervised object detection with soft teacher.In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 3060-3069,2021.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[31]Mengde Xu,Zheng Zhang,Han Hu, Jianfeng Wang,Lijuan Wang,Fangyun Wei,Xiang Bai,and ZichengLiu. End-toend semi-supervised object detection with soft teacher.In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 3060-3069,2021."
+      ]
+    },
+    {
+      "block_index": 31,
+      "source_text": "[32]Hao Zhang,Feng Li, Shilong Liu,Lei Zhang,Hang Su, Jun Zhu,Lionel MNi,and Heung-Yeung Shum. DINO: DETR withImproved DeNoising Anchor Boxes for End-to-End Ob-ject Detection. arXiv preprint arXiv:2203.03605,2022.",
+      "line_start": 32,
+      "line_end": 32,
+      "proposed_entries": [
+        "[32]Hao Zhang,Feng Li, Shilong Liu,Lei Zhang,Hang Su, Jun Zhu,Lionel MNi,and Heung-Yeung Shum. DINO: DETR withImproved DeNoising Anchor Boxes for End-to-End Ob-ject Detection. arXiv preprint arXiv:2203.03605,2022."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[33] Wenwei Zhang, Jiangmiao Pang, Kai Chen,and Chen Change Loy.K-net: Towards unified image segmentation. Advances in Neural Information Processing Systems,34,2021.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[33] Wenwei Zhang, Jiangmiao Pang, Kai Chen,and Chen Change Loy.K-net: Towards unified image segmentation. Advances in Neural Information Processing Systems,34,2021."
+      ]
+    },
+    {
+      "block_index": 33,
+      "source_text": "[34]Bolei Zhou,Hang Zhao,Xavier Puig,Sanja Fidler,Adela Barriuso,and Antonio Torralba. Scene parsing through ade20k dataset.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 633-641,2017.",
+      "line_start": 34,
+      "line_end": 34,
+      "proposed_entries": [
+        "[34]Bolei Zhou,Hang Zhao,Xavier Puig,Sanja Fidler,Adela Barriuso,and Antonio Torralba. Scene parsing through ade20k dataset.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 633-641,2017."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[35] Xizhou Zhu, Weijie Su, Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr:Deformable transformers for end-to-end object detection.In ICLR 2021:The Ninth International Conference on Learning Representations,2021.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[35] Xizhou Zhu, Weijie Su, Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr:Deformable transformers for end-to-end object detection.In ICLR 2021:The Ninth International Conference on Learning Representations,2021."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko. End-toend object detection with transformers.In European conference on computer vision, pages 213-229.Springer,2020.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-toend object detection with transformers.In European conference on computer vision, pages 213-229.Springer,2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-toend object detection with transformers.In European conference on computer vision, pages 213-229.Springer",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov,and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-toend object detection with transformers.In European conference on computer vision, pages 213-229.Springer,2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Kai Chen,Jiangmiao Pang, Jiaqi Wang,Yu Xiong,Xiaoxiao Li,Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, et al. Hybrid task cascade for instance segmentation.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4974-4983, 2019.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Kai Chen,Jiangmiao Pang, Jiaqi Wang,Yu Xiong,Xiaoxiao Li,Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, et al",
+          "author_candidates": [
+            "Chen,Jiangmiao Pang",
+            "Wang,Yu Xiong",
+            "Li,Shuyang Sun",
+            "Feng, Ziwei Liu",
+            "Shi, Wanli Ouyang"
+          ],
+          "title_candidate": "Hybrid task cascade for instance segmentation.In",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4974-4983, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kai Chen,Jiangmiao Pang, Jiaqi Wang,Yu Xiong,Xiaoxiao Li,Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, et al",
+          "author_candidates": [
+            "Chen,Jiangmiao Pang",
+            "Wang,Yu Xiong",
+            "Li,Shuyang Sun",
+            "Feng, Ziwei Liu",
+            "Shi, Wanli Ouyang"
+          ],
+          "title_candidate": "Hybrid task cascade for instance segmentation.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4974-4983, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kai Chen,Jiangmiao Pang, Jiaqi Wang,Yu Xiong,Xiaoxiao Li,Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, et al",
+          "author_candidates": [
+            "Chen,Jiangmiao Pang",
+            "Wang,Yu Xiong",
+            "Li,Shuyang Sun",
+            "Feng, Ziwei Liu",
+            "Shi, Wanli Ouyang"
+          ],
+          "title_candidate": "Hybrid task cascade for instance segmentation.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4974-4983",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kai Chen,Jiangmiao Pang, Jiaqi Wang,Yu Xiong,Xiaoxiao Li,Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, et al",
+          "author_candidates": [
+            "Chen,Jiangmiao Pang",
+            "Wang,Yu Xiong",
+            "Li,Shuyang Sun",
+            "Feng, Ziwei Liu",
+            "Shi, Wanli Ouyang"
+          ],
+          "title_candidate": "Hybrid task cascade for instance segmentation.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4974-4983, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Bowen Cheng, Ishan Misra,Alexander G. Schwing,Alexander Kirillov,and Rohit Girdhar. Masked-attention Mask Transformer for Universal Image Segmentation. 2022.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bowen Cheng, Ishan Misra,Alexander G",
+          "author_candidates": [
+            "Cheng, Ishan Misra"
+          ],
+          "title_candidate": "Schwing,Alexander Kirillov,and Rohit Girdhar",
+          "container_candidate": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bowen Cheng, Ishan Misra,Alexander G",
+          "author_candidates": [
+            "Cheng, Ishan Misra"
+          ],
+          "title_candidate": "Schwing,Alexander Kirillov,and Rohit Girdhar. Masked-attention Mask Transformer for Universal Image Segmentation",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bowen Cheng, Ishan Misra,Alexander G",
+          "author_candidates": [
+            "Cheng, Ishan Misra"
+          ],
+          "title_candidate": "Schwing,Alexander Kirillov,and Rohit Girdhar. Masked-attention Mask Transformer for Universal Image Segmentation. 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Bowen Cheng,Alexander G. Schwing,and Alexander Kirillov.Per-Pixel Clasification is Not Al You Need for Semantic Segmentation. 2021.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bowen Cheng,Alexander G",
+          "author_candidates": [
+            "Cheng,Alexander G"
+          ],
+          "title_candidate": "Schwing,and Alexander Kirillov.Per-Pixel Clasification is Not Al You Need for Semantic Segmentation",
+          "container_candidate": "2021",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bowen Cheng,Alexander G",
+          "author_candidates": [
+            "Cheng,Alexander G"
+          ],
+          "title_candidate": "Schwing,and Alexander Kirillov.Per-Pixel Clasification is Not Al You Need for Semantic Segmentation",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bowen Cheng,Alexander G",
+          "author_candidates": [
+            "Cheng,Alexander G"
+          ],
+          "title_candidate": "Schwing,and Alexander Kirillov.Per-Pixel Clasification is Not Al You Need for Semantic Segmentation. 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Marius Cordts,Mohamed Omran, Sebastian Ramos, Timo Rehfeld,Markus Enzweiler,Rodrigo Benenson, Uwe Franke, Stefan Roth,and Bernt Schiele.The cityscapes dataset for semantic urban scene understanding.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3213-3223,2016.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Marius Cordts,Mohamed Omran, Sebastian Ramos, Timo Rehfeld,Markus Enzweiler,Rodrigo Benenson, Uwe Franke, Stefan Roth,and Bernt Schiele.The cityscapes dataset for semantic urban scene understanding.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3213-3223,2016.",
+          "author_candidates": [
+            "Cordts,Mohamed Omran",
+            "Ramos, Timo Rehfeld",
+            "Enzweiler,Rodrigo Benenson",
+            "Franke, Stefan Roth"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Xianzhi Du, Barret Zoph,Wei-Chih Hung,and Tsung-Yi Lin. Simple training strategies and model scaling for object detection. arXiv preprint arXiv:2107.00057,2021.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Xianzhi Du, Barret Zoph,Wei-Chih Hung,and Tsung-Yi Lin",
+          "author_candidates": [
+            "Du, Barret Zoph"
+          ],
+          "title_candidate": "Simple training strategies and model scaling for object detection. arXiv preprint",
+          "container_candidate": "arXiv:2107.00057,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xianzhi Du, Barret Zoph,Wei-Chih Hung,and Tsung-Yi Lin",
+          "author_candidates": [
+            "Du, Barret Zoph"
+          ],
+          "title_candidate": "Simple training strategies and model scaling for object detection",
+          "container_candidate": "arXiv preprint arXiv:2107.00057,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xianzhi Du, Barret Zoph,Wei-Chih Hung,and Tsung-Yi Lin. Simple training strategies and model scaling for object detection. arXiv preprint arXiv",
+          "author_candidates": [
+            "Du, Barret Zoph"
+          ],
+          "title_candidate": "2107.00057",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xianzhi Du, Barret Zoph,Wei-Chih Hung,and Tsung-Yi Lin. Simple training strategies and model scaling for object detection. arXiv preprint arXiv",
+          "author_candidates": [
+            "Du, Barret Zoph"
+          ],
+          "title_candidate": "2107.00057,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang,Ying Shan,Bin Feng,and Wenyu Liu. Instances as queries. In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 6910-6919,2021.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang,Ying Shan,Bin Feng,and Wenyu Liu",
+          "author_candidates": [
+            "Fang, Shusheng Yang",
+            "Wang, Yu Li",
+            "Fang,Ying Shan"
+          ],
+          "title_candidate": "Instances as queries",
+          "container_candidate": "In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 6910-6919,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang,Ying Shan,Bin Feng,and Wenyu Liu",
+          "author_candidates": [
+            "Fang, Shusheng Yang",
+            "Wang, Yu Li",
+            "Fang,Ying Shan"
+          ],
+          "title_candidate": "Instances as queries",
+          "container_candidate": "In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 6910-6919,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang,Ying Shan,Bin Feng,and Wenyu Liu",
+          "author_candidates": [
+            "Fang, Shusheng Yang",
+            "Wang, Yu Li",
+            "Fang,Ying Shan"
+          ],
+          "title_candidate": "Instances as queries. In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 6910-6919",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuxin Fang, Shusheng Yang, Xinggang Wang, Yu Li, Chen Fang,Ying Shan,Bin Feng,and Wenyu Liu",
+          "author_candidates": [
+            "Fang, Shusheng Yang",
+            "Wang, Yu Li",
+            "Fang,Ying Shan"
+          ],
+          "title_candidate": "Instances as queries. In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 6910-6919,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Golnaz Ghiasi, Yin Cui, Aravind Srinivas,Rui Qian, Tsung-Yi Lin,Ekin D Cubuk, Quoc VLe,and Barret Zoph. Simple copy-paste is a strong data augmentation method for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2918- 2928,2021.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas,Rui Qian, Tsung-Yi Lin,Ekin D Cubuk, Quoc VLe,and Barret Zoph",
+          "author_candidates": [
+            "Ghiasi, Yin Cui",
+            "Srinivas,Rui Qian",
+            "Lin,Ekin D Cubuk"
+          ],
+          "title_candidate": "Simple copy-paste is a strong data augmentation method for instance segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2918- 2928,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas,Rui Qian, Tsung-Yi Lin,Ekin D Cubuk, Quoc VLe,and Barret Zoph",
+          "author_candidates": [
+            "Ghiasi, Yin Cui",
+            "Srinivas,Rui Qian",
+            "Lin,Ekin D Cubuk"
+          ],
+          "title_candidate": "Simple copy-paste is a strong data augmentation method for instance segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2918- 2928,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas,Rui Qian, Tsung-Yi Lin,Ekin D Cubuk, Quoc VLe,and Barret Zoph",
+          "author_candidates": [
+            "Ghiasi, Yin Cui",
+            "Srinivas,Rui Qian",
+            "Lin,Ekin D Cubuk"
+          ],
+          "title_candidate": "Simple copy-paste is a strong data augmentation method for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2918- 2928",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas,Rui Qian, Tsung-Yi Lin,Ekin D Cubuk, Quoc VLe,and Barret Zoph",
+          "author_candidates": [
+            "Ghiasi, Yin Cui",
+            "Srinivas,Rui Qian",
+            "Lin,Ekin D Cubuk"
+          ],
+          "title_candidate": "Simple copy-paste is a strong data augmentation method for instance segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2918- 2928,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Kaiming He,Georgia Gkioxari, Piotr Dollar,and Ross Girshick.Mask r-cnn.In Proceedings of the IEEE international conference on computer vision,pages 2961-2969,2017.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He,Georgia Gkioxari, Piotr Dollar,and Ross Girshick.Mask r-cnn.In Proceedings of the IEEE international conference on computer vision,pages 2961-2969,2017.",
+          "author_candidates": [
+            "He,Georgia Gkioxari"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Kaiming He,Xiangyu Zhang,Shaoqing Ren,and Jian Sun. Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770-778,2016.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiming He,Xiangyu Zhang,Shaoqing Ren,and Jian Sun",
+          "author_candidates": [
+            "He,Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770-778,2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He,Xiangyu Zhang,Shaoqing Ren,and Jian Sun",
+          "author_candidates": [
+            "He,Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770-778,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He,Xiangyu Zhang,Shaoqing Ren,and Jian Sun",
+          "author_candidates": [
+            "He,Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770-778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He,Xiangyu Zhang,Shaoqing Ren,and Jian Sun",
+          "author_candidates": [
+            "He,Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 770-778,2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Jitesh Jain, Jiachen Li,MangTik Chiu,Ali Hassani,Nikita Orlov,and Humphrey Shi. OneFormer: One Transformer to Rule Universal Image Segmentation.arXiv preprint arXiv:2211.06220,2022.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "venue_marker_split",
+          "author_text": "Jitesh Jain, Jiachen Li,MangTik Chiu,Ali Hassani,Nikita Orlov,and Humphrey Shi",
+          "author_candidates": [
+            "Jain, Jiachen Li",
+            "Chiu,Ali Hassani"
+          ],
+          "title_candidate": "OneFormer: One Transformer to Rule Universal Image Segmentation.arXiv preprint",
+          "container_candidate": "arXiv:2211.06220,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jitesh Jain, Jiachen Li,MangTik Chiu,Ali Hassani,Nikita Orlov,and Humphrey Shi",
+          "author_candidates": [
+            "Jain, Jiachen Li",
+            "Chiu,Ali Hassani"
+          ],
+          "title_candidate": "OneFormer: One Transformer to Rule Universal Image Segmentation.arXiv preprint arXiv:2211.06220,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jitesh Jain, Jiachen Li,MangTik Chiu,Ali Hassani,Nikita Orlov,and Humphrey Shi. OneFormer",
+          "author_candidates": [
+            "Jain, Jiachen Li",
+            "Chiu,Ali Hassani"
+          ],
+          "title_candidate": "One Transformer to Rule Universal Image Segmentation.arXiv preprint arXiv:2211.06220",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jitesh Jain, Jiachen Li,MangTik Chiu,Ali Hassani,Nikita Orlov,and Humphrey Shi. OneFormer",
+          "author_candidates": [
+            "Jain, Jiachen Li",
+            "Chiu,Ali Hassani"
+          ],
+          "title_candidate": "One Transformer to Rule Universal Image Segmentation.arXiv preprint arXiv:2211.06220,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Jitesh Jain,Anukriti Singh,Nikita Orlov, Zilong Huang, Jiachen Li, Steven Walton,and Humphrey Shi. SeMask: Semantically Masked Transformers for Semantic Segmentation. arXiv preprint arXiv:2112.12782,2021.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "Jitesh Jain,Anukriti Singh,Nikita Orlov, Zilong Huang, Jiachen Li, Steven Walton,and Humphrey Shi",
+          "author_candidates": [
+            "Jain,Anukriti Singh",
+            "Orlov, Zilong Huang",
+            "Li, Steven Walton"
+          ],
+          "title_candidate": "SeMask: Semantically Masked Transformers for Semantic Segmentation. arXiv preprint",
+          "container_candidate": "arXiv:2112.12782,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jitesh Jain,Anukriti Singh,Nikita Orlov, Zilong Huang, Jiachen Li, Steven Walton,and Humphrey Shi",
+          "author_candidates": [
+            "Jain,Anukriti Singh",
+            "Orlov, Zilong Huang",
+            "Li, Steven Walton"
+          ],
+          "title_candidate": "SeMask: Semantically Masked Transformers for Semantic Segmentation",
+          "container_candidate": "arXiv preprint arXiv:2112.12782,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jitesh Jain,Anukriti Singh,Nikita Orlov, Zilong Huang, Jiachen Li, Steven Walton,and Humphrey Shi. SeMask",
+          "author_candidates": [
+            "Jain,Anukriti Singh",
+            "Orlov, Zilong Huang",
+            "Li, Steven Walton"
+          ],
+          "title_candidate": "Semantically Masked Transformers for Semantic Segmentation. arXiv preprint arXiv:2112.12782",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jitesh Jain,Anukriti Singh,Nikita Orlov, Zilong Huang, Jiachen Li, Steven Walton,and Humphrey Shi. SeMask",
+          "author_candidates": [
+            "Jain,Anukriti Singh",
+            "Orlov, Zilong Huang",
+            "Li, Steven Walton"
+          ],
+          "title_candidate": "Semantically Masked Transformers for Semantic Segmentation. arXiv preprint arXiv:2112.12782,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Alexander Kirillov,Ross Girshick, Kaiming He,and Piotr Dollar. Panoptic feature pyramid networks.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 6399-6408,2019.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Alexander Kirillov,Ross Girshick, Kaiming He,and Piotr Dollar",
+          "author_candidates": [
+            "Kirillov,Ross Girshick"
+          ],
+          "title_candidate": "Panoptic feature pyramid networks.In",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 6399-6408,2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alexander Kirillov,Ross Girshick, Kaiming He,and Piotr Dollar",
+          "author_candidates": [
+            "Kirillov,Ross Girshick"
+          ],
+          "title_candidate": "Panoptic feature pyramid networks.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 6399-6408,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alexander Kirillov,Ross Girshick, Kaiming He,and Piotr Dollar",
+          "author_candidates": [
+            "Kirillov,Ross Girshick"
+          ],
+          "title_candidate": "Panoptic feature pyramid networks.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 6399-6408",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alexander Kirillov,Ross Girshick, Kaiming He,and Piotr Dollar",
+          "author_candidates": [
+            "Kirillov,Ross Girshick"
+          ],
+          "title_candidate": "Panoptic feature pyramid networks.In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 6399-6408,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] Alexander Kirillov,Kaiming He,Ross Girshick,Carsten Rother, and Piotr Dollar. Panoptic segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9404-9413,2019.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "Alexander Kirillov,Kaiming He,Ross Girshick,Carsten Rother, and Piotr Dollar",
+          "author_candidates": [
+            "Kirillov,Kaiming He",
+            "Girshick,Carsten Rother"
+          ],
+          "title_candidate": "Panoptic segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9404-9413,2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alexander Kirillov,Kaiming He,Ross Girshick,Carsten Rother, and Piotr Dollar",
+          "author_candidates": [
+            "Kirillov,Kaiming He",
+            "Girshick,Carsten Rother"
+          ],
+          "title_candidate": "Panoptic segmentation",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9404-9413,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alexander Kirillov,Kaiming He,Ross Girshick,Carsten Rother, and Piotr Dollar",
+          "author_candidates": [
+            "Kirillov,Kaiming He",
+            "Girshick,Carsten Rother"
+          ],
+          "title_candidate": "Panoptic segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9404-9413",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alexander Kirillov,Kaiming He,Ross Girshick,Carsten Rother, and Piotr Dollar",
+          "author_candidates": [
+            "Kirillov,Kaiming He",
+            "Girshick,Carsten Rother"
+          ],
+          "title_candidate": "Panoptic segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9404-9413,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang.DN-DETR: Accelerate DETR Training by Introducing Query DeNoising. arXiv preprint arXiv:2203.01305, 2022.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang.DN-DETR: Accelerate DETR Training by Introducing Query DeNoising",
+          "author_candidates": [
+            "Li,Hao Zhang",
+            "Liu,Jian Guo"
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2203.01305, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang.DN-DETR: Accelerate DETR Training by Introducing Query DeNoising",
+          "author_candidates": [
+            "Li,Hao Zhang",
+            "Liu,Jian Guo"
+          ],
+          "title_candidate": "arXiv preprint arXiv:2203.01305, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang.DN-DETR",
+          "author_candidates": [
+            "Li,Hao Zhang",
+            "Liu,Jian Guo"
+          ],
+          "title_candidate": "Accelerate DETR Training by Introducing Query DeNoising. arXiv preprint arXiv:2203.01305",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Feng Li,Hao Zhang, Shilong Liu,Jian Guo,Lionel MNi,and Lei Zhang.DN-DETR",
+          "author_candidates": [
+            "Li,Hao Zhang",
+            "Liu,Jian Guo"
+          ],
+          "title_candidate": "Accelerate DETR Training by Introducing Query DeNoising. arXiv preprint arXiv:2203.01305, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Zhiqi Li,Wenhai Wang,Enze Xie,Zhiding Yu,Anima Anandkumar, Jose M Alvarez,Tong Lu,and Ping Luo.Panoptic SegFormer. arXiv preprint arXiv:2109.03814,2021.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhiqi Li,Wenhai Wang,Enze Xie,Zhiding Yu,Anima Anandkumar, Jose M Alvarez,Tong Lu,and Ping Luo.Panoptic SegFormer",
+          "author_candidates": [
+            "Li,Wenhai Wang",
+            "Xie,Zhiding Yu",
+            "Anandkumar, Jose M Alvarez"
+          ],
+          "title_candidate": "arXiv preprint",
+          "container_candidate": "arXiv:2109.03814,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhiqi Li,Wenhai Wang,Enze Xie,Zhiding Yu,Anima Anandkumar, Jose M Alvarez,Tong Lu,and Ping Luo.Panoptic SegFormer",
+          "author_candidates": [
+            "Li,Wenhai Wang",
+            "Xie,Zhiding Yu",
+            "Anandkumar, Jose M Alvarez"
+          ],
+          "title_candidate": "arXiv preprint arXiv:2109.03814,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhiqi Li,Wenhai Wang,Enze Xie,Zhiding Yu,Anima Anandkumar, Jose M Alvarez,Tong Lu,and Ping Luo.Panoptic SegFormer. arXiv preprint arXiv",
+          "author_candidates": [
+            "Li,Wenhai Wang",
+            "Xie,Zhiding Yu",
+            "Anandkumar, Jose M Alvarez"
+          ],
+          "title_candidate": "2109.03814",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhiqi Li,Wenhai Wang,Enze Xie,Zhiding Yu,Anima Anandkumar, Jose M Alvarez,Tong Lu,and Ping Luo.Panoptic SegFormer. arXiv preprint arXiv",
+          "author_candidates": [
+            "Li,Wenhai Wang",
+            "Xie,Zhiding Yu",
+            "Anandkumar, Jose M Alvarez"
+          ],
+          "title_candidate": "2109.03814,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Tsung-Yi Lin,Michael Maire, Serge Belongie,James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,and C Lawrence Zitnick.Microsoft COCO: Common objects in context. In European conference on computer vision, pages 740-755. Springer,2014.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin,Michael Maire, Serge Belongie,James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,and C Lawrence Zitnick.Microsoft COCO",
+          "author_candidates": [
+            "Lin,Michael Maire",
+            "Belongie,James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context",
+          "container_candidate": "In European conference on computer vision, pages 740-755. Springer,2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin,Michael Maire, Serge Belongie,James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,and C Lawrence Zitnick.Microsoft COCO: Common objects in context",
+          "author_candidates": [
+            "Lin,Michael Maire",
+            "Belongie,James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "In European conference on computer vision, pages 740-755",
+          "container_candidate": "Springer,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin,Michael Maire, Serge Belongie,James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,and C Lawrence Zitnick.Microsoft COCO",
+          "author_candidates": [
+            "Lin,Michael Maire",
+            "Belongie,James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In European conference on computer vision, pages 740-755. Springer",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin,Michael Maire, Serge Belongie,James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,and C Lawrence Zitnick.Microsoft COCO",
+          "author_candidates": [
+            "Lin,Michael Maire",
+            "Belongie,James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In European conference on computer vision, pages 740-755. Springer,2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Shilong Liu,Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu, and Lei Zhang. DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR. arXiv preprint arXiv:2201.12329,2022.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Shilong Liu,Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu, and Lei Zhang",
+          "author_candidates": [
+            "Liu,Feng Li",
+            "Zhang, Xiao Yang",
+            "Qi, Hang Su"
+          ],
+          "title_candidate": "DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR. arXiv preprint",
+          "container_candidate": "arXiv:2201.12329,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shilong Liu,Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu, and Lei Zhang",
+          "author_candidates": [
+            "Liu,Feng Li",
+            "Zhang, Xiao Yang",
+            "Qi, Hang Su"
+          ],
+          "title_candidate": "DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR",
+          "container_candidate": "arXiv preprint arXiv:2201.12329,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shilong Liu,Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu, and Lei Zhang. DAB-DETR",
+          "author_candidates": [
+            "Liu,Feng Li",
+            "Zhang, Xiao Yang",
+            "Qi, Hang Su"
+          ],
+          "title_candidate": "Dynamic Anchor Boxes are Better Queries for DETR. arXiv preprint arXiv:2201.12329",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shilong Liu,Feng Li, Hao Zhang, Xiao Yang, Xianbiao Qi, Hang Su, Jun Zhu, and Lei Zhang. DAB-DETR",
+          "author_candidates": [
+            "Liu,Feng Li",
+            "Zhang, Xiao Yang",
+            "Qi, Hang Su"
+          ],
+          "title_candidate": "Dynamic Anchor Boxes are Better Queries for DETR. arXiv preprint arXiv:2201.12329,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang,Li Dong, et al. Swin Transformer V2: Scaling Up Capacity and Resolution. arXiv preprint arXiv:2111.09883,2021.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang,Li Dong, et al",
+          "author_candidates": [
+            "Liu, Han Hu",
+            "Lin, Zhuliang Yao",
+            "Xie, Yixuan Wei",
+            "Ning, Yue Cao",
+            "Zhang,Li Dong"
+          ],
+          "title_candidate": "Swin Transformer V2: Scaling Up Capacity and Resolution. arXiv preprint",
+          "container_candidate": "arXiv:2111.09883,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang,Li Dong, et al",
+          "author_candidates": [
+            "Liu, Han Hu",
+            "Lin, Zhuliang Yao",
+            "Xie, Yixuan Wei",
+            "Ning, Yue Cao",
+            "Zhang,Li Dong"
+          ],
+          "title_candidate": "Swin Transformer V2: Scaling Up Capacity and Resolution",
+          "container_candidate": "arXiv preprint arXiv:2111.09883,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang,Li Dong, et al. Swin Transformer V2",
+          "author_candidates": [
+            "Liu, Han Hu",
+            "Lin, Zhuliang Yao",
+            "Xie, Yixuan Wei",
+            "Ning, Yue Cao",
+            "Zhang,Li Dong"
+          ],
+          "title_candidate": "Scaling Up Capacity and Resolution. arXiv preprint arXiv:2111.09883",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang,Li Dong, et al. Swin Transformer V2",
+          "author_candidates": [
+            "Liu, Han Hu",
+            "Lin, Zhuliang Yao",
+            "Xie, Yixuan Wei",
+            "Ning, Yue Cao",
+            "Zhang,Li Dong"
+          ],
+          "title_candidate": "Scaling Up Capacity and Resolution. arXiv preprint arXiv:2111.09883,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Ze Liu, Yutong Lin, YueCao,Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin,and Baining Guo.Swin transformer: Hierarchical vision transformer using shifted windows.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10012-10022,2021.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Ze Liu, Yutong Lin, YueCao,Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin,and Baining Guo.Swin transformer",
+          "author_candidates": [
+            "Liu, Yutong Lin",
+            "YueCao,Han Hu",
+            "Wei, Zheng Zhang"
+          ],
+          "title_candidate": "Hierarchical vision transformer using shifted windows.In",
+          "container_candidate": "Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10012-10022,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ze Liu, Yutong Lin, YueCao,Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin,and Baining Guo.Swin transformer",
+          "author_candidates": [
+            "Liu, Yutong Lin",
+            "YueCao,Han Hu",
+            "Wei, Zheng Zhang"
+          ],
+          "title_candidate": "Hierarchical vision transformer using shifted windows.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10012-10022",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ze Liu, Yutong Lin, YueCao,Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin,and Baining Guo.Swin transformer",
+          "author_candidates": [
+            "Liu, Yutong Lin",
+            "YueCao,Han Hu",
+            "Wei, Zheng Zhang"
+          ],
+          "title_candidate": "Hierarchical vision transformer using shifted windows.In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10012-10022,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Jonathan Long,Evan Shelhamer,and Trevor Darrell.Fully convolutional networks for semantic segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3431-3440, 2015.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jonathan Long,Evan Shelhamer,and Trevor Darrell.Fully convolutional networks for semantic segmentation",
+          "author_candidates": [
+            "Long,Evan Shelhamer"
+          ],
+          "title_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3431-3440, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jonathan Long,Evan Shelhamer,and Trevor Darrell.Fully convolutional networks for semantic segmentation",
+          "author_candidates": [
+            "Long,Evan Shelhamer"
+          ],
+          "title_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3431-3440",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jonathan Long,Evan Shelhamer,and Trevor Darrell.Fully convolutional networks for semantic segmentation",
+          "author_candidates": [
+            "Long,Evan Shelhamer"
+          ],
+          "title_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3431-3440, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Depu Meng，Xiaokang Chen， Zejia Fan,Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang. Conditional DETR for Fast Training Convergence. arXiv preprint arXiv:2108.06152,2021.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Depu Meng,Xiaokang Chen, Zejia Fan,Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang",
+          "author_candidates": [
+            "Meng,Xiaokang Chen",
+            "Fan,Gang Zeng",
+            "Li, Yuhui Yuan"
+          ],
+          "title_candidate": "Conditional DETR for Fast Training Convergence. arXiv preprint",
+          "container_candidate": "arXiv:2108.06152,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Depu Meng,Xiaokang Chen, Zejia Fan,Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang",
+          "author_candidates": [
+            "Meng,Xiaokang Chen",
+            "Fan,Gang Zeng",
+            "Li, Yuhui Yuan"
+          ],
+          "title_candidate": "Conditional DETR for Fast Training Convergence",
+          "container_candidate": "arXiv preprint arXiv:2108.06152,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Depu Meng,Xiaokang Chen, Zejia Fan,Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang. Conditional DETR for Fast Training Convergence. arXiv preprint arXiv",
+          "author_candidates": [
+            "Meng,Xiaokang Chen",
+            "Fan,Gang Zeng",
+            "Li, Yuhui Yuan"
+          ],
+          "title_candidate": "2108.06152",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Depu Meng,Xiaokang Chen, Zejia Fan,Gang Zeng, Houqiang Li, Yuhui Yuan,Lei Sun,and Jingdong Wang. Conditional DETR for Fast Training Convergence. arXiv preprint arXiv",
+          "author_candidates": [
+            "Meng,Xiaokang Chen",
+            "Fan,Gang Zeng",
+            "Li, Yuhui Yuan"
+          ],
+          "title_candidate": "2108.06152,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Zipeng Qin, Jianbo Liu, Xiaolin Zhang,Maoqing Tian, Ao-jun Zhou, Shuai Yi,and Hongsheng Li. Pyramid Fusion Transformer for Semantic Segmentation.arXiv preprint arXiv:2201.04019,2022.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Zipeng Qin, Jianbo Liu, Xiaolin Zhang,Maoqing Tian, Ao-jun Zhou, Shuai Yi,and Hongsheng Li",
+          "author_candidates": [
+            "Qin, Jianbo Liu",
+            "Zhang,Maoqing Tian",
+            "Zhou, Shuai Yi"
+          ],
+          "title_candidate": "Pyramid Fusion Transformer for Semantic Segmentation.arXiv preprint",
+          "container_candidate": "arXiv:2201.04019,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zipeng Qin, Jianbo Liu, Xiaolin Zhang,Maoqing Tian, Ao-jun Zhou, Shuai Yi,and Hongsheng Li",
+          "author_candidates": [
+            "Qin, Jianbo Liu",
+            "Zhang,Maoqing Tian",
+            "Zhou, Shuai Yi"
+          ],
+          "title_candidate": "Pyramid Fusion Transformer for Semantic Segmentation.arXiv preprint arXiv:2201.04019,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zipeng Qin, Jianbo Liu, Xiaolin Zhang,Maoqing Tian, Ao-jun Zhou, Shuai Yi,and Hongsheng Li. Pyramid Fusion Transformer for Semantic Segmentation.arXiv preprint arXiv",
+          "author_candidates": [
+            "Qin, Jianbo Liu",
+            "Zhang,Maoqing Tian",
+            "Zhou, Shuai Yi"
+          ],
+          "title_candidate": "2201.04019",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zipeng Qin, Jianbo Liu, Xiaolin Zhang,Maoqing Tian, Ao-jun Zhou, Shuai Yi,and Hongsheng Li. Pyramid Fusion Transformer for Semantic Segmentation.arXiv preprint arXiv",
+          "author_candidates": [
+            "Qin, Jianbo Liu",
+            "Zhang,Maoqing Tian",
+            "Zhou, Shuai Yi"
+          ],
+          "title_candidate": "2201.04019,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Shaoqing Ren,Kaiming He,Ross Girshick,and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. Advances in neural information processing systems,28,2015.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shaoqing Ren,Kaiming He,Ross Girshick,and Jian Sun",
+          "author_candidates": [
+            "Ren,Kaiming He"
+          ],
+          "title_candidate": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+          "container_candidate": "Advances in neural information processing systems,28,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shaoqing Ren,Kaiming He,Ross Girshick,and Jian Sun. Faster r-cnn",
+          "author_candidates": [
+            "Ren,Kaiming He"
+          ],
+          "title_candidate": "Towards real-time object detection with region proposal networks. Advances in neural information processing systems,28",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shaoqing Ren,Kaiming He,Ross Girshick,and Jian Sun. Faster r-cnn",
+          "author_candidates": [
+            "Ren,Kaiming He"
+          ],
+          "title_candidate": "Towards real-time object detection with region proposal networks. Advances in neural information processing systems,28,2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Olaf Ronneberger,Philipp Fischer,and Thomas Brox.U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234-241.Springer, 2015.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "venue_marker_split",
+          "author_text": "Olaf Ronneberger,Philipp Fischer,and Thomas Brox.U-net",
+          "author_candidates": [
+            "Ronneberger,Philipp Fischer"
+          ],
+          "title_candidate": "Convolutional networks for biomedical image segmentation",
+          "container_candidate": "In International Conference on Medical image computing and computer-assisted intervention, pages 234-241.Springer, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Olaf Ronneberger,Philipp Fischer,and Thomas Brox.U-net: Convolutional networks for biomedical image segmentation",
+          "author_candidates": [
+            "Ronneberger,Philipp Fischer"
+          ],
+          "title_candidate": "In International Conference on Medical image computing and computer-assisted intervention, pages 234-241.Springer, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Olaf Ronneberger,Philipp Fischer,and Thomas Brox.U-net",
+          "author_candidates": [
+            "Ronneberger,Philipp Fischer"
+          ],
+          "title_candidate": "Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234-241.Springer",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Olaf Ronneberger,Philipp Fischer,and Thomas Brox.U-net",
+          "author_candidates": [
+            "Ronneberger,Philipp Fischer"
+          ],
+          "title_candidate": "Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234-241.Springer, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang,Jing Li,and Jian Sun. Objects365:A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF international conference on comnutar vicinn nagac 843n_8430 2n10 27",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang,Jing Li,and Jian Sun",
+          "author_candidates": [
+            "Shao, Zeming Li",
+            "Zhang, Chao Peng",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "Objects365:A large-scale, high-quality dataset for object detection",
+          "container_candidate": "In Proceedings of the IEEE/CVF international conference on comnutar vicinn nagac 843n_8430 2n10 27",
+          "year_candidate": null,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang,Jing Li,and Jian Sun",
+          "author_candidates": [
+            "Shao, Zeming Li",
+            "Zhang, Chao Peng",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "Objects365:A large-scale, high-quality dataset for object detection",
+          "container_candidate": "In Proceedings of the IEEE/CVF international conference on comnutar vicinn nagac 843n_8430 2n10 27",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shuai Shao, Zeming Li, Tianyuan Zhang, Chao Peng, Gang Yu, Xiangyu Zhang,Jing Li,and Jian Sun. Objects365",
+          "author_candidates": [
+            "Shao, Zeming Li",
+            "Zhang, Chao Peng",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "A large-scale, high-quality dataset for object detection. In Proceedings of the IEEE/CVF international conference on comnutar vicinn nagac 843n_8430 2n10 27",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Ashish Vaswani,Noam Shazeer,Niki Parmar, Jakob Uszkoreit,Llion Jones,Aidan N Gomez,Lukasz Kaiser,and Illia Polosukhin.Attention is all you need.In Advances in neural information processing systems, pages 5998-6008,2017.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ashish Vaswani,Noam Shazeer,Niki Parmar, Jakob Uszkoreit,Llion Jones,Aidan N Gomez,Lukasz Kaiser,and Illia Polosukhin.Attention is all you need.In Advances in neural information processing systems, pages 5998-6008,2017.",
+          "author_candidates": [
+            "Vaswani,Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones,Aidan N Gomez"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Huiyu Wang, Yukun Zhu, Hartwig Adam,Alan Yuille,and Liang-Chieh Chen. Max-deeplab: End-to-end panoptic segmentation with mask transformers. In Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5463-5474,2021.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Huiyu Wang, Yukun Zhu, Hartwig Adam,Alan Yuille,and Liang-Chieh Chen",
+          "author_candidates": [
+            "Wang, Yukun Zhu",
+            "Adam,Alan Yuille"
+          ],
+          "title_candidate": "Max-deeplab: End-to-end panoptic segmentation with mask transformers",
+          "container_candidate": "In Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5463-5474,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Huiyu Wang, Yukun Zhu, Hartwig Adam,Alan Yuille,and Liang-Chieh Chen",
+          "author_candidates": [
+            "Wang, Yukun Zhu",
+            "Adam,Alan Yuille"
+          ],
+          "title_candidate": "Max-deeplab: End-to-end panoptic segmentation with mask transformers",
+          "container_candidate": "In Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5463-5474,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Huiyu Wang, Yukun Zhu, Hartwig Adam,Alan Yuille,and Liang-Chieh Chen. Max-deeplab",
+          "author_candidates": [
+            "Wang, Yukun Zhu",
+            "Adam,Alan Yuille"
+          ],
+          "title_candidate": "End-to-end panoptic segmentation with mask transformers. In Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5463-5474",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Huiyu Wang, Yukun Zhu, Hartwig Adam,Alan Yuille,and Liang-Chieh Chen. Max-deeplab",
+          "author_candidates": [
+            "Wang, Yukun Zhu",
+            "Adam,Alan Yuille"
+          ],
+          "title_candidate": "End-to-end panoptic segmentation with mask transformers. In Proceedings of theIEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5463-5474,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Yingming Wang, Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr: Query design for transformer-based detector. arXiv preprint arXiv:2109.07107,2021.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Yingming Wang, Xiangyu Zhang, Tong Yang,and Jian Sun",
+          "author_candidates": [
+            "Wang, Xiangyu Zhang"
+          ],
+          "title_candidate": "Anchor detr: Query design for transformer-based detector. arXiv preprint",
+          "container_candidate": "arXiv:2109.07107,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yingming Wang, Xiangyu Zhang, Tong Yang,and Jian Sun",
+          "author_candidates": [
+            "Wang, Xiangyu Zhang"
+          ],
+          "title_candidate": "Anchor detr: Query design for transformer-based detector",
+          "container_candidate": "arXiv preprint arXiv:2109.07107,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yingming Wang, Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr",
+          "author_candidates": [
+            "Wang, Xiangyu Zhang"
+          ],
+          "title_candidate": "Query design for transformer-based detector. arXiv preprint arXiv:2109.07107",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yingming Wang, Xiangyu Zhang, Tong Yang,and Jian Sun. Anchor detr",
+          "author_candidates": [
+            "Wang, Xiangyu Zhang"
+          ],
+          "title_candidate": "Query design for transformer-based detector. arXiv preprint arXiv:2109.07107,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Yuwen Xiong,Renjie Liao,Hengshuang Zhao,Rui Hu, Min Bai,Ersin Yumer,and Raquel Urtasun．Upsnet:A unified panoptic segmentation network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8818-8826,2019.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuwen Xiong,Renjie Liao,Hengshuang Zhao,Rui Hu, Min Bai,Ersin Yumer,and Raquel Urtasun.Upsnet",
+          "author_candidates": [
+            "Xiong,Renjie Liao",
+            "Zhao,Rui Hu",
+            "Bai,Ersin Yumer"
+          ],
+          "title_candidate": "A unified panoptic segmentation network",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8818-8826,2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuwen Xiong,Renjie Liao,Hengshuang Zhao,Rui Hu, Min Bai,Ersin Yumer,and Raquel Urtasun.Upsnet:A unified panoptic segmentation network",
+          "author_candidates": [
+            "Xiong,Renjie Liao",
+            "Zhao,Rui Hu",
+            "Bai,Ersin Yumer"
+          ],
+          "title_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8818-8826,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuwen Xiong,Renjie Liao,Hengshuang Zhao,Rui Hu, Min Bai,Ersin Yumer,and Raquel Urtasun.Upsnet",
+          "author_candidates": [
+            "Xiong,Renjie Liao",
+            "Zhao,Rui Hu",
+            "Bai,Ersin Yumer"
+          ],
+          "title_candidate": "A unified panoptic segmentation network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8818-8826",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuwen Xiong,Renjie Liao,Hengshuang Zhao,Rui Hu, Min Bai,Ersin Yumer,and Raquel Urtasun.Upsnet",
+          "author_candidates": [
+            "Xiong,Renjie Liao",
+            "Zhao,Rui Hu",
+            "Bai,Ersin Yumer"
+          ],
+          "title_candidate": "A unified panoptic segmentation network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8818-8826,2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31]Mengde Xu,Zheng Zhang,Han Hu, Jianfeng Wang,Lijuan Wang,Fangyun Wei,Xiang Bai,and ZichengLiu. End-toend semi-supervised object detection with soft teacher.In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 3060-3069,2021.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Mengde Xu,Zheng Zhang,Han Hu, Jianfeng Wang,Lijuan Wang,Fangyun Wei,Xiang Bai,and ZichengLiu",
+          "author_candidates": [
+            "Xu,Zheng Zhang",
+            "Hu, Jianfeng Wang",
+            "Wang,Fangyun Wei"
+          ],
+          "title_candidate": "End-toend semi-supervised object detection with soft teacher.In",
+          "container_candidate": "Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 3060-3069,2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Mengde Xu,Zheng Zhang,Han Hu, Jianfeng Wang,Lijuan Wang,Fangyun Wei,Xiang Bai,and ZichengLiu",
+          "author_candidates": [
+            "Xu,Zheng Zhang",
+            "Hu, Jianfeng Wang",
+            "Wang,Fangyun Wei"
+          ],
+          "title_candidate": "End-toend semi-supervised object detection with soft teacher.In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 3060-3069,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Mengde Xu,Zheng Zhang,Han Hu, Jianfeng Wang,Lijuan Wang,Fangyun Wei,Xiang Bai,and ZichengLiu",
+          "author_candidates": [
+            "Xu,Zheng Zhang",
+            "Hu, Jianfeng Wang",
+            "Wang,Fangyun Wei"
+          ],
+          "title_candidate": "End-toend semi-supervised object detection with soft teacher.In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 3060-3069",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Mengde Xu,Zheng Zhang,Han Hu, Jianfeng Wang,Lijuan Wang,Fangyun Wei,Xiang Bai,and ZichengLiu",
+          "author_candidates": [
+            "Xu,Zheng Zhang",
+            "Hu, Jianfeng Wang",
+            "Wang,Fangyun Wei"
+          ],
+          "title_candidate": "End-toend semi-supervised object detection with soft teacher.In Proceedings of the IEEE/CVF International Conference on Computer Vision,pages 3060-3069,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32]Hao Zhang,Feng Li, Shilong Liu,Lei Zhang,Hang Su, Jun Zhu,Lionel MNi,and Heung-Yeung Shum. DINO: DETR withImproved DeNoising Anchor Boxes for End-to-End Ob-ject Detection. arXiv preprint arXiv:2203.03605,2022.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "venue_marker_split",
+          "author_text": "Hao Zhang,Feng Li, Shilong Liu,Lei Zhang,Hang Su, Jun Zhu,Lionel MNi,and Heung-Yeung Shum",
+          "author_candidates": [
+            "Zhang,Feng Li",
+            "Liu,Lei Zhang",
+            "Su, Jun Zhu"
+          ],
+          "title_candidate": "DINO: DETR withImproved DeNoising Anchor Boxes for End-to-End Ob-ject Detection. arXiv preprint",
+          "container_candidate": "arXiv:2203.03605,2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Hao Zhang,Feng Li, Shilong Liu,Lei Zhang,Hang Su, Jun Zhu,Lionel MNi,and Heung-Yeung Shum",
+          "author_candidates": [
+            "Zhang,Feng Li",
+            "Liu,Lei Zhang",
+            "Su, Jun Zhu"
+          ],
+          "title_candidate": "DINO: DETR withImproved DeNoising Anchor Boxes for End-to-End Ob-ject Detection",
+          "container_candidate": "arXiv preprint arXiv:2203.03605,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hao Zhang,Feng Li, Shilong Liu,Lei Zhang,Hang Su, Jun Zhu,Lionel MNi,and Heung-Yeung Shum. DINO",
+          "author_candidates": [
+            "Zhang,Feng Li",
+            "Liu,Lei Zhang",
+            "Su, Jun Zhu"
+          ],
+          "title_candidate": "DETR withImproved DeNoising Anchor Boxes for End-to-End Ob-ject Detection. arXiv preprint arXiv:2203.03605",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hao Zhang,Feng Li, Shilong Liu,Lei Zhang,Hang Su, Jun Zhu,Lionel MNi,and Heung-Yeung Shum. DINO",
+          "author_candidates": [
+            "Zhang,Feng Li",
+            "Liu,Lei Zhang",
+            "Su, Jun Zhu"
+          ],
+          "title_candidate": "DETR withImproved DeNoising Anchor Boxes for End-to-End Ob-ject Detection. arXiv preprint arXiv:2203.03605,2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] Wenwei Zhang, Jiangmiao Pang, Kai Chen,and Chen Change Loy.K-net: Towards unified image segmentation. Advances in Neural Information Processing Systems,34,2021.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Wenwei Zhang, Jiangmiao Pang, Kai Chen,and Chen Change Loy.K-net: Towards unified image segmentation",
+          "author_candidates": [
+            "Zhang, Jiangmiao Pang"
+          ],
+          "title_candidate": "Advances in Neural Information Processing Systems,34,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Wenwei Zhang, Jiangmiao Pang, Kai Chen,and Chen Change Loy.K-net",
+          "author_candidates": [
+            "Zhang, Jiangmiao Pang"
+          ],
+          "title_candidate": "Towards unified image segmentation. Advances in Neural Information Processing Systems,34",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Wenwei Zhang, Jiangmiao Pang, Kai Chen,and Chen Change Loy.K-net",
+          "author_candidates": [
+            "Zhang, Jiangmiao Pang"
+          ],
+          "title_candidate": "Towards unified image segmentation. Advances in Neural Information Processing Systems,34,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34]Bolei Zhou,Hang Zhao,Xavier Puig,Sanja Fidler,Adela Barriuso,and Antonio Torralba. Scene parsing through ade20k dataset.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 633-641,2017.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "venue_marker_split",
+          "author_text": "Bolei Zhou,Hang Zhao,Xavier Puig,Sanja Fidler,Adela Barriuso,and Antonio Torralba",
+          "author_candidates": [
+            "Zhou,Hang Zhao",
+            "Puig,Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing through ade20k dataset.In",
+          "container_candidate": "Proceedings of the IEEE conference on computer vision and pattern recognition, pages 633-641,2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bolei Zhou,Hang Zhao,Xavier Puig,Sanja Fidler,Adela Barriuso,and Antonio Torralba",
+          "author_candidates": [
+            "Zhou,Hang Zhao",
+            "Puig,Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing through ade20k dataset.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 633-641,2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bolei Zhou,Hang Zhao,Xavier Puig,Sanja Fidler,Adela Barriuso,and Antonio Torralba",
+          "author_candidates": [
+            "Zhou,Hang Zhao",
+            "Puig,Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing through ade20k dataset.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 633-641",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bolei Zhou,Hang Zhao,Xavier Puig,Sanja Fidler,Adela Barriuso,and Antonio Torralba",
+          "author_candidates": [
+            "Zhou,Hang Zhao",
+            "Puig,Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing through ade20k dataset.In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 633-641,2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] Xizhou Zhu, Weijie Su, Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr:Deformable transformers for end-to-end object detection.In ICLR 2021:The Ninth International Conference on Learning Representations,2021.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu,Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection.In ICLR 2021:The Ninth International Conference on Learning Representations",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu,Bin Li, Xiaogang Wang, and Jifeng Dai.Deformable detr",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu,Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection.In ICLR 2021:The Ninth International Conference on Learning Representations,2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 34,
+      "metadata": {
+        "entry_count": 5
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_title_boundary_suspect: entry_index=4 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=8 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=26 pattern=fallback_raw_split"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.08571428571428572,
+    "year_ratio": 0.9714285714285714,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.08571428571428572
+  },
+  "file_quality_low": false
+}

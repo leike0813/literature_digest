@@ -1,0 +1,504 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/29IBKEUR_Sparse DETR_ efficient end-to-end object detection with learnable sparsity.txt",
+  "entry_style": "author-year",
+  "notes": "Author-year 段落格式，无 [n] 前缀。32 entries。行65及以后为附录正文。",
+  "items": [
+    {
+      "author": [
+        "Jimmy Lei Ba",
+        "Jamie Ryan Kiros",
+        "Geoffrey E. Hinton"
+      ],
+      "title": "Layer normalization",
+      "year": 2016,
+      "container": "arXiv:1607.06450",
+      "raw": "Lei Jimmy Ba, Jamie Ryan Kiros, and Geoffrey E. Hinton. Layer normalization. arXiv preprint arXiv:1607.06450, 2016.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Alexei Baevski",
+        "Michael Auli"
+      ],
+      "title": "Adaptive input representations for neural language modeling",
+      "year": 2019,
+      "container": "ICLR",
+      "raw": "Alexei Baevski and Michael Auli. Adaptive input representations for neural language modeling. In ICLR (Poster). OpenReview.net, 2019.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Nicolas Carion",
+        "Francisco Massa",
+        "Gabriel Synnaeve",
+        "Nicolas Usunier",
+        "Alexander Kirillov",
+        "Sergey Zagoruyko"
+      ],
+      "title": "End-to-end object detection with transformers",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "Nicolas Carion... End-to-end object detection with transformers. In ECCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Rewon Child",
+        "Scott Gray",
+        "Alec Radford",
+        "Ilya Sutskever"
+      ],
+      "title": "Generating long sequences with sparse transformers",
+      "year": 2019,
+      "container": "arXiv:1904.10509",
+      "raw": "Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse transformers. CoRR, abs/1904.10509, 2019a.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Rewon Child",
+        "Scott Gray",
+        "Alec Radford",
+        "Ilya Sutskever"
+      ],
+      "title": "Generating long sequences with sparse transformers",
+      "year": 2019,
+      "container": "arXiv:1904.10509",
+      "raw": "Rewon Child... CoRR, abs/1904.10509, 2019b.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Krzysztof Marcin Choromanski",
+        "Valerii Likhosherstov",
+        "David Dohan",
+        "Xingyou Song",
+        "Andreea Gane",
+        "Tamás Sarlós",
+        "Peter Hawkins",
+        "Jared Quincy Davis",
+        "Afroz Mohiuddin",
+        "Łukasz Kaiser",
+        "David Benjamin Belanger",
+        "Lucy J. Colwell",
+        "Adrian Weller"
+      ],
+      "title": "Rethinking attention with performers",
+      "year": 2021,
+      "container": "ICLR",
+      "raw": "Krzysztof Marcin Choromanski... Rethinking attention with performers. In ICLR. OpenReview.net, 2021.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Yi Li",
+        "Kaiming He",
+        "Jian Sun"
+      ],
+      "title": "R-FCN: object detection via region-based fully convolutional networks",
+      "year": 2016,
+      "container": "NIPS",
+      "raw": "Jifeng Dai, Yi Li, Kaiming He, and Jian Sun. R-FCN... In NIPS, pp. 379–387, 2016.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Haozhi Qi",
+        "Yuwen Xiong",
+        "Yi Li",
+        "Guodong Zhang",
+        "Han Hu",
+        "Yichen Wei"
+      ],
+      "title": "Deformable convolutional networks",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "Jifeng Dai... Deformable convolutional networks. In ICCV, 2017.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Jia Deng",
+        "Wei Dong",
+        "Richard Socher",
+        "Li-Jia Li",
+        "Kai Li",
+        "Li Fei-Fei"
+      ],
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "year": 2009,
+      "container": "CVPR",
+      "raw": "Jia Deng... Imagenet... In CVPR, 2009.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "Kaiming He... Deep residual learning... In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Georgia Gkioxari",
+        "Piotr Dollár",
+        "Ross B. Girshick"
+      ],
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "Kaiming He... Mask R-CNN. In ICCV, 2017.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Dan Hendrycks",
+        "Kevin Gimpel"
+      ],
+      "title": "Bridging nonlinearities and stochastic regularizers with Gaussian error linear units",
+      "year": 2016,
+      "container": "arXiv:1606.08415",
+      "raw": "Dan Hendrycks and Kevin Gimpel. Bridging nonlinearities... CoRR, abs/1606.08415, 2016.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Jonathan Ho",
+        "Nal Kalchbrenner",
+        "Dirk Weissenborn",
+        "Tim Salimans"
+      ],
+      "title": "Axial attention in multidimensional transformers",
+      "year": 2019,
+      "container": "arXiv:1912.12180",
+      "raw": "Jonathan Ho... Axial attention in multidimensional transformers. CoRR, abs/1912.12180, 2019.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Angelos Katharopoulos",
+        "Apoorv Vyas",
+        "Nikolaos Pappas",
+        "François Fleuret"
+      ],
+      "title": "Transformers are RNNs: Fast autoregressive transformers with linear attention",
+      "year": 2020,
+      "container": "ICML",
+      "raw": "Angelos Katharopoulos... Transformers are rnns... In ICML, volume 119, pp. 5156–5165. PMLR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Nikita Kitaev",
+        "Łukasz Kaiser",
+        "Anselm Levskaya"
+      ],
+      "title": "Reformer: The efficient transformer",
+      "year": 2020,
+      "container": "ICLR",
+      "raw": "Nikita Kitaev, Lukasz Kaiser, and Anselm Levskaya. Reformer... In ICLR. OpenReview.net, 2020.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Chen-Yu Lee",
+        "Saining Xie",
+        "Patrick Gallagher",
+        "Zhengyou Zhang",
+        "Zhuowen Tu"
+      ],
+      "title": "Deeply-Supervised Nets",
+      "year": 2015,
+      "container": "AISTATS",
+      "raw": "Chen-Yu Lee... DeeplySupervised Nets. In AISTATS, volume 38, pp. 562–570, 2015.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "Tsung-Yi Lin... Microsoft coco... In ECCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Piotr Dollár",
+        "Ross Girshick",
+        "Kaiming He",
+        "Bharath Hariharan",
+        "Serge Belongie"
+      ],
+      "title": "Feature pyramid networks for object detection",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "Tsung-Yi Lin... Feature pyramid networks for object detection. In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Ze Liu",
+        "Yutong Lin",
+        "Yue Cao",
+        "Han Hu",
+        "Yixuan Wei",
+        "Zheng Zhang",
+        "Stephen Lin",
+        "Baining Guo"
+      ],
+      "title": "Swin transformer: Hierarchical vision transformer using shifted windows",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin transformer... In ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Bowen Pan",
+        "Yifan Jiang",
+        "Rameswar Panda",
+        "Zhangyang Wang",
+        "Rogerio Feris",
+        "Aude Oliva"
+      ],
+      "title": "IA-RED²: Interpretability-aware redundancy reduction for vision transformers",
+      "year": 2021,
+      "container": "arXiv:2106.12620",
+      "raw": "Bowen Pan... IA-RED2... arXiv preprint arXiv:2106.12620, 2021.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Niki Parmar",
+        "Ashish Vaswani",
+        "Jakob Uszkoreit",
+        "Łukasz Kaiser",
+        "Noam Shazeer",
+        "Alexander Ku",
+        "Dustin Tran"
+      ],
+      "title": "Image transformer",
+      "year": 2018,
+      "container": "ICML",
+      "raw": "Niki Parmar... Image transformer. In ICML, volume 80, pp. 4052–4061. PMLR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Yongming Rao",
+        "Wenliang Zhao",
+        "Benlin Liu",
+        "Jiwen Lu",
+        "Jie Zhou",
+        "Cho-Jui Hsieh"
+      ],
+      "title": "DynamicViT: efficient vision transformers with dynamic token sparsification",
+      "year": 2021,
+      "container": "arXiv:2106.02034",
+      "raw": "Yongming Rao... DynamicViT... arXiv preprint arXiv:2106.02034, 2021.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross B. Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NIPS",
+      "raw": "Shaoqing Ren... Faster R-CNN... In NIPS, pp. 91–99, 2015.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Byungseok Roh",
+        "Wuhyun Shin",
+        "Ildoo Kim",
+        "Sungwoong Kim"
+      ],
+      "title": "Spatially consistent representation learning",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "Byungseok Roh, Wuhyun Shin, Ildoo Kim, and Sungwoong Kim. Spatilly consistent representation learning. In CVPR. IEEE, 2021.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Peize Sun",
+        "Yi Jiang",
+        "Enze Xie",
+        "Wenqi Shao",
+        "Zehuan Yuan",
+        "Changhu Wang",
+        "Ping Luo"
+      ],
+      "title": "What makes for end-to-end object detection?",
+      "year": 2021,
+      "container": "ICML",
+      "raw": "Peize Sun... What makes for end-to-end object detection? In ICML, volume 139, pp. 9934–9944, 2021.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Christian Szegedy",
+        "Wei Liu",
+        "Yangqing Jia",
+        "Pierre Sermanet",
+        "Scott E. Reed",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Vincent Vanhoucke",
+        "Andrew Rabinovich"
+      ],
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "Christian Szegedy... Going deeper with convolutions. In CVPR, pp. 1–9. IEEE, 2015.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "title": "Attention is all you need",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "Ashish Vaswani... Attention is all you need. In NeurIPS, 2017.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Huiyu Wang",
+        "Yukun Zhu",
+        "Bradley Green",
+        "Hartwig Adam",
+        "Alan L. Yuille",
+        "Liang-Chieh Chen"
+      ],
+      "title": "Axial-DeepLab: Stand-alone axial-attention for panoptic segmentation",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "Huiyu Wang... Axial-deeplab... In ECCV (4), volume 12349 of LNCS, pp. 108–126. Springer, 2020.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Qiang Wang",
+        "Bei Li",
+        "Tong Xiao",
+        "Jingbo Zhu",
+        "Changliang Li",
+        "Derek F. Wong",
+        "Lidia S. Chao"
+      ],
+      "title": "Learning deep transformer models for machine translation",
+      "year": 2019,
+      "container": "ACL",
+      "raw": "Qiang Wang... Learning deep transformer models for machine translation. In ACL (1), pp. 1810–1822. ACL, 2019.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Tao Wang",
+        "Li Yuan",
+        "Yunpeng Chen",
+        "Jiashi Feng",
+        "Shuicheng Yan"
+      ],
+      "title": "PnP-DETR: towards efficient visual analysis with transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "Tao Wang... PnP-DETR... In ICCV, 2021.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Zhuyu Yao",
+        "Jiangbo Ai",
+        "Boxun Li",
+        "Chi Zhang"
+      ],
+      "title": "Efficient DETR: improving end-to-end object detector with dense prior",
+      "year": 2021,
+      "container": "arXiv:2104.01318",
+      "raw": "Zhuyu Yao... Efficient DETR... arXiv preprint arXiv:2104.01318, 2021.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Weijie Su",
+        "Lewei Lu",
+        "Bin Li",
+        "Xiaogang Wang",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable DETR: deformable transformers for end-to-end object detection",
+      "year": 2021,
+      "container": "ICLR",
+      "raw": "Xizhou Zhu... Deformable DETR... In ICLR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 31
+    }
+  ]
+}

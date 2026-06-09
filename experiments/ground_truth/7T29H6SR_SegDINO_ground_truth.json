@@ -1,0 +1,540 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/7T29H6SR_SegDINO_ An Efficient Design for Medical and Natural Image Segmentation with DIN.txt",
+  "entry_style": "author-year",
+  "notes": "Author-year 格式，无编号前缀。每条参考文献为一个独立段落。格式：Author, Author, ... Title. Venue, Year. 部分条目含 LaTeX 重音符。",
+  "items": [
+    {
+      "author": [
+        "Md Zahangir Alom",
+        "Mahmudul Hasan",
+        "Chris Yakopcic",
+        "Tarek M. Taha",
+        "Vijayan K. Asari"
+      ],
+      "title": "Recurrent residual convolutional neural network based on u-net (r2u-net) for medical image segmentation",
+      "year": 2018,
+      "container": "arXiv:1802.06955",
+      "raw": "Md Zahangir Alom... Recurrent residual convolutional neural network based on u-net... arXiv preprint arXiv:1802.06955, 2018.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Tomer Amit",
+        "Tal Shaharbany",
+        "Eliya Nachmani",
+        "Lior Wolf"
+      ],
+      "title": "SegDiff: Image segmentation with diffusion probabilistic models",
+      "year": 2021,
+      "container": "arXiv:2112.00390",
+      "raw": "Tomer Amit... Segdiff... arXiv preprint arXiv:2112.00390, 2021.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Lev Ayzenberg",
+        "Raja Giryes",
+        "Hayit Greenspan"
+      ],
+      "title": "DINOv2 based self supervised learning for few shot medical image segmentation",
+      "year": 2024,
+      "container": "ISBI",
+      "raw": "Lev Ayzenberg... Dinov2 based self supervised learning... In 2024 IEEE ISBI, pp. 1–5. IEEE, 2024.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Reza Azad",
+        "Ehsan Khodapanah Aghdam",
+        "Amelie Rauland",
+        "Yiwei Jia",
+        "Atlas Haddadi Avval",
+        "Afshin Bozorgpour",
+        "Sanaz Karimijafarbigloo",
+        "Joseph Paul Cohen",
+        "Ehsan Adeli",
+        "Dorit Merhof"
+      ],
+      "title": "Medical image segmentation review: The success of u-net",
+      "year": 2024,
+      "container": "TPAMI",
+      "raw": "Reza Azad... Medical image segmentation review... TPAMI, 2024.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Vijay Badrinarayanan",
+        "Alex Kendall",
+        "Roberto Cipolla"
+      ],
+      "title": "SegNet: A deep convolutional encoder-decoder architecture for image segmentation",
+      "year": 2017,
+      "container": "TPAMI",
+      "raw": "Vijay Badrinarayanan... Segnet... TPAMI, 39(12):2481–2495, 2017.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Mathilde Caron",
+        "Hugo Touvron",
+        "Ishan Misra",
+        "Hervé Jégou",
+        "Julien Mairal",
+        "Piotr Bojanowski",
+        "Armand Joulin"
+      ],
+      "title": "Emerging properties in self-supervised vision transformers",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "Mathilde Caron... Emerging properties in self-supervised vision transformers. In ICCV, pp. 9650–9660, 2021.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Jieneng Chen",
+        "Yongyi Lu",
+        "Qihang Yu",
+        "Xiangde Luo",
+        "Ehsan Adeli",
+        "Yan Wang",
+        "Le Lu",
+        "Alan L. Yuille",
+        "Yuyin Zhou"
+      ],
+      "title": "TransUNet: Transformers make strong encoders for medical image segmentation",
+      "year": 2021,
+      "container": "arXiv:2102.04306",
+      "raw": "Jieneng Chen... Transunet... arXiv preprint arXiv:2102.04306, 2021a.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Wuyang Chen",
+        "Xianzhi Du",
+        "Fan Yang",
+        "Lucas Beyer",
+        "Xiaohua Zhai",
+        "Tsung-Yi Lin",
+        "Huizhong Chen",
+        "Jing Li",
+        "Xiaodan Song",
+        "Zhangyang Wang"
+      ],
+      "title": "A simple single-scale vision transformer for object localization and instance segmentation",
+      "year": 2021,
+      "container": "arXiv:2112.09747",
+      "raw": "Wuyang Chen... A simple single-scale vision transformer... arXiv preprint arXiv:2112.09747, 2021b.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Zhihao Chen",
+        "Lei Zhu",
+        "Liang Wan",
+        "Song Wang",
+        "Wei Feng",
+        "Pheng-Ann Heng"
+      ],
+      "title": "A multi-task mean teacher for semi-supervised shadow detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "Zhihao Chen... A multi-task mean teacher... In CVPR, pp. 5611–5620, 2020.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Zhihao Chen",
+        "Liang Wan",
+        "Lei Zhu",
+        "Jia Shen",
+        "Huazhu Fu",
+        "Wennan Liu",
+        "Jing Qin"
+      ],
+      "title": "Triple-cooperative video shadow detection",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "Zhihao Chen... Triple-cooperative video shadow detection. In CVPR, pp. 2715–2724, 2021c.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Ho Kei Cheng",
+        "Yu-Wing Tai",
+        "Chi-Keung Tang"
+      ],
+      "title": "Rethinking space-time networks with improved memory coverage for efficient video object segmentation",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "Ho Kei Cheng... Rethinking space-time networks... NeurIPS, 34:11781–11794, 2021.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Noel C. F. Codella",
+        "David Gutman",
+        "M. Emre Celebi",
+        "Brian Helba",
+        "Michael A. Marchetti",
+        "Stephen W. Dusza",
+        "Aadi Kalloo",
+        "Konstantinos Liopyris",
+        "Nabin Mishra",
+        "Harald Kittler"
+      ],
+      "title": "Skin lesion analysis toward melanoma detection: A challenge at the 2017 ISBI",
+      "year": 2018,
+      "container": "ISBI",
+      "raw": "Noel CF Codella... Skin lesion analysis... In 2018 IEEE ISBI, pp. 168–172. IEEE, 2018.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Simon Damm",
+        "Mike Laszkiewicz",
+        "Johannes Lederer",
+        "Asja Fischer"
+      ],
+      "title": "AnomalyDINO: Boosting patch-based few-shot anomaly detection with DINOv2",
+      "year": 2025,
+      "container": "WACV",
+      "raw": "Simon Damm... Anomalydino... In 2025 IEEE/CVF WACV, pp. 1319–1329. IEEE, 2025.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Xinpeng Ding",
+        "Jingwen Yang",
+        "Xiaowei Hu",
+        "Xiaomeng Li"
+      ],
+      "title": "Learning shadow correspondence for video shadow detection",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "Xinpeng Ding... Learning shadow correspondence... In ECCV, pp. 705–722. Springer, 2022.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Yifan Gao",
+        "Haoyue Li",
+        "Feng Yuan",
+        "Xiaosong Wang",
+        "Xin Gao"
+      ],
+      "title": "DINO U-Net: Exploiting high-fidelity dense features from foundation models for medical image segmentation",
+      "year": 2025,
+      "container": "arXiv",
+      "raw": "Yifan Gao... Dino u-net... 2025.",
+      "confidence": 0.92,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Haifan Gong",
+        "Jiaxin Chen",
+        "Guanqi Chen",
+        "Haofeng Li",
+        "Guanbin Li",
+        "Fei Chen"
+      ],
+      "title": "Thyroid region prior guided attention for ultrasound segmentation of thyroid nodules",
+      "year": 2023,
+      "container": "Computers in Biology and Medicine",
+      "raw": "Haifan Gong... Thyroid region prior guided attention... Computers in biology and medicine, 155:106389, 2023.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Huankang Guan",
+        "Jiaying Lin",
+        "Rynson W. H. Lau"
+      ],
+      "title": "Learning semantic associations for mirror detection",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Huankang Guan... Learning semantic associations for mirror detection. In CVPR, pp. 5941–5950, 2022.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xinlei Chen",
+        "Saining Xie",
+        "Yanghao Li",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Masked autoencoders are scalable vision learners",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Kaiming He... Masked autoencoders... In CVPR, pp. 16000–16009, 2022.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Ruozhen He",
+        "Jiaying Lin",
+        "Rynson W. H. Lau"
+      ],
+      "title": "Efficient mirror detection via multi-level heterogeneous learning",
+      "year": 2023,
+      "container": "AAAI",
+      "raw": "Ruozhen He... Efficient mirror detection... In AAAI, volume 37, pp. 790–798, 2023.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Xiaowei Hu",
+        "Tianyu Wang",
+        "Chi-Wing Fu",
+        "Yitong Jiang",
+        "Qiong Wang",
+        "Pheng-Ann Heng"
+      ],
+      "title": "Revisiting shadow detection: A new benchmark dataset for complex world",
+      "year": 2021,
+      "container": "TIP",
+      "raw": "Xiaowei Hu... Revisiting shadow detection... TIP, 30:1925–1934, 2021.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Tianyu Huang",
+        "Bowen Dong",
+        "Jiaying Lin",
+        "Xiaohui Liu",
+        "Rynson W. H. Lau",
+        "Wangmeng Zuo"
+      ],
+      "title": "Symmetry-aware transformer-based mirror detection",
+      "year": 2023,
+      "container": "AAAI",
+      "raw": "Tianyu Huang... Symmetry-aware transformer-based mirror detection. In AAAI, volume 37, pp. 935–943, 2023.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Jitesh Jain",
+        "Jiachen Li",
+        "Mang Tik Chiu",
+        "Ali Hassani",
+        "Nikita Orlov",
+        "Humphrey Shi"
+      ],
+      "title": "OneFormer: One transformer to rule universal image segmentation",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Jitesh Jain... Oneformer... In CVPR, pp. 2989–2998, 2023.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Debesh Jha",
+        "Pia H. Smedsrud",
+        "Michael A. Riegler",
+        "Pål Halvorsen",
+        "Thomas de Lange",
+        "Dag Johansen",
+        "Håvard D. Johansen"
+      ],
+      "title": "Kvasir-SEG: A segmented polyp dataset",
+      "year": 2019,
+      "container": "MMM",
+      "raw": "Debesh Jha... Kvasir-seg... In MMM, pp. 451–462. Springer, 2019.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Alexander Kirillov",
+        "Eric Mintun",
+        "Nikhila Ravi",
+        "Hanzi Mao",
+        "Chloe Rolland",
+        "Laura Gustafson",
+        "Tete Xiao",
+        "Spencer Whitehead",
+        "Alexander C. Berg",
+        "Wan-Yen Lo"
+      ],
+      "title": "Segment anything",
+      "year": 2023,
+      "container": "ICCV",
+      "raw": "Alexander Kirillov... Segment anything. In ICCV, pp. 4015–4026, 2023.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Chenxin Li",
+        "Xinyu Liu",
+        "Wuyang Li",
+        "Cheng Wang",
+        "Hengyu Liu",
+        "Yifan Liu",
+        "Zhen Chen",
+        "Yixuan Yuan"
+      ],
+      "title": "U-KAN makes strong backbone for medical image segmentation and generation",
+      "year": 2025,
+      "container": "AAAI",
+      "raw": "Chenxin Li... U-kan... In AAAI, volume 39, pp. 4652–4660, 2025.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Xiangtai Li",
+        "Henghui Ding",
+        "Haobo Yuan",
+        "Wenwei Zhang",
+        "Jiangmiao Pang",
+        "Guangliang Cheng",
+        "Kai Chen",
+        "Ziwei Liu",
+        "Chen Change Loy"
+      ],
+      "title": "Transformer-based visual segmentation: A survey",
+      "year": 2024,
+      "container": "TPAMI",
+      "raw": "Xiangtai Li... Transformer-based visual segmentation: A survey. TPAMI, 2024.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Jiaying Lin",
+        "Guodong Wang",
+        "Rynson W. H. Lau"
+      ],
+      "title": "Progressive mirror detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "Jiaying Lin... Progressive mirror detection. In CVPR, pp. 3697–3705, 2020.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Jiaying Lin",
+        "Zebang He",
+        "Rynson W. H. Lau"
+      ],
+      "title": "Rich context aggregation with reflection prior for glass surface detection",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "Jiaying Lin... Rich context aggregation... In CVPR, pp. 13415–13424, 2021.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Jiaying Lin",
+        "Xin Tan",
+        "Rynson W. H. Lau"
+      ],
+      "title": "Learning to detect mirrors from videos via dual correspondences",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Jiaying Lin... Learning to detect mirrors from videos... In CVPR, pp. 9109–9118, 2023.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Fang Liu",
+        "Yuhao Liu",
+        "Jiaying Lin",
+        "Ke Xu",
+        "Rynson W. H. Lau"
+      ],
+      "title": "Multi-view dynamic reflection prior for video glass surface detection",
+      "year": 2024,
+      "container": "AAAI",
+      "raw": "Fang Liu... Multi-view dynamic reflection prior... In AAAI, volume 38, pp. 3594–3602, 2024.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Lihao Liu",
+        "Jean Prost",
+        "Lei Zhu",
+        "Nicolas Papadakis",
+        "Pietro Liò",
+        "Carola-Bibiane Schönlieb",
+        "Angelica I. Aviles-Rivero"
+      ],
+      "title": "Scotch and soda: A transformer video shadow detection framework",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Lihao Liu... Scotch and soda... In CVPR, pp. 10449–10458, 2023.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Jonathan Long",
+        "Evan Shelhamer",
+        "Trevor Darrell"
+      ],
+      "title": "Fully convolutional networks for semantic segmentation",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "Jonathan Long... Fully convolutional networks... In CVPR, pp. 3431–3440, 2015.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Ilya Loshchilov",
+        "Frank Hutter"
+      ],
+      "title": "Decoupled weight decay regularization",
+      "year": 2017,
+      "container": "arXiv:1711.05101",
+      "raw": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Xiankai Lu",
+        "Wenguan Wang",
+        "Chao Ma",
+        "Jianbing Shen",
+        "Ling Shao",
+        "Fatih Porikli"
+      ],
+      "title": "See more, know more: Unsupervised video object segmentation with co-attention siamese networks",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "Xiankai Lu... See more, know more... In CVPR, pp. 3623–3632, 2019.",
+      "confidence": 0.95,
+      "entry_index": 33
+    }
+  ]
+}

@@ -1,0 +1,3777 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:43Z",
+    "entry_count": 43,
+    "candidate_count": 166,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] https://en.wikipedia.org/wiki/Hungarian_ algorithm/. 2",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] https://en.wikipedia.org/wiki/Hungarian_ algorithm/. 2"
+      ]
+    },
+    {
+      "block_index": 1,
+      "source_text": "[2] Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry S Davis. Soft-nms–improving object detection with one line of code. In Proceedings of the IEEE international conference on computer vision, pages 5561–5569, 2017.",
+      "line_start": 2,
+      "line_end": 2,
+      "proposed_entries": [
+        "[2] Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry S Davis. Soft-nms–improving object detection with one line of code. In Proceedings of the IEEE international conference on computer vision, pages 5561–5569, 2017."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[3] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: High quality object detection and instance segmentation. arXiv preprint arXiv:1906.09756, 2019.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[3] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: High quality object detection and instance segmentation. arXiv preprint arXiv:1906.09756, 2019."
+      ]
+    },
+    {
+      "block_index": 3,
+      "source_text": "[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. Endto-end object detection with transformers. arXiv preprint arXiv:2005.12872, 2020.",
+      "line_start": 4,
+      "line_end": 4,
+      "proposed_entries": [
+        "[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. Endto-end object detection with transformers. arXiv preprint arXiv:2005.12872, 2020."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[5] Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, and Xudong Zou. Relational learning for joint head and human detection. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 10647–10654, 2020.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[5] Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, and Xudong Zou. Relational learning for joint head and human detection. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 10647–10654, 2020."
+      ]
+    },
+    {
+      "block_index": 5,
+      "source_text": "[6] Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, Xudong Zou, et al. Pedhunter: Occlusion robust pedestrian detector in crowded scenes. In AAAI, pages 10639– 10646, 2020.",
+      "line_start": 6,
+      "line_end": 6,
+      "proposed_entries": [
+        "[6] Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, Xudong Zou, et al. Pedhunter: Occlusion robust pedestrian detector in crowded scenes. In AAAI, pages 10639– 10646, 2020."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[7] Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proceedings of the IEEE international conference on computer vision, pages 764–773, 2017.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[7] Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proceedings of the IEEE international conference on computer vision, pages 764–773, 2017."
+      ]
+    },
+    {
+      "block_index": 7,
+      "source_text": "[8] Piotr Dollar, Christian Wojek, Bernt Schiele, and Pietro Perona. Pedestrian detection: An evaluation of the state of the art. IEEE transactions on pattern analysis and machine intelligence, 34(4):743–761, 2011.",
+      "line_start": 8,
+      "line_end": 8,
+      "proposed_entries": [
+        "[8] Piotr Dollar, Christian Wojek, Bernt Schiele, and Pietro Perona. Pedestrian detection: An evaluation of the state of the art. IEEE transactions on pattern analysis and machine intelligence, 34(4):743–761, 2011."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[9] Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, and Qi Tian. Centernet: Keypoint triplets for object detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 6569–6578, 2019.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[9] Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, and Qi Tian. Centernet: Keypoint triplets for object detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 6569–6578, 2019."
+      ]
+    },
+    {
+      "block_index": 9,
+      "source_text": "[10] Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn: Learning scalable feature pyramid architecture for object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7036–7045, 2019.",
+      "line_start": 10,
+      "line_end": 10,
+      "proposed_entries": [
+        "[10] Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn: Learning scalable feature pyramid architecture for object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7036–7045, 2019."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[11] Ross Girshick. Fast r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 1440–1448, 2015.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[11] Ross Girshick. Fast r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 1440–1448, 2015."
+      ]
+    },
+    {
+      "block_index": 11,
+      "source_text": "[12] Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 580–587, 2014.",
+      "line_start": 12,
+      "line_end": 12,
+      "proposed_entries": [
+        "[12] Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 580–587, 2014."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[13] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-´ shick. Mask r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2961–2969, 2017.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[13] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-´ shick. Mask r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2961–2969, 2017."
+      ]
+    },
+    {
+      "block_index": 13,
+      "source_text": "[14] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. IEEE transactions on pattern analysis and machine intelligence, 37(9):1904–1916, 2015.",
+      "line_start": 14,
+      "line_end": 14,
+      "proposed_entries": [
+        "[14] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. IEEE transactions on pattern analysis and machine intelligence, 37(9):1904–1916, 2015."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[15] Yihui He, Xiangyu Zhang, Marios Savvides, and Kris Kitani. Softer-nms: Rethinking bounding box regression for accurate object detection. arXiv preprint arXiv:1809.08545, 2, 2018.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[15] Yihui He, Xiangyu Zhang, Marios Savvides, and Kris Kitani. Softer-nms: Rethinking bounding box regression for accurate object detection. arXiv preprint arXiv:1809.08545, 2, 2018."
+      ]
+    },
+    {
+      "block_index": 15,
+      "source_text": "[16] Han Hu, Jiayuan Gu, Zheng Zhang, Jifeng Dai, and Yichen Wei. Relation networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3588–3597, 2018.",
+      "line_start": 16,
+      "line_end": 16,
+      "proposed_entries": [
+        "[16] Han Hu, Jiayuan Gu, Zheng Zhang, Jifeng Dai, and Yichen Wei. Relation networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3588–3597, 2018."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[17] Xin Huang, Zheng Ge, Zequn Jie, and Osamu Yoshie. Nms by representative region: Towards crowded pedestrian detection by proposal pairing. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10750–10759, 2020.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[17] Xin Huang, Zheng Ge, Zequn Jie, and Osamu Yoshie. Nms by representative region: Towards crowded pedestrian detection by proposal pairing. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10750–10759, 2020."
+      ]
+    },
+    {
+      "block_index": 17,
+      "source_text": "[18] Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang. Mask scoring r-cnn. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6409–6418, 2019.",
+      "line_start": 18,
+      "line_end": 18,
+      "proposed_entries": [
+        "[18] Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang. Mask scoring r-cnn. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6409–6418, 2019."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[19] Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, and Yuning Jiang. Acquisition of localization confidence for accurate object detection. In Proceedings of the European Conference on Computer Vision (ECCV), pages 784–799, 2018.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[19] Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, and Yuning Jiang. Acquisition of localization confidence for accurate object detection. In Proceedings of the European Conference on Computer Vision (ECCV), pages 784–799, 2018."
+      ]
+    },
+    {
+      "block_index": 19,
+      "source_text": "[20] Buyu Li, Yu Liu, and Xiaogang Wang. Gradient harmonized single-stage detector. arXiv preprint arXiv:1811.05181, 2018.",
+      "line_start": 20,
+      "line_end": 20,
+      "proposed_entries": [
+        "[20] Buyu Li, Yu Liu, and Xiaogang Wang. Gradient harmonized single-stage detector. arXiv preprint arXiv:1811.05181, 2018."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[21] Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He,´ Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2117–2125, 2017.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[21] Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He,´ Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2117–2125, 2017."
+      ]
+    },
+    {
+      "block_index": 21,
+      "source_text": "[22] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense object detection. In ´ Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2980–2988, 2017.",
+      "line_start": 22,
+      "line_end": 22,
+      "proposed_entries": [
+        "[22] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense object detection. In ´ Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2980–2988, 2017."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[23] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco: Common objects in context. In European conference on computer vision, pages 740–755. Springer, 2014.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[23] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco: Common objects in context. In European conference on computer vision, pages 740–755. Springer, 2014."
+      ]
+    },
+    {
+      "block_index": 23,
+      "source_text": "[24] Songtao Liu, Di Huang, and Yunhong Wang. Adaptive nms: Refining pedestrian detection in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 6459–6468, 2019.",
+      "line_start": 24,
+      "line_end": 24,
+      "proposed_entries": [
+        "[24] Songtao Liu, Di Huang, and Yunhong Wang. Adaptive nms: Refining pedestrian detection in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 6459–6468, 2019."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[25] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd: Single shot multibox detector. In European Conference on Computer Vision (ECCV), pages 21–37. Springer, 2016.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[25] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd: Single shot multibox detector. In European Conference on Computer Vision (ECCV), pages 21–37. Springer, 2016."
+      ]
+    },
+    {
+      "block_index": 25,
+      "source_text": "[26] Wei Liu, Shengcai Liao, Weidong Hu, Xuezhi Liang, and Xiao Chen. Learning efficient single-stage pedestrian detectors by asymptotic localization fitting. In Proceedings of the European Conference on Computer Vision (ECCV), pages 618–634, 2018.",
+      "line_start": 26,
+      "line_end": 26,
+      "proposed_entries": [
+        "[26] Wei Liu, Shengcai Liao, Weidong Hu, Xuezhi Liang, and Xiao Chen. Learning efficient single-stage pedestrian detectors by asymptotic localization fitting. In Proceedings of the European Conference on Computer Vision (ECCV), pages 618–634, 2018."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[27] Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, and Yinan Yu. High-level semantic feature detection: A new perspective for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5187–5196, 2019.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[27] Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, and Yinan Yu. High-level semantic feature detection: A new perspective for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5187–5196, 2019."
+      ]
+    },
+    {
+      "block_index": 27,
+      "source_text": "[28] Yanwei Pang, Jin Xie, Muhammad Haris Khan, Rao Muhammad Anwer, Fahad Shahbaz Khan, and Ling Shao. Mask-guided attention network for occluded pedestrian detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 4967–4975, 2019.",
+      "line_start": 28,
+      "line_end": 28,
+      "proposed_entries": [
+        "[28] Yanwei Pang, Jin Xie, Muhammad Haris Khan, Rao Muhammad Anwer, Fahad Shahbaz Khan, and Ling Shao. Mask-guided attention network for occluded pedestrian detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 4967–4975, 2019."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[29] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once: Unified, real-time object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 779– 788, 2016.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[29] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once: Unified, real-time object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 779– 788, 2016."
+      ]
+    },
+    {
+      "block_index": 29,
+      "source_text": "[30] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. In Advances in neural information processing systems, pages 91–99, 2015.",
+      "line_start": 30,
+      "line_end": 30,
+      "proposed_entries": [
+        "[30] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. In Advances in neural information processing systems, pages 91–99, 2015."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[31] Shuai Shao, Zijian Zhao, Boxun Li, Tete Xiao, Gang Yu, Xiangyu Zhang, and Jian Sun. Crowdhuman: A benchmark for detecting human in a crowd. arXiv preprint arXiv:1805.00123, 2018.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[31] Shuai Shao, Zijian Zhao, Boxun Li, Tete Xiao, Gang Yu, Xiangyu Zhang, and Jian Sun. Crowdhuman: A benchmark for detecting human in a crowd. arXiv preprint arXiv:1805.00123, 2018."
+      ]
+    },
+    {
+      "block_index": 31,
+      "source_text": "[32] Tao Song, Leiyu Sun, Di Xie, Haiming Sun, and Shiliang Pu. Small-scale pedestrian detection based on topological line localization and temporal feature aggregation. In Proceedings of the European Conference on Computer Vision (ECCV), pages 536–551, 2018.",
+      "line_start": 32,
+      "line_end": 32,
+      "proposed_entries": [
+        "[32] Tao Song, Leiyu Sun, Di Xie, Haiming Sun, and Shiliang Pu. Small-scale pedestrian detection based on topological line localization and temporal feature aggregation. In Proceedings of the European Conference on Computer Vision (ECCV), pages 536–551, 2018."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[33] Russell Stewart, Mykhaylo Andriluka, and Andrew Y Ng. End-to-end people detection in crowded scenes. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 2325–2333, 2016.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[33] Russell Stewart, Mykhaylo Andriluka, and Andrew Y Ng. End-to-end people detection in crowded scenes. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 2325–2333, 2016."
+      ]
+    },
+    {
+      "block_index": 33,
+      "source_text": "[34] Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. Fcos: Fully convolutional one-stage object detection. In Proceedings of the IEEE international conference on computer vision, pages 9627–9636, 2019.",
+      "line_start": 34,
+      "line_end": 34,
+      "proposed_entries": [
+        "[34] Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. Fcos: Fully convolutional one-stage object detection. In Proceedings of the IEEE international conference on computer vision, pages 9627–9636, 2019."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[35] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pages 5998–6008, 2017.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[35] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pages 5998–6008, 2017."
+      ]
+    },
+    {
+      "block_index": 35,
+      "source_text": "[36] Xinlong Wang, Tete Xiao, Yuning Jiang, Shuai Shao, Jian Sun, and Chunhua Shen. Repulsion loss: Detecting pedestrians in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7774– 7783, 2018.",
+      "line_start": 36,
+      "line_end": 36,
+      "proposed_entries": [
+        "[36] Xinlong Wang, Tete Xiao, Yuning Jiang, Shuai Shao, Jian Sun, and Chunhua Shen. Repulsion loss: Detecting pedestrians in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7774– 7783, 2018."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[37] Zixuan Xu, Banghuai Li, Ye Yuan, and Anhong Dang. Beta r-cnn: Looking into pedestrian detection from another perspective. Advances in Neural Information Processing Systems, 33, 2020.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[37] Zixuan Xu, Banghuai Li, Ye Yuan, and Anhong Dang. Beta r-cnn: Looking into pedestrian detection from another perspective. Advances in Neural Information Processing Systems, 33, 2020."
+      ]
+    },
+    {
+      "block_index": 37,
+      "source_text": "[38] Shanshan Zhang, Rodrigo Benenson, Mohamed Omran, Jan Hosang, and Bernt Schiele. How far are we from solving pedestrian detection? In Proceedings of the iEEE conference on computer vision and pattern recognition, pages 1259– 1267, 2016.",
+      "line_start": 38,
+      "line_end": 38,
+      "proposed_entries": [
+        "[38] Shanshan Zhang, Rodrigo Benenson, Mohamed Omran, Jan Hosang, and Bernt Schiele. How far are we from solving pedestrian detection? In Proceedings of the iEEE conference on computer vision and pattern recognition, pages 1259– 1267, 2016."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[39] Shanshan Zhang, Rodrigo Benenson, and Bernt Schiele. Citypersons: A diverse dataset for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3213–3221, 2017.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[39] Shanshan Zhang, Rodrigo Benenson, and Bernt Schiele. Citypersons: A diverse dataset for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3213–3221, 2017."
+      ]
+    },
+    {
+      "block_index": 39,
+      "source_text": "[40] Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li. Occlusion-aware r-cnn: detecting pedestrians in a crowd. In Proceedings of the European Conference on Computer Vision (ECCV), pages 637–653, 2018.",
+      "line_start": 40,
+      "line_end": 40,
+      "proposed_entries": [
+        "[40] Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li. Occlusion-aware r-cnn: detecting pedestrians in a crowd. In Proceedings of the European Conference on Computer Vision (ECCV), pages 637–653, 2018."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[41] Xingyi Zhou, Dequan Wang, and Philipp Krahenb ¨ uhl. Ob- ¨ jects as points. arXiv preprint arXiv:1904.07850, 2019.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[41] Xingyi Zhou, Dequan Wang, and Philipp Krahenb ¨ uhl. Ob- ¨ jects as points. arXiv preprint arXiv:1904.07850, 2019."
+      ]
+    },
+    {
+      "block_index": 41,
+      "source_text": "[42] Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai. Deformable convnets v2: More deformable, better results. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9308–9316, 2019.",
+      "line_start": 42,
+      "line_end": 42,
+      "proposed_entries": [
+        "[42] Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai. Deformable convnets v2: More deformable, better results. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9308–9316, 2019."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[43] Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. arXiv preprint arXiv:2010.04159, 2020.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[43] Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. arXiv preprint arXiv:2010.04159, 2020."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] https://en.wikipedia.org/wiki/Hungarian_ algorithm/. 2",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "https",
+          "author_candidates": [
+            "https"
+          ],
+          "title_candidate": "//en.wikipedia.org/wiki/Hungarian_ algorithm/. 2",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry S Davis. Soft-nms–improving object detection with one line of code. In Proceedings of the IEEE international conference on computer vision, pages 5561–5569, 2017.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry S Davis",
+          "author_candidates": [
+            "Bodla, Bharat Singh"
+          ],
+          "title_candidate": "Soft-nms–improving object detection with one line of code",
+          "container_candidate": "In Proceedings of the IEEE international conference on computer vision, pages 5561–5569, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry S Davis",
+          "author_candidates": [
+            "Bodla, Bharat Singh"
+          ],
+          "title_candidate": "Soft-nms–improving object detection with one line of code",
+          "container_candidate": "In Proceedings of the IEEE international conference on computer vision, pages 5561–5569,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry S Davis",
+          "author_candidates": [
+            "Bodla, Bharat Singh"
+          ],
+          "title_candidate": "Soft-nms–improving object detection with one line of code. In Proceedings of the IEEE international conference on computer vision, pages 5561–5569",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry S Davis",
+          "author_candidates": [
+            "Bodla, Bharat Singh"
+          ],
+          "title_candidate": "Soft-nms–improving object detection with one line of code. In Proceedings of the IEEE international conference on computer vision, pages 5561–5569, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: High quality object detection and instance segmentation. arXiv preprint arXiv:1906.09756, 2019.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhaowei Cai and Nuno Vasconcelos",
+          "author_candidates": [
+            "Zhaowei Cai",
+            "Nuno Vasconcelos"
+          ],
+          "title_candidate": "Cascade r-cnn: High quality object detection and instance segmentation. arXiv preprint",
+          "container_candidate": "arXiv:1906.09756, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhaowei Cai and Nuno Vasconcelos",
+          "author_candidates": [
+            "Zhaowei Cai",
+            "Nuno Vasconcelos"
+          ],
+          "title_candidate": "Cascade r-cnn: High quality object detection and instance segmentation",
+          "container_candidate": "arXiv preprint arXiv:1906.09756,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn",
+          "author_candidates": [
+            "Zhaowei Cai",
+            "Nuno Vasconcelos. Cascade r-cnn"
+          ],
+          "title_candidate": "High quality object detection and instance segmentation. arXiv preprint arXiv:1906.09756",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn",
+          "author_candidates": [
+            "Zhaowei Cai",
+            "Nuno Vasconcelos. Cascade r-cnn"
+          ],
+          "title_candidate": "High quality object detection and instance segmentation. arXiv preprint arXiv:1906.09756, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. Endto-end object detection with transformers. arXiv preprint arXiv:2005.12872, 2020.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "Endto-end object detection with transformers. arXiv preprint",
+          "container_candidate": "arXiv:2005.12872, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "Endto-end object detection with transformers",
+          "container_candidate": "arXiv preprint arXiv:2005.12872,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. Endto-end object detection with transformers. arXiv preprint arXiv",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "2005.12872",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. Endto-end object detection with transformers. arXiv preprint arXiv",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "2005.12872, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, and Xudong Zou. Relational learning for joint head and human detection. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 10647–10654, 2020.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "venue_marker_split",
+          "author_text": "Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, and Xudong Zou",
+          "author_candidates": [
+            "Chi, Shifeng Zhang",
+            "Xing, Zhen Lei"
+          ],
+          "title_candidate": "Relational learning for joint head and human detection",
+          "container_candidate": "In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 10647–10654, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, and Xudong Zou",
+          "author_candidates": [
+            "Chi, Shifeng Zhang",
+            "Xing, Zhen Lei"
+          ],
+          "title_candidate": "Relational learning for joint head and human detection",
+          "container_candidate": "In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 10647–10654,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, and Xudong Zou",
+          "author_candidates": [
+            "Chi, Shifeng Zhang",
+            "Xing, Zhen Lei"
+          ],
+          "title_candidate": "Relational learning for joint head and human detection. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 10647–10654",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, and Xudong Zou",
+          "author_candidates": [
+            "Chi, Shifeng Zhang",
+            "Xing, Zhen Lei"
+          ],
+          "title_candidate": "Relational learning for joint head and human detection. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 10647–10654, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, Xudong Zou, et al. Pedhunter: Occlusion robust pedestrian detector in crowded scenes. In AAAI, pages 10639– 10646, 2020.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, Xudong Zou, et al",
+          "author_candidates": [
+            "Chi, Shifeng Zhang",
+            "Xing, Zhen Lei",
+            "Li, Xudong Zou"
+          ],
+          "title_candidate": "Pedhunter: Occlusion robust pedestrian detector in crowded scenes",
+          "container_candidate": "In AAAI, pages 10639– 10646, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, Xudong Zou, et al",
+          "author_candidates": [
+            "Chi, Shifeng Zhang",
+            "Xing, Zhen Lei",
+            "Li, Xudong Zou"
+          ],
+          "title_candidate": "Pedhunter: Occlusion robust pedestrian detector in crowded scenes",
+          "container_candidate": "In AAAI, pages 10639– 10646,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, Xudong Zou, et al. Pedhunter",
+          "author_candidates": [
+            "Chi, Shifeng Zhang",
+            "Xing, Zhen Lei",
+            "Li, Xudong Zou"
+          ],
+          "title_candidate": "Occlusion robust pedestrian detector in crowded scenes. In AAAI, pages 10639– 10646",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Cheng Chi, Shifeng Zhang, Junliang Xing, Zhen Lei, Stan Z Li, Xudong Zou, et al. Pedhunter",
+          "author_candidates": [
+            "Chi, Shifeng Zhang",
+            "Xing, Zhen Lei",
+            "Li, Xudong Zou"
+          ],
+          "title_candidate": "Occlusion robust pedestrian detector in crowded scenes. In AAAI, pages 10639– 10646, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proceedings of the IEEE international conference on computer vision, pages 764–773, 2017.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei",
+          "author_candidates": [
+            "Dai, Haozhi Qi",
+            "Xiong, Yi Li",
+            "Zhang, Han Hu"
+          ],
+          "title_candidate": "Deformable convolutional networks",
+          "container_candidate": "In Proceedings of the IEEE international conference on computer vision, pages 764–773, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei",
+          "author_candidates": [
+            "Dai, Haozhi Qi",
+            "Xiong, Yi Li",
+            "Zhang, Han Hu"
+          ],
+          "title_candidate": "Deformable convolutional networks",
+          "container_candidate": "In Proceedings of the IEEE international conference on computer vision, pages 764–773,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei",
+          "author_candidates": [
+            "Dai, Haozhi Qi",
+            "Xiong, Yi Li",
+            "Zhang, Han Hu"
+          ],
+          "title_candidate": "Deformable convolutional networks. In Proceedings of the IEEE international conference on computer vision, pages 764–773",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei",
+          "author_candidates": [
+            "Dai, Haozhi Qi",
+            "Xiong, Yi Li",
+            "Zhang, Han Hu"
+          ],
+          "title_candidate": "Deformable convolutional networks. In Proceedings of the IEEE international conference on computer vision, pages 764–773, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Piotr Dollar, Christian Wojek, Bernt Schiele, and Pietro Perona. Pedestrian detection: An evaluation of the state of the art. IEEE transactions on pattern analysis and machine intelligence, 34(4):743–761, 2011.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Piotr Dollar, Christian Wojek, Bernt Schiele, and Pietro Perona",
+          "author_candidates": [
+            "Dollar, Christian Wojek"
+          ],
+          "title_candidate": "Pedestrian detection: An evaluation of the state of the art",
+          "container_candidate": "IEEE transactions on pattern analysis and machine intelligence, 34(4):743–761,",
+          "year_candidate": 2011,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Piotr Dollar, Christian Wojek, Bernt Schiele, and Pietro Perona. Pedestrian detection",
+          "author_candidates": [
+            "Dollar, Christian Wojek"
+          ],
+          "title_candidate": "An evaluation of the state of the art. IEEE transactions on pattern analysis and machine intelligence, 34(4):743–761",
+          "container_candidate": "",
+          "year_candidate": 2011,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Piotr Dollar, Christian Wojek, Bernt Schiele, and Pietro Perona. Pedestrian detection",
+          "author_candidates": [
+            "Dollar, Christian Wojek"
+          ],
+          "title_candidate": "An evaluation of the state of the art. IEEE transactions on pattern analysis and machine intelligence, 34(4):743–761, 2011",
+          "container_candidate": "",
+          "year_candidate": 2011,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, and Qi Tian. Centernet: Keypoint triplets for object detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 6569–6578, 2019.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, and Qi Tian",
+          "author_candidates": [
+            "Duan, Song Bai",
+            "Xie, Honggang Qi"
+          ],
+          "title_candidate": "Centernet: Keypoint triplets for object detection",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision, pages 6569–6578, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, and Qi Tian",
+          "author_candidates": [
+            "Duan, Song Bai",
+            "Xie, Honggang Qi"
+          ],
+          "title_candidate": "Centernet: Keypoint triplets for object detection",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision, pages 6569–6578,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, and Qi Tian. Centernet",
+          "author_candidates": [
+            "Duan, Song Bai",
+            "Xie, Honggang Qi"
+          ],
+          "title_candidate": "Keypoint triplets for object detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 6569–6578",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, and Qi Tian. Centernet",
+          "author_candidates": [
+            "Duan, Song Bai",
+            "Xie, Honggang Qi"
+          ],
+          "title_candidate": "Keypoint triplets for object detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 6569–6578, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn: Learning scalable feature pyramid architecture for object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7036–7045, 2019.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le",
+          "author_candidates": [
+            "Ghiasi, Tsung-Yi Lin"
+          ],
+          "title_candidate": "Nas-fpn: Learning scalable feature pyramid architecture for object detection",
+          "container_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7036–7045, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le",
+          "author_candidates": [
+            "Ghiasi, Tsung-Yi Lin"
+          ],
+          "title_candidate": "Nas-fpn: Learning scalable feature pyramid architecture for object detection",
+          "container_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7036–7045,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn",
+          "author_candidates": [
+            "Ghiasi, Tsung-Yi Lin"
+          ],
+          "title_candidate": "Learning scalable feature pyramid architecture for object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7036–7045",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn",
+          "author_candidates": [
+            "Ghiasi, Tsung-Yi Lin"
+          ],
+          "title_candidate": "Learning scalable feature pyramid architecture for object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7036–7045, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Ross Girshick. Fast r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 1440–1448, 2015.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "venue_marker_split",
+          "author_text": "Ross Girshick",
+          "author_candidates": [
+            "Ross Girshick"
+          ],
+          "title_candidate": "Fast r-cnn",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 1440–1448, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ross Girshick",
+          "author_candidates": [
+            "Ross Girshick"
+          ],
+          "title_candidate": "Fast r-cnn",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 1440–1448,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ross Girshick",
+          "author_candidates": [
+            "Ross Girshick"
+          ],
+          "title_candidate": "Fast r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 1440–1448",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ross Girshick",
+          "author_candidates": [
+            "Ross Girshick"
+          ],
+          "title_candidate": "Fast r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 1440–1448, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 580–587, 2014.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik",
+          "author_candidates": [
+            "Girshick, Jeff Donahue"
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 580–587, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik",
+          "author_candidates": [
+            "Girshick, Jeff Donahue"
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 580–587,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik",
+          "author_candidates": [
+            "Girshick, Jeff Donahue"
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 580–587",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik",
+          "author_candidates": [
+            "Girshick, Jeff Donahue"
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 580–587, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-´ shick. Mask r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2961–2969, 2017.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-´ shick",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Mask r-cnn",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2961–2969, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-´ shick",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Mask r-cnn",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2961–2969,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-´ shick",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Mask r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2961–2969",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-´ shick",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Mask r-cnn. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2961–2969, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. IEEE transactions on pattern analysis and machine intelligence, 37(9):1904–1916, 2015.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Spatial pyramid pooling in deep convolutional networks for visual recognition",
+          "container_candidate": "IEEE transactions on pattern analysis and machine intelligence, 37(9):1904–1916,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. IEEE transactions on pattern analysis and machine intelligence, 37(9)",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "1904–1916",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. IEEE transactions on pattern analysis and machine intelligence, 37(9)",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "1904–1916, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Yihui He, Xiangyu Zhang, Marios Savvides, and Kris Kitani. Softer-nms: Rethinking bounding box regression for accurate object detection. arXiv preprint arXiv:1809.08545, 2, 2018.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Yihui He, Xiangyu Zhang, Marios Savvides, and Kris Kitani",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Softer-nms: Rethinking bounding box regression for accurate object detection. arXiv preprint",
+          "container_candidate": "arXiv:1809.08545, 2, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yihui He, Xiangyu Zhang, Marios Savvides, and Kris Kitani",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Softer-nms: Rethinking bounding box regression for accurate object detection",
+          "container_candidate": "arXiv preprint arXiv:1809.08545, 2,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yihui He, Xiangyu Zhang, Marios Savvides, and Kris Kitani. Softer-nms",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Rethinking bounding box regression for accurate object detection. arXiv preprint arXiv:1809.08545, 2",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yihui He, Xiangyu Zhang, Marios Savvides, and Kris Kitani. Softer-nms",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Rethinking bounding box regression for accurate object detection. arXiv preprint arXiv:1809.08545, 2, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Han Hu, Jiayuan Gu, Zheng Zhang, Jifeng Dai, and Yichen Wei. Relation networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3588–3597, 2018.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Han Hu, Jiayuan Gu, Zheng Zhang, Jifeng Dai, and Yichen Wei",
+          "author_candidates": [
+            "Hu, Jiayuan Gu",
+            "Zhang, Jifeng Dai"
+          ],
+          "title_candidate": "Relation networks for object detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3588–3597, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Han Hu, Jiayuan Gu, Zheng Zhang, Jifeng Dai, and Yichen Wei",
+          "author_candidates": [
+            "Hu, Jiayuan Gu",
+            "Zhang, Jifeng Dai"
+          ],
+          "title_candidate": "Relation networks for object detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3588–3597,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Han Hu, Jiayuan Gu, Zheng Zhang, Jifeng Dai, and Yichen Wei",
+          "author_candidates": [
+            "Hu, Jiayuan Gu",
+            "Zhang, Jifeng Dai"
+          ],
+          "title_candidate": "Relation networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3588–3597",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Han Hu, Jiayuan Gu, Zheng Zhang, Jifeng Dai, and Yichen Wei",
+          "author_candidates": [
+            "Hu, Jiayuan Gu",
+            "Zhang, Jifeng Dai"
+          ],
+          "title_candidate": "Relation networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3588–3597, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Xin Huang, Zheng Ge, Zequn Jie, and Osamu Yoshie. Nms by representative region: Towards crowded pedestrian detection by proposal pairing. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10750–10759, 2020.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Xin Huang, Zheng Ge, Zequn Jie, and Osamu Yoshie",
+          "author_candidates": [
+            "Huang, Zheng Ge"
+          ],
+          "title_candidate": "Nms by representative region: Towards crowded pedestrian detection by proposal pairing",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10750–10759, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xin Huang, Zheng Ge, Zequn Jie, and Osamu Yoshie",
+          "author_candidates": [
+            "Huang, Zheng Ge"
+          ],
+          "title_candidate": "Nms by representative region: Towards crowded pedestrian detection by proposal pairing",
+          "container_candidate": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10750–10759,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xin Huang, Zheng Ge, Zequn Jie, and Osamu Yoshie. Nms by representative region",
+          "author_candidates": [
+            "Huang, Zheng Ge"
+          ],
+          "title_candidate": "Towards crowded pedestrian detection by proposal pairing. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10750–10759",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xin Huang, Zheng Ge, Zequn Jie, and Osamu Yoshie. Nms by representative region",
+          "author_candidates": [
+            "Huang, Zheng Ge"
+          ],
+          "title_candidate": "Towards crowded pedestrian detection by proposal pairing. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10750–10759, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang. Mask scoring r-cnn. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6409–6418, 2019.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang",
+          "author_candidates": [
+            "Huang, Lichao Huang",
+            "Gong, Chang Huang"
+          ],
+          "title_candidate": "Mask scoring r-cnn",
+          "container_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6409–6418, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang",
+          "author_candidates": [
+            "Huang, Lichao Huang",
+            "Gong, Chang Huang"
+          ],
+          "title_candidate": "Mask scoring r-cnn",
+          "container_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6409–6418,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang",
+          "author_candidates": [
+            "Huang, Lichao Huang",
+            "Gong, Chang Huang"
+          ],
+          "title_candidate": "Mask scoring r-cnn. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6409–6418",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang",
+          "author_candidates": [
+            "Huang, Lichao Huang",
+            "Gong, Chang Huang"
+          ],
+          "title_candidate": "Mask scoring r-cnn. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6409–6418, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, and Yuning Jiang. Acquisition of localization confidence for accurate object detection. In Proceedings of the European Conference on Computer Vision (ECCV), pages 784–799, 2018.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, and Yuning Jiang",
+          "author_candidates": [
+            "Jiang, Ruixuan Luo",
+            "Mao, Tete Xiao"
+          ],
+          "title_candidate": "Acquisition of localization confidence for accurate object detection",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision (ECCV), pages 784–799, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, and Yuning Jiang",
+          "author_candidates": [
+            "Jiang, Ruixuan Luo",
+            "Mao, Tete Xiao"
+          ],
+          "title_candidate": "Acquisition of localization confidence for accurate object detection",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision (ECCV), pages 784–799,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, and Yuning Jiang",
+          "author_candidates": [
+            "Jiang, Ruixuan Luo",
+            "Mao, Tete Xiao"
+          ],
+          "title_candidate": "Acquisition of localization confidence for accurate object detection. In Proceedings of the European Conference on Computer Vision (ECCV), pages 784–799",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Borui Jiang, Ruixuan Luo, Jiayuan Mao, Tete Xiao, and Yuning Jiang",
+          "author_candidates": [
+            "Jiang, Ruixuan Luo",
+            "Mao, Tete Xiao"
+          ],
+          "title_candidate": "Acquisition of localization confidence for accurate object detection. In Proceedings of the European Conference on Computer Vision (ECCV), pages 784–799, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Buyu Li, Yu Liu, and Xiaogang Wang. Gradient harmonized single-stage detector. arXiv preprint arXiv:1811.05181, 2018.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Buyu Li, Yu Liu, and Xiaogang Wang",
+          "author_candidates": [
+            "Li, Yu Liu"
+          ],
+          "title_candidate": "Gradient harmonized single-stage detector. arXiv preprint",
+          "container_candidate": "arXiv:1811.05181, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Buyu Li, Yu Liu, and Xiaogang Wang",
+          "author_candidates": [
+            "Li, Yu Liu"
+          ],
+          "title_candidate": "Gradient harmonized single-stage detector",
+          "container_candidate": "arXiv preprint arXiv:1811.05181,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Buyu Li, Yu Liu, and Xiaogang Wang. Gradient harmonized single-stage detector. arXiv preprint arXiv",
+          "author_candidates": [
+            "Li, Yu Liu"
+          ],
+          "title_candidate": "1811.05181",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Buyu Li, Yu Liu, and Xiaogang Wang. Gradient harmonized single-stage detector. arXiv preprint arXiv",
+          "author_candidates": [
+            "Li, Yu Liu"
+          ],
+          "title_candidate": "1811.05181, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He,´ Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2117–2125, 2017.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He,´ Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Dollar",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2117–2125, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He,´ Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Dollar",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2117–2125,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He,´ Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Dollar",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2117–2125",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He,´ Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Dollar",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2117–2125, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense object detection. In ´ Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2980–2988, 2017.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection",
+          "container_candidate": "In ´ Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2980–2988, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection",
+          "container_candidate": "In ´ Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2980–2988,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection. In ´ Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2980–2988",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection. In ´ Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2980–2988, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco: Common objects in context. In European conference on computer vision, pages 740–755. Springer, 2014.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft coco: Common objects in context",
+          "container_candidate": "In European conference on computer vision, pages 740–755. Springer, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft coco: Common objects in context",
+          "container_candidate": "In European conference on computer vision, pages 740–755. Springer,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In European conference on computer vision, pages 740–755. Springer",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In European conference on computer vision, pages 740–755. Springer, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Songtao Liu, Di Huang, and Yunhong Wang. Adaptive nms: Refining pedestrian detection in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 6459–6468, 2019.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "venue_marker_split",
+          "author_text": "Songtao Liu, Di Huang, and Yunhong Wang",
+          "author_candidates": [
+            "Liu, Di Huang"
+          ],
+          "title_candidate": "Adaptive nms: Refining pedestrian detection in a crowd",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 6459–6468, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Songtao Liu, Di Huang, and Yunhong Wang",
+          "author_candidates": [
+            "Liu, Di Huang"
+          ],
+          "title_candidate": "Adaptive nms: Refining pedestrian detection in a crowd",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 6459–6468,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Songtao Liu, Di Huang, and Yunhong Wang. Adaptive nms",
+          "author_candidates": [
+            "Liu, Di Huang"
+          ],
+          "title_candidate": "Refining pedestrian detection in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 6459–6468",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Songtao Liu, Di Huang, and Yunhong Wang. Adaptive nms",
+          "author_candidates": [
+            "Liu, Di Huang"
+          ],
+          "title_candidate": "Refining pedestrian detection in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 6459–6468, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd: Single shot multibox detector. In European Conference on Computer Vision (ECCV), pages 21–37. Springer, 2016.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "venue_marker_split",
+          "author_text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg",
+          "author_candidates": [
+            "Liu, Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "Reed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector",
+          "container_candidate": "In European Conference on Computer Vision (ECCV), pages 21–37. Springer, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg",
+          "author_candidates": [
+            "Liu, Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "Reed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector",
+          "container_candidate": "In European Conference on Computer Vision (ECCV), pages 21–37. Springer,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd",
+          "author_candidates": [
+            "Liu, Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "Reed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Single shot multibox detector. In European Conference on Computer Vision (ECCV), pages 21–37. Springer",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd",
+          "author_candidates": [
+            "Liu, Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "Reed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Single shot multibox detector. In European Conference on Computer Vision (ECCV), pages 21–37. Springer, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Wei Liu, Shengcai Liao, Weidong Hu, Xuezhi Liang, and Xiao Chen. Learning efficient single-stage pedestrian detectors by asymptotic localization fitting. In Proceedings of the European Conference on Computer Vision (ECCV), pages 618–634, 2018.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "Wei Liu, Shengcai Liao, Weidong Hu, Xuezhi Liang, and Xiao Chen",
+          "author_candidates": [
+            "Liu, Shengcai Liao",
+            "Hu, Xuezhi Liang"
+          ],
+          "title_candidate": "Learning efficient single-stage pedestrian detectors by asymptotic localization fitting",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision (ECCV), pages 618–634, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Wei Liu, Shengcai Liao, Weidong Hu, Xuezhi Liang, and Xiao Chen",
+          "author_candidates": [
+            "Liu, Shengcai Liao",
+            "Hu, Xuezhi Liang"
+          ],
+          "title_candidate": "Learning efficient single-stage pedestrian detectors by asymptotic localization fitting",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision (ECCV), pages 618–634,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Wei Liu, Shengcai Liao, Weidong Hu, Xuezhi Liang, and Xiao Chen",
+          "author_candidates": [
+            "Liu, Shengcai Liao",
+            "Hu, Xuezhi Liang"
+          ],
+          "title_candidate": "Learning efficient single-stage pedestrian detectors by asymptotic localization fitting. In Proceedings of the European Conference on Computer Vision (ECCV), pages 618–634",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Wei Liu, Shengcai Liao, Weidong Hu, Xuezhi Liang, and Xiao Chen",
+          "author_candidates": [
+            "Liu, Shengcai Liao",
+            "Hu, Xuezhi Liang"
+          ],
+          "title_candidate": "Learning efficient single-stage pedestrian detectors by asymptotic localization fitting. In Proceedings of the European Conference on Computer Vision (ECCV), pages 618–634, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, and Yinan Yu. High-level semantic feature detection: A new perspective for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5187–5196, 2019.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, and Yinan Yu",
+          "author_candidates": [
+            "Liu, Shengcai Liao",
+            "Ren, Weidong Hu"
+          ],
+          "title_candidate": "High-level semantic feature detection: A new perspective for pedestrian detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5187–5196, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, and Yinan Yu",
+          "author_candidates": [
+            "Liu, Shengcai Liao",
+            "Ren, Weidong Hu"
+          ],
+          "title_candidate": "High-level semantic feature detection: A new perspective for pedestrian detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5187–5196,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, and Yinan Yu. High-level semantic feature detection",
+          "author_candidates": [
+            "Liu, Shengcai Liao",
+            "Ren, Weidong Hu"
+          ],
+          "title_candidate": "A new perspective for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5187–5196",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Wei Liu, Shengcai Liao, Weiqiang Ren, Weidong Hu, and Yinan Yu. High-level semantic feature detection",
+          "author_candidates": [
+            "Liu, Shengcai Liao",
+            "Ren, Weidong Hu"
+          ],
+          "title_candidate": "A new perspective for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5187–5196, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Yanwei Pang, Jin Xie, Muhammad Haris Khan, Rao Muhammad Anwer, Fahad Shahbaz Khan, and Ling Shao. Mask-guided attention network for occluded pedestrian detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 4967–4975, 2019.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Yanwei Pang, Jin Xie, Muhammad Haris Khan, Rao Muhammad Anwer, Fahad Shahbaz Khan, and Ling Shao",
+          "author_candidates": [
+            "Pang, Jin Xie",
+            "Khan, Rao Muhammad Anwer"
+          ],
+          "title_candidate": "Mask-guided attention network for occluded pedestrian detection",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision, pages 4967–4975, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yanwei Pang, Jin Xie, Muhammad Haris Khan, Rao Muhammad Anwer, Fahad Shahbaz Khan, and Ling Shao",
+          "author_candidates": [
+            "Pang, Jin Xie",
+            "Khan, Rao Muhammad Anwer"
+          ],
+          "title_candidate": "Mask-guided attention network for occluded pedestrian detection",
+          "container_candidate": "In Proceedings of the IEEE International Conference on Computer Vision, pages 4967–4975,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yanwei Pang, Jin Xie, Muhammad Haris Khan, Rao Muhammad Anwer, Fahad Shahbaz Khan, and Ling Shao",
+          "author_candidates": [
+            "Pang, Jin Xie",
+            "Khan, Rao Muhammad Anwer"
+          ],
+          "title_candidate": "Mask-guided attention network for occluded pedestrian detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 4967–4975",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yanwei Pang, Jin Xie, Muhammad Haris Khan, Rao Muhammad Anwer, Fahad Shahbaz Khan, and Ling Shao",
+          "author_candidates": [
+            "Pang, Jin Xie",
+            "Khan, Rao Muhammad Anwer"
+          ],
+          "title_candidate": "Mask-guided attention network for occluded pedestrian detection. In Proceedings of the IEEE International Conference on Computer Vision, pages 4967–4975, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once: Unified, real-time object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 779– 788, 2016.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "You only look once: Unified, real-time object detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 779– 788, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "You only look once: Unified, real-time object detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 779– 788,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "Unified, real-time object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 779– 788",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "Unified, real-time object detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 779– 788, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. In Advances in neural information processing systems, pages 91–99, 2015.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "venue_marker_split",
+          "author_text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun",
+          "author_candidates": [
+            "Ren, Kaiming He"
+          ],
+          "title_candidate": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+          "container_candidate": "In Advances in neural information processing systems, pages 91–99, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun",
+          "author_candidates": [
+            "Ren, Kaiming He"
+          ],
+          "title_candidate": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+          "container_candidate": "In Advances in neural information processing systems, pages 91–99,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn",
+          "author_candidates": [
+            "Ren, Kaiming He"
+          ],
+          "title_candidate": "Towards real-time object detection with region proposal networks. In Advances in neural information processing systems, pages 91–99",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn",
+          "author_candidates": [
+            "Ren, Kaiming He"
+          ],
+          "title_candidate": "Towards real-time object detection with region proposal networks. In Advances in neural information processing systems, pages 91–99, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] Shuai Shao, Zijian Zhao, Boxun Li, Tete Xiao, Gang Yu, Xiangyu Zhang, and Jian Sun. Crowdhuman: A benchmark for detecting human in a crowd. arXiv preprint arXiv:1805.00123, 2018.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Shuai Shao, Zijian Zhao, Boxun Li, Tete Xiao, Gang Yu, Xiangyu Zhang, and Jian Sun",
+          "author_candidates": [
+            "Shao, Zijian Zhao",
+            "Li, Tete Xiao",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "Crowdhuman: A benchmark for detecting human in a crowd. arXiv preprint",
+          "container_candidate": "arXiv:1805.00123, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shuai Shao, Zijian Zhao, Boxun Li, Tete Xiao, Gang Yu, Xiangyu Zhang, and Jian Sun",
+          "author_candidates": [
+            "Shao, Zijian Zhao",
+            "Li, Tete Xiao",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "Crowdhuman: A benchmark for detecting human in a crowd",
+          "container_candidate": "arXiv preprint arXiv:1805.00123,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shuai Shao, Zijian Zhao, Boxun Li, Tete Xiao, Gang Yu, Xiangyu Zhang, and Jian Sun. Crowdhuman",
+          "author_candidates": [
+            "Shao, Zijian Zhao",
+            "Li, Tete Xiao",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "A benchmark for detecting human in a crowd. arXiv preprint arXiv:1805.00123",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shuai Shao, Zijian Zhao, Boxun Li, Tete Xiao, Gang Yu, Xiangyu Zhang, and Jian Sun. Crowdhuman",
+          "author_candidates": [
+            "Shao, Zijian Zhao",
+            "Li, Tete Xiao",
+            "Yu, Xiangyu Zhang"
+          ],
+          "title_candidate": "A benchmark for detecting human in a crowd. arXiv preprint arXiv:1805.00123, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] Tao Song, Leiyu Sun, Di Xie, Haiming Sun, and Shiliang Pu. Small-scale pedestrian detection based on topological line localization and temporal feature aggregation. In Proceedings of the European Conference on Computer Vision (ECCV), pages 536–551, 2018.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "venue_marker_split",
+          "author_text": "Tao Song, Leiyu Sun, Di Xie, Haiming Sun, and Shiliang Pu",
+          "author_candidates": [
+            "Song, Leiyu Sun",
+            "Xie, Haiming Sun"
+          ],
+          "title_candidate": "Small-scale pedestrian detection based on topological line localization and temporal feature aggregation",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision (ECCV), pages 536–551, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tao Song, Leiyu Sun, Di Xie, Haiming Sun, and Shiliang Pu",
+          "author_candidates": [
+            "Song, Leiyu Sun",
+            "Xie, Haiming Sun"
+          ],
+          "title_candidate": "Small-scale pedestrian detection based on topological line localization and temporal feature aggregation",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision (ECCV), pages 536–551,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tao Song, Leiyu Sun, Di Xie, Haiming Sun, and Shiliang Pu",
+          "author_candidates": [
+            "Song, Leiyu Sun",
+            "Xie, Haiming Sun"
+          ],
+          "title_candidate": "Small-scale pedestrian detection based on topological line localization and temporal feature aggregation. In Proceedings of the European Conference on Computer Vision (ECCV), pages 536–551",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tao Song, Leiyu Sun, Di Xie, Haiming Sun, and Shiliang Pu",
+          "author_candidates": [
+            "Song, Leiyu Sun",
+            "Xie, Haiming Sun"
+          ],
+          "title_candidate": "Small-scale pedestrian detection based on topological line localization and temporal feature aggregation. In Proceedings of the European Conference on Computer Vision (ECCV), pages 536–551, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] Russell Stewart, Mykhaylo Andriluka, and Andrew Y Ng. End-to-end people detection in crowded scenes. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 2325–2333, 2016.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "venue_marker_split",
+          "author_text": "Russell Stewart, Mykhaylo Andriluka, and Andrew Y Ng",
+          "author_candidates": [
+            "Stewart, Mykhaylo Andriluka"
+          ],
+          "title_candidate": "End-to-end people detection in crowded scenes",
+          "container_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 2325–2333, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Russell Stewart, Mykhaylo Andriluka, and Andrew Y Ng",
+          "author_candidates": [
+            "Stewart, Mykhaylo Andriluka"
+          ],
+          "title_candidate": "End-to-end people detection in crowded scenes",
+          "container_candidate": "In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 2325–2333,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Russell Stewart, Mykhaylo Andriluka, and Andrew Y Ng",
+          "author_candidates": [
+            "Stewart, Mykhaylo Andriluka"
+          ],
+          "title_candidate": "End-to-end people detection in crowded scenes. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 2325–2333",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Russell Stewart, Mykhaylo Andriluka, and Andrew Y Ng",
+          "author_candidates": [
+            "Stewart, Mykhaylo Andriluka"
+          ],
+          "title_candidate": "End-to-end people detection in crowded scenes. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 2325–2333, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34] Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. Fcos: Fully convolutional one-stage object detection. In Proceedings of the IEEE international conference on computer vision, pages 9627–9636, 2019.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Fcos: Fully convolutional one-stage object detection",
+          "container_candidate": "In Proceedings of the IEEE international conference on computer vision, pages 9627–9636, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Fcos: Fully convolutional one-stage object detection",
+          "container_candidate": "In Proceedings of the IEEE international conference on computer vision, pages 9627–9636,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. Fcos",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Fully convolutional one-stage object detection. In Proceedings of the IEEE international conference on computer vision, pages 9627–9636",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. Fcos",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Fully convolutional one-stage object detection. In Proceedings of the IEEE international conference on computer vision, pages 9627–9636, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in neural information processing systems, pages 5998–6008, 2017.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "venue_marker_split",
+          "author_text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin",
+          "author_candidates": [
+            "Vaswani, Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones, Aidan N Gomez"
+          ],
+          "title_candidate": "Attention is all you need",
+          "container_candidate": "In Advances in neural information processing systems, pages 5998–6008, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin",
+          "author_candidates": [
+            "Vaswani, Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones, Aidan N Gomez"
+          ],
+          "title_candidate": "Attention is all you need",
+          "container_candidate": "In Advances in neural information processing systems, pages 5998–6008,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin",
+          "author_candidates": [
+            "Vaswani, Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones, Aidan N Gomez"
+          ],
+          "title_candidate": "Attention is all you need. In Advances in neural information processing systems, pages 5998–6008",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin",
+          "author_candidates": [
+            "Vaswani, Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones, Aidan N Gomez"
+          ],
+          "title_candidate": "Attention is all you need. In Advances in neural information processing systems, pages 5998–6008, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[36] Xinlong Wang, Tete Xiao, Yuning Jiang, Shuai Shao, Jian Sun, and Chunhua Shen. Repulsion loss: Detecting pedestrians in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7774– 7783, 2018.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "venue_marker_split",
+          "author_text": "Xinlong Wang, Tete Xiao, Yuning Jiang, Shuai Shao, Jian Sun, and Chunhua Shen",
+          "author_candidates": [
+            "Wang, Tete Xiao",
+            "Jiang, Shuai Shao"
+          ],
+          "title_candidate": "Repulsion loss: Detecting pedestrians in a crowd",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7774– 7783, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xinlong Wang, Tete Xiao, Yuning Jiang, Shuai Shao, Jian Sun, and Chunhua Shen",
+          "author_candidates": [
+            "Wang, Tete Xiao",
+            "Jiang, Shuai Shao"
+          ],
+          "title_candidate": "Repulsion loss: Detecting pedestrians in a crowd",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7774– 7783,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xinlong Wang, Tete Xiao, Yuning Jiang, Shuai Shao, Jian Sun, and Chunhua Shen. Repulsion loss",
+          "author_candidates": [
+            "Wang, Tete Xiao",
+            "Jiang, Shuai Shao"
+          ],
+          "title_candidate": "Detecting pedestrians in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7774– 7783",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xinlong Wang, Tete Xiao, Yuning Jiang, Shuai Shao, Jian Sun, and Chunhua Shen. Repulsion loss",
+          "author_candidates": [
+            "Wang, Tete Xiao",
+            "Jiang, Shuai Shao"
+          ],
+          "title_candidate": "Detecting pedestrians in a crowd. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7774– 7783, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[37] Zixuan Xu, Banghuai Li, Ye Yuan, and Anhong Dang. Beta r-cnn: Looking into pedestrian detection from another perspective. Advances in Neural Information Processing Systems, 33, 2020.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zixuan Xu, Banghuai Li, Ye Yuan, and Anhong Dang",
+          "author_candidates": [
+            "Xu, Banghuai Li"
+          ],
+          "title_candidate": "Beta r-cnn: Looking into pedestrian detection from another perspective",
+          "container_candidate": "Advances in Neural Information Processing Systems, 33,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zixuan Xu, Banghuai Li, Ye Yuan, and Anhong Dang. Beta r-cnn",
+          "author_candidates": [
+            "Xu, Banghuai Li"
+          ],
+          "title_candidate": "Looking into pedestrian detection from another perspective. Advances in Neural Information Processing Systems, 33",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zixuan Xu, Banghuai Li, Ye Yuan, and Anhong Dang. Beta r-cnn",
+          "author_candidates": [
+            "Xu, Banghuai Li"
+          ],
+          "title_candidate": "Looking into pedestrian detection from another perspective. Advances in Neural Information Processing Systems, 33, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[38] Shanshan Zhang, Rodrigo Benenson, Mohamed Omran, Jan Hosang, and Bernt Schiele. How far are we from solving pedestrian detection? In Proceedings of the iEEE conference on computer vision and pattern recognition, pages 1259– 1267, 2016.",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "venue_marker_split",
+          "author_text": "Shanshan Zhang, Rodrigo Benenson, Mohamed Omran, Jan Hosang, and Bernt Schiele",
+          "author_candidates": [
+            "Zhang, Rodrigo Benenson",
+            "Omran, Jan Hosang"
+          ],
+          "title_candidate": "How far are we from solving pedestrian detection? In",
+          "container_candidate": "Proceedings of the iEEE conference on computer vision and pattern recognition, pages 1259– 1267, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shanshan Zhang, Rodrigo Benenson, Mohamed Omran, Jan Hosang, and Bernt Schiele",
+          "author_candidates": [
+            "Zhang, Rodrigo Benenson",
+            "Omran, Jan Hosang"
+          ],
+          "title_candidate": "How far are we from solving pedestrian detection? In Proceedings of the iEEE conference on computer vision and pattern recognition, pages 1259– 1267, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shanshan Zhang, Rodrigo Benenson, Mohamed Omran, Jan Hosang, and Bernt Schiele",
+          "author_candidates": [
+            "Zhang, Rodrigo Benenson",
+            "Omran, Jan Hosang"
+          ],
+          "title_candidate": "How far are we from solving pedestrian detection? In Proceedings of the iEEE conference on computer vision and pattern recognition, pages 1259– 1267",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shanshan Zhang, Rodrigo Benenson, Mohamed Omran, Jan Hosang, and Bernt Schiele",
+          "author_candidates": [
+            "Zhang, Rodrigo Benenson",
+            "Omran, Jan Hosang"
+          ],
+          "title_candidate": "How far are we from solving pedestrian detection? In Proceedings of the iEEE conference on computer vision and pattern recognition, pages 1259– 1267, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[39] Shanshan Zhang, Rodrigo Benenson, and Bernt Schiele. Citypersons: A diverse dataset for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3213–3221, 2017.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "venue_marker_split",
+          "author_text": "Shanshan Zhang, Rodrigo Benenson, and Bernt Schiele",
+          "author_candidates": [
+            "Zhang, Rodrigo Benenson"
+          ],
+          "title_candidate": "Citypersons: A diverse dataset for pedestrian detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3213–3221, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shanshan Zhang, Rodrigo Benenson, and Bernt Schiele",
+          "author_candidates": [
+            "Zhang, Rodrigo Benenson"
+          ],
+          "title_candidate": "Citypersons: A diverse dataset for pedestrian detection",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3213–3221,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shanshan Zhang, Rodrigo Benenson, and Bernt Schiele. Citypersons",
+          "author_candidates": [
+            "Zhang, Rodrigo Benenson"
+          ],
+          "title_candidate": "A diverse dataset for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3213–3221",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shanshan Zhang, Rodrigo Benenson, and Bernt Schiele. Citypersons",
+          "author_candidates": [
+            "Zhang, Rodrigo Benenson"
+          ],
+          "title_candidate": "A diverse dataset for pedestrian detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3213–3221, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[40] Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li. Occlusion-aware r-cnn: detecting pedestrians in a crowd. In Proceedings of the European Conference on Computer Vision (ECCV), pages 637–653, 2018.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "venue_marker_split",
+          "author_text": "Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li",
+          "author_candidates": [
+            "Zhang, Longyin Wen",
+            "Bian, Zhen Lei"
+          ],
+          "title_candidate": "Occlusion-aware r-cnn: detecting pedestrians in a crowd",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision (ECCV), pages 637–653, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 39,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li",
+          "author_candidates": [
+            "Zhang, Longyin Wen",
+            "Bian, Zhen Lei"
+          ],
+          "title_candidate": "Occlusion-aware r-cnn: detecting pedestrians in a crowd",
+          "container_candidate": "In Proceedings of the European Conference on Computer Vision (ECCV), pages 637–653,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 39,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li. Occlusion-aware r-cnn",
+          "author_candidates": [
+            "Zhang, Longyin Wen",
+            "Bian, Zhen Lei"
+          ],
+          "title_candidate": "detecting pedestrians in a crowd. In Proceedings of the European Conference on Computer Vision (ECCV), pages 637–653",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li. Occlusion-aware r-cnn",
+          "author_candidates": [
+            "Zhang, Longyin Wen",
+            "Bian, Zhen Lei"
+          ],
+          "title_candidate": "detecting pedestrians in a crowd. In Proceedings of the European Conference on Computer Vision (ECCV), pages 637–653, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[41] Xingyi Zhou, Dequan Wang, and Philipp Krahenb ¨ uhl. Ob- ¨ jects as points. arXiv preprint arXiv:1904.07850, 2019.",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "venue_marker_split",
+          "author_text": "Xingyi Zhou, Dequan Wang, and Philipp Krahenb ¨ uhl",
+          "author_candidates": [
+            "Zhou, Dequan Wang"
+          ],
+          "title_candidate": "Ob- ¨ jects as points. arXiv preprint",
+          "container_candidate": "arXiv:1904.07850, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xingyi Zhou, Dequan Wang, and Philipp Krahenb ¨ uhl",
+          "author_candidates": [
+            "Zhou, Dequan Wang"
+          ],
+          "title_candidate": "Ob- ¨ jects as points",
+          "container_candidate": "arXiv preprint arXiv:1904.07850,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xingyi Zhou, Dequan Wang, and Philipp Krahenb ¨ uhl. Ob- ¨ jects as points. arXiv preprint arXiv",
+          "author_candidates": [
+            "Zhou, Dequan Wang"
+          ],
+          "title_candidate": "1904.07850",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xingyi Zhou, Dequan Wang, and Philipp Krahenb ¨ uhl. Ob- ¨ jects as points. arXiv preprint arXiv",
+          "author_candidates": [
+            "Zhou, Dequan Wang"
+          ],
+          "title_candidate": "1904.07850, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "[42] Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai. Deformable convnets v2: More deformable, better results. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9308–9316, 2019.",
+      "detected_ref_number": 42,
+      "numbering": {
+        "detected_ref_number": 42,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "venue_marker_split",
+          "author_text": "Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai",
+          "author_candidates": [
+            "Zhu, Han Hu"
+          ],
+          "title_candidate": "Deformable convnets v2: More deformable, better results",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9308–9316, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 41,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai",
+          "author_candidates": [
+            "Zhu, Han Hu"
+          ],
+          "title_candidate": "Deformable convnets v2: More deformable, better results",
+          "container_candidate": "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9308–9316,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 41,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai. Deformable convnets v2",
+          "author_candidates": [
+            "Zhu, Han Hu"
+          ],
+          "title_candidate": "More deformable, better results. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9308–9316",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 41,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai. Deformable convnets v2",
+          "author_candidates": [
+            "Zhu, Han Hu"
+          ],
+          "title_candidate": "More deformable, better results. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9308–9316, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "[43] Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. arXiv preprint arXiv:2010.04159, 2020.",
+      "detected_ref_number": 43,
+      "numbering": {
+        "detected_ref_number": 43,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "venue_marker_split",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable detr: Deformable transformers for end-to-end object detection. arXiv preprint",
+          "container_candidate": "arXiv:2010.04159, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable detr: Deformable transformers for end-to-end object detection",
+          "container_candidate": "arXiv preprint arXiv:2010.04159,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection. arXiv preprint arXiv:2010.04159",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection. arXiv preprint arXiv:2010.04159, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 42,
+      "metadata": {
+        "entry_count": 13
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=39",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=41",
+    "reference_pattern_ambiguous: entry_index=42"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.023255813953488372,
+    "year_ratio": 0.9767441860465116,
+    "warning_density": 0.9767441860465116,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

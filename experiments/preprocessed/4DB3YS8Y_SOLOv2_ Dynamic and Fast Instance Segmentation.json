@@ -1,0 +1,4098 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:40Z",
+    "entry_count": 45,
+    "candidate_count": 179,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Xinlong Wang, Tao Kong, Chunhua Shen, Yuning Jiang, and Lei Li. SOLO: Segmenting objects by locations. In Proc. Eur. Conf. Comp. Vis., 2020.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Xinlong Wang, Tao Kong, Chunhua Shen, Yuning Jiang, and Lei Li. SOLO: Segmenting objects by locations. In Proc. Eur. Conf. Comp. Vis., 2020."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] Daniel Bolya, Chong Zhou, Fanyi Xiao, and Yong Jae Lee. YOLACT: Real-time instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] Daniel Bolya, Chong Zhou, Fanyi Xiao, and Yong Jae Lee. YOLACT: Real-time instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2019."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, and Yichen Wei. Fully convolutional instance-aware semantic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, and Yichen Wei. Fully convolutional instance-aware semantic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B. Girshick. Mask R-CNN. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B. Girshick. Mask R-CNN. In Proc. IEEE Int. Conf. Comp. Vis., 2017."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia. Path aggregation network for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia. Path aggregation network for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang. Mask scoring R-CNN. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang. Mask scoring R-CNN. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar. TensorMask: A foundation for dense object segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar. TensorMask: A foundation for dense object segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2019."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] Hao Chen, Kunyang Sun, Zhi Tian, Chunhua Shen, Yongming Huang, and Youliang Yan. BlendMask: Top-down meets bottom-up for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] Hao Chen, Kunyang Sun, Zhi Tian, Chunhua Shen, Yongming Huang, and Youliang Yan. BlendMask: Top-down meets bottom-up for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] Rufeng Zhang, Zhi Tian, Chunhua Shen, Mingyu You, and Youliang Yan. Mask encoding for single shot instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] Rufeng Zhang, Zhi Tian, Chunhua Shen, Mingyu You, and Youliang Yan. Mask encoding for single shot instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, and Ping Luo. PolarMask: Single shot instance segmentation with polar representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, and Ping Luo. PolarMask: Single shot instance segmentation with polar representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. FCOS: Fully convolutional one-stage object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. FCOS: Fully convolutional one-stage object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2019."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] Alejandro Newell, Zhiao Huang, and Jia Deng. Associative embedding: End-to-end learning for joint detection and grouping. In Proc. Advances in Neural Inf. Process. Syst., 2017.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] Alejandro Newell, Zhiao Huang, and Jia Deng. Associative embedding: End-to-end learning for joint detection and grouping. In Proc. Advances in Neural Inf. Process. Syst., 2017."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[13] Bert De Brabandere, Davy Neven, and Luc Van Gool. Semantic instance segmentation with a discriminative loss function. arXiv:1708.02551, 2017.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[13] Bert De Brabandere, Davy Neven, and Luc Van Gool. Semantic instance segmentation with a discriminative loss function. arXiv:1708.02551, 2017."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[14] Shu Liu, Jiaya Jia, Sanja Fidler, and Raquel Urtasun. Sequential grouping networks for instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[14] Shu Liu, Jiaya Jia, Sanja Fidler, and Raquel Urtasun. Sequential grouping networks for instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2017."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[15] Naiyu Gao, Yanhu Shan, Yupei Wang, Xin Zhao, Yinan Yu, Ming Yang, and Kaiqi Huang. SSAP: Single-shot instance segmentation with affinity pyramid. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[15] Naiyu Gao, Yanhu Shan, Yupei Wang, Xin Zhao, Yinan Yu, Ming Yang, and Kaiqi Huang. SSAP: Single-shot instance segmentation with affinity pyramid. In Proc. IEEE Int. Conf. Comp. Vis., 2019."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[16] Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu. Spatial transformer networks. In Proc. Advances in Neural Inf. Process. Syst., 2015.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[16] Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu. Spatial transformer networks. In Proc. Advances in Neural Inf. Process. Syst., 2015."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[17] Xu Jia, Bert De Brabandere, Tinne Tuytelaars, and Luc Van Gool. Dynamic filter networks. In Proc. Advances in Neural Inf. Process. Syst., 2016.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[17] Xu Jia, Bert De Brabandere, Tinne Tuytelaars, and Luc Van Gool. Dynamic filter networks. In Proc. Advances in Neural Inf. Process. Syst., 2016."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[18] Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[18] Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proc. IEEE Int. Conf. Comp. Vis., 2017."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[19] Linjie Yang, Yanran Wang, Xuehan Xiong, Jianchao Yang, and Aggelos K. Katsaggelos. Efficient video object segmentation via network modulation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[19] Linjie Yang, Yanran Wang, Xuehan Xiong, Jianchao Yang, and Aggelos K. Katsaggelos. Efficient video object segmentation via network modulation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[20] Konstantin Sofiiuk, Olga Barinova, and Anton Konushin. AdaptIS: Adaptive instance selection network. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[20] Konstantin Sofiiuk, Olga Barinova, and Anton Konushin. AdaptIS: Adaptive instance selection network. In Proc. IEEE Int. Conf. Comp. Vis., 2019."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[21] Zhi Tian, Chunhua Shen, and Hao Chen. Conditional convolutions for instance segmentation. In Proc. Eur. Conf. Comp. Vis., 2020.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[21] Zhi Tian, Chunhua Shen, and Hao Chen. Conditional convolutions for instance segmentation. In Proc. Eur. Conf. Comp. Vis., 2020."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[22] Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry Davis. Soft-NMS: improving object detection with one line of code. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[22] Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry Davis. Soft-NMS: improving object detection with one line of code. In Proc. IEEE Int. Conf. Comp. Vis., 2017."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[23] Songtao Liu, Di Huang, and Yunhong Wang. Adaptive NMS: Refining pedestrian detection in a crowd. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[23] Songtao Liu, Di Huang, and Yunhong Wang. Adaptive NMS: Refining pedestrian detection in a crowd. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[24] Yihui He, Chenchen Zhu, Jianren Wang, Marios Savvides, and Xiangyu Zhang. Bounding box regression with uncertainty for accurate object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[24] Yihui He, Chenchen Zhu, Jianren Wang, Marios Savvides, and Xiangyu Zhang. Bounding box regression with uncertainty for accurate object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019."
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[25] Lile Cai, Bin Zhao, Zhe Wang, Jie Lin, Chuan Sheng Foo, Mohamed M. Sabry Aly, and Vijay Chandrasekhar. Maxpoolnms: Getting rid of NMS bottlenecks in two-stage object detectors. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[25] Lile Cai, Bin Zhao, Zhe Wang, Jie Lin, Chuan Sheng Foo, Mohamed M. Sabry Aly, and Vijay Chandrasekhar. Maxpoolnms: Getting rid of NMS bottlenecks in two-stage object detectors. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019."
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[26] Rosanne Liu, Joel Lehman, Piero Molino, Felipe Petroski Such, Eric Frank, Alex Sergeev, and Jason Yosinski. An intriguing failing of convolutional neural networks and the coordconv solution. In Proc. Advances in Neural Inf. Process. Syst., 2018.",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[26] Rosanne Liu, Joel Lehman, Piero Molino, Felipe Petroski Such, Eric Frank, Alex Sergeev, and Jason Yosinski. An intriguing failing of convolutional neural networks and the coordconv solution. In Proc. Advances in Neural Inf. Process. Syst., 2018."
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "[27] Alexander Kirillov, Ross Girshick, Kaiming He, and Piotr Dollár. Panoptic feature pyramid networks. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "[27] Alexander Kirillov, Ross Girshick, Kaiming He, and Piotr Dollár. Panoptic feature pyramid networks. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019."
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[28] Yuxin Wu and Kaiming He. Group normalization. In Proc. Eur. Conf. Comp. Vis., 2018.",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[28] Yuxin Wu and Kaiming He. Group normalization. In Proc. Eur. Conf. Comp. Vis., 2018."
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[29] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. Focal loss for dense object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[29] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. Focal loss for dense object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2017."
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "[30] Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, and Hartwig Adam. Masklab: Instance segmentation by refining object detection with semantic and direction features. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018.",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "[30] Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, and Hartwig Adam. Masklab: Instance segmentation by refining object detection with semantic and direction features. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018."
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "[31] Yuqing Wang, Zhaoliang Xu, Hao Shen, Baoshan Cheng, and Lirong Yang. Centermask: single shot instance segmentation with point representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "[31] Yuqing Wang, Zhaoliang Xu, Hao Shen, Baoshan Cheng, and Lirong Yang. Centermask: single shot instance segmentation with point representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020."
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "[32] Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft COCO: common objects in context. In Proc. Eur. Conf. Comp. Vis., 2014.",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "[32] Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft COCO: common objects in context. In Proc. Eur. Conf. Comp. Vis., 2014."
+      ]
+    },
+    {
+      "block_index": 64,
+      "source_text": "[33] Agrim Gupta, Piotr Dollar, and Ross Girshick. LVIS: A dataset for large vocabulary instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "line_start": 65,
+      "line_end": 65,
+      "proposed_entries": [
+        "[33] Agrim Gupta, Piotr Dollar, and Ross Girshick. LVIS: A dataset for large vocabulary instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019."
+      ]
+    },
+    {
+      "block_index": 66,
+      "source_text": "[34] Md Amirul Islam, Sen Jia, and Neil D. B. Bruce. How much position information do convolutional neural networks encode? In Proc. Int. Conf. Learn. Representations, 2020.",
+      "line_start": 67,
+      "line_end": 67,
+      "proposed_entries": [
+        "[34] Md Amirul Islam, Sen Jia, and Neil D. B. Bruce. How much position information do convolutional neural networks encode? In Proc. Int. Conf. Learn. Representations, 2020."
+      ]
+    },
+    {
+      "block_index": 68,
+      "source_text": "[35] Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, and Xingang Wang. Attentionguided unified network for panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "line_start": 69,
+      "line_end": 69,
+      "proposed_entries": [
+        "[35] Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, and Xingang Wang. Attentionguided unified network for panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019."
+      ]
+    },
+    {
+      "block_index": 70,
+      "source_text": "[36] Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, and Raquel Urtasun. UPSNet: A unified panoptic segmentation network. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "line_start": 71,
+      "line_end": 71,
+      "proposed_entries": [
+        "[36] Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, and Raquel Urtasun. UPSNet: A unified panoptic segmentation network. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019."
+      ]
+    },
+    {
+      "block_index": 72,
+      "source_text": "[37] Bowen Cheng, Maxwell Collins, Yukun Zhu, Ting Liu, Thomas Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-deeplab: A simple, strong, and fast baseline for bottom-up panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "line_start": 73,
+      "line_end": 73,
+      "proposed_entries": [
+        "[37] Bowen Cheng, Maxwell Collins, Yukun Zhu, Ting Liu, Thomas Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-deeplab: A simple, strong, and fast baseline for bottom-up panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020."
+      ]
+    },
+    {
+      "block_index": 74,
+      "source_text": "[38] Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv:1804.02767, 2018.",
+      "line_start": 75,
+      "line_end": 75,
+      "proposed_entries": [
+        "[38] Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv:1804.02767, 2018."
+      ]
+    },
+    {
+      "block_index": 76,
+      "source_text": "[39] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd: Single shot multibox detector. In Proc. Eur. Conf. Comp. Vis., 2016.",
+      "line_start": 77,
+      "line_end": 77,
+      "proposed_entries": [
+        "[39] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd: Single shot multibox detector. In Proc. Eur. Conf. Comp. Vis., 2016."
+      ]
+    },
+    {
+      "block_index": 78,
+      "source_text": "[40] Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li. Single-shot refinement neural network for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018.",
+      "line_start": 79,
+      "line_end": 79,
+      "proposed_entries": [
+        "[40] Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li. Single-shot refinement neural network for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018."
+      ]
+    },
+    {
+      "block_index": 80,
+      "source_text": "[41] Tsung-Yi Lin, Piotr Dollár, Ross B. Girshick, Kaiming He, Bharath Hariharan, and Serge J. Belongie. Feature pyramid networks for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017.",
+      "line_start": 81,
+      "line_end": 81,
+      "proposed_entries": [
+        "[41] Tsung-Yi Lin, Piotr Dollár, Ross B. Girshick, Kaiming He, Bharath Hariharan, and Serge J. Belongie. Feature pyramid networks for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017."
+      ]
+    },
+    {
+      "block_index": 82,
+      "source_text": "[42] Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, and Jianbo Shi. Foveabox: Beyond anchor-based object detector. arXiv:1904.03797, 2019.",
+      "line_start": 83,
+      "line_end": 83,
+      "proposed_entries": [
+        "[42] Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, and Jianbo Shi. Foveabox: Beyond anchor-based object detector. arXiv:1904.03797, 2019."
+      ]
+    },
+    {
+      "block_index": 84,
+      "source_text": "[43] Ze Yang, Shaohui Liu, Han Hu, Liwei Wang, and Stephen Lin. Reppoints: Point set representation for object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "line_start": 85,
+      "line_end": 85,
+      "proposed_entries": [
+        "[43] Ze Yang, Shaohui Liu, Han Hu, Liwei Wang, and Stephen Lin. Reppoints: Point set representation for object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2019."
+      ]
+    },
+    {
+      "block_index": 86,
+      "source_text": "[44] Xingyi Zhou, Dequan Wang, and Philipp Krähenbühl. Objects as points. arXiv:1904.07850, 2019.",
+      "line_start": 87,
+      "line_end": 87,
+      "proposed_entries": [
+        "[44] Xingyi Zhou, Dequan Wang, and Philipp Krähenbühl. Objects as points. arXiv:1904.07850, 2019."
+      ]
+    },
+    {
+      "block_index": 88,
+      "source_text": "[45] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tianheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue Wu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang, Chen Change Loy, and Dahua Lin. MMDetection: Open mmlab detection toolbox and benchmark. arXiv:1906.07155, 2019.",
+      "line_start": 89,
+      "line_end": 89,
+      "proposed_entries": [
+        "[45] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tianheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue Wu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang, Chen Change Loy, and Dahua Lin. MMDetection: Open mmlab detection toolbox and benchmark. arXiv:1906.07155, 2019."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Xinlong Wang, Tao Kong, Chunhua Shen, Yuning Jiang, and Lei Li. SOLO: Segmenting objects by locations. In Proc. Eur. Conf. Comp. Vis., 2020.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "venue_marker_split",
+          "author_text": "Xinlong Wang, Tao Kong, Chunhua Shen, Yuning Jiang, and Lei Li",
+          "author_candidates": [
+            "Wang, Tao Kong",
+            "Shen, Yuning Jiang"
+          ],
+          "title_candidate": "SOLO: Segmenting objects by locations",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis., 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xinlong Wang, Tao Kong, Chunhua Shen, Yuning Jiang, and Lei Li",
+          "author_candidates": [
+            "Wang, Tao Kong",
+            "Shen, Yuning Jiang"
+          ],
+          "title_candidate": "SOLO: Segmenting objects by locations",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis.,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xinlong Wang, Tao Kong, Chunhua Shen, Yuning Jiang, and Lei Li. SOLO",
+          "author_candidates": [
+            "Wang, Tao Kong",
+            "Shen, Yuning Jiang"
+          ],
+          "title_candidate": "Segmenting objects by locations. In Proc. Eur. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xinlong Wang, Tao Kong, Chunhua Shen, Yuning Jiang, and Lei Li. SOLO",
+          "author_candidates": [
+            "Wang, Tao Kong",
+            "Shen, Yuning Jiang"
+          ],
+          "title_candidate": "Segmenting objects by locations. In Proc. Eur. Conf. Comp. Vis., 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Daniel Bolya, Chong Zhou, Fanyi Xiao, and Yong Jae Lee. YOLACT: Real-time instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Daniel Bolya, Chong Zhou, Fanyi Xiao, and Yong Jae Lee",
+          "author_candidates": [
+            "Bolya, Chong Zhou"
+          ],
+          "title_candidate": "YOLACT: Real-time instance segmentation",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Daniel Bolya, Chong Zhou, Fanyi Xiao, and Yong Jae Lee",
+          "author_candidates": [
+            "Bolya, Chong Zhou"
+          ],
+          "title_candidate": "YOLACT: Real-time instance segmentation",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Daniel Bolya, Chong Zhou, Fanyi Xiao, and Yong Jae Lee. YOLACT",
+          "author_candidates": [
+            "Bolya, Chong Zhou"
+          ],
+          "title_candidate": "Real-time instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Daniel Bolya, Chong Zhou, Fanyi Xiao, and Yong Jae Lee. YOLACT",
+          "author_candidates": [
+            "Bolya, Chong Zhou"
+          ],
+          "title_candidate": "Real-time instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, and Yichen Wei. Fully convolutional instance-aware semantic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, and Yichen Wei",
+          "author_candidates": [
+            "Li, Haozhi Qi",
+            "Dai, Xiangyang Ji"
+          ],
+          "title_candidate": "Fully convolutional instance-aware semantic segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, and Yichen Wei",
+          "author_candidates": [
+            "Li, Haozhi Qi",
+            "Dai, Xiangyang Ji"
+          ],
+          "title_candidate": "Fully convolutional instance-aware semantic segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, and Yichen Wei",
+          "author_candidates": [
+            "Li, Haozhi Qi",
+            "Dai, Xiangyang Ji"
+          ],
+          "title_candidate": "Fully convolutional instance-aware semantic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, and Yichen Wei",
+          "author_candidates": [
+            "Li, Haozhi Qi",
+            "Dai, Xiangyang Ji"
+          ],
+          "title_candidate": "Fully convolutional instance-aware semantic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B. Girshick. Mask R-CNN. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Girshick. Mask R-CNN",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Girshick",
+          "container_candidate": "Mask R-CNN. In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Girshick. Mask R-CNN. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross B",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Girshick. Mask R-CNN. In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia. Path aggregation network for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "venue_marker_split",
+          "author_text": "Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia",
+          "author_candidates": [
+            "Liu, Lu Qi",
+            "Qin, Jianping Shi"
+          ],
+          "title_candidate": "Path aggregation network for instance segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia",
+          "author_candidates": [
+            "Liu, Lu Qi",
+            "Qin, Jianping Shi"
+          ],
+          "title_candidate": "Path aggregation network for instance segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia",
+          "author_candidates": [
+            "Liu, Lu Qi",
+            "Qin, Jianping Shi"
+          ],
+          "title_candidate": "Path aggregation network for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia",
+          "author_candidates": [
+            "Liu, Lu Qi",
+            "Qin, Jianping Shi"
+          ],
+          "title_candidate": "Path aggregation network for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang. Mask scoring R-CNN. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang",
+          "author_candidates": [
+            "Huang, Lichao Huang",
+            "Gong, Chang Huang"
+          ],
+          "title_candidate": "Mask scoring R-CNN",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang",
+          "author_candidates": [
+            "Huang, Lichao Huang",
+            "Gong, Chang Huang"
+          ],
+          "title_candidate": "Mask scoring R-CNN",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang",
+          "author_candidates": [
+            "Huang, Lichao Huang",
+            "Gong, Chang Huang"
+          ],
+          "title_candidate": "Mask scoring R-CNN. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, and Xinggang Wang",
+          "author_candidates": [
+            "Huang, Lichao Huang",
+            "Gong, Chang Huang"
+          ],
+          "title_candidate": "Mask scoring R-CNN. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar. TensorMask: A foundation for dense object segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar",
+          "author_candidates": [
+            "Chen, Ross Girshick"
+          ],
+          "title_candidate": "TensorMask: A foundation for dense object segmentation",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar",
+          "author_candidates": [
+            "Chen, Ross Girshick"
+          ],
+          "title_candidate": "TensorMask: A foundation for dense object segmentation",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar. TensorMask",
+          "author_candidates": [
+            "Chen, Ross Girshick"
+          ],
+          "title_candidate": "A foundation for dense object segmentation. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar. TensorMask",
+          "author_candidates": [
+            "Chen, Ross Girshick"
+          ],
+          "title_candidate": "A foundation for dense object segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Hao Chen, Kunyang Sun, Zhi Tian, Chunhua Shen, Yongming Huang, and Youliang Yan. BlendMask: Top-down meets bottom-up for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Hao Chen, Kunyang Sun, Zhi Tian, Chunhua Shen, Yongming Huang, and Youliang Yan",
+          "author_candidates": [
+            "Chen, Kunyang Sun",
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "BlendMask: Top-down meets bottom-up for instance segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Hao Chen, Kunyang Sun, Zhi Tian, Chunhua Shen, Yongming Huang, and Youliang Yan",
+          "author_candidates": [
+            "Chen, Kunyang Sun",
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "BlendMask: Top-down meets bottom-up for instance segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hao Chen, Kunyang Sun, Zhi Tian, Chunhua Shen, Yongming Huang, and Youliang Yan. BlendMask",
+          "author_candidates": [
+            "Chen, Kunyang Sun",
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Top-down meets bottom-up for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hao Chen, Kunyang Sun, Zhi Tian, Chunhua Shen, Yongming Huang, and Youliang Yan. BlendMask",
+          "author_candidates": [
+            "Chen, Kunyang Sun",
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Top-down meets bottom-up for instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Rufeng Zhang, Zhi Tian, Chunhua Shen, Mingyu You, and Youliang Yan. Mask encoding for single shot instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "Rufeng Zhang, Zhi Tian, Chunhua Shen, Mingyu You, and Youliang Yan",
+          "author_candidates": [
+            "Zhang, Zhi Tian",
+            "Shen, Mingyu You"
+          ],
+          "title_candidate": "Mask encoding for single shot instance segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Rufeng Zhang, Zhi Tian, Chunhua Shen, Mingyu You, and Youliang Yan",
+          "author_candidates": [
+            "Zhang, Zhi Tian",
+            "Shen, Mingyu You"
+          ],
+          "title_candidate": "Mask encoding for single shot instance segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Rufeng Zhang, Zhi Tian, Chunhua Shen, Mingyu You, and Youliang Yan",
+          "author_candidates": [
+            "Zhang, Zhi Tian",
+            "Shen, Mingyu You"
+          ],
+          "title_candidate": "Mask encoding for single shot instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Rufeng Zhang, Zhi Tian, Chunhua Shen, Mingyu You, and Youliang Yan",
+          "author_candidates": [
+            "Zhang, Zhi Tian",
+            "Shen, Mingyu You"
+          ],
+          "title_candidate": "Mask encoding for single shot instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, and Ping Luo. PolarMask: Single shot instance segmentation with polar representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, and Ping Luo",
+          "author_candidates": [
+            "Xie, Peize Sun",
+            "Song, Wenhai Wang",
+            "Liu, Ding Liang"
+          ],
+          "title_candidate": "PolarMask: Single shot instance segmentation with polar representation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, and Ping Luo",
+          "author_candidates": [
+            "Xie, Peize Sun",
+            "Song, Wenhai Wang",
+            "Liu, Ding Liang"
+          ],
+          "title_candidate": "PolarMask: Single shot instance segmentation with polar representation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, and Ping Luo. PolarMask",
+          "author_candidates": [
+            "Xie, Peize Sun",
+            "Song, Wenhai Wang",
+            "Liu, Ding Liang"
+          ],
+          "title_candidate": "Single shot instance segmentation with polar representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, and Ping Luo. PolarMask",
+          "author_candidates": [
+            "Xie, Peize Sun",
+            "Song, Wenhai Wang",
+            "Liu, Ding Liang"
+          ],
+          "title_candidate": "Single shot instance segmentation with polar representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. FCOS: Fully convolutional one-stage object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "FCOS: Fully convolutional one-stage object detection",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "FCOS: Fully convolutional one-stage object detection",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. FCOS",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Fully convolutional one-stage object detection. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. FCOS",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Fully convolutional one-stage object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Alejandro Newell, Zhiao Huang, and Jia Deng. Associative embedding: End-to-end learning for joint detection and grouping. In Proc. Advances in Neural Inf. Process. Syst., 2017.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "Alejandro Newell, Zhiao Huang, and Jia Deng",
+          "author_candidates": [
+            "Newell, Zhiao Huang"
+          ],
+          "title_candidate": "Associative embedding: End-to-end learning for joint detection and grouping",
+          "container_candidate": "In Proc. Advances in Neural Inf. Process. Syst., 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alejandro Newell, Zhiao Huang, and Jia Deng",
+          "author_candidates": [
+            "Newell, Zhiao Huang"
+          ],
+          "title_candidate": "Associative embedding: End-to-end learning for joint detection and grouping",
+          "container_candidate": "In Proc. Advances in Neural Inf. Process. Syst.,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alejandro Newell, Zhiao Huang, and Jia Deng. Associative embedding",
+          "author_candidates": [
+            "Newell, Zhiao Huang"
+          ],
+          "title_candidate": "End-to-end learning for joint detection and grouping. In Proc. Advances in Neural Inf. Process. Syst",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alejandro Newell, Zhiao Huang, and Jia Deng. Associative embedding",
+          "author_candidates": [
+            "Newell, Zhiao Huang"
+          ],
+          "title_candidate": "End-to-end learning for joint detection and grouping. In Proc. Advances in Neural Inf. Process. Syst., 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Bert De Brabandere, Davy Neven, and Luc Van Gool. Semantic instance segmentation with a discriminative loss function. arXiv:1708.02551, 2017.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Bert De Brabandere, Davy Neven, and Luc Van Gool",
+          "author_candidates": [
+            "Brabandere, Davy Neven"
+          ],
+          "title_candidate": "Semantic instance segmentation with a discriminative loss function",
+          "container_candidate": "arXiv:1708.02551, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bert De Brabandere, Davy Neven, and Luc Van Gool",
+          "author_candidates": [
+            "Brabandere, Davy Neven"
+          ],
+          "title_candidate": "Semantic instance segmentation with a discriminative loss function",
+          "container_candidate": "arXiv:1708.02551,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bert De Brabandere, Davy Neven, and Luc Van Gool. Semantic instance segmentation with a discriminative loss function. arXiv",
+          "author_candidates": [
+            "Brabandere, Davy Neven"
+          ],
+          "title_candidate": "1708.02551",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bert De Brabandere, Davy Neven, and Luc Van Gool. Semantic instance segmentation with a discriminative loss function. arXiv",
+          "author_candidates": [
+            "Brabandere, Davy Neven"
+          ],
+          "title_candidate": "1708.02551, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] Shu Liu, Jiaya Jia, Sanja Fidler, and Raquel Urtasun. Sequential grouping networks for instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "Shu Liu, Jiaya Jia, Sanja Fidler, and Raquel Urtasun",
+          "author_candidates": [
+            "Liu, Jiaya Jia"
+          ],
+          "title_candidate": "Sequential grouping networks for instance segmentation",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shu Liu, Jiaya Jia, Sanja Fidler, and Raquel Urtasun",
+          "author_candidates": [
+            "Liu, Jiaya Jia"
+          ],
+          "title_candidate": "Sequential grouping networks for instance segmentation",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shu Liu, Jiaya Jia, Sanja Fidler, and Raquel Urtasun",
+          "author_candidates": [
+            "Liu, Jiaya Jia"
+          ],
+          "title_candidate": "Sequential grouping networks for instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shu Liu, Jiaya Jia, Sanja Fidler, and Raquel Urtasun",
+          "author_candidates": [
+            "Liu, Jiaya Jia"
+          ],
+          "title_candidate": "Sequential grouping networks for instance segmentation. In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Naiyu Gao, Yanhu Shan, Yupei Wang, Xin Zhao, Yinan Yu, Ming Yang, and Kaiqi Huang. SSAP: Single-shot instance segmentation with affinity pyramid. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Naiyu Gao, Yanhu Shan, Yupei Wang, Xin Zhao, Yinan Yu, Ming Yang, and Kaiqi Huang",
+          "author_candidates": [
+            "Gao, Yanhu Shan",
+            "Wang, Xin Zhao",
+            "Yu, Ming Yang"
+          ],
+          "title_candidate": "SSAP: Single-shot instance segmentation with affinity pyramid",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Naiyu Gao, Yanhu Shan, Yupei Wang, Xin Zhao, Yinan Yu, Ming Yang, and Kaiqi Huang",
+          "author_candidates": [
+            "Gao, Yanhu Shan",
+            "Wang, Xin Zhao",
+            "Yu, Ming Yang"
+          ],
+          "title_candidate": "SSAP: Single-shot instance segmentation with affinity pyramid",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Naiyu Gao, Yanhu Shan, Yupei Wang, Xin Zhao, Yinan Yu, Ming Yang, and Kaiqi Huang. SSAP",
+          "author_candidates": [
+            "Gao, Yanhu Shan",
+            "Wang, Xin Zhao",
+            "Yu, Ming Yang"
+          ],
+          "title_candidate": "Single-shot instance segmentation with affinity pyramid. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Naiyu Gao, Yanhu Shan, Yupei Wang, Xin Zhao, Yinan Yu, Ming Yang, and Kaiqi Huang. SSAP",
+          "author_candidates": [
+            "Gao, Yanhu Shan",
+            "Wang, Xin Zhao",
+            "Yu, Ming Yang"
+          ],
+          "title_candidate": "Single-shot instance segmentation with affinity pyramid. In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu. Spatial transformer networks. In Proc. Advances in Neural Inf. Process. Syst., 2015.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu",
+          "author_candidates": [
+            "Jaderberg, Karen Simonyan"
+          ],
+          "title_candidate": "Spatial transformer networks",
+          "container_candidate": "In Proc. Advances in Neural Inf. Process. Syst., 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu",
+          "author_candidates": [
+            "Jaderberg, Karen Simonyan"
+          ],
+          "title_candidate": "Spatial transformer networks",
+          "container_candidate": "In Proc. Advances in Neural Inf. Process. Syst.,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu",
+          "author_candidates": [
+            "Jaderberg, Karen Simonyan"
+          ],
+          "title_candidate": "Spatial transformer networks. In Proc. Advances in Neural Inf. Process. Syst",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu",
+          "author_candidates": [
+            "Jaderberg, Karen Simonyan"
+          ],
+          "title_candidate": "Spatial transformer networks. In Proc. Advances in Neural Inf. Process. Syst., 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Xu Jia, Bert De Brabandere, Tinne Tuytelaars, and Luc Van Gool. Dynamic filter networks. In Proc. Advances in Neural Inf. Process. Syst., 2016.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Xu Jia, Bert De Brabandere, Tinne Tuytelaars, and Luc Van Gool",
+          "author_candidates": [
+            "Jia, Bert De Brabandere"
+          ],
+          "title_candidate": "Dynamic filter networks",
+          "container_candidate": "In Proc. Advances in Neural Inf. Process. Syst., 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xu Jia, Bert De Brabandere, Tinne Tuytelaars, and Luc Van Gool",
+          "author_candidates": [
+            "Jia, Bert De Brabandere"
+          ],
+          "title_candidate": "Dynamic filter networks",
+          "container_candidate": "In Proc. Advances in Neural Inf. Process. Syst.,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xu Jia, Bert De Brabandere, Tinne Tuytelaars, and Luc Van Gool",
+          "author_candidates": [
+            "Jia, Bert De Brabandere"
+          ],
+          "title_candidate": "Dynamic filter networks. In Proc. Advances in Neural Inf. Process. Syst",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xu Jia, Bert De Brabandere, Tinne Tuytelaars, and Luc Van Gool",
+          "author_candidates": [
+            "Jia, Bert De Brabandere"
+          ],
+          "title_candidate": "Dynamic filter networks. In Proc. Advances in Neural Inf. Process. Syst., 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei. Deformable convolutional networks. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei",
+          "author_candidates": [
+            "Dai, Haozhi Qi",
+            "Xiong, Yi Li",
+            "Zhang, Han Hu"
+          ],
+          "title_candidate": "Deformable convolutional networks",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei",
+          "author_candidates": [
+            "Dai, Haozhi Qi",
+            "Xiong, Yi Li",
+            "Zhang, Han Hu"
+          ],
+          "title_candidate": "Deformable convolutional networks",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei",
+          "author_candidates": [
+            "Dai, Haozhi Qi",
+            "Xiong, Yi Li",
+            "Zhang, Han Hu"
+          ],
+          "title_candidate": "Deformable convolutional networks. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, Yi Li, Guodong Zhang, Han Hu, and Yichen Wei",
+          "author_candidates": [
+            "Dai, Haozhi Qi",
+            "Xiong, Yi Li",
+            "Zhang, Han Hu"
+          ],
+          "title_candidate": "Deformable convolutional networks. In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Linjie Yang, Yanran Wang, Xuehan Xiong, Jianchao Yang, and Aggelos K. Katsaggelos. Efficient video object segmentation via network modulation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Linjie Yang, Yanran Wang, Xuehan Xiong, Jianchao Yang, and Aggelos K",
+          "author_candidates": [
+            "Yang, Yanran Wang",
+            "Xiong, Jianchao Yang"
+          ],
+          "title_candidate": "Katsaggelos. Efficient video object segmentation via network modulation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Linjie Yang, Yanran Wang, Xuehan Xiong, Jianchao Yang, and Aggelos K",
+          "author_candidates": [
+            "Yang, Yanran Wang",
+            "Xiong, Jianchao Yang"
+          ],
+          "title_candidate": "Katsaggelos",
+          "container_candidate": "Efficient video object segmentation via network modulation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Linjie Yang, Yanran Wang, Xuehan Xiong, Jianchao Yang, and Aggelos K",
+          "author_candidates": [
+            "Yang, Yanran Wang",
+            "Xiong, Jianchao Yang"
+          ],
+          "title_candidate": "Katsaggelos. Efficient video object segmentation via network modulation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Linjie Yang, Yanran Wang, Xuehan Xiong, Jianchao Yang, and Aggelos K",
+          "author_candidates": [
+            "Yang, Yanran Wang",
+            "Xiong, Jianchao Yang"
+          ],
+          "title_candidate": "Katsaggelos. Efficient video object segmentation via network modulation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Konstantin Sofiiuk, Olga Barinova, and Anton Konushin. AdaptIS: Adaptive instance selection network. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Konstantin Sofiiuk, Olga Barinova, and Anton Konushin",
+          "author_candidates": [
+            "Sofiiuk, Olga Barinova"
+          ],
+          "title_candidate": "AdaptIS: Adaptive instance selection network",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Konstantin Sofiiuk, Olga Barinova, and Anton Konushin",
+          "author_candidates": [
+            "Sofiiuk, Olga Barinova"
+          ],
+          "title_candidate": "AdaptIS: Adaptive instance selection network",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Konstantin Sofiiuk, Olga Barinova, and Anton Konushin. AdaptIS",
+          "author_candidates": [
+            "Sofiiuk, Olga Barinova"
+          ],
+          "title_candidate": "Adaptive instance selection network. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Konstantin Sofiiuk, Olga Barinova, and Anton Konushin. AdaptIS",
+          "author_candidates": [
+            "Sofiiuk, Olga Barinova"
+          ],
+          "title_candidate": "Adaptive instance selection network. In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Zhi Tian, Chunhua Shen, and Hao Chen. Conditional convolutions for instance segmentation. In Proc. Eur. Conf. Comp. Vis., 2020.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhi Tian, Chunhua Shen, and Hao Chen",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Conditional convolutions for instance segmentation",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis., 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhi Tian, Chunhua Shen, and Hao Chen",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Conditional convolutions for instance segmentation",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis.,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhi Tian, Chunhua Shen, and Hao Chen",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Conditional convolutions for instance segmentation. In Proc. Eur. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhi Tian, Chunhua Shen, and Hao Chen",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Conditional convolutions for instance segmentation. In Proc. Eur. Conf. Comp. Vis., 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry Davis. Soft-NMS: improving object detection with one line of code. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry Davis",
+          "author_candidates": [
+            "Bodla, Bharat Singh"
+          ],
+          "title_candidate": "Soft-NMS: improving object detection with one line of code",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry Davis",
+          "author_candidates": [
+            "Bodla, Bharat Singh"
+          ],
+          "title_candidate": "Soft-NMS: improving object detection with one line of code",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry Davis. Soft-NMS",
+          "author_candidates": [
+            "Bodla, Bharat Singh"
+          ],
+          "title_candidate": "improving object detection with one line of code. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Navaneeth Bodla, Bharat Singh, Rama Chellappa, and Larry Davis. Soft-NMS",
+          "author_candidates": [
+            "Bodla, Bharat Singh"
+          ],
+          "title_candidate": "improving object detection with one line of code. In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Songtao Liu, Di Huang, and Yunhong Wang. Adaptive NMS: Refining pedestrian detection in a crowd. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Songtao Liu, Di Huang, and Yunhong Wang",
+          "author_candidates": [
+            "Liu, Di Huang"
+          ],
+          "title_candidate": "Adaptive NMS: Refining pedestrian detection in a crowd",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Songtao Liu, Di Huang, and Yunhong Wang",
+          "author_candidates": [
+            "Liu, Di Huang"
+          ],
+          "title_candidate": "Adaptive NMS: Refining pedestrian detection in a crowd",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Songtao Liu, Di Huang, and Yunhong Wang. Adaptive NMS",
+          "author_candidates": [
+            "Liu, Di Huang"
+          ],
+          "title_candidate": "Refining pedestrian detection in a crowd. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Songtao Liu, Di Huang, and Yunhong Wang. Adaptive NMS",
+          "author_candidates": [
+            "Liu, Di Huang"
+          ],
+          "title_candidate": "Refining pedestrian detection in a crowd. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Yihui He, Chenchen Zhu, Jianren Wang, Marios Savvides, and Xiangyu Zhang. Bounding box regression with uncertainty for accurate object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "venue_marker_split",
+          "author_text": "Yihui He, Chenchen Zhu, Jianren Wang, Marios Savvides, and Xiangyu Zhang",
+          "author_candidates": [
+            "He, Chenchen Zhu",
+            "Wang, Marios Savvides"
+          ],
+          "title_candidate": "Bounding box regression with uncertainty for accurate object detection",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yihui He, Chenchen Zhu, Jianren Wang, Marios Savvides, and Xiangyu Zhang",
+          "author_candidates": [
+            "He, Chenchen Zhu",
+            "Wang, Marios Savvides"
+          ],
+          "title_candidate": "Bounding box regression with uncertainty for accurate object detection",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yihui He, Chenchen Zhu, Jianren Wang, Marios Savvides, and Xiangyu Zhang",
+          "author_candidates": [
+            "He, Chenchen Zhu",
+            "Wang, Marios Savvides"
+          ],
+          "title_candidate": "Bounding box regression with uncertainty for accurate object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yihui He, Chenchen Zhu, Jianren Wang, Marios Savvides, and Xiangyu Zhang",
+          "author_candidates": [
+            "He, Chenchen Zhu",
+            "Wang, Marios Savvides"
+          ],
+          "title_candidate": "Bounding box regression with uncertainty for accurate object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Lile Cai, Bin Zhao, Zhe Wang, Jie Lin, Chuan Sheng Foo, Mohamed M. Sabry Aly, and Vijay Chandrasekhar. Maxpoolnms: Getting rid of NMS bottlenecks in two-stage object detectors. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "venue_marker_split",
+          "author_text": "Lile Cai, Bin Zhao, Zhe Wang, Jie Lin, Chuan Sheng Foo, Mohamed M",
+          "author_candidates": [
+            "Cai, Bin Zhao",
+            "Wang, Jie Lin",
+            "Foo, Mohamed M"
+          ],
+          "title_candidate": "Sabry Aly, and Vijay Chandrasekhar. Maxpoolnms: Getting rid of NMS bottlenecks in two-stage object detectors",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Lile Cai, Bin Zhao, Zhe Wang, Jie Lin, Chuan Sheng Foo, Mohamed M",
+          "author_candidates": [
+            "Cai, Bin Zhao",
+            "Wang, Jie Lin",
+            "Foo, Mohamed M"
+          ],
+          "title_candidate": "Sabry Aly, and Vijay Chandrasekhar",
+          "container_candidate": "Maxpoolnms: Getting rid of NMS bottlenecks in two-stage object detectors. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Lile Cai, Bin Zhao, Zhe Wang, Jie Lin, Chuan Sheng Foo, Mohamed M. Sabry Aly, and Vijay Chandrasekhar. Maxpoolnms",
+          "author_candidates": [
+            "Cai, Bin Zhao",
+            "Wang, Jie Lin",
+            "Foo, Mohamed M. Sabry Aly"
+          ],
+          "title_candidate": "Getting rid of NMS bottlenecks in two-stage object detectors. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Lile Cai, Bin Zhao, Zhe Wang, Jie Lin, Chuan Sheng Foo, Mohamed M. Sabry Aly, and Vijay Chandrasekhar. Maxpoolnms",
+          "author_candidates": [
+            "Cai, Bin Zhao",
+            "Wang, Jie Lin",
+            "Foo, Mohamed M. Sabry Aly"
+          ],
+          "title_candidate": "Getting rid of NMS bottlenecks in two-stage object detectors. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Rosanne Liu, Joel Lehman, Piero Molino, Felipe Petroski Such, Eric Frank, Alex Sergeev, and Jason Yosinski. An intriguing failing of convolutional neural networks and the coordconv solution. In Proc. Advances in Neural Inf. Process. Syst., 2018.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "Rosanne Liu, Joel Lehman, Piero Molino, Felipe Petroski Such, Eric Frank, Alex Sergeev, and Jason Yosinski",
+          "author_candidates": [
+            "Liu, Joel Lehman",
+            "Molino, Felipe Petroski Such",
+            "Frank, Alex Sergeev"
+          ],
+          "title_candidate": "An intriguing failing of convolutional neural networks and the coordconv solution",
+          "container_candidate": "In Proc. Advances in Neural Inf. Process. Syst., 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Rosanne Liu, Joel Lehman, Piero Molino, Felipe Petroski Such, Eric Frank, Alex Sergeev, and Jason Yosinski",
+          "author_candidates": [
+            "Liu, Joel Lehman",
+            "Molino, Felipe Petroski Such",
+            "Frank, Alex Sergeev"
+          ],
+          "title_candidate": "An intriguing failing of convolutional neural networks and the coordconv solution",
+          "container_candidate": "In Proc. Advances in Neural Inf. Process. Syst.,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Rosanne Liu, Joel Lehman, Piero Molino, Felipe Petroski Such, Eric Frank, Alex Sergeev, and Jason Yosinski",
+          "author_candidates": [
+            "Liu, Joel Lehman",
+            "Molino, Felipe Petroski Such",
+            "Frank, Alex Sergeev"
+          ],
+          "title_candidate": "An intriguing failing of convolutional neural networks and the coordconv solution. In Proc. Advances in Neural Inf. Process. Syst",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Rosanne Liu, Joel Lehman, Piero Molino, Felipe Petroski Such, Eric Frank, Alex Sergeev, and Jason Yosinski",
+          "author_candidates": [
+            "Liu, Joel Lehman",
+            "Molino, Felipe Petroski Such",
+            "Frank, Alex Sergeev"
+          ],
+          "title_candidate": "An intriguing failing of convolutional neural networks and the coordconv solution. In Proc. Advances in Neural Inf. Process. Syst., 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Alexander Kirillov, Ross Girshick, Kaiming He, and Piotr Dollár. Panoptic feature pyramid networks. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "Alexander Kirillov, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Kirillov, Ross Girshick"
+          ],
+          "title_candidate": "Panoptic feature pyramid networks",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alexander Kirillov, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Kirillov, Ross Girshick"
+          ],
+          "title_candidate": "Panoptic feature pyramid networks",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alexander Kirillov, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Kirillov, Ross Girshick"
+          ],
+          "title_candidate": "Panoptic feature pyramid networks. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alexander Kirillov, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Kirillov, Ross Girshick"
+          ],
+          "title_candidate": "Panoptic feature pyramid networks. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Yuxin Wu and Kaiming He. Group normalization. In Proc. Eur. Conf. Comp. Vis., 2018.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuxin Wu and Kaiming He",
+          "author_candidates": [
+            "Yuxin Wu",
+            "Kaiming He"
+          ],
+          "title_candidate": "Group normalization",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis., 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuxin Wu and Kaiming He",
+          "author_candidates": [
+            "Yuxin Wu",
+            "Kaiming He"
+          ],
+          "title_candidate": "Group normalization",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis.,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuxin Wu and Kaiming He",
+          "author_candidates": [
+            "Yuxin Wu",
+            "Kaiming He"
+          ],
+          "title_candidate": "Group normalization. In Proc. Eur. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuxin Wu and Kaiming He",
+          "author_candidates": [
+            "Yuxin Wu",
+            "Kaiming He"
+          ],
+          "title_candidate": "Group normalization. In Proc. Eur. Conf. Comp. Vis., 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. Focal loss for dense object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2017.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, and Hartwig Adam. Masklab: Instance segmentation by refining object detection with semantic and direction features. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "venue_marker_split",
+          "author_text": "Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Alexander Hermans",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Masklab: Instance segmentation by refining object detection with semantic and direction features",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Alexander Hermans",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Masklab: Instance segmentation by refining object detection with semantic and direction features",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, and Hartwig Adam. Masklab",
+          "author_candidates": [
+            "Chen, Alexander Hermans",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Instance segmentation by refining object detection with semantic and direction features. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liang-Chieh Chen, Alexander Hermans, George Papandreou, Florian Schroff, Peng Wang, and Hartwig Adam. Masklab",
+          "author_candidates": [
+            "Chen, Alexander Hermans",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Instance segmentation by refining object detection with semantic and direction features. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] Yuqing Wang, Zhaoliang Xu, Hao Shen, Baoshan Cheng, and Lirong Yang. Centermask: single shot instance segmentation with point representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuqing Wang, Zhaoliang Xu, Hao Shen, Baoshan Cheng, and Lirong Yang",
+          "author_candidates": [
+            "Wang, Zhaoliang Xu",
+            "Shen, Baoshan Cheng"
+          ],
+          "title_candidate": "Centermask: single shot instance segmentation with point representation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuqing Wang, Zhaoliang Xu, Hao Shen, Baoshan Cheng, and Lirong Yang",
+          "author_candidates": [
+            "Wang, Zhaoliang Xu",
+            "Shen, Baoshan Cheng"
+          ],
+          "title_candidate": "Centermask: single shot instance segmentation with point representation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuqing Wang, Zhaoliang Xu, Hao Shen, Baoshan Cheng, and Lirong Yang. Centermask",
+          "author_candidates": [
+            "Wang, Zhaoliang Xu",
+            "Shen, Baoshan Cheng"
+          ],
+          "title_candidate": "single shot instance segmentation with point representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuqing Wang, Zhaoliang Xu, Hao Shen, Baoshan Cheng, and Lirong Yang. Centermask",
+          "author_candidates": [
+            "Wang, Zhaoliang Xu",
+            "Shen, Baoshan Cheng"
+          ],
+          "title_candidate": "single shot instance segmentation with point representation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft COCO: common objects in context. In Proc. Eur. Conf. Comp. Vis., 2014.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge J",
+          "author_candidates": [
+            "Lin, Michael Maire"
+          ],
+          "title_candidate": "Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft COCO: common objects in context",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis., 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge J",
+          "author_candidates": [
+            "Lin, Michael Maire"
+          ],
+          "title_candidate": "Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick",
+          "container_candidate": "Microsoft COCO: common objects in context. In Proc. Eur. Conf. Comp. Vis.,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft COCO",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "common objects in context. In Proc. Eur. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. Microsoft COCO",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "common objects in context. In Proc. Eur. Conf. Comp. Vis., 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] Agrim Gupta, Piotr Dollar, and Ross Girshick. LVIS: A dataset for large vocabulary instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "venue_marker_split",
+          "author_text": "Agrim Gupta, Piotr Dollar, and Ross Girshick",
+          "author_candidates": [
+            "Gupta, Piotr Dollar"
+          ],
+          "title_candidate": "LVIS: A dataset for large vocabulary instance segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Agrim Gupta, Piotr Dollar, and Ross Girshick",
+          "author_candidates": [
+            "Gupta, Piotr Dollar"
+          ],
+          "title_candidate": "LVIS: A dataset for large vocabulary instance segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Agrim Gupta, Piotr Dollar, and Ross Girshick. LVIS",
+          "author_candidates": [
+            "Gupta, Piotr Dollar"
+          ],
+          "title_candidate": "A dataset for large vocabulary instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Agrim Gupta, Piotr Dollar, and Ross Girshick. LVIS",
+          "author_candidates": [
+            "Gupta, Piotr Dollar"
+          ],
+          "title_candidate": "A dataset for large vocabulary instance segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34] Md Amirul Islam, Sen Jia, and Neil D. B. Bruce. How much position information do convolutional neural networks encode? In Proc. Int. Conf. Learn. Representations, 2020.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Md Amirul Islam, Sen Jia, and Neil D",
+          "author_candidates": [
+            "Islam, Sen Jia"
+          ],
+          "title_candidate": "B",
+          "container_candidate": "Bruce. How much position information do convolutional neural networks encode? In Proc. Int. Conf. Learn. Representations,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Md Amirul Islam, Sen Jia, and Neil D",
+          "author_candidates": [
+            "Islam, Sen Jia"
+          ],
+          "title_candidate": "B. Bruce. How much position information do convolutional neural networks encode? In Proc. Int. Conf. Learn. Representations",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Md Amirul Islam, Sen Jia, and Neil D",
+          "author_candidates": [
+            "Islam, Sen Jia"
+          ],
+          "title_candidate": "B. Bruce. How much position information do convolutional neural networks encode? In Proc. Int. Conf. Learn. Representations, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, and Xingang Wang. Attentionguided unified network for panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "venue_marker_split",
+          "author_text": "Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, and Xingang Wang",
+          "author_candidates": [
+            "Li, Xinze Chen",
+            "Zhu, Lingxi Xie",
+            "Huang, Dalong Du"
+          ],
+          "title_candidate": "Attentionguided unified network for panoptic segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, and Xingang Wang",
+          "author_candidates": [
+            "Li, Xinze Chen",
+            "Zhu, Lingxi Xie",
+            "Huang, Dalong Du"
+          ],
+          "title_candidate": "Attentionguided unified network for panoptic segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, and Xingang Wang",
+          "author_candidates": [
+            "Li, Xinze Chen",
+            "Zhu, Lingxi Xie",
+            "Huang, Dalong Du"
+          ],
+          "title_candidate": "Attentionguided unified network for panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, and Xingang Wang",
+          "author_candidates": [
+            "Li, Xinze Chen",
+            "Zhu, Lingxi Xie",
+            "Huang, Dalong Du"
+          ],
+          "title_candidate": "Attentionguided unified network for panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[36] Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, and Raquel Urtasun. UPSNet: A unified panoptic segmentation network. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, and Raquel Urtasun",
+          "author_candidates": [
+            "Xiong, Renjie Liao",
+            "Zhao, Rui Hu",
+            "Bai, Ersin Yumer"
+          ],
+          "title_candidate": "UPSNet: A unified panoptic segmentation network",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, and Raquel Urtasun",
+          "author_candidates": [
+            "Xiong, Renjie Liao",
+            "Zhao, Rui Hu",
+            "Bai, Ersin Yumer"
+          ],
+          "title_candidate": "UPSNet: A unified panoptic segmentation network",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, and Raquel Urtasun. UPSNet",
+          "author_candidates": [
+            "Xiong, Renjie Liao",
+            "Zhao, Rui Hu",
+            "Bai, Ersin Yumer"
+          ],
+          "title_candidate": "A unified panoptic segmentation network. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, and Raquel Urtasun. UPSNet",
+          "author_candidates": [
+            "Xiong, Renjie Liao",
+            "Zhao, Rui Hu",
+            "Bai, Ersin Yumer"
+          ],
+          "title_candidate": "A unified panoptic segmentation network. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[37] Bowen Cheng, Maxwell Collins, Yukun Zhu, Ting Liu, Thomas Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-deeplab: A simple, strong, and fast baseline for bottom-up panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "venue_marker_split",
+          "author_text": "Bowen Cheng, Maxwell Collins, Yukun Zhu, Ting Liu, Thomas Huang, Hartwig Adam, and Liang-Chieh Chen",
+          "author_candidates": [
+            "Cheng, Maxwell Collins",
+            "Zhu, Ting Liu",
+            "Huang, Hartwig Adam"
+          ],
+          "title_candidate": "Panoptic-deeplab: A simple, strong, and fast baseline for bottom-up panoptic segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bowen Cheng, Maxwell Collins, Yukun Zhu, Ting Liu, Thomas Huang, Hartwig Adam, and Liang-Chieh Chen",
+          "author_candidates": [
+            "Cheng, Maxwell Collins",
+            "Zhu, Ting Liu",
+            "Huang, Hartwig Adam"
+          ],
+          "title_candidate": "Panoptic-deeplab: A simple, strong, and fast baseline for bottom-up panoptic segmentation",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bowen Cheng, Maxwell Collins, Yukun Zhu, Ting Liu, Thomas Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-deeplab",
+          "author_candidates": [
+            "Cheng, Maxwell Collins",
+            "Zhu, Ting Liu",
+            "Huang, Hartwig Adam"
+          ],
+          "title_candidate": "A simple, strong, and fast baseline for bottom-up panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bowen Cheng, Maxwell Collins, Yukun Zhu, Ting Liu, Thomas Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-deeplab",
+          "author_candidates": [
+            "Cheng, Maxwell Collins",
+            "Zhu, Ting Liu",
+            "Huang, Hartwig Adam"
+          ],
+          "title_candidate": "A simple, strong, and fast baseline for bottom-up panoptic segmentation. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[38] Joseph Redmon and Ali Farhadi. Yolov3: An incremental improvement. arXiv:1804.02767, 2018.",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolov3: An incremental improvement",
+          "container_candidate": "arXiv:1804.02767, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon and Ali Farhadi",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+          ],
+          "title_candidate": "Yolov3: An incremental improvement",
+          "container_candidate": "arXiv:1804.02767,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolov3",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolov3"
+          ],
+          "title_candidate": "An incremental improvement. arXiv:1804.02767",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon and Ali Farhadi. Yolov3",
+          "author_candidates": [
+            "Joseph Redmon",
+            "Ali Farhadi. Yolov3"
+          ],
+          "title_candidate": "An incremental improvement. arXiv:1804.02767, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[39] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd: Single shot multibox detector. In Proc. Eur. Conf. Comp. Vis., 2016.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "venue_marker_split",
+          "author_text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg",
+          "author_candidates": [
+            "Liu, Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "Reed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis., 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg",
+          "author_candidates": [
+            "Liu, Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "Reed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Ssd: Single shot multibox detector",
+          "container_candidate": "In Proc. Eur. Conf. Comp. Vis.,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd",
+          "author_candidates": [
+            "Liu, Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "Reed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Single shot multibox detector. In Proc. Eur. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C Berg. Ssd",
+          "author_candidates": [
+            "Liu, Dragomir Anguelov",
+            "Erhan, Christian Szegedy",
+            "Reed, Cheng-Yang Fu"
+          ],
+          "title_candidate": "Single shot multibox detector. In Proc. Eur. Conf. Comp. Vis., 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[40] Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li. Single-shot refinement neural network for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "venue_marker_split",
+          "author_text": "Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li",
+          "author_candidates": [
+            "Zhang, Longyin Wen",
+            "Bian, Zhen Lei"
+          ],
+          "title_candidate": "Single-shot refinement neural network for object detection",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 39,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li",
+          "author_candidates": [
+            "Zhang, Longyin Wen",
+            "Bian, Zhen Lei"
+          ],
+          "title_candidate": "Single-shot refinement neural network for object detection",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 39,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li",
+          "author_candidates": [
+            "Zhang, Longyin Wen",
+            "Bian, Zhen Lei"
+          ],
+          "title_candidate": "Single-shot refinement neural network for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shifeng Zhang, Longyin Wen, Xiao Bian, Zhen Lei, and Stan Z Li",
+          "author_candidates": [
+            "Zhang, Longyin Wen",
+            "Bian, Zhen Lei"
+          ],
+          "title_candidate": "Single-shot refinement neural network for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[41] Tsung-Yi Lin, Piotr Dollár, Ross B. Girshick, Kaiming He, Bharath Hariharan, and Serge J. Belongie. Feature pyramid networks for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017.",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Piotr Dollár, Ross B",
+          "author_candidates": [
+            "Lin, Piotr Doll"
+          ],
+          "title_candidate": "Girshick, Kaiming He, Bharath Hariharan, and Serge J. Belongie. Feature pyramid networks for object detection",
+          "container_candidate": "In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Piotr Dollár, Ross B",
+          "author_candidates": [
+            "Lin, Piotr Doll"
+          ],
+          "title_candidate": "Girshick, Kaiming He, Bharath Hariharan, and Serge J",
+          "container_candidate": "Belongie. Feature pyramid networks for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn.,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Piotr Dollár, Ross B",
+          "author_candidates": [
+            "Lin, Piotr Doll"
+          ],
+          "title_candidate": "Girshick, Kaiming He, Bharath Hariharan, and Serge J. Belongie. Feature pyramid networks for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Piotr Dollár, Ross B",
+          "author_candidates": [
+            "Lin, Piotr Doll"
+          ],
+          "title_candidate": "Girshick, Kaiming He, Bharath Hariharan, and Serge J. Belongie. Feature pyramid networks for object detection. In Proc. IEEE Conf. Comp. Vis. Patt. Recogn., 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "[42] Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, and Jianbo Shi. Foveabox: Beyond anchor-based object detector. arXiv:1904.03797, 2019.",
+      "detected_ref_number": 42,
+      "numbering": {
+        "detected_ref_number": 42,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "venue_marker_split",
+          "author_text": "Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, and Jianbo Shi",
+          "author_candidates": [
+            "Kong, Fuchun Sun",
+            "Liu, Yuning Jiang"
+          ],
+          "title_candidate": "Foveabox: Beyond anchor-based object detector",
+          "container_candidate": "arXiv:1904.03797, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 41,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, and Jianbo Shi",
+          "author_candidates": [
+            "Kong, Fuchun Sun",
+            "Liu, Yuning Jiang"
+          ],
+          "title_candidate": "Foveabox: Beyond anchor-based object detector",
+          "container_candidate": "arXiv:1904.03797,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 41,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, and Jianbo Shi. Foveabox",
+          "author_candidates": [
+            "Kong, Fuchun Sun",
+            "Liu, Yuning Jiang"
+          ],
+          "title_candidate": "Beyond anchor-based object detector. arXiv:1904.03797",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 41,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, and Jianbo Shi. Foveabox",
+          "author_candidates": [
+            "Kong, Fuchun Sun",
+            "Liu, Yuning Jiang"
+          ],
+          "title_candidate": "Beyond anchor-based object detector. arXiv:1904.03797, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "[43] Ze Yang, Shaohui Liu, Han Hu, Liwei Wang, and Stephen Lin. Reppoints: Point set representation for object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2019.",
+      "detected_ref_number": 43,
+      "numbering": {
+        "detected_ref_number": 43,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "venue_marker_split",
+          "author_text": "Ze Yang, Shaohui Liu, Han Hu, Liwei Wang, and Stephen Lin",
+          "author_candidates": [
+            "Yang, Shaohui Liu",
+            "Hu, Liwei Wang"
+          ],
+          "title_candidate": "Reppoints: Point set representation for object detection",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ze Yang, Shaohui Liu, Han Hu, Liwei Wang, and Stephen Lin",
+          "author_candidates": [
+            "Yang, Shaohui Liu",
+            "Hu, Liwei Wang"
+          ],
+          "title_candidate": "Reppoints: Point set representation for object detection",
+          "container_candidate": "In Proc. IEEE Int. Conf. Comp. Vis.,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ze Yang, Shaohui Liu, Han Hu, Liwei Wang, and Stephen Lin. Reppoints",
+          "author_candidates": [
+            "Yang, Shaohui Liu",
+            "Hu, Liwei Wang"
+          ],
+          "title_candidate": "Point set representation for object detection. In Proc. IEEE Int. Conf. Comp. Vis",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ze Yang, Shaohui Liu, Han Hu, Liwei Wang, and Stephen Lin. Reppoints",
+          "author_candidates": [
+            "Yang, Shaohui Liu",
+            "Hu, Liwei Wang"
+          ],
+          "title_candidate": "Point set representation for object detection. In Proc. IEEE Int. Conf. Comp. Vis., 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 43,
+      "raw": "[44] Xingyi Zhou, Dequan Wang, and Philipp Krähenbühl. Objects as points. arXiv:1904.07850, 2019.",
+      "detected_ref_number": 44,
+      "numbering": {
+        "detected_ref_number": 44,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 43,
+          "pattern": "venue_marker_split",
+          "author_text": "Xingyi Zhou, Dequan Wang, and Philipp Krähenbühl",
+          "author_candidates": [
+            "Zhou, Dequan Wang"
+          ],
+          "title_candidate": "Objects as points",
+          "container_candidate": "arXiv:1904.07850, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 43,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xingyi Zhou, Dequan Wang, and Philipp Krähenbühl",
+          "author_candidates": [
+            "Zhou, Dequan Wang"
+          ],
+          "title_candidate": "Objects as points",
+          "container_candidate": "arXiv:1904.07850,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 43,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xingyi Zhou, Dequan Wang, and Philipp Krähenbühl. Objects as points. arXiv",
+          "author_candidates": [
+            "Zhou, Dequan Wang"
+          ],
+          "title_candidate": "1904.07850",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 43,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xingyi Zhou, Dequan Wang, and Philipp Krähenbühl. Objects as points. arXiv",
+          "author_candidates": [
+            "Zhou, Dequan Wang"
+          ],
+          "title_candidate": "1904.07850, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 44,
+      "raw": "[45] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tianheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue Wu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang, Chen Change Loy, and Dahua Lin. MMDetection: Open mmlab detection toolbox and benchmark. arXiv:1906.07155, 2019.",
+      "detected_ref_number": 45,
+      "numbering": {
+        "detected_ref_number": 45,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 44,
+          "pattern": "venue_marker_split",
+          "author_text": "Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tianheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue Wu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang, Chen Change Loy, and Dahua Lin",
+          "author_candidates": [
+            "Chen, Jiaqi Wang",
+            "Pang, Yuhang Cao",
+            "Xiong, Xiaoxiao Li",
+            "Sun, Wansen Feng",
+            "Liu, Jiarui Xu",
+            "Zhang, Dazhi Cheng",
+            "Zhu, Tianheng Cheng",
+            "Zhao, Buyu Li",
+            "Lu, Rui Zhu",
+            "Wu, Jifeng Dai",
+            "Wang, Jianping Shi",
+            "Ouyang, Chen Change Loy"
+          ],
+          "title_candidate": "MMDetection: Open mmlab detection toolbox and benchmark",
+          "container_candidate": "arXiv:1906.07155, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 44,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tianheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue Wu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang, Chen Change Loy, and Dahua Lin",
+          "author_candidates": [
+            "Chen, Jiaqi Wang",
+            "Pang, Yuhang Cao",
+            "Xiong, Xiaoxiao Li",
+            "Sun, Wansen Feng",
+            "Liu, Jiarui Xu",
+            "Zhang, Dazhi Cheng",
+            "Zhu, Tianheng Cheng",
+            "Zhao, Buyu Li",
+            "Lu, Rui Zhu",
+            "Wu, Jifeng Dai",
+            "Wang, Jianping Shi",
+            "Ouyang, Chen Change Loy"
+          ],
+          "title_candidate": "MMDetection: Open mmlab detection toolbox and benchmark",
+          "container_candidate": "arXiv:1906.07155,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 44,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tianheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue Wu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang, Chen Change Loy, and Dahua Lin. MMDetection",
+          "author_candidates": [
+            "Chen, Jiaqi Wang",
+            "Pang, Yuhang Cao",
+            "Xiong, Xiaoxiao Li",
+            "Sun, Wansen Feng",
+            "Liu, Jiarui Xu",
+            "Zhang, Dazhi Cheng",
+            "Zhu, Tianheng Cheng",
+            "Zhao, Buyu Li",
+            "Lu, Rui Zhu",
+            "Wu, Jifeng Dai",
+            "Wang, Jianping Shi",
+            "Ouyang, Chen Change Loy"
+          ],
+          "title_candidate": "Open mmlab detection toolbox and benchmark. arXiv:1906.07155",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 44,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tianheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue Wu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang, Chen Change Loy, and Dahua Lin. MMDetection",
+          "author_candidates": [
+            "Chen, Jiaqi Wang",
+            "Pang, Yuhang Cao",
+            "Xiong, Xiaoxiao Li",
+            "Sun, Wansen Feng",
+            "Liu, Jiarui Xu",
+            "Zhang, Dazhi Cheng",
+            "Zhu, Tianheng Cheng",
+            "Zhao, Buyu Li",
+            "Lu, Rui Zhu",
+            "Wu, Jifeng Dai",
+            "Wang, Jianping Shi",
+            "Ouyang, Chen Change Loy"
+          ],
+          "title_candidate": "Open mmlab detection toolbox and benchmark. arXiv:1906.07155, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 44,
+      "metadata": {
+        "entry_count": 15
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=39",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=41",
+    "reference_pattern_ambiguous: entry_index=42",
+    "reference_pattern_ambiguous: entry_index=43",
+    "reference_pattern_ambiguous: entry_index=44"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

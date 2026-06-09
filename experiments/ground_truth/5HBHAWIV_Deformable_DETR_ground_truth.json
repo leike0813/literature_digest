@@ -1,0 +1,678 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/5HBHAWIV_Deformable DETR_ deformable transformers for end-to-end object detection.txt",
+  "entry_style": "author-year",
+  "notes": "Author-year 段落格式。45 entries. 第55-70行有内联合并（多条目共一行）。",
+  "items": [
+    {
+      "author": [
+        "Joshua Ainslie",
+        "Santiago Ontañón",
+        "Chris Alberti",
+        "Philip Pham",
+        "Anirudh Ravula",
+        "Sumit Sanghai"
+      ],
+      "title": "ETC: Encoding long and structured data in transformers",
+      "year": 2020,
+      "container": "arXiv:2004.08483",
+      "raw": "Joshua Ainslie... Etc: Encoding long and structured data in transformers. arXiv preprint arXiv:2004.08483, 2020.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Iz Beltagy",
+        "Matthew E. Peters",
+        "Arman Cohan"
+      ],
+      "title": "Longformer: The long-document transformer",
+      "year": 2020,
+      "container": "arXiv:2004.05150",
+      "raw": "Iz Beltagy, Matthew E Peters, and Arman Cohan. Longformer... arXiv preprint arXiv:2004.05150, 2020.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Nicolas Carion",
+        "Francisco Massa",
+        "Gabriel Synnaeve",
+        "Nicolas Usunier",
+        "Alexander Kirillov",
+        "Sergey Zagoruyko"
+      ],
+      "title": "End-to-end object detection with transformers",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "Nicolas Carion... End-to-end object detection with transformers. In ECCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Rewon Child",
+        "Scott Gray",
+        "Alec Radford",
+        "Ilya Sutskever"
+      ],
+      "title": "Generating long sequences with sparse transformers",
+      "year": 2019,
+      "container": "arXiv:1904.10509",
+      "raw": "Rewon Child... Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509, 2019.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Krzysztof Choromanski",
+        "Valerii Likhosherstov",
+        "David Dohan",
+        "Xingyou Song",
+        "Jared Davis",
+        "Tamás Sarlós",
+        "David Belanger",
+        "Lucy Colwell",
+        "Adrian Weller"
+      ],
+      "title": "Masked language modeling for proteins via linearly scalable long-context transformers",
+      "year": 2020,
+      "container": "arXiv:2006.03555",
+      "raw": "Krzysztof Choromanski... Masked language modeling for proteins... arXiv preprint arXiv:2006.03555, 2020.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Haozhi Qi",
+        "Yuwen Xiong",
+        "Yi Li",
+        "Guodong Zhang",
+        "Han Hu",
+        "Yichen Wei"
+      ],
+      "title": "Deformable convolutional networks",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "Jifeng Dai... Deformable convolutional networks. In ICCV, 2017.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Jia Deng",
+        "Wei Dong",
+        "Richard Socher",
+        "Li-Jia Li",
+        "Kai Li",
+        "Li Fei-Fei"
+      ],
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "year": 2009,
+      "container": "CVPR",
+      "raw": "Jia Deng... Imagenet: A large-scale hierarchical image database. In CVPR, 2009.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Golnaz Ghiasi",
+        "Tsung-Yi Lin",
+        "Quoc V. Le"
+      ],
+      "title": "NAS-FPN: Learning scalable feature pyramid architecture for object detection",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn... In CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "Kaiming He... Deep residual learning for image recognition. In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Jonathan Ho",
+        "Nal Kalchbrenner",
+        "Dirk Weissenborn",
+        "Tim Salimans"
+      ],
+      "title": "Axial attention in multidimensional transformers",
+      "year": 2019,
+      "container": "arXiv:1912.12180",
+      "raw": "Jonathan Ho... Axial attention in multidimensional transformers. arXiv preprint arXiv:1912.12180, 2019.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Han Hu",
+        "Zheng Zhang",
+        "Zhenda Xie",
+        "Stephen Lin"
+      ],
+      "title": "Local relation networks for image recognition",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Han Hu... Local relation networks for image recognition. In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Zilong Huang",
+        "Xinggang Wang",
+        "Lichao Huang",
+        "Chang Huang",
+        "Yunchao Wei",
+        "Wenyu Liu"
+      ],
+      "title": "CCNet: Criss-cross attention for semantic segmentation",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Zilong Huang... Ccnet: Criss-cross attention for semantic segmentation. In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Angelos Katharopoulos",
+        "Apoorv Vyas",
+        "Nikolaos Pappas",
+        "François Fleuret"
+      ],
+      "title": "Transformers are RNNs: Fast autoregressive transformers with linear attention",
+      "year": 2020,
+      "container": "arXiv:2006.16236",
+      "raw": "Angelos Katharopoulos... Transformers are rnns... arXiv preprint arXiv:2006.16236, 2020.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Diederik P. Kingma",
+        "Jimmy Ba"
+      ],
+      "title": "Adam: A method for stochastic optimization",
+      "year": 2015,
+      "container": "ICLR",
+      "raw": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Nikita Kitaev",
+        "Łukasz Kaiser",
+        "Anselm Levskaya"
+      ],
+      "title": "Reformer: The efficient transformer",
+      "year": 2020,
+      "container": "ICLR",
+      "raw": "Nikita Kitaev, Łukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. In ICLR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Tao Kong",
+        "Fuchun Sun",
+        "Chuanqi Tan",
+        "Huaping Liu",
+        "Wenbing Huang"
+      ],
+      "title": "Deep feature pyramid reconfiguration for object detection",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "Tao Kong... Deep feature pyramid reconfiguration for object detection. In ECCV, 2018.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "Tsung-Yi Lin... Microsoft coco: Common objects in context. In ECCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Piotr Dollár",
+        "Ross Girshick",
+        "Kaiming He",
+        "Bharath Hariharan",
+        "Serge Belongie"
+      ],
+      "title": "Feature pyramid networks for object detection",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "Tsung-Yi Lin... Feature pyramid networks for object detection. In CVPR, 2017a.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Priya Goyal",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Focal loss for dense object detection",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "Tsung-Yi Lin... Focal loss for dense object detection. In ICCV, 2017b.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Li Liu",
+        "Wanli Ouyang",
+        "Xiaogang Wang",
+        "Paul Fieguth",
+        "Jie Chen",
+        "Xinwang Liu",
+        "Matti Pietikäinen"
+      ],
+      "title": "Deep learning for generic object detection: A survey",
+      "year": 2020,
+      "container": "IJCV",
+      "raw": "Li Liu... Deep learning for generic object detection: A survey. IJCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Peter J. Liu",
+        "Mohammad Saleh",
+        "Etienne Pot",
+        "Ben Goodrich",
+        "Ryan Sepassi",
+        "Łukasz Kaiser",
+        "Noam Shazeer"
+      ],
+      "title": "Generating Wikipedia by summarizing long sequences",
+      "year": 2018,
+      "container": "ICLR",
+      "raw": "Peter J Liu... Generating wikipedia by summarizing long sequences. In ICLR, 2018a.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Shu Liu",
+        "Lu Qi",
+        "Haifang Qin",
+        "Jianping Shi",
+        "Jiaya Jia"
+      ],
+      "title": "Path aggregation network for instance segmentation",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "Shu Liu... Path aggregation network for instance segmentation. In CVPR, 2018b.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Niki Parmar",
+        "Ashish Vaswani",
+        "Jakob Uszkoreit",
+        "Łukasz Kaiser",
+        "Noam Shazeer",
+        "Alexander Ku",
+        "Dustin Tran"
+      ],
+      "title": "Image transformer",
+      "year": 2018,
+      "container": "ICML",
+      "raw": "Niki Parmar... Image transformer. In ICML, 2018.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Jiezhong Qiu",
+        "Hao Ma",
+        "Omer Levy",
+        "Scott Wen-tau Yih",
+        "Sinong Wang",
+        "Jie Tang"
+      ],
+      "title": "Blockwise self-attention for long document understanding",
+      "year": 2019,
+      "container": "arXiv:1911.02972",
+      "raw": "Jiezhong Qiu... Blockwise self-attention... arXiv preprint arXiv:1911.02972, 2019.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Prajit Ramachandran",
+        "Niki Parmar",
+        "Ashish Vaswani",
+        "Irwan Bello",
+        "Anselm Levskaya",
+        "Jonathon Shlens"
+      ],
+      "title": "Stand-alone self-attention in vision models",
+      "year": 2019,
+      "container": "NeurIPS",
+      "raw": "Prajit Ramachandran... Stand-alone self-attention in vision models. In NeurIPS, 2019.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NeurIPS",
+      "raw": "Shaoqing Ren... Faster r-cnn... In NeurIPS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Aurko Roy",
+        "Mohammad Saffar",
+        "Ashish Vaswani",
+        "David Grangier"
+      ],
+      "title": "Efficient content-based sparse attention with routing transformers",
+      "year": 2020,
+      "container": "arXiv:2003.05997",
+      "raw": "Aurko Roy... Efficient content-based sparse attention... arXiv preprint arXiv:2003.05997, 2020.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Guanglu Song",
+        "Yu Liu",
+        "Xiaogang Wang"
+      ],
+      "title": "Revisiting the sibling head in object detector",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "Guanglu Song, Yu Liu, and Xiaogang Wang. Revisiting the sibling head in object detector. In CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Ruoming Pang",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientDet: Scalable and efficient object detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "Mingxing Tan, Ruoming Pang, and Quoc V Le. Efficientdet... In CVPR, 2020.",
+      "confidence": 0.95,
+      "notes": "raw 行中与 [56] 合并",
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Yi Tay",
+        "Dara Bahri",
+        "Liu Yang",
+        "Donald Metzler",
+        "Da-Cheng Juan"
+      ],
+      "title": "Sparse Sinkhorn attention",
+      "year": 2020,
+      "container": "ICML",
+      "raw": "Yi Tay... Sparse sinkhorn attention. In ICML, 2020a.",
+      "confidence": 0.95,
+      "notes": "raw 行中与 [57] 合并",
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Yi Tay",
+        "Mostafa Dehghani",
+        "Dara Bahri",
+        "Donald Metzler"
+      ],
+      "title": "Efficient transformers: A survey",
+      "year": 2020,
+      "container": "arXiv:2009.06732",
+      "raw": "Yi Tay... Efficient transformers: A survey. arXiv preprint arXiv:2009.06732, 2020b.",
+      "confidence": 0.95,
+      "notes": "raw 行中与 [56] 合并",
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Zachary Teed",
+        "Jia Deng"
+      ],
+      "title": "RAFT: Recurrent all-pairs field transforms for optical flow",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "Zachary Teed and Jia Deng. Raft... In ECCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Zhi Tian",
+        "Chunhua Shen",
+        "Hao Chen",
+        "Tong He"
+      ],
+      "title": "FCOS: Fully convolutional one-stage object detection",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Zhi Tian... Fcos... In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "title": "Attention is all you need",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "Ashish Vaswani... Attention is all you need. In NeurIPS, 2017.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Huiyu Wang",
+        "Yukun Zhu",
+        "Bradley Green",
+        "Hartwig Adam",
+        "Alan Yuille",
+        "Liang-Chieh Chen"
+      ],
+      "title": "Axial-DeepLab: Stand-alone axial-attention for panoptic segmentation",
+      "year": 2020,
+      "container": "arXiv:2003.07853",
+      "raw": "Huiyu Wang... Axial-deeplab... arXiv preprint arXiv:2003.07853, 2020a.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Sinong Wang",
+        "Belinda Z. Li",
+        "Madian Khabsa",
+        "Han Fang",
+        "Hao Ma"
+      ],
+      "title": "Linformer: Self-attention with linear complexity",
+      "year": 2020,
+      "container": "arXiv:2006.04768",
+      "raw": "Sinong Wang... Linformer... arXiv preprint arXiv:2006.04768, 2020b.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Felix Wu",
+        "Angela Fan",
+        "Alexei Baevski",
+        "Yann N. Dauphin",
+        "Michael Auli"
+      ],
+      "title": "Pay less attention with lightweight and dynamic convolutions",
+      "year": 2019,
+      "container": "ICLR",
+      "raw": "Felix Wu... Pay less attention... In ICLR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Saining Xie",
+        "Ross Girshick",
+        "Piotr Dollár",
+        "Zhuowen Tu",
+        "Kaiming He"
+      ],
+      "title": "Aggregated residual transformations for deep neural networks",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "Saining Xie... Aggregated residual transformations... In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Hang Xu",
+        "Lewei Yao",
+        "Wei Zhang",
+        "Xiaodan Liang",
+        "Zhenguo Li"
+      ],
+      "title": "Auto-FPN: Automatic network architecture adaptation for object detection beyond classification",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Hang Xu... Auto-fpn... In ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Manzil Zaheer",
+        "Guru Guruganesh",
+        "Avinava Dubey",
+        "Joshua Ainslie",
+        "Chris Alberti",
+        "Santiago Ontañón",
+        "Philip Pham",
+        "Anirudh Ravula",
+        "Qifan Wang",
+        "Li Yang"
+      ],
+      "title": "Big Bird: Transformers for longer sequences",
+      "year": 2020,
+      "container": "arXiv:2007.14062",
+      "raw": "Manzil Zaheer... Big bird: Transformers for longer sequences. arXiv preprint arXiv:2007.14062, 2020.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Shifeng Zhang",
+        "Cheng Chi",
+        "Yongqiang Yao",
+        "Zhen Lei",
+        "Stan Z. Li"
+      ],
+      "title": "Bridging the gap between anchor-based and anchor-free detection via adaptive training sample selection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "Shifeng Zhang... Bridging the gap... In CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Qijie Zhao",
+        "Tao Sheng",
+        "Yongtao Wang",
+        "Zhi Tang",
+        "Ying Chen",
+        "Ling Cai",
+        "Haibin Ling"
+      ],
+      "title": "M2Det: A single-shot object detector based on multi-level feature pyramid network",
+      "year": 2019,
+      "container": "AAAI",
+      "raw": "Qijie Zhao... M2det... In AAAI, 2019.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Dazhi Cheng",
+        "Zheng Zhang",
+        "Stephen Lin",
+        "Jifeng Dai"
+      ],
+      "title": "An empirical study of spatial attention mechanisms in deep networks",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Xizhou Zhu... An empirical study of spatial attention mechanisms. In ICCV, 2019a.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Han Hu",
+        "Stephen Lin",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable ConvNets v2: More deformable, better results",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "Xizhou Zhu... Deformable convnets v2... In CVPR, 2019b.",
+      "confidence": 0.95,
+      "entry_index": 43
+    }
+  ]
+}

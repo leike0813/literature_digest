@@ -1,0 +1,1476 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/ABTG2CFC_YOLOv7_ Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object.txt",
+  "entry_style": "numeric",
+  "notes": "纯 numeric 风格 + 行末引用页码标记 + OCR 噪声（如 '[前缺'] 标记、中文逗号）。部分条目缺空格。",
+  "items": [
+    {
+      "author": [
+        "Irwan Bello",
+        "William Fedus",
+        "Xianzhi Du",
+        "Ekin Dogus Cubuk",
+        "Aravind Srinivas",
+        "Tsung-Yi Lin",
+        "Jonathon Shlens",
+        "Barret Zoph"
+      ],
+      "title": "Revisiting ResNets: Improved training and scaling strategies",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[1] Irwan Bello... Revisiting ResNets: Improved training and scaling strategies. NeurIPS, 34, 2021.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Alexey Bochkovskiy",
+        "Chien-Yao Wang",
+        "Hong-Yuan Mark Liao"
+      ],
+      "title": "YOLOv4: Optimal speed and accuracy of object detection",
+      "year": 2020,
+      "container": "arXiv:2004.10934",
+      "raw": "[2] AlexeyBochkovskiy,Chien-YaoWang，andHong-Yuan Mark Liao. YOLOv4... arXiv preprint arXiv:2004.10934, 2020.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Yue Cao",
+        "Thomas Andrew Geddes",
+        "Jean Yee Hwa Yang",
+        "Pengyi Yang"
+      ],
+      "title": "Ensemble deep learning in bioinformatics",
+      "year": 2020,
+      "container": "Nature Machine Intelligence",
+      "raw": "[3] Yue Cao... Ensemble deep learning in bioinformatics. Nature Machine Intelligence, 2(9):500-508, 2020.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Nicolas Carion",
+        "Francisco Massa",
+        "Gabriel Synnaeve",
+        "Nicolas Usunier",
+        "Alexander Kirillov",
+        "Sergey Zagoruyko"
+      ],
+      "title": "End-to-end object detection with transformers",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[4] Nicolas Carion... End-to-end object detection with transformers. In ECCV, pages 213-229, 2020.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Kean Chen",
+        "Weiyao Lin",
+        "Jianguo Li",
+        "John See",
+        "Ji Wang",
+        "Junni Zou"
+      ],
+      "title": "AP-loss for accurate one-stage object detection",
+      "year": 2020,
+      "container": "TPAMI",
+      "raw": "[5] Kean Chen... AP-loss... TPAMI, 43(11):3782-3798, 2020.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Zhe Chen",
+        "Yuchen Duan",
+        "Wenhai Wang",
+        "Junjun He",
+        "Tong Lu",
+        "Jifeng Dai",
+        "Yu Qiao"
+      ],
+      "title": "Vision transformer adapter for dense predictions",
+      "year": 2023,
+      "container": "ICLR",
+      "raw": "[6] Zhe Chen... Vision transformer adapter for dense predictions. In ICLR, 2023.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Jiwoong Choi",
+        "Dayoung Chun",
+        "Hyun Kim",
+        "Hyuk-Jae Lee"
+      ],
+      "title": "Gaussian YOLOv3: An accurate and fast object detector using localization uncertainty for autonomous driving",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[7] Jiwoong Choi... Gaussian YOLOv3... In ICCV, pages 502-511, 2019.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Xiyang Dai",
+        "Yinpeng Chen",
+        "Bin Xiao",
+        "Dongdong Chen",
+        "Mengchen Liu",
+        "Lu Yuan",
+        "Lei Zhang"
+      ],
+      "title": "Dynamic head: Unifying object detection heads with attentions",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[8] Xiyang Dai... Dynamic head... In CVPR, pages 7373-7382, 2021.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Xiaohan Ding",
+        "Honghao Chen",
+        "Xiangyu Zhang",
+        "Kaiqi Huang",
+        "Jungong Han",
+        "Guiguang Ding"
+      ],
+      "title": "Reparameterizing your optimizers rather than architectures",
+      "year": 2023,
+      "container": "ICLR",
+      "raw": "[9] Xiaohan Ding... Reparameterizing your optimizers rather than architectures. In ICLR, 2023.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Xiaohan Ding",
+        "Yuchen Guo",
+        "Guiguang Ding",
+        "Jungong Han"
+      ],
+      "title": "ACNet: Strengthening the kernel skeletons for powerful CNN via asymmetric convolution blocks",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[10] Xiaohan Ding... ACNet... In ICCV, pages 1911-1920, 2019.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Xiaohan Ding",
+        "Xiangyu Zhang",
+        "Jungong Han",
+        "Guiguang Ding"
+      ],
+      "title": "Diverse branch block: Building a convolution as an inception-like unit",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[11] Xiaohan Ding... Diverse branch block... In CVPR, pages 10886-10895, 2021.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Xiaohan Ding",
+        "Xiangyu Zhang",
+        "Ningning Ma",
+        "Jungong Han",
+        "Guiguang Ding",
+        "Jian Sun"
+      ],
+      "title": "RepVGG: Making VGG-style convnets great again",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[12] Xiaohan Ding... RepVGG... In CVPR, pages 13733-13742, 2021.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Xiaohan Ding",
+        "Xiangyu Zhang",
+        "Yizhuang Zhou",
+        "Jungong Han",
+        "Guiguang Ding",
+        "Jian Sun"
+      ],
+      "title": "Scaling up your kernels to 31x31: Revisiting large kernel design in CNNs",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[13] Xiaohan Ding... Scaling up your kernels to 31x31... In CVPR, 2022.",
+      "confidence": 0.95,
+      "notes": "raw 中 'Ding' 含 OCR 噪声 '[前缺']",
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Piotr Dollár",
+        "Mannat Singh",
+        "Ross Girshick"
+      ],
+      "title": "Fast and accurate model scaling",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[14] Piotr Dollar... Fast and accurate model scaling. In CVPR, pages 924-932, 2021.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Xianzhi Du",
+        "Barret Zoph",
+        "Wei-Chih Hung",
+        "Tsung-Yi Lin"
+      ],
+      "title": "Simple training strategies and model scaling for object detection",
+      "year": 2021,
+      "container": "arXiv:2107.00057",
+      "raw": "[15] Xianzhi Du... Simple training strategies... arXiv preprint arXiv:2107.00057, 2021.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Chengjian Feng",
+        "Yujie Zhong",
+        "Yu Gao",
+        "Matthew R. Scott",
+        "Weilin Huang"
+      ],
+      "title": "TOOD: Task-aligned one-stage object detection",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[16] Chengjian Feng... TOOD... In ICCV, pages 3490-3499, 2021.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Di Feng",
+        "Christian Haase-Schütz",
+        "Lars Rosenbaum",
+        "Heinz Hertlein",
+        "Claudius Gläser",
+        "Fabian Timm",
+        "Werner Wiesbeck",
+        "Klaus Dietmayer"
+      ],
+      "title": "Deep multi-modal object detection and semantic segmentation for autonomous driving: Datasets, methods, and challenges",
+      "year": 2020,
+      "container": "IEEE TITS",
+      "raw": "[17] Di Feng... Deep multi-modal object detection and semantic segmentation... IEEE TITS, 22(3):1341-1360, 2020.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Timur Garipov",
+        "Pavel Izmailov",
+        "Dmitrii Podoprikhin",
+        "Dmitry P. Vetrov",
+        "Andrew Gordon Wilson"
+      ],
+      "title": "Loss surfaces, mode connectivity, and fast ensembling of DNNs",
+      "year": 2018,
+      "container": "NeurIPS",
+      "raw": "[18] Timur Garipov... Loss surfaces... NeurIPS, 31, 2018.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Zheng Ge",
+        "Songtao Liu",
+        "Zeming Li",
+        "Osamu Yoshie",
+        "Jian Sun"
+      ],
+      "title": "OTA: Optimal transport assignment for object detection",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[19] Zheng Ge... OTA... In CVPR, pages 303-312, 2021.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Zheng Ge",
+        "Songtao Liu",
+        "Feng Wang",
+        "Zeming Li",
+        "Jian Sun"
+      ],
+      "title": "YOLOX: Exceeding YOLO series in 2021",
+      "year": 2021,
+      "container": "arXiv:2107.08430",
+      "raw": "[20] Zheng Ge... YOLOX... arXiv preprint arXiv:2107.08430, 2021.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Golnaz Ghiasi",
+        "Tsung-Yi Lin",
+        "Quoc V. Le"
+      ],
+      "title": "NAS-FPN: Learning scalable feature pyramid architecture for object detection",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[21] Golnaz Ghiasi... NAS-FPN... In CVPR, pages 7036-7045, 2019.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Glenn Jocher"
+      ],
+      "title": "YOLOv5 release v6.1",
+      "year": 2022,
+      "container": "https://github.com/ultralytics/yolov5",
+      "raw": "[22] Jocher Glenn. YOLOv5 release v6.1. https://github.com/ultralytics/yolov5/releases/tag/v6.1, 2022.",
+      "confidence": 0.8,
+      "notes": "GitHub release",
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Shuxuan Guo",
+        "Jose M. Alvarez",
+        "Mathieu Salzmann"
+      ],
+      "title": "ExpandNets: Linear over-parameterization to train compact convolutional networks",
+      "year": 2020,
+      "container": "NeurIPS",
+      "raw": "[23] Shuxuan Guo... ExpandNets... NeurIPS, 33:1298-1310, 2020.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Kai Han",
+        "Yunhe Wang",
+        "Qi Tian",
+        "Jianyuan Guo",
+        "Chunjing Xu",
+        "Chang Xu"
+      ],
+      "title": "GhostNet: More features from cheap operations",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[24] Kai Han... GhostNet... In CVPR, pages 1580-1589, 2020.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[25] Kaiming He... Deep residual learning... In CVPR, pages 770-778, 2016.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Andrew Howard",
+        "Mark Sandler",
+        "Grace Chu",
+        "Liang-Chieh Chen",
+        "Bo Chen",
+        "Mingxing Tan",
+        "Weijun Wang",
+        "Yukun Zhu",
+        "Ruoming Pang",
+        "Vijay Vasudevan"
+      ],
+      "title": "Searching for MobileNetV3",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[26] Andrew Howard... Searching for MobileNetV3. In CVPR, pages 1314-1324, 2019.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Andrew G. Howard",
+        "Menglong Zhu",
+        "Bo Chen",
+        "Dmitry Kalenichenko",
+        "Weijun Wang",
+        "Tobias Weyand",
+        "Marco Andreetto",
+        "Hartwig Adam"
+      ],
+      "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "year": 2017,
+      "container": "arXiv:1704.04861",
+      "raw": "[27] Andrew G Howard... MobileNets... arXiv preprint arXiv:1704.04861, 2017.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Mu Hu",
+        "Junyi Feng",
+        "Jiashen Hua",
+        "Baisheng Lai",
+        "Jianqiang Huang",
+        "Xiaojin Gong",
+        "Xiansheng Hua"
+      ],
+      "title": "Online convolutional re-parameterization",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[28] Mu Hu... Online convolutional re-parameterization. In CVPR, 2022.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Miao Hu",
+        "Yali Li",
+        "Lu Fang",
+        "Shengjin Wang"
+      ],
+      "title": "A²-FPN: Attention aggregation based feature pyramid network for instance segmentation",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[29] Miao Hu... A²-FPN... In CVPR, pages 15343-15352, 2021.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Gao Huang",
+        "Yixuan Li",
+        "Geoff Pleiss",
+        "Zhuang Liu",
+        "John E. Hopcroft",
+        "Kilian Q. Weinberger"
+      ],
+      "title": "Snapshot ensembles: Train 1, get M for free",
+      "year": 2017,
+      "container": "ICLR",
+      "raw": "[30] Gao Huang... Snapshot ensembles... In ICLR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Gao Huang",
+        "Zhuang Liu",
+        "Laurens Van Der Maaten",
+        "Kilian Q. Weinberger"
+      ],
+      "title": "Densely connected convolutional networks",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[31] Gao Huang... Densely connected convolutional networks. In CVPR, pages 4700-4708, 2017.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Pavel Izmailov",
+        "Dmitrii Podoprikhin",
+        "Timur Garipov",
+        "Dmitry Vetrov",
+        "Andrew Gordon Wilson"
+      ],
+      "title": "Averaging weights leads to wider optima and better generalization",
+      "year": 2018,
+      "container": "UAI",
+      "raw": "[32] Pavel Izmailov... Averaging weights... In UAI, 2018.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Paul F. Jaeger",
+        "Simon A. A. Kohl",
+        "Sebastian Bickelhaupt",
+        "Fabian Isensee",
+        "Tristan Anselm Kuder",
+        "Heinz-Peter Schlemmer",
+        "Klaus H. Maier-Hein"
+      ],
+      "title": "Retina U-Net: Embarrassingly simple exploitation of segmentation supervision for medical object detection",
+      "year": 2020,
+      "container": "ML4H Workshop",
+      "raw": "[33] Paul F Jaeger... Retina U-Net... In Machine Learning for Health Workshop, pages 171-183, 2020.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Hakan Karaoguz",
+        "Patric Jensfelt"
+      ],
+      "title": "Object detection approach for robot grasp detection",
+      "year": 2019,
+      "container": "ICRA",
+      "raw": "[34] Hakan Karaoguz and Patric Jensfelt. Object detection approach for robot grasp detection. In ICRA, pages 4953-4959, 2019.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Kang Kim",
+        "Hee Seok Lee"
+      ],
+      "title": "Probabilistic anchor assignment with IoU prediction for object detection",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[35] Kang Kim and Hee Seok Lee. Probabilistic anchor assignment... In ECCV, pages 355-371, 2020.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Alexander Kirillov",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Panoptic feature pyramid networks",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[36] Alexander Kirillov... Panoptic feature pyramid networks. In CVPR, pages 6399-6408, 2019.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Chen-Yu Lee",
+        "Saining Xie",
+        "Patrick Gallagher",
+        "Zhengyou Zhang",
+        "Zhuowen Tu"
+      ],
+      "title": "Deeply-supervised nets",
+      "year": 2015,
+      "container": "AISTATS",
+      "raw": "[37] Chen-Yu Lee... Deeply-supervised nets. In AISTATS, pages 562-570, 2015.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Youngwan Lee",
+        "Joong-won Hwang",
+        "Sangrok Lee",
+        "Yuseok Bae",
+        "Jongyoul Park"
+      ],
+      "title": "An energy and GPU-computation efficient backbone network for real-time object detection",
+      "year": 2019,
+      "container": "CVPRW",
+      "raw": "[38] Youngwan Lee... An energy and GPU-computation efficient backbone... In CVPRW, pages 0-0, 2019.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Buyu Li",
+        "Wanli Ouyang",
+        "Lu Sheng",
+        "Xingyu Zeng",
+        "Xiaogang Wang"
+      ],
+      "title": "GS3D: An efficient 3d object detection framework for autonomous driving",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[39] Buyu Li... GS3D... In CVPR, pages 1019-1028, 2019.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Shuai Li",
+        "Chenhang He",
+        "Ruihuang Li",
+        "Lei Zhang"
+      ],
+      "title": "A dual weighting label assignment scheme for object detection",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[40] Shuai Li... A dual weighting label assignment... In CVPR, pages 9387-9396, 2022.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Xiang Li",
+        "Wenhai Wang",
+        "Xiaolin Hu",
+        "Jun Li",
+        "Jinhui Tang",
+        "Jian Yang"
+      ],
+      "title": "Generalized focal loss v2: Learning reliable localization quality estimation for dense object detection",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[41] Xiang Li... Generalized focal loss v2... In CVPR, pages 11632-11641, 2021.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Xiang Li",
+        "Wenhai Wang",
+        "Lijun Wu",
+        "Shuo Chen",
+        "Xiaolin Hu",
+        "Jun Li",
+        "Jinhui Tang",
+        "Jian Yang"
+      ],
+      "title": "Generalized focal loss: Learning qualified and distributed bounding boxes for dense object detection",
+      "year": 2020,
+      "container": "NeurIPS",
+      "raw": "[42] Xiang Li... Generalized focal loss... NeurIPS, 33:21002-21012, 2020.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Yanghao Li",
+        "Hanzi Mao",
+        "Ross Girshick",
+        "Kaiming He"
+      ],
+      "title": "Exploring plain vision transformer backbones for object detection",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "[43] Yanghao Li... Exploring plain vision transformer backbones... In ECCV, 2022.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Zhuoling Li",
+        "Minghui Dong",
+        "Shiping Wen",
+        "Xiang Hu",
+        "Pan Zhou",
+        "Zhigang Zeng"
+      ],
+      "title": "CLU-CNNs: Object detection for medical images",
+      "year": 2019,
+      "container": "Neurocomputing",
+      "raw": "[44] Zhuoling Li... CLU-CNNs... Neurocomputing, 350:53-59, 2019.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Tingting Liang",
+        "Xiaojie Chu",
+        "Yudong Liu",
+        "Yongtao Wang",
+        "Zhi Tang",
+        "Wei Chu",
+        "Jingdong Chen",
+        "Haibin Ling"
+      ],
+      "title": "CB-Net: A composite backbone network architecture for object detection",
+      "year": 2022,
+      "container": "TIP",
+      "raw": "[45] Tingting Liang... CB-Net... IEEE TIP, 2022.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Ji Lin",
+        "Wei-Ming Chen",
+        "Han Cai",
+        "Chuang Gan",
+        "Song Han"
+      ],
+      "title": "Memory-efficient patch-based inference for tiny deep learning",
+      "year": 2021,
+      "container": "NeurIPS",
+      "raw": "[46] Ji Lin... Memory-efficient patch-based inference... NeurIPS, 34:2346-2358, 2021.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Ji Lin",
+        "Wei-Ming Chen",
+        "Yujun Lin",
+        "Chuang Gan",
+        "Song Han"
+      ],
+      "title": "MCUNet: Tiny deep learning on IoT devices",
+      "year": 2020,
+      "container": "NeurIPS",
+      "raw": "[47] Ji Lin... MCUNet... NeurIPS, 33:11711-11722, 2020.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "Yuxuan Liu",
+        "Lujia Wang",
+        "Ming Liu"
+      ],
+      "title": "YOLOStereo3D: A step back to 2D for efficient stereo 3D detection",
+      "year": 2021,
+      "container": "ICRA",
+      "raw": "[48] Yuxuan Liu... YOLOStereo3D... In ICRA, pages 13018-13024, 2021.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Ze Liu",
+        "Han Hu",
+        "Yutong Lin",
+        "Zhuliang Yao",
+        "Zhenda Xie",
+        "Yixuan Wei",
+        "Jia Ning",
+        "Yue Cao",
+        "Zheng Zhang",
+        "Li Dong"
+      ],
+      "title": "Swin transformer v2: Scaling up capacity and resolution",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "[49] Ze Liu... Swin transformer v2... In CVPR, 2022.",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "Ze Liu",
+        "Yutong Lin",
+        "Yue Cao",
+        "Han Hu",
+        "Yixuan Wei",
+        "Zheng Zhang",
+        "Stephen Lin",
+        "Baining Guo"
+      ],
+      "title": "Swin transformer: Hierarchical vision transformer using shifted windows",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[50] Ze Liu... Swin transformer... In ICCV, pages 10012-10022, 2021.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Rangi Lyu"
+      ],
+      "title": "NanoDet-Plus",
+      "year": 2021,
+      "container": "https://github.com/RangiLyu/nanodet",
+      "raw": "[51] Rangi Lyu. NanoDet-Plus. https://github.com/RangiLyu/nanodet...",
+      "confidence": 0.78,
+      "notes": "GitHub release",
+      "entry_index": 50
+    },
+    {
+      "author": [
+        "Ningning Ma",
+        "Xiangyu Zhang",
+        "Hai-Tao Zheng",
+        "Jian Sun"
+      ],
+      "title": "ShuffleNet V2: Practical guidelines for efficient CNN architecture design",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[52] Ningning Ma... ShuffleNet V2... In ECCV, pages 116-131, 2018.",
+      "confidence": 0.95,
+      "entry_index": 51
+    },
+    {
+      "author": [
+        "Kemal Oksuz",
+        "Baris Can Cam",
+        "Emre Akbas",
+        "Sinan Kalkan"
+      ],
+      "title": "A ranking-based, balanced loss function unifying classification and localisation in object detection",
+      "year": 2020,
+      "container": "NeurIPS",
+      "raw": "[53] Kemal Oksuz... A ranking-based, balanced loss function... NeurIPS, 33:15534-15545, 2020.",
+      "confidence": 0.95,
+      "entry_index": 52
+    },
+    {
+      "author": [
+        "Kemal Oksuz",
+        "Baris Can Cam",
+        "Emre Akbas",
+        "Sinan Kalkan"
+      ],
+      "title": "Rank & sort loss for object detection and instance segmentation",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "[54] Kemal Oksuz... Rank & sort loss... In ICCV, pages 3009-3018, 2021.",
+      "confidence": 0.95,
+      "entry_index": 53
+    },
+    {
+      "author": [
+        "Shuvo Kumar Paul",
+        "Muhammed Tawfiq Chowdhury",
+        "Mircea Nicolescu",
+        "Monica Nicolescu",
+        "David Feil-Seifer"
+      ],
+      "title": "Object detection and pose estimation from rgb and depth data for real-time, adaptive robotic grasping",
+      "year": 2021,
+      "container": "(book chapter)",
+      "raw": "[55] Shuvo Kumar Paul... Object detection and pose estimation... pages 121-142, 2021.",
+      "confidence": 0.95,
+      "entry_index": 54
+    },
+    {
+      "author": [
+        "Siyuan Qiao",
+        "Liang-Chieh Chen",
+        "Alan Yuille"
+      ],
+      "title": "DetectoRS: Detecting objects with recursive feature pyramid and switchable atrous convolution",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[56] Siyuan Qiao... DetectoRS... In CVPR, pages 10213-10224, 2021.",
+      "confidence": 0.95,
+      "entry_index": 55
+    },
+    {
+      "author": [
+        "Ilija Radosavovic",
+        "Raj Prateek Kosaraju",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Designing network design spaces",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[57] Ilija Radosavovic... Designing network design spaces. In CVPR, pages 10428-10436, 2020.",
+      "confidence": 0.95,
+      "entry_index": 56
+    },
+    {
+      "author": [
+        "Joseph Redmon",
+        "Santosh Divvala",
+        "Ross Girshick",
+        "Ali Farhadi"
+      ],
+      "title": "You only look once: Unified, real-time object detection",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[58] Joseph Redmon... You only look once... In CVPR, pages 779-788, 2016.",
+      "confidence": 0.95,
+      "entry_index": 57
+    },
+    {
+      "author": [
+        "Joseph Redmon",
+        "Ali Farhadi"
+      ],
+      "title": "YOLO9000: better, faster, stronger",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[59] Joseph Redmon and Ali Farhadi. YOLO9000... In CVPR, pages 7263-7271, 2017.",
+      "confidence": 0.95,
+      "entry_index": 58
+    },
+    {
+      "author": [
+        "Joseph Redmon",
+        "Ali Farhadi"
+      ],
+      "title": "YOLOv3: An incremental improvement",
+      "year": 2018,
+      "container": "arXiv:1804.02767",
+      "raw": "[60] Joseph Redmon and Ali Farhadi. YOLOv3... arXiv preprint arXiv:1804.02767, 2018.",
+      "confidence": 0.95,
+      "entry_index": 59
+    },
+    {
+      "author": [
+        "Hamid Rezatofighi",
+        "Nathan Tsoi",
+        "JunYoung Gwak",
+        "Amir Sadeghian",
+        "Ian Reid",
+        "Silvio Savarese"
+      ],
+      "title": "Generalized intersection over union: A metric and a loss for bounding box regression",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[61] Hamid Rezatofighi... Generalized intersection over union... In CVPR, pages 658-666, 2019.",
+      "confidence": 0.95,
+      "entry_index": 60
+    },
+    {
+      "author": [
+        "Byungseok Roh",
+        "JaeWoong Shin",
+        "Wuhyun Shin",
+        "Saehoon Kim"
+      ],
+      "title": "Sparse DETR: Efficient end-to-end object detection with learnable sparsity",
+      "year": 2022,
+      "container": "ICLR",
+      "raw": "[62] Byungseok Roh... Sparse DETR... 2022.",
+      "confidence": 0.9,
+      "notes": "raw 无明确 venue",
+      "entry_index": 61
+    },
+    {
+      "author": [
+        "Mark Sandler",
+        "Andrew Howard",
+        "Menglong Zhu",
+        "Andrey Zhmoginov",
+        "Liang-Chieh Chen"
+      ],
+      "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[63] Mark Sandler... MobileNetV2... In CVPR, pages 4510-4520, 2018.",
+      "confidence": 0.95,
+      "entry_index": 62
+    },
+    {
+      "author": [
+        "Zhiqiang Shen",
+        "Zhuang Liu",
+        "Jianguo Li",
+        "Yu-Gang Jiang",
+        "Yurong Chen",
+        "Xiangyang Xue"
+      ],
+      "title": "Object detection from scratch with deep supervision",
+      "year": 2019,
+      "container": "TPAMI",
+      "raw": "[64] Zhiqiang Shen... Object detection from scratch... TPAMI, 42(2):398-412, 2019.",
+      "confidence": 0.95,
+      "entry_index": 63
+    },
+    {
+      "author": [
+        "Karen Simonyan",
+        "Andrew Zisserman"
+      ],
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "year": 2014,
+      "container": "arXiv:1409.1556",
+      "raw": "[65] Karen Simonyan and Andrew Zisserman. Very deep convolutional networks... arXiv preprint arXiv:1409.1556, 2014.",
+      "confidence": 0.95,
+      "entry_index": 64
+    },
+    {
+      "author": [
+        "Peize Sun",
+        "Rufeng Zhang",
+        "Yi Jiang",
+        "Tao Kong",
+        "Chenfeng Xu",
+        "Wei Zhan",
+        "Masayoshi Tomizuka",
+        "Lei Li",
+        "Zehuan Yuan",
+        "Changhu Wang"
+      ],
+      "title": "Sparse R-CNN: End-to-end object detection with learnable proposals",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[66] Peize Sun... Sparse R-CNN... In CVPR, pages 14454-14463, 2021.",
+      "confidence": 0.95,
+      "entry_index": 65
+    },
+    {
+      "author": [
+        "Christian Szegedy",
+        "Wei Liu",
+        "Yangqing Jia",
+        "Pierre Sermanet",
+        "Scott Reed",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Vincent Vanhoucke",
+        "Andrew Rabinovich"
+      ],
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[67] Christian Szegedy... Going deeper with convolutions. In CVPR, pages 1-9, 2015.",
+      "confidence": 0.95,
+      "entry_index": 66
+    },
+    {
+      "author": [
+        "Christian Szegedy",
+        "Vincent Vanhoucke",
+        "Sergey Ioffe",
+        "Jonathon Shlens",
+        "Zbigniew Wojna"
+      ],
+      "title": "Rethinking the inception architecture for computer vision",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[68] Christian Szegedy... Rethinking the inception architecture... In CVPR, pages 2818-2826, 2016.",
+      "confidence": 0.95,
+      "entry_index": 67
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientNet: Rethinking model scaling for convolutional neural networks",
+      "year": 2019,
+      "container": "ICML",
+      "raw": "[69] Mingxing Tan and Quoc Le. EfficientNet... In ICML, pages 6105-6114, 2019.",
+      "confidence": 0.95,
+      "entry_index": 68
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientNetV2: Smaller models and faster training",
+      "year": 2021,
+      "container": "ICML",
+      "raw": "[70] Mingxing Tan and Quoc Le. EfficientNetv2... In ICML, pages 10096-10106, 2021.",
+      "confidence": 0.95,
+      "entry_index": 69
+    },
+    {
+      "author": [
+        "Mingxing Tan",
+        "Ruoming Pang",
+        "Quoc V. Le"
+      ],
+      "title": "EfficientDet: Scalable and efficient object detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[71] Mingxing Tan... EfficientDet... In CVPR, pages 10781-10790, 2020.",
+      "confidence": 0.95,
+      "entry_index": 70
+    },
+    {
+      "author": [
+        "Antti Tarvainen",
+        "Harri Valpola"
+      ],
+      "title": "Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "[72] Antti Tarvainen and Harri Valpola. Mean teachers are better role models... NeurIPS, 30, 2017.",
+      "confidence": 0.95,
+      "entry_index": 71
+    },
+    {
+      "author": [
+        "Zhi Tian",
+        "Chunhua Shen",
+        "Hao Chen",
+        "Tong He"
+      ],
+      "title": "FCOS: Fully convolutional one-stage object detection",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[73] Zhi Tian... FCOS... In ICCV, pages 9627-9636, 2019.",
+      "confidence": 0.95,
+      "entry_index": 72
+    },
+    {
+      "author": [
+        "Zhi Tian",
+        "Chunhua Shen",
+        "Hao Chen",
+        "Tong He"
+      ],
+      "title": "FCOS: A simple and strong anchor-free object detector",
+      "year": 2022,
+      "container": "TPAMI",
+      "raw": "[74] Zhi Tian... FCOS: A simple and strong anchor-free object detector. TPAMI, 44(4):1922-1933, 2022.",
+      "confidence": 0.95,
+      "entry_index": 73
+    },
+    {
+      "author": [
+        "Pavan Kumar Anasosalu Vasu",
+        "James Gabriel",
+        "Jeff Zhu",
+        "Oncel Tuzel",
+        "Anurag Ranjan"
+      ],
+      "title": "An improved one millisecond mobile backbone",
+      "year": 2022,
+      "container": "arXiv:2206.04040",
+      "raw": "[75] Pavan Kumar Anasosalu Vasu... An improved one millisecond mobile backbone. arXiv preprint arXiv:2206.04040, 2022.",
+      "confidence": 0.95,
+      "entry_index": 74
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "Alexey Bochkovskiy",
+        "Hong-Yuan Mark Liao"
+      ],
+      "title": "Scaled-YOLOv4: Scaling cross stage partial network",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[76] Chien-Yao Wang... Scaled-YOLOv4... In CVPR, pages 13029-13038, 2021.",
+      "confidence": 0.95,
+      "entry_index": 75
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "Hong-Yuan Mark Liao",
+        "Yueh-Hua Wu",
+        "Ping-Yang Chen",
+        "Jun-Wei Hsieh",
+        "I-Hau Yeh"
+      ],
+      "title": "CSPNet: A new backbone that can enhance learning capability of CNN",
+      "year": 2020,
+      "container": "CVPRW",
+      "raw": "[77] Chien-Yao Wang... CSPNet... In CVPRW, pages 390-391, 2020.",
+      "confidence": 0.95,
+      "entry_index": 76
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "Hong-Yuan Mark Liao",
+        "I-Hau Yeh"
+      ],
+      "title": "Designing network design strategies through gradient path analysis",
+      "year": 2022,
+      "container": "arXiv:2211",
+      "raw": "[78] Chien-Yao Wang... Designing network design strategies... arXiv preprint arXiv:2211, 2022.",
+      "confidence": 0.95,
+      "entry_index": 77
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "I-Hau Yeh",
+        "Hong-Yuan Mark Liao"
+      ],
+      "title": "You only learn one representation: Unified network for multiple tasks",
+      "year": 2023,
+      "container": "JISE",
+      "raw": "[79] Chien-Yao Wang... You only learn one representation... Journal of Information Science & Engineering, 2023.",
+      "confidence": 0.95,
+      "entry_index": 78
+    },
+    {
+      "author": [
+        "Jianfeng Wang",
+        "Lin Song",
+        "Zeming Li",
+        "Hongbin Sun",
+        "Jian Sun",
+        "Nanning Zheng"
+      ],
+      "title": "End-to-end object detection with fully convolutional network",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[80] Jianfeng Wang... End-to-end object detection... In CVPR, pages 15849-15858, 2021.",
+      "confidence": 0.95,
+      "entry_index": 79
+    },
+    {
+      "author": [
+        "Bichen Wu",
+        "Chaojian Li",
+        "Hang Zhang",
+        "Xiaoliang Dai",
+        "Peizhao Zhang",
+        "Mathew Yu",
+        "Jialiang Wang",
+        "Yingyan Lin",
+        "Peter Vajda"
+      ],
+      "title": "FBNetV5: Neural architecture search for multiple tasks in one run",
+      "year": 2021,
+      "container": "arXiv:2111.10007",
+      "raw": "[81] Bichen Wu... FBNetv5... arXiv preprint arXiv:2111.10007, 2021.",
+      "confidence": 0.95,
+      "entry_index": 80
+    },
+    {
+      "author": [
+        "Yunyang Xiong",
+        "Hanxiao Liu",
+        "Suyog Gupta",
+        "Berkin Akin",
+        "Gabriel Bender",
+        "Yongzhe Wang",
+        "Pieter-Jan Kindermans",
+        "Mingxing Tan",
+        "Vikas Singh",
+        "Bo Chen"
+      ],
+      "title": "MobileDets: Searching for object detection architectures for mobile accelerators",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[82] Yunyang Xiong... MobileDets... In CVPR, pages 3825-3834, 2021.",
+      "confidence": 0.95,
+      "entry_index": 81
+    },
+    {
+      "author": [
+        "Shangliang Xu",
+        "Xinxin Wang",
+        "Wenyu Lv",
+        "Qinyao Chang",
+        "Cheng Cui",
+        "Kaipeng Deng",
+        "Guanzhong Wang",
+        "Qingqing Dang",
+        "Shengyu Wei",
+        "Yuning Du"
+      ],
+      "title": "PP-YOLOE: An evolved version of YOLO",
+      "year": 2022,
+      "container": "arXiv:2203.16250",
+      "raw": "[83] Shangliang Xu... PP-YOLOE... arXiv preprint arXiv:2203.16250, 2022.",
+      "confidence": 0.95,
+      "entry_index": 82
+    },
+    {
+      "author": [
+        "Zetong Yang",
+        "Yin Zhou",
+        "Zhifeng Chen",
+        "Jiquan Ngiam"
+      ],
+      "title": "3D-MAN: 3D multi-frame attention network for object detection",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[84] Zetong Yang... 3D-MAN... In CVPR, pages 1863-1872, 2021.",
+      "confidence": 0.95,
+      "entry_index": 83
+    },
+    {
+      "author": [
+        "Fisher Yu",
+        "Dequan Wang",
+        "Evan Shelhamer",
+        "Trevor Darrell"
+      ],
+      "title": "Deep layer aggregation",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[85] Fisher Yu... Deep layer aggregation. In CVPR, pages 2403-2412, 2018.",
+      "confidence": 0.95,
+      "entry_index": 84
+    },
+    {
+      "author": [
+        "Guanghua Yu",
+        "Qinyao Chang",
+        "Wenyu Lv",
+        "Chang Xu",
+        "Cheng Cui",
+        "Wei Ji",
+        "Qingqing Dang",
+        "Kaipeng Deng",
+        "Guanzhong Wang",
+        "Yuning Du"
+      ],
+      "title": "PP-PicoDet: A better realtime object detector on mobile devices",
+      "year": 2021,
+      "container": "arXiv:2111.00902",
+      "raw": "[86] Guanghua Yu... PP-PicoDet... arXiv preprint arXiv:2111.00902, 2021.",
+      "confidence": 0.95,
+      "entry_index": 85
+    },
+    {
+      "author": [
+        "Haoyang Zhang",
+        "Ying Wang",
+        "Feras Dayoub",
+        "Niko Sünderhauf"
+      ],
+      "title": "VarifocalNet: An IoU-aware dense object detector",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "[87] Haoyang Zhang... VarifocalNet... In CVPR, pages 8514-8523, 2021.",
+      "confidence": 0.95,
+      "entry_index": 86
+    },
+    {
+      "author": [
+        "Shifeng Zhang",
+        "Cheng Chi",
+        "Yongqiang Yao",
+        "Zhen Lei",
+        "Stan Z. Li"
+      ],
+      "title": "Bridging the gap between anchor-based and anchor-free detection via adaptive training sample selection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[88] Shifeng Zhang... Bridging the gap... In CVPR, pages 9759-9768, 2020.",
+      "confidence": 0.95,
+      "entry_index": 87
+    },
+    {
+      "author": [
+        "Xiangyu Zhang",
+        "Xinyu Zhou",
+        "Mengxiao Lin",
+        "Jian Sun"
+      ],
+      "title": "ShuffleNet: An extremely efficient convolutional neural network for mobile devices",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[89] Xiangyu Zhang... ShuffleNet... In CVPR, pages 6848-6856, 2018.",
+      "confidence": 0.95,
+      "entry_index": 88
+    },
+    {
+      "author": [
+        "Yifu Zhang",
+        "Peize Sun",
+        "Yi Jiang",
+        "Dongdong Yu",
+        "Zehuan Yuan",
+        "Ping Luo",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "title": "ByteTrack: Multi-object tracking by associating every detection box",
+      "year": 2022,
+      "container": "ECCV",
+      "raw": "[90] Yifu Zhang... ByteTrack... In ECCV, 2022.",
+      "confidence": 0.95,
+      "entry_index": 89
+    },
+    {
+      "author": [
+        "Yifu Zhang",
+        "Chunyu Wang",
+        "Xinggang Wang",
+        "Wenjun Zeng",
+        "Wenyu Liu"
+      ],
+      "title": "FairMOT: On the fairness of detection and re-identification in multiple object tracking",
+      "year": 2021,
+      "container": "IJCV",
+      "raw": "[91] Yifu Zhang... FairMOT... IJCV, 129(11):3069-3087, 2021.",
+      "confidence": 0.95,
+      "entry_index": 90
+    },
+    {
+      "author": [
+        "Zhaohui Zheng",
+        "Ping Wang",
+        "Wei Liu",
+        "Jinze Li",
+        "Rongguang Ye",
+        "Dongwei Ren"
+      ],
+      "title": "Distance-IoU loss: Faster and better learning for bounding box regression",
+      "year": 2020,
+      "container": "AAAI",
+      "raw": "[92] Zhaohui Zheng... Distance-IoU loss... In AAAI, pages 12993-13000, 2020.",
+      "confidence": 0.95,
+      "entry_index": 91
+    },
+    {
+      "author": [
+        "Dingfu Zhou",
+        "Jin Fang",
+        "Xibin Song",
+        "Chenye Guan",
+        "Junbo Yin",
+        "Yuchao Dai",
+        "Ruigang Yang"
+      ],
+      "title": "IoU loss for 2D/3D object detection",
+      "year": 2019,
+      "container": "3DV",
+      "raw": "[93] Dingfu Zhou... IoU loss for 2D/3D object detection. In 3DV, pages 85-94, 2019.",
+      "confidence": 0.95,
+      "entry_index": 92
+    },
+    {
+      "author": [
+        "Xingyi Zhou",
+        "Dequan Wang",
+        "Philipp Krähenbühl"
+      ],
+      "title": "Objects as points",
+      "year": 2019,
+      "container": "arXiv:1904.07850",
+      "raw": "[94] Xingyi Zhou... Objects as points. arXiv preprint arXiv:1904.07850, 2019.",
+      "confidence": 0.95,
+      "entry_index": 93
+    },
+    {
+      "author": [
+        "Zongwei Zhou",
+        "Md Mahfuzur Rahman Siddiquee",
+        "Nima Tajbakhsh",
+        "Jianming Liang"
+      ],
+      "title": "UNet++: A nested U-Net architecture for medical image segmentation",
+      "year": 2018,
+      "container": "MICCAI Workshop",
+      "raw": "[95] Zongwei Zhou... UNet++... In Deep Learning in Medical Image Analysis... pages 3-11, 2018.",
+      "confidence": 0.95,
+      "entry_index": 94
+    },
+    {
+      "author": [
+        "Benjin Zhu",
+        "Jianfeng Wang",
+        "Zhengkai Jiang",
+        "Fuhang Zong",
+        "Songtao Liu",
+        "Zeming Li",
+        "Jian Sun"
+      ],
+      "title": "AutoAssign: Differentiable label assignment for dense object detection",
+      "year": 2020,
+      "container": "arXiv:2007.03496",
+      "raw": "[96] Benjin Zhu... AutoAssign... arXiv preprint arXiv:2007.03496, 2020.",
+      "confidence": 0.95,
+      "entry_index": 95
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Weijie Su",
+        "Lewei Lu",
+        "Bin Li",
+        "Xiaogang Wang",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable DETR: Deformable transformers for end-to-end object detection",
+      "year": 2021,
+      "container": "ICLR",
+      "raw": "[97] Xizhou Zhu... Deformable DETR... In ICLR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 96
+    }
+  ]
+}

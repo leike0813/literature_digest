@@ -1,0 +1,3587 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:42Z",
+    "entry_count": 77,
+    "candidate_count": 110,
+    "batch_count": 6,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 3,
+    "requires_split_review": true,
+    "review_generation_id": "review-dbbbc8d1"
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] LECUN Y，BOTTOU L.Gradient-based learning applied todocument recognition[J].Proceedings of the IEEE，1998，86（11）：2278-2324.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] LECUN Y，BOTTOU L.Gradient-based learning applied todocument recognition[J].Proceedings of the IEEE，1998，86（11）：2278-2324."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] 周飞燕，金林鹏，董军.卷积神经网络研究综述[J].计算机学报，2017，40（6）：1229-1251.ZHOU F Y，JIN L P，DONG J.Review of convolutionalneural networks[J].Chinese Journal of Computers，2017，40（6）：1229-1251.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] 周飞燕，金林鹏，董军.卷积神经网络研究综述[J].计算机学报，2017，40（6）：1229-1251.ZHOU F Y，JIN L P，DONG J.Review of convolutionalneural networks[J].Chinese Journal of Computers，2017，40（6）：1229-1251."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] GOODFELLOW I J，POUGET-ABADIE J，MIRZA M，et al. Generative adversarial networks[J].Advances in Neural Information Processing Systems，2014，3：2672-2680.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] GOODFELLOW I J，POUGET-ABADIE J，MIRZA M，et al. Generative adversarial networks[J].Advances in Neural Information Processing Systems，2014，3：2672-2680."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] VASWANI A，SHAZEER N，PARMAR N，et al.Attention is all you need[C]//Advances in Neural Information Processing Systems，2017：5998-6008.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] VASWANI A，SHAZEER N，PARMAR N，et al.Attention is all you need[C]//Advances in Neural Information Processing Systems，2017：5998-6008."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] PARMAR N，VASWANI A，USZKOREIT J，et al.Imagetransformer[C]//International Conference on Machine Learn-ing，2018：4055-4064.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] PARMAR N，VASWANI A，USZKOREIT J，et al.Imagetransformer[C]//International Conference on Machine Learn-ing，2018：4055-4064."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] CARION N，MASSA F，SYNNAEVE G，et al.End-to-end object detection with transformers[C]//European Conference on Computer Vision.Cham：Springer，2020：213-229.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] CARION N，MASSA F，SYNNAEVE G，et al.End-to-end object detection with transformers[C]//European Conference on Computer Vision.Cham：Springer，2020：213-229."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] CHEN M，RADFORD A，CHILD R，et al.Generative pretraining from pixels[C]//International Conference on Machine Learning，2020：1691-1703.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] CHEN M，RADFORD A，CHILD R，et al.Generative pretraining from pixels[C]//International Conference on Machine Learning，2020：1691-1703."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] DOSOVITSKIY A，BEYER L，KOLESNIKOV A，et al.An image is worth 16×16 words：transformers for image recognition at scale[J].arXiv：2010.11929，2020.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] DOSOVITSKIY A，BEYER L，KOLESNIKOV A，et al.An image is worth 16×16 words：transformers for image recognition at scale[J].arXiv：2010.11929，2020."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] ESSER P，ROMBACH R，OMMER B.Taming transform-ers for high- resolution image synthesis[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition，2021：12873-12883.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] ESSER P，ROMBACH R，OMMER B.Taming transform-ers for high- resolution image synthesis[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition，2021：12873-12883."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] RADFORD A，WU J，CHILD R，et al.Language modelsare unsupervised multitask learners[J].OpenAI Blog，2019，1（8）：9.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] RADFORD A，WU J，CHILD R，et al.Language modelsare unsupervised multitask learners[J].OpenAI Blog，2019，1（8）：9."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] TSAI Y H，BAI S，LIANG P.Multimodal transformer for unaligned multimodal language sequences[J].arXiv：1906. 00295，2019.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] TSAI Y H，BAI S，LIANG P.Multimodal transformer for unaligned multimodal language sequences[J].arXiv：1906. 00295，2019."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] 杨丽，吴雨茜，王俊丽.循环神经网络研究综述[J].计算机应用，2018，38（S2）：1-6.YANG L，WU Y Q，WANG J L.Research on recurrentneural network[J].Journal of Computer Applications，2018，38（S2）：1-6.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] 杨丽，吴雨茜，王俊丽.循环神经网络研究综述[J].计算机应用，2018，38（S2）：1-6.YANG L，WU Y Q，WANG J L.Research on recurrentneural network[J].Journal of Computer Applications，2018，38（S2）：1-6."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[13] 任欢，王旭光.注意力机制综述[J].计算机应用，2021，41（S1）：1-6.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[13] 任欢，王旭光.注意力机制综述[J].计算机应用，2021，41（S1）：1-6."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "REN H，WANG X G.Review of attention mechanism[J].Journal of Computer Applications，2021，41（S1）：1-6.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "REN H，WANG X G.Review of attention mechanism[J].Journal of Computer Applications，2021，41（S1）：1-6."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[14] 刘金花.基于主动半监督极限学习机多类图像分类方法 研究[D].南京：东南大学，2016. LIU J H.Active and semi- supervised learning based on ELM for multi-class image classification[D].Nanjing：Southeast University，2016.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[14] 刘金花.基于主动半监督极限学习机多类图像分类方法 研究[D].南京：东南大学，2016. LIU J H.Active and semi- supervised learning based on ELM for multi-class image classification[D].Nanjing：Southeast University，2016."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[15] 王红，史金钏，张志伟.基于注意力机制的LSTM的语义关系抽取[J]. 计算机应用研究，2018，35（5）：1417-1420.WANG H，SHI J C，ZHANG Z W.Text semantic relationextraction of LSTM based on attention mechanism[J].Application Research of Computers，2018，35（5）：1417-1420.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[15] 王红，史金钏，张志伟.基于注意力机制的LSTM的语义关系抽取[J]. 计算机应用研究，2018，35（5）：1417-1420.WANG H，SHI J C，ZHANG Z W.Text semantic relationextraction of LSTM based on attention mechanism[J].Application Research of Computers，2018，35（5）：1417-1420."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[16] 唐海桃，薛嘉宾，韩纪庆.一种多尺度前向注意力模型的语音识别方法[J]. 电子学报，2020，48（7）：1255-1260.TANG H T，XUE J B，HAN J Q.A method of multi-scale forward attention model for speech recognition[J].Acta Electronica Sinica，2020，48（7）：1255-1260.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[16] 唐海桃，薛嘉宾，韩纪庆.一种多尺度前向注意力模型的语音识别方法[J]. 电子学报，2020，48（7）：1255-1260.TANG H T，XUE J B，HAN J Q.A method of multi-scale forward attention model for speech recognition[J].Acta Electronica Sinica，2020，48（7）：1255-1260."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[17] WANG W，SHEN J，YU Y，et al.Stereoscopic thumbnail creation via efficient stereo saliency detection[J].IEEE Transactions on Visualization and Computer Graphics， 2016，23（8）：2014-2027.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[17] WANG W，SHEN J，YU Y，et al.Stereoscopic thumbnail creation via efficient stereo saliency detection[J].IEEE Transactions on Visualization and Computer Graphics， 2016，23（8）：2014-2027."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[18] LIN Z，FENG M，SANTOS C N，et al.A structured selfattentive sentence embedding[C]//Proceedings of the International Conference on Learning Representations，Toulon， France，2017.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[18] LIN Z，FENG M，SANTOS C N，et al.A structured selfattentive sentence embedding[C]//Proceedings of the International Conference on Learning Representations，Toulon， France，2017."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[19] HAN K，WANG Y，CHEN H，et al.A survey on visualtransformer[J].arXiv：2012.12556，2020.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[19] HAN K，WANG Y，CHEN H，et al.A survey on visualtransformer[J].arXiv：2012.12556，2020."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[20] KHAN S，NASEER M，HAYAT M，et al.Transformers invision：a survey[J].arXiv：2101.01169，2021.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[20] KHAN S，NASEER M，HAYAT M，et al.Transformers invision：a survey[J].arXiv：2101.01169，2021."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[21] HAN K，XIAO A，WU E，et al.Transformer in transformer[J].arXiv：2103.00112，2021.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[21] HAN K，XIAO A，WU E，et al.Transformer in transformer[J].arXiv：2103.00112，2021."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[22] YUAN L，CHEN Y，WANG T，et al.Tokens-to-token vit： training vision transformers from scratch on imagenet[J]. arXiv：2101.11986，2021.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[22] YUAN L，CHEN Y，WANG T，et al.Tokens-to-token vit： training vision transformers from scratch on imagenet[J]. arXiv：2101.11986，2021."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[23] JIANG Z，HOU Q，YUAN L，et al.Token labeling：training a 85.5% top-1 accuracy vision transformer with 56 m parameters on imagenet[J].arXiv：2104.10858，2021.",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[23] JIANG Z，HOU Q，YUAN L，et al.Token labeling：training a 85.5% top-1 accuracy vision transformer with 56 m parameters on imagenet[J].arXiv：2104.10858，2021."
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[24] ZHOU D，KANG B，JIN X，et al.Deepvit：towards deepervision transformer[J].arXiv：2103.11886，2021.",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[24] ZHOU D，KANG B，JIN X，et al.Deepvit：towards deepervision transformer[J].arXiv：2103.11886，2021."
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[25] ZHU X，SU W，LU L，et al.Deformable DETR：deformable transformers for end-to-end object detection[J].arXiv： 2010.04159，2020.",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[25] ZHU X，SU W，LU L，et al.Deformable DETR：deformable transformers for end-to-end object detection[J].arXiv： 2010.04159，2020."
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "[26] SUN Z，CAO S，YANG Y.Rethinking transformer-based set prediction for object detection[J].arXiv：2011.10881，2020.",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "[26] SUN Z，CAO S，YANG Y.Rethinking transformer-based set prediction for object detection[J].arXiv：2011.10881，2020."
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[27] DAI Z，CAI B，LIN Y，et al.UP-DETR：unsupervised pretraining for object detection with transformers[J].arXiv： 2011.09094，2020.",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[27] DAI Z，CAI B，LIN Y，et al.UP-DETR：unsupervised pretraining for object detection with transformers[J].arXiv： 2011.09094，2020."
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[28] ZHENG M，GAO P，WANG X，et al.End-to-end object detection with adaptive clustering transformer[J].arXiv： 2011.09315，2020.",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[28] ZHENG M，GAO P，WANG X，et al.End-to-end object detection with adaptive clustering transformer[J].arXiv： 2011.09315，2020."
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "[29] ZHENG S，LU J，ZHAO H，et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "[29] ZHENG S，LU J，ZHAO H，et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with"
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "transformers[J].arXiv：2012.15840，2020.",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "transformers[J].arXiv：2012.15840，2020."
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "[30] STRUDEL R，GARCIA R，LAPTEV I，et al.Segmenter：transformer for semantic segmentation[J].arXiv：2105.05633，2021.",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "[30] STRUDEL R，GARCIA R，LAPTEV I，et al.Segmenter：transformer for semantic segmentation[J].arXiv：2105.05633，2021."
+      ]
+    },
+    {
+      "block_index": 64,
+      "source_text": "[31] XIE E，WANG W，YU Z，et al.SegFormer：simple and efficient design for semantic segmentation with transformers[J].arXiv：2105.15203，2021.",
+      "line_start": 65,
+      "line_end": 65,
+      "proposed_entries": [
+        "[31] XIE E，WANG W，YU Z，et al.SegFormer：simple and efficient design for semantic segmentation with transformers[J].arXiv：2105.15203，2021."
+      ]
+    },
+    {
+      "block_index": 66,
+      "source_text": "[32] WANG H，ZHU Y，ADAM H，et al.MaX-DeepLab：endto-end panoptic segmentation with mask transformers[J]. arXiv：2012.00759，2020.",
+      "line_start": 67,
+      "line_end": 67,
+      "proposed_entries": [
+        "[32] WANG H，ZHU Y，ADAM H，et al.MaX-DeepLab：endto-end panoptic segmentation with mask transformers[J]. arXiv：2012.00759，2020."
+      ]
+    },
+    {
+      "block_index": 68,
+      "source_text": "[33] WANG Y，XU Z，WANG X，et al.End-to-end video instance segmentation with transformers[J].arXiv：2011.14503，2020.",
+      "line_start": 69,
+      "line_end": 69,
+      "proposed_entries": [
+        "[33] WANG Y，XU Z，WANG X，et al.End-to-end video instance segmentation with transformers[J].arXiv：2011.14503，2020."
+      ]
+    },
+    {
+      "block_index": 70,
+      "source_text": "[34] MA F，SUN B，LI S.Robust facial expression recognition with convolutional visual transformers[J].arXiv：2103. 16854，2021.",
+      "line_start": 71,
+      "line_end": 71,
+      "proposed_entries": [
+        "[34] MA F，SUN B，LI S.Robust facial expression recognition with convolutional visual transformers[J].arXiv：2103. 16854，2021."
+      ]
+    },
+    {
+      "block_index": 72,
+      "source_text": "[35] ZHENG C，ZHU S，MENDIETA M，et al.3d human pose estimation with spatial and temporal transformers[J].arXiv： 2103.10455，2021.",
+      "line_start": 73,
+      "line_end": 73,
+      "proposed_entries": [
+        "[35] ZHENG C，ZHU S，MENDIETA M，et al.3d human pose estimation with spatial and temporal transformers[J].arXiv： 2103.10455，2021."
+      ]
+    },
+    {
+      "block_index": 74,
+      "source_text": "[36] HE S，LUO H，WANG P，et al.TransReID：transformerbased object re-identification[J].arXiv：2102.04378，2021.",
+      "line_start": 75,
+      "line_end": 75,
+      "proposed_entries": [
+        "[36] HE S，LUO H，WANG P，et al.TransReID：transformerbased object re-identification[J].arXiv：2102.04378，2021."
+      ]
+    },
+    {
+      "block_index": 76,
+      "source_text": "[37] LIU R，YUAN Z，LIU T，et al.End-to-end lane shape prediction with transformers[C]//Proceedings of the IEEE/ CVF Winter Conference on Applications of Computer Vision，2021：3694-3702.",
+      "line_start": 77,
+      "line_end": 77,
+      "proposed_entries": [
+        "[37] LIU R，YUAN Z，LIU T，et al.End-to-end lane shape prediction with transformers[C]//Proceedings of the IEEE/ CVF Winter Conference on Applications of Computer Vision，2021：3694-3702."
+      ]
+    },
+    {
+      "block_index": 78,
+      "source_text": "[38] CHEN H，WANG Y，GUO T，et al.Pre-trained image processing transformer[J].arXiv：2012.00364，2020.",
+      "line_start": 79,
+      "line_end": 79,
+      "proposed_entries": [
+        "[38] CHEN H，WANG Y，GUO T，et al.Pre-trained image processing transformer[J].arXiv：2012.00364，2020."
+      ]
+    },
+    {
+      "block_index": 80,
+      "source_text": "[39] YANG F，YANG H，FU J，et al.Learning texture transformer network for image super- resolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：5791-5800.",
+      "line_start": 81,
+      "line_end": 81,
+      "proposed_entries": [
+        "[39] YANG F，YANG H，FU J，et al.Learning texture transformer network for image super- resolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：5791-5800."
+      ]
+    },
+    {
+      "block_index": 82,
+      "source_text": "[40] JIANG Y，CHANG S，WANG Z.Transgan：two transform-ers can make one strong gan[J].arXiv：2102.07074，2021.",
+      "line_start": 83,
+      "line_end": 83,
+      "proposed_entries": [
+        "[40] JIANG Y，CHANG S，WANG Z.Transgan：two transform-ers can make one strong gan[J].arXiv：2102.07074，2021."
+      ]
+    },
+    {
+      "block_index": 84,
+      "source_text": "[41] CHEN Y，CAO Y，HU H，et al.Memory enhanced globallocal aggregation for video object detection[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：10337-10346.",
+      "line_start": 85,
+      "line_end": 85,
+      "proposed_entries": [
+        "[41] CHEN Y，CAO Y，HU H，et al.Memory enhanced globallocal aggregation for video object detection[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：10337-10346."
+      ]
+    },
+    {
+      "block_index": 86,
+      "source_text": "[42] ZENG Y，FU J，CHAO H.Learning joint spatial-temporal transformations for video inpainting[C]//European Conference on Computer Vision.Cham：Springer，2020：528-543.",
+      "line_start": 87,
+      "line_end": 87,
+      "proposed_entries": [
+        "[42] ZENG Y，FU J，CHAO H.Learning joint spatial-temporal transformations for video inpainting[C]//European Conference on Computer Vision.Cham：Springer，2020：528-543."
+      ]
+    },
+    {
+      "block_index": 88,
+      "source_text": "[43] BERTASIUS G，WANG H，TORRESANI L.Is space-time attention all you need for video understanding?[J].arXiv： 2102.05095，2021.",
+      "line_start": 89,
+      "line_end": 89,
+      "proposed_entries": [
+        "[43] BERTASIUS G，WANG H，TORRESANI L.Is space-time attention all you need for video understanding?[J].arXiv： 2102.05095，2021."
+      ]
+    },
+    {
+      "block_index": 90,
+      "source_text": "[44] LIU Z，LUO S，LI W，et al.ConvTransformer：a convolu-tional transformer network for video frame synthesis[J].arXiv：2011.10185，2020.",
+      "line_start": 91,
+      "line_end": 91,
+      "proposed_entries": [
+        "[44] LIU Z，LUO S，LI W，et al.ConvTransformer：a convolu-tional transformer network for video frame synthesis[J].arXiv：2011.10185，2020."
+      ]
+    },
+    {
+      "block_index": 92,
+      "source_text": "[45] DEVLIN J，CHANG M W，LEE K，et al.Bert：pre-training of deep bidirectional transformers for language understanding[J].arXiv：1810.04805，2018.",
+      "line_start": 93,
+      "line_end": 93,
+      "proposed_entries": [
+        "[45] DEVLIN J，CHANG M W，LEE K，et al.Bert：pre-training of deep bidirectional transformers for language understanding[J].arXiv：1810.04805，2018."
+      ]
+    },
+    {
+      "block_index": 94,
+      "source_text": "[46] ZAGORUYKO S，KOMODAKIS N.Wide residual networks[C]//British Machine Vision Conference，2016.",
+      "line_start": 95,
+      "line_end": 95,
+      "proposed_entries": [
+        "[46] ZAGORUYKO S，KOMODAKIS N.Wide residual networks[C]//British Machine Vision Conference，2016."
+      ]
+    },
+    {
+      "block_index": 96,
+      "source_text": "[47] TAN M，LE Q.Efficientnet：rethinking model scaling for convolutional neural networks[C]//International Confer-",
+      "line_start": 97,
+      "line_end": 97,
+      "proposed_entries": [
+        "[47] TAN M，LE Q.Efficientnet：rethinking model scaling for convolutional neural networks[C]//International Confer-"
+      ]
+    },
+    {
+      "block_index": 98,
+      "source_text": "ence on Machine Learning，2019：6105-6114.",
+      "line_start": 99,
+      "line_end": 99,
+      "proposed_entries": [
+        "ence on Machine Learning，2019：6105-6114."
+      ]
+    },
+    {
+      "block_index": 100,
+      "source_text": "[48] KOLESNIKOV A，BEYER L，ZHAI X，et al.Big transfer（bit）：general visual representation learning[C]//16th Euro-pean Conference on Computer Vision（ECCV 2020），Glasgow，UK，August 23-28，2020：491-507.",
+      "line_start": 101,
+      "line_end": 101,
+      "proposed_entries": [
+        "[48] KOLESNIKOV A，BEYER L，ZHAI X，et al.Big transfer（bit）：general visual representation learning[C]//16th Euro-pean Conference on Computer Vision（ECCV 2020），Glasgow，UK，August 23-28，2020：491-507."
+      ]
+    },
+    {
+      "block_index": 102,
+      "source_text": "[49] HE K，ZHANG X，REN S，et al.Deep residual learning for image recognition[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition， 2016：770-778.",
+      "line_start": 103,
+      "line_end": 103,
+      "proposed_entries": [
+        "[49] HE K，ZHANG X，REN S，et al.Deep residual learning for image recognition[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition， 2016：770-778."
+      ]
+    },
+    {
+      "block_index": 104,
+      "source_text": "[50] HOWARD A G，ZHU M，CHEN B.Mobilenets：efficient convolutional neural networks for mobile vision applications[J].arXiv：1704.04861，2017.",
+      "line_start": 105,
+      "line_end": 105,
+      "proposed_entries": [
+        "[50] HOWARD A G，ZHU M，CHEN B.Mobilenets：efficient convolutional neural networks for mobile vision applications[J].arXiv：1704.04861，2017."
+      ]
+    },
+    {
+      "block_index": 106,
+      "source_text": "[51] SANDLER M，HOWARD A，ZHU M，et al.Mobilenetv2： inverted residuals and linear bottlenecks[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2018：4510-4520.",
+      "line_start": 107,
+      "line_end": 107,
+      "proposed_entries": [
+        "[51] SANDLER M，HOWARD A，ZHU M，et al.Mobilenetv2： inverted residuals and linear bottlenecks[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2018：4510-4520."
+      ]
+    },
+    {
+      "block_index": 108,
+      "source_text": "[52] YUN S，OH S J，HEO B.Re- labeling imagenet：from single to multi-labels，from global to localized labels[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2021：2340-2350.",
+      "line_start": 109,
+      "line_end": 109,
+      "proposed_entries": [
+        "[52] YUN S，OH S J，HEO B.Re- labeling imagenet：from single to multi-labels，from global to localized labels[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2021：2340-2350."
+      ]
+    },
+    {
+      "block_index": 110,
+      "source_text": "[53] GIRSHICK R，DONAHUE J，DARRELL T，et al.Rich feature hierarchies for accurate object detection and semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2014：580-587.",
+      "line_start": 111,
+      "line_end": 111,
+      "proposed_entries": [
+        "[53] GIRSHICK R，DONAHUE J，DARRELL T，et al.Rich feature hierarchies for accurate object detection and semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2014：580-587."
+      ]
+    },
+    {
+      "block_index": 112,
+      "source_text": "[54] REDMON J，DIVVALA S，GIRSHICK R，et al.You only look once：unified，real-time object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2016：779-788.",
+      "line_start": 113,
+      "line_end": 113,
+      "proposed_entries": [
+        "[54] REDMON J，DIVVALA S，GIRSHICK R，et al.You only look once：unified，real-time object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2016：779-788."
+      ]
+    },
+    {
+      "block_index": 114,
+      "source_text": "[55] 李彦冬.基于卷积神经网络的计算机视觉关键技术研究[D].成都：电子科技大学，2017.LI Y D.Convolutional neural networks based researchon image understanding[D].Chengdu：University of Elec-tronic Science and Technology of China，2017.",
+      "line_start": 115,
+      "line_end": 115,
+      "proposed_entries": [
+        "[55] 李彦冬.基于卷积神经网络的计算机视觉关键技术研究[D].成都：电子科技大学，2017.LI Y D.Convolutional neural networks based researchon image understanding[D].Chengdu：University of Elec-tronic Science and Technology of China，2017."
+      ]
+    },
+    {
+      "block_index": 116,
+      "source_text": "[56] DAI J，QI H，XIONG Y，et al.Deformable convolutional networks[C]//Proceedings of the IEEE International Conference on Computer Vision，2017：764-773.",
+      "line_start": 117,
+      "line_end": 117,
+      "proposed_entries": [
+        "[56] DAI J，QI H，XIONG Y，et al.Deformable convolutional networks[C]//Proceedings of the IEEE International Conference on Computer Vision，2017：764-773."
+      ]
+    },
+    {
+      "block_index": 118,
+      "source_text": "[57] LIN T Y，DOLLÁR P，GIRSHICK R，et al.Feature pyramid networks for object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2017：2117-2125.",
+      "line_start": 119,
+      "line_end": 119,
+      "proposed_entries": [
+        "[57] LIN T Y，DOLLÁR P，GIRSHICK R，et al.Feature pyramid networks for object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2017：2117-2125."
+      ]
+    },
+    {
+      "block_index": 120,
+      "source_text": "[58] TIAN Z，SHEN C，CHEN H，et al.Fcos：fully convolutional onestage object detection[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：9627-9636.",
+      "line_start": 121,
+      "line_end": 121,
+      "proposed_entries": [
+        "[58] TIAN Z，SHEN C，CHEN H，et al.Fcos：fully convolutional onestage object detection[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：9627-9636."
+      ]
+    },
+    {
+      "block_index": 122,
+      "source_text": "[59] CHEN Y，WANG Z，PENG Y，et al.Cascaded pyramid network for multi- person pose estimation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2018：7103-7112.",
+      "line_start": 123,
+      "line_end": 123,
+      "proposed_entries": [
+        "[59] CHEN Y，WANG Z，PENG Y，et al.Cascaded pyramid network for multi- person pose estimation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2018：7103-7112."
+      ]
+    },
+    {
+      "block_index": 124,
+      "source_text": "[60] DING X，GUO Y，DING G，et al.ACNet：strengthening the kernel skeletons for powerful CNN via asymmetric convolution blocks[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision，2019：1911-1920.",
+      "line_start": 125,
+      "line_end": 125,
+      "proposed_entries": [
+        "[60] DING X，GUO Y，DING G，et al.ACNet：strengthening the kernel skeletons for powerful CNN via asymmetric convolution blocks[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision，2019：1911-1920."
+      ]
+    },
+    {
+      "block_index": 126,
+      "source_text": "[61] YANG L，FAN Y，XU N.Video instance segmentation[C]//Proceedings of the IEEE/CVF International Conferenceon Computer Vision，2019：5188-5197.",
+      "line_start": 127,
+      "line_end": 127,
+      "proposed_entries": [
+        "[61] YANG L，FAN Y，XU N.Video instance segmentation[C]//Proceedings of the IEEE/CVF International Conferenceon Computer Vision，2019：5188-5197."
+      ]
+    },
+    {
+      "block_index": 128,
+      "source_text": "[62] WANG K，PENG X，YANG J，et al.Suppressing uncertainties for large-scale facial expression recognition[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：6897-6906.",
+      "line_start": 129,
+      "line_end": 129,
+      "proposed_entries": [
+        "[62] WANG K，PENG X，YANG J，et al.Suppressing uncertainties for large-scale facial expression recognition[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：6897-6906."
+      ]
+    },
+    {
+      "block_index": 130,
+      "source_text": "[63] LIN K，WANG L，LIU Z.End-to-end human pose andmesh reconstruction with transformers[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition，2021：1954-1963.",
+      "line_start": 131,
+      "line_end": 131,
+      "proposed_entries": [
+        "[63] LIN K，WANG L，LIU Z.End-to-end human pose andmesh reconstruction with transformers[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition，2021：1954-1963."
+      ]
+    },
+    {
+      "block_index": 132,
+      "source_text": "[64] HAO L.Bags of tricks and a strong baseline for deep person re- identification[C]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops （CVPRW），2019.",
+      "line_start": 133,
+      "line_end": 133,
+      "proposed_entries": [
+        "[64] HAO L.Bags of tricks and a strong baseline for deep person re- identification[C]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops （CVPRW），2019."
+      ]
+    },
+    {
+      "block_index": 134,
+      "source_text": "[65] CHEN T，DING S，XIE J，et al.Abd- net：attentive but diverse person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：8351-8361.",
+      "line_start": 135,
+      "line_end": 135,
+      "proposed_entries": [
+        "[65] CHEN T，DING S，XIE J，et al.Abd- net：attentive but diverse person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：8351-8361."
+      ]
+    },
+    {
+      "block_index": 136,
+      "source_text": "[66] MIAO J，WU Y，LIU P，et al.Pose-guided feature alignment for occluded person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision，2019：542-551.",
+      "line_start": 137,
+      "line_end": 137,
+      "proposed_entries": [
+        "[66] MIAO J，WU Y，LIU P，et al.Pose-guided feature alignment for occluded person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision，2019：542-551."
+      ]
+    },
+    {
+      "block_index": 138,
+      "source_text": "[67] KHORRAMSHAHI P，PERI N，CHEN J，et al.The devil is in the details：self-supervised attention for vehicle reidentification[C]//European Conference on Computer Vision. Cham：Springer，2020：369-386.",
+      "line_start": 139,
+      "line_end": 139,
+      "proposed_entries": [
+        "[67] KHORRAMSHAHI P，PERI N，CHEN J，et al.The devil is in the details：self-supervised attention for vehicle reidentification[C]//European Conference on Computer Vision. Cham：Springer，2020：369-386."
+      ]
+    },
+    {
+      "block_index": 140,
+      "source_text": "[68] TABELINI L，BERRIEL R，PAIXAO T M，et al.Polylanenet：lane estimation via deep polynomial regression[C]//202025th International Conference on Pattern Recognition（ICPR），2021：6150-6156.",
+      "line_start": 141,
+      "line_end": 141,
+      "proposed_entries": [
+        "[68] TABELINI L，BERRIEL R，PAIXAO T M，et al.Polylanenet：lane estimation via deep polynomial regression[C]//202025th International Conference on Pattern Recognition（ICPR），2021：6150-6156."
+      ]
+    },
+    {
+      "block_index": 142,
+      "source_text": "[69] LI X，LI J，HU X，et al.Line- CNN：end- to- end traffic line detection with line proposal unit[J].IEEE Transactions on Intelligent Transportation Systems，2019，21（1）： 248-258.",
+      "line_start": 143,
+      "line_end": 143,
+      "proposed_entries": [
+        "[69] LI X，LI J，HU X，et al.Line- CNN：end- to- end traffic line detection with line proposal unit[J].IEEE Transactions on Intelligent Transportation Systems，2019，21（1）： 248-258."
+      ]
+    },
+    {
+      "block_index": 144,
+      "source_text": "[70] GOODFELLOW I J，POUGET-ABADIE J，MIRZA M， et al.Generative adversarial networks[J].Advances in Neural Information Processing Systems，2014，3：2672-2680.",
+      "line_start": 145,
+      "line_end": 145,
+      "proposed_entries": [
+        "[70] GOODFELLOW I J，POUGET-ABADIE J，MIRZA M， et al.Generative adversarial networks[J].Advances in Neural Information Processing Systems，2014，3：2672-2680."
+      ]
+    },
+    {
+      "block_index": 146,
+      "source_text": "[71] KARRAS T，LAINE S，AITTALA M，et al.Analyzing and improving the image quality of stylegan[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：8110-8119.",
+      "line_start": 147,
+      "line_end": 147,
+      "proposed_entries": [
+        "[71] KARRAS T，LAINE S，AITTALA M，et al.Analyzing and improving the image quality of stylegan[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：8110-8119."
+      ]
+    },
+    {
+      "block_index": 148,
+      "source_text": "[72] FEICHTENHOFER C，FAN H，MALIK J，et al.Slowfast networks for video recognition[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：6202-6211.",
+      "line_start": 149,
+      "line_end": 149,
+      "proposed_entries": [
+        "[72] FEICHTENHOFER C，FAN H，MALIK J，et al.Slowfast networks for video recognition[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：6202-6211."
+      ]
+    },
+    {
+      "block_index": 150,
+      "source_text": "[73] LIU Z，YEH R A，TANG X，et al.Video frame synthesis using deep voxel flow[C]//Proceedings of the IEEE International Conference on Computer Vision，2017：4463-4471.",
+      "line_start": 151,
+      "line_end": 151,
+      "proposed_entries": [
+        "[73] LIU Z，YEH R A，TANG X，et al.Video frame synthesis using deep voxel flow[C]//Proceedings of the IEEE International Conference on Computer Vision，2017：4463-4471."
+      ]
+    },
+    {
+      "block_index": 152,
+      "source_text": "[74] VILLEGAS R，YANG J，HONG S，et al.Decomposing motion and content for natural video sequence prediction[J].arXiv：1706.08033，2017.",
+      "line_start": 153,
+      "line_end": 153,
+      "proposed_entries": [
+        "[74] VILLEGAS R，YANG J，HONG S，et al.Decomposing motion and content for natural video sequence prediction[J].arXiv：1706.08033，2017."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] LECUN Y，BOTTOU L.Gradient-based learning applied todocument recognition[J].Proceedings of the IEEE，1998，86（11）：2278-2324.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "LECUN Y,BOTTOU L",
+          "author_candidates": [
+            "LECUN Y,BOTTOU L"
+          ],
+          "title_candidate": "Gradient-based learning applied todocument recognition",
+          "container_candidate": "Proceedings of the IEEE",
+          "year_candidate": 1998,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] 周飞燕，金林鹏，董军.卷积神经网络研究综述[J].计算机学报，2017，40（6）：1229-1251.ZHOU F Y，JIN L P，DONG J.Review of convolutionalneural networks[J].Chinese Journal of Computers，2017，40（6）：1229-1251.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "周飞燕,金林鹏,董军",
+          "author_candidates": [
+            "周飞燕",
+            "金林鹏",
+            "董军"
+          ],
+          "title_candidate": "卷积神经网络研究综述",
+          "container_candidate": "计算机学报",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] GOODFELLOW I J，POUGET-ABADIE J，MIRZA M，et al. Generative adversarial networks[J].Advances in Neural Information Processing Systems，2014，3：2672-2680.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "GOODFELLOW I J,POUGET-ABADIE J,MIRZA M,et al",
+          "author_candidates": [
+            "GOODFELLOW I J,POUGET-ABADIE J,MIRZA M,et al"
+          ],
+          "title_candidate": "Generative adversarial networks",
+          "container_candidate": "Advances in Neural Information Processing Systems",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] VASWANI A，SHAZEER N，PARMAR N，et al.Attention is all you need[C]//Advances in Neural Information Processing Systems，2017：5998-6008.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "VASWANI A,SHAZEER N,PARMAR N,et al.Attention is all you need[C]//Advances in Neural Information Processing Systems,2017",
+          "author_candidates": [
+            "VASWANI A,SHAZEER N,PARMAR N,et al.Attention is all you need[C]//Advances in Neural Information Processing Systems,2017"
+          ],
+          "title_candidate": "5998-6008",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "VASWANI A,SHAZEER N,PARMAR N,et al.Attention is all you need[C]//Advances in Neural Information Processing Systems,2017",
+          "author_candidates": [
+            "VASWANI A,SHAZEER N,PARMAR N,et al.Attention is all you need[C]//Advances in Neural Information Processing Systems,2017"
+          ],
+          "title_candidate": "5998-6008",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] PARMAR N，VASWANI A，USZKOREIT J，et al.Imagetransformer[C]//International Conference on Machine Learn-ing，2018：4055-4064.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "PARMAR N,VASWANI A,USZKOREIT J,et al.Imagetransformer[C]//International Conference on Machine Learn-ing,2018",
+          "author_candidates": [
+            "PARMAR N,VASWANI A,USZKOREIT J,et al.Imagetransformer[C]//International Conference on Machine Learn-ing,2018"
+          ],
+          "title_candidate": "4055-4064",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "PARMAR N,VASWANI A,USZKOREIT J,et al.Imagetransformer[C]//International Conference on Machine Learn-ing,2018",
+          "author_candidates": [
+            "PARMAR N,VASWANI A,USZKOREIT J,et al.Imagetransformer[C]//International Conference on Machine Learn-ing,2018"
+          ],
+          "title_candidate": "4055-4064",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] CARION N，MASSA F，SYNNAEVE G，et al.End-to-end object detection with transformers[C]//European Conference on Computer Vision.Cham：Springer，2020：213-229.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CARION N,MASSA F,SYNNAEVE G,et al.End-to-end object detection with transformers[C]//European Conference on Computer Vision.Cham",
+          "author_candidates": [
+            "CARION N,MASSA F,SYNNAEVE G,et al.End-to-end object detection with transformers[C]//European Conference on Computer Vision.Cham"
+          ],
+          "title_candidate": "Springer,2020:213-229",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "CARION N,MASSA F,SYNNAEVE G,et al.End-to-end object detection with transformers[C]//European Conference on Computer Vision.Cham",
+          "author_candidates": [
+            "CARION N,MASSA F,SYNNAEVE G,et al.End-to-end object detection with transformers[C]//European Conference on Computer Vision.Cham"
+          ],
+          "title_candidate": "Springer,2020:213-229",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] CHEN M，RADFORD A，CHILD R，et al.Generative pretraining from pixels[C]//International Conference on Machine Learning，2020：1691-1703.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CHEN M,RADFORD A,CHILD R,et al.Generative pretraining from pixels[C]//International Conference on Machine Learning,2020",
+          "author_candidates": [
+            "CHEN M,RADFORD A,CHILD R,et al.Generative pretraining from pixels[C]//International Conference on Machine Learning,2020"
+          ],
+          "title_candidate": "1691-1703",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "CHEN M,RADFORD A,CHILD R,et al.Generative pretraining from pixels[C]//International Conference on Machine Learning,2020",
+          "author_candidates": [
+            "CHEN M,RADFORD A,CHILD R,et al.Generative pretraining from pixels[C]//International Conference on Machine Learning,2020"
+          ],
+          "title_candidate": "1691-1703",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] DOSOVITSKIY A，BEYER L，KOLESNIKOV A，et al.An image is worth 16×16 words：transformers for image recognition at scale[J].arXiv：2010.11929，2020.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "DOSOVITSKIY A,BEYER L,KOLESNIKOV A,et al",
+          "author_candidates": [
+            "DOSOVITSKIY A,BEYER L,KOLESNIKOV A,et al"
+          ],
+          "title_candidate": "An image is worth 16×16 words:transformers for image recognition at scale",
+          "container_candidate": "arXiv:2010.11929",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] ESSER P，ROMBACH R，OMMER B.Taming transform-ers for high- resolution image synthesis[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition，2021：12873-12883.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "ESSER P,ROMBACH R,OMMER B.Taming transform-ers for high- resolution image synthesis[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition,2021",
+          "author_candidates": [
+            "ESSER P,ROMBACH R,OMMER B.Taming transform-ers for high- resolution image synthesis[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision",
+            "Pat-tern Recognition,2021"
+          ],
+          "title_candidate": "12873-12883",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "ESSER P,ROMBACH R,OMMER B.Taming transform-ers for high- resolution image synthesis[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition,2021",
+          "author_candidates": [
+            "ESSER P,ROMBACH R,OMMER B.Taming transform-ers for high- resolution image synthesis[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision",
+            "Pat-tern Recognition,2021"
+          ],
+          "title_candidate": "12873-12883",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] RADFORD A，WU J，CHILD R，et al.Language modelsare unsupervised multitask learners[J].OpenAI Blog，2019，1（8）：9.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "RADFORD A,WU J,CHILD R,et al",
+          "author_candidates": [
+            "RADFORD A,WU J,CHILD R,et al"
+          ],
+          "title_candidate": "Language modelsare unsupervised multitask learners",
+          "container_candidate": "OpenAI Blog",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] TSAI Y H，BAI S，LIANG P.Multimodal transformer for unaligned multimodal language sequences[J].arXiv：1906. 00295，2019.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "TSAI Y H,BAI S,LIANG P",
+          "author_candidates": [
+            "TSAI Y H,BAI S,LIANG P"
+          ],
+          "title_candidate": "Multimodal transformer for unaligned multimodal language sequences",
+          "container_candidate": "arXiv:1906. 00295",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] 杨丽，吴雨茜，王俊丽.循环神经网络研究综述[J].计算机应用，2018，38（S2）：1-6.YANG L，WU Y Q，WANG J L.Research on recurrentneural network[J].Journal of Computer Applications，2018，38（S2）：1-6.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "杨丽,吴雨茜,王俊丽",
+          "author_candidates": [
+            "杨丽",
+            "吴雨茜",
+            "王俊丽"
+          ],
+          "title_candidate": "循环神经网络研究综述",
+          "container_candidate": "计算机应用",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] 任欢，王旭光.注意力机制综述[J].计算机应用，2021，41（S1）：1-6.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "任欢,王旭光",
+          "author_candidates": [
+            "任欢",
+            "王旭光"
+          ],
+          "title_candidate": "注意力机制综述",
+          "container_candidate": "计算机应用",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "REN H，WANG X G.Review of attention mechanism[J].Journal of Computer Applications，2021，41（S1）：1-6.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "REN H,WANG X G",
+          "author_candidates": [
+            "REN H,WANG X G"
+          ],
+          "title_candidate": "Review of attention mechanism",
+          "container_candidate": "Journal of Computer Applications",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[14] 刘金花.基于主动半监督极限学习机多类图像分类方法 研究[D].南京：东南大学，2016. LIU J H.Active and semi- supervised learning based on ELM for multi-class image classification[D].Nanjing：Southeast University，2016.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "刘金花",
+          "author_candidates": [
+            "刘金花"
+          ],
+          "title_candidate": "基于主动半监督极限学习机多类图像分类方法 研究",
+          "container_candidate": "南京:东南大学",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[15] 王红，史金钏，张志伟.基于注意力机制的LSTM的语义关系抽取[J]. 计算机应用研究，2018，35（5）：1417-1420.WANG H，SHI J C，ZHANG Z W.Text semantic relationextraction of LSTM based on attention mechanism[J].Application Research of Computers，2018，35（5）：1417-1420.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "王红,史金钏,张志伟",
+          "author_candidates": [
+            "王红",
+            "史金钏",
+            "张志伟"
+          ],
+          "title_candidate": "基于注意力机制的LSTM的语义关系抽取",
+          "container_candidate": "计算机应用研究",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[16] 唐海桃，薛嘉宾，韩纪庆.一种多尺度前向注意力模型的语音识别方法[J]. 电子学报，2020，48（7）：1255-1260.TANG H T，XUE J B，HAN J Q.A method of multi-scale forward attention model for speech recognition[J].Acta Electronica Sinica，2020，48（7）：1255-1260.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "唐海桃,薛嘉宾,韩纪庆",
+          "author_candidates": [
+            "唐海桃",
+            "薛嘉宾",
+            "韩纪庆"
+          ],
+          "title_candidate": "一种多尺度前向注意力模型的语音识别方法",
+          "container_candidate": "电子学报",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[17] WANG W，SHEN J，YU Y，et al.Stereoscopic thumbnail creation via efficient stereo saliency detection[J].IEEE Transactions on Visualization and Computer Graphics， 2016，23（8）：2014-2027.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "WANG W,SHEN J,YU Y,et al",
+          "author_candidates": [
+            "WANG W,SHEN J,YU Y,et al"
+          ],
+          "title_candidate": "Stereoscopic thumbnail creation via efficient stereo saliency detection",
+          "container_candidate": "IEEE Transactions on Visualization and Computer Graphics",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[18] LIN Z，FENG M，SANTOS C N，et al.A structured selfattentive sentence embedding[C]//Proceedings of the International Conference on Learning Representations，Toulon， France，2017.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "LIN Z,FENG M,SANTOS C N,et al.A structured selfattentive sentence embedding[C]//Proceedings of the International Conference on Learning Representations,Toulon, France,2017.",
+          "author_candidates": [
+            "Representations,Toulon"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[19] HAN K，WANG Y，CHEN H，et al.A survey on visualtransformer[J].arXiv：2012.12556，2020.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "HAN K,WANG Y,CHEN H,et al",
+          "author_candidates": [
+            "HAN K,WANG Y,CHEN H,et al"
+          ],
+          "title_candidate": "A survey on visualtransformer",
+          "container_candidate": "arXiv:2012.12556",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[20] KHAN S，NASEER M，HAYAT M，et al.Transformers invision：a survey[J].arXiv：2101.01169，2021.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "KHAN S,NASEER M,HAYAT M,et al",
+          "author_candidates": [
+            "KHAN S,NASEER M,HAYAT M,et al"
+          ],
+          "title_candidate": "Transformers invision:a survey",
+          "container_candidate": "arXiv:2101.01169",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[21] HAN K，XIAO A，WU E，et al.Transformer in transformer[J].arXiv：2103.00112，2021.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "HAN K,XIAO A,WU E,et al",
+          "author_candidates": [
+            "HAN K,XIAO A,WU E,et al"
+          ],
+          "title_candidate": "Transformer in transformer",
+          "container_candidate": "arXiv:2103.00112",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[22] YUAN L，CHEN Y，WANG T，et al.Tokens-to-token vit： training vision transformers from scratch on imagenet[J]. arXiv：2101.11986，2021.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "YUAN L,CHEN Y,WANG T,et al",
+          "author_candidates": [
+            "YUAN L,CHEN Y,WANG T,et al"
+          ],
+          "title_candidate": "Tokens-to-token vit: training vision transformers from scratch on imagenet",
+          "container_candidate": "arXiv:2101.11986",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[23] JIANG Z，HOU Q，YUAN L，et al.Token labeling：training a 85.5% top-1 accuracy vision transformer with 56 m parameters on imagenet[J].arXiv：2104.10858，2021.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "JIANG Z,HOU Q,YUAN L,et al.Token labeling:training a 85",
+          "author_candidates": [
+            "JIANG Z,HOU Q,YUAN L,et al.Token labeling:training a 85"
+          ],
+          "title_candidate": "5% top-1 accuracy vision transformer with 56 m parameters on imagenet",
+          "container_candidate": "arXiv:2104.10858",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[24] ZHOU D，KANG B，JIN X，et al.Deepvit：towards deepervision transformer[J].arXiv：2103.11886，2021.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "ZHOU D,KANG B,JIN X,et al",
+          "author_candidates": [
+            "ZHOU D,KANG B,JIN X,et al"
+          ],
+          "title_candidate": "Deepvit:towards deepervision transformer",
+          "container_candidate": "arXiv:2103.11886",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[25] ZHU X，SU W，LU L，et al.Deformable DETR：deformable transformers for end-to-end object detection[J].arXiv： 2010.04159，2020.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "ZHU X,SU W,LU L,et al",
+          "author_candidates": [
+            "ZHU X,SU W,LU L,et al"
+          ],
+          "title_candidate": "Deformable DETR:deformable transformers for end-to-end object detection",
+          "container_candidate": "arXiv: 2010.04159",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[26] SUN Z，CAO S，YANG Y.Rethinking transformer-based set prediction for object detection[J].arXiv：2011.10881，2020.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "SUN Z,CAO S,YANG Y",
+          "author_candidates": [
+            "SUN Z,CAO S,YANG Y"
+          ],
+          "title_candidate": "Rethinking transformer-based set prediction for object detection",
+          "container_candidate": "arXiv:2011.10881",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[27] DAI Z，CAI B，LIN Y，et al.UP-DETR：unsupervised pretraining for object detection with transformers[J].arXiv： 2011.09094，2020.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "DAI Z,CAI B,LIN Y,et al",
+          "author_candidates": [
+            "DAI Z,CAI B,LIN Y,et al"
+          ],
+          "title_candidate": "UP-DETR:unsupervised pretraining for object detection with transformers",
+          "container_candidate": "arXiv: 2011.09094",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[28] ZHENG M，GAO P，WANG X，et al.End-to-end object detection with adaptive clustering transformer[J].arXiv： 2011.09315，2020.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "ZHENG M,GAO P,WANG X,et al",
+          "author_candidates": [
+            "ZHENG M,GAO P,WANG X,et al"
+          ],
+          "title_candidate": "End-to-end object detection with adaptive clustering transformer",
+          "container_candidate": "arXiv: 2011.09315",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[29] ZHENG S，LU J，ZHAO H，et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "ZHENG S,LU J,ZHAO H,et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with",
+          "author_candidates": [
+            "ZHENG S,LU J,ZHAO H,et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with"
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "transformers[J].arXiv：2012.15840，2020.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "transformers",
+          "author_candidates": [
+            "transformers"
+          ],
+          "title_candidate": "",
+          "container_candidate": "arXiv:2012.15840",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[30] STRUDEL R，GARCIA R，LAPTEV I，et al.Segmenter：transformer for semantic segmentation[J].arXiv：2105.05633，2021.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "STRUDEL R,GARCIA R,LAPTEV I,et al",
+          "author_candidates": [
+            "STRUDEL R,GARCIA R,LAPTEV I,et al"
+          ],
+          "title_candidate": "Segmenter:transformer for semantic segmentation",
+          "container_candidate": "arXiv:2105.05633",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[31] XIE E，WANG W，YU Z，et al.SegFormer：simple and efficient design for semantic segmentation with transformers[J].arXiv：2105.15203，2021.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "XIE E,WANG W,YU Z,et al",
+          "author_candidates": [
+            "XIE E,WANG W,YU Z,et al"
+          ],
+          "title_candidate": "SegFormer:simple and efficient design for semantic segmentation with transformers",
+          "container_candidate": "arXiv:2105.15203",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[32] WANG H，ZHU Y，ADAM H，et al.MaX-DeepLab：endto-end panoptic segmentation with mask transformers[J]. arXiv：2012.00759，2020.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "WANG H,ZHU Y,ADAM H,et al",
+          "author_candidates": [
+            "WANG H,ZHU Y,ADAM H,et al"
+          ],
+          "title_candidate": "MaX-DeepLab:endto-end panoptic segmentation with mask transformers",
+          "container_candidate": "arXiv:2012.00759",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[33] WANG Y，XU Z，WANG X，et al.End-to-end video instance segmentation with transformers[J].arXiv：2011.14503，2020.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "WANG Y,XU Z,WANG X,et al",
+          "author_candidates": [
+            "WANG Y,XU Z,WANG X,et al"
+          ],
+          "title_candidate": "End-to-end video instance segmentation with transformers",
+          "container_candidate": "arXiv:2011.14503",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[34] MA F，SUN B，LI S.Robust facial expression recognition with convolutional visual transformers[J].arXiv：2103. 16854，2021.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "MA F,SUN B,LI S",
+          "author_candidates": [
+            "MA F,SUN B,LI S"
+          ],
+          "title_candidate": "Robust facial expression recognition with convolutional visual transformers",
+          "container_candidate": "arXiv:2103. 16854",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[35] ZHENG C，ZHU S，MENDIETA M，et al.3d human pose estimation with spatial and temporal transformers[J].arXiv： 2103.10455，2021.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "ZHENG C,ZHU S,MENDIETA M,et al",
+          "author_candidates": [
+            "ZHENG C,ZHU S,MENDIETA M,et al"
+          ],
+          "title_candidate": "3d human pose estimation with spatial and temporal transformers",
+          "container_candidate": "arXiv: 2103.10455",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[36] HE S，LUO H，WANG P，et al.TransReID：transformerbased object re-identification[J].arXiv：2102.04378，2021.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "HE S,LUO H,WANG P,et al",
+          "author_candidates": [
+            "HE S,LUO H,WANG P,et al"
+          ],
+          "title_candidate": "TransReID:transformerbased object re-identification",
+          "container_candidate": "arXiv:2102.04378",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[37] LIU R，YUAN Z，LIU T，et al.End-to-end lane shape prediction with transformers[C]//Proceedings of the IEEE/ CVF Winter Conference on Applications of Computer Vision，2021：3694-3702.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "LIU R,YUAN Z,LIU T,et al.End-to-end lane shape prediction with transformers[C]//Proceedings of the IEEE/ CVF Winter Conference on Applications of Computer Vision,2021",
+          "author_candidates": [
+            "LIU R,YUAN Z,LIU T,et al.End-to-end lane shape prediction with transformers[C]//Proceedings of the IEEE/ CVF Winter Conference on Applications of Computer Vision,2021"
+          ],
+          "title_candidate": "3694-3702",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "LIU R,YUAN Z,LIU T,et al.End-to-end lane shape prediction with transformers[C]//Proceedings of the IEEE/ CVF Winter Conference on Applications of Computer Vision,2021",
+          "author_candidates": [
+            "LIU R,YUAN Z,LIU T,et al.End-to-end lane shape prediction with transformers[C]//Proceedings of the IEEE/ CVF Winter Conference on Applications of Computer Vision,2021"
+          ],
+          "title_candidate": "3694-3702",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[38] CHEN H，WANG Y，GUO T，et al.Pre-trained image processing transformer[J].arXiv：2012.00364，2020.",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "CHEN H,WANG Y,GUO T,et al",
+          "author_candidates": [
+            "CHEN H,WANG Y,GUO T,et al"
+          ],
+          "title_candidate": "Pre-trained image processing transformer",
+          "container_candidate": "arXiv:2012.00364",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[39] YANG F，YANG H，FU J，et al.Learning texture transformer network for image super- resolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：5791-5800.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "YANG F,YANG H,FU J,et al.Learning texture transformer network for image super- resolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2020",
+          "author_candidates": [
+            "YANG F,YANG H,FU J,et al.Learning texture transformer network for image super- resolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition,2020"
+          ],
+          "title_candidate": "5791-5800",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "YANG F,YANG H,FU J,et al.Learning texture transformer network for image super- resolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2020",
+          "author_candidates": [
+            "YANG F,YANG H,FU J,et al.Learning texture transformer network for image super- resolution[C]//Proceedings of the IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition,2020"
+          ],
+          "title_candidate": "5791-5800",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "[40] JIANG Y，CHANG S，WANG Z.Transgan：two transform-ers can make one strong gan[J].arXiv：2102.07074，2021.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "JIANG Y,CHANG S,WANG Z",
+          "author_candidates": [
+            "JIANG Y,CHANG S,WANG Z"
+          ],
+          "title_candidate": "Transgan:two transform-ers can make one strong gan",
+          "container_candidate": "arXiv:2102.07074",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "[41] CHEN Y，CAO Y，HU H，et al.Memory enhanced globallocal aggregation for video object detection[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：10337-10346.",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CHEN Y,CAO Y,HU H,et al.Memory enhanced globallocal aggregation for video object detection[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2020",
+          "author_candidates": [
+            "CHEN Y,CAO Y,HU H,et al.Memory enhanced globallocal aggregation for video object detection[C]//Proceedings of the IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition,2020"
+          ],
+          "title_candidate": "10337-10346",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "CHEN Y,CAO Y,HU H,et al.Memory enhanced globallocal aggregation for video object detection[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2020",
+          "author_candidates": [
+            "CHEN Y,CAO Y,HU H,et al.Memory enhanced globallocal aggregation for video object detection[C]//Proceedings of the IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition,2020"
+          ],
+          "title_candidate": "10337-10346",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 43,
+      "raw": "[42] ZENG Y，FU J，CHAO H.Learning joint spatial-temporal transformations for video inpainting[C]//European Conference on Computer Vision.Cham：Springer，2020：528-543.",
+      "detected_ref_number": 42,
+      "numbering": {
+        "detected_ref_number": 42,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 43,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "ZENG Y,FU J,CHAO H.Learning joint spatial-temporal transformations for video inpainting[C]//European Conference on Computer Vision.Cham",
+          "author_candidates": [
+            "ZENG Y,FU J,CHAO H.Learning joint spatial-temporal transformations for video inpainting[C]//European Conference on Computer Vision.Cham"
+          ],
+          "title_candidate": "Springer,2020:528-543",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 43,
+          "pattern": "fallback_raw_split",
+          "author_text": "ZENG Y,FU J,CHAO H.Learning joint spatial-temporal transformations for video inpainting[C]//European Conference on Computer Vision.Cham",
+          "author_candidates": [
+            "ZENG Y,FU J,CHAO H.Learning joint spatial-temporal transformations for video inpainting[C]//European Conference on Computer Vision.Cham"
+          ],
+          "title_candidate": "Springer,2020:528-543",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 44,
+      "raw": "[43] BERTASIUS G，WANG H，TORRESANI L.Is space-time attention all you need for video understanding?[J].arXiv： 2102.05095，2021.",
+      "detected_ref_number": 43,
+      "numbering": {
+        "detected_ref_number": 43,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 44,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "BERTASIUS G,WANG H,TORRESANI L",
+          "author_candidates": [
+            "BERTASIUS G,WANG H,TORRESANI L"
+          ],
+          "title_candidate": "Is space-time attention all you need for video understanding?",
+          "container_candidate": "arXiv: 2102.05095",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 45,
+      "raw": "[44] LIU Z，LUO S，LI W，et al.ConvTransformer：a convolu-tional transformer network for video frame synthesis[J].arXiv：2011.10185，2020.",
+      "detected_ref_number": 44,
+      "numbering": {
+        "detected_ref_number": 44,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 45,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "LIU Z,LUO S,LI W,et al",
+          "author_candidates": [
+            "LIU Z,LUO S,LI W,et al"
+          ],
+          "title_candidate": "ConvTransformer:a convolu-tional transformer network for video frame synthesis",
+          "container_candidate": "arXiv:2011.10185",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 46,
+      "raw": "[45] DEVLIN J，CHANG M W，LEE K，et al.Bert：pre-training of deep bidirectional transformers for language understanding[J].arXiv：1810.04805，2018.",
+      "detected_ref_number": 45,
+      "numbering": {
+        "detected_ref_number": 45,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 46,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "DEVLIN J,CHANG M W,LEE K,et al",
+          "author_candidates": [
+            "DEVLIN J,CHANG M W,LEE K,et al"
+          ],
+          "title_candidate": "Bert:pre-training of deep bidirectional transformers for language understanding",
+          "container_candidate": "arXiv:1810.04805",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 47,
+      "raw": "[46] ZAGORUYKO S，KOMODAKIS N.Wide residual networks[C]//British Machine Vision Conference，2016.",
+      "detected_ref_number": 46,
+      "numbering": {
+        "detected_ref_number": 46,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 47,
+          "pattern": "fallback_raw_split",
+          "author_text": "ZAGORUYKO S,KOMODAKIS N.Wide residual networks[C]//British Machine Vision Conference,2016.",
+          "author_candidates": [
+            "ZAGORUYKO S,KOMODAKIS N.Wide residual networks[C]//British Machine Vision Conference,2016."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 48,
+      "raw": "[47] TAN M，LE Q.Efficientnet：rethinking model scaling for convolutional neural networks[C]//International Confer-",
+      "detected_ref_number": 47,
+      "numbering": {
+        "detected_ref_number": 47,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 48,
+          "pattern": "fallback_raw_split",
+          "author_text": "TAN M,LE Q.Efficientnet",
+          "author_candidates": [
+            "TAN M,LE Q.Efficientnet"
+          ],
+          "title_candidate": "rethinking model scaling for convolutional neural networks[C]//International Confer-",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 49,
+      "raw": "ence on Machine Learning，2019：6105-6114.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 49,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "ence on Machine Learning,2019",
+          "author_candidates": [
+            "ence on Machine Learning,2019"
+          ],
+          "title_candidate": "6105-6114",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 49,
+          "pattern": "fallback_raw_split",
+          "author_text": "ence on Machine Learning,2019",
+          "author_candidates": [
+            "ence on Machine Learning,2019"
+          ],
+          "title_candidate": "6105-6114",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 50,
+      "raw": "[48] KOLESNIKOV A，BEYER L，ZHAI X，et al.Big transfer（bit）：general visual representation learning[C]//16th Euro-pean Conference on Computer Vision（ECCV 2020），Glasgow，UK，August 23-28，2020：491-507.",
+      "detected_ref_number": 48,
+      "numbering": {
+        "detected_ref_number": 48,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 50,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "KOLESNIKOV A,BEYER L,ZHAI X,et al.Big transfer(bit)",
+          "author_candidates": [
+            "KOLESNIKOV A,BEYER L,ZHAI X,et al.Big transfer(bit)"
+          ],
+          "title_candidate": "general visual representation learning[C]//16th Euro-pean Conference on Computer Vision(ECCV 2020),Glasgow,UK,August 23-28,2020:491-507",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 50,
+          "pattern": "fallback_raw_split",
+          "author_text": "KOLESNIKOV A,BEYER L,ZHAI X,et al.Big transfer(bit)",
+          "author_candidates": [
+            "KOLESNIKOV A,BEYER L,ZHAI X,et al.Big transfer(bit)"
+          ],
+          "title_candidate": "general visual representation learning[C]//16th Euro-pean Conference on Computer Vision(ECCV 2020),Glasgow,UK,August 23-28,2020:491-507",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 51,
+      "raw": "[49] HE K，ZHANG X，REN S，et al.Deep residual learning for image recognition[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition， 2016：770-778.",
+      "detected_ref_number": 49,
+      "numbering": {
+        "detected_ref_number": 49,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 51,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "HE K,ZHANG X,REN S,et al.Deep residual learning for image recognition[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016",
+          "author_candidates": [
+            "HE K,ZHANG X,REN S,et al.Deep residual learning for image recognition[C]//Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition, 2016"
+          ],
+          "title_candidate": "770-778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 51,
+          "pattern": "fallback_raw_split",
+          "author_text": "HE K,ZHANG X,REN S,et al.Deep residual learning for image recognition[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016",
+          "author_candidates": [
+            "HE K,ZHANG X,REN S,et al.Deep residual learning for image recognition[C]//Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition, 2016"
+          ],
+          "title_candidate": "770-778",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 52,
+      "raw": "[50] HOWARD A G，ZHU M，CHEN B.Mobilenets：efficient convolutional neural networks for mobile vision applications[J].arXiv：1704.04861，2017.",
+      "detected_ref_number": 50,
+      "numbering": {
+        "detected_ref_number": 50,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 52,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "HOWARD A G,ZHU M,CHEN B",
+          "author_candidates": [
+            "HOWARD A G,ZHU M,CHEN B"
+          ],
+          "title_candidate": "Mobilenets:efficient convolutional neural networks for mobile vision applications",
+          "container_candidate": "arXiv:1704.04861",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 53,
+      "raw": "[51] SANDLER M，HOWARD A，ZHU M，et al.Mobilenetv2： inverted residuals and linear bottlenecks[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2018：4510-4520.",
+      "detected_ref_number": 51,
+      "numbering": {
+        "detected_ref_number": 51,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 53,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "SANDLER M,HOWARD A,ZHU M,et al.Mobilenetv2",
+          "author_candidates": [
+            "SANDLER M,HOWARD A,ZHU M,et al.Mobilenetv2"
+          ],
+          "title_candidate": "inverted residuals and linear bottlenecks[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2018:4510-4520",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 53,
+          "pattern": "fallback_raw_split",
+          "author_text": "SANDLER M,HOWARD A,ZHU M,et al.Mobilenetv2",
+          "author_candidates": [
+            "SANDLER M,HOWARD A,ZHU M,et al.Mobilenetv2"
+          ],
+          "title_candidate": "inverted residuals and linear bottlenecks[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2018:4510-4520",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 54,
+      "raw": "[52] YUN S，OH S J，HEO B.Re- labeling imagenet：from single to multi-labels，from global to localized labels[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2021：2340-2350.",
+      "detected_ref_number": 52,
+      "numbering": {
+        "detected_ref_number": 52,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 54,
+          "pattern": "venue_marker_split",
+          "author_text": "YUN S,OH S J,HEO B.Re- labeling imagenet",
+          "author_candidates": [
+            "YUN S,OH S J,HEO B.Re- labeling imagenet"
+          ],
+          "title_candidate": "from single to multi-labels,from global to localized labels[C]//",
+          "container_candidate": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2021:2340-2350",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 54,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "YUN S,OH S J,HEO B.Re- labeling imagenet",
+          "author_candidates": [
+            "YUN S,OH S J,HEO B.Re- labeling imagenet"
+          ],
+          "title_candidate": "from single to multi-labels,from global to localized labels[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2021:2340-2350",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 54,
+          "pattern": "fallback_raw_split",
+          "author_text": "YUN S,OH S J,HEO B.Re- labeling imagenet",
+          "author_candidates": [
+            "YUN S,OH S J,HEO B.Re- labeling imagenet"
+          ],
+          "title_candidate": "from single to multi-labels,from global to localized labels[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2021:2340-2350",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 55,
+      "raw": "[53] GIRSHICK R，DONAHUE J，DARRELL T，et al.Rich feature hierarchies for accurate object detection and semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2014：580-587.",
+      "detected_ref_number": 53,
+      "numbering": {
+        "detected_ref_number": 53,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 55,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "GIRSHICK R,DONAHUE J,DARRELL T,et al.Rich feature hierarchies for accurate object detection and semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2014",
+          "author_candidates": [
+            "GIRSHICK R,DONAHUE J,DARRELL T,et al.Rich feature hierarchies for accurate object detection",
+            "semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition,2014"
+          ],
+          "title_candidate": "580-587",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 55,
+          "pattern": "fallback_raw_split",
+          "author_text": "GIRSHICK R,DONAHUE J,DARRELL T,et al.Rich feature hierarchies for accurate object detection and semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2014",
+          "author_candidates": [
+            "GIRSHICK R,DONAHUE J,DARRELL T,et al.Rich feature hierarchies for accurate object detection",
+            "semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition,2014"
+          ],
+          "title_candidate": "580-587",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 56,
+      "raw": "[54] REDMON J，DIVVALA S，GIRSHICK R，et al.You only look once：unified，real-time object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2016：779-788.",
+      "detected_ref_number": 54,
+      "numbering": {
+        "detected_ref_number": 54,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 56,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "REDMON J,DIVVALA S,GIRSHICK R,et al.You only look once",
+          "author_candidates": [
+            "REDMON J,DIVVALA S,GIRSHICK R,et al.You only look once"
+          ],
+          "title_candidate": "unified,real-time object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2016:779-788",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 56,
+          "pattern": "fallback_raw_split",
+          "author_text": "REDMON J,DIVVALA S,GIRSHICK R,et al.You only look once",
+          "author_candidates": [
+            "REDMON J,DIVVALA S,GIRSHICK R,et al.You only look once"
+          ],
+          "title_candidate": "unified,real-time object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2016:779-788",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 57,
+      "raw": "[55] 李彦冬.基于卷积神经网络的计算机视觉关键技术研究[D].成都：电子科技大学，2017.LI Y D.Convolutional neural networks based researchon image understanding[D].Chengdu：University of Elec-tronic Science and Technology of China，2017.",
+      "detected_ref_number": 55,
+      "numbering": {
+        "detected_ref_number": 55,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 57,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "李彦冬",
+          "author_candidates": [
+            "李彦冬"
+          ],
+          "title_candidate": "基于卷积神经网络的计算机视觉关键技术研究",
+          "container_candidate": "成都:电子科技大学",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 58,
+      "raw": "[56] DAI J，QI H，XIONG Y，et al.Deformable convolutional networks[C]//Proceedings of the IEEE International Conference on Computer Vision，2017：764-773.",
+      "detected_ref_number": 56,
+      "numbering": {
+        "detected_ref_number": 56,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 58,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "DAI J,QI H,XIONG Y,et al.Deformable convolutional networks[C]//Proceedings of the IEEE International Conference on Computer Vision,2017",
+          "author_candidates": [
+            "DAI J,QI H,XIONG Y,et al.Deformable convolutional networks[C]//Proceedings of the IEEE International Conference on Computer Vision,2017"
+          ],
+          "title_candidate": "764-773",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 58,
+          "pattern": "fallback_raw_split",
+          "author_text": "DAI J,QI H,XIONG Y,et al.Deformable convolutional networks[C]//Proceedings of the IEEE International Conference on Computer Vision,2017",
+          "author_candidates": [
+            "DAI J,QI H,XIONG Y,et al.Deformable convolutional networks[C]//Proceedings of the IEEE International Conference on Computer Vision,2017"
+          ],
+          "title_candidate": "764-773",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 59,
+      "raw": "[57] LIN T Y，DOLLÁR P，GIRSHICK R，et al.Feature pyramid networks for object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2017：2117-2125.",
+      "detected_ref_number": 57,
+      "numbering": {
+        "detected_ref_number": 57,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 59,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "LIN T Y,DOLLÁR P,GIRSHICK R,et al.Feature pyramid networks for object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2017",
+          "author_candidates": [
+            "LIN T Y,DOLLÁR P,GIRSHICK R,et al.Feature pyramid networks for object detection[C]//Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition,2017"
+          ],
+          "title_candidate": "2117-2125",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 59,
+          "pattern": "fallback_raw_split",
+          "author_text": "LIN T Y,DOLLÁR P,GIRSHICK R,et al.Feature pyramid networks for object detection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2017",
+          "author_candidates": [
+            "LIN T Y,DOLLÁR P,GIRSHICK R,et al.Feature pyramid networks for object detection[C]//Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition,2017"
+          ],
+          "title_candidate": "2117-2125",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 60,
+      "raw": "[58] TIAN Z，SHEN C，CHEN H，et al.Fcos：fully convolutional onestage object detection[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：9627-9636.",
+      "detected_ref_number": 58,
+      "numbering": {
+        "detected_ref_number": 58,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 60,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "TIAN Z,SHEN C,CHEN H,et al.Fcos",
+          "author_candidates": [
+            "TIAN Z,SHEN C,CHEN H,et al.Fcos"
+          ],
+          "title_candidate": "fully convolutional onestage object detection[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019:9627-9636",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 60,
+          "pattern": "fallback_raw_split",
+          "author_text": "TIAN Z,SHEN C,CHEN H,et al.Fcos",
+          "author_candidates": [
+            "TIAN Z,SHEN C,CHEN H,et al.Fcos"
+          ],
+          "title_candidate": "fully convolutional onestage object detection[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019:9627-9636",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 61,
+      "raw": "[59] CHEN Y，WANG Z，PENG Y，et al.Cascaded pyramid network for multi- person pose estimation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition，2018：7103-7112.",
+      "detected_ref_number": 59,
+      "numbering": {
+        "detected_ref_number": 59,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 61,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CHEN Y,WANG Z,PENG Y,et al.Cascaded pyramid network for multi- person pose estimation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2018",
+          "author_candidates": [
+            "CHEN Y,WANG Z,PENG Y,et al.Cascaded pyramid network for multi- person pose estimation[C]//Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition,2018"
+          ],
+          "title_candidate": "7103-7112",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 61,
+          "pattern": "fallback_raw_split",
+          "author_text": "CHEN Y,WANG Z,PENG Y,et al.Cascaded pyramid network for multi- person pose estimation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition,2018",
+          "author_candidates": [
+            "CHEN Y,WANG Z,PENG Y,et al.Cascaded pyramid network for multi- person pose estimation[C]//Proceedings of the IEEE Conference on Computer Vision",
+            "Pattern Recognition,2018"
+          ],
+          "title_candidate": "7103-7112",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 62,
+      "raw": "[60] DING X，GUO Y，DING G，et al.ACNet：strengthening the kernel skeletons for powerful CNN via asymmetric convolution blocks[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision，2019：1911-1920.",
+      "detected_ref_number": 60,
+      "numbering": {
+        "detected_ref_number": 60,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 62,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "DING X,GUO Y,DING G,et al.ACNet",
+          "author_candidates": [
+            "DING X,GUO Y,DING G,et al.ACNet"
+          ],
+          "title_candidate": "strengthening the kernel skeletons for powerful CNN via asymmetric convolution blocks[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision,2019:1911-",
+          "container_candidate": "",
+          "year_candidate": 1920,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 62,
+          "pattern": "fallback_raw_split",
+          "author_text": "DING X,GUO Y,DING G,et al.ACNet",
+          "author_candidates": [
+            "DING X,GUO Y,DING G,et al.ACNet"
+          ],
+          "title_candidate": "strengthening the kernel skeletons for powerful CNN via asymmetric convolution blocks[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision,2019:1911-1920",
+          "container_candidate": "",
+          "year_candidate": 1920,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 63,
+      "raw": "[61] YANG L，FAN Y，XU N.Video instance segmentation[C]//Proceedings of the IEEE/CVF International Conferenceon Computer Vision，2019：5188-5197.",
+      "detected_ref_number": 61,
+      "numbering": {
+        "detected_ref_number": 61,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 63,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "YANG L,FAN Y,XU N.Video instance segmentation[C]//Proceedings of the IEEE/CVF International Conferenceon Computer Vision,2019",
+          "author_candidates": [
+            "YANG L,FAN Y,XU N.Video instance segmentation[C]//Proceedings of the IEEE/CVF International Conferenceon Computer Vision,2019"
+          ],
+          "title_candidate": "5188-5197",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 63,
+          "pattern": "fallback_raw_split",
+          "author_text": "YANG L,FAN Y,XU N.Video instance segmentation[C]//Proceedings of the IEEE/CVF International Conferenceon Computer Vision,2019",
+          "author_candidates": [
+            "YANG L,FAN Y,XU N.Video instance segmentation[C]//Proceedings of the IEEE/CVF International Conferenceon Computer Vision,2019"
+          ],
+          "title_candidate": "5188-5197",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 64,
+      "raw": "[62] WANG K，PENG X，YANG J，et al.Suppressing uncertainties for large-scale facial expression recognition[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：6897-6906.",
+      "detected_ref_number": 62,
+      "numbering": {
+        "detected_ref_number": 62,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 64,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "WANG K,PENG X,YANG J,et al.Suppressing uncertainties for large-scale facial expression recognition[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2020",
+          "author_candidates": [
+            "WANG K,PENG X,YANG J,et al.Suppressing uncertainties for large-scale facial expression recognition[C]// Proceedings of the IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition,2020"
+          ],
+          "title_candidate": "6897-6906",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 64,
+          "pattern": "fallback_raw_split",
+          "author_text": "WANG K,PENG X,YANG J,et al.Suppressing uncertainties for large-scale facial expression recognition[C]// Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2020",
+          "author_candidates": [
+            "WANG K,PENG X,YANG J,et al.Suppressing uncertainties for large-scale facial expression recognition[C]// Proceedings of the IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition,2020"
+          ],
+          "title_candidate": "6897-6906",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 65,
+      "raw": "[63] LIN K，WANG L，LIU Z.End-to-end human pose andmesh reconstruction with transformers[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition，2021：1954-1963.",
+      "detected_ref_number": 63,
+      "numbering": {
+        "detected_ref_number": 63,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 65,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "LIN K,WANG L,LIU Z.End-to-end human pose andmesh reconstruction with transformers[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition,2021",
+          "author_candidates": [
+            "LIN K,WANG L,LIU Z.End-to-end human pose andmesh reconstruction with transformers[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision",
+            "Pat-tern Recognition,2021"
+          ],
+          "title_candidate": "1954-",
+          "container_candidate": "",
+          "year_candidate": 1963,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 65,
+          "pattern": "fallback_raw_split",
+          "author_text": "LIN K,WANG L,LIU Z.End-to-end human pose andmesh reconstruction with transformers[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision and Pat-tern Recognition,2021",
+          "author_candidates": [
+            "LIN K,WANG L,LIU Z.End-to-end human pose andmesh reconstruction with transformers[C]//Proceedings ofthe IEEE/CVF Conference on Computer Vision",
+            "Pat-tern Recognition,2021"
+          ],
+          "title_candidate": "1954-1963",
+          "container_candidate": "",
+          "year_candidate": 1963,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 66,
+      "raw": "[64] HAO L.Bags of tricks and a strong baseline for deep person re- identification[C]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops （CVPRW），2019.",
+      "detected_ref_number": 64,
+      "numbering": {
+        "detected_ref_number": 64,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 66,
+          "pattern": "fallback_raw_split",
+          "author_text": "HAO L.Bags of tricks and a strong baseline for deep person re- identification[C]//2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW),2019.",
+          "author_candidates": [
+            "HAO L.Bags of tricks",
+            "a strong baseline for deep person re- identification[C]//2019 IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition Workshops (CVPRW),2019."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 67,
+      "raw": "[65] CHEN T，DING S，XIE J，et al.Abd- net：attentive but diverse person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：8351-8361.",
+      "detected_ref_number": 65,
+      "numbering": {
+        "detected_ref_number": 65,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 67,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "CHEN T,DING S,XIE J,et al.Abd- net",
+          "author_candidates": [
+            "CHEN T,DING S,XIE J,et al.Abd- net"
+          ],
+          "title_candidate": "attentive but diverse person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019:8351-8361",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 67,
+          "pattern": "fallback_raw_split",
+          "author_text": "CHEN T,DING S,XIE J,et al.Abd- net",
+          "author_candidates": [
+            "CHEN T,DING S,XIE J,et al.Abd- net"
+          ],
+          "title_candidate": "attentive but diverse person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019:8351-8361",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 68,
+      "raw": "[66] MIAO J，WU Y，LIU P，et al.Pose-guided feature alignment for occluded person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision，2019：542-551.",
+      "detected_ref_number": 66,
+      "numbering": {
+        "detected_ref_number": 66,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 68,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "MIAO J,WU Y,LIU P,et al.Pose-guided feature alignment for occluded person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision,2019",
+          "author_candidates": [
+            "MIAO J,WU Y,LIU P,et al.Pose-guided feature alignment for occluded person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision,2019"
+          ],
+          "title_candidate": "542-551",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 68,
+          "pattern": "fallback_raw_split",
+          "author_text": "MIAO J,WU Y,LIU P,et al.Pose-guided feature alignment for occluded person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision,2019",
+          "author_candidates": [
+            "MIAO J,WU Y,LIU P,et al.Pose-guided feature alignment for occluded person re- identification[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision,2019"
+          ],
+          "title_candidate": "542-551",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 69,
+      "raw": "[67] KHORRAMSHAHI P，PERI N，CHEN J，et al.The devil is in the details：self-supervised attention for vehicle reidentification[C]//European Conference on Computer Vision. Cham：Springer，2020：369-386.",
+      "detected_ref_number": 67,
+      "numbering": {
+        "detected_ref_number": 67,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 69,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "KHORRAMSHAHI P,PERI N,CHEN J,et al.The devil is in the details:self-supervised attention for vehicle reidentification[C]//European Conference on Computer Vision",
+          "author_candidates": [
+            "KHORRAMSHAHI P,PERI N,CHEN J,et al.The devil is in the details:self-supervised attention for vehicle reidentification[C]//European Conference on Computer Vision"
+          ],
+          "title_candidate": "Cham:Springer,2020:369-386",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 69,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "KHORRAMSHAHI P,PERI N,CHEN J,et al.The devil is in the details",
+          "author_candidates": [
+            "KHORRAMSHAHI P,PERI N,CHEN J,et al.The devil is in the details"
+          ],
+          "title_candidate": "self-supervised attention for vehicle reidentification[C]//European Conference on Computer Vision. Cham:Springer,2020:369-386",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 69,
+          "pattern": "fallback_raw_split",
+          "author_text": "KHORRAMSHAHI P,PERI N,CHEN J,et al.The devil is in the details",
+          "author_candidates": [
+            "KHORRAMSHAHI P,PERI N,CHEN J,et al.The devil is in the details"
+          ],
+          "title_candidate": "self-supervised attention for vehicle reidentification[C]//European Conference on Computer Vision. Cham:Springer,2020:369-386",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 70,
+      "raw": "[68] TABELINI L，BERRIEL R，PAIXAO T M，et al.Polylanenet：lane estimation via deep polynomial regression[C]//202025th International Conference on Pattern Recognition（ICPR），2021：6150-6156.",
+      "detected_ref_number": 68,
+      "numbering": {
+        "detected_ref_number": 68,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 70,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "TABELINI L,BERRIEL R,PAIXAO T M,et al.Polylanenet",
+          "author_candidates": [
+            "TABELINI L,BERRIEL R,PAIXAO T M,et al.Polylanenet"
+          ],
+          "title_candidate": "lane estimation via deep polynomial regression[C]//202025th International Conference on Pattern Recognition(ICPR),2021:6150-6156",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 70,
+          "pattern": "fallback_raw_split",
+          "author_text": "TABELINI L,BERRIEL R,PAIXAO T M,et al.Polylanenet",
+          "author_candidates": [
+            "TABELINI L,BERRIEL R,PAIXAO T M,et al.Polylanenet"
+          ],
+          "title_candidate": "lane estimation via deep polynomial regression[C]//202025th International Conference on Pattern Recognition(ICPR),2021:6150-6156",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 71,
+      "raw": "[69] LI X，LI J，HU X，et al.Line- CNN：end- to- end traffic line detection with line proposal unit[J].IEEE Transactions on Intelligent Transportation Systems，2019，21（1）： 248-258.",
+      "detected_ref_number": 69,
+      "numbering": {
+        "detected_ref_number": 69,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 71,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "LI X,LI J,HU X,et al",
+          "author_candidates": [
+            "LI X,LI J,HU X,et al"
+          ],
+          "title_candidate": "Line- CNN:end- to- end traffic line detection with line proposal unit",
+          "container_candidate": "IEEE Transactions on Intelligent Transportation Systems",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 72,
+      "raw": "[70] GOODFELLOW I J，POUGET-ABADIE J，MIRZA M， et al.Generative adversarial networks[J].Advances in Neural Information Processing Systems，2014，3：2672-2680.",
+      "detected_ref_number": 70,
+      "numbering": {
+        "detected_ref_number": 70,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 72,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "GOODFELLOW I J,POUGET-ABADIE J,MIRZA M, et al",
+          "author_candidates": [
+            "GOODFELLOW I J,POUGET-ABADIE J,MIRZA M, et al"
+          ],
+          "title_candidate": "Generative adversarial networks",
+          "container_candidate": "Advances in Neural Information Processing Systems",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 73,
+      "raw": "[71] KARRAS T，LAINE S，AITTALA M，et al.Analyzing and improving the image quality of stylegan[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition，2020：8110-8119.",
+      "detected_ref_number": 71,
+      "numbering": {
+        "detected_ref_number": 71,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 73,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "KARRAS T,LAINE S,AITTALA M,et al.Analyzing and improving the image quality of stylegan[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2020",
+          "author_candidates": [
+            "KARRAS T,LAINE S,AITTALA M,et al.Analyzing",
+            "improving the image quality of stylegan[C]//Proceedings of the IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition,2020"
+          ],
+          "title_candidate": "8110-8119",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 73,
+          "pattern": "fallback_raw_split",
+          "author_text": "KARRAS T,LAINE S,AITTALA M,et al.Analyzing and improving the image quality of stylegan[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,2020",
+          "author_candidates": [
+            "KARRAS T,LAINE S,AITTALA M,et al.Analyzing",
+            "improving the image quality of stylegan[C]//Proceedings of the IEEE/CVF Conference on Computer Vision",
+            "Pattern Recognition,2020"
+          ],
+          "title_candidate": "8110-8119",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 74,
+      "raw": "[72] FEICHTENHOFER C，FAN H，MALIK J，et al.Slowfast networks for video recognition[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision， 2019：6202-6211.",
+      "detected_ref_number": 72,
+      "numbering": {
+        "detected_ref_number": 72,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 74,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "FEICHTENHOFER C,FAN H,MALIK J,et al.Slowfast networks for video recognition[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019",
+          "author_candidates": [
+            "FEICHTENHOFER C,FAN H,MALIK J,et al.Slowfast networks for video recognition[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019"
+          ],
+          "title_candidate": "6202-6211",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 74,
+          "pattern": "fallback_raw_split",
+          "author_text": "FEICHTENHOFER C,FAN H,MALIK J,et al.Slowfast networks for video recognition[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019",
+          "author_candidates": [
+            "FEICHTENHOFER C,FAN H,MALIK J,et al.Slowfast networks for video recognition[C]//Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019"
+          ],
+          "title_candidate": "6202-6211",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 75,
+      "raw": "[73] LIU Z，YEH R A，TANG X，et al.Video frame synthesis using deep voxel flow[C]//Proceedings of the IEEE International Conference on Computer Vision，2017：4463-4471.",
+      "detected_ref_number": 73,
+      "numbering": {
+        "detected_ref_number": 73,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 75,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "LIU Z,YEH R A,TANG X,et al.Video frame synthesis using deep voxel flow[C]//Proceedings of the IEEE International Conference on Computer Vision,2017",
+          "author_candidates": [
+            "LIU Z,YEH R A,TANG X,et al.Video frame synthesis using deep voxel flow[C]//Proceedings of the IEEE International Conference on Computer Vision,2017"
+          ],
+          "title_candidate": "4463-4471",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 75,
+          "pattern": "fallback_raw_split",
+          "author_text": "LIU Z,YEH R A,TANG X,et al.Video frame synthesis using deep voxel flow[C]//Proceedings of the IEEE International Conference on Computer Vision,2017",
+          "author_candidates": [
+            "LIU Z,YEH R A,TANG X,et al.Video frame synthesis using deep voxel flow[C]//Proceedings of the IEEE International Conference on Computer Vision,2017"
+          ],
+          "title_candidate": "4463-4471",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 76,
+      "raw": "[74] VILLEGAS R，YANG J，HONG S，et al.Decomposing motion and content for natural video sequence prediction[J].arXiv：1706.08033，2017.",
+      "detected_ref_number": 74,
+      "numbering": {
+        "detected_ref_number": 74,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 76,
+          "pattern": "cjk_type_marker_entry",
+          "author_text": "VILLEGAS R,YANG J,HONG S,et al",
+          "author_candidates": [
+            "VILLEGAS R,YANG J,HONG S,et al"
+          ],
+          "title_candidate": "Decomposing motion and content for natural video sequence prediction",
+          "container_candidate": "arXiv:1706.08033",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "type-marker [J/C/D/...] delimits title and container"
+          },
+          "candidate_index": 0
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 44,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 3,
+      "status": "prepared",
+      "entry_start": 45,
+      "entry_end": 59,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 4,
+      "status": "prepared",
+      "entry_start": 60,
+      "entry_end": 74,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 5,
+      "status": "prepared",
+      "entry_start": 75,
+      "entry_end": 76,
+      "metadata": {
+        "entry_count": 2
+      }
+    }
+  ],
+  "suspect_blocks": [
+    {
+      "block_index": 24,
+      "source_text": "[13] 任欢，王旭光.注意力机制综述[J].计算机应用，2021，41（S1）：1-6. REN H，WANG X G.Review of attention mechanism[J].Journal of Computer Applications，2021，41（S1）：1-6.",
+      "line_start": 25,
+      "line_end": 27,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[13] 任欢，王旭光.注意力机制综述[J].计算机应用，2021，41（S1）：1-6.",
+        "REN H，WANG X G.Review of attention mechanism[J].Journal of Computer Applications，2021，41（S1）：1-6."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    },
+    {
+      "block_index": 58,
+      "source_text": "[29] ZHENG S，LU J，ZHAO H，et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers[J].arXiv：2012.15840，2020.",
+      "line_start": 59,
+      "line_end": 61,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[29] ZHENG S，LU J，ZHAO H，et al.Rethinking semantic segmentation from a sequence-to-sequence perspective with",
+        "transformers[J].arXiv：2012.15840，2020."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    },
+    {
+      "block_index": 96,
+      "source_text": "[47] TAN M，LE Q.Efficientnet：rethinking model scaling for convolutional neural networks[C]//International Confer- ence on Machine Learning，2019：6105-6114.",
+      "line_start": 97,
+      "line_end": 99,
+      "reasons": [
+        "line does not end like a complete reference entry",
+        "following line looks like continuation text rather than a new reference entry"
+      ],
+      "proposed_entries": [
+        "[47] TAN M，LE Q.Efficientnet：rethinking model scaling for convolutional neural networks[C]//International Confer-",
+        "ence on Machine Learning，2019：6105-6114."
+      ],
+      "suspicion_kind": "possible_multiline_entry"
+    }
+  ],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=42",
+    "reference_pattern_ambiguous: entry_index=43",
+    "reference_pattern_ambiguous: entry_index=49",
+    "reference_pattern_ambiguous: entry_index=50",
+    "reference_pattern_ambiguous: entry_index=51",
+    "reference_pattern_ambiguous: entry_index=53",
+    "reference_pattern_ambiguous: entry_index=54",
+    "reference_pattern_ambiguous: entry_index=55",
+    "reference_pattern_ambiguous: entry_index=56",
+    "reference_pattern_ambiguous: entry_index=58",
+    "reference_pattern_ambiguous: entry_index=59",
+    "reference_pattern_ambiguous: entry_index=60",
+    "reference_pattern_ambiguous: entry_index=61",
+    "reference_pattern_ambiguous: entry_index=62",
+    "reference_pattern_ambiguous: entry_index=63",
+    "reference_pattern_ambiguous: entry_index=64",
+    "reference_pattern_ambiguous: entry_index=65",
+    "reference_pattern_ambiguous: entry_index=67",
+    "reference_pattern_ambiguous: entry_index=68",
+    "reference_pattern_ambiguous: entry_index=69",
+    "reference_pattern_ambiguous: entry_index=70",
+    "reference_pattern_ambiguous: entry_index=73",
+    "reference_pattern_ambiguous: entry_index=74",
+    "reference_pattern_ambiguous: entry_index=75",
+    "reference_title_boundary_suspect: entry_index=18 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=29 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=30 pattern=cjk_type_marker_entry",
+    "reference_title_boundary_suspect: entry_index=47 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=66 pattern=fallback_raw_split",
+    "reference_entry_grouping_suspect: block_index=24",
+    "reference_entry_grouping_suspect: block_index=58",
+    "reference_entry_grouping_suspect: block_index=96"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.06493506493506493,
+    "year_ratio": 0.974025974025974,
+    "warning_density": 0.5064935064935064,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.06493506493506493
+  },
+  "file_quality_low": false
+}

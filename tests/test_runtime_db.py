@@ -100,6 +100,36 @@ class RuntimeDbTests(unittest.TestCase):
                 connection.commit()
                 self.assertEqual(runtime_db.fetch_active_reference_quality_issues(connection), [])
 
+    def test_reference_preprocess_quality_and_decision_helpers(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            quality = {
+                "schema": "reference_preprocess_quality.v1",
+                "preprocess_version": "line-first-v171",
+                "metrics": {"fallback_best_ratio": 1.0},
+                "thresholds": {},
+                "triggered_signals": ["fallback_best_ratio", "year_ratio", "numbering_anomaly", "empty_title_ratio"],
+                "trigger_count": 4,
+                "trigger_min": 4,
+                "file_quality_low": True,
+            }
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_reference_preprocess_quality(connection, quality)
+                runtime_db.store_reference_extraction_decision(
+                    connection,
+                    status="abandoned",
+                    reason="too noisy",
+                    quality=quality,
+                )
+                connection.commit()
+
+                self.assertEqual(runtime_db.fetch_reference_preprocess_quality(connection)["preprocess_version"], "line-first-v171")
+                decision = runtime_db.fetch_reference_extraction_decision(connection)
+                self.assertEqual(decision["status"], "abandoned")
+                self.assertTrue(runtime_db.is_reference_extraction_abandoned(connection))
+
     def test_store_and_fetch_final_payload_data(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:

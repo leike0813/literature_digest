@@ -1,0 +1,973 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/J6DSFFBH_Center-based 3D Object Detection and Tracking.txt",
+  "entry_style": "numeric",
+  "notes": "纯 numeric + 行末引用页码标记。",
+  "items": [
+    {
+      "author": [
+        "Mayank Bansal",
+        "Alex Krizhevsky",
+        "Abhijit Ogale"
+      ],
+      "title": "ChauffeurNet: Learning to drive by imitating the best and synthesizing the worst",
+      "year": 2019,
+      "container": "RSS",
+      "raw": "[1] Mayank Bansal... ChauffeurNet... RSS, 2019.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Philipp Bergmann",
+        "Tim Meinhardt",
+        "Laura Leal-Taixé"
+      ],
+      "title": "Tracking without bells and whistles",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[2] Philipp Bergmann... Tracking without bells and whistles. ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Keni Bernardin",
+        "Alexander Elbs",
+        "Rainer Stiefelhagen"
+      ],
+      "title": "Multiple object tracking performance metrics and evaluation in a smart room environment",
+      "year": 2006,
+      "container": "Citeseer",
+      "raw": "[3] Keni Bernardin... Multiple object tracking performance metrics... Citeseer.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Alex Bewley",
+        "Zongyuan Ge",
+        "Lionel Ott",
+        "Fabio Ramos",
+        "Ben Upcroft"
+      ],
+      "title": "Simple online and realtime tracking",
+      "year": 2016,
+      "container": "ICIP",
+      "raw": "[4] Alex Bewley... Simple online and realtime tracking. ICIP, 2016.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Alex Bewley",
+        "Pei Sun",
+        "Thomas Mensink",
+        "Dragomir Anguelov",
+        "Cristian Sminchisescu"
+      ],
+      "title": "Range conditioned dilated convolutions for scale invariant 3d object detection",
+      "year": 2020,
+      "container": "arXiv:2005.09927",
+      "raw": "[5] Alex Bewley... Range conditioned dilated convolutions... arXiv preprint arXiv:2005.09927, 2020.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Holger Caesar",
+        "Varun Bankiti",
+        "Alex H. Lang",
+        "Sourabh Vora",
+        "Venice Erin Liong",
+        "Qiang Xu",
+        "Anush Krishnan",
+        "Yu Pan",
+        "Giancarlo Baldan",
+        "Oscar Beijbom"
+      ],
+      "title": "nuScenes: A multimodal dataset for autonomous driving",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[6] Holger Caesar... nuscenes... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Qi Chen",
+        "Lin Sun",
+        "Ernest Cheung",
+        "Kui Jia",
+        "Alan Yuille"
+      ],
+      "title": "Every view counts: Cross-view consistency in 3d object detection with hybrid-cylindrical-spherical voxelization",
+      "year": 2020,
+      "container": "NeurIPS",
+      "raw": "[7] Qi Chen... Every view counts... NeurIPS, 2020.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Qi Chen",
+        "Lin Sun",
+        "Zhixin Wang",
+        "Kui Jia",
+        "Alan Yuille"
+      ],
+      "title": "Object as hotspots: An anchor-free 3d object detection approach via firing of hotspots",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[8] Qi Chen... Object as hotspots... ECCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Yilun Chen",
+        "Shu Liu",
+        "Xiaoyong Shen",
+        "Jiaya Jia"
+      ],
+      "title": "Fast point R-CNN",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[9] Yilun Chen... Fast point r-cnn. ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Hsu-kuang Chiu",
+        "Antonio Prioletti",
+        "Jie Li",
+        "Jeannette Bohg"
+      ],
+      "title": "Probabilistic 3d multi-object tracking for autonomous driving",
+      "year": 2020,
+      "container": "arXiv:2001.05673",
+      "raw": "[10] Hsu-kuang Chiu... Probabilistic 3d multi-object tracking... arXiv:2001.05673, 2020.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Haozhi Qi",
+        "Yuwen Xiong",
+        "Yi Li",
+        "Guodong Zhang",
+        "Han Hu",
+        "Yichen Wei"
+      ],
+      "title": "Deformable convolutional networks",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "[11] Jifeng Dai... Deformable convolutional networks. ICCV, 2017.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Martin Engelcke",
+        "Dushyant Rao",
+        "Dominic Zeng Wang",
+        "Chi Hay Tong",
+        "Ingmar Posner"
+      ],
+      "title": "Vote3Deep: Fast object detection in 3d point clouds using efficient CNNs",
+      "year": 2017,
+      "container": "ICRA",
+      "raw": "[12] Martin Engelcke... Vote3deep... ICRA, 2017.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Mark Everingham",
+        "Luc Van Gool",
+        "Christopher K. I. Williams",
+        "John Winn",
+        "Andrew Zisserman"
+      ],
+      "title": "The Pascal Visual Object Classes (VOC) challenge",
+      "year": 2010,
+      "container": "IJCV",
+      "raw": "[13] Mark Everingham... The pascal VOC challenge. IJCV, 2010.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Runzhou Ge",
+        "Zhuangzhuang Ding",
+        "Yihan Hu",
+        "Yu Wang",
+        "Sijia Chen",
+        "Li Huang",
+        "Yuan Li"
+      ],
+      "title": "AFDet: Anchor free one stage 3d object detection",
+      "year": 2020,
+      "container": "arXiv:2006.12671",
+      "raw": "[14] Runzhou Ge... Afdet... arXiv preprint arXiv:2006.12671, 2020.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Andreas Geiger",
+        "Philip Lenz",
+        "Raquel Urtasun"
+      ],
+      "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+      "year": 2012,
+      "container": "CVPR",
+      "raw": "[15] Andreas Geiger... Are we ready for autonomous driving?... CVPR, 2012.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Ross Girshick"
+      ],
+      "title": "Fast R-CNN",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[16] Ross Girshick. Fast r-cnn. ICCV, 2015.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Ross Girshick",
+        "Jeff Donahue",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[17] Ross Girshick... Rich feature hierarchies... CVPR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Benjamin Graham",
+        "Martin Engelcke",
+        "Laurens van der Maaten"
+      ],
+      "title": "3d semantic segmentation with submanifold sparse convolutional networks",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[18] Benjamin Graham... 3d semantic segmentation... CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Sylvain Gugger"
+      ],
+      "title": "The 1cycle policy",
+      "year": 2018,
+      "container": "https://sgugger.github.io/the-1cycle-policy.html",
+      "raw": "[19] Sylvain Gugger. The 1cycle policy. https://sgugger.github.io/the-1cycle-policy.html, 2018.",
+      "confidence": 0.75,
+      "notes": "博客文章",
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Chenhang He",
+        "Hui Zeng",
+        "Jianqiang Huang",
+        "Xian-Sheng Hua",
+        "Lei Zhang"
+      ],
+      "title": "Structure aware single-stage 3d object detection from point cloud",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[20] Chenhang He... Structure aware single-stage 3d object detection... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Georgia Gkioxari",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "[21] Kaiming He... Mask r-cnn. ICCV, 2017.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Geoffrey E. Hinton",
+        "Nitish Srivastava",
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Ruslan R. Salakhutdinov"
+      ],
+      "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+      "year": 2012,
+      "container": "JMLR",
+      "raw": "[22] Geoffrey E Hinton... Improving neural networks... JMLR, 2012.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Peiyun Hu",
+        "Jason Ziglar",
+        "David Held",
+        "Deva Ramanan"
+      ],
+      "title": "What you see is what you get: Exploiting visibility for 3d object detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[23] Peiyun Hu... What you see is what you get... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Rui Huang",
+        "Wanyue Zhang",
+        "Abhijit Kundu",
+        "Caroline Pantofaru",
+        "David A. Ross",
+        "Thomas Funkhouser",
+        "Alireza Fathi"
+      ],
+      "title": "An LSTM approach to temporal 3d object detection in lidar point clouds",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[24] Rui Huang... An lstm approach to temporal 3d object detection... ECCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Sergey Ioffe",
+        "Christian Szegedy"
+      ],
+      "title": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+      "year": 2015,
+      "container": "ICML",
+      "raw": "[25] Sergey Ioffe and Christian Szegedy. Batch normalization... ICML, 2015.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Borui Jiang",
+        "Ruixuan Luo",
+        "Jiayuan Mao",
+        "Tete Xiao",
+        "Yuning Jiang"
+      ],
+      "title": "Acquisition of localization confidence for accurate object detection",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[26] Borui Jiang... Acquisition of localization confidence... ECCV, 2018.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "H. Karunasekera",
+        "H. Wang",
+        "H. Zhang"
+      ],
+      "title": "Multiple object tracking with attention to appearance, structure, motion and size",
+      "year": 2019,
+      "container": "IEEE Access",
+      "raw": "[27] H. Karunasekera... Multiple object tracking with attention... IEEE Access, 2019.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Alex H. Lang",
+        "Sourabh Vora",
+        "Holger Caesar",
+        "Lubing Zhou",
+        "Jiong Yang",
+        "Oscar Beijbom"
+      ],
+      "title": "PointPillars: Fast encoders for object detection from point clouds",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[28] Alex H. Lang... Pointpillars... CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Hei Law",
+        "Jia Deng"
+      ],
+      "title": "CornerNet: Detecting objects as paired keypoints",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[29] Hei Law and Jia Deng. Cornernet... ECCV, 2018.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Buyu Li",
+        "Wanli Ouyang",
+        "Lu Sheng",
+        "Xingyu Zeng",
+        "Xiaogang Wang"
+      ],
+      "title": "GS3D: An efficient 3d object detection framework",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[30] Buyu Li... Gs3d... CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Ming Liang",
+        "Bin Yang",
+        "Yun Chen",
+        "Rui Hu",
+        "Raquel Urtasun"
+      ],
+      "title": "Multi-task multi-sensor fusion for 3d object detection",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[31] Ming Liang... Multi-task multi-sensor fusion... CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Priya Goyal",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Focal loss for dense object detection",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "[32] Tsung-Yi Lin... Focal loss... ICCV, 2017.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Wei Liu",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Christian Szegedy",
+        "Scott Reed",
+        "Cheng-Yang Fu",
+        "Alexander C. Berg"
+      ],
+      "title": "SSD: Single shot multibox detector",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[33] Wei Liu... Ssd... ECCV, 2016.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Ilya Loshchilov",
+        "Frank Hutter"
+      ],
+      "title": "Decoupled weight decay regularization",
+      "year": 2019,
+      "container": "ICLR",
+      "raw": "[34] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. ICLR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Mahyar Najibi",
+        "Guangda Lai",
+        "Abhijit Kundu",
+        "Zhichao Lu",
+        "Vivek Rathod",
+        "Thomas Funkhouser",
+        "Caroline Pantofaru",
+        "David Ross",
+        "Larry S. Davis",
+        "Alireza Fathi"
+      ],
+      "title": "DOPS: Learning to detect 3d objects and predict their 3d shapes",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[35] Mahyar Najibi... Dops... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Jiquan Ngiam",
+        "Benjamin Caine",
+        "Wei Han",
+        "Brandon Yang",
+        "Yuning Chai",
+        "Pei Sun",
+        "Yin Zhou",
+        "Xi Yi",
+        "Ouais Alsharif",
+        "Patrick Nguyen"
+      ],
+      "title": "StarNet: Targeted computation for object detection in point clouds",
+      "year": 2019,
+      "container": "arXiv:1908.11069",
+      "raw": "[36] Jiquan Ngiam... Starnet... arXiv preprint arXiv:1908.11069, 2019.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Jonah Philion",
+        "Amlan Kar",
+        "Sanja Fidler"
+      ],
+      "title": "Learning to evaluate perception models using planner-centric metrics",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[37] Jonah Philion... Learning to evaluate perception models... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Charles R. Qi",
+        "Or Litany",
+        "Kaiming He",
+        "Leonidas J. Guibas"
+      ],
+      "title": "Deep hough voting for 3d object detection in point clouds",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[38] Charles R. Qi... Deep hough voting... ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Charles R. Qi",
+        "Wei Liu",
+        "Chenxia Wu",
+        "Hao Su",
+        "Leonidas J. Guibas"
+      ],
+      "title": "Frustum PointNets for 3d object detection from rgb-d data",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[39] Charles R Qi... Frustum pointnets... CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Charles R. Qi",
+        "Hao Su",
+        "Kaichun Mo",
+        "Leonidas J. Guibas"
+      ],
+      "title": "PointNet: Deep learning on point sets for 3d classification and segmentation",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[40] Charles R Qi... Pointnet... CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Charles Ruizhongtai Qi",
+        "Li Yi",
+        "Hao Su",
+        "Leonidas J. Guibas"
+      ],
+      "title": "PointNet++: Deep hierarchical feature learning on point sets in a metric space",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "[41] Charles Ruizhongtai Qi... Pointnet++... In NeurIPS, 2017.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Joseph Redmon",
+        "Ali Farhadi"
+      ],
+      "title": "YOLO9000: better, faster, stronger",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[42] Joseph Redmon and Ali Farhadi. Yolo9000... CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NIPS",
+      "raw": "[43] Shaoqing Ren... Faster r-cnn... NIPS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Shaoshuai Shi",
+        "Chaoxu Guo",
+        "Li Jiang",
+        "Zhe Wang",
+        "Jianping Shi",
+        "Xiaogang Wang",
+        "Hongsheng Li"
+      ],
+      "title": "PV-RCNN: Point-voxel feature set abstraction for 3d object detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[44] Shaoshuai Shi... Pv-rcnn... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Shaoshuai Shi",
+        "Xiaogang Wang",
+        "Hongsheng Li"
+      ],
+      "title": "PointRCNN: 3d object proposal generation and detection from point cloud",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[45] Shaoshuai Shi... Pointrcnn... CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Shaoshuai Shi",
+        "Zhe Wang",
+        "Jianping Shi",
+        "Xiaogang Wang",
+        "Hongsheng Li"
+      ],
+      "title": "From points to parts: 3d object detection with part-aware and part-aggregation network",
+      "year": 2020,
+      "container": "TPAMI",
+      "raw": "[46] Shaoshuai Shi... From points to parts... TPAMI, 2020.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Martin Simon",
+        "Stefan Milzy",
+        "Karl Amende",
+        "Horst-Michael Gross"
+      ],
+      "title": "Complex-YOLO: An euler-region-proposal for real-time 3d object detection on point clouds",
+      "year": 2018,
+      "container": "ECCV",
+      "raw": "[47] Martin Simony... Complex-yolo... ECCV, 2018.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "Pei Sun",
+        "Henrik Kretzschmar",
+        "Xerxes Dotiwalla",
+        "Aurélien Chouard",
+        "Vijaysai Patnaik",
+        "Paul Tsui",
+        "James Guo",
+        "Yin Zhou",
+        "Yuning Chai",
+        "Benjamin Caine"
+      ],
+      "title": "Scalability in perception for autonomous driving: Waymo open dataset",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[48] Pei Sun... Scalability in perception... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Sourabh Vora",
+        "Alex H. Lang",
+        "Bassam Helou",
+        "Oscar Beijbom"
+      ],
+      "title": "PointPainting: Sequential fusion for 3d object detection",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[49] Sourabh Vora... Pointpainting... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "Dequan Wang",
+        "Coline Devin",
+        "Qi-Zhi Cai",
+        "Philipp Krähenbühl",
+        "Trevor Darrell"
+      ],
+      "title": "Monocular plan view networks for autonomous driving",
+      "year": 2019,
+      "container": "IROS",
+      "raw": "[50] Dequan Wang... Monocular plan view networks... IROS, 2019.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Dominic Zeng Wang",
+        "Ingmar Posner"
+      ],
+      "title": "Voting for voting in online point cloud object detection",
+      "year": 2015,
+      "container": "RSS",
+      "raw": "[51] Dominic Zeng Wang and Ingmar Posner. Voting for voting... RSS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 50
+    },
+    {
+      "author": [
+        "Yue Wang",
+        "Alireza Fathi",
+        "Abhijit Kundu",
+        "David Ross",
+        "Caroline Pantofaru",
+        "Thomas Funkhouser",
+        "Justin Solomon"
+      ],
+      "title": "Pillar-based object detection for autonomous driving",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[52] Yue Wang... Pillarbased object detection... ECCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 51
+    },
+    {
+      "author": [
+        "Xinshuo Weng",
+        "Kris Kitani"
+      ],
+      "title": "A Baseline for 3D Multi-Object Tracking",
+      "year": 2020,
+      "container": "IROS",
+      "raw": "[53] Xinshuo Weng and Kris Kitani. A Baseline for 3D Multi-Object Tracking. IROS, 2020.",
+      "confidence": 0.95,
+      "entry_index": 52
+    },
+    {
+      "author": [
+        "Nicolai Wojke",
+        "Alex Bewley",
+        "Dietrich Paulus"
+      ],
+      "title": "Simple online and realtime tracking with a deep association metric",
+      "year": 2017,
+      "container": "ICIP",
+      "raw": "[54] Nicolai Wojke... Simple online and realtime tracking... ICIP, 2017.",
+      "confidence": 0.95,
+      "entry_index": 53
+    },
+    {
+      "author": [
+        "Kelvin Wong",
+        "Shenlong Wang",
+        "Mengye Ren",
+        "Ming Liang",
+        "Raquel Urtasun"
+      ],
+      "title": "Identifying unknown instances for autonomous driving",
+      "year": 2019,
+      "container": "CoRL",
+      "raw": "[55] Kelvin Wong... Identifying unknown instances... CoRL, 2019.",
+      "confidence": 0.95,
+      "entry_index": 54
+    },
+    {
+      "author": [
+        "Yan Yan",
+        "Yuxing Mao",
+        "Bo Li"
+      ],
+      "title": "SECOND: Sparsely embedded convolutional detection",
+      "year": 2018,
+      "container": "Sensors",
+      "raw": "[56] Yan Yan... Second... Sensors, 2018.",
+      "confidence": 0.95,
+      "entry_index": 55
+    },
+    {
+      "author": [
+        "Bin Yang",
+        "Wenjie Luo",
+        "Raquel Urtasun"
+      ],
+      "title": "PIXOR: Real-time 3d object detection from point clouds",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[57] Bin Yang... Pixor... CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 56
+    },
+    {
+      "author": [
+        "Xue Yang",
+        "Qingqing Liu",
+        "Junchi Yan",
+        "Ang Li",
+        "Zhiqiang Zhang",
+        "Gang Yu"
+      ],
+      "title": "R3Det: Refined single-stage detector with feature refinement for rotating object",
+      "year": 2019,
+      "container": "arXiv:1908.05612",
+      "raw": "[58] Xue Yang... R3det... arXiv:1908.05612, 2019.",
+      "confidence": 0.95,
+      "entry_index": 57
+    },
+    {
+      "author": [
+        "Xue Yang",
+        "Jirui Yang",
+        "Junchi Yan",
+        "Yue Zhang",
+        "Tengfei Zhang",
+        "Zhi Guo",
+        "Xian Sun",
+        "Kun Fu"
+      ],
+      "title": "SCRDet: Towards more robust detection for small, cluttered and rotated objects",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[59] Xue Yang... Scrdet... ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 58
+    },
+    {
+      "author": [
+        "Zetong Yang",
+        "Yanan Sun",
+        "Shu Liu",
+        "Jiaya Jia"
+      ],
+      "title": "3DSSD: Point-based 3d single stage object detector",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[60] Zetong Yang... 3dssd... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 59
+    },
+    {
+      "author": [
+        "Zetong Yang",
+        "Yanan Sun",
+        "Shu Liu",
+        "Xiaoyong Shen",
+        "Jiaya Jia"
+      ],
+      "title": "STD: Sparse-to-dense 3d object detector for point cloud",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "[61] Zetong Yang... Std... ICCV, 2019.",
+      "confidence": 0.95,
+      "entry_index": 60
+    },
+    {
+      "author": [
+        "Junbo Yin",
+        "Jianbing Shen",
+        "Chenye Guan",
+        "Dingfu Zhou",
+        "Ruigang Yang"
+      ],
+      "title": "LiDAR-based online 3d video object detection with graph-based message passing and spatiotemporal transformer attention",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "[62] Junbo Yin... Lidar-based online 3d video object detection... CVPR, 2020.",
+      "confidence": 0.95,
+      "entry_index": 61
+    },
+    {
+      "author": [
+        "Xingyi Zhou",
+        "Vladlen Koltun",
+        "Philipp Krähenbühl"
+      ],
+      "title": "Tracking objects as points",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "[63] Xingyi Zhou... Tracking objects as points. ECCV, 2020.",
+      "confidence": 0.95,
+      "entry_index": 62
+    },
+    {
+      "author": [
+        "Xingyi Zhou",
+        "Dequan Wang",
+        "Philipp Krähenbühl"
+      ],
+      "title": "Objects as points",
+      "year": 2019,
+      "container": "arXiv:1904.07850",
+      "raw": "[64] Xingyi Zhou... Objects as points. arXiv:1904.07850, 2019.",
+      "confidence": 0.95,
+      "entry_index": 63
+    },
+    {
+      "author": [
+        "Yin Zhou",
+        "Pei Sun",
+        "Yu Zhang",
+        "Dragomir Anguelov",
+        "Jiyang Gao",
+        "Tom Ouyang",
+        "James Guo",
+        "Jiquan Ngiam",
+        "Vijay Vasudevan"
+      ],
+      "title": "End-to-end multi-view fusion for 3d object detection",
+      "year": 2019,
+      "container": "CoRL",
+      "raw": "[65] Yin Zhou... End-to-end multi-view fusion... CoRL, 2019.",
+      "confidence": 0.95,
+      "entry_index": 64
+    },
+    {
+      "author": [
+        "Yin Zhou",
+        "Oncel Tuzel"
+      ],
+      "title": "VoxelNet: End-to-end learning for point cloud based 3d object detection",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[66] Yin Zhou and Oncel Tuzel. Voxelnet... CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 65
+    }
+  ]
+}

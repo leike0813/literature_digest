@@ -1,0 +1,3888 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:43Z",
+    "entry_count": 46,
+    "candidate_count": 166,
+    "batch_count": 4,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] K. He, X. Zhang, S. Ren, and J. Sun, “Spatial pyramid pooling in deep convolutional networks for visual recognition,” in Proc. 13th Eur. Conf. Comput. Vis., 2014 pp. 346–361.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] K. He, X. Zhang, S. Ren, and J. Sun, “Spatial pyramid pooling in deep convolutional networks for visual recognition,” in Proc. 13th Eur. Conf. Comput. Vis., 2014 pp. 346–361."
+      ]
+    },
+    {
+      "block_index": 1,
+      "source_text": "[2] R. Girshick, “Fast R-CNN,” in Proc. IEEE Int. Conf. Comput. Vis., 2015, pp. 1440–1448.",
+      "line_start": 2,
+      "line_end": 2,
+      "proposed_entries": [
+        "[2] R. Girshick, “Fast R-CNN,” in Proc. IEEE Int. Conf. Comput. Vis., 2015, pp. 1440–1448."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[3] K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc. Int. Conf. Learn. Representations, 2015.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[3] K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc. Int. Conf. Learn. Representations, 2015."
+      ]
+    },
+    {
+      "block_index": 3,
+      "source_text": "[4] J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders, “Selective search for object recognition,” Int. J. Comput. Vis., vol. 104, no. 2, pp. 154–171, Sep. 2013.",
+      "line_start": 4,
+      "line_end": 4,
+      "proposed_entries": [
+        "[4] J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders, “Selective search for object recognition,” Int. J. Comput. Vis., vol. 104, no. 2, pp. 154–171, Sep. 2013."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[5] R. Girshick, J. Donahue, T. Darrell, and J. Malik, “Rich feature hierarchies for accurate object detection and semantic segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 580–587.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[5] R. Girshick, J. Donahue, T. Darrell, and J. Malik, “Rich feature hierarchies for accurate object detection and semantic segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 580–587."
+      ]
+    },
+    {
+      "block_index": 5,
+      "source_text": "[6] C. L. Zitnick and P. Dollar, “Edge boxes: Locating object proposals -from edges,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 391– 405.",
+      "line_start": 6,
+      "line_end": 6,
+      "proposed_entries": [
+        "[6] C. L. Zitnick and P. Dollar, “Edge boxes: Locating object proposals -from edges,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 391– 405."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[7] J. Long, E. Shelhamer, and T. Darrell, “Fully convolutional networks for semantic segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 3431–3440.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[7] J. Long, E. Shelhamer, and T. Darrell, “Fully convolutional networks for semantic segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 3431–3440."
+      ]
+    },
+    {
+      "block_index": 7,
+      "source_text": "[8] P. F. Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ramanan, “Object detection with discriminatively trained part-based models,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1627– 1645, Sep. 2010.",
+      "line_start": 8,
+      "line_end": 8,
+      "proposed_entries": [
+        "[8] P. F. Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ramanan, “Object detection with discriminatively trained part-based models,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1627– 1645, Sep. 2010."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[9] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun, “Overfeat: Integrated recognition, localization and detection using convolutional networks,” in Proc. Int. Conf. Learn. Representations, 2014.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[9] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun, “Overfeat: Integrated recognition, localization and detection using convolutional networks,” in Proc. Int. Conf. Learn. Representations, 2014."
+      ]
+    },
+    {
+      "block_index": 9,
+      "source_text": "[10] S. Ren, K. He, R. Girshick, and J. Sun, “Faster R-CNN: Towards real-time object detection with region proposal networks,” in Proc. Neural Inf. Process. Syst., 2015, pp. 91–99.",
+      "line_start": 10,
+      "line_end": 10,
+      "proposed_entries": [
+        "[10] S. Ren, K. He, R. Girshick, and J. Sun, “Faster R-CNN: Towards real-time object detection with region proposal networks,” in Proc. Neural Inf. Process. Syst., 2015, pp. 91–99."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[11] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, “The PASCAL Visual Object Classes Challenge Results,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, Jun. 2007.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[11] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, “The PASCAL Visual Object Classes Challenge Results,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, Jun. 2007."
+      ]
+    },
+    {
+      "block_index": 11,
+      "source_text": "[12] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO: Common objects -in context,” in Proc. Eur. Conf. Comput. Vis., 2014, pp. 740–755.",
+      "line_start": 12,
+      "line_end": 12,
+      "proposed_entries": [
+        "[12] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO: Common objects -in context,” in Proc. Eur. Conf. Comput. Vis., 2014, pp. 740–755."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[13] S. Song and J. Xiao, “Deep sliding shapes for amodal 3d object detection in RGB-D images,” arXiv:1511.02300, 2015.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[13] S. Song and J. Xiao, “Deep sliding shapes for amodal 3d object detection in RGB-D images,” arXiv:1511.02300, 2015."
+      ]
+    },
+    {
+      "block_index": 13,
+      "source_text": "[14] J. Zhu, X. Chen, and A. L. Yuille, “DeePM: A deep part-based model for object detection and semantic part localization,” arXiv:1511.07131, 2015.",
+      "line_start": 14,
+      "line_end": 14,
+      "proposed_entries": [
+        "[14] J. Zhu, X. Chen, and A. L. Yuille, “DeePM: A deep part-based model for object detection and semantic part localization,” arXiv:1511.07131, 2015."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[15] J. Dai, K. He, and J. Sun, “Instance-aware semantic segmentation via multi-task network cascades,” arXiv:1512.04412, 2015.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[15] J. Dai, K. He, and J. Sun, “Instance-aware semantic segmentation via multi-task network cascades,” arXiv:1512.04412, 2015."
+      ]
+    },
+    {
+      "block_index": 15,
+      "source_text": "[16] J. Johnson, A. Karpathy, and L. Fei-Fei, “Densecap: Fully convolutional localization networks for dense captioning,” arXiv:1511.07571, 2015.",
+      "line_start": 16,
+      "line_end": 16,
+      "proposed_entries": [
+        "[16] J. Johnson, A. Karpathy, and L. Fei-Fei, “Densecap: Fully convolutional localization networks for dense captioning,” arXiv:1511.07571, 2015."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[17] D. Kislyuk, Y. Liu, D. Liu, E. Tzeng, and Y. Jing, “Human curation and convnets: Powering item-to-item recommendations on pinterest,” arXiv:1511.04003, 2015.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[17] D. Kislyuk, Y. Liu, D. Liu, E. Tzeng, and Y. Jing, “Human curation and convnets: Powering item-to-item recommendations on pinterest,” arXiv:1511.04003, 2015."
+      ]
+    },
+    {
+      "block_index": 17,
+      "source_text": "[18] K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” arXiv:1512.03385, 2015.",
+      "line_start": 18,
+      "line_end": 18,
+      "proposed_entries": [
+        "[18] K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” arXiv:1512.03385, 2015."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[19] J. Hosang, R. Benenson, and B. Schiele, “How good are detection proposals, really?” presented at Proc. Brit. Mach. Vis. Conf., Nottingham, England, 2014.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[19] J. Hosang, R. Benenson, and B. Schiele, “How good are detection proposals, really?” presented at Proc. Brit. Mach. Vis. Conf., Nottingham, England, 2014."
+      ]
+    },
+    {
+      "block_index": 19,
+      "source_text": "[20] J. Hosang, R. Benenson, P. Dollar, and B. Schiele, “What makes for -effective detection proposals?” IEEE Trans. Pattern Anal. Mach. Intell., vol. 38, no. 4, pp. 814–830, Apr. 2015.",
+      "line_start": 20,
+      "line_end": 20,
+      "proposed_entries": [
+        "[20] J. Hosang, R. Benenson, P. Dollar, and B. Schiele, “What makes for -effective detection proposals?” IEEE Trans. Pattern Anal. Mach. Intell., vol. 38, no. 4, pp. 814–830, Apr. 2015."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[21] N. Chavali, H. Agrawal, A. Mahendru, and D. Batra, “Object-proposal evaluation protocol is ’gameable’,” arXiv: 1505.05836, 2015.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[21] N. Chavali, H. Agrawal, A. Mahendru, and D. Batra, “Object-proposal evaluation protocol is ’gameable’,” arXiv: 1505.05836, 2015."
+      ]
+    },
+    {
+      "block_index": 21,
+      "source_text": "[22] J. Carreira and C. Sminchisescu, “CPMC: Automatic object segmentation using constrained parametric min-cuts,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 7, pp. 1312–1328, Jul. 2012.",
+      "line_start": 22,
+      "line_end": 22,
+      "proposed_entries": [
+        "[22] J. Carreira and C. Sminchisescu, “CPMC: Automatic object segmentation using constrained parametric min-cuts,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 7, pp. 1312–1328, Jul. 2012."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[23] P. Arbelaez, J. Pont-Tuset, J. T. Barron, F. Marques, and J. Malik, -“Multiscale combinatorial grouping,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 328–335.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[23] P. Arbelaez, J. Pont-Tuset, J. T. Barron, F. Marques, and J. Malik, -“Multiscale combinatorial grouping,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 328–335."
+      ]
+    },
+    {
+      "block_index": 23,
+      "source_text": "[24] B. Alexe, T. Deselaers, and V. Ferrari, “Measuring the objectness of image windows,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 11, pp. 2189–2202, Nov. 2012.",
+      "line_start": 24,
+      "line_end": 24,
+      "proposed_entries": [
+        "[24] B. Alexe, T. Deselaers, and V. Ferrari, “Measuring the objectness of image windows,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 11, pp. 2189–2202, Nov. 2012."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[25] C. Szegedy, A. Toshev, and D. Erhan, “Deep neural networks for object detection,” in Proc. Neural Inform. Process. Syst., 2013, pp. 2553–2561.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[25] C. Szegedy, A. Toshev, and D. Erhan, “Deep neural networks for object detection,” in Proc. Neural Inform. Process. Syst., 2013, pp. 2553–2561."
+      ]
+    },
+    {
+      "block_index": 25,
+      "source_text": "[26] D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov, “Scalable object detection using deep neural networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2155–2162.",
+      "line_start": 26,
+      "line_end": 26,
+      "proposed_entries": [
+        "[26] D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov, “Scalable object detection using deep neural networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2155–2162."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[27] C. Szegedy, S. Reed, D. Erhan, and D. Anguelov, “Scalable, highquality object detection,” arXiv:1412.1441 (v1), 2015.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[27] C. Szegedy, S. Reed, D. Erhan, and D. Anguelov, “Scalable, highquality object detection,” arXiv:1412.1441 (v1), 2015."
+      ]
+    },
+    {
+      "block_index": 27,
+      "source_text": "[28] P. O. Pinheiro, R. Collobert, and P. Dollar, “Learning to segment object candidates,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 1981–1989.",
+      "line_start": 28,
+      "line_end": 28,
+      "proposed_entries": [
+        "[28] P. O. Pinheiro, R. Collobert, and P. Dollar, “Learning to segment object candidates,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 1981–1989."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[29] J. Dai, K. He, and J. Sun, “Convolutional feature masking for joint object and stuff segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2015, pp. 3992–4000.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[29] J. Dai, K. He, and J. Sun, “Convolutional feature masking for joint object and stuff segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2015, pp. 3992–4000."
+      ]
+    },
+    {
+      "block_index": 29,
+      "source_text": "[30] S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun, “Object detection networks on convolutional feature maps,” arXiv:1504.06066, 2015.",
+      "line_start": 30,
+      "line_end": 30,
+      "proposed_entries": [
+        "[30] S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun, “Object detection networks on convolutional feature maps,” arXiv:1504.06066, 2015."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[31] J. K. Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio, “Attention-based models for speech recognition,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 577–585.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[31] J. K. Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio, “Attention-based models for speech recognition,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 577–585."
+      ]
+    },
+    {
+      "block_index": 31,
+      "source_text": "[32] M. D. Zeiler and R. Fergus, “Visualizing and understanding convolutional neural networks,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 818–833.",
+      "line_start": 32,
+      "line_end": 32,
+      "proposed_entries": [
+        "[32] M. D. Zeiler and R. Fergus, “Visualizing and understanding convolutional neural networks,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 818–833."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[33] V. Nair and G. E. Hinton, “Rectified linear units improve restricted Boltzmann machines,” in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 807–814.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[33] V. Nair and G. E. Hinton, “Rectified linear units improve restricted Boltzmann machines,” in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 807–814."
+      ]
+    },
+    {
+      "block_index": 33,
+      "source_text": "[34] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, and A. Rabinovich, “Going deeper with convolutions,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 1–9.",
+      "line_start": 34,
+      "line_end": 34,
+      "proposed_entries": [
+        "[34] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, and A. Rabinovich, “Going deeper with convolutions,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 1–9."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[35] Y. LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol. 1, pp. 541–551, 1989.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[35] Y. LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol. 1, pp. 541–551, 1989."
+      ]
+    },
+    {
+      "block_index": 35,
+      "source_text": "[36] O. Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int. J. Comput. Vis, vol. 115, pp. 211–252, 2015.",
+      "line_start": 36,
+      "line_end": 36,
+      "proposed_entries": [
+        "[36] O. Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int. J. Comput. Vis, vol. 115, pp. 211–252, 2015."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[37] A. Krizhevsky, I. Sutskever, and G. Hinton, “Imagenet classification with deep convolutional neural networks,” in Proc. Neural Inf. Process. Syst., 2012, pp. 1097–1105.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[37] A. Krizhevsky, I. Sutskever, and G. Hinton, “Imagenet classification with deep convolutional neural networks,” in Proc. Neural Inf. Process. Syst., 2012, pp. 1097–1105."
+      ]
+    },
+    {
+      "block_index": 37,
+      "source_text": "[38] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, “Caffe: Convolutional architecture for fast feature embedding,” in Proc. 22nd ACM Int. Conf. Multimedia, 2014, pp. 675–678.",
+      "line_start": 38,
+      "line_end": 38,
+      "proposed_entries": [
+        "[38] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, “Caffe: Convolutional architecture for fast feature embedding,” in Proc. 22nd ACM Int. Conf. Multimedia, 2014, pp. 675–678."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[39] K. Lenc and A. Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc. Brit. Mach. Vis. Conf., 2015, pp. 5.1–5.12.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[39] K. Lenc and A. Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc. Brit. Mach. Vis. Conf., 2015, pp.",
+        "5.1–5.12."
+      ]
+    },
+    {
+      "block_index": 39,
+      "source_text": "[40] D. Hoiem, Y. Chodpathumwan, and Q. Dai, “Diagnosing error in object detectors,” in Proc. 12th Eur. Conf. Comput. Vis., 2012, pp. 340–353.",
+      "line_start": 40,
+      "line_end": 40,
+      "proposed_entries": [
+        "[40] D. Hoiem, Y. Chodpathumwan, and Q. Dai, “Diagnosing error in object detectors,” in Proc. 12th Eur. Conf. Comput. Vis., 2012, pp. 340–353."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "Shaoqing Ren received the BS degree from the University of Science and Technology of China in 2011. He received the PhD degree in a joint PhD program between University of Science and Technology of China and Microsoft Research Asia. His research interests are in computer vision, especially in detection and localization of general objects and faces.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "Shaoqing Ren received the BS degree from the University of Science and Technology of China in 2011. He received the PhD degree in a joint PhD program between University of Science and Technology of China and Microsoft Research Asia. His research interests are in computer vision, especially in detection and localization of general objects and faces."
+      ]
+    },
+    {
+      "block_index": 45,
+      "source_text": "Kaiming He received the BS degree from Tsinghua University in 2007, and the PhD degree from the Chinese University of Hong Kong in 2011. He is a lead researcher at Microsoft Research Asia. He joined Microsoft Research Asia in 2011. His current research interests are deep learning for visual recognition, including image classification, object detection, and semantic segmentation. He has won the Best Paper Award at CVPR 2009.",
+      "line_start": 46,
+      "line_end": 46,
+      "proposed_entries": [
+        "Kaiming He received the BS degree from Tsinghua University in 2007, and the PhD degree from the Chinese University of Hong Kong in 2011. He is a lead researcher at Microsoft Research Asia. He joined Microsoft Research Asia in 2011. His current research interests are deep learning for visual recognition, including image classification, object detection, and semantic segmentation. He has won the Best Paper Award at CVPR 2009."
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "Ross Girshick is a research scientist at Facebook AI Research (FAIR). He holds a PhD and MS in computer science, both from the University of Chicago where he studied under Pedro Felzenszwalb. Prior to joining FAIR, Ross was a Researcher at Microsoft Research and a Postdoctoral Fellow at the University of California, Berkeley where he collaborated with Jitendra Malik and Trevor Darrell. During the course of PASCAL VOC object detection challenge, Ross participated in multiple winning object detection entries and was awarded a “lifetime achievement” prize for his work on the widely used Deformable Part Models. More recently, his framework for Region-based Convolution Networks (R-CNN) has more than doubled the accuracy of previous state-of-the-art object detection methods.",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "Ross Girshick is a research scientist at Facebook AI Research (FAIR). He holds a PhD and MS in computer science, both from the University of Chicago where he studied under Pedro Felzenszwalb. Prior to joining FAIR, Ross was a Researcher at Microsoft Research and a Postdoctoral Fellow at the University of California, Berkeley where he collaborated with Jitendra Malik and Trevor Darrell. During the course of PASCAL VOC object detection challenge, Ross participated in multiple winning object detection entries and was awarded a “lifetime achievement” prize for his work on the widely used Deformable Part Models. More recently, his framework for Region-based Convolution Networks (R-CNN) has more than doubled the accuracy of previous state-of-the-art object detection methods."
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "Jian Sun received the BS, MS, and PhD degrees from Xian Jiaotong University in 1997, 2000, and 2003. He is a principal researcher at Microsoft Research Asia. He joined Microsoft Research Asia in July, 2003. His current major research interests are computer vision, computational photography, and deep learning. He has won the Best Paper Award at CVPR 2009.",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "Jian Sun received the BS, MS, and PhD degrees from Xian Jiaotong University in 1997, 2000, and 2003. He is a principal researcher at Microsoft Research Asia. He joined Microsoft Research Asia in July, 2003. His current major research interests are computer vision, computational photography, and deep learning. He has won the Best Paper Award at CVPR 2009."
+      ]
+    },
+    {
+      "block_index": 53,
+      "source_text": "$\\triangleright$ For more information on this or any other computing topic, please visit our Digital Library at www.computer.org/publications/dlib.",
+      "line_start": 54,
+      "line_end": 54,
+      "proposed_entries": [
+        "$\\triangleright$ For more information on this or any other computing topic, please visit our Digital Library at www.computer.org/publications/dlib."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] K. He, X. Zhang, S. Ren, and J. Sun, “Spatial pyramid pooling in deep convolutional networks for visual recognition,” in Proc. 13th Eur. Conf. Comput. Vis., 2014 pp. 346–361.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "ieee_quote_title",
+          "author_text": "K. He, X. Zhang, S. Ren, and J. Sun",
+          "author_candidates": [
+            "He, X",
+            "Zhang, S"
+          ],
+          "title_candidate": "Spatial pyramid pooling in deep convolutional networks for visual recognition",
+          "container_candidate": "in Proc. 13th Eur. Conf. Comput. Vis., 2014 pp. 346–361",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "K. He, X. Zhang, S. Ren, and J. Sun, “Spatial pyramid pooling in deep convolutional networks for visual recognition,” in Proc",
+          "author_candidates": [
+            "He, X",
+            "Zhang, S"
+          ],
+          "title_candidate": "13th Eur",
+          "container_candidate": "Conf. Comput. Vis., 2014 pp. 346–361",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "K. He, X. Zhang, S. Ren, and J. Sun, “Spatial pyramid pooling in deep convolutional networks for visual recognition,” in Proc",
+          "author_candidates": [
+            "He, X",
+            "Zhang, S"
+          ],
+          "title_candidate": "13th Eur. Conf. Comput. Vis., 2014 pp. 346–361",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "K. He, X. Zhang, S. Ren, and J. Sun, “Spatial pyramid pooling in deep convolutional networks for visual recognition,” in Proc",
+          "author_candidates": [
+            "He, X",
+            "Zhang, S"
+          ],
+          "title_candidate": "13th Eur. Conf. Comput. Vis., 2014 pp. 346–361",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] R. Girshick, “Fast R-CNN,” in Proc. IEEE Int. Conf. Comput. Vis., 2015, pp. 1440–1448.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "ieee_quote_title",
+          "author_text": "R. Girshick",
+          "author_candidates": [
+            "R\u0000Girshick"
+          ],
+          "title_candidate": "Fast R-CNN",
+          "container_candidate": "in Proc. IEEE Int. Conf. Comput. Vis., 2015, pp. 1440–1448",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "R. Girshick, “Fast R-CNN,” in Proc",
+          "author_candidates": [
+            "R\u0000Girshick, “Fast R-CNN,” in Proc"
+          ],
+          "title_candidate": "IEEE Int",
+          "container_candidate": "Conf. Comput. Vis., 2015, pp. 1440–1448",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "R. Girshick, “Fast R-CNN,” in Proc",
+          "author_candidates": [
+            "R\u0000Girshick, “Fast R-CNN,” in Proc"
+          ],
+          "title_candidate": "IEEE Int. Conf. Comput. Vis., 2015, pp. 1440–1448",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "R. Girshick, “Fast R-CNN,” in Proc",
+          "author_candidates": [
+            "R\u0000Girshick, “Fast R-CNN,” in Proc"
+          ],
+          "title_candidate": "IEEE Int. Conf. Comput. Vis., 2015, pp. 1440–1448",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc. Int. Conf. Learn. Representations, 2015.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "ieee_quote_title",
+          "author_text": "K. Simonyan and A. Zisserman",
+          "author_candidates": [
+            "K\u0000Simonyan",
+            "A\u0000Zisserman"
+          ],
+          "title_candidate": "Very deep convolutional networks for large-scale image recognition",
+          "container_candidate": "in Proc. Int. Conf. Learn. Representations, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc",
+          "author_candidates": [
+            "K\u0000Simonyan",
+            "A\u0000Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc"
+          ],
+          "title_candidate": "Int",
+          "container_candidate": "Conf. Learn. Representations,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc",
+          "author_candidates": [
+            "K\u0000Simonyan",
+            "A\u0000Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc"
+          ],
+          "title_candidate": "Int. Conf. Learn. Representations",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc",
+          "author_candidates": [
+            "K\u0000Simonyan",
+            "A\u0000Zisserman, “Very deep convolutional networks for large-scale image recognition,” in Proc"
+          ],
+          "title_candidate": "Int. Conf. Learn. Representations, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders, “Selective search for object recognition,” Int. J. Comput. Vis., vol. 104, no. 2, pp. 154–171, Sep. 2013.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders",
+          "author_candidates": [
+            "Uijlings, K",
+            "Sande, T"
+          ],
+          "title_candidate": "Selective search for object recognition",
+          "container_candidate": "Int. J. Comput. Vis., vol. 104, no. 2, pp. 154–171, Sep. 2013",
+          "year_candidate": 2013,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. R",
+          "author_candidates": [
+            "J\u0000R"
+          ],
+          "title_candidate": "Uijlings, K. E",
+          "container_candidate": "van de Sande, T. Gevers, and A. W. Smeulders, “Selective search for object recognition,” Int. J. Comput. Vis., vol. 104, no. 2, pp. 154–171, Sep",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. R",
+          "author_candidates": [
+            "J\u0000R"
+          ],
+          "title_candidate": "Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders, “Selective search for object recognition,” Int. J. Comput. Vis., vol. 104, no. 2, pp. 154–171, Sep",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. R",
+          "author_candidates": [
+            "J\u0000R"
+          ],
+          "title_candidate": "Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders, “Selective search for object recognition,” Int. J. Comput. Vis., vol. 104, no. 2, pp. 154–171, Sep. 2013",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] R. Girshick, J. Donahue, T. Darrell, and J. Malik, “Rich feature hierarchies for accurate object detection and semantic segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 580–587.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "ieee_quote_title",
+          "author_text": "R. Girshick, J. Donahue, T. Darrell, and J. Malik",
+          "author_candidates": [
+            "Girshick, J",
+            "Donahue, T"
+          ],
+          "title_candidate": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+          "container_candidate": "in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 580–587",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "R. Girshick, J. Donahue, T. Darrell, and J. Malik, “Rich feature hierarchies for accurate object detection and semantic segmentation,” in Proc",
+          "author_candidates": [
+            "Girshick, J",
+            "Donahue, T"
+          ],
+          "title_candidate": "IEEE Conf",
+          "container_candidate": "Comput. Vis. Pattern Recognit., 2014, pp. 580–587",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "R. Girshick, J. Donahue, T. Darrell, and J. Malik, “Rich feature hierarchies for accurate object detection and semantic segmentation,” in Proc",
+          "author_candidates": [
+            "Girshick, J",
+            "Donahue, T"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 580–587",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "R. Girshick, J. Donahue, T. Darrell, and J. Malik, “Rich feature hierarchies for accurate object detection and semantic segmentation,” in Proc",
+          "author_candidates": [
+            "Girshick, J",
+            "Donahue, T"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 580–587",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] C. L. Zitnick and P. Dollar, “Edge boxes: Locating object proposals -from edges,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 391– 405.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. L. Zitnick and P. Dollar",
+          "author_candidates": [
+            "C\u0000L. Zitnick",
+            "P\u0000Dollar"
+          ],
+          "title_candidate": "Edge boxes: Locating object proposals -from edges",
+          "container_candidate": "in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 391– 405",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. L",
+          "author_candidates": [
+            "C\u0000L"
+          ],
+          "title_candidate": "Zitnick and P. Dollar, “Edge boxes: Locating object proposals -from edges,” in Proc",
+          "container_candidate": "13th Eur. Conf. Comput. Vis., 2014, pp. 391– 405",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. L. Zitnick and P. Dollar, “Edge boxes",
+          "author_candidates": [
+            "C\u0000L. Zitnick and P\u0000Dollar",
+            "“Edge boxes"
+          ],
+          "title_candidate": "Locating object proposals -from edges,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 391– 405",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. L. Zitnick and P. Dollar, “Edge boxes",
+          "author_candidates": [
+            "C\u0000L. Zitnick and P\u0000Dollar",
+            "“Edge boxes"
+          ],
+          "title_candidate": "Locating object proposals -from edges,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 391– 405",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] J. Long, E. Shelhamer, and T. Darrell, “Fully convolutional networks for semantic segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 3431–3440.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Long, E. Shelhamer, and T. Darrell",
+          "author_candidates": [
+            "Long, E"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation",
+          "container_candidate": "in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 3431–3440",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Long, E. Shelhamer, and T. Darrell, “Fully convolutional networks for semantic segmentation,” in Proc",
+          "author_candidates": [
+            "Long, E"
+          ],
+          "title_candidate": "IEEE Conf",
+          "container_candidate": "Comput. Vis. Pattern Recognition, 2015, pp. 3431–3440",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Long, E. Shelhamer, and T. Darrell, “Fully convolutional networks for semantic segmentation,” in Proc",
+          "author_candidates": [
+            "Long, E"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 3431–3440",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Long, E. Shelhamer, and T. Darrell, “Fully convolutional networks for semantic segmentation,” in Proc",
+          "author_candidates": [
+            "Long, E"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 3431–3440",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] P. F. Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ramanan, “Object detection with discriminatively trained part-based models,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1627– 1645, Sep. 2010.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "ieee_quote_title",
+          "author_text": "P. F. Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ramanan",
+          "author_candidates": [
+            "Felzenszwalb, R",
+            "Girshick, D"
+          ],
+          "title_candidate": "Object detection with discriminatively trained part-based models",
+          "container_candidate": "IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1627– 1645, Sep. 2010",
+          "year_candidate": 2010,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "P. F",
+          "author_candidates": [
+            "P\u0000F"
+          ],
+          "title_candidate": "Felzenszwalb, R. B",
+          "container_candidate": "Girshick, D. McAllester, and D. Ramanan, “Object detection with discriminatively trained part-based models,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1627– 1645, Sep",
+          "year_candidate": 2010,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "P. F",
+          "author_candidates": [
+            "P\u0000F"
+          ],
+          "title_candidate": "Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ramanan, “Object detection with discriminatively trained part-based models,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1627– 1645, Sep",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "P. F",
+          "author_candidates": [
+            "P\u0000F"
+          ],
+          "title_candidate": "Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ramanan, “Object detection with discriminatively trained part-based models,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1627– 1645, Sep. 2010",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun, “Overfeat: Integrated recognition, localization and detection using convolutional networks,” in Proc. Int. Conf. Learn. Representations, 2014.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "ieee_quote_title",
+          "author_text": "P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun",
+          "author_candidates": [
+            "Sermanet, D",
+            "Eigen, X",
+            "Zhang, M",
+            "Mathieu, R"
+          ],
+          "title_candidate": "Overfeat: Integrated recognition, localization and detection using convolutional networks",
+          "container_candidate": "in Proc. Int. Conf. Learn. Representations, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun, “Overfeat: Integrated recognition, localization and detection using convolutional networks,” in Proc",
+          "author_candidates": [
+            "Sermanet, D",
+            "Eigen, X",
+            "Zhang, M",
+            "Mathieu, R"
+          ],
+          "title_candidate": "Int",
+          "container_candidate": "Conf. Learn. Representations,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun, “Overfeat",
+          "author_candidates": [
+            "Sermanet, D",
+            "Eigen, X",
+            "Zhang, M",
+            "Mathieu, R"
+          ],
+          "title_candidate": "Integrated recognition, localization and detection using convolutional networks,” in Proc. Int. Conf. Learn. Representations",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun, “Overfeat",
+          "author_candidates": [
+            "Sermanet, D",
+            "Eigen, X",
+            "Zhang, M",
+            "Mathieu, R"
+          ],
+          "title_candidate": "Integrated recognition, localization and detection using convolutional networks,” in Proc. Int. Conf. Learn. Representations, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] S. Ren, K. He, R. Girshick, and J. Sun, “Faster R-CNN: Towards real-time object detection with region proposal networks,” in Proc. Neural Inf. Process. Syst., 2015, pp. 91–99.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "ieee_quote_title",
+          "author_text": "S. Ren, K. He, R. Girshick, and J. Sun",
+          "author_candidates": [
+            "Ren, K",
+            "He, R"
+          ],
+          "title_candidate": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+          "container_candidate": "in Proc. Neural Inf. Process. Syst., 2015, pp. 91–99",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "S. Ren, K. He, R. Girshick, and J. Sun, “Faster R-CNN: Towards real-time object detection with region proposal networks,” in Proc",
+          "author_candidates": [
+            "Ren, K",
+            "He, R"
+          ],
+          "title_candidate": "Neural Inf",
+          "container_candidate": "Process. Syst., 2015, pp. 91–99",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "S. Ren, K. He, R. Girshick, and J. Sun, “Faster R-CNN",
+          "author_candidates": [
+            "Ren, K",
+            "He, R"
+          ],
+          "title_candidate": "Towards real-time object detection with region proposal networks,” in Proc. Neural Inf. Process. Syst., 2015, pp. 91–99",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "S. Ren, K. He, R. Girshick, and J. Sun, “Faster R-CNN",
+          "author_candidates": [
+            "Ren, K",
+            "He, R"
+          ],
+          "title_candidate": "Towards real-time object detection with region proposal networks,” in Proc. Neural Inf. Process. Syst., 2015, pp. 91–99",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, “The PASCAL Visual Object Classes Challenge Results,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, Jun. 2007.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "ieee_quote_title",
+          "author_text": "M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman",
+          "author_candidates": [
+            "Everingham, L",
+            "Gool, C",
+            "Williams, J"
+          ],
+          "title_candidate": "The PASCAL Visual Object Classes Challenge Results",
+          "container_candidate": "Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, Jun. 2007",
+          "year_candidate": 2007,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "M. Everingham, L. Van Gool, C. K",
+          "author_candidates": [
+            "Everingham, L",
+            "Gool, C"
+          ],
+          "title_candidate": "I",
+          "container_candidate": "Williams, J. Winn, and A. Zisserman, “The PASCAL Visual Object Classes Challenge Results,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, Jun",
+          "year_candidate": 2007,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "M. Everingham, L. Van Gool, C. K",
+          "author_candidates": [
+            "Everingham, L",
+            "Gool, C"
+          ],
+          "title_candidate": "I. Williams, J. Winn, and A. Zisserman, “The PASCAL Visual Object Classes Challenge Results,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, Jun",
+          "container_candidate": "",
+          "year_candidate": 2007,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "M. Everingham, L. Van Gool, C. K",
+          "author_candidates": [
+            "Everingham, L",
+            "Gool, C"
+          ],
+          "title_candidate": "I. Williams, J. Winn, and A. Zisserman, “The PASCAL Visual Object Classes Challenge Results,” Int. J. Comput. Vis., vol. 88, no. 2, pp. 303–338, Jun. 2007",
+          "container_candidate": "",
+          "year_candidate": 2007,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO: Common objects -in context,” in Proc. Eur. Conf. Comput. Vis., 2014, pp. 740–755.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "ieee_quote_title",
+          "author_text": "T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick",
+          "author_candidates": [
+            "Lin, M",
+            "Maire, S",
+            "Belongie, J",
+            "Hays, P",
+            "Perona, D",
+            "Ramanan, P"
+          ],
+          "title_candidate": "Microsoft COCO: Common objects -in context",
+          "container_candidate": "in Proc. Eur. Conf. Comput. Vis., 2014, pp. 740–755",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "T.-Y",
+          "author_candidates": [
+            "T.-Y"
+          ],
+          "title_candidate": "Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L",
+          "container_candidate": "Zitnick, “Microsoft COCO: Common objects -in context,” in Proc. Eur. Conf. Comput. Vis., 2014, pp. 740–755",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO",
+          "author_candidates": [
+            "Lin, M",
+            "Maire, S",
+            "Belongie, J",
+            "Hays, P",
+            "Perona, D",
+            "Ramanan, P"
+          ],
+          "title_candidate": "Common objects -in context,” in Proc. Eur. Conf. Comput. Vis., 2014, pp. 740–755",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick, “Microsoft COCO",
+          "author_candidates": [
+            "Lin, M",
+            "Maire, S",
+            "Belongie, J",
+            "Hays, P",
+            "Perona, D",
+            "Ramanan, P"
+          ],
+          "title_candidate": "Common objects -in context,” in Proc. Eur. Conf. Comput. Vis., 2014, pp. 740–755",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] S. Song and J. Xiao, “Deep sliding shapes for amodal 3d object detection in RGB-D images,” arXiv:1511.02300, 2015.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "ieee_quote_title",
+          "author_text": "S. Song and J. Xiao",
+          "author_candidates": [
+            "S\u0000Song",
+            "J\u0000Xiao"
+          ],
+          "title_candidate": "Deep sliding shapes for amodal 3d object detection in RGB-D images",
+          "container_candidate": "arXiv:1511.02300, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "S. Song and J. Xiao, “Deep sliding shapes for amodal 3d object detection in RGB-D images,” arXiv",
+          "author_candidates": [
+            "S\u0000Song",
+            "J\u0000Xiao, “Deep sliding shapes for amodal 3d object detection in RGB-D images,” arXiv"
+          ],
+          "title_candidate": "1511.02300",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "S. Song and J. Xiao, “Deep sliding shapes for amodal 3d object detection in RGB-D images,” arXiv",
+          "author_candidates": [
+            "S\u0000Song",
+            "J\u0000Xiao, “Deep sliding shapes for amodal 3d object detection in RGB-D images,” arXiv"
+          ],
+          "title_candidate": "1511.02300, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] J. Zhu, X. Chen, and A. L. Yuille, “DeePM: A deep part-based model for object detection and semantic part localization,” arXiv:1511.07131, 2015.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Zhu, X. Chen, and A. L. Yuille",
+          "author_candidates": [
+            "Zhu, X"
+          ],
+          "title_candidate": "DeePM: A deep part-based model for object detection and semantic part localization",
+          "container_candidate": "arXiv:1511.07131, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "venue_marker_split",
+          "author_text": "J. Zhu, X. Chen, and A. L",
+          "author_candidates": [
+            "Zhu, X. Chen"
+          ],
+          "title_candidate": "Yuille, “DeePM: A deep part-based model for object detection and semantic part localization,”",
+          "container_candidate": "arXiv:1511.07131, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Zhu, X. Chen, and A. L",
+          "author_candidates": [
+            "Zhu, X"
+          ],
+          "title_candidate": "Yuille, “DeePM: A deep part-based model for object detection and semantic part localization,” arXiv:1511.07131, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Zhu, X. Chen, and A. L. Yuille, “DeePM",
+          "author_candidates": [
+            "Zhu, X"
+          ],
+          "title_candidate": "A deep part-based model for object detection and semantic part localization,” arXiv:1511.07131",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 3
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Zhu, X. Chen, and A. L. Yuille, “DeePM",
+          "author_candidates": [
+            "Zhu, X"
+          ],
+          "title_candidate": "A deep part-based model for object detection and semantic part localization,” arXiv:1511.07131, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 4
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] J. Dai, K. He, and J. Sun, “Instance-aware semantic segmentation via multi-task network cascades,” arXiv:1512.04412, 2015.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Dai, K. He, and J. Sun",
+          "author_candidates": [
+            "Dai, K"
+          ],
+          "title_candidate": "Instance-aware semantic segmentation via multi-task network cascades",
+          "container_candidate": "arXiv:1512.04412, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Dai, K. He, and J. Sun, “Instance-aware semantic segmentation via multi-task network cascades,” arXiv",
+          "author_candidates": [
+            "Dai, K"
+          ],
+          "title_candidate": "1512.04412",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Dai, K. He, and J. Sun, “Instance-aware semantic segmentation via multi-task network cascades,” arXiv",
+          "author_candidates": [
+            "Dai, K"
+          ],
+          "title_candidate": "1512.04412, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] J. Johnson, A. Karpathy, and L. Fei-Fei, “Densecap: Fully convolutional localization networks for dense captioning,” arXiv:1511.07571, 2015.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Johnson, A. Karpathy, and L. Fei-Fei",
+          "author_candidates": [
+            "Johnson, A"
+          ],
+          "title_candidate": "Densecap: Fully convolutional localization networks for dense captioning",
+          "container_candidate": "arXiv:1511.07571, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "J. Johnson, A. Karpathy, and L. Fei-Fei, “Densecap",
+          "author_candidates": [
+            "Johnson, A. Karpathy"
+          ],
+          "title_candidate": "Fully convolutional localization networks for dense captioning,”",
+          "container_candidate": "arXiv:1511.07571, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Johnson, A. Karpathy, and L. Fei-Fei, “Densecap",
+          "author_candidates": [
+            "Johnson, A"
+          ],
+          "title_candidate": "Fully convolutional localization networks for dense captioning,” arXiv:1511.07571",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Johnson, A. Karpathy, and L. Fei-Fei, “Densecap",
+          "author_candidates": [
+            "Johnson, A"
+          ],
+          "title_candidate": "Fully convolutional localization networks for dense captioning,” arXiv:1511.07571, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] D. Kislyuk, Y. Liu, D. Liu, E. Tzeng, and Y. Jing, “Human curation and convnets: Powering item-to-item recommendations on pinterest,” arXiv:1511.04003, 2015.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "ieee_quote_title",
+          "author_text": "D. Kislyuk, Y. Liu, D. Liu, E. Tzeng, and Y. Jing",
+          "author_candidates": [
+            "Kislyuk, Y",
+            "Liu, D",
+            "Liu, E"
+          ],
+          "title_candidate": "Human curation and convnets: Powering item-to-item recommendations on pinterest",
+          "container_candidate": "arXiv:1511.04003, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "D. Kislyuk, Y. Liu, D. Liu, E. Tzeng, and Y. Jing, “Human curation and convnets",
+          "author_candidates": [
+            "Kislyuk, Y. Liu",
+            "Liu, E. Tzeng"
+          ],
+          "title_candidate": "Powering item-to-item recommendations on pinterest,”",
+          "container_candidate": "arXiv:1511.04003, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "D. Kislyuk, Y. Liu, D. Liu, E. Tzeng, and Y. Jing, “Human curation and convnets",
+          "author_candidates": [
+            "Kislyuk, Y",
+            "Liu, D",
+            "Liu, E"
+          ],
+          "title_candidate": "Powering item-to-item recommendations on pinterest,” arXiv:1511.04003",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "D. Kislyuk, Y. Liu, D. Liu, E. Tzeng, and Y. Jing, “Human curation and convnets",
+          "author_candidates": [
+            "Kislyuk, Y",
+            "Liu, D",
+            "Liu, E"
+          ],
+          "title_candidate": "Powering item-to-item recommendations on pinterest,” arXiv:1511.04003, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” arXiv:1512.03385, 2015.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "ieee_quote_title",
+          "author_text": "K. He, X. Zhang, S. Ren, and J. Sun",
+          "author_candidates": [
+            "He, X",
+            "Zhang, S"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "arXiv:1512.03385, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” arXiv",
+          "author_candidates": [
+            "He, X",
+            "Zhang, S"
+          ],
+          "title_candidate": "1512.03385",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” arXiv",
+          "author_candidates": [
+            "He, X",
+            "Zhang, S"
+          ],
+          "title_candidate": "1512.03385, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] J. Hosang, R. Benenson, and B. Schiele, “How good are detection proposals, really?” presented at Proc. Brit. Mach. Vis. Conf., Nottingham, England, 2014.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Hosang, R. Benenson, and B. Schiele",
+          "author_candidates": [
+            "Hosang, R"
+          ],
+          "title_candidate": "How good are detection proposals, really?",
+          "container_candidate": "presented at Proc. Brit. Mach. Vis. Conf., Nottingham, England, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Hosang, R. Benenson, and B. Schiele, “How good are detection proposals, really?” presented at Proc",
+          "author_candidates": [
+            "Hosang, R"
+          ],
+          "title_candidate": "Brit",
+          "container_candidate": "Mach. Vis. Conf., Nottingham, England,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Hosang, R. Benenson, and B. Schiele, “How good are detection proposals, really?” presented at Proc",
+          "author_candidates": [
+            "Hosang, R"
+          ],
+          "title_candidate": "Brit. Mach. Vis. Conf., Nottingham, England",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Hosang, R. Benenson, and B. Schiele, “How good are detection proposals, really?” presented at Proc",
+          "author_candidates": [
+            "Hosang, R"
+          ],
+          "title_candidate": "Brit. Mach. Vis. Conf., Nottingham, England, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] J. Hosang, R. Benenson, P. Dollar, and B. Schiele, “What makes for -effective detection proposals?” IEEE Trans. Pattern Anal. Mach. Intell., vol. 38, no. 4, pp. 814–830, Apr. 2015.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Hosang, R. Benenson, P. Dollar, and B. Schiele",
+          "author_candidates": [
+            "Hosang, R",
+            "Benenson, P"
+          ],
+          "title_candidate": "What makes for -effective detection proposals?",
+          "container_candidate": "IEEE Trans. Pattern Anal. Mach. Intell., vol. 38, no. 4, pp. 814–830, Apr. 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Hosang, R. Benenson, P. Dollar, and B. Schiele, “What makes for -effective detection proposals?” IEEE Trans",
+          "author_candidates": [
+            "Hosang, R",
+            "Benenson, P"
+          ],
+          "title_candidate": "Pattern Anal",
+          "container_candidate": "Mach. Intell., vol. 38, no. 4, pp. 814–830, Apr",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Hosang, R. Benenson, P. Dollar, and B. Schiele, “What makes for -effective detection proposals?” IEEE Trans",
+          "author_candidates": [
+            "Hosang, R",
+            "Benenson, P"
+          ],
+          "title_candidate": "Pattern Anal. Mach. Intell., vol. 38, no. 4, pp. 814–830, Apr",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Hosang, R. Benenson, P. Dollar, and B. Schiele, “What makes for -effective detection proposals?” IEEE Trans",
+          "author_candidates": [
+            "Hosang, R",
+            "Benenson, P"
+          ],
+          "title_candidate": "Pattern Anal. Mach. Intell., vol. 38, no. 4, pp. 814–830, Apr. 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] N. Chavali, H. Agrawal, A. Mahendru, and D. Batra, “Object-proposal evaluation protocol is ’gameable’,” arXiv: 1505.05836, 2015.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "ieee_quote_title",
+          "author_text": "N. Chavali, H. Agrawal, A. Mahendru, and D. Batra",
+          "author_candidates": [
+            "Chavali, H",
+            "Agrawal, A"
+          ],
+          "title_candidate": "Object-proposal evaluation protocol is ’gameable’",
+          "container_candidate": "arXiv: 1505.05836, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "N. Chavali, H. Agrawal, A. Mahendru, and D. Batra, “Object-proposal evaluation protocol is ’gameable’,” arXiv",
+          "author_candidates": [
+            "Chavali, H",
+            "Agrawal, A"
+          ],
+          "title_candidate": "1505.05836",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "N. Chavali, H. Agrawal, A. Mahendru, and D. Batra, “Object-proposal evaluation protocol is ’gameable’,” arXiv",
+          "author_candidates": [
+            "Chavali, H",
+            "Agrawal, A"
+          ],
+          "title_candidate": "1505.05836, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] J. Carreira and C. Sminchisescu, “CPMC: Automatic object segmentation using constrained parametric min-cuts,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 7, pp. 1312–1328, Jul. 2012.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Carreira and C. Sminchisescu",
+          "author_candidates": [
+            "J\u0000Carreira",
+            "C\u0000Sminchisescu"
+          ],
+          "title_candidate": "CPMC: Automatic object segmentation using constrained parametric min-cuts",
+          "container_candidate": "IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 7, pp. 1312–1328, Jul. 2012",
+          "year_candidate": 2012,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Carreira and C. Sminchisescu, “CPMC: Automatic object segmentation using constrained parametric min-cuts,” IEEE Trans",
+          "author_candidates": [
+            "J\u0000Carreira",
+            "C\u0000Sminchisescu, “CPMC: Automatic object segmentation using constrained parametric min-cuts,” IEEE Trans"
+          ],
+          "title_candidate": "Pattern Anal",
+          "container_candidate": "Mach. Intell., vol. 34, no. 7, pp. 1312–1328, Jul",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Carreira and C. Sminchisescu, “CPMC",
+          "author_candidates": [
+            "J\u0000Carreira",
+            "C\u0000Sminchisescu, “CPMC"
+          ],
+          "title_candidate": "Automatic object segmentation using constrained parametric min-cuts,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 7, pp. 1312–1328, Jul",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Carreira and C. Sminchisescu, “CPMC",
+          "author_candidates": [
+            "J\u0000Carreira",
+            "C\u0000Sminchisescu, “CPMC"
+          ],
+          "title_candidate": "Automatic object segmentation using constrained parametric min-cuts,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 7, pp. 1312–1328, Jul. 2012",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] P. Arbelaez, J. Pont-Tuset, J. T. Barron, F. Marques, and J. Malik, -“Multiscale combinatorial grouping,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 328–335.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "P. Arbelaez, J. Pont-Tuset, J. T",
+          "author_candidates": [
+            "Arbelaez, J",
+            "Pont-Tuset, J"
+          ],
+          "title_candidate": "Barron, F. Marques, and J. Malik, -“Multiscale combinatorial grouping,” in Proc",
+          "container_candidate": "IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 328–335",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "P. Arbelaez, J. Pont-Tuset, J. T",
+          "author_candidates": [
+            "Arbelaez, J",
+            "Pont-Tuset, J"
+          ],
+          "title_candidate": "Barron, F. Marques, and J. Malik, -“Multiscale combinatorial grouping,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 328–335",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "P. Arbelaez, J. Pont-Tuset, J. T",
+          "author_candidates": [
+            "Arbelaez, J",
+            "Pont-Tuset, J"
+          ],
+          "title_candidate": "Barron, F. Marques, and J. Malik, -“Multiscale combinatorial grouping,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 328–335",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] B. Alexe, T. Deselaers, and V. Ferrari, “Measuring the objectness of image windows,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 11, pp. 2189–2202, Nov. 2012.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "ieee_quote_title",
+          "author_text": "B. Alexe, T. Deselaers, and V. Ferrari",
+          "author_candidates": [
+            "Alexe, T"
+          ],
+          "title_candidate": "Measuring the objectness of image windows",
+          "container_candidate": "IEEE Trans. Pattern Anal. Mach. Intell., vol. 34, no. 11, pp. 2189–2202, Nov. 2012",
+          "year_candidate": 2012,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "B. Alexe, T. Deselaers, and V. Ferrari, “Measuring the objectness of image windows,” IEEE Trans",
+          "author_candidates": [
+            "Alexe, T"
+          ],
+          "title_candidate": "Pattern Anal",
+          "container_candidate": "Mach. Intell., vol. 34, no. 11, pp. 2189–2202, Nov",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "B. Alexe, T. Deselaers, and V. Ferrari, “Measuring the objectness of image windows,” IEEE Trans",
+          "author_candidates": [
+            "Alexe, T"
+          ],
+          "title_candidate": "Pattern Anal. Mach. Intell., vol. 34, no. 11, pp. 2189–2202, Nov",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "B. Alexe, T. Deselaers, and V. Ferrari, “Measuring the objectness of image windows,” IEEE Trans",
+          "author_candidates": [
+            "Alexe, T"
+          ],
+          "title_candidate": "Pattern Anal. Mach. Intell., vol. 34, no. 11, pp. 2189–2202, Nov. 2012",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] C. Szegedy, A. Toshev, and D. Erhan, “Deep neural networks for object detection,” in Proc. Neural Inform. Process. Syst., 2013, pp. 2553–2561.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Szegedy, A. Toshev, and D. Erhan",
+          "author_candidates": [
+            "Szegedy, A"
+          ],
+          "title_candidate": "Deep neural networks for object detection",
+          "container_candidate": "in Proc. Neural Inform. Process. Syst., 2013, pp. 2553–2561",
+          "year_candidate": 2013,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Szegedy, A. Toshev, and D. Erhan, “Deep neural networks for object detection,” in Proc",
+          "author_candidates": [
+            "Szegedy, A"
+          ],
+          "title_candidate": "Neural Inform",
+          "container_candidate": "Process. Syst., 2013, pp. 2553–2561",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Szegedy, A. Toshev, and D. Erhan, “Deep neural networks for object detection,” in Proc",
+          "author_candidates": [
+            "Szegedy, A"
+          ],
+          "title_candidate": "Neural Inform. Process. Syst., 2013, pp. 2553–2561",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Szegedy, A. Toshev, and D. Erhan, “Deep neural networks for object detection,” in Proc",
+          "author_candidates": [
+            "Szegedy, A"
+          ],
+          "title_candidate": "Neural Inform. Process. Syst., 2013, pp. 2553–2561",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov, “Scalable object detection using deep neural networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2155–2162.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "ieee_quote_title",
+          "author_text": "D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov",
+          "author_candidates": [
+            "Erhan, C",
+            "Szegedy, A"
+          ],
+          "title_candidate": "Scalable object detection using deep neural networks",
+          "container_candidate": "in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2155–2162",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov, “Scalable object detection using deep neural networks,” in Proc",
+          "author_candidates": [
+            "Erhan, C",
+            "Szegedy, A"
+          ],
+          "title_candidate": "IEEE Conf",
+          "container_candidate": "Comput. Vis. Pattern Recognit., 2014, pp. 2155–2162",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov, “Scalable object detection using deep neural networks,” in Proc",
+          "author_candidates": [
+            "Erhan, C",
+            "Szegedy, A"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2155–2162",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov, “Scalable object detection using deep neural networks,” in Proc",
+          "author_candidates": [
+            "Erhan, C",
+            "Szegedy, A"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2155–2162",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] C. Szegedy, S. Reed, D. Erhan, and D. Anguelov, “Scalable, highquality object detection,” arXiv:1412.1441 (v1), 2015.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Szegedy, S. Reed, D. Erhan, and D. Anguelov",
+          "author_candidates": [
+            "Szegedy, S",
+            "Reed, D"
+          ],
+          "title_candidate": "Scalable, highquality object detection",
+          "container_candidate": "arXiv:1412.1441 (v1), 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Szegedy, S. Reed, D. Erhan, and D. Anguelov, “Scalable, highquality object detection,” arXiv",
+          "author_candidates": [
+            "Szegedy, S",
+            "Reed, D"
+          ],
+          "title_candidate": "1412.1441 (v1",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Szegedy, S. Reed, D. Erhan, and D. Anguelov, “Scalable, highquality object detection,” arXiv",
+          "author_candidates": [
+            "Szegedy, S",
+            "Reed, D"
+          ],
+          "title_candidate": "1412.1441 (v1), 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] P. O. Pinheiro, R. Collobert, and P. Dollar, “Learning to segment object candidates,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 1981–1989.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "ieee_quote_title",
+          "author_text": "P. O. Pinheiro, R. Collobert, and P. Dollar",
+          "author_candidates": [
+            "Pinheiro, R"
+          ],
+          "title_candidate": "Learning to segment object candidates",
+          "container_candidate": "in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 1981–1989",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "P. O",
+          "author_candidates": [
+            "P\u0000O"
+          ],
+          "title_candidate": "Pinheiro, R. Collobert, and P. Dollar, “Learning to segment object candidates,” in Proc",
+          "container_candidate": "Adv. Neural Inform. Process. Syst., 2015, pp. 1981–",
+          "year_candidate": 1989,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "P. O",
+          "author_candidates": [
+            "P\u0000O"
+          ],
+          "title_candidate": "Pinheiro, R. Collobert, and P. Dollar, “Learning to segment object candidates,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 1981–",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "P. O",
+          "author_candidates": [
+            "P\u0000O"
+          ],
+          "title_candidate": "Pinheiro, R. Collobert, and P. Dollar, “Learning to segment object candidates,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 1981–1989",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] J. Dai, K. He, and J. Sun, “Convolutional feature masking for joint object and stuff segmentation,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2015, pp. 3992–4000.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. Dai, K. He, and J. Sun",
+          "author_candidates": [
+            "Dai, K"
+          ],
+          "title_candidate": "Convolutional feature masking for joint object and stuff segmentation",
+          "container_candidate": "in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2015, pp. 3992–4000",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. Dai, K. He, and J. Sun, “Convolutional feature masking for joint object and stuff segmentation,” in Proc",
+          "author_candidates": [
+            "Dai, K"
+          ],
+          "title_candidate": "IEEE Conf",
+          "container_candidate": "Comput. Vis. Pattern Recognit., 2015, pp. 3992–4000",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. Dai, K. He, and J. Sun, “Convolutional feature masking for joint object and stuff segmentation,” in Proc",
+          "author_candidates": [
+            "Dai, K"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognit., 2015, pp. 3992–4000",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. Dai, K. He, and J. Sun, “Convolutional feature masking for joint object and stuff segmentation,” in Proc",
+          "author_candidates": [
+            "Dai, K"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognit., 2015, pp. 3992–4000",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun, “Object detection networks on convolutional feature maps,” arXiv:1504.06066, 2015.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "ieee_quote_title",
+          "author_text": "S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun",
+          "author_candidates": [
+            "Ren, K",
+            "He, R",
+            "Girshick, X"
+          ],
+          "title_candidate": "Object detection networks on convolutional feature maps",
+          "container_candidate": "arXiv:1504.06066, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun, “Object detection networks on convolutional feature maps,” arXiv",
+          "author_candidates": [
+            "Ren, K",
+            "He, R",
+            "Girshick, X"
+          ],
+          "title_candidate": "1504.06066",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "S. Ren, K. He, R. Girshick, X. Zhang, and J. Sun, “Object detection networks on convolutional feature maps,” arXiv",
+          "author_candidates": [
+            "Ren, K",
+            "He, R",
+            "Girshick, X"
+          ],
+          "title_candidate": "1504.06066, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] J. K. Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio, “Attention-based models for speech recognition,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 577–585.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "ieee_quote_title",
+          "author_text": "J. K. Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio",
+          "author_candidates": [
+            "Chorowski, D",
+            "Bahdanau, D",
+            "Serdyuk, K"
+          ],
+          "title_candidate": "Attention-based models for speech recognition",
+          "container_candidate": "in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 577–585",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "J. K",
+          "author_candidates": [
+            "J\u0000K"
+          ],
+          "title_candidate": "Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio, “Attention-based models for speech recognition,” in Proc",
+          "container_candidate": "Adv. Neural Inform. Process. Syst., 2015, pp. 577–585",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "J. K",
+          "author_candidates": [
+            "J\u0000K"
+          ],
+          "title_candidate": "Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio, “Attention-based models for speech recognition,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 577–585",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "J. K",
+          "author_candidates": [
+            "J\u0000K"
+          ],
+          "title_candidate": "Chorowski, D. Bahdanau, D. Serdyuk, K. Cho, and Y. Bengio, “Attention-based models for speech recognition,” in Proc. Adv. Neural Inform. Process. Syst., 2015, pp. 577–585",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] M. D. Zeiler and R. Fergus, “Visualizing and understanding convolutional neural networks,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 818–833.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "ieee_quote_title",
+          "author_text": "M. D. Zeiler and R. Fergus",
+          "author_candidates": [
+            "M\u0000D. Zeiler",
+            "R\u0000Fergus"
+          ],
+          "title_candidate": "Visualizing and understanding convolutional neural networks",
+          "container_candidate": "in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 818–833",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "M. D",
+          "author_candidates": [
+            "M\u0000D"
+          ],
+          "title_candidate": "Zeiler and R. Fergus, “Visualizing and understanding convolutional neural networks,” in Proc",
+          "container_candidate": "13th Eur. Conf. Comput. Vis., 2014, pp. 818–833",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "M. D",
+          "author_candidates": [
+            "M\u0000D"
+          ],
+          "title_candidate": "Zeiler and R. Fergus, “Visualizing and understanding convolutional neural networks,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 818–833",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "M. D",
+          "author_candidates": [
+            "M\u0000D"
+          ],
+          "title_candidate": "Zeiler and R. Fergus, “Visualizing and understanding convolutional neural networks,” in Proc. 13th Eur. Conf. Comput. Vis., 2014, pp. 818–833",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] V. Nair and G. E. Hinton, “Rectified linear units improve restricted Boltzmann machines,” in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 807–814.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "ieee_quote_title",
+          "author_text": "V. Nair and G. E. Hinton",
+          "author_candidates": [
+            "V\u0000Nair",
+            "G\u0000E. Hinton"
+          ],
+          "title_candidate": "Rectified linear units improve restricted Boltzmann machines",
+          "container_candidate": "in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 807–814",
+          "year_candidate": 2010,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "V. Nair and G. E",
+          "author_candidates": [
+            "V\u0000Nair",
+            "G\u0000E"
+          ],
+          "title_candidate": "Hinton, “Rectified linear units improve restricted Boltzmann machines,” in Proc",
+          "container_candidate": "27th Int. Conf. Mach. Learn., 2010, pp. 807–814",
+          "year_candidate": 2010,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "V. Nair and G. E",
+          "author_candidates": [
+            "V\u0000Nair",
+            "G\u0000E"
+          ],
+          "title_candidate": "Hinton, “Rectified linear units improve restricted Boltzmann machines,” in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 807–814",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "V. Nair and G. E",
+          "author_candidates": [
+            "V\u0000Nair",
+            "G\u0000E"
+          ],
+          "title_candidate": "Hinton, “Rectified linear units improve restricted Boltzmann machines,” in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 807–814",
+          "container_candidate": "",
+          "year_candidate": 2010,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, and A. Rabinovich, “Going deeper with convolutions,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 1–9.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "ieee_quote_title",
+          "author_text": "C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, and A. Rabinovich",
+          "author_candidates": [
+            "Szegedy, W",
+            "Liu, Y",
+            "Jia, P",
+            "Sermanet, S",
+            "Reed, D",
+            "Anguelov, D"
+          ],
+          "title_candidate": "Going deeper with convolutions",
+          "container_candidate": "in Proc. IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 1–9",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, and A. Rabinovich, “Going deeper with convolutions,” in Proc",
+          "author_candidates": [
+            "Szegedy, W",
+            "Liu, Y",
+            "Jia, P",
+            "Sermanet, S",
+            "Reed, D",
+            "Anguelov, D"
+          ],
+          "title_candidate": "IEEE Conf",
+          "container_candidate": "Comput. Vis. Pattern Recognition, 2015, pp. 1–9",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, and A. Rabinovich, “Going deeper with convolutions,” in Proc",
+          "author_candidates": [
+            "Szegedy, W",
+            "Liu, Y",
+            "Jia, P",
+            "Sermanet, S",
+            "Reed, D",
+            "Anguelov, D"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 1–9",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, and A. Rabinovich, “Going deeper with convolutions,” in Proc",
+          "author_candidates": [
+            "Szegedy, W",
+            "Liu, Y",
+            "Jia, P",
+            "Sermanet, S",
+            "Reed, D",
+            "Anguelov, D"
+          ],
+          "title_candidate": "IEEE Conf. Comput. Vis. Pattern Recognition, 2015, pp. 1–9",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] Y. LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol. 1, pp. 541–551, 1989.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "ieee_quote_title",
+          "author_text": "Y. LeCun, et al.",
+          "author_candidates": [
+            "Y\u0000LeCun, et al."
+          ],
+          "title_candidate": "Backpropagation applied to handwritten zip code recognition",
+          "container_candidate": "Neural Comput., vol. 1, pp. 541–551, 1989",
+          "year_candidate": 1989,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Y. LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol",
+          "author_candidates": [
+            "Y\u0000LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol"
+          ],
+          "title_candidate": "1, pp",
+          "container_candidate": "541–551,",
+          "year_candidate": 1989,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Y. LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol",
+          "author_candidates": [
+            "Y\u0000LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol"
+          ],
+          "title_candidate": "1, pp. 541–551",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Y. LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol",
+          "author_candidates": [
+            "Y\u0000LeCun, et al., “Backpropagation applied to handwritten zip code recognition,” Neural Comput., vol"
+          ],
+          "title_candidate": "1, pp. 541–551, 1989",
+          "container_candidate": "",
+          "year_candidate": 1989,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[36] O. Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int. J. Comput. Vis, vol. 115, pp. 211–252, 2015.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "ieee_quote_title",
+          "author_text": "O. Russakovsky, et al.",
+          "author_candidates": [
+            "O\u0000Russakovsky, et al."
+          ],
+          "title_candidate": "ImageNet Large Scale Visual Recognition Challenge",
+          "container_candidate": "Int. J. Comput. Vis, vol. 115, pp. 211–252, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "O. Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int",
+          "author_candidates": [
+            "O\u0000Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int"
+          ],
+          "title_candidate": "J",
+          "container_candidate": "Comput. Vis, vol. 115, pp. 211–252,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "O. Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int",
+          "author_candidates": [
+            "O\u0000Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int"
+          ],
+          "title_candidate": "J. Comput. Vis, vol. 115, pp. 211–252",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "O. Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int",
+          "author_candidates": [
+            "O\u0000Russakovsky, et al., “ImageNet Large Scale Visual Recognition Challenge,” Int"
+          ],
+          "title_candidate": "J. Comput. Vis, vol. 115, pp. 211–252, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[37] A. Krizhevsky, I. Sutskever, and G. Hinton, “Imagenet classification with deep convolutional neural networks,” in Proc. Neural Inf. Process. Syst., 2012, pp. 1097–1105.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "ieee_quote_title",
+          "author_text": "A. Krizhevsky, I. Sutskever, and G. Hinton",
+          "author_candidates": [
+            "Krizhevsky, I"
+          ],
+          "title_candidate": "Imagenet classification with deep convolutional neural networks",
+          "container_candidate": "in Proc. Neural Inf. Process. Syst., 2012, pp. 1097–1105",
+          "year_candidate": 2012,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "A. Krizhevsky, I. Sutskever, and G. Hinton, “Imagenet classification with deep convolutional neural networks,” in Proc",
+          "author_candidates": [
+            "Krizhevsky, I"
+          ],
+          "title_candidate": "Neural Inf",
+          "container_candidate": "Process. Syst., 2012, pp. 1097–1105",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "A. Krizhevsky, I. Sutskever, and G. Hinton, “Imagenet classification with deep convolutional neural networks,” in Proc",
+          "author_candidates": [
+            "Krizhevsky, I"
+          ],
+          "title_candidate": "Neural Inf. Process. Syst., 2012, pp. 1097–1105",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "A. Krizhevsky, I. Sutskever, and G. Hinton, “Imagenet classification with deep convolutional neural networks,” in Proc",
+          "author_candidates": [
+            "Krizhevsky, I"
+          ],
+          "title_candidate": "Neural Inf. Process. Syst., 2012, pp. 1097–1105",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[38] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, “Caffe: Convolutional architecture for fast feature embedding,” in Proc. 22nd ACM Int. Conf. Multimedia, 2014, pp. 675–678.",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "ieee_quote_title",
+          "author_text": "Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell",
+          "author_candidates": [
+            "Jia, E",
+            "Shelhamer, J",
+            "Donahue, S",
+            "Karayev, J",
+            "Long, R",
+            "Girshick, S"
+          ],
+          "title_candidate": "Caffe: Convolutional architecture for fast feature embedding",
+          "container_candidate": "in Proc. 22nd ACM Int. Conf. Multimedia, 2014, pp. 675–678",
+          "year_candidate": 2014,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, “Caffe: Convolutional architecture for fast feature embedding,” in Proc",
+          "author_candidates": [
+            "Jia, E",
+            "Shelhamer, J",
+            "Donahue, S",
+            "Karayev, J",
+            "Long, R",
+            "Girshick, S"
+          ],
+          "title_candidate": "22nd ACM Int",
+          "container_candidate": "Conf. Multimedia, 2014, pp. 675–678",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, “Caffe",
+          "author_candidates": [
+            "Jia, E",
+            "Shelhamer, J",
+            "Donahue, S",
+            "Karayev, J",
+            "Long, R",
+            "Girshick, S"
+          ],
+          "title_candidate": "Convolutional architecture for fast feature embedding,” in Proc. 22nd ACM Int. Conf. Multimedia, 2014, pp. 675–678",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell, “Caffe",
+          "author_candidates": [
+            "Jia, E",
+            "Shelhamer, J",
+            "Donahue, S",
+            "Karayev, J",
+            "Long, R",
+            "Girshick, S"
+          ],
+          "title_candidate": "Convolutional architecture for fast feature embedding,” in Proc. 22nd ACM Int. Conf. Multimedia, 2014, pp. 675–678",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[39] K. Lenc and A. Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc. Brit. Mach. Vis. Conf., 2015, pp.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "K. Lenc and A. Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc",
+          "author_candidates": [
+            "K\u0000Lenc",
+            "A\u0000Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc"
+          ],
+          "title_candidate": "Brit",
+          "container_candidate": "Mach. Vis. Conf., 2015, pp",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "K. Lenc and A. Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc",
+          "author_candidates": [
+            "K\u0000Lenc",
+            "A\u0000Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc"
+          ],
+          "title_candidate": "Brit. Mach. Vis. Conf., 2015, pp",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "K. Lenc and A. Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc",
+          "author_candidates": [
+            "K\u0000Lenc",
+            "A\u0000Vedaldi, “R-CNN minus $\\mathrm { R } , { } ^ { \\prime \\prime }$ in Proc"
+          ],
+          "title_candidate": "Brit. Mach. Vis. Conf., 2015, pp",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "5.1–5.12.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 39: reference numbering is not strictly increasing (detected_ref_number=5)",
+          "reference entry 39: reference numbering is not continuous (detected_ref_number=5)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "1–5.12.",
+          "author_candidates": [
+            "1–5.12."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[40] D. Hoiem, Y. Chodpathumwan, and Q. Dai, “Diagnosing error in object detectors,” in Proc. 12th Eur. Conf. Comput. Vis., 2012, pp. 340–353.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": true,
+        "warnings": [
+          "reference entry 40: reference numbering is not continuous (detected_ref_number=40)"
+        ]
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "ieee_quote_title",
+          "author_text": "D. Hoiem, Y. Chodpathumwan, and Q. Dai",
+          "author_candidates": [
+            "Hoiem, Y"
+          ],
+          "title_candidate": "Diagnosing error in object detectors",
+          "container_candidate": "in Proc. 12th Eur. Conf. Comput. Vis., 2012, pp. 340–353",
+          "year_candidate": 2012,
+          "confidence": 0.88,
+          "metadata": {
+            "split_basis": "authors before ',' right-quote, title between quotes, container after quote-comma"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "D. Hoiem, Y. Chodpathumwan, and Q. Dai, “Diagnosing error in object detectors,” in Proc",
+          "author_candidates": [
+            "Hoiem, Y"
+          ],
+          "title_candidate": "12th Eur",
+          "container_candidate": "Conf. Comput. Vis., 2012, pp. 340–353",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "D. Hoiem, Y. Chodpathumwan, and Q. Dai, “Diagnosing error in object detectors,” in Proc",
+          "author_candidates": [
+            "Hoiem, Y"
+          ],
+          "title_candidate": "12th Eur. Conf. Comput. Vis., 2012, pp. 340–353",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "D. Hoiem, Y. Chodpathumwan, and Q. Dai, “Diagnosing error in object detectors,” in Proc",
+          "author_candidates": [
+            "Hoiem, Y"
+          ],
+          "title_candidate": "12th Eur. Conf. Comput. Vis., 2012, pp. 340–353",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "Shaoqing Ren received the BS degree from the University of Science and Technology of China in 2011. He received the PhD degree in a joint PhD program between University of Science and Technology of China and Microsoft Research Asia. His research interests are in computer vision, especially in detection and localization of general objects and faces.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shaoqing Ren received the BS degree from the University of Science and Technology of China in 2011",
+          "author_candidates": [
+            "Shaoqing Ren received the BS degree from the University of Science",
+            "Technology of China in 2011"
+          ],
+          "title_candidate": "He received the PhD degree in a joint PhD program between University of Science and Technology of China and Microsoft Research Asia",
+          "container_candidate": "His research interests are in computer vision, especially in detection and localization of general objects and faces",
+          "year_candidate": 2011,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 41,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shaoqing Ren received the BS degree from the University of Science and Technology of China in 2011",
+          "author_candidates": [
+            "Shaoqing Ren received the BS degree from the University of Science",
+            "Technology of China in 2011"
+          ],
+          "title_candidate": "He received the PhD degree in a joint PhD program between University of Science and Technology of China and Microsoft Research Asia. His research interests are in computer vision, especially in detection and localization of general objects and faces",
+          "container_candidate": "",
+          "year_candidate": 2011,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 41,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shaoqing Ren received the BS degree from the University of Science and Technology of China in 2011",
+          "author_candidates": [
+            "Shaoqing Ren received the BS degree from the University of Science",
+            "Technology of China in 2011"
+          ],
+          "title_candidate": "He received the PhD degree in a joint PhD program between University of Science and Technology of China and Microsoft Research Asia. His research interests are in computer vision, especially in detection and localization of general objects and faces",
+          "container_candidate": "",
+          "year_candidate": 2011,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "Kaiming He received the BS degree from Tsinghua University in 2007, and the PhD degree from the Chinese University of Hong Kong in 2011. He is a lead researcher at Microsoft Research Asia. He joined Microsoft Research Asia in 2011. His current research interests are deep learning for visual recognition, including image classification, object detection, and semantic segmentation. He has won the Best Paper Award at CVPR 2009.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He received the BS degree from Tsinghua University in 2007, and the PhD degree from the Chinese University of Hong Kong in 2011",
+          "author_candidates": [
+            "Kaiming He received the BS degree from Tsinghua University in 2007",
+            "and the PhD degree from the Chinese University of Hong Kong in 2011"
+          ],
+          "title_candidate": "He is a lead researcher at Microsoft Research Asia",
+          "container_candidate": "He joined Microsoft Research Asia in 2011. His current research interests are deep learning for visual recognition, including image classification, object detection, and semantic segmentation. He has won the Best Paper Award at CVPR",
+          "year_candidate": 2009,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He received the BS degree from Tsinghua University in 2007, and the PhD degree from the Chinese University of Hong Kong in 2011",
+          "author_candidates": [
+            "Kaiming He received the BS degree from Tsinghua University in 2007",
+            "and the PhD degree from the Chinese University of Hong Kong in 2011"
+          ],
+          "title_candidate": "He is a lead researcher at Microsoft Research Asia. He joined Microsoft Research Asia in 2011. His current research interests are deep learning for visual recognition, including image classification, object detection, and semantic segmentation. He has won the Best Paper Award at CVPR",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He received the BS degree from Tsinghua University in 2007, and the PhD degree from the Chinese University of Hong Kong in 2011",
+          "author_candidates": [
+            "Kaiming He received the BS degree from Tsinghua University in 2007",
+            "and the PhD degree from the Chinese University of Hong Kong in 2011"
+          ],
+          "title_candidate": "He is a lead researcher at Microsoft Research Asia. He joined Microsoft Research Asia in 2011. His current research interests are deep learning for visual recognition, including image classification, object detection, and semantic segmentation. He has won the Best Paper Award at CVPR 2009",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 43,
+      "raw": "Ross Girshick is a research scientist at Facebook AI Research (FAIR). He holds a PhD and MS in computer science, both from the University of Chicago where he studied under Pedro Felzenszwalb. Prior to joining FAIR, Ross was a Researcher at Microsoft Research and a Postdoctoral Fellow at the University of California, Berkeley where he collaborated with Jitendra Malik and Trevor Darrell. During the course of PASCAL VOC object detection challenge, Ross participated in multiple winning object detection entries and was awarded a “lifetime achievement” prize for his work on the widely used Deformable Part Models. More recently, his framework for Region-based Convolution Networks (R-CNN) has more than doubled the accuracy of previous state-of-the-art object detection methods.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 43,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ross Girshick is a research scientist at Facebook AI Research (FAIR)",
+          "author_candidates": [
+            "Ross Girshick is a research scientist at Facebook AI Research (FAIR)"
+          ],
+          "title_candidate": "He holds a PhD and MS in computer science, both from the University of Chicago where he studied under Pedro Felzenszwalb",
+          "container_candidate": "Prior to joining FAIR, Ross was a Researcher at Microsoft Research and a Postdoctoral Fellow at the University of California, Berkeley where he collaborated with Jitendra Malik and Trevor Darrell. During the course of PASCAL VOC object detection challenge, Ross participated in multiple winning object detection entries and was awarded a “lifetime achievement” prize for his work on the widely used Deformable Part Models. More recently, his framework for Region-based Convolution Networks (R-CNN) has more than doubled the accuracy of previous state-of-the-art object detection methods",
+          "year_candidate": null,
+          "confidence": 0.62,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 43,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ross Girshick is a research scientist at Facebook AI Research (FAIR)",
+          "author_candidates": [
+            "Ross Girshick is a research scientist at Facebook AI Research (FAIR)"
+          ],
+          "title_candidate": "He holds a PhD and MS in computer science, both from the University of Chicago where he studied under Pedro Felzenszwalb. Prior to joining FAIR, Ross was a Researcher at Microsoft Research and a Postdoctoral Fellow at the University of California, Berkeley where he collaborated with Jitendra Malik and Trevor Darrell. During the course of PASCAL VOC object detection challenge, Ross participated in multiple winning object detection entries and was awarded a “lifetime achievement” prize for his work on the widely used Deformable Part Models. More recently, his framework for Region-based Convolution Networks (R-CNN) has more than doubled the accuracy of previous state-of-the-art object detection methods",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 1
+        }
+      ]
+    },
+    {
+      "entry_index": 44,
+      "raw": "Jian Sun received the BS, MS, and PhD degrees from Xian Jiaotong University in 1997, 2000, and 2003. He is a principal researcher at Microsoft Research Asia. He joined Microsoft Research Asia in July, 2003. His current major research interests are computer vision, computational photography, and deep learning. He has won the Best Paper Award at CVPR 2009.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 44,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jian Sun received the BS, MS, and PhD degrees from Xian Jiaotong University in 1997, 2000, and 2003",
+          "author_candidates": [
+            "BS, MS"
+          ],
+          "title_candidate": "He is a principal researcher at Microsoft Research Asia",
+          "container_candidate": "He joined Microsoft Research Asia in July, 2003. His current major research interests are computer vision, computational photography, and deep learning. He has won the Best Paper Award at CVPR",
+          "year_candidate": 2009,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 44,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jian Sun received the BS, MS, and PhD degrees from Xian Jiaotong University in 1997, 2000, and 2003",
+          "author_candidates": [
+            "BS, MS"
+          ],
+          "title_candidate": "He is a principal researcher at Microsoft Research Asia. He joined Microsoft Research Asia in July, 2003. His current major research interests are computer vision, computational photography, and deep learning. He has won the Best Paper Award at CVPR",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 44,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jian Sun received the BS, MS, and PhD degrees from Xian Jiaotong University in 1997, 2000, and 2003",
+          "author_candidates": [
+            "BS, MS"
+          ],
+          "title_candidate": "He is a principal researcher at Microsoft Research Asia. He joined Microsoft Research Asia in July, 2003. His current major research interests are computer vision, computational photography, and deep learning. He has won the Best Paper Award at CVPR 2009",
+          "container_candidate": "",
+          "year_candidate": 2009,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 45,
+      "raw": "$\\triangleright$ For more information on this or any other computing topic, please visit our Digital Library at www.computer.org/publications/dlib.",
+      "detected_ref_number": null,
+      "numbering": {
+        "detected_ref_number": null,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 45,
+          "pattern": "fallback_raw_split",
+          "author_text": "$\\triangleright$ For more information on this or any other computing topic, please visit our Digital Library at www.computer.org/publications/dlib.",
+          "author_candidates": [
+            "$\\triangleright$ For more information on this or any other computing topic",
+            "please visit our Digital Library at www.computer.org/publications/dlib."
+          ],
+          "title_candidate": "",
+          "container_candidate": "",
+          "year_candidate": null,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 0
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 44,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 3,
+      "status": "prepared",
+      "entry_start": 45,
+      "entry_end": 45,
+      "metadata": {
+        "entry_count": 1
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference entry 39: reference numbering is not strictly increasing (detected_ref_number=5)",
+    "reference entry 39: reference numbering is not continuous (detected_ref_number=5)",
+    "reference entry 40: reference numbering is not continuous (detected_ref_number=40)",
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=41",
+    "reference_pattern_ambiguous: entry_index=42",
+    "reference_pattern_ambiguous: entry_index=43",
+    "reference_pattern_ambiguous: entry_index=44",
+    "reference_title_boundary_suspect: entry_index=39 pattern=fallback_raw_split",
+    "reference_title_boundary_suspect: entry_index=45 pattern=fallback_raw_split"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.043478260869565216,
+    "year_ratio": 0.9347826086956522,
+    "warning_density": 1.065217391304348,
+    "numbering_anomaly": 1.0,
+    "empty_title_ratio": 0.043478260869565216
+  },
+  "file_quality_low": false
+}

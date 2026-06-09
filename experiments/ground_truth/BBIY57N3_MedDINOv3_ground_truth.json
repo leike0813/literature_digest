@@ -1,0 +1,730 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/BBIY57N3_MedDINOv3_ How to adapt vision foundation models for medical image segmentation_.txt",
+  "entry_style": "mixed",
+  "notes": "纯 numeric 风格。前 23 条有 [n] 前缀，后 22 条同样。部分条目含 'et al.' 省略作者列表。",
+  "items": [
+    {
+      "entry_index": 0,
+      "author": [
+        "Yuanfeng Ji",
+        "Haotian Bai",
+        "Chongjian Ge",
+        "Jie Yang",
+        "Ye Zhu",
+        "Ruimao Zhang",
+        "Zhen Li",
+        "Lingyan Zhang",
+        "Wanling Ma",
+        "Xiang Wan"
+      ],
+      "title": "Amos: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation",
+      "year": 2022,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[1] Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhanng, Wanling Ma, Xiang Wan, et al. Amos: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation. Advances in neural information processing systems, 35:36722–36732, 2022.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 1,
+      "author": [
+        "Yuheng Li",
+        "Jacob F. Wynne",
+        "Yizhou Wu",
+        "Richard L. J. Qiu",
+        "Sibo Tian",
+        "Tonghe Wang",
+        "Pretesh R. Patel",
+        "David S. Yu",
+        "Xiaofeng Yang"
+      ],
+      "title": "Automatic medical imaging segmentation via self-supervising large-scale convolutional neural networks",
+      "year": 2025,
+      "container": "Radiotherapy and Oncology",
+      "raw": "[2] Yuheng Li, Jacob F Wynne, Yizhou Wu, Richard LJ Qiu, Sibo Tian, Tonghe Wang, Pretesh R Patel, David S Yu, and Xiaofeng Yang. Automatic medical imaging segmentation via self-supervising large-scale convolutional neural networks. Radiotherapy and Oncology, 204:110711, 2025.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 2,
+      "author": [
+        "Yucheng Tang",
+        "Dong Yang"
+      ],
+      "title": "Self-supervised pre-training of swinunetr for 3d medical image analysis",
+      "year": 2022,
+      "container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+      "raw": "[3] Yucheng Tang, Dong Yang, et al. Self-supervised pre-training of swinunetr for 3d medical image analysis. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 207–218, 2022.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 3,
+      "author": [
+        "Fabian Isensee",
+        "Paul F. Jaeger",
+        "Simon A. A. Kohl",
+        "Jens Petersen",
+        "Klaus H. Maier-Hein"
+      ],
+      "title": "nnU-Net: a self-adapting framework for u-net-based medical image segmentation",
+      "year": 2021,
+      "container": "Nature Methods",
+      "raw": "[4] Fabian Isensee, Paul F Jaeger, Simon A A Kohl, Jens Petersen, and Klaus H Maier-Hein. nnu-net: a self-adapting framework for u-net-based medical image segmentation. Nature Methods, 18(2):203–211, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 4,
+      "author": [
+        "Ali Hatamizadeh",
+        "Vishwesh Nath"
+      ],
+      "title": "Swin UNETR: Swin transformers for semantic segmentation of brain tumors in mri images",
+      "year": 2022,
+      "container": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+      "raw": "[5] Ali Hatamizadeh, Vishwesh Nath, et al. Swin unetr: Swin transformers for semantic segmentation of brain tumors in mri images. In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pages 272–284. Springer, 2022.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 5,
+      "author": [
+        "Jun Ma",
+        "Bo Wang"
+      ],
+      "title": "Segment anything in medical images",
+      "year": 2023,
+      "container": "Nature Communications",
+      "raw": "[6] Jun Ma, Bo Wang, et al. Segment anything in medical images. Nature Communications, 14(1):2578, 2023.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 6,
+      "author": [
+        "Rishi Bommasani",
+        "Drew A. Hudson",
+        "Ehsan Adeli"
+      ],
+      "title": "On the opportunities and risks of foundation models",
+      "year": 2021,
+      "container": "arXiv preprint arXiv:2108.07258",
+      "raw": "[7] Rishi Bommasani, Drew A Hudson, Ehsan Adeli, and et al. On the opportunities and risks of foundation models. arXiv preprint arXiv:2108.07258, 2021.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 7,
+      "author": [
+        "Xingyu Zhou",
+        "Zheng Zhang"
+      ],
+      "title": "A comprehensive survey on pretraining-based foundation models: A history from bert to chatgpt",
+      "year": 2023,
+      "container": "arXiv preprint arXiv:2302.09419",
+      "raw": "[8] Xingyu Zhou, Zheng Zhang, et al. A comprehensive survey on pretraining-based foundation models: A history from bert to chatgpt. arXiv preprint arXiv:2302.09419, 2023.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 8,
+      "author": [
+        "Yuheng Li",
+        "Mingzhe Hu",
+        "Xiaofeng Yang"
+      ],
+      "title": "Polyp-sam: Transfer sam for polyp segmentation",
+      "year": 2024,
+      "container": "SPIE Medical Imaging 2024: Computer-Aided Diagnosis",
+      "raw": "[9] Yuheng Li, Mingzhe Hu, and Xiaofeng Yang. Polyp-sam: Transfer sam for polyp segmentation. In Medical imaging 2024: computer-aided diagnosis, volume 12927, pages 749–754. SPIE, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 9,
+      "author": [
+        "Shansong Wang",
+        "Mojtaba Safari",
+        "Mingzhe Hu",
+        "Qiang Li",
+        "Chih-Wei Chang",
+        "Richard L. J. Qiu",
+        "Xiaofeng Yang"
+      ],
+      "title": "DINOv3 with test-time training for medical image registration",
+      "year": 2025,
+      "container": "arXiv preprint arXiv:2508.14809",
+      "raw": "[10] Shansong Wang, Mojtaba Safari, Mingzhe Hu, Qiang Li, Chih-Wei Chang, Richard LJ Qiu, and Xiaofeng Yang. Dinov3 with test-time training for medical image registration. arXiv preprint arXiv:2508.14809, 2025.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 10,
+      "author": [
+        "Mathilde Caron",
+        "Hugo Touvron",
+        "Ishan Misra"
+      ],
+      "title": "Emerging properties in self-supervised vision transformers",
+      "year": 2021,
+      "container": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "raw": "[11] Mathilde Caron, Hugo Touvron, Ishan Misra, and et al. Emerging properties in self-supervised vision transformers. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9630–9640, 2021.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 11,
+      "author": [
+        "Alec Radford",
+        "Jong Wook Kim",
+        "Chris Hallacy",
+        "Aditya Ramesh",
+        "Gabriel Goh",
+        "Sandhini Agarwal",
+        "Girish Sastry",
+        "Amanda Askell",
+        "Pamela Mishkin",
+        "Jack Clark",
+        "Gretchen Krueger",
+        "Ilya Sutskever"
+      ],
+      "title": "Learning transferable visual models from natural language supervision",
+      "year": 2021,
+      "container": "Proceedings of the International Conference on Machine Learning (ICML)",
+      "raw": "[12] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamala Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever. Learning transferable visual models from natural language supervision. In Proceedings of the 38th International Conference on Machine Learning (ICML), pages 8748–8763, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 12,
+      "author": [
+        "Michael Tschannen",
+        "Xiaohua Zhai",
+        "Andreas Steiner",
+        "Lucas Beyer"
+      ],
+      "title": "SigLIP 2: Better, faster, stronger",
+      "year": 2025,
+      "container": "arXiv preprint arXiv:2501.01536",
+      "raw": "[13] Michael Tschannen, Xiaohua Zhai, Andreas Steiner, Lucas Beyer, et al. Siglip 2: Better, faster, stronger. arXiv preprint arXiv:2501.01536, 2025.",
+      "confidence": 0.92,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 13,
+      "author": [
+        "Maxime Oquab",
+        "Timothée Darcet",
+        "Théo Moutakanni"
+      ],
+      "title": "DINOv2: Learning robust visual features without supervision",
+      "year": 2023,
+      "container": "arXiv preprint arXiv:2304.07193",
+      "raw": "[14] Maxime Oquab, Timothée Darcet, Théo Moutakanni, and et al. Dinov2: Learning robust visual features without supervision. arXiv preprint arXiv:2304.07193, 2023.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 14,
+      "author": [
+        "Oriane Siméoni",
+        "Huy V. Vo",
+        "Maximilian Seitzer"
+      ],
+      "title": "DINOv3: Advancing self-supervised learning at scale",
+      "year": 2025,
+      "container": "arXiv preprint arXiv:2508.10104",
+      "raw": "[15] Oriane Siméoni, Huy V Vo, Maximilian Seitzer, and et al. Dinov3: Advancing self-supervised learning at scale. arXiv preprint arXiv:2508.10104, 2025.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 15,
+      "author": [
+        "Fabian Isensee",
+        "Tassilo Wald",
+        "Constantin Ulrich",
+        "Michael Baumgartner",
+        "Saikat Roy",
+        "Klaus Maier-Hein",
+        "Paul F. Jaeger"
+      ],
+      "title": "nnU-Net revisited: A call for rigorous validation in 3d medical image segmentation",
+      "year": 2024,
+      "container": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+      "raw": "[16] Fabian Isensee, Tassilo Wald, Constantin Ulrich, Michael Baumgartner, Saikat Roy, Klaus Maier-Hein, and Paul F Jaeger. nnu-net revisited: A call for rigorous validation in 3d medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 488–498. Springer, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 16,
+      "author": [
+        "Mohammed Baharoon",
+        "Waseem Qureshi",
+        "Jiahong Ouyang",
+        "Yanwu Xu",
+        "Abdulrhman Aljouie",
+        "Wei Peng"
+      ],
+      "title": "Evaluating general purpose vision foundation models for medical image analysis: An experimental study of DINOv2 on radiology benchmarks",
+      "year": 2024,
+      "container": "arXiv preprint arXiv:2312.02366",
+      "raw": "[17] Mohammed Baharoon, Waseem Qureshi, Jiahong Ouyang, Yanwu Xu, Abdulrhman Aljouie, and Wei Peng. Evaluating general purpose vision foundation models for medical image analysis: An experimental study of dinov2 on radiology benchmarks. arXiv preprint arXiv:2312.02366, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 17,
+      "author": [
+        "Xiaohua Zhai",
+        "Alexander Kolesnikov",
+        "Neil Houlsby",
+        "Lucas Beyer"
+      ],
+      "title": "Scaling vision transformers",
+      "year": 2022,
+      "container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[18] Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer. Scaling vision transformers. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 12104–12113, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 18,
+      "author": [
+        "Haotian Zhang",
+        "Xuanyu Dong",
+        "Jie Chen"
+      ],
+      "title": "ViT-Adapter: Exploring efficient adaptation of vision transformers for dense predictions",
+      "year": 2023,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[19] Haotian Zhang, Xuanyu Dong, Jie Chen, et al. Vit-adapter: Exploring efficient adaptation of vision transformers for dense predictions. Advances in Neural Information Processing Systems (NeurIPS), 2023.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 19,
+      "author": [
+        "Bowen Cheng",
+        "Alexander G. Schwing",
+        "Alexander Kirillov"
+      ],
+      "title": "Masked-attention mask transformer for universal image segmentation",
+      "year": 2022,
+      "container": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw": "[20] Bowen Cheng, Alexander Schwing, and Alexander Kirillov. Masked-attention mask transformer for universal image segmentation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 1290–1299, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 20,
+      "author": [
+        "Ali Hatamizadeh",
+        "Yucheng Tang",
+        "Vishwesh Nath",
+        "Dong Yang",
+        "Andriy Myronenko",
+        "Bennett Landman",
+        "Holger R. Roth",
+        "Daguang Xu"
+      ],
+      "title": "UNETR: Transformers for 3d medical image segmentation",
+      "year": 2022,
+      "container": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "raw": "[21] Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger R Roth, and Daguang Xu. Unetr: Transformers for 3d medical image segmentation. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 574–584, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 21,
+      "author": [
+        "Yutong Xie",
+        "Jianpeng Zhang",
+        "Chunhua Shen",
+        "Yong Xia"
+      ],
+      "title": "CoTr: Efficiently bridging cnn and transformer for 3d medical image segmentation",
+      "year": 2021,
+      "container": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+      "raw": "[22] Yutong Xie, Jianpeng Zhang, Chunhua Shen, and Yong Xia. Cotr: Efficiently bridging cnn and transformer for 3d medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 171–180. Springer, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 22,
+      "author": [
+        "Yutong Xie",
+        "Jianpeng Zhang",
+        "Yong Xia",
+        "Qi Wu"
+      ],
+      "title": "UniMiss: Universal medical self-supervised learning via breaking dimensionality barrier",
+      "year": 2022,
+      "container": "European Conference on Computer Vision (ECCV)",
+      "raw": "[23] Yutong Xie, Jianpeng Zhang, Yong Xia, and Qi Wu. Unimiss: Universal medical self-supervised learning via breaking dimensionality barrier. In European Conference on Computer Vision, pages 558–575. Springer, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 23,
+      "author": [
+        "Jieneng Chen",
+        "Yongyi Lu"
+      ],
+      "title": "TransUNet: Transformers make strong encoders for medical image segmentation",
+      "year": 2021,
+      "container": "arXiv preprint arXiv:2102.04306",
+      "raw": "[24] Jieneng Chen, Yongyi Lu, et al. Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306, 2021.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 24,
+      "author": [
+        "Hong-Yu Zhou",
+        "Jiansen Guo",
+        "Yinghao Zhang",
+        "Lequan Yu",
+        "Liansheng Wang",
+        "Yizhou Yu"
+      ],
+      "title": "nnFormer: Interleaved transformer for volumetric segmentation",
+      "year": 2021,
+      "container": "arXiv preprint arXiv:2109.03201",
+      "raw": "[25] Hong-Yu Zhou, Jiansen Guo, Yinghao Zhang, Lequan Yu, Liansheng Wang, and Yizhou Yu. nnformer: Interleaved transformer for volumetric segmentation. arXiv preprint arXiv:2109.03201, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 25,
+      "author": [
+        "Tassilo Wald",
+        "Saikat Roy",
+        "Fabian Isensee"
+      ],
+      "title": "PRIMUS: Enforcing attention usage for 3d medical image segmentation",
+      "year": 2025,
+      "container": "arXiv preprint arXiv:2503.01835",
+      "raw": "[26] Tassilo Wald, Saikat Roy, Fabian Isensee, et al. Primus: Enforcing attention usage for 3d medical image segmentation. arXiv preprint arXiv:2503.01835, 2025.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 26,
+      "author": [
+        "Tommie Kerssies",
+        "Niccolò Cavagnero",
+        "Alexander Hermans"
+      ],
+      "title": "Your ViT is secretly an image segmentation model",
+      "year": 2025,
+      "container": "arXiv preprint arXiv:2503.19108",
+      "raw": "[27] Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, et al. Your vit is secretly an image segmentation model. arXiv preprint arXiv:2503.19108, 2025.",
+      "confidence": 0.9,
+      "notes": "作者以 'et al.' 省略"
+    },
+    {
+      "entry_index": 27,
+      "author": [
+        "Zongwei Zhou",
+        "Vatsal Sodha",
+        "Jiaxuan Pang",
+        "Michael B. Gotway",
+        "Jianming Liang"
+      ],
+      "title": "Models Genesis",
+      "year": 2021,
+      "container": "Medical Image Analysis",
+      "raw": "[28] Zongwei Zhou, Vatsal Sodha, Jiaxuan Pang, Michael B Gotway, and Jianming Liang. Models genesis. Medical image analysis, 67:101840, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 28,
+      "author": [
+        "Tassilo Wald",
+        "Constantin Ulrich",
+        "Stanislav Lukyanenko",
+        "Andrei Goncharov",
+        "Alberto Paderno",
+        "Maximilian Miller",
+        "Leander Maerkisch",
+        "Paul Jaeger",
+        "Klaus Maier-Hein"
+      ],
+      "title": "Revisiting mae pre-training for 3d medical image segmentation",
+      "year": 2025,
+      "container": "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)",
+      "raw": "[29] Tassilo Wald, Constantin Ulrich, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Maximilian Miller, Leander Maerkisch, Paul Jaeger, and Klaus Maier-Hein. Revisiting mae pre-training for 3d medical image segmentation. In Proceedings of the Computer Vision and Pattern Recognition Conference, pages 5186–5196, 2025.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 29,
+      "author": [
+        "Yuheng Li",
+        "Tianyu Luan",
+        "Yizhou Wu",
+        "Shaoyan Pan",
+        "Yenho Chen",
+        "Xiaofeng Yang"
+      ],
+      "title": "AnatoMask: Enhancing medical image segmentation with reconstruction-guided self-masking",
+      "year": 2024,
+      "container": "European Conference on Computer Vision (ECCV)",
+      "raw": "[30] Yuheng Li, Tianyu Luan, Yizhou Wu, Shaoyan Pan, Yenho Chen, and Xiaofeng Yang. Anatomask: Enhancing medical image segmentation with reconstruction-guided self-masking. In European Conference on Computer Vision, pages 146–163. Springer, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 30,
+      "author": [
+        "Guoping Xu",
+        "Xuan Zhang",
+        "Xinwei He",
+        "Xinglong Wu"
+      ],
+      "title": "LeViT-UNet: Make faster encoders with transformer for medical image segmentation",
+      "year": 2023,
+      "container": "Chinese Conference on Pattern Recognition and Computer Vision (PRCV)",
+      "raw": "[31] Guoping Xu, Xuan Zhang, Xinwei He, and Xinglong Wu. Levit-unet: Make faster encoders with transformer for medical image segmentation. In Chinese Conference on Pattern Recognition and Computer Vision (PRCV), pages 42–53. Springer, 2023.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 31,
+      "author": [
+        "Yunhe Gao",
+        "Mu Zhou",
+        "Dimitris N. Metaxas"
+      ],
+      "title": "UTNet: a hybrid transformer architecture for medical image segmentation",
+      "year": 2021,
+      "container": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+      "raw": "[32] Yunhe Gao, Mu Zhou, and Dimitris N Metaxas. Utnet: a hybrid transformer architecture for medical image segmentation. In International conference on medical image computing and computer-assisted intervention, pages 61–71. Springer, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 32,
+      "author": [
+        "Bennett Landman",
+        "Zhoubing Xu",
+        "Juan Eugenio Iglesias",
+        "Martin Styner",
+        "Thomas Langerak",
+        "Arno Klein"
+      ],
+      "title": "MICCAI multi-atlas labeling beyond the cranial vault – workshop and challenge",
+      "year": 2015,
+      "container": "MICCAI Workshop",
+      "raw": "[33] Bennett Landman, Zhoubing Xu, Juan Igelsias, Martin Styner, Thomas Langerak, and Arno Klein. Miccai multi-atlas labeling beyond the cranial vault–workshop and challenge. In Proc. MICCAI multi-atlas labeling beyond cranial vault—workshop challenge, volume 5, page 12. Munich, Germany, 2015.",
+      "confidence": 0.9
+    },
+    {
+      "entry_index": 33,
+      "author": [
+        "Holger R. Roth",
+        "Le Lu",
+        "Amal Farag",
+        "Hoo-Chang Shin",
+        "Jiamin Liu",
+        "Evrim B. Turkbey",
+        "Ronald M. Summers"
+      ],
+      "title": "DeepOrgan: Multi-level deep convolutional networks for automated pancreas segmentation",
+      "year": 2015,
+      "container": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+      "raw": "[34] Holger R Roth, Le Lu, Amal Farag, Hoo-Chang Shin, Jiamin Liu, Evrim B Turkbey, and Ronald M Summers. Deeporgan: Multi-level deep convolutional networks for automated pancreas segmentation. In International conference on medical image computing and computer-assisted intervention, pages 556–564. Springer, 2015.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 34,
+      "author": [
+        "A. Emre Kavur",
+        "N. Sinem Gezer",
+        "Mustafa Barış",
+        "Sinem Aslan",
+        "Pierre-Henri Conze",
+        "Vladimir Groza",
+        "Duc Duy Pham",
+        "Soumick Chatterjee",
+        "Philipp Ernst",
+        "Savaş Özkan"
+      ],
+      "title": "CHAOS challenge - combined (CT-MR) healthy abdominal organ segmentation",
+      "year": 2021,
+      "container": "Medical Image Analysis",
+      "raw": "[35] A Emre Kavur, N Sinem Gezer, Mustafa Barı¸s, Sinem Aslan, Pierre-Henri Conze, Vladimir Groza, Duc Duy Pham, Soumick Chatterjee, Philipp Ernst, Sava¸s Özkan, et al. Chaos challenge-combined (ct-mr) healthy abdominal organ segmentation. Medical image analysis, 69:101950, 2021.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 35,
+      "author": [
+        "Patrick Bilic",
+        "Patrick Christ",
+        "Hongwei Bran Li",
+        "Eugene Vorontsov",
+        "Avi Ben-Cohen",
+        "Georgios Kaissis",
+        "Adi Szeskin",
+        "Colin Jacobs",
+        "Gabriel Efrain Humpire Mamani",
+        "Gabriel Chartrand"
+      ],
+      "title": "The liver tumor segmentation benchmark (LiTS)",
+      "year": 2023,
+      "container": "Medical Image Analysis",
+      "raw": "[36] Patrick Bilic, Patrick Christ, Hongwei Bran Li, Eugene Vorontsov, Avi Ben-Cohen, Georgios Kaissis, Adi Szeskin, Colin Jacobs, Gabriel Efrain Humpire Mamani, Gabriel Chartrand, et al. The liver tumor segmentation benchmark (lits). Medical image analysis, 84:102680, 2023.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 36,
+      "author": [
+        "Nicholas Heller",
+        "Fabian Isensee",
+        "Dasha Trofimova",
+        "Resha Tejpaul",
+        "Zhongchen Zhao",
+        "Huai Chen",
+        "Lisheng Wang",
+        "Alex Golts",
+        "Daniel Khapun",
+        "Daniel Shats"
+      ],
+      "title": "The KiTS21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase CT",
+      "year": 2023,
+      "container": "arXiv preprint arXiv:2307.01984",
+      "raw": "[37] Nicholas Heller, Fabian Isensee, Dasha Trofimova, Resha Tejpaul, Zhongchen Zhao, Huai Chen, Lisheng Wang, Alex Golts, Daniel Khapun, Daniel Shats, et al. The kits21 challenge: Automatic segmentation of kidneys, renal tumors, and renal cysts in corticomedullary-phase ct. arXiv preprint arXiv:2307.01984, 2023.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 37,
+      "author": [
+        "Xiangde Luo",
+        "Wenjun Liao",
+        "Jianghong Xiao",
+        "Jieneng Chen",
+        "Tao Song",
+        "Xiaofan Zhang",
+        "Kang Li",
+        "Dimitris N. Metaxas",
+        "Guotai Wang",
+        "Shaoting Zhang"
+      ],
+      "title": "WORD: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from CT image",
+      "year": 2022,
+      "container": "Medical Image Analysis",
+      "raw": "[38] Xiangde Luo, Wenjun Liao, Jianghong Xiao, Jieneng Chen, Tao Song, Xiaofan Zhang, Kang Li, Dimitris N Metaxas, Guotai Wang, and Shaoting Zhang. Word: A large scale dataset, benchmark and clinical applicable study for abdominal organ segmentation from ct image. Medical Image Analysis, 82:102642, 2022.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 38,
+      "author": [
+        "Jun Ma",
+        "Yao Zhang",
+        "Song Gu",
+        "Cheng Zhu",
+        "Cheng Ge",
+        "Yichi Zhang",
+        "Xingle An",
+        "Congcong Wang",
+        "Qiyuan Wang",
+        "Xin Liu"
+      ],
+      "title": "AbdomenCT-1K: Is abdominal organ segmentation a solved problem?",
+      "year": 2021,
+      "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "raw": "[39] Jun Ma, Yao Zhang, Song Gu, Cheng Zhu, Cheng Ge, Yichi Zhang, Xingle An, Congcong Wang, Qiyuan Wang, Xin Liu, et al. Abdomenct-1k: Is abdominal organ segmentation a solved problem? IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(10):6695–6714, 2021.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 39,
+      "author": [
+        "Michela Antonelli",
+        "Annika Reinke",
+        "Spyridon Bakas",
+        "Keyvan Farahani",
+        "Annette Kopp-Schneider",
+        "Bennett A. Landman",
+        "Geert Litjens",
+        "Bjoern Menze",
+        "Olaf Ronneberger",
+        "Ronald M. Summers"
+      ],
+      "title": "The medical segmentation decathlon",
+      "year": 2022,
+      "container": "Nature Communications",
+      "raw": "[40] Michela Antonelli, Annika Reinke, Spyridon Bakas, Keyvan Farahani, Annette Kopp-Schneider, Bennett A Landman, Geert Litjens, Bjoern Menze, Olaf Ronneberger, Ronald M Summers, et al. The medical segmentation decathlon. Nature communications, 13(1):4128, 2022.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 40,
+      "author": [
+        "Blaine Rister",
+        "Darvin Yi",
+        "Kaushik Shivakumar",
+        "Tomomi Nobashi",
+        "Daniel L. Rubin"
+      ],
+      "title": "CT-ORG, a new dataset for multiple organ segmentation in computed tomography",
+      "year": 2020,
+      "container": "Scientific Data",
+      "raw": "[41] Blaine Rister, Darvin Yi, Kaushik Shivakumar, Tomomi Nobashi, and Daniel L Rubin. Ct-org, a new dataset for multiple organ segmentation in computed tomography. Scientific Data, 7(1):381, 2020.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 41,
+      "author": [
+        "Jakob Wasserthal",
+        "Hanns-Christian Breit",
+        "Manfred T. Meyer",
+        "Maurice Pradella",
+        "Daniel Hinck",
+        "Alexander W. Sauter",
+        "Tobias Heye",
+        "Daniel T. Boll",
+        "Joshy Cyriac",
+        "Shan Yang"
+      ],
+      "title": "TotalSegmentator: robust segmentation of 104 anatomic structures in CT images",
+      "year": 2023,
+      "container": "Radiology: Artificial Intelligence",
+      "raw": "[42] Jakob Wasserthal, Hanns-Christian Breit, Manfred T Meyer, Maurice Pradella, Daniel Hinck, Alexander W Sauter, Tobias Heye, Daniel T Boll, Joshy Cyriac, Shan Yang, et al. Totalsegmentator: robust segmentation of 104 anatomic structures in ct images. Radiology: Artificial Intelligence, 5(5):e230024, 2023.",
+      "confidence": 0.92
+    },
+    {
+      "entry_index": 42,
+      "author": [
+        "Pedro R. A. S. Bassi",
+        "Mehmet Can Yavuz",
+        "Kang Wang",
+        "Xiaoxi Chen",
+        "Wenxuan Li",
+        "Sergio Decherchi",
+        "Andrea Cavalli",
+        "Yang Yang",
+        "Alan Yuille",
+        "Zongwei Zhou"
+      ],
+      "title": "RadGPT: Constructing 3D image-text tumor datasets",
+      "year": 2025,
+      "container": "arXiv preprint arXiv:2501.04678",
+      "raw": "[43] Pedro RAS Bassi, Mehmet Can Yavuz, Kang Wang, Xiaoxi Chen, Wenxuan Li, Sergio Decherchi, Andrea Cavalli, Yang Yang, Alan Yuille, and Zongwei Zhou. Radgpt: Constructing 3d image-text tumor datasets. arXiv preprint arXiv:2501.04678, 2025.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 43,
+      "author": [
+        "Enze Xie",
+        "Wenhai Wang",
+        "Zhiding Yu",
+        "Anima Anandkumar",
+        "Jose M. Alvarez",
+        "Ping Luo"
+      ],
+      "title": "SegFormer: Simple and efficient design for semantic segmentation with transformers",
+      "year": 2021,
+      "container": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "raw": "[44] Enze Xie, Wenhai Wang, Zhiding Yu, Anima Anandkumar, Jose M Alvarez, and Ping Luo. Segformer: Simple and efficient design for semantic segmentation with transformers. Advances in neural information processing systems, 34:12077–12090, 2021.",
+      "confidence": 0.95
+    },
+    {
+      "entry_index": 44,
+      "author": [
+        "Yifan Gao",
+        "Haoyue Li",
+        "Feng Yuan",
+        "Xiaosong Wang",
+        "Xin Gao"
+      ],
+      "title": "DINO U-Net: Exploiting high-fidelity dense features from foundation models for medical image segmentation",
+      "year": 2025,
+      "container": "arXiv preprint arXiv:2508.20909",
+      "raw": "[45] Yifan Gao, Haoyue Li, Feng Yuan, Xiaosong Wang, and Xin Gao. Dino u-net: Exploiting high-fidelity dense features from foundation models for medical image segmentation. arXiv preprint arXiv:2508.20909, 2025.",
+      "confidence": 0.95
+    }
+  ]
+}

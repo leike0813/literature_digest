@@ -1,0 +1,613 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/UVI9ULI2_Mask R-CNN.txt",
+  "entry_style": "numeric",
+  "notes": "'Surname, Initials.' 缩写格式 + 行末页码标记。末尾引用页码（如 '2, 3, 4, 5, 6'）为噪声源。",
+  "items": [
+    {
+      "author": [
+        "Mykhaylo Andriluka",
+        "Leonid Pishchulin",
+        "Peter Gehler",
+        "Bernt Schiele"
+      ],
+      "title": "2D human pose estimation: New benchmark and state of the art analysis",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[1] M. Andriluka, L. Pishchulin, P. Gehler, and B. Schiele. 2D human pose estimation... In CVPR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Pablo Arbeláez",
+        "Jordi Pont-Tuset",
+        "Jonathan T. Barron",
+        "Ferran Marques",
+        "Jitendra Malik"
+      ],
+      "title": "Multiscale combinatorial grouping",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[2] P. Arbelaez, J. Pont-Tuset, J. T. Barron, F. Marques, and J. Malik. Multiscale combinatorial grouping. In CVPR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Anurag Arnab",
+        "Philip H. S. Torr"
+      ],
+      "title": "Pixelwise instance segmentation with a dynamically instantiated network",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[3] A. Arnab and P. H. Torr. Pixelwise instance segmentation... In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Min Bai",
+        "Raquel Urtasun"
+      ],
+      "title": "Deep watershed transform for instance segmentation",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[4] M. Bai and R. Urtasun. Deep watershed transform for instance segmentation. In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Sean Bell",
+        "C. Lawrence Zitnick",
+        "Kavita Bala",
+        "Ross Girshick"
+      ],
+      "title": "Inside-outside net: Detecting objects in context with skip pooling and recurrent neural networks",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[5] S. Bell, C. L. Zitnick, K. Bala, and R. Girshick. Insideoutside net... In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Zhe Cao",
+        "Tomas Simon",
+        "Shih-En Wei",
+        "Yaser Sheikh"
+      ],
+      "title": "Realtime multi-person 2d pose estimation using part affinity fields",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[6] Z. Cao, T. Simon, S.-E. Wei, and Y. Sheikh. Realtime multiperson 2d pose estimation using part affinity fields. In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Marius Cordts",
+        "Mohamed Omran",
+        "Sebastian Ramos",
+        "Timo Rehfeld",
+        "Markus Enzweiler",
+        "Rodrigo Benenson",
+        "Uwe Franke",
+        "Stefan Roth",
+        "Bernt Schiele"
+      ],
+      "title": "The Cityscapes dataset for semantic urban scene understanding",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[7] M. Cordts... The Cityscapes dataset... In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Kaiming He",
+        "Yi Li",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Instance-sensitive fully convolutional networks",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[8] J. Dai, K. He, Y. Li, S. Ren, and J. Sun. Instance-sensitive fully convolutional networks. In ECCV, 2016.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Kaiming He",
+        "Jian Sun"
+      ],
+      "title": "Convolutional feature masking for joint object and stuff segmentation",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[9] J. Dai, K. He, and J. Sun. Convolutional feature masking... In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Kaiming He",
+        "Jian Sun"
+      ],
+      "title": "Instance-aware semantic segmentation via multi-task network cascades",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[10] J. Dai, K. He, and J. Sun. Instance-aware semantic segmentation... In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Yi Li",
+        "Kaiming He",
+        "Jian Sun"
+      ],
+      "title": "R-FCN: Object detection via region-based fully convolutional networks",
+      "year": 2016,
+      "container": "NIPS",
+      "raw": "[11] J. Dai, Y. Li, K. He, and J. Sun. R-FCN... In NIPS, 2016.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Ross Girshick"
+      ],
+      "title": "Fast R-CNN",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[12] R. Girshick. Fast R-CNN. In ICCV, 2015.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Ross Girshick",
+        "Jeff Donahue",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[13] R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies... In CVPR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Ross Girshick",
+        "Forrest Iandola",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "title": "Deformable part models are convolutional neural networks",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[14] R. Girshick, F. Iandola, T. Darrell, and J. Malik. Deformable part models are convolutional neural networks. In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Bharath Hariharan",
+        "Pablo Arbeláez",
+        "Ross Girshick",
+        "Jitendra Malik"
+      ],
+      "title": "Simultaneous detection and segmentation",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[15] B. Hariharan, P. Arbelaez, R. Girshick, and J. Malik. Simultaneous detection and segmentation. In ECCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Bharath Hariharan",
+        "Pablo Arbeláez",
+        "Ross Girshick",
+        "Jitendra Malik"
+      ],
+      "title": "Hypercolumns for object segmentation and fine-grained localization",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[16] B. Hariharan, P. Arbelaez, R. Girshick, and J. Malik. Hypercolumns... In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Zeeshan Hayder",
+        "Xuming He",
+        "Mathieu Salzmann"
+      ],
+      "title": "Shape-aware instance segmentation",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[17] Z. Hayder, X. He, and M. Salzmann. Shape-aware instance segmentation. In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Spatial pyramid pooling in deep convolutional networks for visual recognition",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[18] K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling... In ECCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[19] K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning... In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Jan Hosang",
+        "Rodrigo Benenson",
+        "Piotr Dollár",
+        "Bernt Schiele"
+      ],
+      "title": "What makes for effective detection proposals?",
+      "year": 2015,
+      "container": "PAMI",
+      "raw": "[20] J. Hosang, R. Benenson, P. Dollar, and B. Schiele. What makes for effective detection proposals? PAMI, 2015.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Jonathan Huang",
+        "Vivek Rathod",
+        "Chen Sun",
+        "Menglong Zhu",
+        "Anoop Korattikara",
+        "Alireza Fathi",
+        "Ian Fischer",
+        "Zbigniew Wojna",
+        "Yang Song",
+        "Sergio Guadarrama"
+      ],
+      "title": "Speed/accuracy trade-offs for modern convolutional object detectors",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[21] J. Huang... Speed/accuracy trade-offs... In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Max Jaderberg",
+        "Karen Simonyan",
+        "Andrew Zisserman",
+        "Koray Kavukcuoglu"
+      ],
+      "title": "Spatial transformer networks",
+      "year": 2015,
+      "container": "NIPS",
+      "raw": "[22] M. Jaderberg, K. Simonyan, A. Zisserman, and K. Kavukcuoglu. Spatial transformer networks. In NIPS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Alexander Kirillov",
+        "Evgeny Levinkov",
+        "Bjoern Andres",
+        "Bogdan Savchynskyy",
+        "Carsten Rother"
+      ],
+      "title": "InstanceCut: from edges to instances with multicut",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[23] A. Kirillov, E. Levinkov, B. Andres, B. Savchynskyy, and C. Rother. Instancecut... In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Piotr Dollár",
+        "Ross Girshick",
+        "Kaiming He",
+        "Bharath Hariharan",
+        "Serge Belongie"
+      ],
+      "title": "Feature pyramid networks for object detection",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "[24] T.-Y. Lin, P. Dollar, R. Girshick, K. He, B. Hariharan, and S. Belongie. Feature pyramid networks... In CVPR, 2017.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Priya Goyal",
+        "Ross Girshick",
+        "Kaiming He",
+        "Piotr Dollár"
+      ],
+      "title": "Focal loss for dense object detection",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "[25] T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar. Focal loss for dense object detection. In ICCV, 2017.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[26] T.-Y. Lin, M. Maire... Microsoft COCO... In ECCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Jonathan Long",
+        "Evan Shelhamer",
+        "Trevor Darrell"
+      ],
+      "title": "Fully convolutional networks for semantic segmentation",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[27] J. Long, E. Shelhamer, and T. Darrell. Fully convolutional networks... In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Pedro O. Pinheiro",
+        "Tsung-Yi Lin",
+        "Ronan Collobert",
+        "Piotr Dollár"
+      ],
+      "title": "Learning to refine object segments",
+      "year": 2016,
+      "container": "ECCV",
+      "raw": "[28] P. O. Pinheiro, T.-Y. Lin, R. Collobert, and P. Dollar. Learning to refine object segments. In ECCV, 2016.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Joseph Redmon",
+        "Santosh Divvala",
+        "Ross Girshick",
+        "Ali Farhadi"
+      ],
+      "title": "You only look once: Unified, real-time object detection",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[29] J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. You only look once... In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NIPS",
+      "raw": "[30] S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN... In NIPS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Abhinav Shrivastava",
+        "Abhinav Gupta",
+        "Ross Girshick"
+      ],
+      "title": "Training region-based object detectors with online hard example mining",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "[31] A. Shrivastava, A. Gupta, and R. Girshick. Training region-based object detectors... In CVPR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Christian Szegedy",
+        "Wei Liu",
+        "Yangqing Jia",
+        "Pierre Sermanet",
+        "Scott Reed",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Vincent Vanhoucke",
+        "Andrew Rabinovich"
+      ],
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[32] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Alexander Toshev",
+        "Christian Szegedy"
+      ],
+      "title": "DeepPose: Human pose estimation via deep neural networks",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[33] A. Toshev and C. Szegedy. DeepPose... In CVPR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Jasper R. R. Uijlings",
+        "Koen E. A. van de Sande",
+        "Theo Gevers",
+        "Arnold W. M. Smeulders"
+      ],
+      "title": "Selective search for object recognition",
+      "year": 2013,
+      "container": "IJCV",
+      "raw": "[34] J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders. Selective search for object recognition. IJCV, 2013.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Xiaolong Wang",
+        "Ross Girshick",
+        "Abhinav Gupta",
+        "Kaiming He"
+      ],
+      "title": "Non-local neural networks",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[35] X. Wang, R. Girshick, A. Gupta, and K. He. Non-local neural networks. In CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Yuxin Wu",
+        "Alexander Kirillov",
+        "Francisco Massa",
+        "Wan-Yen Lo",
+        "Ross Girshick"
+      ],
+      "title": "Detectron2",
+      "year": 2019,
+      "container": "(software)",
+      "raw": "[36] Y. Wu, A. Kirillov, F. Massa, W.-Y. Lo, and R. Girshick. Detectron2. 2019.",
+      "confidence": 0.8,
+      "notes": "软件库，无正式出版物",
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Fisher Yu",
+        "Vladlen Koltun"
+      ],
+      "title": "Multi-scale context aggregation by dilated convolutions",
+      "year": 2016,
+      "container": "ICLR",
+      "raw": "[37] F. Yu and V. Koltun. Multi-scale context aggregation by dilated convolutions. In ICLR, 2016.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Sergey Zagoruyko",
+        "Adam Lerer",
+        "Tsung-Yi Lin",
+        "Pedro O. Pinheiro",
+        "Sam Gross",
+        "Soumith Chintala",
+        "Piotr Dollár"
+      ],
+      "title": "A multipath network for object detection",
+      "year": 2016,
+      "container": "BMVC",
+      "raw": "[38] S. Zagoruyko, A. Lerer, T.-Y. Lin, P. O. Pinheiro, S. Gross, S. Chintala, and P. Dollar. A multipath network for object detection. In BMVC, 2016.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Shifeng Zhang",
+        "Longyin Wen",
+        "Xiao Bian",
+        "Zhen Lei",
+        "Stan Z. Li"
+      ],
+      "title": "Single-shot refinement neural network for object detection",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "[39] S. Zhang, L. Wen, X. Bian, Z. Lei, and S. Z. Li. Single-shot refinement neural network... In CVPR, 2018.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Xingyi Zhou",
+        "Dequan Wang",
+        "Philipp Krähenbühl"
+      ],
+      "title": "Objects as points",
+      "year": 2019,
+      "container": "arXiv:1904.07850",
+      "raw": "[40] X. Zhou, D. Wang, and P. Krähenbühl. Objects as points. arXiv:1904.07850, 2019.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Han Hu",
+        "Stephen Lin",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable ConvNets v2: More deformable, better results",
+      "year": 2019,
+      "container": "CVPR",
+      "raw": "[41] X. Zhu, H. Hu, S. Lin, and J. Dai. Deformable convnets v2... In CVPR, 2019.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Weijie Su",
+        "Lewei Lu",
+        "Bin Li",
+        "Xiaogang Wang",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable DETR: Deformable transformers for end-to-end object detection",
+      "year": 2021,
+      "container": "ICLR",
+      "raw": "[42] X. Zhu, W. Su, L. Lu, B. Li, X. Wang, and J. Dai. Deformable DETR... In ICLR, 2021.",
+      "confidence": 0.95,
+      "entry_index": 41
+    }
+  ]
+}

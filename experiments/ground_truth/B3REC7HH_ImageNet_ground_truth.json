@@ -1,0 +1,727 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/B3REC7HH_ImageNet Large Scale Visual Recognition Challenge.txt",
+  "entry_style": "mixed",
+  "notes": "APA 格式 '(Author, Year). Title. Venue.' — 无编号前缀。52 entries。部分条目为数据集URL或技术报告。",
+  "items": [
+    {
+      "author": [
+        "Timo Ahonen",
+        "Abdenour Hadid",
+        "Matti Pietikäinen"
+      ],
+      "title": "Face description with local binary patterns: Application to face recognition",
+      "year": 2006,
+      "container": "PAMI",
+      "raw": "Ahonen, T., Hadid, A., and Pietikinen, M. (2006). Face description with local binary patterns... PAMI, 28.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Bogdan Alexe",
+        "Thomas Deselaers",
+        "Vittorio Ferrari"
+      ],
+      "title": "Measuring the objectness of image windows",
+      "year": 2012,
+      "container": "PAMI",
+      "raw": "Alexe, B., Deselares, T., and Ferrari, V. (2012). Measuring the objectness of image windows. In PAMI.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Relja Arandjelović",
+        "Andrew Zisserman"
+      ],
+      "title": "Three things everyone should know to improve object retrieval",
+      "year": 2012,
+      "container": "CVPR",
+      "raw": "Arandjelovic, R. and Zisserman, A. (2012). Three things everyone should know to improve object retrieval. In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Pablo Arbeláez",
+        "Michael Maire",
+        "Charless Fowlkes",
+        "Jitendra Malik"
+      ],
+      "title": "Contour detection and hierarchical image segmentation",
+      "year": 2011,
+      "container": "TPAMI",
+      "raw": "Arbelaez, P., Maire, M., Fowlkes, C., and Malik, J. (2011). Contour detection and hierarchical image segmentation. IEEE TPAMI, 33.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Pablo Arbeláez",
+        "Jordi Pont-Tuset",
+        "Jonathan T. Barron",
+        "Ferran Marques",
+        "Jitendra Malik"
+      ],
+      "title": "Multiscale combinatorial grouping",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "Arbeláez, P., Pont-Tuset, J., Barron, J., Marques, F., and Malik, J. (2014). Multiscale combinatorial grouping. In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Dhruv Batra",
+        "Harsh Agrawal",
+        "Pratyay Banik",
+        "Neelima Chavali",
+        "C. S. Mathialagan",
+        "Ahmad Alfadda"
+      ],
+      "title": "CloudCV: Large-scale distributed computer vision as a cloud service",
+      "year": 2013,
+      "container": "(project)",
+      "raw": "Batra, D., Agrawal, H., Banik, P., Chavali, N., Mathialagan, C. S., and Alfadda, A. (2013). Cloudcv...",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Sean Bell",
+        "Paul Upchurch",
+        "Noah Snavely",
+        "Kavita Bala"
+      ],
+      "title": "OpenSurfaces: A richly annotated catalog of surface appearance",
+      "year": 2013,
+      "container": "SIGGRAPH",
+      "raw": "Bell, S., Upchurch, P., Snavely, N., and Bala, K. (2013). OpenSurfaces... In ACM SIGGRAPH.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Alexander C. Berg",
+        "Ryan Farrell",
+        "Aditya Khosla",
+        "Jonathan Krause",
+        "Li Fei-Fei",
+        "Jia Li",
+        "Subhransu Maji"
+      ],
+      "title": "Fine-Grained Competition",
+      "year": 2013,
+      "container": "https://sites.google.com/site/fgcomp2013/",
+      "raw": "Berg, A., Farrell, R., Khosla, A., Krause, J., Fei-Fei, L., Li, J., and Maji, S. (2013). Fine-Grained Competition.",
+      "confidence": 0.75,
+      "notes": "竞赛网站",
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Ken Chatfield",
+        "Karen Simonyan",
+        "Andrea Vedaldi",
+        "Andrew Zisserman"
+      ],
+      "title": "Return of the devil in the details: Delving deep into convolutional nets",
+      "year": 2014,
+      "container": "CoRR:1405.3531",
+      "raw": "Chatfield, K., Simonyan, K., Vedaldi, A., and Zisserman, A. (2014). Return of the devil in the details... CoRR, abs/1405.3531.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Qiang Chen",
+        "Zheng Song",
+        "Zhongyang Huang",
+        "Yang Hua",
+        "Shuicheng Yan"
+      ],
+      "title": "Contextualizing object detection and classification",
+      "year": 2014,
+      "container": "TPAMI",
+      "raw": "Chen, Q., Song, Z., Huang, Z., Hua, Y., and Yan, S. (2014). Contextualizing object detection and classification.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Koby Crammer",
+        "Ofer Dekel",
+        "Joseph Keshet",
+        "Shai Shalev-Shwartz",
+        "Yoram Singer"
+      ],
+      "title": "Online passive-aggressive algorithms",
+      "year": 2006,
+      "container": "JMLR",
+      "raw": "Crammer, K., Dekel, O., Keshet, J., Shalev-Shwartz, S., and Singer, Y. (2006). Online passive-aggressive algorithms. JMLR, 7:551–585.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Antonio Criminisi"
+      ],
+      "title": "MSRC object recognition image database (v2.0)",
+      "year": 2004,
+      "container": "URL",
+      "raw": "Criminisi, A. (2004). MSRC object recognition image database...",
+      "confidence": 0.7,
+      "notes": "数据集URL",
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Thomas Dean",
+        "Mark Ruzon",
+        "Mark Segal",
+        "Jonathon Shlens",
+        "Sudheendra Vijayanarasimhan",
+        "Jay Yagnik"
+      ],
+      "title": "Fast, accurate detection of 100,000 object classes on a single machine",
+      "year": 2013,
+      "container": "CVPR",
+      "raw": "Dean, T., Ruzon, M., Segal, M., Shlens, J., Vijayanarasimhan, S., and Yagnik, J. (2013). Fast, accurate detection of 100,000 object classes... In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Jia Deng",
+        "Wei Dong",
+        "Richard Socher",
+        "Li-Jia Li",
+        "Kai Li",
+        "Li Fei-Fei"
+      ],
+      "title": "ImageNet: a large-scale hierarchical image database",
+      "year": 2009,
+      "container": "CVPR",
+      "raw": "Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., and Fei-Fei, L. (2009). ImageNet... In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Jia Deng",
+        "Olga Russakovsky",
+        "Jonathan Krause",
+        "Michael Bernstein",
+        "Alexander C. Berg",
+        "Li Fei-Fei"
+      ],
+      "title": "Scalable multi-label annotation",
+      "year": 2014,
+      "container": "CHI",
+      "raw": "Deng, J., Russakovsky, O., Krause, J., Bernstein, M., Berg, A. C., and Fei-Fei, L. (2014). Scalable multilabel annotation. In CHI.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Jeff Donahue",
+        "Yangqing Jia",
+        "Oriol Vinyals",
+        "Judy Hoffman",
+        "Ning Zhang",
+        "Eric Tzeng",
+        "Trevor Darrell"
+      ],
+      "title": "DeCAF: A deep convolutional activation feature for generic visual recognition",
+      "year": 2013,
+      "container": "CoRR:1310.1531",
+      "raw": "Donahue, J., Jia, Y., Vinyals, O., Hoffman, J., Zhang, N., Tzeng, E., and Darrell, T. (2013). Decaf... CoRR, abs/1310.1531.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Charles Dubout",
+        "François Fleuret"
+      ],
+      "title": "Exact acceleration of linear object detectors",
+      "year": 2012,
+      "container": "ECCV",
+      "raw": "Dubout, C. and Fleuret, F. (2012). Exact acceleration of linear object detectors. In ECCV.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Mark Everingham",
+        "S. M. Ali Eslami",
+        "Luc Van Gool",
+        "Christopher K. I. Williams",
+        "John Winn",
+        "Andrew Zisserman"
+      ],
+      "title": "The PASCAL VOC challenge – a Retrospective",
+      "year": 2014,
+      "container": "IJCV",
+      "raw": "Everingham, M., Eslami, S. M. A., Van Gool, L., Williams, C. K. I., Winn, J., and Zisserman, A. (2014). The PASCAL VOC challenge - a Retrospective. IJCV.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Mark Everingham",
+        "Luc Van Gool",
+        "Christopher K. I. Williams",
+        "John Winn",
+        "Andrew Zisserman"
+      ],
+      "title": "PASCAL Visual Object Classes Challenge",
+      "year": 2005,
+      "container": "URL",
+      "raw": "Everingham, M. (2005-2012). PASCAL VOC Challenge. http://www.pascalnetwork.org/challenges/VOC/voc2012/workshop/index.html.",
+      "confidence": 0.7,
+      "notes": "数据集网站",
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Mark Everingham",
+        "Luc Van Gool",
+        "Christopher K. I. Williams",
+        "John Winn",
+        "Andrew Zisserman"
+      ],
+      "title": "The Pascal Visual Object Classes (VOC) challenge",
+      "year": 2010,
+      "container": "IJCV",
+      "raw": "Everingham, M., Van Gool, L., Williams, C. K. I., Winn, J., and Zisserman, A. (2010). The Pascal VOC challenge. IJCV, 88(2):303–338.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Li Fei-Fei",
+        "Rob Fergus",
+        "Pietro Perona"
+      ],
+      "title": "Learning generative visual models from few examples",
+      "year": 2004,
+      "container": "CVPR",
+      "raw": "Fei-Fei, L., Fergus, R., and Perona, P. (2004). Learning generative visual models from few examples... In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Li Fei-Fei",
+        "Pietro Perona"
+      ],
+      "title": "A Bayesian hierarchical model for learning natural scene categories",
+      "year": 2005,
+      "container": "CVPR",
+      "raw": "Fei-Fei, L. and Perona, P. (2005). A bayesian hierarchical model for learning natural scene categories. In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Pedro Felzenszwalb",
+        "Ross Girshick",
+        "David McAllester",
+        "Deva Ramanan"
+      ],
+      "title": "Object detection with discriminatively trained part based models",
+      "year": 2010,
+      "container": "PAMI",
+      "raw": "Felzenszwalb, P., Girshick, R., McAllester, D., and Ramanan, D. (2010). Object detection... PAMI, 32.",
+      "confidence": 0.95,
+      "notes": "跨行条目",
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Andrea Frome",
+        "Greg Corrado",
+        "Jonathon Shlens",
+        "Samy Bengio",
+        "Jeff Dean",
+        "Marc'Aurelio Ranzato",
+        "Tomas Mikolov"
+      ],
+      "title": "DeViSE: A deep visual-semantic embedding model",
+      "year": 2013,
+      "container": "NIPS",
+      "raw": "Frome, A., Corrado, G., Shlens, J., Bengio, S., Dean, J., Ranzato, M., and Mikolov, T. (2013). Devise... In NIPS.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Andreas Geiger",
+        "Philip Lenz",
+        "Christoph Stiller",
+        "Raquel Urtasun"
+      ],
+      "title": "Vision meets robotics: The KITTI dataset",
+      "year": 2013,
+      "container": "IJRR",
+      "raw": "Geiger, A., Lenz, P., Stiller, C., and Urtasun, R. (2013). Vision meets robotics: The kitti dataset. IJRR.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Ross Girshick",
+        "Jeff Donahue",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "Girshick, R., Donahue, J., Darrell, T., and Malik., J. (2014). Rich feature hierarchies... In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Ross B. Girshick",
+        "Jeff Donahue",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation (v4)",
+      "year": 2013,
+      "container": "CoRR",
+      "raw": "Girshick, R. B., Donahue, J., Darrell, T., and Malik, J. (2013). Rich feature hierarchies (v4). CoRR.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Stephen Gould",
+        "Richard Fulton",
+        "Daphne Koller"
+      ],
+      "title": "Decomposing a scene into geometric and semantically consistent regions",
+      "year": 2009,
+      "container": "ICCV",
+      "raw": "Gould, S., Fulton, R., and Koller, D. (2009). Decomposing a scene... In ICCV.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Benjamin Graham"
+      ],
+      "title": "Sparse arrays of signatures for online character recognition",
+      "year": 2013,
+      "container": "CoRR",
+      "raw": "Graham, B. (2013). Sparse arrays of signatures for online character recognition. CoRR.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Gregory Griffin",
+        "Alex Holub",
+        "Pietro Perona"
+      ],
+      "title": "Caltech-256 object category dataset",
+      "year": 2007,
+      "container": "Caltech TR",
+      "raw": "Griffin, G., Holub, A., and Perona, P. (2007). Caltech-256 object category dataset. Technical Report 7694, Caltech.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Tatsuya Harada",
+        "Yasuo Kuniyoshi"
+      ],
+      "title": "Graphical Gaussian vector for image categorization",
+      "year": 2012,
+      "container": "NIPS",
+      "raw": "Harada, T. and Kuniyoshi, Y. (2012). Graphical gaussian vector for image categorization. In NIPS.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Jonathan Harel",
+        "Christof Koch",
+        "Pietro Perona"
+      ],
+      "title": "Graph-based visual saliency",
+      "year": 2007,
+      "container": "NIPS",
+      "raw": "Harel, J., Koch, C., and Perona, P. (2007). Graph-based visual saliency. In NIPS.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Spatial pyramid pooling in deep convolutional networks for visual recognition",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "He, K., Zhang, X., Ren, S., and Su, J. (2014). Spatial pyramid pooling... In ECCV.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Geoffrey E. Hinton",
+        "Nitish Srivastava",
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Ruslan Salakhutdinov"
+      ],
+      "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+      "year": 2012,
+      "container": "CoRR:1207.0580",
+      "raw": "Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I., and Salakhutdinov, R. (2012). Improving neural networks... CoRR, abs/1207.0580.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Derek Hoiem",
+        "Yodsawalai Chodpathumwan",
+        "Qieyun Dai"
+      ],
+      "title": "Diagnosing error in object detectors",
+      "year": 2012,
+      "container": "ECCV",
+      "raw": "Hoiem, D., Chodpathumwan, Y., and Dai, Q. (2012). Diagnosing error in object detectors. In ECCV.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Andrew G. Howard"
+      ],
+      "title": "Some improvements on deep convolutional neural network based image classification",
+      "year": 2014,
+      "container": "ICLR",
+      "raw": "Howard, A. (2014). Some improvements on deep convolutional neural network based image classification. ICLR.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Gary B. Huang",
+        "Manu Ramesh",
+        "Tamara Berg",
+        "Erik Learned-Miller"
+      ],
+      "title": "Labeled Faces in the Wild: A database",
+      "year": 2007,
+      "container": "UMass TR",
+      "raw": "Huang, G. B., Ramesh, M., Berg, T., and Learned-Miller, E. (2007). Labeled faces in the wild... Technical Report 07-49, UMass, Amherst.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Forrest N. Iandola",
+        "Matthew W. Moskewicz",
+        "Sergey Karayev",
+        "Ross B. Girshick",
+        "Trevor Darrell",
+        "Kurt Keutzer"
+      ],
+      "title": "DenseNet: Implementing efficient convnet descriptor pyramids",
+      "year": 2014,
+      "container": "CoRR",
+      "raw": "Iandola, F. N., Moskewicz, M. W., Karayev, S., Girshick, R. B., Darrell, T., and Keutzer, K. (2014). Densenet... CoRR.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Yangqing Jia"
+      ],
+      "title": "Caffe: An open source convolutional architecture for fast feature embedding",
+      "year": 2013,
+      "container": "URL",
+      "raw": "Jia, Y. (2013). Caffe... http://caffe.berkeleyvision.org/.",
+      "confidence": 0.7,
+      "notes": "软件URL",
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Nebojsa Jojic",
+        "Brendan J. Frey",
+        "Anitha Kannan"
+      ],
+      "title": "Epitomic analysis of appearance and shape",
+      "year": 2003,
+      "container": "ICCV",
+      "raw": "Jojic, N., Frey, B. J., and Kannan, A. (2003). Epitomic analysis of appearance and shape. In ICCV.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Asako Kanezaki",
+        "Sho Inaba",
+        "Yoshitaka Ushiku",
+        "Yukimasa Yamashita",
+        "Hideki Muraoka",
+        "Yasuo Kuniyoshi",
+        "Tatsuya Harada"
+      ],
+      "title": "Hard negative classes for multiple object detection",
+      "year": 2014,
+      "container": "ICRA",
+      "raw": "Kanezaki, A., Inaba, S., Ushiku, Y., Yamashita, Y., Muraoka, H., Kuniyoshi, Y., and Harada, T. (2014). Hard negative classes... In ICRA.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Aditya Khosla",
+        "Nityananda Jayadevaprakash",
+        "Bangpeng Yao",
+        "Li Fei-Fei"
+      ],
+      "title": "Novel dataset for fine-grained image categorization",
+      "year": 2011,
+      "container": "CVPR Workshop",
+      "raw": "Khosla, A., Jayadevaprakash, N., Yao, B., and Fei-Fei, L. (2011). Novel dataset for fine-grained image categorization. In CVPR Workshop.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey Hinton"
+      ],
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2012,
+      "container": "NIPS",
+      "raw": "Krizhevsky, A., Sutskever, I., and Hinton, G. (2012). ImageNet classification... In NIPS.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Daniel Kuettel",
+        "Matthieu Guillaumin",
+        "Vittorio Ferrari"
+      ],
+      "title": "Segmentation Propagation in ImageNet",
+      "year": 2012,
+      "container": "ECCV",
+      "raw": "Kuettel, D., Guillaumin, M., and Ferrari, V. (2012). Segmentation Propagation in ImageNet. In ECCV.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Svetlana Lazebnik",
+        "Cordelia Schmid",
+        "Jean Ponce"
+      ],
+      "title": "Beyond bags of features: Spatial Pyramid Matching",
+      "year": 2006,
+      "container": "CVPR",
+      "raw": "Lazebnik, S., Schmid, C., and Ponce, J. (2006). Beyond bags of features... In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Min Lin",
+        "Qiang Chen",
+        "Shuicheng Yan"
+      ],
+      "title": "Network in network",
+      "year": 2014,
+      "container": "ICLR",
+      "raw": "Lin, M., Chen, Q., and Yan, S. (2014a). Network in network. ICLR.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common Objects in Context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollr, P., and Zitnick, C. L. (2014b). Microsoft COCO... In ECCV.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "Yuanqing Lin",
+        "Fengjun Lv",
+        "Liangliang Cao",
+        "Shenghuo Zhu",
+        "Ming Yang",
+        "Timothée Cour",
+        "Kai Yu",
+        "Thomas Huang"
+      ],
+      "title": "Large-scale image classification: Fast feature extraction and SVM training",
+      "year": 2011,
+      "container": "CVPR",
+      "raw": "Lin, Y., Lv, F., Cao, L., Zhu, S., Yang, M., Cour, T., Yu, K., and Huang, T. (2011). Large-scale image classification... In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Ce Liu",
+        "Jenny Yuen",
+        "Antonio Torralba"
+      ],
+      "title": "Nonparametric scene parsing via label transfer",
+      "year": 2011,
+      "container": "TPAMI",
+      "raw": "Liu, C., Yuen, J., and Torralba, A. (2011). Nonparametric scene parsing via label transfer. TPAMI, 33(12).",
+      "confidence": 0.95,
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "David G. Lowe"
+      ],
+      "title": "Distinctive image features from scale-invariant keypoints",
+      "year": 2004,
+      "container": "IJCV",
+      "raw": "Lowe, D. G. (2004). Distinctive image features from scale-invariant keypoints. IJCV, 60(2):91–110.",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Subhransu Maji",
+        "Jitendra Malik"
+      ],
+      "title": "Object detection using a max-margin Hough transform",
+      "year": 2009,
+      "container": "CVPR",
+      "raw": "Maji, S. and Malik, J. (2009). Object detection using a max-margin hough transform. In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 50
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/VA9QJETD_Fully convolutional networks for semantic segmentation.txt",
+  "entry_style": "mixed",
+  "notes": "IEEE 'Surname, Initials.' 引号格式，末尾有引用页码标记（如 '1, 2, 7'）。每个条目独占一行。39 entries.",
+  "items": [
+    {
+      "author": [
+        "João Carreira",
+        "Rui Caseiro",
+        "Jorge Batista",
+        "Cristian Sminchisescu"
+      ],
+      "title": "Semantic segmentation with second-order pooling",
+      "year": 2012,
+      "container": "ECCV",
+      "raw": "[1] J. Carreira, R. Caseiro, J. Batista, and C. Sminchisescu. Semantic segmentation with second-order pooling. In ECCV, 2012.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Dan C. Ciresan",
+        "Alessandro Giusti",
+        "Luca M. Gambardella",
+        "Jürgen Schmidhuber"
+      ],
+      "title": "Deep neural networks segment neuronal membranes in electron microscopy images",
+      "year": 2012,
+      "container": "NIPS",
+      "raw": "[2] D. C. Ciresan, A. Giusti, L. M. Gambardella, and J. Schmidhuber. Deep neural networks segment neuronal membranes in electron microscopy images. In NIPS, pages 2852–2860, 2012.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Kaiming He",
+        "Jian Sun"
+      ],
+      "title": "Convolutional feature masking for joint object and stuff segmentation",
+      "year": 2014,
+      "container": "arXiv:1412.1283",
+      "raw": "[3] J. Dai, K. He, and J. Sun. Convolutional feature masking for joint object and stuff segmentation. arXiv preprint arXiv:1412.1283, 2014.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Jeff Donahue",
+        "Yangqing Jia",
+        "Oriol Vinyals",
+        "Judy Hoffman",
+        "Ning Zhang",
+        "Eric Tzeng",
+        "Trevor Darrell"
+      ],
+      "title": "DeCAF: A deep convolutional activation feature for generic visual recognition",
+      "year": 2014,
+      "container": "ICML",
+      "raw": "[4] J. Donahue, Y. Jia, O. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, and T. Darrell. DeCAF: A deep convolutional activation feature for generic visual recognition. In ICML, 2014.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "David Eigen",
+        "Dilip Krishnan",
+        "Rob Fergus"
+      ],
+      "title": "Restoring an image taken through a window covered with dirt or rain",
+      "year": 2013,
+      "container": "ICCV",
+      "raw": "[5] D. Eigen, D. Krishnan, and R. Fergus. Restoring an image taken through a window covered with dirt or rain. In Computer Vision (ICCV), 2013 IEEE International Conference on, pages 633–640. IEEE, 2013.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "David Eigen",
+        "Christian Puhrsch",
+        "Rob Fergus"
+      ],
+      "title": "Depth map prediction from a single image using a multi-scale deep network",
+      "year": 2014,
+      "container": "arXiv:1406.2283",
+      "raw": "[6] D. Eigen, C. Puhrsch, and R. Fergus. Depth map prediction from a single image using a multi-scale deep network. arXiv preprint arXiv:1406.2283, 2014.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Mark Everingham",
+        "Luc Van Gool",
+        "Christopher K. I. Williams",
+        "John Winn",
+        "Andrew Zisserman"
+      ],
+      "title": "The PASCAL Visual Object Classes Challenge 2011 (VOC2011) Results",
+      "year": 2011,
+      "container": "http://www.pascal-network.org/challenges/VOC/voc2011/workshop/index.html",
+      "raw": "[7] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman. The PASCAL Visual Object Classes Challenge 2011 (VOC2011) Results. http://www.pascalnetwork.org/challenges/VOC/voc2011/workshop/index.html.",
+      "confidence": 0.85,
+      "notes": "网页引用，无正式出版年",
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Clément Farabet",
+        "Camille Couprie",
+        "Laurent Najman",
+        "Yann LeCun"
+      ],
+      "title": "Learning hierarchical features for scene labeling",
+      "year": 2013,
+      "container": "TPAMI",
+      "raw": "[8] C. Farabet, C. Couprie, L. Najman, and Y. LeCun. Learning hierarchical features for scene labeling. Pattern Analysis and Machine Intelligence, IEEE Transactions on, 2013.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Philipp Fischer",
+        "Alexey Dosovitskiy",
+        "Thomas Brox"
+      ],
+      "title": "Descriptor matching with convolutional neural networks: a comparison to SIFT",
+      "year": 2014,
+      "container": "arXiv:1405.5769",
+      "raw": "[9] P. Fischer, A. Dosovitskiy, and T. Brox. Descriptor matching with convolutional neural networks: a comparison to SIFT. CoRR, abs/1405.5769, 2014.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Luc Florack",
+        "Bart M. ter Haar Romeny",
+        "Max Viergever",
+        "Jan Koenderink"
+      ],
+      "title": "The Gaussian scale-space paradigm and the multiscale local jet",
+      "year": 1996,
+      "container": "IJCV",
+      "raw": "[10] L. Florack, B. T. H. Romeny, M. Viergever, and J. Koenderink. The gaussian scale-space paradigm and the multiscale local jet. International Journal of Computer Vision, 18(1):61–75, 1996.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Yaroslav Ganin",
+        "Victor Lempitsky"
+      ],
+      "title": "N⁴-Fields: Neural network nearest neighbor fields for image transforms",
+      "year": 2014,
+      "container": "ACCV",
+      "raw": "[11] Y. Ganin and V. Lempitsky. N4-fields: Neural network nearest neighbor fields for image transforms. In ACCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Ross Girshick",
+        "Jeff Donahue",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[12] R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In Computer Vision and Pattern Recognition, 2014.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Saurabh Gupta",
+        "Pablo Arbeláez",
+        "Jitendra Malik"
+      ],
+      "title": "Perceptual organization and recognition of indoor scenes from RGB-D images",
+      "year": 2013,
+      "container": "CVPR",
+      "raw": "[13] S. Gupta, P. Arbelaez, and J. Malik. Perceptual organization and recognition of indoor scenes from RGB-D images. In CVPR, 2013.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Saurabh Gupta",
+        "Ross Girshick",
+        "Pablo Arbeláez",
+        "Jitendra Malik"
+      ],
+      "title": "Learning rich features from RGB-D images for object detection and segmentation",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[14] S. Gupta, R. Girshick, P. Arbelaez, and J. Malik. Learning rich features from RGB-D images for object detection and segmentation. In ECCV. Springer, 2014.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Bharath Hariharan",
+        "Pablo Arbeláez",
+        "Lubomir Bourdev",
+        "Subhransu Maji",
+        "Jitendra Malik"
+      ],
+      "title": "Semantic contours from inverse detectors",
+      "year": 2011,
+      "container": "ICCV",
+      "raw": "[15] B. Hariharan, P. Arbelaez, L. Bourdev, S. Maji, and J. Malik. Semantic contours from inverse detectors. In International Conference on Computer Vision (ICCV), 2011.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Bharath Hariharan",
+        "Pablo Arbeláez",
+        "Ross Girshick",
+        "Jitendra Malik"
+      ],
+      "title": "Simultaneous detection and segmentation",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[16] B. Hariharan, P. Arbelaez, R. Girshick, and J. Malik. Simultaneous detection and segmentation. In European Conference on Computer Vision (ECCV), 2014.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Spatial pyramid pooling in deep convolutional networks for visual recognition",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[17] K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. In ECCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Yangqing Jia",
+        "Evan Shelhamer",
+        "Jeff Donahue",
+        "Sergey Karayev",
+        "Jonathan Long",
+        "Ross Girshick",
+        "Sergio Guadarrama",
+        "Trevor Darrell"
+      ],
+      "title": "Caffe: Convolutional architecture for fast feature embedding",
+      "year": 2014,
+      "container": "arXiv:1408.5093",
+      "raw": "[18] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell. Caffe: Convolutional architecture for fast feature embedding. arXiv preprint arXiv:1408.5093, 2014.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey E. Hinton"
+      ],
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2012,
+      "container": "NIPS",
+      "raw": "[19] A. Krizhevsky, I. Sutskever, and G. E. Hinton. Imagenet classification with deep convolutional neural networks. In NIPS, 2012.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Quoc V. Le",
+        "Rajat Monga",
+        "Matthieu Devin",
+        "Kai Chen",
+        "Greg S. Corrado",
+        "Jeff Dean",
+        "Andrew Y. Ng"
+      ],
+      "title": "Building high-level features using large scale unsupervised learning",
+      "year": 2012,
+      "container": "ICML",
+      "raw": "[20] Q. V. Le, R. Monga, M. Devin, K. Chen, G. S. Corrado, J. Dean, and A. Y. Ng. Building high-level features using large scale unsupervised learning. In ICML, 2012.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Yann LeCun",
+        "Bernhard Boser",
+        "John Denker",
+        "Donnie Henderson",
+        "Richard E. Howard",
+        "Wayne Hubbard",
+        "Lawrence D. Jackel"
+      ],
+      "title": "Backpropagation applied to hand-written zip code recognition",
+      "year": 1989,
+      "container": "Neural Computation",
+      "raw": "[21] Y. LeCun, B. Boser, J. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel. Backpropagation applied to hand-written zip code recognition. In Neural Computation, 1989.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Yann A. LeCun",
+        "Léon Bottou",
+        "Genevieve B. Orr",
+        "Klaus-Robert Müller"
+      ],
+      "title": "Efficient backprop",
+      "year": 1998,
+      "container": "Neural Networks: Tricks of the Trade (Springer)",
+      "raw": "[22] Y. A. LeCun, L. Bottou, G. B. Orr, and K.-R. Muller. Efficient backprop. In Neural networks: Tricks of the trade, pages 9–48. Springer, 1998.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Ce Liu",
+        "Jenny Yuen",
+        "Antonio Torralba"
+      ],
+      "title": "SIFT Flow: Dense correspondence across scenes and its applications",
+      "year": 2011,
+      "container": "TPAMI",
+      "raw": "[23] C. Liu, J. Yuen, and A. Torralba. Sift flow: Dense correspondence across scenes and its applications. Pattern Analysis and Machine Intelligence, IEEE Transactions on, 33(5):978–994, 2011.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Jonathan Long",
+        "Ning Zhang",
+        "Trevor Darrell"
+      ],
+      "title": "Do convnets learn correspondence?",
+      "year": 2014,
+      "container": "NIPS",
+      "raw": "[24] J. Long, N. Zhang, and T. Darrell. Do convnets learn correspondence? In NIPS, 2014.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Ofer Matan",
+        "Christopher J. C. Burges",
+        "Yann LeCun",
+        "John S. Denker"
+      ],
+      "title": "Multi-digit recognition using a space displacement neural network",
+      "year": 1991,
+      "container": "NIPS",
+      "raw": "[25] O. Matan, C. J. Burges, Y. LeCun, and J. S. Denker. Multidigit recognition using a space displacement neural network. In NIPS, pages 488–495. Citeseer, 1991.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Roozbeh Mottaghi",
+        "Xianjie Chen",
+        "Xiaobai Liu",
+        "Nam-Gyu Cho",
+        "Seong-Whan Lee",
+        "Sanja Fidler",
+        "Raquel Urtasun",
+        "Alan Yuille"
+      ],
+      "title": "The role of context for object detection and semantic segmentation in the wild",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[26] R. Mottaghi, X. Chen, X. Liu, N.-G. Cho, S.-W. Lee, S. Fidler, R. Urtasun, and A. Yuille. The role of context for object detection and semantic segmentation in the wild. In CVPR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Feng Ning",
+        "Damien Delhomme",
+        "Yann LeCun",
+        "Fabio Piano",
+        "Léon Bottou",
+        "Paulo E. Barbano"
+      ],
+      "title": "Toward automatic phenotyping of developing embryos from videos",
+      "year": 2005,
+      "container": "TIP",
+      "raw": "[27] F. Ning, D. Delhomme, Y. LeCun, F. Piano, L. Bottou, and P. E. Barbano. Toward automatic phenotyping of developing embryos from videos. Image Processing, IEEE Transactions on, 14(9):1360–1371, 2005.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Pedro H. O. Pinheiro",
+        "Ronan Collobert"
+      ],
+      "title": "Recurrent convolutional neural networks for scene labeling",
+      "year": 2014,
+      "container": "ICML",
+      "raw": "[28] P. H. Pinheiro and R. Collobert. Recurrent convolutional neural networks for scene labeling. In ICML, 2014.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Pierre Sermanet",
+        "David Eigen",
+        "Xiang Zhang",
+        "Michael Mathieu",
+        "Rob Fergus",
+        "Yann LeCun"
+      ],
+      "title": "OverFeat: Integrated recognition, localization and detection using convolutional networks",
+      "year": 2014,
+      "container": "ICLR",
+      "raw": "[29] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun. Overfeat: Integrated recognition, localization and detection using convolutional networks. In ICLR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Nathan Silberman",
+        "Derek Hoiem",
+        "Pushmeet Kohli",
+        "Rob Fergus"
+      ],
+      "title": "Indoor segmentation and support inference from RGBD images",
+      "year": 2012,
+      "container": "ECCV",
+      "raw": "[30] N. Silberman, D. Hoiem, P. Kohli, and R. Fergus. Indoor segmentation and support inference from rgbd images. In ECCV, 2012.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Karen Simonyan",
+        "Andrew Zisserman"
+      ],
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "year": 2014,
+      "container": "arXiv:1409.1556",
+      "raw": "[31] K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. CoRR, abs/1409.1556, 2014.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Christian Szegedy",
+        "Wei Liu",
+        "Yangqing Jia",
+        "Pierre Sermanet",
+        "Scott Reed",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Vincent Vanhoucke",
+        "Andrew Rabinovich"
+      ],
+      "title": "Going deeper with convolutions",
+      "year": 2014,
+      "container": "arXiv:1409.4842",
+      "raw": "[32] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. CoRR, abs/1409.4842, 2014.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Joseph Tighe",
+        "Svetlana Lazebnik"
+      ],
+      "title": "SuperParsing: scalable nonparametric image parsing with superpixels",
+      "year": 2010,
+      "container": "ECCV",
+      "raw": "[33] J. Tighe and S. Lazebnik. Superparsing: scalable nonparametric image parsing with superpixels. In ECCV, pages 352–365. Springer, 2010.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Joseph Tighe",
+        "Svetlana Lazebnik"
+      ],
+      "title": "Finding things: Image parsing with regions and per-exemplar detectors",
+      "year": 2013,
+      "container": "CVPR",
+      "raw": "[34] J. Tighe and S. Lazebnik. Finding things: Image parsing with regions and per-exemplar detectors. In CVPR, 2013.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Jonathan Tompson",
+        "Arjun Jain",
+        "Yann LeCun",
+        "Christoph Bregler"
+      ],
+      "title": "Joint training of a convolutional network and a graphical model for human pose estimation",
+      "year": 2014,
+      "container": "arXiv:1406.2984",
+      "raw": "[35] J. Tompson, A. Jain, Y. LeCun, and C. Bregler. Joint training of a convolutional network and a graphical model for human pose estimation. CoRR, abs/1406.2984, 2014.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Li Wan",
+        "Matthew Zeiler",
+        "Sixin Zhang",
+        "Yann LeCun",
+        "Rob Fergus"
+      ],
+      "title": "Regularization of neural networks using DropConnect",
+      "year": 2013,
+      "container": "ICML",
+      "raw": "[36] L. Wan, M. Zeiler, S. Zhang, Y. L. Cun, and R. Fergus. Regularization of neural networks using dropconnect. In Proceedings of the 30th International Conference on Machine Learning (ICML-13), pages 1058–1066, 2013.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Ralph Wolf",
+        "John C. Platt"
+      ],
+      "title": "Postal address block location using a convolutional locator network",
+      "year": 1994,
+      "container": "NIPS",
+      "raw": "[37] R. Wolf and J. C. Platt. Postal address block location using a convolutional locator network. Advances in Neural Information Processing Systems, pages 745–745, 1994.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Matthew D. Zeiler",
+        "Rob Fergus"
+      ],
+      "title": "Visualizing and understanding convolutional networks",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[38] M. D. Zeiler and R. Fergus. Visualizing and understanding convolutional networks. In Computer Vision–ECCV 2014, pages 818–833. Springer, 2014.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Ning Zhang",
+        "Jeff Donahue",
+        "Ross Girshick",
+        "Trevor Darrell"
+      ],
+      "title": "Part-based R-CNNs for fine-grained category detection",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[39] N. Zhang, J. Donahue, R. Girshick, and T. Darrell. Partbased r-cnns for fine-grained category detection. In Computer Vision–ECCV 2014, pages 834–849. Springer, 2014.",
+      "confidence": 0.95,
+      "entry_index": 38
+    }
+  ]
+}

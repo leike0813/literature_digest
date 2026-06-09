@@ -1,0 +1,648 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/34WIW5FH_Deep Residual Learning for Image Recognition.txt",
+  "entry_style": "numeric",
+  "notes": "'Surname, Initials.' 缩写格式。47 entries。末尾无引用页码标记（干净）。",
+  "items": [
+    {
+      "author": [
+        "Yoshua Bengio",
+        "Patrice Simard",
+        "Paolo Frasconi"
+      ],
+      "title": "Learning long-term dependencies with gradient descent is difficult",
+      "year": 1994,
+      "container": "IEEE TNN",
+      "raw": "[1] Y. Bengio, P. Simard, and P. Frasconi. Learning long-term dependencies... IEEE TNN, 5(2):157–166, 1994.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Christopher M. Bishop"
+      ],
+      "title": "Neural networks for pattern recognition",
+      "year": 1995,
+      "container": "Oxford Univ. Press",
+      "raw": "[2] C. M. Bishop. Neural networks for pattern recognition. Oxford university press, 1995.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "William L. Briggs",
+        "Steve F. McCormick"
+      ],
+      "title": "A Multigrid Tutorial",
+      "year": 2000,
+      "container": "SIAM",
+      "raw": "[3] W. L. Briggs, S. F. McCormick, et al. A Multigrid Tutorial. Siam, 2000.",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Ken Chatfield",
+        "Victor Lempitsky",
+        "Andrea Vedaldi",
+        "Andrew Zisserman"
+      ],
+      "title": "The devil is in the details: an evaluation of recent feature encoding methods",
+      "year": 2011,
+      "container": "BMVC",
+      "raw": "[4] K. Chatfield... The devil is in the details... In BMVC, 2011.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Mark Everingham",
+        "Luc Van Gool",
+        "Christopher K. I. Williams",
+        "John Winn",
+        "Andrew Zisserman"
+      ],
+      "title": "The Pascal Visual Object Classes (VOC) Challenge",
+      "year": 2010,
+      "container": "IJCV",
+      "raw": "[5] M. Everingham... The Pascal VOC Challenge. IJCV, pages 303–338, 2010.",
+      "confidence": 0.95,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Spyros Gidaris",
+        "Nikos Komodakis"
+      ],
+      "title": "Object detection via a multi-region & semantic segmentation-aware CNN model",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[6] S. Gidaris and N. Komodakis. Object detection via a multi-region... In ICCV, 2015.",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Ross Girshick"
+      ],
+      "title": "Fast R-CNN",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[7] R. Girshick. Fast R-CNN. In ICCV, 2015.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "Ross Girshick",
+        "Jeff Donahue",
+        "Trevor Darrell",
+        "Jitendra Malik"
+      ],
+      "title": "Rich feature hierarchies for accurate object detection and semantic segmentation",
+      "year": 2014,
+      "container": "CVPR",
+      "raw": "[8] R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies... In CVPR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Xavier Glorot",
+        "Yoshua Bengio"
+      ],
+      "title": "Understanding the difficulty of training deep feedforward neural networks",
+      "year": 2010,
+      "container": "AISTATS",
+      "raw": "[9] X. Glorot and Y. Bengio. Understanding the difficulty of training deep feedforward neural networks. In AISTATS, 2010.",
+      "confidence": 0.95,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Ian J. Goodfellow",
+        "David Warde-Farley",
+        "Mehdi Mirza",
+        "Aaron Courville",
+        "Yoshua Bengio"
+      ],
+      "title": "Maxout networks",
+      "year": 2013,
+      "container": "arXiv:1302.4389",
+      "raw": "[10] I. J. Goodfellow... Maxout networks. arXiv:1302.4389, 2013.",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Jian Sun"
+      ],
+      "title": "Convolutional neural networks at constrained time cost",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[11] K. He and J. Sun. Convolutional neural networks at constrained time cost. In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Spatial pyramid pooling in deep convolutional networks for visual recognition",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[12] K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling... In ECCV, 2014.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Delving deep into rectifiers: Surpassing human-level performance on ImageNet classification",
+      "year": 2015,
+      "container": "ICCV",
+      "raw": "[13] K. He, X. Zhang, S. Ren, and J. Sun. Delving deep into rectifiers... In ICCV, 2015.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Geoffrey E. Hinton",
+        "Nitish Srivastava",
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Ruslan R. Salakhutdinov"
+      ],
+      "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+      "year": 2012,
+      "container": "arXiv:1207.0580",
+      "raw": "[14] G. E. Hinton... Improving neural networks... arXiv:1207.0580, 2012.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Sepp Hochreiter",
+        "Jürgen Schmidhuber"
+      ],
+      "title": "Long short-term memory",
+      "year": 1997,
+      "container": "Neural Computation",
+      "raw": "[15] S. Hochreiter and J. Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780, 1997.",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Sergey Ioffe",
+        "Christian Szegedy"
+      ],
+      "title": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+      "year": 2015,
+      "container": "ICML",
+      "raw": "[16] S. Ioffe and C. Szegedy. Batch normalization... In ICML, 2015.",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Hervé Jégou",
+        "Matthijs Douze",
+        "Cordelia Schmid"
+      ],
+      "title": "Product quantization for nearest neighbor search",
+      "year": 2011,
+      "container": "TPAMI",
+      "raw": "[17] H. Jegou, M. Douze, and C. Schmid. Product quantization... TPAMI, 33, 2011.",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Hervé Jégou",
+        "Florent Perronnin",
+        "Matthijs Douze",
+        "Jorge Sánchez",
+        "Patrick Pérez",
+        "Cordelia Schmid"
+      ],
+      "title": "Aggregating local image descriptors into compact codes",
+      "year": 2012,
+      "container": "TPAMI",
+      "raw": "[18] H. Jegou... Aggregating local image descriptors into compact codes. TPAMI, 2012.",
+      "confidence": 0.95,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Yangqing Jia",
+        "Evan Shelhamer",
+        "Jeff Donahue",
+        "Sergey Karayev",
+        "Jonathan Long",
+        "Ross Girshick",
+        "Sergio Guadarrama",
+        "Trevor Darrell"
+      ],
+      "title": "Caffe: Convolutional architecture for fast feature embedding",
+      "year": 2014,
+      "container": "arXiv:1408.5093",
+      "raw": "[19] Y. Jia... Caffe... arXiv:1408.5093, 2014.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Alex Krizhevsky"
+      ],
+      "title": "Learning multiple layers of features from tiny images",
+      "year": 2009,
+      "container": "Technical Report",
+      "raw": "[20] A. Krizhevsky. Learning multiple layers of features from tiny images. Tech Report, 2009.",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey Hinton"
+      ],
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "year": 2012,
+      "container": "NIPS",
+      "raw": "[21] A. Krizhevsky, I. Sutskever, and G. Hinton. Imagenet classification... In NIPS, 2012.",
+      "confidence": 0.95,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "Yann LeCun",
+        "Bernhard Boser",
+        "John S. Denker",
+        "Donnie Henderson",
+        "Richard E. Howard",
+        "Wayne Hubbard",
+        "Lawrence D. Jackel"
+      ],
+      "title": "Backpropagation applied to handwritten zip code recognition",
+      "year": 1989,
+      "container": "Neural Computation",
+      "raw": "[22] Y. LeCun... Backpropagation applied to handwritten zip code recognition. Neural computation, 1989.",
+      "confidence": 0.95,
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Genevieve B. Orr",
+        "Klaus-Robert Müller"
+      ],
+      "title": "Efficient backprop",
+      "year": 1998,
+      "container": "Springer",
+      "raw": "[23] Y. LeCun, L. Bottou, G. B. Orr, and K.-R. Muller. Efficient backprop. In Neural Networks: Tricks of the Trade, pages 9–50. Springer, 1998.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Chen-Yu Lee",
+        "Saining Xie",
+        "Patrick Gallagher",
+        "Zhengyou Zhang",
+        "Zhuowen Tu"
+      ],
+      "title": "Deeply-Supervised Nets",
+      "year": 2014,
+      "container": "arXiv:1409.5185",
+      "raw": "[24] C.-Y. Lee... Deeplysupervised nets. arXiv:1409.5185, 2014.",
+      "confidence": 0.95,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Min Lin",
+        "Qiang Chen",
+        "Shuicheng Yan"
+      ],
+      "title": "Network in network",
+      "year": 2013,
+      "container": "arXiv:1312.4400",
+      "raw": "[25] M. Lin, Q. Chen, and S. Yan. Network in network. arXiv:1312.4400, 2013.",
+      "confidence": 0.95,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan",
+        "Piotr Dollár",
+        "C. Lawrence Zitnick"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "[26] T.-Y. Lin... Microsoft COCO... In ECCV. 2014.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Jonathan Long",
+        "Evan Shelhamer",
+        "Trevor Darrell"
+      ],
+      "title": "Fully convolutional networks for semantic segmentation",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[27] J. Long, E. Shelhamer, and T. Darrell. Fully convolutional networks... In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Guido Montúfar",
+        "Razvan Pascanu",
+        "Kyunghyun Cho",
+        "Yoshua Bengio"
+      ],
+      "title": "On the number of linear regions of deep neural networks",
+      "year": 2014,
+      "container": "NIPS",
+      "raw": "[28] G. Montufar... On the number of linear regions of deep neural networks. In NIPS, 2014.",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Vinod Nair",
+        "Geoffrey E. Hinton"
+      ],
+      "title": "Rectified linear units improve restricted Boltzmann machines",
+      "year": 2010,
+      "container": "ICML",
+      "raw": "[29] V. Nair and G. E. Hinton. Rectified linear units... In ICML, 2010.",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Florent Perronnin",
+        "Christopher Dance"
+      ],
+      "title": "Fisher kernels on visual vocabularies for image categorization",
+      "year": 2007,
+      "container": "CVPR",
+      "raw": "[30] F. Perronnin and C. Dance. Fisher kernels on visual vocabularies... In CVPR, 2007.",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Tapani Raiko",
+        "Harri Valpola",
+        "Yann LeCun"
+      ],
+      "title": "Deep learning made easier by linear transformations in perceptrons",
+      "year": 2012,
+      "container": "AISTATS",
+      "raw": "[31] T. Raiko, H. Valpola, and Y. LeCun. Deep learning made easier... In AISTATS, 2012.",
+      "confidence": 0.95,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NIPS",
+      "raw": "[32] S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN... In NIPS, 2015.",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Xiangyu Zhang",
+        "Jian Sun"
+      ],
+      "title": "Object detection networks on convolutional feature maps",
+      "year": 2015,
+      "container": "arXiv:1504.06066",
+      "raw": "[33] S. Ren... Object detection networks on convolutional feature maps. arXiv:1504.06066, 2015.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Brian D. Ripley"
+      ],
+      "title": "Pattern recognition and neural networks",
+      "year": 1996,
+      "container": "Cambridge Univ. Press",
+      "raw": "[34] B. D. Ripley. Pattern recognition and neural networks. Cambridge university press, 1996.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Adriana Romero",
+        "Nicolas Ballas",
+        "Samira Ebrahimi Kahou",
+        "Antoine Chassang",
+        "Carlo Gatta",
+        "Yoshua Bengio"
+      ],
+      "title": "FitNets: Hints for thin deep nets",
+      "year": 2015,
+      "container": "ICLR",
+      "raw": "[35] A. Romero... Fitnets... In ICLR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Olga Russakovsky",
+        "Jia Deng",
+        "Hao Su",
+        "Jonathan Krause",
+        "Sanjeev Satheesh",
+        "Sean Ma",
+        "Zhiheng Huang",
+        "Andrej Karpathy",
+        "Aditya Khosla",
+        "Michael Bernstein"
+      ],
+      "title": "ImageNet large scale visual recognition challenge",
+      "year": 2014,
+      "container": "arXiv:1409.0575",
+      "raw": "[36] O. Russakovsky... Imagenet large scale visual recognition challenge. arXiv:1409.0575, 2014.",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Andrew M. Saxe",
+        "James L. McClelland",
+        "Surya Ganguli"
+      ],
+      "title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+      "year": 2013,
+      "container": "arXiv:1312.6120",
+      "raw": "[37] A. M. Saxe... Exact solutions... arXiv:1312.6120, 2013.",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Nicol N. Schraudolph"
+      ],
+      "title": "Accelerated gradient descent by factor-centering decomposition",
+      "year": 1998,
+      "container": "Technical Report",
+      "raw": "[38] N. N. Schraudolph. Accelerated gradient descent... Technical report, 1998.",
+      "confidence": 0.95,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Nicol N. Schraudolph"
+      ],
+      "title": "Centering neural network gradient factors",
+      "year": 1998,
+      "container": "Springer",
+      "raw": "[39] N. N. Schraudolph. Centering neural network gradient factors. In Neural Networks: Tricks of the Trade, pages 207–226. Springer, 1998.",
+      "confidence": 0.95,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Pierre Sermanet",
+        "David Eigen",
+        "Xiang Zhang",
+        "Michael Mathieu",
+        "Rob Fergus",
+        "Yann LeCun"
+      ],
+      "title": "OverFeat: Integrated recognition, localization and detection using convolutional networks",
+      "year": 2014,
+      "container": "ICLR",
+      "raw": "[40] P. Sermanet... Overfeat... In ICLR, 2014.",
+      "confidence": 0.95,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Karen Simonyan",
+        "Andrew Zisserman"
+      ],
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "year": 2015,
+      "container": "ICLR",
+      "raw": "[41] K. Simonyan and A. Zisserman. Very deep convolutional networks... In ICLR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Rupesh Kumar Srivastava",
+        "Klaus Greff",
+        "Jürgen Schmidhuber"
+      ],
+      "title": "Highway networks",
+      "year": 2015,
+      "container": "arXiv:1505.00387",
+      "raw": "[42] R. K. Srivastava, K. Greff, and J. Schmidhuber. Highway networks. arXiv:1505.00387, 2015.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Rupesh Kumar Srivastava",
+        "Klaus Greff",
+        "Jürgen Schmidhuber"
+      ],
+      "title": "Training very deep networks",
+      "year": 2015,
+      "container": "arXiv:1507.06228",
+      "raw": "[43] R. K. Srivastava, K. Greff, and J. Schmidhuber. Training very deep networks. 1507.06228, 2015.",
+      "confidence": 0.95,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Christian Szegedy",
+        "Wei Liu",
+        "Yangqing Jia",
+        "Pierre Sermanet",
+        "Scott Reed",
+        "Dragomir Anguelov",
+        "Dumitru Erhan",
+        "Vincent Vanhoucke",
+        "Andrew Rabinovich"
+      ],
+      "title": "Going deeper with convolutions",
+      "year": 2015,
+      "container": "CVPR",
+      "raw": "[44] C. Szegedy... Going deeper with convolutions. In CVPR, 2015.",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Richard Szeliski"
+      ],
+      "title": "Fast surface interpolation using hierarchical basis functions",
+      "year": 1990,
+      "container": "TPAMI",
+      "raw": "[45] R. Szeliski. Fast surface interpolation using hierarchical basis functions. TPAMI, 1990.",
+      "confidence": 0.95,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Richard Szeliski"
+      ],
+      "title": "Locally adapted hierarchical basis preconditioning",
+      "year": 2006,
+      "container": "SIGGRAPH",
+      "raw": "[46] R. Szeliski. Locally adapted hierarchical basis preconditioning. In SIGGRAPH, 2006.",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Tommi Vatanen",
+        "Tapani Raiko",
+        "Harri Valpola",
+        "Yann LeCun"
+      ],
+      "title": "Pushing stochastic gradient towards second-order methods",
+      "year": 2013,
+      "container": "ICONIP",
+      "raw": "[47] T. Vatanen... Pushing stochastic gradient... In Neural Information Processing, 2013.",
+      "confidence": 0.95,
+      "entry_index": 46
+    }
+  ]
+}

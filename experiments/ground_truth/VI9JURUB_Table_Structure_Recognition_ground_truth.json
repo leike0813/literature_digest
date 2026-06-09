@@ -1,0 +1,1088 @@
+{
+  "schema": "reference_ground_truth.v1",
+  "source_file": "tests/fixtures/reference_samples/VI9JURUB_Rethinking detection based table structure recognition for visually rich documen.txt",
+  "entry_style": "mixed",
+  "notes": "APA 风格 ('Author, A. (Year). Title. Venue.') — 独特的 author-year 格式。部分条目含 GitHub URL 等非传统引用。74 entries.",
+  "items": [
+    {
+      "author": [
+        "Digambar Adiga",
+        "Shabir Ahmad Bhat",
+        "Muhammad Bashir Shah",
+        "V. Vyeth"
+      ],
+      "title": "Table structure recognition based on cell relationship, a bottom-up approach",
+      "year": 2019,
+      "container": "RANLP",
+      "raw": "Adiga, D., Bhat, S. A., Shah, M. B., & Vyeth, V. (2019). Table structure recognition based on cell relationship, a bottom-up approach. In Proceedings of the international conference on recent advances in natural language processing RANLP 2019, (pp. 1–8). INCOMA Ltd.",
+      "confidence": 0.95,
+      "entry_index": 0
+    },
+    {
+      "author": [
+        "Dan-Sebastian Bacea",
+        "Florin Oniga"
+      ],
+      "title": "Single stage architecture for improved accuracy realtime object detection on mobile devices",
+      "year": 2023,
+      "container": "Image and Vision Computing",
+      "raw": "Bacea, D.-S., & Oniga, F. (2023). Single stage architecture for improved accuracy realtime object detection on mobile devices. Image and Vision Computing, 130, Article 104613.",
+      "confidence": 0.95,
+      "entry_index": 1
+    },
+    {
+      "author": [
+        "Zhaowei Cai",
+        "Nuno Vasconcelos"
+      ],
+      "title": "Cascade R-CNN: Delving into high quality object detection",
+      "year": 2018,
+      "container": "CVPR",
+      "raw": "Cai, Z., & Vasconcelos, N. (2018). Cascade r-cnn: Delving into high quality object detection. In 2018 IEEE/CVF conference on computer vision and pattern recognition (pp. 6154–6162).",
+      "confidence": 0.95,
+      "entry_index": 2
+    },
+    {
+      "author": [
+        "Nicolas Carion",
+        "Francisco Massa",
+        "Gabriel Synnaeve",
+        "Nicolas Usunier",
+        "Alexander Kirillov",
+        "Sergey Zagoruyko"
+      ],
+      "title": "End-to-end object detection with transformers",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "Carion, N., Massa, F., Synnaeve, G., Usunier, N., Kirillov, A., & Zagoruyko, S. (2020). End-to-end object detection with transformers. In European conference on computer vision (pp. 213–229). Springer.",
+      "confidence": 0.95,
+      "entry_index": 3
+    },
+    {
+      "author": [
+        "Kai Chen",
+        "Jiaqi Wang",
+        "Jiangmiao Pang",
+        "Yuhang Cao",
+        "Yu Xiong",
+        "Xiaoxiao Li"
+      ],
+      "title": "MMDetection: Open mmlab detection toolbox and benchmark",
+      "year": 2019,
+      "container": "arXiv:1906.07155",
+      "raw": "Chen, K., Wang, J., Pang, J., Cao, Y., Xiong, Y., Li, X., et al. (2019). MMDetection: Open mmlab detection toolbox and benchmark. arXiv preprint arXiv:1906.07155.",
+      "confidence": 0.92,
+      "entry_index": 4
+    },
+    {
+      "author": [
+        "Fangyi Chen",
+        "Han Zhang",
+        "Kai Hu",
+        "Yu-Kai Huang",
+        "Chenchen Zhu",
+        "Marios Savvides"
+      ],
+      "title": "Enhanced training of query-based object detection via selective query recollection",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Chen, F., Zhang, H., Hu, K., Huang, Y.-K., Zhu, C., & Savvides, M. (2023). Enhanced training of query-based object detection via selective query recollection. In CVPR (pp. 23756–23765).",
+      "confidence": 0.95,
+      "entry_index": 5
+    },
+    {
+      "author": [
+        "Zewen Chi",
+        "Heyan Huang",
+        "Heng-Da Xu",
+        "Houjin Yu",
+        "Wanxian Yin",
+        "Xian-Ling Mao"
+      ],
+      "title": "Complicated table structure recognition",
+      "year": 2019,
+      "container": "arXiv:1908.04729",
+      "raw": "Chi, Z., Huang, H., Xu, H.-D., Yu, H., Yin, W., & Mao, X.-L. (2019). Complicated table structure recognition. arXiv preprint arXiv:1908.04729.",
+      "confidence": 0.95,
+      "entry_index": 6
+    },
+    {
+      "author": [
+        "François Chollet"
+      ],
+      "title": "Xception: Deep learning with depthwise separable convolutions",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "Chollet, F. (2017). Xception: Deep learning with depthwise separable convolutions. In CVPR (pp. 1251–1258).",
+      "confidence": 0.95,
+      "entry_index": 7
+    },
+    {
+      "author": [
+        "Jifeng Dai",
+        "Haozhi Qi",
+        "Yuwen Xiong",
+        "Yi Li",
+        "Guodong Zhang",
+        "Han Hu"
+      ],
+      "title": "Deformable convolutional networks",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "Dai, J., Qi, H., Xiong, Y., Li, Y., Zhang, G., Hu, H., et al. (2017). Deformable convolutional networks. In ICCV (pp. 764–773).",
+      "confidence": 0.92,
+      "entry_index": 8
+    },
+    {
+      "author": [
+        "Jia Deng",
+        "Wei Dong",
+        "Richard Socher",
+        "Li-Jia Li",
+        "Kai Li",
+        "Li Fei-Fei"
+      ],
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "year": 2009,
+      "container": "CVPR",
+      "raw": "Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., & Fei-Fei, L. (2009). Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition (pp. 248–255).",
+      "confidence": 0.95,
+      "entry_index": 9
+    },
+    {
+      "author": [
+        "Xiaohan Ding",
+        "Xiangyu Zhang",
+        "Jungong Han",
+        "Guiguang Ding"
+      ],
+      "title": "Scaling up your kernels to 31x31: Revisiting large kernel design in CNNs",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Ding, X., Zhang, X., Han, J., & Ding, G. (2022). Scaling up your kernels to 31x31: Revisiting large kernel design in cnns. In CVPR (pp. 11963–11975).",
+      "confidence": 0.95,
+      "entry_index": 10
+    },
+    {
+      "author": [
+        "Jason Fernandes",
+        "Bin Xiao",
+        "Murat Simsek",
+        "Burak Kantarci",
+        "Shahzad Khan",
+        "Ala Abu Alkheir"
+      ],
+      "title": "TableStrRec: framework for table structure recognition in data sheet images",
+      "year": 2023,
+      "container": "IJDAR",
+      "raw": "Fernandes, J., Xiao, B., Simsek, M., Kantarci, B., Khan, S., & Alkheir, A. A. (2023). Tablestrrec: framework for table structure recognition in data sheet images. International Journal on Document Analysis and Recognition (IJDAR), 1–19.",
+      "confidence": 0.95,
+      "entry_index": 11
+    },
+    {
+      "author": [
+        "Meng-Hao Guo",
+        "Cheng-Ze Lu",
+        "Qibin Hou",
+        "Zhengning Liu",
+        "Ming-Ming Cheng",
+        "Shi-Min Hu"
+      ],
+      "title": "SegNeXt: Rethinking convolutional attention design for semantic segmentation",
+      "year": 2022,
+      "container": "NeurIPS",
+      "raw": "Guo, M.-H., Lu, C.-Z., Hou, Q., Liu, Z., Cheng, M.-M., & Hu, S.-M. (2022). Segnext: Rethinking convolutional attention design for semantic segmentation. NeurIPS, 35, 1140–1156.",
+      "confidence": 0.95,
+      "entry_index": 12
+    },
+    {
+      "author": [
+        "Khurram Azeem Hashmi",
+        "Didier Stricker",
+        "Marcus Liwicki",
+        "Muhammad Numan Afzal",
+        "Muhammad Zeshan Afzal"
+      ],
+      "title": "Guided table structure recognition through anchor optimization",
+      "year": 2021,
+      "container": "IEEE Access",
+      "raw": "Hashmi, K. A., Stricker, D., Liwicki, M., Afzal, M. N., & Afzal, M. Z. (2021). Guided table structure recognition through anchor optimization. IEEE Access, 9, 113521–113534.",
+      "confidence": 0.95,
+      "entry_index": 13
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Georgia Gkioxari",
+        "Piotr Dollár",
+        "Ross Girshick"
+      ],
+      "title": "Mask R-CNN",
+      "year": 2017,
+      "container": "ICCV",
+      "raw": "He, K., Gkioxari, G., Dollár, P., & Girshick, R. (2017). Mask r-cnn. In ICCV (pp. 2961–2969).",
+      "confidence": 0.95,
+      "entry_index": 14
+    },
+    {
+      "author": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "title": "Deep residual learning for image recognition",
+      "year": 2016,
+      "container": "CVPR",
+      "raw": "He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In CVPR (pp. 770–778).",
+      "confidence": 0.95,
+      "entry_index": 15
+    },
+    {
+      "author": [
+        "Qiyuan Hong",
+        "Feng Liu",
+        "Dong Li",
+        "Ji Liu",
+        "Li Tian",
+        "Yi Shan"
+      ],
+      "title": "Dynamic sparse R-CNN",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Hong, Q., Liu, F., Li, D., Liu, J., Tian, L., & Shan, Y. (2022). Dynamic sparse r-cnn. In CVPR (pp. 4723–4732).",
+      "confidence": 0.95,
+      "entry_index": 16
+    },
+    {
+      "author": [
+        "Andrew G. Howard",
+        "Menglong Zhu",
+        "Bo Chen",
+        "Dmitry Kalenichenko",
+        "Weijun Wang",
+        "Tobias Weyand"
+      ],
+      "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "year": 2017,
+      "container": "arXiv:1704.04861",
+      "raw": "Howard, A. G., Zhu, M., Chen, B., Kalenichenko, D., Wang, W., Weyand, T., et al. (2017). Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861.",
+      "confidence": 0.92,
+      "entry_index": 17
+    },
+    {
+      "author": [
+        "Pengcheng Hu",
+        "Wengang Wang",
+        "Qin Li",
+        "Teng Wang"
+      ],
+      "title": "Touching text line segmentation combined local baseline and connected component for Uchen Tibetan historical documents",
+      "year": 2021,
+      "container": "Information Processing & Management",
+      "raw": "Hu, P., Wang, W., Li, Q., & Wang, T. (2021). Touching text line segmentation combined local baseline and connected component for uchen tibetan historical documents. Information Processing & Management, 58(6), Article 102689.",
+      "confidence": 0.95,
+      "entry_index": 18
+    },
+    {
+      "author": [
+        "Yupeng Huang",
+        "Ning Lu",
+        "Dapeng Chen",
+        "Yuliang Li",
+        "Zecheng Xie",
+        "Shenggao Zhu"
+      ],
+      "title": "Improving table structure recognition with visual-alignment sequential coordinate modeling",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Huang, Y., Lu, N., Chen, D., Li, Y., Xie, Z., Zhu, S., et al. (2023). Improving table structure recognition with visual-alignment sequential coordinate modeling. In CVPR (pp. 11134–11143).",
+      "confidence": 0.95,
+      "entry_index": 19
+    },
+    {
+      "author": [
+        "Sergey Ioffe"
+      ],
+      "title": "Batch normalization: Accelerating deep network training by reducing internal covariate shift",
+      "year": 2015,
+      "container": "arXiv:1502.03167",
+      "raw": "Ioffe, S. (2015). Batch normalization: Accelerating deep network training by reducing internal covariate shift. arXiv preprint arXiv:1502.03167.",
+      "confidence": 0.92,
+      "entry_index": 20
+    },
+    {
+      "author": [
+        "JaidedAI"
+      ],
+      "title": "EasyOCR",
+      "year": 2022,
+      "container": "https://github.com/JaidedAI/EasyOCR.git",
+      "raw": "JaidedA, I. (2022). Easyocr. https://github.com/JaidedAI/EasyOCR.git.",
+      "confidence": 0.7,
+      "notes": "GitHub 软件包，无明确作者",
+      "entry_index": 21
+    },
+    {
+      "author": [
+        "Anders Krogh",
+        "John Hertz"
+      ],
+      "title": "A simple weight decay can improve generalization",
+      "year": 1991,
+      "container": "NeurIPS",
+      "raw": "Krogh, A., & Hertz, J. (1991). A simple weight decay can improve generalization. Advances in Neural Information Processing Systems, 4.",
+      "confidence": 0.95,
+      "entry_index": 22
+    },
+    {
+      "author": [
+        "Zhanghui Kuang",
+        "Hongbin Sun",
+        "Zhizhong Li",
+        "Xiaoyu Yue",
+        "Tsui Hin Lin",
+        "Jianyong Chen"
+      ],
+      "title": "MMOCR: A comprehensive toolbox for text detection, recognition and understanding",
+      "year": 2021,
+      "container": "arXiv:2108.06543",
+      "raw": "Kuang, Z., Sun, H., Li, Z., Yue, X., Lin, T. H., Chen, J., et al. (2021). Mmocr: A comprehensive toolbox for text detection, recognition and understanding. arXiv preprint arXiv:2108.06543.",
+      "confidence": 0.92,
+      "entry_index": 23
+    },
+    {
+      "author": [
+        "Chuyi Li",
+        "Lulu Li",
+        "Hongliang Jiang",
+        "Kaiheng Weng",
+        "Yifei Geng",
+        "Liang Li"
+      ],
+      "title": "YOLOv6: A single-stage object detection framework for industrial applications",
+      "year": 2022,
+      "container": "arXiv:2209.02976",
+      "raw": "Li, C., Li, L., Jiang, H., Weng, K., Geng, Y., Li, L., et al. (2022). Yolov6: A singlestage object detection framework for industrial applications. arXiv preprint arXiv: 2209.02976.",
+      "confidence": 0.92,
+      "entry_index": 24
+    },
+    {
+      "author": [
+        "Xiao-Hui Li",
+        "Fei Yin",
+        "He-Sheng Dai",
+        "Cheng-Lin Liu"
+      ],
+      "title": "Table structure recognition and form parsing by end-to-end object detection and relation parsing",
+      "year": 2022,
+      "container": "Pattern Recognition",
+      "raw": "Li, X.-H., Yin, F., Dai, H.-S., & Liu, C.-L. (2022). Table structure recognition and form parsing by end-to-end object detection and relation parsing. Pattern Recognition, 132, Article 108946.",
+      "confidence": 0.95,
+      "entry_index": 25
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Piotr Dollár",
+        "Ross Girshick",
+        "Kaiming He",
+        "Bharath Hariharan",
+        "Serge Belongie"
+      ],
+      "title": "Feature pyramid networks for object detection",
+      "year": 2017,
+      "container": "CVPR",
+      "raw": "Lin, T.-Y., Dollár, P., Girshick, R., He, K., Hariharan, B., & Belongie, S. (2017). Feature pyramid networks for object detection. In CVPR (pp. 2117–2125).",
+      "confidence": 0.95,
+      "entry_index": 26
+    },
+    {
+      "author": [
+        "Tsung-Yi Lin",
+        "Michael Maire",
+        "Serge Belongie",
+        "James Hays",
+        "Pietro Perona",
+        "Deva Ramanan"
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "year": 2014,
+      "container": "ECCV",
+      "raw": "Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., et al. (2014). Microsoft coco: Common objects in context. In ECCV 2014 (pp. 740–755).",
+      "confidence": 0.95,
+      "entry_index": 27
+    },
+    {
+      "author": [
+        "Hongbin Liu",
+        "Xinyu Li",
+        "Bing Liu",
+        "Deqiang Jiang",
+        "Yinsong Liu",
+        "Bo Ren"
+      ],
+      "title": "Neural collaborative graph machines for table structure recognition",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Liu, H., Li, X., Liu, B., Jiang, D., Liu, Y., & Ren, B. (2022). Neural collaborative graph machines for table structure recognition. In CVPR (pp. 4533–4542).",
+      "confidence": 0.95,
+      "entry_index": 28
+    },
+    {
+      "author": [
+        "Zhuang Liu",
+        "Hanzi Mao",
+        "Chao-Yuan Wu",
+        "Christoph Feichtenhofer",
+        "Trevor Darrell",
+        "Saining Xie"
+      ],
+      "title": "A ConvNet for the 2020s",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Liu, Z., Mao, H., Wu, C.-Y., Feichtenhofer, C., Darrell, T., & Xie, S. (2022). A convnet for the 2020s. In CVPR (pp. 11976–11986).",
+      "confidence": 0.95,
+      "entry_index": 29
+    },
+    {
+      "author": [
+        "Ning Lu",
+        "Wenwen Yu",
+        "Xianbiao Qi",
+        "Yihao Chen",
+        "Ping Gong",
+        "Rong Xiao"
+      ],
+      "title": "MASTER: Multi-aspect non-local network for scene text recognition",
+      "year": 2021,
+      "container": "Pattern Recognition",
+      "raw": "Lu, N., Yu, W., Qi, X., Chen, Y., Gong, P., Xiao, R., et al. (2021). Master: Multiaspect non-local network for scene text recognition. Pattern Recognition, 117, Article 107980.",
+      "confidence": 0.92,
+      "entry_index": 30
+    },
+    {
+      "author": [
+        "Nam Tuan Ly",
+        "Atsuhiro Takasu"
+      ],
+      "title": "An end-to-end multi-task learning model for image-based table recognition",
+      "year": 2023,
+      "container": "VISAPP",
+      "raw": "Ly, N. T., & Takasu, A. (2023). An end-to-end multi-task learning model for image-based table recognition. In VISAPP (pp. 626–634).",
+      "confidence": 0.95,
+      "entry_index": 31
+    },
+    {
+      "author": [
+        "Chixiang Ma",
+        "Weihong Lin",
+        "Lei Sun",
+        "Qiang Huo"
+      ],
+      "title": "Robust table detection and structure recognition from heterogeneous document images",
+      "year": 2023,
+      "container": "Pattern Recognition",
+      "raw": "Ma, C., Lin, W., Sun, L., & Huo, Q. (2023). Robust table detection and structure recognition from heterogeneous document images. Pattern Recognition, 133, Article 109006.",
+      "confidence": 0.95,
+      "entry_index": 32
+    },
+    {
+      "author": [
+        "Jorge Mendes",
+        "João Saraiva"
+      ],
+      "title": "Tabula: A language to model spreadsheet tables",
+      "year": 2017,
+      "container": "arXiv:1707.02833",
+      "raw": "Mendes, J., & Saraiva, J. (2017). Tabula: A language to model spreadsheet tables. arXiv preprint arXiv:1707.02833.",
+      "confidence": 0.95,
+      "entry_index": 33
+    },
+    {
+      "author": [
+        "Arpan Mondal",
+        "Mayank Agarwal",
+        "C. V. Jawahar"
+      ],
+      "title": "Dataset agnostic document object detection",
+      "year": 2023,
+      "container": "Pattern Recognition",
+      "raw": "Mondal, A., Agarwal, M., & Jawahar, C. (2023). Dataset agnostic document object detection. Pattern Recognition, 142, Article 109698.",
+      "confidence": 0.95,
+      "entry_index": 34
+    },
+    {
+      "author": [
+        "Ahmed Nassar",
+        "Nikos Livathinos",
+        "Maksym Lysak",
+        "Peter Staar"
+      ],
+      "title": "TableFormer: Table structure understanding with transformers",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Nassar, A., Livathinos, N., Lysak, M., & Staar, P. (2022). Tableformer: Table structure understanding with transformers. In CVPR (pp. 4614–4623).",
+      "confidence": 0.95,
+      "entry_index": 35
+    },
+    {
+      "author": [
+        "Nam Quan Nguyen",
+        "Anh Duy Le",
+        "Anh Khoa Lu",
+        "Xuan Toan Mai",
+        "Tuan Anh Tran"
+      ],
+      "title": "ForMerge: Recover spanning cells in complex table structure using transformer network",
+      "year": 2023,
+      "container": "ICDAR",
+      "raw": "Nguyen, N. Q., Le, A. D., Lu, A. K., Mai, X. T., & Tran, T. A. (2023). Formerge: Recover spanning cells in complex table structure using transformer network. In ICDAR (pp. 522–534).",
+      "confidence": 0.95,
+      "entry_index": 36
+    },
+    {
+      "author": [
+        "Razvan Pascanu"
+      ],
+      "title": "On the difficulty of training recurrent neural networks",
+      "year": 2013,
+      "container": "arXiv:1211.5063",
+      "raw": "Pascanu, R. (2013). On the difficulty of training recurrent neural networks. arXiv preprint arXiv:1211.5063.",
+      "confidence": 0.92,
+      "entry_index": 37
+    },
+    {
+      "author": [
+        "Devashish Prasad",
+        "Ayan Gadpal",
+        "Kshitij Kapadni",
+        "Manish Visave",
+        "Kavita Sultanpure"
+      ],
+      "title": "CascadeTabNet: An approach for end to end table detection and structure recognition from image-based documents",
+      "year": 2020,
+      "container": "CVPR",
+      "raw": "Prasad, D., Gadpal, A., Kapadni, K., Visave, M., & Sultanpure, K. (2020). Cascadetabnet: An approach for end to end table detection and structure recognition from imagebased documents. In CVPR (pp. 572-573).",
+      "confidence": 0.9,
+      "entry_index": 38
+    },
+    {
+      "author": [
+        "Liang Qiao",
+        "Zaisheng Li",
+        "Zhanzhan Cheng",
+        "Peng Zhang",
+        "Shiliang Pu",
+        "Yi Niu"
+      ],
+      "title": "LGPMA: Complicated table structure recognition with local and global pyramid mask alignment",
+      "year": 2021,
+      "container": "ICDAR",
+      "raw": "Qiao, L., Li, Z., Cheng, Z., Zhang, P., Pu, S., Niu, Y., et al. (2021). Lgpma: Complicated table structure recognition with local and global pyramid mask alignment. In ICDAR (pp. 99–114).",
+      "confidence": 0.92,
+      "entry_index": 39
+    },
+    {
+      "author": [
+        "Roya Rastan",
+        "Hye-Young Paik",
+        "John Shepherd"
+      ],
+      "title": "TEXUS: A unified framework for extracting and understanding tables in PDF documents",
+      "year": 2019,
+      "container": "Information Processing & Management",
+      "raw": "Rastan, R., Paik, H.-Y., & Shepherd, J. (2019). Texus: A unified framework for extracting and understanding tables in pdf documents. Information Processing & Management, 56(3), 895–918.",
+      "confidence": 0.95,
+      "entry_index": 40
+    },
+    {
+      "author": [
+        "Shaoqing Ren",
+        "Kaiming He",
+        "Ross Girshick",
+        "Jian Sun"
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "year": 2015,
+      "container": "NeurIPS",
+      "raw": "Ren, S., He, K., Girshick, R., & Sun, J. (2015). Faster r-cnn: Towards real-time object detection with region proposal networks. Advances in Neural Information Processing Systems, 28.",
+      "confidence": 0.95,
+      "entry_index": 41
+    },
+    {
+      "author": [
+        "Tianhe Ren",
+        "Shilong Liu",
+        "Feng Li",
+        "Hao Zhang",
+        "Ailing Zeng",
+        "Jian Yang"
+      ],
+      "title": "detrex: Benchmarking detection transformers",
+      "year": 2023,
+      "container": "arXiv:2306.07265",
+      "raw": "Ren, T., Liu, S., Li, F., Zhang, H., Zeng, A., Yang, J., et al. (2023). Detrex: Benchmarking detection transformers. arXiv preprint arXiv:2306.07265.",
+      "confidence": 0.92,
+      "entry_index": 42
+    },
+    {
+      "author": [
+        "Sebastian Schreiber",
+        "Stefan Agne",
+        "Ivo Wolf",
+        "Andreas Dengel",
+        "Sheraz Ahmed"
+      ],
+      "title": "DeepDeSRT: Deep learning for detection and structure recognition of tables in document images",
+      "year": 2017,
+      "container": "ICDAR",
+      "raw": "Schreiber, S., Agne, S., Wolf, I., Dengel, A. R., & Ahmed, S. (2017). Deepdesrt: Deep learning for detection and structure recognition of tables in document images. In ICDAR (pp. 1162–1167).",
+      "confidence": 0.95,
+      "entry_index": 43
+    },
+    {
+      "author": [
+        "Huawen Shen",
+        "Xiang Gao",
+        "Jin Wei",
+        "Liang Qiao",
+        "Yu Zhou",
+        "Qiang Li"
+      ],
+      "title": "Divide rows and conquer cells: Towards structure recognition for large tables",
+      "year": 2023,
+      "container": "IJCAI",
+      "raw": "Shen, H., Gao, X., Wei, J., Qiao, L., Zhou, Y., Li, Q., et al. (2023). Divide rows and conquer cells: Towards structure recognition for large tables. In IJCAI-23 (pp. 1369–1377).",
+      "confidence": 0.92,
+      "entry_index": 44
+    },
+    {
+      "author": [
+        "Shadab Ahmed Siddiqui",
+        "Imran Ali Fateh",
+        "Syed Tahseen Raza Rizvi",
+        "Andreas Dengel",
+        "Sheraz Ahmed"
+      ],
+      "title": "DeepTabStr: Deep learning based table structure recognition",
+      "year": 2019,
+      "container": "ICDAR",
+      "raw": "Siddiqui, S. A., Fateh, I. A., Rizvi, S. T. R., Dengel, A., & Ahmed, S. (2019). Deeptabstr: Deep learning based table structure recognition. In ICDAR (pp. 1403–1409).",
+      "confidence": 0.95,
+      "entry_index": 45
+    },
+    {
+      "author": [
+        "Shadab Ahmed Siddiqui",
+        "Muhammad Imran Malik",
+        "Stefan Agne",
+        "Andreas Dengel",
+        "Sheraz Ahmed"
+      ],
+      "title": "DecNT: Deep deformable CNN for table detection",
+      "year": 2018,
+      "container": "IEEE Access",
+      "raw": "Siddiqui, S. A., Malik, M. I., Agne, S., Dengel, A., & Ahmed, S. (2018). Decnt: Deep deformable cnn for table detection. IEEE Access, 6, 74151–74161.",
+      "confidence": 0.95,
+      "entry_index": 46
+    },
+    {
+      "author": [
+        "Jeremy Singer-Vine"
+      ],
+      "title": "pdfplumber",
+      "year": 2022,
+      "container": "https://github.com/jsvine/pdfplumber.git",
+      "raw": "Singer-Vine, J. (2022). Pdfplumber. https://github.com/jsvine/pdfplumber.git.",
+      "confidence": 0.7,
+      "notes": "GitHub 软件包",
+      "entry_index": 47
+    },
+    {
+      "author": [
+        "Brandon Smock",
+        "Rohith Pesala"
+      ],
+      "title": "Table Transformer",
+      "year": 2021,
+      "container": "https://github.com/microsoft/table-transformer",
+      "raw": "Smock, B., & Pesala, R. (2021). Table transformer. https://github.com/microsoft/tabletransformer.",
+      "confidence": 0.7,
+      "notes": "GitHub 仓库",
+      "entry_index": 48
+    },
+    {
+      "author": [
+        "Brandon Smock",
+        "Rohith Pesala",
+        "Robin Abraham"
+      ],
+      "title": "PubTables-1M: Towards comprehensive table extraction from unstructured documents",
+      "year": 2022,
+      "container": "CVPR",
+      "raw": "Smock, B., Pesala, R., & Abraham, R. (2022). Pubtables-1 m: Towards comprehensive table extraction from unstructured documents. In CVPR (pp. 4634–4642).",
+      "confidence": 0.95,
+      "entry_index": 49
+    },
+    {
+      "author": [
+        "Brandon Smock",
+        "Rohith Pesala",
+        "Robin Abraham"
+      ],
+      "title": "Aligning benchmark datasets for table structure recognition",
+      "year": 2023,
+      "container": "ICDAR",
+      "raw": "Smock, B., Pesala, R., & Abraham, R. (2023). Aligning benchmark datasets for table structure recognition. In ICDAR (pp. 371–386).",
+      "confidence": 0.95,
+      "entry_index": 50
+    },
+    {
+      "author": [
+        "Peize Sun",
+        "Yi Jiang",
+        "Enze Xie",
+        "Wenqi Shao",
+        "Zehuan Yuan",
+        "Changhu Wang"
+      ],
+      "title": "What makes for end-to-end object detection?",
+      "year": 2021,
+      "container": "ICML",
+      "raw": "Sun, P., Jiang, Y., Xie, E., Shao, W., Yuan, Z., Wang, C., et al. (2021). What makes for end-to-end object detection? In ICML (pp. 9934–9944).",
+      "confidence": 0.92,
+      "entry_index": 51
+    },
+    {
+      "author": [
+        "Peize Sun",
+        "Rufeng Zhang",
+        "Yi Jiang",
+        "Tao Kong",
+        "Chenfeng Xu",
+        "Wei Zhan"
+      ],
+      "title": "Sparse R-CNN: End-to-end object detection with learnable proposals",
+      "year": 2021,
+      "container": "CVPR",
+      "raw": "Sun, P., Zhang, R., Jiang, Y., Kong, T., Xu, C., Zhan, W., et al. (2021). Sparse r-cnn: End-to-end object detection with learnable proposals. In CVPR (pp. 14454–14463).",
+      "confidence": 0.92,
+      "entry_index": 52
+    },
+    {
+      "author": [
+        "Chris Tensmeyer",
+        "Vlad I. Morariu",
+        "Brian Price",
+        "Scott Cohen",
+        "Tony Martinez"
+      ],
+      "title": "Deep splitting and merging for table structure decomposition",
+      "year": 2019,
+      "container": "ICDAR",
+      "raw": "Tensmeyer, C., Morariu, V. I., Price, B., Cohen, S., & Martinez, T. (2019). Deep splitting and merging for table structure decomposition. In ICDAR (pp. 114–121).",
+      "confidence": 0.95,
+      "entry_index": 53
+    },
+    {
+      "author": [
+        "Zhi Tian",
+        "Chunhua Shen",
+        "Hao Chen",
+        "Tong He"
+      ],
+      "title": "FCOS: Fully convolutional one-stage object detection",
+      "year": 2019,
+      "container": "ICCV",
+      "raw": "Tian, Z., Shen, C., Chen, H., & He, T. (2019). Fcos: Fully convolutional one-stage object detection. In ICCV (pp. 9627–9636).",
+      "confidence": 0.95,
+      "entry_index": 54
+    },
+    {
+      "author": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez"
+      ],
+      "title": "Attention is all you need",
+      "year": 2017,
+      "container": "NeurIPS",
+      "raw": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., et al. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30.",
+      "confidence": 0.92,
+      "entry_index": 55
+    },
+    {
+      "author": [
+        "Chien-Yao Wang",
+        "Alexey Bochkovskiy",
+        "Hong-Yuan Mark Liao"
+      ],
+      "title": "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Wang, C.-Y., Bochkovskiy, A., & Liao, H.-Y. M. (2023). YOLOv7: Trainable bag-offreebies sets new state-of-the-art for real-time object detectors. In CVPR.",
+      "confidence": 0.95,
+      "entry_index": 56
+    },
+    {
+      "author": [
+        "Jian Wang",
+        "Weihong Lin",
+        "Chixiang Ma",
+        "Mingze Li",
+        "Zheng Sun",
+        "Lei Sun"
+      ],
+      "title": "Robust table structure recognition with dynamic queries enhanced detection transformer",
+      "year": 2023,
+      "container": "Pattern Recognition",
+      "raw": "Wang, J., Lin, W., Ma, C., Li, M., Sun, Z., Sun, L., et al. (2023). Robust table structure recognition with dynamic queries enhanced detection transformer. Pattern Recognition, 144, Article 109817.",
+      "confidence": 0.92,
+      "entry_index": 57
+    },
+    {
+      "author": [
+        "Yuxin Wu",
+        "Alexander Kirillov",
+        "Francisco Massa",
+        "Wan-Yen Lo",
+        "Ross Girshick"
+      ],
+      "title": "Detectron2",
+      "year": 2019,
+      "container": "https://github.com/facebookresearch/detectron2",
+      "raw": "Wu, Y., Kirillov, A., Massa, F., Lo, W.-Y., & Girshick, R. (2019). Detectron2. https://github.com/facebookresearch/detectron2.",
+      "confidence": 0.75,
+      "notes": "GitHub 软件",
+      "entry_index": 58
+    },
+    {
+      "author": [
+        "Xiaoran Wu",
+        "Tianzhu Ma",
+        "Xiaogang Du",
+        "Zhenyu Hu",
+        "Jian Yang",
+        "Liang He"
+      ],
+      "title": "DRFN: A unified framework for complex document layout analysis",
+      "year": 2023,
+      "container": "Information Processing & Management",
+      "raw": "Wu, X., Ma, T., Du, X., Hu, Z., Yang, J., & He, L. (2023). Drfn: A unified framework for complex document layout analysis. Information Processing & Management, 60(3), Article 103339.",
+      "confidence": 0.95,
+      "entry_index": 59
+    },
+    {
+      "author": [
+        "Xiaoran Wu",
+        "Liang Xiao",
+        "Xiaogang Du",
+        "Yi Zheng",
+        "Xinyu Li",
+        "Tianzhu Ma"
+      ],
+      "title": "Cross-domain document layout analysis using document style guide",
+      "year": 2023,
+      "container": "Expert Systems with Applications",
+      "raw": "Wu, X., Xiao, L., Du, X., Zheng, Y., Li, X., Ma, T., et al. (2023). Cross-domain document layout analysis using document style guide. Expert Systems with Applications, Article 123039.",
+      "confidence": 0.92,
+      "entry_index": 60
+    },
+    {
+      "author": [
+        "Bin Xiao",
+        "Yilmaz Akkaya",
+        "Murat Simsek",
+        "Burak Kantarci",
+        "Ala Abu Alkheir"
+      ],
+      "title": "Efficient information sharing in ICT supply chain social network via table structure recognition",
+      "year": 2022,
+      "container": "GLOBECOM",
+      "raw": "Xiao, B., Akkaya, Y., Simsek, M., Kantarci, B., & Alkheir, A. A. (2022). Efficient information sharing in ict supply chain social network via table structure recognition. In GLOBECOM 2022 (pp. 4661–4666).",
+      "confidence": 0.95,
+      "entry_index": 61
+    },
+    {
+      "author": [
+        "Bin Xiao",
+        "Yilmaz Akkaya",
+        "Murat Simsek",
+        "Burak Kantarci",
+        "Ala Abu Alkheir"
+      ],
+      "title": "Multi-modal OCR system for the ICT global supply chain",
+      "year": 2023,
+      "container": "ICC",
+      "raw": "Xiao, B., Akkaya, Y., Simsek, M., Kantarci, B., & Alkheir, A. A. (2023). Multi-modal ocr system for the ict global supply chain. In ICC 2023 (pp. 3096–3101).",
+      "confidence": 0.95,
+      "entry_index": 62
+    },
+    {
+      "author": [
+        "Bin Xiao",
+        "Murat Simsek",
+        "Burak Kantarci",
+        "Ala Abu Alkheir"
+      ],
+      "title": "Handling big tabular data of ICT supply chains: a multi-task, machine-interpretable approach",
+      "year": 2022,
+      "container": "GLOBECOM",
+      "raw": "Xiao, B., Simsek, M., Kantarci, B., & Alkheir, A. A. (2022). Handling big tabular data of ict supply chains: a multi-task, machine-interpretable approach. In GLOBECOM 2022 (pp. 504–509).",
+      "confidence": 0.95,
+      "entry_index": 63
+    },
+    {
+      "author": [
+        "Bin Xiao",
+        "Murat Simsek",
+        "Burak Kantarci",
+        "Ala Abu Alkheir"
+      ],
+      "title": "Revisiting table detection datasets for visually rich documents",
+      "year": 2023,
+      "container": "arXiv:2305.04833",
+      "raw": "Xiao, B., Simsek, M., Kantarci, B., & Alkheir, A. A. (2023b). Revisiting table detection datasets for visually rich documents. arXiv preprint arXiv:2305.04833.",
+      "confidence": 0.95,
+      "entry_index": 64
+    },
+    {
+      "author": [
+        "Bin Xiao",
+        "Murat Simsek",
+        "Burak Kantarci",
+        "Ala Abu Alkheir"
+      ],
+      "title": "Table detection for visually rich document images",
+      "year": 2023,
+      "container": "Knowledge-Based Systems",
+      "raw": "Xiao, B., Simsek, M., Kantarci, B., & Alkheir, A. A. (2023c). Table detection for visually rich document images. Knowledge-Based Systems, 282, Article 111080.",
+      "confidence": 0.95,
+      "entry_index": 65
+    },
+    {
+      "author": [
+        "Wenyuan Xue",
+        "Baosheng Yu",
+        "Wen Wang",
+        "Dacheng Tao",
+        "Qingyong Li"
+      ],
+      "title": "TGRNet: A table graph reconstruction network for table structure recognition",
+      "year": 2021,
+      "container": "ICCV",
+      "raw": "Xue, W., Yu, B., Wang, W., Tao, D., & Li, Q. (2021). Tgrnet: A table graph reconstruction network for table structure recognition. In ICCV (pp. 1295-1304).",
+      "confidence": 0.95,
+      "entry_index": 66
+    },
+    {
+      "author": [
+        "Junyi Ye",
+        "Xianbiao Qi",
+        "Yulin He",
+        "Yihao Chen",
+        "Dengyi Gu",
+        "Peng Gao"
+      ],
+      "title": "PingAn-VCGroup's solution for ICDAR 2021 competition on scientific literature parsing task B: Table recognition to HTML",
+      "year": 2021,
+      "container": "arXiv:2105.01848",
+      "raw": "Ye, J., Qi, X., He, Y., Chen, Y., Gu, D., Gao, P., et al. (2021). Pingan-vcgroup's solution for icdar 2021 competition on scientific literature parsing task b: Table recognition to html. arXiv preprint arXiv:2105.01848.",
+      "confidence": 0.9,
+      "entry_index": 67
+    },
+    {
+      "author": [
+        "Feiyang Yu",
+        "Junwen Huang",
+        "Zhen Luo",
+        "Li Zhang",
+        "Wei Lu"
+      ],
+      "title": "An effective method for figures and tables detection in academic literature",
+      "year": 2023,
+      "container": "Information Processing & Management",
+      "raw": "Yu, F., Huang, J., Luo, Z., Zhang, L., & Lu, W. (2023). An effective method for figures and tables detection in academic literature. Information Processing & Management, 60(3), Article 103286.",
+      "confidence": 0.95,
+      "entry_index": 68
+    },
+    {
+      "author": [
+        "Shilong Zhang",
+        "Xinjiang Wang",
+        "Jiaqi Wang",
+        "Jiangmiao Pang",
+        "Chengqi Lyu",
+        "Wenwei Zhang"
+      ],
+      "title": "Dense distinct query for end-to-end object detection",
+      "year": 2023,
+      "container": "CVPR",
+      "raw": "Zhang, S., Wang, X., Wang, J., Pang, J., Lyu, C., Zhang, W., et al. (2023). Dense distinct query for end-to-end object detection. In CVPR (pp. 7329–7338).",
+      "confidence": 0.92,
+      "entry_index": 69
+    },
+    {
+      "author": [
+        "Zhuoran Zhang",
+        "Jianpeng Zhang",
+        "Jun Du",
+        "Fei Wang"
+      ],
+      "title": "Split, embed and merge: An accurate table structure recognizer",
+      "year": 2022,
+      "container": "Pattern Recognition",
+      "raw": "Zhang, Z., Zhang, J., Du, J., & Wang, F. (2022). Split, embed and merge: An accurate table structure recognizer. Pattern Recognition, 126, Article 108565.",
+      "confidence": 0.95,
+      "entry_index": 70
+    },
+    {
+      "author": [
+        "Xinyi Zheng",
+        "Douglas Burdick",
+        "Lucian Popa",
+        "Xu Zhong",
+        "Nancy Xin Ru Wang"
+      ],
+      "title": "Global table extractor (GTE): A framework for joint table identification and cell structure recognition using visual context",
+      "year": 2021,
+      "container": "WACV",
+      "raw": "Zheng, X., Burdick, D., Popa, L., Zhong, X., & Wang, N. X. R. (2021). Global table extractor (gte): A framework for joint table identification and cell structure recognition using visual context. In WACV (pp. 697–706).",
+      "confidence": 0.95,
+      "entry_index": 71
+    },
+    {
+      "author": [
+        "Xu Zhong",
+        "Elham ShafieiBavani",
+        "Antonio Jimeno Yepes"
+      ],
+      "title": "Image-based table recognition: data, model, and evaluation",
+      "year": 2020,
+      "container": "ECCV",
+      "raw": "Zhong, X., ShafieiBavani, E., & Jimeno Yepes, A. (2020). Image-based table recognition: data, model, and evaluation. In ECCV (pp. 564–580).",
+      "confidence": 0.95,
+      "entry_index": 72
+    },
+    {
+      "author": [
+        "Xizhou Zhu",
+        "Weijie Su",
+        "Lewei Lu",
+        "Bin Li",
+        "Xiaogang Wang",
+        "Jifeng Dai"
+      ],
+      "title": "Deformable DETR: Deformable transformers for end-to-end object detection",
+      "year": 2021,
+      "container": "ICLR",
+      "raw": "Zhu, X., Su, W., Lu, L., Li, B., Wang, X., & Dai, J. (2021). Deformable detr: Deformable transformers for end-to-end object detection. In ICLR.",
+      "confidence": 0.95,
+      "entry_index": 73
+    }
+  ]
+}

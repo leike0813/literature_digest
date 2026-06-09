@@ -245,6 +245,65 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertIn("--mode render", payload["command_example"]["command"])
             self.assertIsNone(payload["command_example"]["payload_example"])
 
+    def test_gate_exposes_low_quality_reference_extraction_decision(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            quality = {
+                "schema": "reference_preprocess_quality.v1",
+                "preprocess_version": "line-first-v171",
+                "metrics": {"fallback_best_ratio": 1.0},
+                "thresholds": {},
+                "triggered_signals": ["fallback_best_ratio", "year_ratio", "numbering_anomaly", "empty_title_ratio"],
+                "trigger_count": 4,
+                "trigger_min": 4,
+                "file_quality_low": True,
+            }
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_source_document(connection, doc_key="normalized_source", content="# References\n[2] OCR\n", metadata={})
+                runtime_db.store_section_scope(connection, scope_key="references_scope", section_title="References", line_start=1, line_end=2, metadata={})
+                runtime_db.store_reference_entries(connection, [{"entry_index": 0, "raw": "[2] OCR", "year": None, "metadata": {}}])
+                runtime_db.store_reference_parse_candidates(
+                    connection,
+                    [
+                        {
+                            "entry_index": 0,
+                            "candidate_index": 0,
+                            "pattern": "fallback_raw_split",
+                            "author_text": "[2] OCR",
+                            "author_candidates": ["OCR"],
+                            "title_candidate": "",
+                            "container_candidate": "",
+                            "year_candidate": None,
+                            "confidence": 0.35,
+                            "metadata": {},
+                        }
+                    ],
+                )
+                runtime_db.store_reference_preprocess_quality(connection, quality)
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_4_references",
+                    current_substep="decide_reference_extraction",
+                    stage_gate="ready",
+                    next_action="decide_reference_extraction",
+                    status_summary="reference preprocess quality is low",
+                )
+                connection.commit()
+
+            result = self.run_gate(db_path)
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertEqual(payload["next_action"], "decide_reference_extraction")
+            self.assertEqual(payload["reference_preprocess_quality"]["trigger_count"], 4)
+            self.assertNotIn("preprocess_version", payload["reference_preprocess_quality"])
+            self.assertIn("abandon", payload["command_example"]["payload_example"])
+            self.assertIn("DB-backed", payload["command_example"]["notes"])
+            self.assertNotIn("line-first-v171", payload["command_example"]["notes"])
+            self.assertIn("file_quality_low", payload["execution_note"])
+            self.assertNotIn("line-first-v171", payload["execution_note"])
+
     def test_stage_6_is_blocked_when_stage_5_receipts_are_missing(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:
@@ -450,7 +509,10 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertEqual(issue["reason_code"], "bare_identifier_or_url_title")
             self.assertIn("recommendation", issue)
             self.assertIn("quality_directives", payload["execution_note"])
+            self.assertIn("original language/script", payload["execution_note"])
+            self.assertIn("do not translate", payload["execution_note"])
             self.assertIn("persist_references", payload["command_example"]["command"])
+            self.assertIn("original language/script", payload["command_example"]["notes"])
 
     def test_stage4_soft_quality_issues_route_to_review_directives(self):
         runtime_db = load_runtime_db_module()
@@ -495,6 +557,8 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertEqual(payload["quality_directives"]["issues"][0]["reason_code"], "missing_year")
             self.assertIn("review_reference_quality", payload["command_example"]["command"])
             self.assertIn("accept_warning", payload["command_example"]["payload_example"]["resolutions"][0]["resolution"])
+            self.assertIn("original language/script", payload["execution_note"])
+            self.assertIn("do not translate", payload["execution_note"])
 
 
 if __name__ == "__main__":

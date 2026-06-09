@@ -1,0 +1,2667 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:41Z",
+    "entry_count": 31,
+    "candidate_count": 111,
+    "batch_count": 3,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] Cheng Cui, Ruoyu Guo, Yuning Du, Dongliang He, Fu Li, Zewu Wu, Qiwen Liu, Shilei Wen, Jizhou Huang, Xiaoguang Hu, et al. Beyond self-supervision: A simple yet effective network distillation alternative to improve backbones. arXiv, 2021.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] Cheng Cui, Ruoyu Guo, Yuning Du, Dongliang He, Fu Li, Zewu Wu, Qiwen Liu, Shilei Wen, Jizhou Huang, Xiaoguang Hu, et al. Beyond self-supervision: A simple yet effective network distillation alternative to improve backbones. arXiv, 2021."
+      ]
+    },
+    {
+      "block_index": 1,
+      "source_text": "[2] Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Re. Flashattention: Fast and memory-efficient exact ´ attention with io-awareness. In NeurIPS, 2022.",
+      "line_start": 2,
+      "line_end": 2,
+      "proposed_entries": [
+        "[2] Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Re. Flashattention: Fast and memory-efficient exact ´ attention with io-awareness. In NeurIPS, 2022."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[3] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. In ICLR, 2020.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[3] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. In ICLR, 2020."
+      ]
+    },
+    {
+      "block_index": 3,
+      "source_text": "[4] Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D Cubuk, Quoc V Le, and Barret Zoph. Simple copy-paste is a strong data augmentation method for instance segmentation. In CVPR, 2021.",
+      "line_start": 4,
+      "line_end": 4,
+      "proposed_entries": [
+        "[4] Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D Cubuk, Quoc V Le, and Barret Zoph. Simple copy-paste is a strong data augmentation method for instance segmentation. In CVPR, 2021."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[5] Jocher Glenn. Yolov8. https://docs.ultralytics. com/models/yolov8/, 2023.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[5] Jocher Glenn. Yolov8. https://docs.ultralytics. com/models/yolov8/, 2023."
+      ]
+    },
+    {
+      "block_index": 5,
+      "source_text": "[6] Jocher Glenn. Yolo11. https://docs.ultralytics. com/models/yolo11/, 2024.",
+      "line_start": 6,
+      "line_end": 6,
+      "proposed_entries": [
+        "[6] Jocher Glenn. Yolo11. https://docs.ultralytics. com/models/yolo11/, 2024."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[7] Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, and Xi Shen. Deim: Detr with improved matching for fast convergence. In CVPR, 2025.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[7] Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, and Xi Shen. Deim: Detr with improved matching for fast convergence. In CVPR, 2025."
+      ]
+    },
+    {
+      "block_index": 7,
+      "source_text": "[8] Muhammad Hussain. Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature toward digital manufacturing and industrial defect detection. 2023.",
+      "line_start": 8,
+      "line_end": 8,
+      "proposed_entries": [
+        "[8] Muhammad Hussain. Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature toward digital manufacturing and industrial defect detection. 2023."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[9] Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0: A full-scale reloading. arXiv, 2023.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[9] Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0: A full-scale reloading. arXiv, 2023."
+      ]
+    },
+    {
+      "block_index": 9,
+      "source_text": "[10] Yanghao Li, Hanzi Mao, Ross Girshick, and Kaiming He. Exploring plain vision transformer backbones for object detection. In ECCV, 2022.",
+      "line_start": 10,
+      "line_end": 10,
+      "proposed_entries": [
+        "[10] Yanghao Li, Hanzi Mao, Ross Girshick, and Kaiming He. Exploring plain vision transformer backbones for object detection. In ECCV, 2022."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[11] Siyuan Liang, Hao Wu, Li Zhen, Qiaozhi Hua, Sahil Garg, Georges Kaddoum, Mohammad Mehedi Hassan, and Keping Yu. Edge yolo: Real-time intelligent object detection system based on edge-cloud cooperation in autonomous vehicles. IEEE Transactions on Intelligent Transportation Systems, 2022.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[11] Siyuan Liang, Hao Wu, Li Zhen, Qiaozhi Hua, Sahil Garg, Georges Kaddoum, Mohammad Mehedi Hassan, and Keping Yu. Edge yolo: Real-time intelligent object detection system based on edge-cloud cooperation in autonomous vehicles. IEEE Transactions on Intelligent Transportation Systems, 2022."
+      ]
+    },
+    {
+      "block_index": 11,
+      "source_text": "[12] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco: Common objects in context. In ECCV, 2014.",
+      "line_start": 12,
+      "line_end": 12,
+      "proposed_entries": [
+        "[12] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco: Common objects in context. In ECCV, 2014."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[13] Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao, Hui Shen, Jianguo Ren, Shumin Han, Errui Ding, and Shilei Wen. Pp-yolo: An effective and efficient implementation of object detector. arXiv, 2020.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[13] Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao, Hui Shen, Jianguo Ren, Shumin Han, Errui Ding, and Shilei Wen. Pp-yolo: An effective and efficient implementation of object detector. arXiv, 2020."
+      ]
+    },
+    {
+      "block_index": 13,
+      "source_text": "[14] Wenyu Lv, Yian Zhao, Qinyao Chang, Kui Huang, Guanzhong Wang, and Yi Liu. Rt-detrv2: Improved baseline with bag-of-freebies for real-time detection transformer. arXiv, 2024.",
+      "line_start": 14,
+      "line_end": 14,
+      "proposed_entries": [
+        "[14] Wenyu Lv, Yian Zhao, Qinyao Chang, Kui Huang, Guanzhong Wang, and Yi Liu. Rt-detrv2: Improved baseline with bag-of-freebies for real-time detection transformer. arXiv, 2024."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[15] Rangi Lyu. Nanodet-plus. https://github.com/ RangiLyu / nanodet / releases / tag / v1 . 0 . 0 - alpha-1, 2021. Version 1.0.0-alpha-1. 6",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[15] Rangi Lyu. Nanodet-plus. https://github.com/ RangiLyu / nanodet / releases / tag / v1 . 0 . 0 - alpha-1, 2021. Version 1.0.0-alpha-1. 6"
+      ]
+    },
+    {
+      "block_index": 15,
+      "source_text": "[16] Debapriya Maji, Soyeb Nagori, Manu Mathew, and Deepak Poddar. Yolo-6d-pose: Enhancing yolo for single-stage monocular multi-object 6d pose estimation. In 3DV, 2024.",
+      "line_start": 16,
+      "line_end": 16,
+      "proposed_entries": [
+        "[16] Debapriya Maji, Soyeb Nagori, Manu Mathew, and Deepak Poddar. Yolo-6d-pose: Enhancing yolo for single-stage monocular multi-object 6d pose estimation. In 3DV, 2024."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[17] Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, and Feng Wu. D-fine: Redefine regression task in detrs as fine-grained distribution refinement. In ICLR, 2024.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[17] Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, and Feng Wu. D-fine: Redefine regression task in detrs as fine-grained distribution refinement. In ICLR, 2024."
+      ]
+    },
+    {
+      "block_index": 17,
+      "source_text": "[18] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once: Unified, real-time object detection. In CVPR, 2016.",
+      "line_start": 18,
+      "line_end": 18,
+      "proposed_entries": [
+        "[18] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once: Unified, real-time object detection. In CVPR, 2016."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[19] Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese. Generalized intersection over union: A metric and a loss for bounding box regression. In CVPR, 2019.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[19] Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese. Generalized intersection over union: A metric and a loss for bounding box regression. In CVPR, 2019."
+      ]
+    },
+    {
+      "block_index": 19,
+      "source_text": "[20] Noam Shazeer. Glu variants improve transformer. arXiv preprint arXiv:2002.05202, 2020.",
+      "line_start": 20,
+      "line_end": 20,
+      "proposed_entries": [
+        "[20] Noam Shazeer. Glu variants improve transformer. arXiv preprint arXiv:2002.05202, 2020."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[21] Oriane Simeoni, Huy V Vo, Maximilian Seitzer, Federico ´ Baldassarre, Maxime Oquab, Cijo Jose, Vasil Khalidov, Marc Szafraniec, Seungeun Yi, Michael Ramamonjisoa, ¨ et al. Dinov3. arXiv, 2025.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[21] Oriane Simeoni, Huy V Vo, Maximilian Seitzer, Federico ´ Baldassarre, Maxime Oquab, Cijo Jose, Vasil Khalidov, Marc Szafraniec, Seungeun Yi, Michael Ramamonjisoa, ¨ et al. Dinov3. arXiv, 2025."
+      ]
+    },
+    {
+      "block_index": 21,
+      "source_text": "[22] Yunjie Tian, Qixiang Ye, and David Doermann. Yolov12: Attention-centric real-time object detectors. In NeurIPS, 2025.",
+      "line_start": 22,
+      "line_end": 22,
+      "proposed_entries": [
+        "[22] Yunjie Tian, Qixiang Ye, and David Doermann. Yolov12: Attention-centric real-time object detectors. In NeurIPS, 2025."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[23] Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10: Real-time end-toend object detection. In NeurIPS, 2024.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[23] Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10: Real-time end-toend object detection. In NeurIPS, 2024."
+      ]
+    },
+    {
+      "block_index": 23,
+      "source_text": "[24] Chengcheng Wang, Wei He, Ying Nie, Jianyuan Guo, Chuanjian Liu, Yunhe Wang, and Kai Han. Gold-yolo: Efficient object detector via gather-and-distribute mechanism. In NeurIPS, 2023.",
+      "line_start": 24,
+      "line_end": 24,
+      "proposed_entries": [
+        "[24] Chengcheng Wang, Wei He, Ying Nie, Jianyuan Guo, Chuanjian Liu, Yunhe Wang, and Kai Han. Gold-yolo: Efficient object detector via gather-and-distribute mechanism. In NeurIPS, 2023."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[25] Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9: Learning what you want to learn using programmable gradient information. arXiv, 2024.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[25] Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9: Learning what you want to learn using programmable gradient information. arXiv, 2024."
+      ]
+    },
+    {
+      "block_index": 25,
+      "source_text": "[26] Guanghua Yu, Qinyao Chang, Wenyu Lv, Chang Xu, Cheng Cui, Wei Ji, Qingqing Dang, Kaipeng Deng, Guanzhong Wang, Yuning Du, et al. Pp-picodet: A better real-time object detector on mobile devices. arXiv, 2021.",
+      "line_start": 26,
+      "line_end": 26,
+      "proposed_entries": [
+        "[26] Guanghua Yu, Qinyao Chang, Wenyu Lv, Chang Xu, Cheng Cui, Wei Ji, Qingqing Dang, Kaipeng Deng, Guanzhong Wang, Yuning Du, et al. Pp-picodet: A better real-time object detector on mobile devices. arXiv, 2021."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[27] Biao Zhang and Rico Sennrich. Root mean square layer normalization. In NeurIPS, 2019.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[27] Biao Zhang and Rico Sennrich. Root mean square layer normalization. In NeurIPS, 2019."
+      ]
+    },
+    {
+      "block_index": 27,
+      "source_text": "[28] Hongyi Zhang. mixup: Beyond empirical risk minimization. In ICLR, 2017.",
+      "line_start": 28,
+      "line_end": 28,
+      "proposed_entries": [
+        "[28] Hongyi Zhang. mixup: Beyond empirical risk minimization. In ICLR, 2017."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[29] Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen. Detrs beat yolos on real-time object detection. In CVPR, 2024.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[29] Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen. Detrs beat yolos on real-time object detection. In CVPR, 2024."
+      ]
+    },
+    {
+      "block_index": 29,
+      "source_text": "[30] Ge Zheng, Liu Songtao, Wang Feng, Li Zeming, and Sun Jian. Yolox: Exceeding yolo series in 2021. arXiv, 2021.",
+      "line_start": 30,
+      "line_end": 30,
+      "proposed_entries": [
+        "[30] Ge Zheng, Liu Songtao, Wang Feng, Li Zeming, and Sun Jian. Yolox: Exceeding yolo series in 2021. arXiv, 2021."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[31] Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. In ICLR, 2021.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[31] Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. In ICLR, 2021."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] Cheng Cui, Ruoyu Guo, Yuning Du, Dongliang He, Fu Li, Zewu Wu, Qiwen Liu, Shilei Wen, Jizhou Huang, Xiaoguang Hu, et al. Beyond self-supervision: A simple yet effective network distillation alternative to improve backbones. arXiv, 2021.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Cheng Cui, Ruoyu Guo, Yuning Du, Dongliang He, Fu Li, Zewu Wu, Qiwen Liu, Shilei Wen, Jizhou Huang, Xiaoguang Hu, et al",
+          "author_candidates": [
+            "Cui, Ruoyu Guo",
+            "Du, Dongliang He",
+            "Li, Zewu Wu",
+            "Liu, Shilei Wen",
+            "Huang, Xiaoguang Hu"
+          ],
+          "title_candidate": "Beyond self-supervision: A simple yet effective network distillation alternative to improve backbones",
+          "container_candidate": "arXiv,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Cheng Cui, Ruoyu Guo, Yuning Du, Dongliang He, Fu Li, Zewu Wu, Qiwen Liu, Shilei Wen, Jizhou Huang, Xiaoguang Hu, et al. Beyond self-supervision",
+          "author_candidates": [
+            "Cui, Ruoyu Guo",
+            "Du, Dongliang He",
+            "Li, Zewu Wu",
+            "Liu, Shilei Wen",
+            "Huang, Xiaoguang Hu"
+          ],
+          "title_candidate": "A simple yet effective network distillation alternative to improve backbones. arXiv",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "Cheng Cui, Ruoyu Guo, Yuning Du, Dongliang He, Fu Li, Zewu Wu, Qiwen Liu, Shilei Wen, Jizhou Huang, Xiaoguang Hu, et al. Beyond self-supervision",
+          "author_candidates": [
+            "Cui, Ruoyu Guo",
+            "Du, Dongliang He",
+            "Li, Zewu Wu",
+            "Liu, Shilei Wen",
+            "Huang, Xiaoguang Hu"
+          ],
+          "title_candidate": "A simple yet effective network distillation alternative to improve backbones. arXiv, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Re. Flashattention: Fast and memory-efficient exact ´ attention with io-awareness. In NeurIPS, 2022.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Re",
+          "author_candidates": [
+            "Dao, Dan Fu",
+            "Ermon, Atri Rudra"
+          ],
+          "title_candidate": "Flashattention: Fast and memory-efficient exact ´ attention with io-awareness",
+          "container_candidate": "In NeurIPS, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Re",
+          "author_candidates": [
+            "Dao, Dan Fu",
+            "Ermon, Atri Rudra"
+          ],
+          "title_candidate": "Flashattention: Fast and memory-efficient exact ´ attention with io-awareness",
+          "container_candidate": "In NeurIPS,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Re. Flashattention",
+          "author_candidates": [
+            "Dao, Dan Fu",
+            "Ermon, Atri Rudra"
+          ],
+          "title_candidate": "Fast and memory-efficient exact ´ attention with io-awareness. In NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tri Dao, Dan Fu, Stefano Ermon, Atri Rudra, and Christopher Re. Flashattention",
+          "author_candidates": [
+            "Dao, Dan Fu",
+            "Ermon, Atri Rudra"
+          ],
+          "title_candidate": "Fast and memory-efficient exact ´ attention with io-awareness. In NeurIPS, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. In ICLR, 2020.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al",
+          "author_candidates": [
+            "Dosovitskiy, Lucas Beyer",
+            "Kolesnikov, Dirk Weissenborn",
+            "Zhai, Thomas Unterthiner",
+            "Dehghani, Matthias Minderer",
+            "Heigold, Sylvain Gelly"
+          ],
+          "title_candidate": "An image is worth 16x16 words: Transformers for image recognition at scale",
+          "container_candidate": "In ICLR, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al",
+          "author_candidates": [
+            "Dosovitskiy, Lucas Beyer",
+            "Kolesnikov, Dirk Weissenborn",
+            "Zhai, Thomas Unterthiner",
+            "Dehghani, Matthias Minderer",
+            "Heigold, Sylvain Gelly"
+          ],
+          "title_candidate": "An image is worth 16x16 words: Transformers for image recognition at scale",
+          "container_candidate": "In ICLR,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words",
+          "author_candidates": [
+            "Dosovitskiy, Lucas Beyer",
+            "Kolesnikov, Dirk Weissenborn",
+            "Zhai, Thomas Unterthiner",
+            "Dehghani, Matthias Minderer",
+            "Heigold, Sylvain Gelly"
+          ],
+          "title_candidate": "Transformers for image recognition at scale. In ICLR",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words",
+          "author_candidates": [
+            "Dosovitskiy, Lucas Beyer",
+            "Kolesnikov, Dirk Weissenborn",
+            "Zhai, Thomas Unterthiner",
+            "Dehghani, Matthias Minderer",
+            "Heigold, Sylvain Gelly"
+          ],
+          "title_candidate": "Transformers for image recognition at scale. In ICLR, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D Cubuk, Quoc V Le, and Barret Zoph. Simple copy-paste is a strong data augmentation method for instance segmentation. In CVPR, 2021.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D Cubuk, Quoc V Le, and Barret Zoph",
+          "author_candidates": [
+            "Ghiasi, Yin Cui",
+            "Srinivas, Rui Qian",
+            "Lin, Ekin D Cubuk"
+          ],
+          "title_candidate": "Simple copy-paste is a strong data augmentation method for instance segmentation",
+          "container_candidate": "In CVPR, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D Cubuk, Quoc V Le, and Barret Zoph",
+          "author_candidates": [
+            "Ghiasi, Yin Cui",
+            "Srinivas, Rui Qian",
+            "Lin, Ekin D Cubuk"
+          ],
+          "title_candidate": "Simple copy-paste is a strong data augmentation method for instance segmentation",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D Cubuk, Quoc V Le, and Barret Zoph",
+          "author_candidates": [
+            "Ghiasi, Yin Cui",
+            "Srinivas, Rui Qian",
+            "Lin, Ekin D Cubuk"
+          ],
+          "title_candidate": "Simple copy-paste is a strong data augmentation method for instance segmentation. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Golnaz Ghiasi, Yin Cui, Aravind Srinivas, Rui Qian, Tsung-Yi Lin, Ekin D Cubuk, Quoc V Le, and Barret Zoph",
+          "author_candidates": [
+            "Ghiasi, Yin Cui",
+            "Srinivas, Rui Qian",
+            "Lin, Ekin D Cubuk"
+          ],
+          "title_candidate": "Simple copy-paste is a strong data augmentation method for instance segmentation. In CVPR, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Jocher Glenn. Yolov8. https://docs.ultralytics. com/models/yolov8/, 2023.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jocher Glenn",
+          "author_candidates": [
+            "Jocher Glenn"
+          ],
+          "title_candidate": "Yolov8",
+          "container_candidate": "https://docs.ultralytics. com/models/yolov8/,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jocher Glenn. Yolov8. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolov8. https"
+          ],
+          "title_candidate": "//docs.ultralytics. com/models/yolov8/",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jocher Glenn. Yolov8. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolov8. https"
+          ],
+          "title_candidate": "//docs.ultralytics. com/models/yolov8/, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Jocher Glenn. Yolo11. https://docs.ultralytics. com/models/yolo11/, 2024.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jocher Glenn",
+          "author_candidates": [
+            "Jocher Glenn"
+          ],
+          "title_candidate": "Yolo11",
+          "container_candidate": "https://docs.ultralytics. com/models/yolo11/,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jocher Glenn. Yolo11. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolo11. https"
+          ],
+          "title_candidate": "//docs.ultralytics. com/models/yolo11/",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jocher Glenn. Yolo11. https",
+          "author_candidates": [
+            "Jocher Glenn. Yolo11. https"
+          ],
+          "title_candidate": "//docs.ultralytics. com/models/yolo11/, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, and Xi Shen. Deim: Detr with improved matching for fast convergence. In CVPR, 2025.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "venue_marker_split",
+          "author_text": "Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, and Xi Shen",
+          "author_candidates": [
+            "Huang, Zhichao Lu",
+            "Cun, Yongjun Yu"
+          ],
+          "title_candidate": "Deim: Detr with improved matching for fast convergence",
+          "container_candidate": "In CVPR, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, and Xi Shen",
+          "author_candidates": [
+            "Huang, Zhichao Lu",
+            "Cun, Yongjun Yu"
+          ],
+          "title_candidate": "Deim: Detr with improved matching for fast convergence",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, and Xi Shen. Deim",
+          "author_candidates": [
+            "Huang, Zhichao Lu",
+            "Cun, Yongjun Yu"
+          ],
+          "title_candidate": "Detr with improved matching for fast convergence. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Shihua Huang, Zhichao Lu, Xiaodong Cun, Yongjun Yu, Xiao Zhou, and Xi Shen. Deim",
+          "author_candidates": [
+            "Huang, Zhichao Lu",
+            "Cun, Yongjun Yu"
+          ],
+          "title_candidate": "Detr with improved matching for fast convergence. In CVPR, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Muhammad Hussain. Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature toward digital manufacturing and industrial defect detection. 2023.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Muhammad Hussain",
+          "author_candidates": [
+            "Muhammad Hussain"
+          ],
+          "title_candidate": "Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature toward digital manufacturing and industrial defect detection",
+          "container_candidate": "2023",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Muhammad Hussain",
+          "author_candidates": [
+            "Muhammad Hussain"
+          ],
+          "title_candidate": "Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature toward digital manufacturing and industrial defect detection",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Muhammad Hussain",
+          "author_candidates": [
+            "Muhammad Hussain"
+          ],
+          "title_candidate": "Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature toward digital manufacturing and industrial defect detection. 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0: A full-scale reloading. arXiv, 2023.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng, Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "Yolov6 v3.0: A full-scale reloading",
+          "container_candidate": "arXiv,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng, Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "A full-scale reloading. arXiv",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chuyi Li, Lulu Li, Yifei Geng, Hongliang Jiang, Meng Cheng, Bo Zhang, Zaidan Ke, Xiaoming Xu, and Xiangxiang Chu. Yolov6 v3.0",
+          "author_candidates": [
+            "Li, Lulu Li",
+            "Geng, Hongliang Jiang",
+            "Cheng, Bo Zhang",
+            "Ke, Xiaoming Xu"
+          ],
+          "title_candidate": "A full-scale reloading. arXiv, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Yanghao Li, Hanzi Mao, Ross Girshick, and Kaiming He. Exploring plain vision transformer backbones for object detection. In ECCV, 2022.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Yanghao Li, Hanzi Mao, Ross Girshick, and Kaiming He",
+          "author_candidates": [
+            "Li, Hanzi Mao"
+          ],
+          "title_candidate": "Exploring plain vision transformer backbones for object detection",
+          "container_candidate": "In ECCV, 2022",
+          "year_candidate": 2022,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yanghao Li, Hanzi Mao, Ross Girshick, and Kaiming He",
+          "author_candidates": [
+            "Li, Hanzi Mao"
+          ],
+          "title_candidate": "Exploring plain vision transformer backbones for object detection",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yanghao Li, Hanzi Mao, Ross Girshick, and Kaiming He",
+          "author_candidates": [
+            "Li, Hanzi Mao"
+          ],
+          "title_candidate": "Exploring plain vision transformer backbones for object detection. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yanghao Li, Hanzi Mao, Ross Girshick, and Kaiming He",
+          "author_candidates": [
+            "Li, Hanzi Mao"
+          ],
+          "title_candidate": "Exploring plain vision transformer backbones for object detection. In ECCV, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Siyuan Liang, Hao Wu, Li Zhen, Qiaozhi Hua, Sahil Garg, Georges Kaddoum, Mohammad Mehedi Hassan, and Keping Yu. Edge yolo: Real-time intelligent object detection system based on edge-cloud cooperation in autonomous vehicles. IEEE Transactions on Intelligent Transportation Systems, 2022.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Siyuan Liang, Hao Wu, Li Zhen, Qiaozhi Hua, Sahil Garg, Georges Kaddoum, Mohammad Mehedi Hassan, and Keping Yu",
+          "author_candidates": [
+            "Liang, Hao Wu",
+            "Zhen, Qiaozhi Hua",
+            "Garg, Georges Kaddoum"
+          ],
+          "title_candidate": "Edge yolo: Real-time intelligent object detection system based on edge-cloud cooperation in autonomous vehicles",
+          "container_candidate": "IEEE Transactions on Intelligent Transportation Systems,",
+          "year_candidate": 2022,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Siyuan Liang, Hao Wu, Li Zhen, Qiaozhi Hua, Sahil Garg, Georges Kaddoum, Mohammad Mehedi Hassan, and Keping Yu. Edge yolo",
+          "author_candidates": [
+            "Liang, Hao Wu",
+            "Zhen, Qiaozhi Hua",
+            "Garg, Georges Kaddoum"
+          ],
+          "title_candidate": "Real-time intelligent object detection system based on edge-cloud cooperation in autonomous vehicles. IEEE Transactions on Intelligent Transportation Systems",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Siyuan Liang, Hao Wu, Li Zhen, Qiaozhi Hua, Sahil Garg, Georges Kaddoum, Mohammad Mehedi Hassan, and Keping Yu. Edge yolo",
+          "author_candidates": [
+            "Liang, Hao Wu",
+            "Zhen, Qiaozhi Hua",
+            "Garg, Georges Kaddoum"
+          ],
+          "title_candidate": "Real-time intelligent object detection system based on edge-cloud cooperation in autonomous vehicles. IEEE Transactions on Intelligent Transportation Systems, 2022",
+          "container_candidate": "",
+          "year_candidate": 2022,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco: Common objects in context. In ECCV, 2014.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft coco: Common objects in context",
+          "container_candidate": "In ECCV, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft coco: Common objects in context",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence ´ Zitnick. Microsoft coco",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In ECCV, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao, Hui Shen, Jianguo Ren, Shumin Han, Errui Ding, and Shilei Wen. Pp-yolo: An effective and efficient implementation of object detector. arXiv, 2020.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao, Hui Shen, Jianguo Ren, Shumin Han, Errui Ding, and Shilei Wen",
+          "author_candidates": [
+            "Long, Kaipeng Deng",
+            "Wang, Yang Zhang",
+            "Dang, Yuan Gao",
+            "Shen, Jianguo Ren",
+            "Han, Errui Ding"
+          ],
+          "title_candidate": "Pp-yolo: An effective and efficient implementation of object detector",
+          "container_candidate": "arXiv,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao, Hui Shen, Jianguo Ren, Shumin Han, Errui Ding, and Shilei Wen. Pp-yolo",
+          "author_candidates": [
+            "Long, Kaipeng Deng",
+            "Wang, Yang Zhang",
+            "Dang, Yuan Gao",
+            "Shen, Jianguo Ren",
+            "Han, Errui Ding"
+          ],
+          "title_candidate": "An effective and efficient implementation of object detector. arXiv",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xiang Long, Kaipeng Deng, Guanzhong Wang, Yang Zhang, Qingqing Dang, Yuan Gao, Hui Shen, Jianguo Ren, Shumin Han, Errui Ding, and Shilei Wen. Pp-yolo",
+          "author_candidates": [
+            "Long, Kaipeng Deng",
+            "Wang, Yang Zhang",
+            "Dang, Yuan Gao",
+            "Shen, Jianguo Ren",
+            "Han, Errui Ding"
+          ],
+          "title_candidate": "An effective and efficient implementation of object detector. arXiv, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] Wenyu Lv, Yian Zhao, Qinyao Chang, Kui Huang, Guanzhong Wang, and Yi Liu. Rt-detrv2: Improved baseline with bag-of-freebies for real-time detection transformer. arXiv, 2024.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Wenyu Lv, Yian Zhao, Qinyao Chang, Kui Huang, Guanzhong Wang, and Yi Liu",
+          "author_candidates": [
+            "Lv, Yian Zhao",
+            "Chang, Kui Huang"
+          ],
+          "title_candidate": "Rt-detrv2: Improved baseline with bag-of-freebies for real-time detection transformer",
+          "container_candidate": "arXiv,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Wenyu Lv, Yian Zhao, Qinyao Chang, Kui Huang, Guanzhong Wang, and Yi Liu. Rt-detrv2",
+          "author_candidates": [
+            "Lv, Yian Zhao",
+            "Chang, Kui Huang"
+          ],
+          "title_candidate": "Improved baseline with bag-of-freebies for real-time detection transformer. arXiv",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "Wenyu Lv, Yian Zhao, Qinyao Chang, Kui Huang, Guanzhong Wang, and Yi Liu. Rt-detrv2",
+          "author_candidates": [
+            "Lv, Yian Zhao",
+            "Chang, Kui Huang"
+          ],
+          "title_candidate": "Improved baseline with bag-of-freebies for real-time detection transformer. arXiv, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Rangi Lyu. Nanodet-plus. https://github.com/ RangiLyu / nanodet / releases / tag / v1 . 0 . 0 - alpha-1, 2021. Version 1.0.0-alpha-1. 6",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Rangi Lyu",
+          "author_candidates": [
+            "Rangi Lyu"
+          ],
+          "title_candidate": "Nanodet-plus",
+          "container_candidate": "https://github.com/ RangiLyu / nanodet / releases / tag / v1 . 0 . 0 - alpha-1, 2021. Version 1.0.0-alpha-1. 6",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Rangi Lyu. Nanodet-plus. https",
+          "author_candidates": [
+            "Rangi Lyu. Nanodet-plus. https"
+          ],
+          "title_candidate": "//github.com/ RangiLyu / nanodet / releases / tag / v1 . 0 . 0 - alpha-1, 2021. Version 1.0.0-alpha-1. 6",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Rangi Lyu. Nanodet-plus. https",
+          "author_candidates": [
+            "Rangi Lyu. Nanodet-plus. https"
+          ],
+          "title_candidate": "//github.com/ RangiLyu / nanodet / releases / tag / v1 . 0 . 0 - alpha-1, 2021. Version 1.0.0-alpha-1. 6",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Debapriya Maji, Soyeb Nagori, Manu Mathew, and Deepak Poddar. Yolo-6d-pose: Enhancing yolo for single-stage monocular multi-object 6d pose estimation. In 3DV, 2024.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Debapriya Maji, Soyeb Nagori, Manu Mathew, and Deepak Poddar",
+          "author_candidates": [
+            "Maji, Soyeb Nagori"
+          ],
+          "title_candidate": "Yolo-6d-pose: Enhancing yolo for single-stage monocular multi-object 6d pose estimation",
+          "container_candidate": "In 3DV, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Debapriya Maji, Soyeb Nagori, Manu Mathew, and Deepak Poddar",
+          "author_candidates": [
+            "Maji, Soyeb Nagori"
+          ],
+          "title_candidate": "Yolo-6d-pose: Enhancing yolo for single-stage monocular multi-object 6d pose estimation",
+          "container_candidate": "In 3DV,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Debapriya Maji, Soyeb Nagori, Manu Mathew, and Deepak Poddar. Yolo-6d-pose",
+          "author_candidates": [
+            "Maji, Soyeb Nagori"
+          ],
+          "title_candidate": "Enhancing yolo for single-stage monocular multi-object 6d pose estimation. In 3DV",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Debapriya Maji, Soyeb Nagori, Manu Mathew, and Deepak Poddar. Yolo-6d-pose",
+          "author_candidates": [
+            "Maji, Soyeb Nagori"
+          ],
+          "title_candidate": "Enhancing yolo for single-stage monocular multi-object 6d pose estimation. In 3DV, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, and Feng Wu. D-fine: Redefine regression task in detrs as fine-grained distribution refinement. In ICLR, 2024.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, and Feng Wu",
+          "author_candidates": [
+            "Peng, Hebei Li",
+            "Wu, Yueyi Zhang"
+          ],
+          "title_candidate": "D-fine: Redefine regression task in detrs as fine-grained distribution refinement",
+          "container_candidate": "In ICLR, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, and Feng Wu",
+          "author_candidates": [
+            "Peng, Hebei Li",
+            "Wu, Yueyi Zhang"
+          ],
+          "title_candidate": "D-fine: Redefine regression task in detrs as fine-grained distribution refinement",
+          "container_candidate": "In ICLR,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, and Feng Wu. D-fine",
+          "author_candidates": [
+            "Peng, Hebei Li",
+            "Wu, Yueyi Zhang"
+          ],
+          "title_candidate": "Redefine regression task in detrs as fine-grained distribution refinement. In ICLR",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yansong Peng, Hebei Li, Peixi Wu, Yueyi Zhang, Xiaoyan Sun, and Feng Wu. D-fine",
+          "author_candidates": [
+            "Peng, Hebei Li",
+            "Wu, Yueyi Zhang"
+          ],
+          "title_candidate": "Redefine regression task in detrs as fine-grained distribution refinement. In ICLR, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once: Unified, real-time object detection. In CVPR, 2016.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "venue_marker_split",
+          "author_text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "You only look once: Unified, real-time object detection",
+          "container_candidate": "In CVPR, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "You only look once: Unified, real-time object detection",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "Unified, real-time object detection. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You only look once",
+          "author_candidates": [
+            "Redmon, Santosh Divvala"
+          ],
+          "title_candidate": "Unified, real-time object detection. In CVPR, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese. Generalized intersection over union: A metric and a loss for bounding box regression. In CVPR, 2019.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese",
+          "author_candidates": [
+            "Rezatofighi, Nathan Tsoi",
+            "Gwak, Amir Sadeghian"
+          ],
+          "title_candidate": "Generalized intersection over union: A metric and a loss for bounding box regression",
+          "container_candidate": "In CVPR, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese",
+          "author_candidates": [
+            "Rezatofighi, Nathan Tsoi",
+            "Gwak, Amir Sadeghian"
+          ],
+          "title_candidate": "Generalized intersection over union: A metric and a loss for bounding box regression",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese. Generalized intersection over union",
+          "author_candidates": [
+            "Rezatofighi, Nathan Tsoi",
+            "Gwak, Amir Sadeghian"
+          ],
+          "title_candidate": "A metric and a loss for bounding box regression. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hamid Rezatofighi, Nathan Tsoi, JunYoung Gwak, Amir Sadeghian, Ian Reid, and Silvio Savarese. Generalized intersection over union",
+          "author_candidates": [
+            "Rezatofighi, Nathan Tsoi",
+            "Gwak, Amir Sadeghian"
+          ],
+          "title_candidate": "A metric and a loss for bounding box regression. In CVPR, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Noam Shazeer. Glu variants improve transformer. arXiv preprint arXiv:2002.05202, 2020.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Noam Shazeer",
+          "author_candidates": [
+            "Noam Shazeer"
+          ],
+          "title_candidate": "Glu variants improve transformer. arXiv preprint",
+          "container_candidate": "arXiv:2002.05202, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Noam Shazeer",
+          "author_candidates": [
+            "Noam Shazeer"
+          ],
+          "title_candidate": "Glu variants improve transformer",
+          "container_candidate": "arXiv preprint arXiv:2002.05202,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Noam Shazeer. Glu variants improve transformer. arXiv preprint arXiv",
+          "author_candidates": [
+            "Noam Shazeer. Glu variants improve transformer. arXiv preprint arXiv"
+          ],
+          "title_candidate": "2002.05202",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Noam Shazeer. Glu variants improve transformer. arXiv preprint arXiv",
+          "author_candidates": [
+            "Noam Shazeer. Glu variants improve transformer. arXiv preprint arXiv"
+          ],
+          "title_candidate": "2002.05202, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Oriane Simeoni, Huy V Vo, Maximilian Seitzer, Federico ´ Baldassarre, Maxime Oquab, Cijo Jose, Vasil Khalidov, Marc Szafraniec, Seungeun Yi, Michael Ramamonjisoa, ¨ et al. Dinov3. arXiv, 2025.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Oriane Simeoni, Huy V Vo, Maximilian Seitzer, Federico ´ Baldassarre, Maxime Oquab, Cijo Jose, Vasil Khalidov, Marc Szafraniec, Seungeun Yi, Michael Ramamonjisoa, ¨ et al",
+          "author_candidates": [
+            "Simeoni, Huy V Vo",
+            "Seitzer, Federico",
+            "Baldassarre, Maxime Oquab",
+            "Jose, Vasil Khalidov",
+            "Szafraniec, Seungeun Yi"
+          ],
+          "title_candidate": "Dinov3",
+          "container_candidate": "arXiv,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Oriane Simeoni, Huy V Vo, Maximilian Seitzer, Federico ´ Baldassarre, Maxime Oquab, Cijo Jose, Vasil Khalidov, Marc Szafraniec, Seungeun Yi, Michael Ramamonjisoa, ¨ et al",
+          "author_candidates": [
+            "Simeoni, Huy V Vo",
+            "Seitzer, Federico",
+            "Baldassarre, Maxime Oquab",
+            "Jose, Vasil Khalidov",
+            "Szafraniec, Seungeun Yi"
+          ],
+          "title_candidate": "Dinov3. arXiv",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Oriane Simeoni, Huy V Vo, Maximilian Seitzer, Federico ´ Baldassarre, Maxime Oquab, Cijo Jose, Vasil Khalidov, Marc Szafraniec, Seungeun Yi, Michael Ramamonjisoa, ¨ et al",
+          "author_candidates": [
+            "Simeoni, Huy V Vo",
+            "Seitzer, Federico",
+            "Baldassarre, Maxime Oquab",
+            "Jose, Vasil Khalidov",
+            "Szafraniec, Seungeun Yi"
+          ],
+          "title_candidate": "Dinov3. arXiv, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Yunjie Tian, Qixiang Ye, and David Doermann. Yolov12: Attention-centric real-time object detectors. In NeurIPS, 2025.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Yunjie Tian, Qixiang Ye, and David Doermann",
+          "author_candidates": [
+            "Tian, Qixiang Ye"
+          ],
+          "title_candidate": "Yolov12: Attention-centric real-time object detectors",
+          "container_candidate": "In NeurIPS, 2025",
+          "year_candidate": 2025,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yunjie Tian, Qixiang Ye, and David Doermann",
+          "author_candidates": [
+            "Tian, Qixiang Ye"
+          ],
+          "title_candidate": "Yolov12: Attention-centric real-time object detectors",
+          "container_candidate": "In NeurIPS,",
+          "year_candidate": 2025,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yunjie Tian, Qixiang Ye, and David Doermann. Yolov12",
+          "author_candidates": [
+            "Tian, Qixiang Ye"
+          ],
+          "title_candidate": "Attention-centric real-time object detectors. In NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yunjie Tian, Qixiang Ye, and David Doermann. Yolov12",
+          "author_candidates": [
+            "Tian, Qixiang Ye"
+          ],
+          "title_candidate": "Attention-centric real-time object detectors. In NeurIPS, 2025",
+          "container_candidate": "",
+          "year_candidate": 2025,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10: Real-time end-toend object detection. In NeurIPS, 2024.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding",
+          "author_candidates": [
+            "Wang, Hui Chen",
+            "Liu, Kai Chen",
+            "Lin, Jungong Han"
+          ],
+          "title_candidate": "Yolov10: Real-time end-toend object detection",
+          "container_candidate": "In NeurIPS, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding",
+          "author_candidates": [
+            "Wang, Hui Chen",
+            "Liu, Kai Chen",
+            "Lin, Jungong Han"
+          ],
+          "title_candidate": "Yolov10: Real-time end-toend object detection",
+          "container_candidate": "In NeurIPS,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10",
+          "author_candidates": [
+            "Wang, Hui Chen",
+            "Liu, Kai Chen",
+            "Lin, Jungong Han"
+          ],
+          "title_candidate": "Real-time end-toend object detection. In NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ao Wang, Hui Chen, Lihao Liu, Kai Chen, Zijia Lin, Jungong Han, and Guiguang Ding. Yolov10",
+          "author_candidates": [
+            "Wang, Hui Chen",
+            "Liu, Kai Chen",
+            "Lin, Jungong Han"
+          ],
+          "title_candidate": "Real-time end-toend object detection. In NeurIPS, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Chengcheng Wang, Wei He, Ying Nie, Jianyuan Guo, Chuanjian Liu, Yunhe Wang, and Kai Han. Gold-yolo: Efficient object detector via gather-and-distribute mechanism. In NeurIPS, 2023.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "venue_marker_split",
+          "author_text": "Chengcheng Wang, Wei He, Ying Nie, Jianyuan Guo, Chuanjian Liu, Yunhe Wang, and Kai Han",
+          "author_candidates": [
+            "Wang, Wei He",
+            "Nie, Jianyuan Guo",
+            "Liu, Yunhe Wang"
+          ],
+          "title_candidate": "Gold-yolo: Efficient object detector via gather-and-distribute mechanism",
+          "container_candidate": "In NeurIPS, 2023",
+          "year_candidate": 2023,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chengcheng Wang, Wei He, Ying Nie, Jianyuan Guo, Chuanjian Liu, Yunhe Wang, and Kai Han",
+          "author_candidates": [
+            "Wang, Wei He",
+            "Nie, Jianyuan Guo",
+            "Liu, Yunhe Wang"
+          ],
+          "title_candidate": "Gold-yolo: Efficient object detector via gather-and-distribute mechanism",
+          "container_candidate": "In NeurIPS,",
+          "year_candidate": 2023,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chengcheng Wang, Wei He, Ying Nie, Jianyuan Guo, Chuanjian Liu, Yunhe Wang, and Kai Han. Gold-yolo",
+          "author_candidates": [
+            "Wang, Wei He",
+            "Nie, Jianyuan Guo",
+            "Liu, Yunhe Wang"
+          ],
+          "title_candidate": "Efficient object detector via gather-and-distribute mechanism. In NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chengcheng Wang, Wei He, Ying Nie, Jianyuan Guo, Chuanjian Liu, Yunhe Wang, and Kai Han. Gold-yolo",
+          "author_candidates": [
+            "Wang, Wei He",
+            "Nie, Jianyuan Guo",
+            "Liu, Yunhe Wang"
+          ],
+          "title_candidate": "Efficient object detector via gather-and-distribute mechanism. In NeurIPS, 2023",
+          "container_candidate": "",
+          "year_candidate": 2023,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9: Learning what you want to learn using programmable gradient information. arXiv, 2024.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao",
+          "author_candidates": [
+            "Wang, I-Hau Yeh"
+          ],
+          "title_candidate": "Yolov9: Learning what you want to learn using programmable gradient information",
+          "container_candidate": "arXiv,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9",
+          "author_candidates": [
+            "Wang, I-Hau Yeh"
+          ],
+          "title_candidate": "Learning what you want to learn using programmable gradient information. arXiv",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Chien-Yao Wang, I-Hau Yeh, and Hong-Yuan Mark Liao. Yolov9",
+          "author_candidates": [
+            "Wang, I-Hau Yeh"
+          ],
+          "title_candidate": "Learning what you want to learn using programmable gradient information. arXiv, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Guanghua Yu, Qinyao Chang, Wenyu Lv, Chang Xu, Cheng Cui, Wei Ji, Qingqing Dang, Kaipeng Deng, Guanzhong Wang, Yuning Du, et al. Pp-picodet: A better real-time object detector on mobile devices. arXiv, 2021.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Guanghua Yu, Qinyao Chang, Wenyu Lv, Chang Xu, Cheng Cui, Wei Ji, Qingqing Dang, Kaipeng Deng, Guanzhong Wang, Yuning Du, et al",
+          "author_candidates": [
+            "Yu, Qinyao Chang",
+            "Lv, Chang Xu",
+            "Cui, Wei Ji",
+            "Dang, Kaipeng Deng",
+            "Wang, Yuning Du"
+          ],
+          "title_candidate": "Pp-picodet: A better real-time object detector on mobile devices",
+          "container_candidate": "arXiv,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Guanghua Yu, Qinyao Chang, Wenyu Lv, Chang Xu, Cheng Cui, Wei Ji, Qingqing Dang, Kaipeng Deng, Guanzhong Wang, Yuning Du, et al. Pp-picodet",
+          "author_candidates": [
+            "Yu, Qinyao Chang",
+            "Lv, Chang Xu",
+            "Cui, Wei Ji",
+            "Dang, Kaipeng Deng",
+            "Wang, Yuning Du"
+          ],
+          "title_candidate": "A better real-time object detector on mobile devices. arXiv",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Guanghua Yu, Qinyao Chang, Wenyu Lv, Chang Xu, Cheng Cui, Wei Ji, Qingqing Dang, Kaipeng Deng, Guanzhong Wang, Yuning Du, et al. Pp-picodet",
+          "author_candidates": [
+            "Yu, Qinyao Chang",
+            "Lv, Chang Xu",
+            "Cui, Wei Ji",
+            "Dang, Kaipeng Deng",
+            "Wang, Yuning Du"
+          ],
+          "title_candidate": "A better real-time object detector on mobile devices. arXiv, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Biao Zhang and Rico Sennrich. Root mean square layer normalization. In NeurIPS, 2019.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "Biao Zhang and Rico Sennrich",
+          "author_candidates": [
+            "Biao Zhang",
+            "Rico Sennrich"
+          ],
+          "title_candidate": "Root mean square layer normalization",
+          "container_candidate": "In NeurIPS, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Biao Zhang and Rico Sennrich",
+          "author_candidates": [
+            "Biao Zhang",
+            "Rico Sennrich"
+          ],
+          "title_candidate": "Root mean square layer normalization",
+          "container_candidate": "In NeurIPS,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Biao Zhang and Rico Sennrich",
+          "author_candidates": [
+            "Biao Zhang",
+            "Rico Sennrich"
+          ],
+          "title_candidate": "Root mean square layer normalization. In NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Biao Zhang and Rico Sennrich",
+          "author_candidates": [
+            "Biao Zhang",
+            "Rico Sennrich"
+          ],
+          "title_candidate": "Root mean square layer normalization. In NeurIPS, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Hongyi Zhang. mixup: Beyond empirical risk minimization. In ICLR, 2017.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Hongyi Zhang",
+          "author_candidates": [
+            "Hongyi Zhang"
+          ],
+          "title_candidate": "mixup: Beyond empirical risk minimization",
+          "container_candidate": "In ICLR, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Hongyi Zhang",
+          "author_candidates": [
+            "Hongyi Zhang"
+          ],
+          "title_candidate": "mixup: Beyond empirical risk minimization",
+          "container_candidate": "In ICLR,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hongyi Zhang. mixup",
+          "author_candidates": [
+            "Hongyi Zhang. mixup"
+          ],
+          "title_candidate": "Beyond empirical risk minimization. In ICLR",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hongyi Zhang. mixup",
+          "author_candidates": [
+            "Hongyi Zhang. mixup"
+          ],
+          "title_candidate": "Beyond empirical risk minimization. In ICLR, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen. Detrs beat yolos on real-time object detection. In CVPR, 2024.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen",
+          "author_candidates": [
+            "Zhao, Wenyu Lv",
+            "Xu, Jinman Wei",
+            "Wang, Qingqing Dang"
+          ],
+          "title_candidate": "Detrs beat yolos on real-time object detection",
+          "container_candidate": "In CVPR, 2024",
+          "year_candidate": 2024,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen",
+          "author_candidates": [
+            "Zhao, Wenyu Lv",
+            "Xu, Jinman Wei",
+            "Wang, Qingqing Dang"
+          ],
+          "title_candidate": "Detrs beat yolos on real-time object detection",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2024,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen",
+          "author_candidates": [
+            "Zhao, Wenyu Lv",
+            "Xu, Jinman Wei",
+            "Wang, Qingqing Dang"
+          ],
+          "title_candidate": "Detrs beat yolos on real-time object detection. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yian Zhao, Wenyu Lv, Shangliang Xu, Jinman Wei, Guanzhong Wang, Qingqing Dang, Yi Liu, and Jie Chen",
+          "author_candidates": [
+            "Zhao, Wenyu Lv",
+            "Xu, Jinman Wei",
+            "Wang, Qingqing Dang"
+          ],
+          "title_candidate": "Detrs beat yolos on real-time object detection. In CVPR, 2024",
+          "container_candidate": "",
+          "year_candidate": 2024,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Ge Zheng, Liu Songtao, Wang Feng, Li Zeming, and Sun Jian. Yolox: Exceeding yolo series in 2021. arXiv, 2021.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ge Zheng, Liu Songtao, Wang Feng, Li Zeming, and Sun Jian",
+          "author_candidates": [
+            "Zheng, Liu Songtao",
+            "Feng, Li Zeming"
+          ],
+          "title_candidate": "Yolox: Exceeding yolo series in 2021",
+          "container_candidate": "arXiv,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ge Zheng, Liu Songtao, Wang Feng, Li Zeming, and Sun Jian. Yolox",
+          "author_candidates": [
+            "Zheng, Liu Songtao",
+            "Feng, Li Zeming"
+          ],
+          "title_candidate": "Exceeding yolo series in 2021. arXiv",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ge Zheng, Liu Songtao, Wang Feng, Li Zeming, and Sun Jian. Yolox",
+          "author_candidates": [
+            "Zheng, Liu Songtao",
+            "Feng, Li Zeming"
+          ],
+          "title_candidate": "Exceeding yolo series in 2021. arXiv, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr: Deformable transformers for end-to-end object detection. In ICLR, 2021.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable detr: Deformable transformers for end-to-end object detection",
+          "container_candidate": "In ICLR, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable detr: Deformable transformers for end-to-end object detection",
+          "container_candidate": "In ICLR,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection. In ICLR",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai. Deformable detr",
+          "author_candidates": [
+            "Zhu, Weijie Su",
+            "Lu, Bin Li"
+          ],
+          "title_candidate": "Deformable transformers for end-to-end object detection. In ICLR, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 30,
+      "metadata": {
+        "entry_count": 1
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}

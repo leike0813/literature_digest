@@ -1,0 +1,4808 @@
+{
+  "meta": {
+    "generated_at": "2026-06-09T00:33:44Z",
+    "entry_count": 55,
+    "candidate_count": 208,
+    "batch_count": 4,
+    "entry_style": "numeric",
+    "split_mode": "line-first",
+    "grouping_suspect_count": 0,
+    "requires_split_review": false,
+    "review_generation_id": ""
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "source_text": "[1] COCO + Places Challenges 2017. https://places-coco2017.github.io/, 2016.",
+      "line_start": 1,
+      "line_end": 1,
+      "proposed_entries": [
+        "[1] COCO + Places Challenges 2017. https://places-coco2017.github.io/, 2016."
+      ]
+    },
+    {
+      "block_index": 2,
+      "source_text": "[2] Pablo Arbeláez, Jordi Pont-Tuset, Jonathan T Barron, Ferran Marques, and Jitendra Malik. Multiscale combinatorial grouping. In CVPR, 2014.",
+      "line_start": 3,
+      "line_end": 3,
+      "proposed_entries": [
+        "[2] Pablo Arbeláez, Jordi Pont-Tuset, Jonathan T Barron, Ferran Marques, and Jitendra Malik. Multiscale combinatorial grouping. In CVPR, 2014."
+      ]
+    },
+    {
+      "block_index": 4,
+      "source_text": "[3] Holger Caesar, Jasper Uijlings, and Vittorio Ferrari. COCO-Stuff: Thing and stuff classes in context. In CVPR, 2018.",
+      "line_start": 5,
+      "line_end": 5,
+      "proposed_entries": [
+        "[3] Holger Caesar, Jasper Uijlings, and Vittorio Ferrari. COCO-Stuff: Thing and stuff classes in context. In CVPR, 2018."
+      ]
+    },
+    {
+      "block_index": 6,
+      "source_text": "[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020.",
+      "line_start": 7,
+      "line_end": 7,
+      "proposed_entries": [
+        "[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020."
+      ]
+    },
+    {
+      "block_index": 8,
+      "source_text": "[5] Joao Carreira, Rui Caseiro, Jorge Batista, and Cristian Sminchisescu. Semantic segmentation with second-order pooling. In ECCV, 2012.",
+      "line_start": 9,
+      "line_end": 9,
+      "proposed_entries": [
+        "[5] Joao Carreira, Rui Caseiro, Jorge Batista, and Cristian Sminchisescu. Semantic segmentation with second-order pooling. In ECCV, 2012."
+      ]
+    },
+    {
+      "block_index": 10,
+      "source_text": "[6] Joao Carreira and Cristian Sminchisescu. CPMC: Automatic object segmentation using constrained parametric min-cuts. PAMI, 2011.",
+      "line_start": 11,
+      "line_end": 11,
+      "proposed_entries": [
+        "[6] Joao Carreira and Cristian Sminchisescu. CPMC: Automatic object segmentation using constrained parametric min-cuts. PAMI, 2011."
+      ]
+    },
+    {
+      "block_index": 12,
+      "source_text": "[7] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. DeepLab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs. PAMI, 2018.",
+      "line_start": 13,
+      "line_end": 13,
+      "proposed_entries": [
+        "[7] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. DeepLab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs. PAMI, 2018."
+      ]
+    },
+    {
+      "block_index": 14,
+      "source_text": "[8] Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv:1706.05587, 2017.",
+      "line_start": 15,
+      "line_end": 15,
+      "proposed_entries": [
+        "[8] Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv:1706.05587, 2017."
+      ]
+    },
+    {
+      "block_index": 16,
+      "source_text": "[9] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam. Encoder-decoder with atrous separable convolution for semantic image segmentation. In ECCV, 2018.",
+      "line_start": 17,
+      "line_end": 17,
+      "proposed_entries": [
+        "[9] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam. Encoder-decoder with atrous separable convolution for semantic image segmentation. In ECCV, 2018."
+      ]
+    },
+    {
+      "block_index": 18,
+      "source_text": "[10] Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas S Huang, Wen-Mei Hwu, and Honghui Shi. SPGNet: Semantic prediction guidance for scene parsing. In ICCV, 2019.",
+      "line_start": 19,
+      "line_end": 19,
+      "proposed_entries": [
+        "[10] Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas S Huang, Wen-Mei Hwu, and Honghui Shi. SPGNet: Semantic prediction guidance for scene parsing. In ICCV, 2019."
+      ]
+    },
+    {
+      "block_index": 20,
+      "source_text": "[11] Bowen Cheng, Maxwell D Collins, Yukun Zhu, Ting Liu, Thomas S Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-DeepLab: A simple, strong, and fast baseline for bottom-up panoptic segmentation. In CVPR, 2020.",
+      "line_start": 21,
+      "line_end": 21,
+      "proposed_entries": [
+        "[11] Bowen Cheng, Maxwell D Collins, Yukun Zhu, Ting Liu, Thomas S Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-DeepLab: A simple, strong, and fast baseline for bottom-up panoptic segmentation. In CVPR, 2020."
+      ]
+    },
+    {
+      "block_index": 22,
+      "source_text": "[12] François Chollet. Xception: Deep learning with depthwise separable convolutions. In CVPR, 2017.",
+      "line_start": 23,
+      "line_end": 23,
+      "proposed_entries": [
+        "[12] François Chollet. Xception: Deep learning with depthwise separable convolutions. In CVPR, 2017."
+      ]
+    },
+    {
+      "block_index": 24,
+      "source_text": "[13] Dorin Comaniciu and Peter Meer. Robust Analysis of Feature Spaces: Color Image Segmentation. In CVPR, 1997.",
+      "line_start": 25,
+      "line_end": 25,
+      "proposed_entries": [
+        "[13] Dorin Comaniciu and Peter Meer. Robust Analysis of Feature Spaces: Color Image Segmentation. In CVPR, 1997."
+      ]
+    },
+    {
+      "block_index": 26,
+      "source_text": "[14] MMSegmentation Contributors. MMSegmentation: OpenMMLab semantic segmentation toolbox and benchmark. https://github.com/open-mmlab/mmsegmentation, 2020.",
+      "line_start": 27,
+      "line_end": 27,
+      "proposed_entries": [
+        "[14] MMSegmentation Contributors. MMSegmentation: OpenMMLab semantic segmentation toolbox and benchmark. https://github.com/open-mmlab/mmsegmentation, 2020."
+      ]
+    },
+    {
+      "block_index": 28,
+      "source_text": "[15] Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. The Cityscapes dataset for semantic urban scene understanding. In CVPR, 2016.",
+      "line_start": 29,
+      "line_end": 29,
+      "proposed_entries": [
+        "[15] Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. The Cityscapes dataset for semantic urban scene understanding. In CVPR, 2016."
+      ]
+    },
+    {
+      "block_index": 30,
+      "source_text": "[16] Jifeng Dai, Kaiming He, and Jian Sun. Convolutional feature masking for joint object and stuff segmentation. In CVPR, 2015.",
+      "line_start": 31,
+      "line_end": 31,
+      "proposed_entries": [
+        "[16] Jifeng Dai, Kaiming He, and Jian Sun. Convolutional feature masking for joint object and stuff segmentation. In CVPR, 2015."
+      ]
+    },
+    {
+      "block_index": 32,
+      "source_text": "[17] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. In ICLR, 2021.",
+      "line_start": 33,
+      "line_end": 33,
+      "proposed_entries": [
+        "[17] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. In ICLR, 2021."
+      ]
+    },
+    {
+      "block_index": 34,
+      "source_text": "[18] Mark Everingham, SM Ali Eslami, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman. The PASCAL visual object classes challenge: A retrospective. IJCV, 2015.",
+      "line_start": 35,
+      "line_end": 35,
+      "proposed_entries": [
+        "[18] Mark Everingham, SM Ali Eslami, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman. The PASCAL visual object classes challenge: A retrospective. IJCV, 2015."
+      ]
+    },
+    {
+      "block_index": 36,
+      "source_text": "[19] Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, and Hanqing Lu. Dual attention network for scene segmentation. In CVPR, 2019.",
+      "line_start": 37,
+      "line_end": 37,
+      "proposed_entries": [
+        "[19] Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, and Hanqing Lu. Dual attention network for scene segmentation. In CVPR, 2019."
+      ]
+    },
+    {
+      "block_index": 38,
+      "source_text": "[20] Bharath Hariharan, Pablo Arbeláez, Ross Girshick, and Jitendra Malik. Simultaneous detection and segmentation. In ECCV, 2014.",
+      "line_start": 39,
+      "line_end": 39,
+      "proposed_entries": [
+        "[20] Bharath Hariharan, Pablo Arbeláez, Ross Girshick, and Jitendra Malik. Simultaneous detection and segmentation. In ECCV, 2014."
+      ]
+    },
+    {
+      "block_index": 40,
+      "source_text": "[21] Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross Girshick. Mask R-CNN. In ICCV, 2017.",
+      "line_start": 41,
+      "line_end": 41,
+      "proposed_entries": [
+        "[21] Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross Girshick. Mask R-CNN. In ICCV, 2017."
+      ]
+    },
+    {
+      "block_index": 42,
+      "source_text": "[22] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In CVPR, 2016.",
+      "line_start": 43,
+      "line_end": 43,
+      "proposed_entries": [
+        "[22] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In CVPR, 2016."
+      ]
+    },
+    {
+      "block_index": 44,
+      "source_text": "[23] Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. CCNet: Criss-cross attention for semantic segmentation. In ICCV, 2019.",
+      "line_start": 45,
+      "line_end": 45,
+      "proposed_entries": [
+        "[23] Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. CCNet: Criss-cross attention for semantic segmentation. In ICCV, 2019."
+      ]
+    },
+    {
+      "block_index": 46,
+      "source_text": "[24] Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár. Panoptic segmentation. In CVPR, 2019.",
+      "line_start": 47,
+      "line_end": 47,
+      "proposed_entries": [
+        "[24] Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár. Panoptic segmentation. In CVPR, 2019."
+      ]
+    },
+    {
+      "block_index": 48,
+      "source_text": "[25] Scott Konishi and Alan Yuille. Statistical Cues for Domain Specific Image Segmentation with Performance Analysis. In CVPR, 2000.",
+      "line_start": 49,
+      "line_end": 49,
+      "proposed_entries": [
+        "[25] Scott Konishi and Alan Yuille. Statistical Cues for Domain Specific Image Segmentation with Performance Analysis. In CVPR, 2000."
+      ]
+    },
+    {
+      "block_index": 50,
+      "source_text": "[26] Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In CVPR, 2017.",
+      "line_start": 51,
+      "line_end": 51,
+      "proposed_entries": [
+        "[26] Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In CVPR, 2017."
+      ]
+    },
+    {
+      "block_index": 52,
+      "source_text": "[27] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. Focal loss for dense object detection. In ICCV, 2017.",
+      "line_start": 53,
+      "line_end": 53,
+      "proposed_entries": [
+        "[27] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. Focal loss for dense object detection. In ICCV, 2017."
+      ]
+    },
+    {
+      "block_index": 54,
+      "source_text": "[28] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft COCO: Common objects in context. In ECCV, 2014.",
+      "line_start": 55,
+      "line_end": 55,
+      "proposed_entries": [
+        "[28] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft COCO: Common objects in context. In ECCV, 2014."
+      ]
+    },
+    {
+      "block_index": 56,
+      "source_text": "[29] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin transformer: Hierarchical vision transformer using shifted windows. arXiv:2103.14030, 2021.",
+      "line_start": 57,
+      "line_end": 57,
+      "proposed_entries": [
+        "[29] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin transformer: Hierarchical vision transformer using shifted windows. arXiv:2103.14030, 2021."
+      ]
+    },
+    {
+      "block_index": 58,
+      "source_text": "[30] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks for semantic segmentation. In CVPR, 2015.",
+      "line_start": 59,
+      "line_end": 59,
+      "proposed_entries": [
+        "[30] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks for semantic segmentation. In CVPR, 2015."
+      ]
+    },
+    {
+      "block_index": 60,
+      "source_text": "[31] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In ICLR, 2019.",
+      "line_start": 61,
+      "line_end": 61,
+      "proposed_entries": [
+        "[31] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In ICLR, 2019."
+      ]
+    },
+    {
+      "block_index": 62,
+      "source_text": "[32] Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun. ShuffleNet V2: Practical guidelines for efficient cnn architecture design. In ECCV, 2018.",
+      "line_start": 63,
+      "line_end": 63,
+      "proposed_entries": [
+        "[32] Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun. ShuffleNet V2: Practical guidelines for efficient cnn architecture design. In ECCV, 2018."
+      ]
+    },
+    {
+      "block_index": 64,
+      "source_text": "[33] Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi. V-Net: Fully convolutional neural networks for volumetric medical image segmentation. In 3DV, 2016.",
+      "line_start": 65,
+      "line_end": 65,
+      "proposed_entries": [
+        "[33] Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi. V-Net: Fully convolutional neural networks for volumetric medical image segmentation. In 3DV, 2016."
+      ]
+    },
+    {
+      "block_index": 66,
+      "source_text": "[34] Gerhard Neuhold, Tobias Ollmann, Samuel Rota Bulò, and Peter Kontschieder. The mapillary vistas dataset for semantic understanding of street scenes. In CVPR, 2017.",
+      "line_start": 67,
+      "line_end": 67,
+      "proposed_entries": [
+        "[34] Gerhard Neuhold, Tobias Ollmann, Samuel Rota Bulò, and Peter Kontschieder. The mapillary vistas dataset for semantic understanding of street scenes. In CVPR, 2017."
+      ]
+    },
+    {
+      "block_index": 68,
+      "source_text": "[35] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C. Berg, and Li Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. IJCV, 2015.",
+      "line_start": 69,
+      "line_end": 69,
+      "proposed_entries": [
+        "[35] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C. Berg, and Li Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. IJCV, 2015."
+      ]
+    },
+    {
+      "block_index": 70,
+      "source_text": "[36] Jianbo Shi and Jitendra Malik. Normalized Cuts and Image Segmentation. PAMI, 2000.",
+      "line_start": 71,
+      "line_end": 71,
+      "proposed_entries": [
+        "[36] Jianbo Shi and Jitendra Malik. Normalized Cuts and Image Segmentation. PAMI, 2000."
+      ]
+    },
+    {
+      "block_index": 72,
+      "source_text": "[37] Robin Strudel, Ricardo Garcia, Ivan Laptev, and Cordelia Schmid. Segmenter: Transformer for semantic segmentation. arXiv:2105.05633, 2021.",
+      "line_start": 73,
+      "line_end": 73,
+      "proposed_entries": [
+        "[37] Robin Strudel, Ricardo Garcia, Ivan Laptev, and Cordelia Schmid. Segmenter: Transformer for semantic segmentation. arXiv:2105.05633, 2021."
+      ]
+    },
+    {
+      "block_index": 74,
+      "source_text": "[38] Andrew Tao, Karan Sapra, and Bryan Catanzaro. Hierarchical multi-scale attention for semantic segmentation. arXiv:2005.10821, 2020.",
+      "line_start": 75,
+      "line_end": 75,
+      "proposed_entries": [
+        "[38] Andrew Tao, Karan Sapra, and Bryan Catanzaro. Hierarchical multi-scale attention for semantic segmentation. arXiv:2005.10821, 2020."
+      ]
+    },
+    {
+      "block_index": 76,
+      "source_text": "[39] Zhi Tian, Chunhua Shen, and Hao Chen. Conditional convolutions for instance segmentation. In ECCV, 2020.",
+      "line_start": 77,
+      "line_end": 77,
+      "proposed_entries": [
+        "[39] Zhi Tian, Chunhua Shen, and Hao Chen. Conditional convolutions for instance segmentation. In ECCV, 2020."
+      ]
+    },
+    {
+      "block_index": 78,
+      "source_text": "[40] Jasper RR Uijlings, Koen EA Van De Sande, Theo Gevers, and Arnold WM Smeulders. Selective search for object recognition. IJCV, 2013.",
+      "line_start": 79,
+      "line_end": 79,
+      "proposed_entries": [
+        "[40] Jasper RR Uijlings, Koen EA Van De Sande, Theo Gevers, and Arnold WM Smeulders. Selective search for object recognition. IJCV, 2013."
+      ]
+    },
+    {
+      "block_index": 80,
+      "source_text": "[41] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NeurIPS, 2017.",
+      "line_start": 81,
+      "line_end": 81,
+      "proposed_entries": [
+        "[41] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NeurIPS, 2017."
+      ]
+    },
+    {
+      "block_index": 82,
+      "source_text": "[42] Huiyu Wang, Yukun Zhu, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen. MaX-DeepLab: End-to-end panoptic segmentation with mask transformers. In CVPR, 2021.",
+      "line_start": 83,
+      "line_end": 83,
+      "proposed_entries": [
+        "[42] Huiyu Wang, Yukun Zhu, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen. MaX-DeepLab: End-to-end panoptic segmentation with mask transformers. In CVPR, 2021."
+      ]
+    },
+    {
+      "block_index": 84,
+      "source_text": "[43] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He. Non-local neural networks. In CVPR, 2018.",
+      "line_start": 85,
+      "line_end": 85,
+      "proposed_entries": [
+        "[43] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He. Non-local neural networks. In CVPR, 2018."
+      ]
+    },
+    {
+      "block_index": 86,
+      "source_text": "[44] Xinlong Wang, Rufeng Zhang, Tao Kong, Lei Li, and Chunhua Shen. SOLOv2: Dynamic and fast instance segmentation. NeurIPS, 2020.",
+      "line_start": 87,
+      "line_end": 87,
+      "proposed_entries": [
+        "[44] Xinlong Wang, Rufeng Zhang, Tao Kong, Lei Li, and Chunhua Shen. SOLOv2: Dynamic and fast instance segmentation. NeurIPS, 2020."
+      ]
+    },
+    {
+      "block_index": 88,
+      "source_text": "[45] Yuxin Wu and Kaiming He. Group normalization. In ECCV, 2018.",
+      "line_start": 89,
+      "line_end": 89,
+      "proposed_entries": [
+        "[45] Yuxin Wu and Kaiming He. Group normalization. In ECCV, 2018."
+      ]
+    },
+    {
+      "block_index": 90,
+      "source_text": "[46] Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick. Detectron2. https: //github.com/facebookresearch/detectron2, 2019.",
+      "line_start": 91,
+      "line_end": 91,
+      "proposed_entries": [
+        "[46] Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick. Detectron2. https: //github.com/facebookresearch/detectron2, 2019."
+      ]
+    },
+    {
+      "block_index": 92,
+      "source_text": "[47] Yangxin Wu, Gengwei Zhang, Yiming Gao, Xiajun Deng, Ke Gong, Xiaodan Liang, and Liang Lin. Bidirectional graph reasoning network for panoptic segmentation. In CVPR, 2020.",
+      "line_start": 93,
+      "line_end": 93,
+      "proposed_entries": [
+        "[47] Yangxin Wu, Gengwei Zhang, Yiming Gao, Xiajun Deng, Ke Gong, Xiaodan Liang, and Liang Lin. Bidirectional graph reasoning network for panoptic segmentation. In CVPR, 2020."
+      ]
+    },
+    {
+      "block_index": 94,
+      "source_text": "[48] Yangxin Wu, Gengwei Zhang, Hang Xu, Xiaodan Liang, and Liang Lin. Auto-panoptic: Cooperative multi-component architecture search for panoptic segmentation. In NeurIPS, 2020.",
+      "line_start": 95,
+      "line_end": 95,
+      "proposed_entries": [
+        "[48] Yangxin Wu, Gengwei Zhang, Hang Xu, Xiaodan Liang, and Liang Lin. Auto-panoptic: Cooperative multi-component architecture search for panoptic segmentation. In NeurIPS, 2020."
+      ]
+    },
+    {
+      "block_index": 96,
+      "source_text": "[49] Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun. Unified perceptual parsing for scene understanding. In ECCV, 2018.",
+      "line_start": 97,
+      "line_end": 97,
+      "proposed_entries": [
+        "[49] Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun. Unified perceptual parsing for scene understanding. In ECCV, 2018."
+      ]
+    },
+    {
+      "block_index": 98,
+      "source_text": "[50] Yuhui Yuan, Xilin Chen, and Jingdong Wang. Object-contextual representations for semantic segmentation. In ECCV, 2020.",
+      "line_start": 99,
+      "line_end": 99,
+      "proposed_entries": [
+        "[50] Yuhui Yuan, Xilin Chen, and Jingdong Wang. Object-contextual representations for semantic segmentation. In ECCV, 2020."
+      ]
+    },
+    {
+      "block_index": 100,
+      "source_text": "[51] Yuhui Yuan, Lang Huang, Jianyuan Guo, Chao Zhang, Xilin Chen, and Jingdong Wang. OCNet: Object context for semantic segmentation. IJCV, 2021.",
+      "line_start": 101,
+      "line_end": 101,
+      "proposed_entries": [
+        "[51] Yuhui Yuan, Lang Huang, Jianyuan Guo, Chao Zhang, Xilin Chen, and Jingdong Wang. OCNet: Object context for semantic segmentation. IJCV, 2021."
+      ]
+    },
+    {
+      "block_index": 102,
+      "source_text": "[52] Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia. Pyramid scene parsing network. In CVPR, 2017.",
+      "line_start": 103,
+      "line_end": 103,
+      "proposed_entries": [
+        "[52] Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia. Pyramid scene parsing network. In CVPR, 2017."
+      ]
+    },
+    {
+      "block_index": 104,
+      "source_text": "[53] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip HS Torr, et al. Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers. In CVPR, 2021.",
+      "line_start": 105,
+      "line_end": 105,
+      "proposed_entries": [
+        "[53] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip HS Torr, et al. Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers. In CVPR, 2021."
+      ]
+    },
+    {
+      "block_index": 106,
+      "source_text": "[54] Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing challenge 2016. http://sceneparsing.csail.mit.edu/index\\_challenge.html, 2016.",
+      "line_start": 107,
+      "line_end": 107,
+      "proposed_entries": [
+        "[54] Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing challenge 2016. http://sceneparsing.csail.mit.edu/index\\_challenge.html, 2016."
+      ]
+    },
+    {
+      "block_index": 108,
+      "source_text": "[55] Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing through ADE20K dataset. In CVPR, 2017.",
+      "line_start": 109,
+      "line_end": 109,
+      "proposed_entries": [
+        "[55] Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing through ADE20K dataset. In CVPR, 2017."
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "entry_index": 0,
+      "raw": "[1] COCO + Places Challenges 2017. https://places-coco2017.github.io/, 2016.",
+      "detected_ref_number": 1,
+      "numbering": {
+        "detected_ref_number": 1,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 0,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "COCO + Places Challenges 2017",
+          "author_candidates": [
+            "COCO + Places Challenges 2017"
+          ],
+          "title_candidate": "https://places-coco2017.github.io/, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 0,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "COCO + Places Challenges 2017. https",
+          "author_candidates": [
+            "COCO + Places Challenges 2017. https"
+          ],
+          "title_candidate": "//places-coco2017.github.io/",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 0,
+          "pattern": "fallback_raw_split",
+          "author_text": "COCO + Places Challenges 2017. https",
+          "author_candidates": [
+            "COCO + Places Challenges 2017. https"
+          ],
+          "title_candidate": "//places-coco2017.github.io/, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 1,
+      "raw": "[2] Pablo Arbeláez, Jordi Pont-Tuset, Jonathan T Barron, Ferran Marques, and Jitendra Malik. Multiscale combinatorial grouping. In CVPR, 2014.",
+      "detected_ref_number": 2,
+      "numbering": {
+        "detected_ref_number": 2,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 1,
+          "pattern": "venue_marker_split",
+          "author_text": "Pablo Arbeláez, Jordi Pont-Tuset, Jonathan T Barron, Ferran Marques, and Jitendra Malik",
+          "author_candidates": [
+            "Pont-Tuset, Jonathan T Barron"
+          ],
+          "title_candidate": "Multiscale combinatorial grouping",
+          "container_candidate": "In CVPR, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 1,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Pablo Arbeláez, Jordi Pont-Tuset, Jonathan T Barron, Ferran Marques, and Jitendra Malik",
+          "author_candidates": [
+            "Pont-Tuset, Jonathan T Barron"
+          ],
+          "title_candidate": "Multiscale combinatorial grouping",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 1,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Pablo Arbeláez, Jordi Pont-Tuset, Jonathan T Barron, Ferran Marques, and Jitendra Malik",
+          "author_candidates": [
+            "Pont-Tuset, Jonathan T Barron"
+          ],
+          "title_candidate": "Multiscale combinatorial grouping. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 1,
+          "pattern": "fallback_raw_split",
+          "author_text": "Pablo Arbeláez, Jordi Pont-Tuset, Jonathan T Barron, Ferran Marques, and Jitendra Malik",
+          "author_candidates": [
+            "Pont-Tuset, Jonathan T Barron"
+          ],
+          "title_candidate": "Multiscale combinatorial grouping. In CVPR, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "raw": "[3] Holger Caesar, Jasper Uijlings, and Vittorio Ferrari. COCO-Stuff: Thing and stuff classes in context. In CVPR, 2018.",
+      "detected_ref_number": 3,
+      "numbering": {
+        "detected_ref_number": 3,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 2,
+          "pattern": "venue_marker_split",
+          "author_text": "Holger Caesar, Jasper Uijlings, and Vittorio Ferrari",
+          "author_candidates": [
+            "Caesar, Jasper Uijlings"
+          ],
+          "title_candidate": "COCO-Stuff: Thing and stuff classes in context",
+          "container_candidate": "In CVPR, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 2,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Holger Caesar, Jasper Uijlings, and Vittorio Ferrari",
+          "author_candidates": [
+            "Caesar, Jasper Uijlings"
+          ],
+          "title_candidate": "COCO-Stuff: Thing and stuff classes in context",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 2,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Holger Caesar, Jasper Uijlings, and Vittorio Ferrari. COCO-Stuff",
+          "author_candidates": [
+            "Caesar, Jasper Uijlings"
+          ],
+          "title_candidate": "Thing and stuff classes in context. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 2,
+          "pattern": "fallback_raw_split",
+          "author_text": "Holger Caesar, Jasper Uijlings, and Vittorio Ferrari. COCO-Stuff",
+          "author_candidates": [
+            "Caesar, Jasper Uijlings"
+          ],
+          "title_candidate": "Thing and stuff classes in context. In CVPR, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 3,
+      "raw": "[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020.",
+      "detected_ref_number": 4,
+      "numbering": {
+        "detected_ref_number": 4,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 3,
+          "pattern": "venue_marker_split",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-to-end object detection with transformers",
+          "container_candidate": "In ECCV, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 3,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-to-end object detection with transformers",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 3,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-to-end object detection with transformers. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 3,
+          "pattern": "fallback_raw_split",
+          "author_text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko",
+          "author_candidates": [
+            "Carion, Francisco Massa",
+            "Synnaeve, Nicolas Usunier"
+          ],
+          "title_candidate": "End-to-end object detection with transformers. In ECCV, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 4,
+      "raw": "[5] Joao Carreira, Rui Caseiro, Jorge Batista, and Cristian Sminchisescu. Semantic segmentation with second-order pooling. In ECCV, 2012.",
+      "detected_ref_number": 5,
+      "numbering": {
+        "detected_ref_number": 5,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 4,
+          "pattern": "venue_marker_split",
+          "author_text": "Joao Carreira, Rui Caseiro, Jorge Batista, and Cristian Sminchisescu",
+          "author_candidates": [
+            "Carreira, Rui Caseiro"
+          ],
+          "title_candidate": "Semantic segmentation with second-order pooling",
+          "container_candidate": "In ECCV, 2012",
+          "year_candidate": 2012,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 4,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joao Carreira, Rui Caseiro, Jorge Batista, and Cristian Sminchisescu",
+          "author_candidates": [
+            "Carreira, Rui Caseiro"
+          ],
+          "title_candidate": "Semantic segmentation with second-order pooling",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2012,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 4,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joao Carreira, Rui Caseiro, Jorge Batista, and Cristian Sminchisescu",
+          "author_candidates": [
+            "Carreira, Rui Caseiro"
+          ],
+          "title_candidate": "Semantic segmentation with second-order pooling. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 4,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joao Carreira, Rui Caseiro, Jorge Batista, and Cristian Sminchisescu",
+          "author_candidates": [
+            "Carreira, Rui Caseiro"
+          ],
+          "title_candidate": "Semantic segmentation with second-order pooling. In ECCV, 2012",
+          "container_candidate": "",
+          "year_candidate": 2012,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 5,
+      "raw": "[6] Joao Carreira and Cristian Sminchisescu. CPMC: Automatic object segmentation using constrained parametric min-cuts. PAMI, 2011.",
+      "detected_ref_number": 6,
+      "numbering": {
+        "detected_ref_number": 6,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 5,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Joao Carreira and Cristian Sminchisescu",
+          "author_candidates": [
+            "Joao Carreira",
+            "Cristian Sminchisescu"
+          ],
+          "title_candidate": "CPMC: Automatic object segmentation using constrained parametric min-cuts",
+          "container_candidate": "PAMI,",
+          "year_candidate": 2011,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 5,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Joao Carreira and Cristian Sminchisescu. CPMC",
+          "author_candidates": [
+            "Joao Carreira",
+            "Cristian Sminchisescu. CPMC"
+          ],
+          "title_candidate": "Automatic object segmentation using constrained parametric min-cuts. PAMI",
+          "container_candidate": "",
+          "year_candidate": 2011,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 5,
+          "pattern": "fallback_raw_split",
+          "author_text": "Joao Carreira and Cristian Sminchisescu. CPMC",
+          "author_candidates": [
+            "Joao Carreira",
+            "Cristian Sminchisescu. CPMC"
+          ],
+          "title_candidate": "Automatic object segmentation using constrained parametric min-cuts. PAMI, 2011",
+          "container_candidate": "",
+          "year_candidate": 2011,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 6,
+      "raw": "[7] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. DeepLab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs. PAMI, 2018.",
+      "detected_ref_number": 7,
+      "numbering": {
+        "detected_ref_number": 7,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 6,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille",
+          "author_candidates": [
+            "Chen, George Papandreou",
+            "Kokkinos, Kevin Murphy"
+          ],
+          "title_candidate": "DeepLab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs",
+          "container_candidate": "PAMI,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 6,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. DeepLab",
+          "author_candidates": [
+            "Chen, George Papandreou",
+            "Kokkinos, Kevin Murphy"
+          ],
+          "title_candidate": "Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs. PAMI",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 6,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L Yuille. DeepLab",
+          "author_candidates": [
+            "Chen, George Papandreou",
+            "Kokkinos, Kevin Murphy"
+          ],
+          "title_candidate": "Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs. PAMI, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 7,
+      "raw": "[8] Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv:1706.05587, 2017.",
+      "detected_ref_number": 8,
+      "numbering": {
+        "detected_ref_number": 8,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 7,
+          "pattern": "venue_marker_split",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, George Papandreou"
+          ],
+          "title_candidate": "Rethinking atrous convolution for semantic image segmentation",
+          "container_candidate": "arXiv:1706.05587, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 7,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, George Papandreou"
+          ],
+          "title_candidate": "Rethinking atrous convolution for semantic image segmentation",
+          "container_candidate": "arXiv:1706.05587,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 7,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv",
+          "author_candidates": [
+            "Chen, George Papandreou"
+          ],
+          "title_candidate": "1706.05587",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 7,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution for semantic image segmentation. arXiv",
+          "author_candidates": [
+            "Chen, George Papandreou"
+          ],
+          "title_candidate": "1706.05587, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 8,
+      "raw": "[9] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam. Encoder-decoder with atrous separable convolution for semantic image segmentation. In ECCV, 2018.",
+      "detected_ref_number": 9,
+      "numbering": {
+        "detected_ref_number": 9,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 8,
+          "pattern": "venue_marker_split",
+          "author_text": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Yukun Zhu",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+          "container_candidate": "In ECCV, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 8,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Yukun Zhu",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Encoder-decoder with atrous separable convolution for semantic image segmentation",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 8,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Yukun Zhu",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Encoder-decoder with atrous separable convolution for semantic image segmentation. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 8,
+          "pattern": "fallback_raw_split",
+          "author_text": "Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig Adam",
+          "author_candidates": [
+            "Chen, Yukun Zhu",
+            "Papandreou, Florian Schroff"
+          ],
+          "title_candidate": "Encoder-decoder with atrous separable convolution for semantic image segmentation. In ECCV, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 9,
+      "raw": "[10] Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas S Huang, Wen-Mei Hwu, and Honghui Shi. SPGNet: Semantic prediction guidance for scene parsing. In ICCV, 2019.",
+      "detected_ref_number": 10,
+      "numbering": {
+        "detected_ref_number": 10,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 9,
+          "pattern": "venue_marker_split",
+          "author_text": "Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas S Huang, Wen-Mei Hwu, and Honghui Shi",
+          "author_candidates": [
+            "Cheng, Liang-Chieh Chen",
+            "Wei, Yukun Zhu",
+            "Huang, Jinjun Xiong",
+            "Huang, Wen-Mei Hwu"
+          ],
+          "title_candidate": "SPGNet: Semantic prediction guidance for scene parsing",
+          "container_candidate": "In ICCV, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 9,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas S Huang, Wen-Mei Hwu, and Honghui Shi",
+          "author_candidates": [
+            "Cheng, Liang-Chieh Chen",
+            "Wei, Yukun Zhu",
+            "Huang, Jinjun Xiong",
+            "Huang, Wen-Mei Hwu"
+          ],
+          "title_candidate": "SPGNet: Semantic prediction guidance for scene parsing",
+          "container_candidate": "In ICCV,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 9,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas S Huang, Wen-Mei Hwu, and Honghui Shi. SPGNet",
+          "author_candidates": [
+            "Cheng, Liang-Chieh Chen",
+            "Wei, Yukun Zhu",
+            "Huang, Jinjun Xiong",
+            "Huang, Wen-Mei Hwu"
+          ],
+          "title_candidate": "Semantic prediction guidance for scene parsing. In ICCV",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 9,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas S Huang, Wen-Mei Hwu, and Honghui Shi. SPGNet",
+          "author_candidates": [
+            "Cheng, Liang-Chieh Chen",
+            "Wei, Yukun Zhu",
+            "Huang, Jinjun Xiong",
+            "Huang, Wen-Mei Hwu"
+          ],
+          "title_candidate": "Semantic prediction guidance for scene parsing. In ICCV, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 10,
+      "raw": "[11] Bowen Cheng, Maxwell D Collins, Yukun Zhu, Ting Liu, Thomas S Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-DeepLab: A simple, strong, and fast baseline for bottom-up panoptic segmentation. In CVPR, 2020.",
+      "detected_ref_number": 11,
+      "numbering": {
+        "detected_ref_number": 11,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 10,
+          "pattern": "venue_marker_split",
+          "author_text": "Bowen Cheng, Maxwell D Collins, Yukun Zhu, Ting Liu, Thomas S Huang, Hartwig Adam, and Liang-Chieh Chen",
+          "author_candidates": [
+            "Cheng, Maxwell D Collins",
+            "Zhu, Ting Liu",
+            "Huang, Hartwig Adam"
+          ],
+          "title_candidate": "Panoptic-DeepLab: A simple, strong, and fast baseline for bottom-up panoptic segmentation",
+          "container_candidate": "In CVPR, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 10,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bowen Cheng, Maxwell D Collins, Yukun Zhu, Ting Liu, Thomas S Huang, Hartwig Adam, and Liang-Chieh Chen",
+          "author_candidates": [
+            "Cheng, Maxwell D Collins",
+            "Zhu, Ting Liu",
+            "Huang, Hartwig Adam"
+          ],
+          "title_candidate": "Panoptic-DeepLab: A simple, strong, and fast baseline for bottom-up panoptic segmentation",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 10,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bowen Cheng, Maxwell D Collins, Yukun Zhu, Ting Liu, Thomas S Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-DeepLab",
+          "author_candidates": [
+            "Cheng, Maxwell D Collins",
+            "Zhu, Ting Liu",
+            "Huang, Hartwig Adam"
+          ],
+          "title_candidate": "A simple, strong, and fast baseline for bottom-up panoptic segmentation. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 10,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bowen Cheng, Maxwell D Collins, Yukun Zhu, Ting Liu, Thomas S Huang, Hartwig Adam, and Liang-Chieh Chen. Panoptic-DeepLab",
+          "author_candidates": [
+            "Cheng, Maxwell D Collins",
+            "Zhu, Ting Liu",
+            "Huang, Hartwig Adam"
+          ],
+          "title_candidate": "A simple, strong, and fast baseline for bottom-up panoptic segmentation. In CVPR, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 11,
+      "raw": "[12] François Chollet. Xception: Deep learning with depthwise separable convolutions. In CVPR, 2017.",
+      "detected_ref_number": 12,
+      "numbering": {
+        "detected_ref_number": 12,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 11,
+          "pattern": "venue_marker_split",
+          "author_text": "François Chollet",
+          "author_candidates": [
+            "François Chollet"
+          ],
+          "title_candidate": "Xception: Deep learning with depthwise separable convolutions",
+          "container_candidate": "In CVPR, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 11,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "François Chollet",
+          "author_candidates": [
+            "François Chollet"
+          ],
+          "title_candidate": "Xception: Deep learning with depthwise separable convolutions",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 11,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "François Chollet. Xception",
+          "author_candidates": [
+            "François Chollet. Xception"
+          ],
+          "title_candidate": "Deep learning with depthwise separable convolutions. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 11,
+          "pattern": "fallback_raw_split",
+          "author_text": "François Chollet. Xception",
+          "author_candidates": [
+            "François Chollet. Xception"
+          ],
+          "title_candidate": "Deep learning with depthwise separable convolutions. In CVPR, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 12,
+      "raw": "[13] Dorin Comaniciu and Peter Meer. Robust Analysis of Feature Spaces: Color Image Segmentation. In CVPR, 1997.",
+      "detected_ref_number": 13,
+      "numbering": {
+        "detected_ref_number": 13,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 12,
+          "pattern": "venue_marker_split",
+          "author_text": "Dorin Comaniciu and Peter Meer",
+          "author_candidates": [
+            "Dorin Comaniciu",
+            "Peter Meer"
+          ],
+          "title_candidate": "Robust Analysis of Feature Spaces: Color Image Segmentation",
+          "container_candidate": "In CVPR, 1997",
+          "year_candidate": 1997,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 12,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Dorin Comaniciu and Peter Meer",
+          "author_candidates": [
+            "Dorin Comaniciu",
+            "Peter Meer"
+          ],
+          "title_candidate": "Robust Analysis of Feature Spaces: Color Image Segmentation",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 1997,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 12,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Dorin Comaniciu and Peter Meer. Robust Analysis of Feature Spaces",
+          "author_candidates": [
+            "Dorin Comaniciu",
+            "Peter Meer. Robust Analysis of Feature Spaces"
+          ],
+          "title_candidate": "Color Image Segmentation. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 1997,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 12,
+          "pattern": "fallback_raw_split",
+          "author_text": "Dorin Comaniciu and Peter Meer. Robust Analysis of Feature Spaces",
+          "author_candidates": [
+            "Dorin Comaniciu",
+            "Peter Meer. Robust Analysis of Feature Spaces"
+          ],
+          "title_candidate": "Color Image Segmentation. In CVPR, 1997",
+          "container_candidate": "",
+          "year_candidate": 1997,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 13,
+      "raw": "[14] MMSegmentation Contributors. MMSegmentation: OpenMMLab semantic segmentation toolbox and benchmark. https://github.com/open-mmlab/mmsegmentation, 2020.",
+      "detected_ref_number": 14,
+      "numbering": {
+        "detected_ref_number": 14,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 13,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "MMSegmentation Contributors",
+          "author_candidates": [
+            "MMSegmentation Contributors"
+          ],
+          "title_candidate": "MMSegmentation: OpenMMLab semantic segmentation toolbox and benchmark",
+          "container_candidate": "https://github.com/open-mmlab/mmsegmentation,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 13,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "MMSegmentation Contributors. MMSegmentation",
+          "author_candidates": [
+            "MMSegmentation Contributors. MMSegmentation"
+          ],
+          "title_candidate": "OpenMMLab semantic segmentation toolbox and benchmark. https://github.com/open-mmlab/mmsegmentation",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 13,
+          "pattern": "fallback_raw_split",
+          "author_text": "MMSegmentation Contributors. MMSegmentation",
+          "author_candidates": [
+            "MMSegmentation Contributors. MMSegmentation"
+          ],
+          "title_candidate": "OpenMMLab semantic segmentation toolbox and benchmark. https://github.com/open-mmlab/mmsegmentation, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 14,
+      "raw": "[15] Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. The Cityscapes dataset for semantic urban scene understanding. In CVPR, 2016.",
+      "detected_ref_number": 15,
+      "numbering": {
+        "detected_ref_number": 15,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 14,
+          "pattern": "venue_marker_split",
+          "author_text": "Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele",
+          "author_candidates": [
+            "Cordts, Mohamed Omran",
+            "Ramos, Timo Rehfeld",
+            "Enzweiler, Rodrigo Benenson",
+            "Franke, Stefan Roth"
+          ],
+          "title_candidate": "The Cityscapes dataset for semantic urban scene understanding",
+          "container_candidate": "In CVPR, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 14,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele",
+          "author_candidates": [
+            "Cordts, Mohamed Omran",
+            "Ramos, Timo Rehfeld",
+            "Enzweiler, Rodrigo Benenson",
+            "Franke, Stefan Roth"
+          ],
+          "title_candidate": "The Cityscapes dataset for semantic urban scene understanding",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 14,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele",
+          "author_candidates": [
+            "Cordts, Mohamed Omran",
+            "Ramos, Timo Rehfeld",
+            "Enzweiler, Rodrigo Benenson",
+            "Franke, Stefan Roth"
+          ],
+          "title_candidate": "The Cityscapes dataset for semantic urban scene understanding. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 14,
+          "pattern": "fallback_raw_split",
+          "author_text": "Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele",
+          "author_candidates": [
+            "Cordts, Mohamed Omran",
+            "Ramos, Timo Rehfeld",
+            "Enzweiler, Rodrigo Benenson",
+            "Franke, Stefan Roth"
+          ],
+          "title_candidate": "The Cityscapes dataset for semantic urban scene understanding. In CVPR, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 15,
+      "raw": "[16] Jifeng Dai, Kaiming He, and Jian Sun. Convolutional feature masking for joint object and stuff segmentation. In CVPR, 2015.",
+      "detected_ref_number": 16,
+      "numbering": {
+        "detected_ref_number": 16,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 15,
+          "pattern": "venue_marker_split",
+          "author_text": "Jifeng Dai, Kaiming He, and Jian Sun",
+          "author_candidates": [
+            "Dai, Kaiming He"
+          ],
+          "title_candidate": "Convolutional feature masking for joint object and stuff segmentation",
+          "container_candidate": "In CVPR, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 15,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jifeng Dai, Kaiming He, and Jian Sun",
+          "author_candidates": [
+            "Dai, Kaiming He"
+          ],
+          "title_candidate": "Convolutional feature masking for joint object and stuff segmentation",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 15,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jifeng Dai, Kaiming He, and Jian Sun",
+          "author_candidates": [
+            "Dai, Kaiming He"
+          ],
+          "title_candidate": "Convolutional feature masking for joint object and stuff segmentation. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 15,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jifeng Dai, Kaiming He, and Jian Sun",
+          "author_candidates": [
+            "Dai, Kaiming He"
+          ],
+          "title_candidate": "Convolutional feature masking for joint object and stuff segmentation. In CVPR, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 16,
+      "raw": "[17] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. In ICLR, 2021.",
+      "detected_ref_number": 17,
+      "numbering": {
+        "detected_ref_number": 17,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 16,
+          "pattern": "venue_marker_split",
+          "author_text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al",
+          "author_candidates": [
+            "Dosovitskiy, Lucas Beyer",
+            "Kolesnikov, Dirk Weissenborn",
+            "Zhai, Thomas Unterthiner",
+            "Dehghani, Matthias Minderer",
+            "Heigold, Sylvain Gelly"
+          ],
+          "title_candidate": "An image is worth 16x16 words: Transformers for image recognition at scale",
+          "container_candidate": "In ICLR, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 16,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al",
+          "author_candidates": [
+            "Dosovitskiy, Lucas Beyer",
+            "Kolesnikov, Dirk Weissenborn",
+            "Zhai, Thomas Unterthiner",
+            "Dehghani, Matthias Minderer",
+            "Heigold, Sylvain Gelly"
+          ],
+          "title_candidate": "An image is worth 16x16 words: Transformers for image recognition at scale",
+          "container_candidate": "In ICLR,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 16,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words",
+          "author_candidates": [
+            "Dosovitskiy, Lucas Beyer",
+            "Kolesnikov, Dirk Weissenborn",
+            "Zhai, Thomas Unterthiner",
+            "Dehghani, Matthias Minderer",
+            "Heigold, Sylvain Gelly"
+          ],
+          "title_candidate": "Transformers for image recognition at scale. In ICLR",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 16,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth 16x16 words",
+          "author_candidates": [
+            "Dosovitskiy, Lucas Beyer",
+            "Kolesnikov, Dirk Weissenborn",
+            "Zhai, Thomas Unterthiner",
+            "Dehghani, Matthias Minderer",
+            "Heigold, Sylvain Gelly"
+          ],
+          "title_candidate": "Transformers for image recognition at scale. In ICLR, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 17,
+      "raw": "[18] Mark Everingham, SM Ali Eslami, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman. The PASCAL visual object classes challenge: A retrospective. IJCV, 2015.",
+      "detected_ref_number": 18,
+      "numbering": {
+        "detected_ref_number": 18,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 17,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Mark Everingham, SM Ali Eslami, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman",
+          "author_candidates": [
+            "Everingham, SM Ali Eslami",
+            "Gool, Christopher KI Williams"
+          ],
+          "title_candidate": "The PASCAL visual object classes challenge: A retrospective",
+          "container_candidate": "IJCV,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 17,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Mark Everingham, SM Ali Eslami, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman. The PASCAL visual object classes challenge",
+          "author_candidates": [
+            "Everingham, SM Ali Eslami",
+            "Gool, Christopher KI Williams"
+          ],
+          "title_candidate": "A retrospective. IJCV",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 17,
+          "pattern": "fallback_raw_split",
+          "author_text": "Mark Everingham, SM Ali Eslami, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman. The PASCAL visual object classes challenge",
+          "author_candidates": [
+            "Everingham, SM Ali Eslami",
+            "Gool, Christopher KI Williams"
+          ],
+          "title_candidate": "A retrospective. IJCV, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 18,
+      "raw": "[19] Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, and Hanqing Lu. Dual attention network for scene segmentation. In CVPR, 2019.",
+      "detected_ref_number": 19,
+      "numbering": {
+        "detected_ref_number": 19,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 18,
+          "pattern": "venue_marker_split",
+          "author_text": "Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, and Hanqing Lu",
+          "author_candidates": [
+            "Fu, Jing Liu",
+            "Tian, Yong Li",
+            "Bao, Zhiwei Fang"
+          ],
+          "title_candidate": "Dual attention network for scene segmentation",
+          "container_candidate": "In CVPR, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 18,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, and Hanqing Lu",
+          "author_candidates": [
+            "Fu, Jing Liu",
+            "Tian, Yong Li",
+            "Bao, Zhiwei Fang"
+          ],
+          "title_candidate": "Dual attention network for scene segmentation",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 18,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, and Hanqing Lu",
+          "author_candidates": [
+            "Fu, Jing Liu",
+            "Tian, Yong Li",
+            "Bao, Zhiwei Fang"
+          ],
+          "title_candidate": "Dual attention network for scene segmentation. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 18,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, and Hanqing Lu",
+          "author_candidates": [
+            "Fu, Jing Liu",
+            "Tian, Yong Li",
+            "Bao, Zhiwei Fang"
+          ],
+          "title_candidate": "Dual attention network for scene segmentation. In CVPR, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 19,
+      "raw": "[20] Bharath Hariharan, Pablo Arbeláez, Ross Girshick, and Jitendra Malik. Simultaneous detection and segmentation. In ECCV, 2014.",
+      "detected_ref_number": 20,
+      "numbering": {
+        "detected_ref_number": 20,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 19,
+          "pattern": "venue_marker_split",
+          "author_text": "Bharath Hariharan, Pablo Arbeláez, Ross Girshick, and Jitendra Malik",
+          "author_candidates": [
+            "Hariharan, Pablo Arbel"
+          ],
+          "title_candidate": "Simultaneous detection and segmentation",
+          "container_candidate": "In ECCV, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 19,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bharath Hariharan, Pablo Arbeláez, Ross Girshick, and Jitendra Malik",
+          "author_candidates": [
+            "Hariharan, Pablo Arbel"
+          ],
+          "title_candidate": "Simultaneous detection and segmentation",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 19,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bharath Hariharan, Pablo Arbeláez, Ross Girshick, and Jitendra Malik",
+          "author_candidates": [
+            "Hariharan, Pablo Arbel"
+          ],
+          "title_candidate": "Simultaneous detection and segmentation. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 19,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bharath Hariharan, Pablo Arbeláez, Ross Girshick, and Jitendra Malik",
+          "author_candidates": [
+            "Hariharan, Pablo Arbel"
+          ],
+          "title_candidate": "Simultaneous detection and segmentation. In ECCV, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 20,
+      "raw": "[21] Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross Girshick. Mask R-CNN. In ICCV, 2017.",
+      "detected_ref_number": 21,
+      "numbering": {
+        "detected_ref_number": 21,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 20,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross Girshick",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Mask R-CNN",
+          "container_candidate": "In ICCV, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 20,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross Girshick",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Mask R-CNN",
+          "container_candidate": "In ICCV,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 20,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross Girshick",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Mask R-CNN. In ICCV",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 20,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross Girshick",
+          "author_candidates": [
+            "He, Georgia Gkioxari"
+          ],
+          "title_candidate": "Mask R-CNN. In ICCV, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 21,
+      "raw": "[22] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition. In CVPR, 2016.",
+      "detected_ref_number": 22,
+      "numbering": {
+        "detected_ref_number": 22,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 21,
+          "pattern": "venue_marker_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In CVPR, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 21,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 21,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 21,
+          "pattern": "fallback_raw_split",
+          "author_text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun",
+          "author_candidates": [
+            "He, Xiangyu Zhang"
+          ],
+          "title_candidate": "Deep residual learning for image recognition. In CVPR, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 22,
+      "raw": "[23] Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. CCNet: Criss-cross attention for semantic segmentation. In ICCV, 2019.",
+      "detected_ref_number": 23,
+      "numbering": {
+        "detected_ref_number": 23,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 22,
+          "pattern": "venue_marker_split",
+          "author_text": "Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu",
+          "author_candidates": [
+            "Huang, Xinggang Wang",
+            "Huang, Chang Huang"
+          ],
+          "title_candidate": "CCNet: Criss-cross attention for semantic segmentation",
+          "container_candidate": "In ICCV, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 22,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu",
+          "author_candidates": [
+            "Huang, Xinggang Wang",
+            "Huang, Chang Huang"
+          ],
+          "title_candidate": "CCNet: Criss-cross attention for semantic segmentation",
+          "container_candidate": "In ICCV,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 22,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. CCNet",
+          "author_candidates": [
+            "Huang, Xinggang Wang",
+            "Huang, Chang Huang"
+          ],
+          "title_candidate": "Criss-cross attention for semantic segmentation. In ICCV",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 22,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. CCNet",
+          "author_candidates": [
+            "Huang, Xinggang Wang",
+            "Huang, Chang Huang"
+          ],
+          "title_candidate": "Criss-cross attention for semantic segmentation. In ICCV, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 23,
+      "raw": "[24] Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár. Panoptic segmentation. In CVPR, 2019.",
+      "detected_ref_number": 24,
+      "numbering": {
+        "detected_ref_number": 24,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 23,
+          "pattern": "venue_marker_split",
+          "author_text": "Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár",
+          "author_candidates": [
+            "Kirillov, Kaiming He",
+            "Girshick, Carsten Rother"
+          ],
+          "title_candidate": "Panoptic segmentation",
+          "container_candidate": "In CVPR, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 23,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár",
+          "author_candidates": [
+            "Kirillov, Kaiming He",
+            "Girshick, Carsten Rother"
+          ],
+          "title_candidate": "Panoptic segmentation",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 23,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár",
+          "author_candidates": [
+            "Kirillov, Kaiming He",
+            "Girshick, Carsten Rother"
+          ],
+          "title_candidate": "Panoptic segmentation. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 23,
+          "pattern": "fallback_raw_split",
+          "author_text": "Alexander Kirillov, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár",
+          "author_candidates": [
+            "Kirillov, Kaiming He",
+            "Girshick, Carsten Rother"
+          ],
+          "title_candidate": "Panoptic segmentation. In CVPR, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 24,
+      "raw": "[25] Scott Konishi and Alan Yuille. Statistical Cues for Domain Specific Image Segmentation with Performance Analysis. In CVPR, 2000.",
+      "detected_ref_number": 25,
+      "numbering": {
+        "detected_ref_number": 25,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 24,
+          "pattern": "venue_marker_split",
+          "author_text": "Scott Konishi and Alan Yuille",
+          "author_candidates": [
+            "Scott Konishi",
+            "Alan Yuille"
+          ],
+          "title_candidate": "Statistical Cues for Domain Specific Image Segmentation with Performance Analysis",
+          "container_candidate": "In CVPR, 2000",
+          "year_candidate": 2000,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 24,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Scott Konishi and Alan Yuille",
+          "author_candidates": [
+            "Scott Konishi",
+            "Alan Yuille"
+          ],
+          "title_candidate": "Statistical Cues for Domain Specific Image Segmentation with Performance Analysis",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2000,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 24,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Scott Konishi and Alan Yuille",
+          "author_candidates": [
+            "Scott Konishi",
+            "Alan Yuille"
+          ],
+          "title_candidate": "Statistical Cues for Domain Specific Image Segmentation with Performance Analysis. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2000,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 24,
+          "pattern": "fallback_raw_split",
+          "author_text": "Scott Konishi and Alan Yuille",
+          "author_candidates": [
+            "Scott Konishi",
+            "Alan Yuille"
+          ],
+          "title_candidate": "Statistical Cues for Domain Specific Image Segmentation with Performance Analysis. In CVPR, 2000",
+          "container_candidate": "",
+          "year_candidate": 2000,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 25,
+      "raw": "[26] Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie. Feature pyramid networks for object detection. In CVPR, 2017.",
+      "detected_ref_number": 26,
+      "numbering": {
+        "detected_ref_number": 26,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 25,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Doll",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection",
+          "container_candidate": "In CVPR, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 25,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Doll",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 25,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Doll",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 25,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie",
+          "author_candidates": [
+            "Lin, Piotr Doll",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Feature pyramid networks for object detection. In CVPR, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 26,
+      "raw": "[27] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. Focal loss for dense object detection. In ICCV, 2017.",
+      "detected_ref_number": 27,
+      "numbering": {
+        "detected_ref_number": 27,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 26,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection",
+          "container_candidate": "In ICCV, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 26,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection",
+          "container_candidate": "In ICCV,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 26,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection. In ICCV",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 26,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár",
+          "author_candidates": [
+            "Lin, Priya Goyal",
+            "Girshick, Kaiming He"
+          ],
+          "title_candidate": "Focal loss for dense object detection. In ICCV, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 27,
+      "raw": "[28] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft COCO: Common objects in context. In ECCV, 2014.",
+      "detected_ref_number": 28,
+      "numbering": {
+        "detected_ref_number": 28,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 27,
+          "pattern": "venue_marker_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft COCO: Common objects in context",
+          "container_candidate": "In ECCV, 2014",
+          "year_candidate": 2014,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 27,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Microsoft COCO: Common objects in context",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2014,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 27,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft COCO",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 27,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. Microsoft COCO",
+          "author_candidates": [
+            "Lin, Michael Maire",
+            "Belongie, James Hays",
+            "Perona, Deva Ramanan"
+          ],
+          "title_candidate": "Common objects in context. In ECCV, 2014",
+          "container_candidate": "",
+          "year_candidate": 2014,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 28,
+      "raw": "[29] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin transformer: Hierarchical vision transformer using shifted windows. arXiv:2103.14030, 2021.",
+      "detected_ref_number": 29,
+      "numbering": {
+        "detected_ref_number": 29,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 28,
+          "pattern": "venue_marker_split",
+          "author_text": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo",
+          "author_candidates": [
+            "Liu, Yutong Lin",
+            "Cao, Han Hu",
+            "Wei, Zheng Zhang"
+          ],
+          "title_candidate": "Swin transformer: Hierarchical vision transformer using shifted windows",
+          "container_candidate": "arXiv:2103.14030, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 28,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo",
+          "author_candidates": [
+            "Liu, Yutong Lin",
+            "Cao, Han Hu",
+            "Wei, Zheng Zhang"
+          ],
+          "title_candidate": "Swin transformer: Hierarchical vision transformer using shifted windows",
+          "container_candidate": "arXiv:2103.14030,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 28,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin transformer",
+          "author_candidates": [
+            "Liu, Yutong Lin",
+            "Cao, Han Hu",
+            "Wei, Zheng Zhang"
+          ],
+          "title_candidate": "Hierarchical vision transformer using shifted windows. arXiv:2103.14030",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 28,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin transformer",
+          "author_candidates": [
+            "Liu, Yutong Lin",
+            "Cao, Han Hu",
+            "Wei, Zheng Zhang"
+          ],
+          "title_candidate": "Hierarchical vision transformer using shifted windows. arXiv:2103.14030, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 29,
+      "raw": "[30] Jonathan Long, Evan Shelhamer, and Trevor Darrell. Fully convolutional networks for semantic segmentation. In CVPR, 2015.",
+      "detected_ref_number": 30,
+      "numbering": {
+        "detected_ref_number": 30,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 29,
+          "pattern": "venue_marker_split",
+          "author_text": "Jonathan Long, Evan Shelhamer, and Trevor Darrell",
+          "author_candidates": [
+            "Long, Evan Shelhamer"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation",
+          "container_candidate": "In CVPR, 2015",
+          "year_candidate": 2015,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 29,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jonathan Long, Evan Shelhamer, and Trevor Darrell",
+          "author_candidates": [
+            "Long, Evan Shelhamer"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 29,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jonathan Long, Evan Shelhamer, and Trevor Darrell",
+          "author_candidates": [
+            "Long, Evan Shelhamer"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 29,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jonathan Long, Evan Shelhamer, and Trevor Darrell",
+          "author_candidates": [
+            "Long, Evan Shelhamer"
+          ],
+          "title_candidate": "Fully convolutional networks for semantic segmentation. In CVPR, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 30,
+      "raw": "[31] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In ICLR, 2019.",
+      "detected_ref_number": 31,
+      "numbering": {
+        "detected_ref_number": 31,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 30,
+          "pattern": "venue_marker_split",
+          "author_text": "Ilya Loshchilov and Frank Hutter",
+          "author_candidates": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+          ],
+          "title_candidate": "Decoupled weight decay regularization",
+          "container_candidate": "In ICLR, 2019",
+          "year_candidate": 2019,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 30,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ilya Loshchilov and Frank Hutter",
+          "author_candidates": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+          ],
+          "title_candidate": "Decoupled weight decay regularization",
+          "container_candidate": "In ICLR,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 30,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ilya Loshchilov and Frank Hutter",
+          "author_candidates": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+          ],
+          "title_candidate": "Decoupled weight decay regularization. In ICLR",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 30,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ilya Loshchilov and Frank Hutter",
+          "author_candidates": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+          ],
+          "title_candidate": "Decoupled weight decay regularization. In ICLR, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 31,
+      "raw": "[32] Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun. ShuffleNet V2: Practical guidelines for efficient cnn architecture design. In ECCV, 2018.",
+      "detected_ref_number": 32,
+      "numbering": {
+        "detected_ref_number": 32,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 31,
+          "pattern": "venue_marker_split",
+          "author_text": "Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun",
+          "author_candidates": [
+            "Ma, Xiangyu Zhang"
+          ],
+          "title_candidate": "ShuffleNet V2: Practical guidelines for efficient cnn architecture design",
+          "container_candidate": "In ECCV, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 31,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun",
+          "author_candidates": [
+            "Ma, Xiangyu Zhang"
+          ],
+          "title_candidate": "ShuffleNet V2: Practical guidelines for efficient cnn architecture design",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 31,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun. ShuffleNet V2",
+          "author_candidates": [
+            "Ma, Xiangyu Zhang"
+          ],
+          "title_candidate": "Practical guidelines for efficient cnn architecture design. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 31,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun. ShuffleNet V2",
+          "author_candidates": [
+            "Ma, Xiangyu Zhang"
+          ],
+          "title_candidate": "Practical guidelines for efficient cnn architecture design. In ECCV, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 32,
+      "raw": "[33] Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi. V-Net: Fully convolutional neural networks for volumetric medical image segmentation. In 3DV, 2016.",
+      "detected_ref_number": 33,
+      "numbering": {
+        "detected_ref_number": 33,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 32,
+          "pattern": "venue_marker_split",
+          "author_text": "Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi",
+          "author_candidates": [
+            "Milletari, Nassir Navab"
+          ],
+          "title_candidate": "V-Net: Fully convolutional neural networks for volumetric medical image segmentation",
+          "container_candidate": "In 3DV, 2016",
+          "year_candidate": 2016,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 32,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi",
+          "author_candidates": [
+            "Milletari, Nassir Navab"
+          ],
+          "title_candidate": "V-Net: Fully convolutional neural networks for volumetric medical image segmentation",
+          "container_candidate": "In 3DV,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 32,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi. V-Net",
+          "author_candidates": [
+            "Milletari, Nassir Navab"
+          ],
+          "title_candidate": "Fully convolutional neural networks for volumetric medical image segmentation. In 3DV",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 32,
+          "pattern": "fallback_raw_split",
+          "author_text": "Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi. V-Net",
+          "author_candidates": [
+            "Milletari, Nassir Navab"
+          ],
+          "title_candidate": "Fully convolutional neural networks for volumetric medical image segmentation. In 3DV, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 33,
+      "raw": "[34] Gerhard Neuhold, Tobias Ollmann, Samuel Rota Bulò, and Peter Kontschieder. The mapillary vistas dataset for semantic understanding of street scenes. In CVPR, 2017.",
+      "detected_ref_number": 34,
+      "numbering": {
+        "detected_ref_number": 34,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 33,
+          "pattern": "venue_marker_split",
+          "author_text": "Gerhard Neuhold, Tobias Ollmann, Samuel Rota Bulò, and Peter Kontschieder",
+          "author_candidates": [
+            "Neuhold, Tobias Ollmann"
+          ],
+          "title_candidate": "The mapillary vistas dataset for semantic understanding of street scenes",
+          "container_candidate": "In CVPR, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 33,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Gerhard Neuhold, Tobias Ollmann, Samuel Rota Bulò, and Peter Kontschieder",
+          "author_candidates": [
+            "Neuhold, Tobias Ollmann"
+          ],
+          "title_candidate": "The mapillary vistas dataset for semantic understanding of street scenes",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 33,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Gerhard Neuhold, Tobias Ollmann, Samuel Rota Bulò, and Peter Kontschieder",
+          "author_candidates": [
+            "Neuhold, Tobias Ollmann"
+          ],
+          "title_candidate": "The mapillary vistas dataset for semantic understanding of street scenes. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 33,
+          "pattern": "fallback_raw_split",
+          "author_text": "Gerhard Neuhold, Tobias Ollmann, Samuel Rota Bulò, and Peter Kontschieder",
+          "author_candidates": [
+            "Neuhold, Tobias Ollmann"
+          ],
+          "title_candidate": "The mapillary vistas dataset for semantic understanding of street scenes. In CVPR, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 34,
+      "raw": "[35] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C. Berg, and Li Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. IJCV, 2015.",
+      "detected_ref_number": 35,
+      "numbering": {
+        "detected_ref_number": 35,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 34,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C",
+          "author_candidates": [
+            "Russakovsky, Jia Deng",
+            "Su, Jonathan Krause",
+            "Satheesh, Sean Ma",
+            "Huang, Andrej Karpathy",
+            "Khosla, Michael Bernstein"
+          ],
+          "title_candidate": "Berg, and Li Fei-Fei",
+          "container_candidate": "ImageNet Large Scale Visual Recognition Challenge. IJCV,",
+          "year_candidate": 2015,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 34,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C",
+          "author_candidates": [
+            "Russakovsky, Jia Deng",
+            "Su, Jonathan Krause",
+            "Satheesh, Sean Ma",
+            "Huang, Andrej Karpathy",
+            "Khosla, Michael Bernstein"
+          ],
+          "title_candidate": "Berg, and Li Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. IJCV",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 34,
+          "pattern": "fallback_raw_split",
+          "author_text": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C",
+          "author_candidates": [
+            "Russakovsky, Jia Deng",
+            "Su, Jonathan Krause",
+            "Satheesh, Sean Ma",
+            "Huang, Andrej Karpathy",
+            "Khosla, Michael Bernstein"
+          ],
+          "title_candidate": "Berg, and Li Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. IJCV, 2015",
+          "container_candidate": "",
+          "year_candidate": 2015,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 35,
+      "raw": "[36] Jianbo Shi and Jitendra Malik. Normalized Cuts and Image Segmentation. PAMI, 2000.",
+      "detected_ref_number": 36,
+      "numbering": {
+        "detected_ref_number": 36,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 35,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jianbo Shi and Jitendra Malik",
+          "author_candidates": [
+            "Jianbo Shi",
+            "Jitendra Malik"
+          ],
+          "title_candidate": "Normalized Cuts and Image Segmentation",
+          "container_candidate": "PAMI,",
+          "year_candidate": 2000,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 35,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jianbo Shi and Jitendra Malik",
+          "author_candidates": [
+            "Jianbo Shi",
+            "Jitendra Malik"
+          ],
+          "title_candidate": "Normalized Cuts and Image Segmentation. PAMI",
+          "container_candidate": "",
+          "year_candidate": 2000,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 35,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jianbo Shi and Jitendra Malik",
+          "author_candidates": [
+            "Jianbo Shi",
+            "Jitendra Malik"
+          ],
+          "title_candidate": "Normalized Cuts and Image Segmentation. PAMI, 2000",
+          "container_candidate": "",
+          "year_candidate": 2000,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 36,
+      "raw": "[37] Robin Strudel, Ricardo Garcia, Ivan Laptev, and Cordelia Schmid. Segmenter: Transformer for semantic segmentation. arXiv:2105.05633, 2021.",
+      "detected_ref_number": 37,
+      "numbering": {
+        "detected_ref_number": 37,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 36,
+          "pattern": "venue_marker_split",
+          "author_text": "Robin Strudel, Ricardo Garcia, Ivan Laptev, and Cordelia Schmid",
+          "author_candidates": [
+            "Strudel, Ricardo Garcia"
+          ],
+          "title_candidate": "Segmenter: Transformer for semantic segmentation",
+          "container_candidate": "arXiv:2105.05633, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 36,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Robin Strudel, Ricardo Garcia, Ivan Laptev, and Cordelia Schmid",
+          "author_candidates": [
+            "Strudel, Ricardo Garcia"
+          ],
+          "title_candidate": "Segmenter: Transformer for semantic segmentation",
+          "container_candidate": "arXiv:2105.05633,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 36,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Robin Strudel, Ricardo Garcia, Ivan Laptev, and Cordelia Schmid. Segmenter",
+          "author_candidates": [
+            "Strudel, Ricardo Garcia"
+          ],
+          "title_candidate": "Transformer for semantic segmentation. arXiv:2105.05633",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 36,
+          "pattern": "fallback_raw_split",
+          "author_text": "Robin Strudel, Ricardo Garcia, Ivan Laptev, and Cordelia Schmid. Segmenter",
+          "author_candidates": [
+            "Strudel, Ricardo Garcia"
+          ],
+          "title_candidate": "Transformer for semantic segmentation. arXiv:2105.05633, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 37,
+      "raw": "[38] Andrew Tao, Karan Sapra, and Bryan Catanzaro. Hierarchical multi-scale attention for semantic segmentation. arXiv:2005.10821, 2020.",
+      "detected_ref_number": 38,
+      "numbering": {
+        "detected_ref_number": 38,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 37,
+          "pattern": "venue_marker_split",
+          "author_text": "Andrew Tao, Karan Sapra, and Bryan Catanzaro",
+          "author_candidates": [
+            "Tao, Karan Sapra"
+          ],
+          "title_candidate": "Hierarchical multi-scale attention for semantic segmentation",
+          "container_candidate": "arXiv:2005.10821, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 37,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Andrew Tao, Karan Sapra, and Bryan Catanzaro",
+          "author_candidates": [
+            "Tao, Karan Sapra"
+          ],
+          "title_candidate": "Hierarchical multi-scale attention for semantic segmentation",
+          "container_candidate": "arXiv:2005.10821,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 37,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Andrew Tao, Karan Sapra, and Bryan Catanzaro. Hierarchical multi-scale attention for semantic segmentation. arXiv",
+          "author_candidates": [
+            "Tao, Karan Sapra"
+          ],
+          "title_candidate": "2005.10821",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 37,
+          "pattern": "fallback_raw_split",
+          "author_text": "Andrew Tao, Karan Sapra, and Bryan Catanzaro. Hierarchical multi-scale attention for semantic segmentation. arXiv",
+          "author_candidates": [
+            "Tao, Karan Sapra"
+          ],
+          "title_candidate": "2005.10821, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 38,
+      "raw": "[39] Zhi Tian, Chunhua Shen, and Hao Chen. Conditional convolutions for instance segmentation. In ECCV, 2020.",
+      "detected_ref_number": 39,
+      "numbering": {
+        "detected_ref_number": 39,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 38,
+          "pattern": "venue_marker_split",
+          "author_text": "Zhi Tian, Chunhua Shen, and Hao Chen",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Conditional convolutions for instance segmentation",
+          "container_candidate": "In ECCV, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 38,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Zhi Tian, Chunhua Shen, and Hao Chen",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Conditional convolutions for instance segmentation",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 38,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Zhi Tian, Chunhua Shen, and Hao Chen",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Conditional convolutions for instance segmentation. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 38,
+          "pattern": "fallback_raw_split",
+          "author_text": "Zhi Tian, Chunhua Shen, and Hao Chen",
+          "author_candidates": [
+            "Tian, Chunhua Shen"
+          ],
+          "title_candidate": "Conditional convolutions for instance segmentation. In ECCV, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 39,
+      "raw": "[40] Jasper RR Uijlings, Koen EA Van De Sande, Theo Gevers, and Arnold WM Smeulders. Selective search for object recognition. IJCV, 2013.",
+      "detected_ref_number": 40,
+      "numbering": {
+        "detected_ref_number": 40,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 39,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Jasper RR Uijlings, Koen EA Van De Sande, Theo Gevers, and Arnold WM Smeulders",
+          "author_candidates": [
+            "Uijlings, Koen EA Van De Sande"
+          ],
+          "title_candidate": "Selective search for object recognition",
+          "container_candidate": "IJCV,",
+          "year_candidate": 2013,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 39,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Jasper RR Uijlings, Koen EA Van De Sande, Theo Gevers, and Arnold WM Smeulders",
+          "author_candidates": [
+            "Uijlings, Koen EA Van De Sande"
+          ],
+          "title_candidate": "Selective search for object recognition. IJCV",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 39,
+          "pattern": "fallback_raw_split",
+          "author_text": "Jasper RR Uijlings, Koen EA Van De Sande, Theo Gevers, and Arnold WM Smeulders",
+          "author_candidates": [
+            "Uijlings, Koen EA Van De Sande"
+          ],
+          "title_candidate": "Selective search for object recognition. IJCV, 2013",
+          "container_candidate": "",
+          "year_candidate": 2013,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 40,
+      "raw": "[41] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NeurIPS, 2017.",
+      "detected_ref_number": 41,
+      "numbering": {
+        "detected_ref_number": 41,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 40,
+          "pattern": "venue_marker_split",
+          "author_text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin",
+          "author_candidates": [
+            "Vaswani, Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones, Aidan N Gomez"
+          ],
+          "title_candidate": "Attention is all you need",
+          "container_candidate": "In NeurIPS, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 40,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin",
+          "author_candidates": [
+            "Vaswani, Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones, Aidan N Gomez"
+          ],
+          "title_candidate": "Attention is all you need",
+          "container_candidate": "In NeurIPS,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 40,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin",
+          "author_candidates": [
+            "Vaswani, Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones, Aidan N Gomez"
+          ],
+          "title_candidate": "Attention is all you need. In NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 40,
+          "pattern": "fallback_raw_split",
+          "author_text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin",
+          "author_candidates": [
+            "Vaswani, Noam Shazeer",
+            "Parmar, Jakob Uszkoreit",
+            "Jones, Aidan N Gomez"
+          ],
+          "title_candidate": "Attention is all you need. In NeurIPS, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 41,
+      "raw": "[42] Huiyu Wang, Yukun Zhu, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen. MaX-DeepLab: End-to-end panoptic segmentation with mask transformers. In CVPR, 2021.",
+      "detected_ref_number": 42,
+      "numbering": {
+        "detected_ref_number": 42,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 41,
+          "pattern": "venue_marker_split",
+          "author_text": "Huiyu Wang, Yukun Zhu, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen",
+          "author_candidates": [
+            "Wang, Yukun Zhu",
+            "Adam, Alan Yuille"
+          ],
+          "title_candidate": "MaX-DeepLab: End-to-end panoptic segmentation with mask transformers",
+          "container_candidate": "In CVPR, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 41,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Huiyu Wang, Yukun Zhu, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen",
+          "author_candidates": [
+            "Wang, Yukun Zhu",
+            "Adam, Alan Yuille"
+          ],
+          "title_candidate": "MaX-DeepLab: End-to-end panoptic segmentation with mask transformers",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 41,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Huiyu Wang, Yukun Zhu, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen. MaX-DeepLab",
+          "author_candidates": [
+            "Wang, Yukun Zhu",
+            "Adam, Alan Yuille"
+          ],
+          "title_candidate": "End-to-end panoptic segmentation with mask transformers. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 41,
+          "pattern": "fallback_raw_split",
+          "author_text": "Huiyu Wang, Yukun Zhu, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen. MaX-DeepLab",
+          "author_candidates": [
+            "Wang, Yukun Zhu",
+            "Adam, Alan Yuille"
+          ],
+          "title_candidate": "End-to-end panoptic segmentation with mask transformers. In CVPR, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 42,
+      "raw": "[43] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He. Non-local neural networks. In CVPR, 2018.",
+      "detected_ref_number": 43,
+      "numbering": {
+        "detected_ref_number": 43,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 42,
+          "pattern": "venue_marker_split",
+          "author_text": "Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He",
+          "author_candidates": [
+            "Wang, Ross Girshick"
+          ],
+          "title_candidate": "Non-local neural networks",
+          "container_candidate": "In CVPR, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 42,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He",
+          "author_candidates": [
+            "Wang, Ross Girshick"
+          ],
+          "title_candidate": "Non-local neural networks",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 42,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He",
+          "author_candidates": [
+            "Wang, Ross Girshick"
+          ],
+          "title_candidate": "Non-local neural networks. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 42,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He",
+          "author_candidates": [
+            "Wang, Ross Girshick"
+          ],
+          "title_candidate": "Non-local neural networks. In CVPR, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 43,
+      "raw": "[44] Xinlong Wang, Rufeng Zhang, Tao Kong, Lei Li, and Chunhua Shen. SOLOv2: Dynamic and fast instance segmentation. NeurIPS, 2020.",
+      "detected_ref_number": 44,
+      "numbering": {
+        "detected_ref_number": 44,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 43,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Xinlong Wang, Rufeng Zhang, Tao Kong, Lei Li, and Chunhua Shen",
+          "author_candidates": [
+            "Wang, Rufeng Zhang",
+            "Kong, Lei Li"
+          ],
+          "title_candidate": "SOLOv2: Dynamic and fast instance segmentation",
+          "container_candidate": "NeurIPS,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 43,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Xinlong Wang, Rufeng Zhang, Tao Kong, Lei Li, and Chunhua Shen. SOLOv2",
+          "author_candidates": [
+            "Wang, Rufeng Zhang",
+            "Kong, Lei Li"
+          ],
+          "title_candidate": "Dynamic and fast instance segmentation. NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 43,
+          "pattern": "fallback_raw_split",
+          "author_text": "Xinlong Wang, Rufeng Zhang, Tao Kong, Lei Li, and Chunhua Shen. SOLOv2",
+          "author_candidates": [
+            "Wang, Rufeng Zhang",
+            "Kong, Lei Li"
+          ],
+          "title_candidate": "Dynamic and fast instance segmentation. NeurIPS, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 44,
+      "raw": "[45] Yuxin Wu and Kaiming He. Group normalization. In ECCV, 2018.",
+      "detected_ref_number": 45,
+      "numbering": {
+        "detected_ref_number": 45,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 44,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuxin Wu and Kaiming He",
+          "author_candidates": [
+            "Yuxin Wu",
+            "Kaiming He"
+          ],
+          "title_candidate": "Group normalization",
+          "container_candidate": "In ECCV, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 44,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuxin Wu and Kaiming He",
+          "author_candidates": [
+            "Yuxin Wu",
+            "Kaiming He"
+          ],
+          "title_candidate": "Group normalization",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 44,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuxin Wu and Kaiming He",
+          "author_candidates": [
+            "Yuxin Wu",
+            "Kaiming He"
+          ],
+          "title_candidate": "Group normalization. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 44,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuxin Wu and Kaiming He",
+          "author_candidates": [
+            "Yuxin Wu",
+            "Kaiming He"
+          ],
+          "title_candidate": "Group normalization. In ECCV, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 45,
+      "raw": "[46] Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick. Detectron2. https: //github.com/facebookresearch/detectron2, 2019.",
+      "detected_ref_number": 46,
+      "numbering": {
+        "detected_ref_number": 46,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 45,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick",
+          "author_candidates": [
+            "Wu, Alexander Kirillov",
+            "Massa, Wan-Yen Lo"
+          ],
+          "title_candidate": "Detectron2",
+          "container_candidate": "https: //github.com/facebookresearch/detectron2,",
+          "year_candidate": 2019,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 45,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick. Detectron2. https",
+          "author_candidates": [
+            "Wu, Alexander Kirillov",
+            "Massa, Wan-Yen Lo"
+          ],
+          "title_candidate": "//github.com/facebookresearch/detectron2",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 45,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick. Detectron2. https",
+          "author_candidates": [
+            "Wu, Alexander Kirillov",
+            "Massa, Wan-Yen Lo"
+          ],
+          "title_candidate": "//github.com/facebookresearch/detectron2, 2019",
+          "container_candidate": "",
+          "year_candidate": 2019,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 46,
+      "raw": "[47] Yangxin Wu, Gengwei Zhang, Yiming Gao, Xiajun Deng, Ke Gong, Xiaodan Liang, and Liang Lin. Bidirectional graph reasoning network for panoptic segmentation. In CVPR, 2020.",
+      "detected_ref_number": 47,
+      "numbering": {
+        "detected_ref_number": 47,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 46,
+          "pattern": "venue_marker_split",
+          "author_text": "Yangxin Wu, Gengwei Zhang, Yiming Gao, Xiajun Deng, Ke Gong, Xiaodan Liang, and Liang Lin",
+          "author_candidates": [
+            "Wu, Gengwei Zhang",
+            "Gao, Xiajun Deng",
+            "Gong, Xiaodan Liang"
+          ],
+          "title_candidate": "Bidirectional graph reasoning network for panoptic segmentation",
+          "container_candidate": "In CVPR, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 46,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yangxin Wu, Gengwei Zhang, Yiming Gao, Xiajun Deng, Ke Gong, Xiaodan Liang, and Liang Lin",
+          "author_candidates": [
+            "Wu, Gengwei Zhang",
+            "Gao, Xiajun Deng",
+            "Gong, Xiaodan Liang"
+          ],
+          "title_candidate": "Bidirectional graph reasoning network for panoptic segmentation",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 46,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yangxin Wu, Gengwei Zhang, Yiming Gao, Xiajun Deng, Ke Gong, Xiaodan Liang, and Liang Lin",
+          "author_candidates": [
+            "Wu, Gengwei Zhang",
+            "Gao, Xiajun Deng",
+            "Gong, Xiaodan Liang"
+          ],
+          "title_candidate": "Bidirectional graph reasoning network for panoptic segmentation. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 46,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yangxin Wu, Gengwei Zhang, Yiming Gao, Xiajun Deng, Ke Gong, Xiaodan Liang, and Liang Lin",
+          "author_candidates": [
+            "Wu, Gengwei Zhang",
+            "Gao, Xiajun Deng",
+            "Gong, Xiaodan Liang"
+          ],
+          "title_candidate": "Bidirectional graph reasoning network for panoptic segmentation. In CVPR, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 47,
+      "raw": "[48] Yangxin Wu, Gengwei Zhang, Hang Xu, Xiaodan Liang, and Liang Lin. Auto-panoptic: Cooperative multi-component architecture search for panoptic segmentation. In NeurIPS, 2020.",
+      "detected_ref_number": 48,
+      "numbering": {
+        "detected_ref_number": 48,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 47,
+          "pattern": "venue_marker_split",
+          "author_text": "Yangxin Wu, Gengwei Zhang, Hang Xu, Xiaodan Liang, and Liang Lin",
+          "author_candidates": [
+            "Wu, Gengwei Zhang",
+            "Xu, Xiaodan Liang"
+          ],
+          "title_candidate": "Auto-panoptic: Cooperative multi-component architecture search for panoptic segmentation",
+          "container_candidate": "In NeurIPS, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 47,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yangxin Wu, Gengwei Zhang, Hang Xu, Xiaodan Liang, and Liang Lin",
+          "author_candidates": [
+            "Wu, Gengwei Zhang",
+            "Xu, Xiaodan Liang"
+          ],
+          "title_candidate": "Auto-panoptic: Cooperative multi-component architecture search for panoptic segmentation",
+          "container_candidate": "In NeurIPS,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 47,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yangxin Wu, Gengwei Zhang, Hang Xu, Xiaodan Liang, and Liang Lin. Auto-panoptic",
+          "author_candidates": [
+            "Wu, Gengwei Zhang",
+            "Xu, Xiaodan Liang"
+          ],
+          "title_candidate": "Cooperative multi-component architecture search for panoptic segmentation. In NeurIPS",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 47,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yangxin Wu, Gengwei Zhang, Hang Xu, Xiaodan Liang, and Liang Lin. Auto-panoptic",
+          "author_candidates": [
+            "Wu, Gengwei Zhang",
+            "Xu, Xiaodan Liang"
+          ],
+          "title_candidate": "Cooperative multi-component architecture search for panoptic segmentation. In NeurIPS, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 48,
+      "raw": "[49] Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun. Unified perceptual parsing for scene understanding. In ECCV, 2018.",
+      "detected_ref_number": 49,
+      "numbering": {
+        "detected_ref_number": 49,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 48,
+          "pattern": "venue_marker_split",
+          "author_text": "Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun",
+          "author_candidates": [
+            "Xiao, Yingcheng Liu",
+            "Zhou, Yuning Jiang"
+          ],
+          "title_candidate": "Unified perceptual parsing for scene understanding",
+          "container_candidate": "In ECCV, 2018",
+          "year_candidate": 2018,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 48,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun",
+          "author_candidates": [
+            "Xiao, Yingcheng Liu",
+            "Zhou, Yuning Jiang"
+          ],
+          "title_candidate": "Unified perceptual parsing for scene understanding",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2018,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 48,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun",
+          "author_candidates": [
+            "Xiao, Yingcheng Liu",
+            "Zhou, Yuning Jiang"
+          ],
+          "title_candidate": "Unified perceptual parsing for scene understanding. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 48,
+          "pattern": "fallback_raw_split",
+          "author_text": "Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun",
+          "author_candidates": [
+            "Xiao, Yingcheng Liu",
+            "Zhou, Yuning Jiang"
+          ],
+          "title_candidate": "Unified perceptual parsing for scene understanding. In ECCV, 2018",
+          "container_candidate": "",
+          "year_candidate": 2018,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 49,
+      "raw": "[50] Yuhui Yuan, Xilin Chen, and Jingdong Wang. Object-contextual representations for semantic segmentation. In ECCV, 2020.",
+      "detected_ref_number": 50,
+      "numbering": {
+        "detected_ref_number": 50,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 49,
+          "pattern": "venue_marker_split",
+          "author_text": "Yuhui Yuan, Xilin Chen, and Jingdong Wang",
+          "author_candidates": [
+            "Yuan, Xilin Chen"
+          ],
+          "title_candidate": "Object-contextual representations for semantic segmentation",
+          "container_candidate": "In ECCV, 2020",
+          "year_candidate": 2020,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 49,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuhui Yuan, Xilin Chen, and Jingdong Wang",
+          "author_candidates": [
+            "Yuan, Xilin Chen"
+          ],
+          "title_candidate": "Object-contextual representations for semantic segmentation",
+          "container_candidate": "In ECCV,",
+          "year_candidate": 2020,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 49,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuhui Yuan, Xilin Chen, and Jingdong Wang",
+          "author_candidates": [
+            "Yuan, Xilin Chen"
+          ],
+          "title_candidate": "Object-contextual representations for semantic segmentation. In ECCV",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 49,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuhui Yuan, Xilin Chen, and Jingdong Wang",
+          "author_candidates": [
+            "Yuan, Xilin Chen"
+          ],
+          "title_candidate": "Object-contextual representations for semantic segmentation. In ECCV, 2020",
+          "container_candidate": "",
+          "year_candidate": 2020,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 50,
+      "raw": "[51] Yuhui Yuan, Lang Huang, Jianyuan Guo, Chao Zhang, Xilin Chen, and Jingdong Wang. OCNet: Object context for semantic segmentation. IJCV, 2021.",
+      "detected_ref_number": 51,
+      "numbering": {
+        "detected_ref_number": 51,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 50,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Yuhui Yuan, Lang Huang, Jianyuan Guo, Chao Zhang, Xilin Chen, and Jingdong Wang",
+          "author_candidates": [
+            "Yuan, Lang Huang",
+            "Guo, Chao Zhang"
+          ],
+          "title_candidate": "OCNet: Object context for semantic segmentation",
+          "container_candidate": "IJCV,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 50,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Yuhui Yuan, Lang Huang, Jianyuan Guo, Chao Zhang, Xilin Chen, and Jingdong Wang. OCNet",
+          "author_candidates": [
+            "Yuan, Lang Huang",
+            "Guo, Chao Zhang"
+          ],
+          "title_candidate": "Object context for semantic segmentation. IJCV",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 50,
+          "pattern": "fallback_raw_split",
+          "author_text": "Yuhui Yuan, Lang Huang, Jianyuan Guo, Chao Zhang, Xilin Chen, and Jingdong Wang. OCNet",
+          "author_candidates": [
+            "Yuan, Lang Huang",
+            "Guo, Chao Zhang"
+          ],
+          "title_candidate": "Object context for semantic segmentation. IJCV, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 51,
+      "raw": "[52] Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia. Pyramid scene parsing network. In CVPR, 2017.",
+      "detected_ref_number": 52,
+      "numbering": {
+        "detected_ref_number": 52,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 51,
+          "pattern": "venue_marker_split",
+          "author_text": "Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia",
+          "author_candidates": [
+            "Zhao, Jianping Shi",
+            "Qi, Xiaogang Wang"
+          ],
+          "title_candidate": "Pyramid scene parsing network",
+          "container_candidate": "In CVPR, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 51,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia",
+          "author_candidates": [
+            "Zhao, Jianping Shi",
+            "Qi, Xiaogang Wang"
+          ],
+          "title_candidate": "Pyramid scene parsing network",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 51,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia",
+          "author_candidates": [
+            "Zhao, Jianping Shi",
+            "Qi, Xiaogang Wang"
+          ],
+          "title_candidate": "Pyramid scene parsing network. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 51,
+          "pattern": "fallback_raw_split",
+          "author_text": "Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia",
+          "author_candidates": [
+            "Zhao, Jianping Shi",
+            "Qi, Xiaogang Wang"
+          ],
+          "title_candidate": "Pyramid scene parsing network. In CVPR, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 52,
+      "raw": "[53] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip HS Torr, et al. Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers. In CVPR, 2021.",
+      "detected_ref_number": 53,
+      "numbering": {
+        "detected_ref_number": 53,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 52,
+          "pattern": "venue_marker_split",
+          "author_text": "Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip HS Torr, et al",
+          "author_candidates": [
+            "Zheng, Jiachen Lu",
+            "Zhao, Xiatian Zhu",
+            "Luo, Yabiao Wang",
+            "Fu, Jianfeng Feng",
+            "Xiang, Philip HS Torr"
+          ],
+          "title_candidate": "Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers",
+          "container_candidate": "In CVPR, 2021",
+          "year_candidate": 2021,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 52,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip HS Torr, et al",
+          "author_candidates": [
+            "Zheng, Jiachen Lu",
+            "Zhao, Xiatian Zhu",
+            "Luo, Yabiao Wang",
+            "Fu, Jianfeng Feng",
+            "Xiang, Philip HS Torr"
+          ],
+          "title_candidate": "Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2021,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 52,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip HS Torr, et al",
+          "author_candidates": [
+            "Zheng, Jiachen Lu",
+            "Zhao, Xiatian Zhu",
+            "Luo, Yabiao Wang",
+            "Fu, Jianfeng Feng",
+            "Xiang, Philip HS Torr"
+          ],
+          "title_candidate": "Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 52,
+          "pattern": "fallback_raw_split",
+          "author_text": "Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip HS Torr, et al",
+          "author_candidates": [
+            "Zheng, Jiachen Lu",
+            "Zhao, Xiatian Zhu",
+            "Luo, Yabiao Wang",
+            "Fu, Jianfeng Feng",
+            "Xiang, Philip HS Torr"
+          ],
+          "title_candidate": "Rethinking semantic segmentation from a sequence-to-sequence perspective with transformers. In CVPR, 2021",
+          "container_candidate": "",
+          "year_candidate": 2021,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    },
+    {
+      "entry_index": 53,
+      "raw": "[54] Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing challenge 2016. http://sceneparsing.csail.mit.edu/index\\_challenge.html, 2016.",
+      "detected_ref_number": 54,
+      "numbering": {
+        "detected_ref_number": 54,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 53,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba",
+          "author_candidates": [
+            "Zhou, Hang Zhao",
+            "Puig, Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing challenge 2016",
+          "container_candidate": "http://sceneparsing.csail.mit.edu/index\\_challenge.html,",
+          "year_candidate": 2016,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 53,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing challenge 2016. http",
+          "author_candidates": [
+            "Zhou, Hang Zhao",
+            "Puig, Sanja Fidler"
+          ],
+          "title_candidate": "//sceneparsing.csail.mit.edu/index\\_challenge.html",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 53,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing challenge 2016. http",
+          "author_candidates": [
+            "Zhou, Hang Zhao",
+            "Puig, Sanja Fidler"
+          ],
+          "title_candidate": "//sceneparsing.csail.mit.edu/index\\_challenge.html, 2016",
+          "container_candidate": "",
+          "year_candidate": 2016,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 2
+        }
+      ]
+    },
+    {
+      "entry_index": 54,
+      "raw": "[55] Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing through ADE20K dataset. In CVPR, 2017.",
+      "detected_ref_number": 55,
+      "numbering": {
+        "detected_ref_number": 55,
+        "has_anomaly": false,
+        "warnings": []
+      },
+      "patterns": [
+        {
+          "entry_index": 54,
+          "pattern": "venue_marker_split",
+          "author_text": "Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba",
+          "author_candidates": [
+            "Zhou, Hang Zhao",
+            "Puig, Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing through ADE20K dataset",
+          "container_candidate": "In CVPR, 2017",
+          "year_candidate": 2017,
+          "confidence": 0.85,
+          "metadata": {
+            "split_basis": "split at generic venue marker"
+          },
+          "candidate_index": 0
+        },
+        {
+          "entry_index": 54,
+          "pattern": "authors_period_title_period_venue_year",
+          "author_text": "Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba",
+          "author_candidates": [
+            "Zhou, Hang Zhao",
+            "Puig, Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing through ADE20K dataset",
+          "container_candidate": "In CVPR,",
+          "year_candidate": 2017,
+          "confidence": 0.75,
+          "metadata": {
+            "split_basis": "first sentence as authors, second sentence as title, trailing sentence/year as container"
+          },
+          "candidate_index": 1
+        },
+        {
+          "entry_index": 54,
+          "pattern": "thesis_or_book_tail_year",
+          "author_text": "Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba",
+          "author_candidates": [
+            "Zhou, Hang Zhao",
+            "Puig, Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing through ADE20K dataset. In CVPR",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.58,
+          "metadata": {
+            "split_basis": "tail year stripped first, remaining text split on ':' or first period"
+          },
+          "candidate_index": 2
+        },
+        {
+          "entry_index": 54,
+          "pattern": "fallback_raw_split",
+          "author_text": "Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba",
+          "author_candidates": [
+            "Zhou, Hang Zhao",
+            "Puig, Sanja Fidler"
+          ],
+          "title_candidate": "Scene parsing through ADE20K dataset. In CVPR, 2017",
+          "container_candidate": "",
+          "year_candidate": 2017,
+          "confidence": 0.35,
+          "metadata": {
+            "split_basis": "fallback split using ':' or first sentence boundary"
+          },
+          "candidate_index": 3
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 0,
+      "status": "prepared",
+      "entry_start": 0,
+      "entry_end": 14,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 1,
+      "status": "prepared",
+      "entry_start": 15,
+      "entry_end": 29,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 2,
+      "status": "prepared",
+      "entry_start": 30,
+      "entry_end": 44,
+      "metadata": {
+        "entry_count": 15
+      }
+    },
+    {
+      "batch_kind": "references_workset",
+      "batch_index": 3,
+      "status": "prepared",
+      "entry_start": 45,
+      "entry_end": 54,
+      "metadata": {
+        "entry_count": 10
+      }
+    }
+  ],
+  "suspect_blocks": [],
+  "warnings": [
+    "reference_pattern_ambiguous: entry_index=0",
+    "reference_pattern_ambiguous: entry_index=1",
+    "reference_pattern_ambiguous: entry_index=2",
+    "reference_pattern_ambiguous: entry_index=3",
+    "reference_pattern_ambiguous: entry_index=4",
+    "reference_pattern_ambiguous: entry_index=5",
+    "reference_pattern_ambiguous: entry_index=6",
+    "reference_pattern_ambiguous: entry_index=7",
+    "reference_pattern_ambiguous: entry_index=8",
+    "reference_pattern_ambiguous: entry_index=9",
+    "reference_pattern_ambiguous: entry_index=10",
+    "reference_pattern_ambiguous: entry_index=11",
+    "reference_pattern_ambiguous: entry_index=12",
+    "reference_pattern_ambiguous: entry_index=13",
+    "reference_pattern_ambiguous: entry_index=14",
+    "reference_pattern_ambiguous: entry_index=15",
+    "reference_pattern_ambiguous: entry_index=16",
+    "reference_pattern_ambiguous: entry_index=17",
+    "reference_pattern_ambiguous: entry_index=18",
+    "reference_pattern_ambiguous: entry_index=19",
+    "reference_pattern_ambiguous: entry_index=20",
+    "reference_pattern_ambiguous: entry_index=21",
+    "reference_pattern_ambiguous: entry_index=22",
+    "reference_pattern_ambiguous: entry_index=23",
+    "reference_pattern_ambiguous: entry_index=24",
+    "reference_pattern_ambiguous: entry_index=25",
+    "reference_pattern_ambiguous: entry_index=26",
+    "reference_pattern_ambiguous: entry_index=27",
+    "reference_pattern_ambiguous: entry_index=28",
+    "reference_pattern_ambiguous: entry_index=29",
+    "reference_pattern_ambiguous: entry_index=30",
+    "reference_pattern_ambiguous: entry_index=31",
+    "reference_pattern_ambiguous: entry_index=32",
+    "reference_pattern_ambiguous: entry_index=33",
+    "reference_pattern_ambiguous: entry_index=34",
+    "reference_pattern_ambiguous: entry_index=35",
+    "reference_pattern_ambiguous: entry_index=36",
+    "reference_pattern_ambiguous: entry_index=37",
+    "reference_pattern_ambiguous: entry_index=38",
+    "reference_pattern_ambiguous: entry_index=39",
+    "reference_pattern_ambiguous: entry_index=40",
+    "reference_pattern_ambiguous: entry_index=41",
+    "reference_pattern_ambiguous: entry_index=42",
+    "reference_pattern_ambiguous: entry_index=43",
+    "reference_pattern_ambiguous: entry_index=44",
+    "reference_pattern_ambiguous: entry_index=45",
+    "reference_pattern_ambiguous: entry_index=46",
+    "reference_pattern_ambiguous: entry_index=47",
+    "reference_pattern_ambiguous: entry_index=48",
+    "reference_pattern_ambiguous: entry_index=49",
+    "reference_pattern_ambiguous: entry_index=50",
+    "reference_pattern_ambiguous: entry_index=51",
+    "reference_pattern_ambiguous: entry_index=52",
+    "reference_pattern_ambiguous: entry_index=53",
+    "reference_pattern_ambiguous: entry_index=54"
+  ],
+  "file_quality": {
+    "fallback_best_ratio": 0.0,
+    "year_ratio": 1.0,
+    "warning_density": 1.0,
+    "numbering_anomaly": 0.0,
+    "empty_title_ratio": 0.0
+  },
+  "file_quality_low": false
+}
