@@ -995,6 +995,16 @@ class StageRuntimeTests(unittest.TestCase):
             "arxiv_id": "arXiv:1704.04861",
             "publication_metadata_only_title": "Proceedings of CVPR 2020",
             "author_only_title": "Smith",
+            "placeholder_none": "none",
+            "placeholder_null": "null",
+            "placeholder_undefined": "undefined",
+            "placeholder_n_a": "n/a",
+            "placeholder_na": "NA",
+            "placeholder_n_dot_a": "N.A.",
+            "placeholder_n_slash_a_spaced": "N / A",
+            "placeholder_not_available": "not available",
+            "placeholder_unknown": "unknown",
+            "placeholder_untitled": "untitled",
             "no_usable_title_tokens": "2020.",
             "no_usable_symbol_tokens": "。；，",
         }
@@ -1006,6 +1016,16 @@ class StageRuntimeTests(unittest.TestCase):
             "arxiv_id": "bare_identifier_or_url_title",
             "publication_metadata_only_title": "publication_metadata_only_title",
             "author_only_title": "author_only_title",
+            "placeholder_none": "placeholder_title",
+            "placeholder_null": "placeholder_title",
+            "placeholder_undefined": "placeholder_title",
+            "placeholder_n_a": "placeholder_title",
+            "placeholder_na": "placeholder_title",
+            "placeholder_n_dot_a": "placeholder_title",
+            "placeholder_n_slash_a_spaced": "placeholder_title",
+            "placeholder_not_available": "placeholder_title",
+            "placeholder_unknown": "placeholder_title",
+            "placeholder_untitled": "placeholder_title",
             "no_usable_title_tokens": "no_usable_title_tokens",
             "no_usable_symbol_tokens": "no_usable_title_tokens",
         }
@@ -1039,6 +1059,59 @@ class StageRuntimeTests(unittest.TestCase):
                 self.assertEqual(gate_payload["quality_directives"]["severity"], "hard_block")
                 self.assertIn(expected_reason[case_name], [issue["reason_code"] for issue in gate_payload["quality_directives"]["issues"]])
                 self.assertIn("recommendation", gate_payload["quality_directives"]["issues"][0])
+
+    def test_persist_references_json_null_title_still_reports_empty_title(self):
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            db_path, workset_payload = self._setup_stage4_reference_quality_db(td_path)
+            result = self.run_cmd(
+                ["persist_references", "--db-path", str(db_path)],
+                input_obj=self._reference_refine_payload(
+                    entry_index=0,
+                    selected_pattern=self._first_selected_pattern(workset_payload),
+                    raw="[1] Smith. Actual Work Title. 2020.",
+                    title=None,
+                    year=2020,
+                    author=["Smith"],
+                ),
+            )
+            self.assertEqual(result.returncode, 2, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            reason_codes = [issue["reason_code"] for issue in payload["quality_issues"]]
+            self.assertIn("empty_title", reason_codes)
+            self.assertNotIn("placeholder_title", reason_codes)
+
+    def test_persist_references_placeholder_words_inside_real_titles_are_not_hard_blocked(self):
+        titles = [
+            "Unknown Unknowns",
+            "Untitled Document Classification",
+            "Not Available for Causal Inference",
+        ]
+        runtime_db = load_runtime_db_module()
+        for title in titles:
+            with self.subTest(title=title), tempfile.TemporaryDirectory() as td:
+                td_path = Path(td)
+                db_path, workset_payload = self._setup_stage4_reference_quality_db(td_path)
+                result = self.run_cmd(
+                    ["persist_references", "--db-path", str(db_path)],
+                    input_obj=self._reference_refine_payload(
+                        entry_index=0,
+                        selected_pattern=self._first_selected_pattern(workset_payload),
+                        raw=f"[1] Smith. {title}. 2020.",
+                        title=title,
+                        year=2020,
+                        author=["Smith"],
+                    ),
+                )
+                self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+                payload = json.loads(result.stdout.decode("utf-8"))
+                self.assertIsNone(payload["error"])
+                with runtime_db.connect_db(db_path) as connection:
+                    self.assertEqual(
+                        [issue["reason_code"] for issue in runtime_db.fetch_active_reference_quality_issues(connection)],
+                        [],
+                    )
+                    self.assertEqual(len(runtime_db.fetch_reference_items(connection)), 1)
 
     def test_persist_references_accepts_cjk_title_without_translation(self):
         runtime_db = load_runtime_db_module()
