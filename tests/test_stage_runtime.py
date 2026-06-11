@@ -171,6 +171,7 @@ class StageRuntimeTests(unittest.TestCase):
         year: int | None,
         author: list[str] | None = None,
         confidence: float = 0.9,
+        **extra_fields: object,
     ) -> dict:
         return {
             "items": [
@@ -182,6 +183,7 @@ class StageRuntimeTests(unittest.TestCase):
                     "year": year,
                     "raw": raw,
                     "confidence": confidence,
+                    **extra_fields,
                 }
             ],
         }
@@ -1112,6 +1114,116 @@ class StageRuntimeTests(unittest.TestCase):
                         [],
                     )
                     self.assertEqual(len(runtime_db.fetch_reference_items(connection)), 1)
+
+    def test_persist_references_retains_rich_metadata_to_db_and_render(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            db_path, workset_payload = self._setup_stage4_reference_quality_db(td_path)
+            raw = "[1] Smith. Useful Reference Title. Journal of Example Research, vol. 12, no. 3, pp. 45-67. doi:10.1000/example. https://example.org/paper. 2020."
+            result = self.run_cmd(
+                ["persist_references", "--db-path", str(db_path)],
+                input_obj=self._reference_refine_payload(
+                    entry_index=0,
+                    selected_pattern=self._first_selected_pattern(workset_payload),
+                    raw=raw,
+                    title="Useful Reference Title",
+                    year=2020,
+                    author=["Smith"],
+                    publicationTitle="Journal of Example Research",
+                    volume=12,
+                    issue=3,
+                    pages="45-67",
+                    DOI="10.1000/example",
+                    url="https://example.org/paper",
+                    citationKey="smith2020",
+                    publisher="",
+                    ISBN=None,
+                    ISSN=[],
+                ),
+            )
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            with runtime_db.connect_db(db_path) as connection:
+                item = runtime_db.fetch_reference_items(connection)[0]
+                self.assertEqual(item["publicationTitle"], "Journal of Example Research")
+                self.assertEqual(item["volume"], 12)
+                self.assertEqual(item["issue"], 3)
+                self.assertEqual(item["pages"], "45-67")
+                self.assertEqual(item["DOI"], "10.1000/example")
+                self.assertEqual(item["url"], "https://example.org/paper")
+                self.assertNotIn("citationKey", item)
+                self.assertNotIn("publisher", item)
+                self.assertNotIn("ISBN", item)
+                self.assertNotIn("ISSN", item)
+
+            self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload()).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload()).returncode, 0)
+            self.assertEqual(self.run_cmd(["persist_citation_summary", "--db-path", str(db_path)], input_obj=self._citation_summary_payload()).returncode, 0)
+            render = self.run_cmd(["render_and_validate", "--db-path", str(db_path), "--mode", "render"], cwd=td_path)
+            self.assertEqual(render.returncode, 0, render.stderr.decode("utf-8", errors="replace"))
+            refs_path = Path(json.loads(render.stdout.decode("utf-8"))["references_path"])
+            rendered_item = json.loads(refs_path.read_text(encoding="utf-8"))[0]
+            self.assertEqual(rendered_item["publicationTitle"], "Journal of Example Research")
+            self.assertEqual(rendered_item["DOI"], "10.1000/example")
+            self.assertEqual(rendered_item["url"], "https://example.org/paper")
+            self.assertNotIn("citationKey", rendered_item)
+
+    def test_rich_metadata_evidence_missing_warns_and_corrected_review_can_add_fields(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            td_path = Path(td)
+            db_path, workset_payload = self._setup_stage4_reference_quality_db(td_path)
+            raw = "[1] Smith. Useful Reference Title. In: ICLR, pp. 12-20. doi:10.1000/example. https://example.org/paper. 2020."
+            result = self.run_cmd(
+                ["persist_references", "--db-path", str(db_path)],
+                input_obj=self._reference_refine_payload(
+                    entry_index=0,
+                    selected_pattern=self._first_selected_pattern(workset_payload),
+                    raw=raw,
+                    title="Useful Reference Title",
+                    year=2020,
+                    author=["Smith"],
+                ),
+            )
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertIn("rich_metadata_evidence_missing", [issue["reason_code"] for issue in payload["quality_issues"]])
+            gate_payload = self.run_gate(db_path)
+            self.assertEqual(gate_payload["next_action"], "review_reference_quality")
+            issue = next(issue for issue in gate_payload["quality_directives"]["issues"] if issue["reason_code"] == "rich_metadata_evidence_missing")
+            self.assertIn("DOI", issue["current_value"])
+
+            review = self.run_cmd(
+                ["review_reference_quality", "--db-path", str(db_path)],
+                input_obj={
+                    "resolutions": [
+                        {
+                            "issue_id": issue["issue_id"],
+                            "resolution": "corrected",
+                            "reference": {
+                                "author": ["Smith"],
+                                "title": "Useful Reference Title",
+                                "year": 2020,
+                                "raw": raw,
+                                "confidence": 0.9,
+                                "conferenceName": "ICLR",
+                                "pages": "12-20",
+                                "DOI": "10.1000/example",
+                                "url": "https://example.org/paper",
+                            },
+                        }
+                    ]
+                },
+            )
+            self.assertEqual(review.returncode, 0, review.stderr.decode("utf-8", errors="replace"))
+            with runtime_db.connect_db(db_path) as connection:
+                item = runtime_db.fetch_reference_items(connection)[0]
+                self.assertEqual(item["conferenceName"], "ICLR")
+                self.assertEqual(item["pages"], "12-20")
+                self.assertEqual(item["DOI"], "10.1000/example")
+                self.assertEqual(item["url"], "https://example.org/paper")
+                self.assertEqual(runtime_db.fetch_active_reference_quality_issues(connection), [])
 
     def test_persist_references_accepts_cjk_title_without_translation(self):
         runtime_db = load_runtime_db_module()

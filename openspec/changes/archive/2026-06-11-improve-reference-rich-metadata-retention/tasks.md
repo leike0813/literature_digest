@@ -1,0 +1,6 @@
+- [x] Add OpenSpec proposal, design, tasks, and delta specs.
+- [x] Preserve allowed rich metadata fields from `persist_references` payloads into DB/render output.
+- [x] Add soft warning `rich_metadata_evidence_missing` for obvious missing metadata evidence.
+- [x] Update gate notes and Stage 4 examples/guidance.
+- [x] Add runtime, render, warning/review, and guidance regression tests.
+- [x] Run focused pytest suite and strict OpenSpec validation.

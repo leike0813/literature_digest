@@ -304,3 +304,14 @@ The SQLite-gated runtime SHALL expose placeholder title hard blocks through the 
 - **AND** the issue SHALL include `entry_index`, `ref_index`, `current_value`, `raw_excerpt`, and `recommendation`
 - **AND** the recommendation SHALL tell the agent to recover the cited title from raw/candidates or omit the unrecoverable row.
 
+### Requirement: Gate Guides Rich Reference Metadata Completion
+
+The SQLite-gated runtime SHALL expose missing rich reference metadata evidence through existing Stage 4 quality directives.
+
+#### Scenario: Gate reports rich metadata warning
+
+- **GIVEN** active `reference_quality_issues` with `reason_code = "rich_metadata_evidence_missing"`
+- **WHEN** `gate_runtime.py` is run
+- **THEN** the payload SHALL route the agent to `review_reference_quality`
+- **AND** the issue SHALL include evidence and a recommendation to add supported fields or explicitly accept the warning when unreliable.
+
