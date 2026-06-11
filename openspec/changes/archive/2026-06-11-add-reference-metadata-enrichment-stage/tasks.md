@@ -1,0 +1,8 @@
+- [x] Add OpenSpec proposal, design, tasks, and delta specs.
+- [x] Add DB-backed reference metadata enrichment workset helpers.
+- [x] Add Stage 4 prepare/persist enrichment commands and route successful reference quality flow through them.
+- [x] Update gate prerequisites, command examples, and execution notes for enrichment and reference-free skip behavior.
+- [x] Remove rich metadata missing warning from reference quality review.
+- [x] Update public guidance docs for the new enrichment stage and single-writer subagent policy.
+- [x] Add runtime, gate, DB, render, and guidance regression tests.
+- [x] Run focused pytest suite and strict OpenSpec validation.

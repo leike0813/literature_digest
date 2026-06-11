@@ -209,6 +209,7 @@ class GateRuntimeTests(unittest.TestCase):
                 )
                 for action_name in (
                     "persist_render_templates",
+                    "persist_reference_metadata_enrichment",
                     "prepare_citation_workset",
                     "persist_citation_semantics",
                     "persist_citation_timeline",
@@ -434,6 +435,7 @@ class GateRuntimeTests(unittest.TestCase):
                     connection,
                     [{"ref_index": 0, "ref_number": 1, "mention_count": 1, "mentions": [], "reference_snapshot": {}, "batch_hint": 0, "workset_metadata": {}}],
                 )
+                runtime_db.store_action_receipt(connection, action_name="persist_reference_metadata_enrichment", stage="stage_4_references")
                 runtime_db.store_action_receipt(connection, action_name="prepare_citation_workset", stage="stage_5_citation")
                 connection.commit()
 
@@ -448,6 +450,64 @@ class GateRuntimeTests(unittest.TestCase):
             self.assertIn("topic", item)
             self.assertIn("usage", item)
             self.assertIn("keywords", item)
+
+    def test_gate_routes_reference_metadata_enrichment_actions(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_4_references",
+                    current_substep="prepare_reference_metadata_enrichment",
+                    stage_gate="ready",
+                    next_action="prepare_reference_metadata_enrichment",
+                    status_summary="references persisted; prepare metadata enrichment",
+                )
+                runtime_db.store_source_document(connection, doc_key="normalized_source", content="# References\nraw", metadata={})
+                runtime_db.store_section_scope(connection, scope_key="references_scope", section_title="References", line_start=1, line_end=2, metadata={})
+                runtime_db.store_reference_items(
+                    connection,
+                    [{"ref_index": 0, "author": ["Smith"], "title": "Paper", "year": 2020, "raw": "raw", "confidence": 0.9, "metadata": {}}],
+                )
+                connection.commit()
+
+            payload = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
+            self.assertEqual(payload["next_action"], "prepare_reference_metadata_enrichment")
+            self.assertIn("prepare_reference_metadata_enrichment", payload["command_example"]["command"])
+
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.set_workflow_state(
+                    connection,
+                    current_stage="stage_4_references",
+                    current_substep="persist_reference_metadata_enrichment",
+                    stage_gate="ready",
+                    next_action="persist_reference_metadata_enrichment",
+                    status_summary="metadata enrichment workset prepared",
+                )
+                runtime_db.store_reference_metadata_enrichment_workset(
+                    connection,
+                    [
+                        {
+                            "ref_index": 0,
+                            "locked_reference": {"title": "Paper"},
+                            "existing_metadata": {},
+                            "metadata_context_text": "Journal A.",
+                            "allowed_fields": ["publicationTitle"],
+                            "batch_index": 0,
+                            "status": "pending",
+                            "evidence_note": "",
+                        }
+                    ],
+                )
+                runtime_db.store_action_receipt(connection, action_name="prepare_reference_metadata_enrichment", stage="stage_4_references")
+                connection.commit()
+
+            payload = json.loads(self.run_gate(db_path).stdout.decode("utf-8"))
+            self.assertEqual(payload["next_action"], "persist_reference_metadata_enrichment")
+            self.assertIn("persist_reference_metadata_enrichment", payload["command_example"]["command"])
+            self.assertIn("subagent", payload["command_example"]["notes"].lower())
 
     def test_stage4_hard_quality_issues_return_gate_directives(self):
         runtime_db = load_runtime_db_module()

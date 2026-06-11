@@ -197,6 +197,38 @@ class StageRuntimeTests(unittest.TestCase):
         workset = json.loads(Path(workset_payload["workset_path"]).read_text(encoding="utf-8"))
         return str(workset["entries"][0]["patterns"][0]["pattern"])
 
+    def _complete_reference_metadata_enrichment(
+        self,
+        db_path: Path,
+        *,
+        metadata_by_ref: dict[int, dict] | None = None,
+        cwd: Path | None = None,
+    ) -> dict:
+        prepared = self.run_cmd(["prepare_reference_metadata_enrichment", "--db-path", str(db_path)], cwd=cwd)
+        self.assertEqual(prepared.returncode, 0, prepared.stderr.decode("utf-8", errors="replace"))
+        prepared_payload = json.loads(prepared.stdout.decode("utf-8"))
+        workset = json.loads(Path(prepared_payload["workset_path"]).read_text(encoding="utf-8"))
+        metadata_by_ref = metadata_by_ref or {}
+        items: list[dict] = []
+        for row in workset["items"]:
+            ref_index = int(row["ref_index"])
+            if ref_index in metadata_by_ref:
+                items.append(
+                    {
+                        "ref_index": ref_index,
+                        "status": "enriched",
+                        "metadata": metadata_by_ref[ref_index],
+                        "evidence_note": "fixture metadata",
+                    }
+                )
+            elif row.get("existing_metadata"):
+                items.append({"ref_index": ref_index, "status": "confirmed_existing", "reason": "existing metadata is sufficient"})
+            else:
+                items.append({"ref_index": ref_index, "status": "no_metadata_found", "reason": "fixture has no metadata"})
+        persisted = self.run_cmd(["persist_reference_metadata_enrichment", "--db-path", str(db_path)], input_obj={"items": items}, cwd=cwd)
+        self.assertEqual(persisted.returncode, 0, persisted.stderr.decode("utf-8", errors="replace"))
+        return {"prepared": prepared_payload, "workset": workset, "persisted": json.loads(persisted.stdout.decode("utf-8"))}
+
     def _setup_stage4_reference_quality_db(self, td_path: Path, *, reference_line: str = "[1] Smith. Useful Reference Title. 2020.") -> tuple[Path, dict]:
         source_path = td_path / "paper.md"
         db_path = td_path / ".literature_digest_tmp" / "literature_digest.db"
@@ -385,6 +417,8 @@ class StageRuntimeTests(unittest.TestCase):
                 ),
             )
             self.assertEqual(references.returncode, 0, references.stderr.decode("utf-8", errors="replace"))
+            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_reference_metadata_enrichment")
+            self._complete_reference_metadata_enrichment(db_path)
             self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_citation_workset")
 
             mentions = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
@@ -688,6 +722,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path)
             self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload()).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload()).returncode, 0)
@@ -762,6 +797,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path, cwd=td_path)
             self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)], cwd=td_path).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload(), cwd=td_path).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload(), cwd=td_path).returncode, 0)
@@ -905,6 +941,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path)
             workset = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
             self.assertEqual(workset.returncode, 0, workset.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(workset.stdout.decode("utf-8"))
@@ -1156,6 +1193,7 @@ class StageRuntimeTests(unittest.TestCase):
                 self.assertNotIn("ISBN", item)
                 self.assertNotIn("ISSN", item)
 
+            self._complete_reference_metadata_enrichment(db_path)
             self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload()).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload()).returncode, 0)
@@ -1169,7 +1207,7 @@ class StageRuntimeTests(unittest.TestCase):
             self.assertEqual(rendered_item["url"], "https://example.org/paper")
             self.assertNotIn("citationKey", rendered_item)
 
-    def test_rich_metadata_evidence_missing_warns_and_corrected_review_can_add_fields(self):
+    def test_reference_metadata_enrichment_adds_fields_after_core_reference_rows(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:
             td_path = Path(td)
@@ -1188,35 +1226,14 @@ class StageRuntimeTests(unittest.TestCase):
             )
             self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(result.stdout.decode("utf-8"))
-            self.assertIn("rich_metadata_evidence_missing", [issue["reason_code"] for issue in payload["quality_issues"]])
-            gate_payload = self.run_gate(db_path)
-            self.assertEqual(gate_payload["next_action"], "review_reference_quality")
-            issue = next(issue for issue in gate_payload["quality_directives"]["issues"] if issue["reason_code"] == "rich_metadata_evidence_missing")
-            self.assertIn("DOI", issue["current_value"])
+            self.assertEqual(payload.get("quality_issues"), None)
+            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_reference_metadata_enrichment")
 
-            review = self.run_cmd(
-                ["review_reference_quality", "--db-path", str(db_path)],
-                input_obj={
-                    "resolutions": [
-                        {
-                            "issue_id": issue["issue_id"],
-                            "resolution": "corrected",
-                            "reference": {
-                                "author": ["Smith"],
-                                "title": "Useful Reference Title",
-                                "year": 2020,
-                                "raw": raw,
-                                "confidence": 0.9,
-                                "conferenceName": "ICLR",
-                                "pages": "12-20",
-                                "DOI": "10.1000/example",
-                                "url": "https://example.org/paper",
-                            },
-                        }
-                    ]
-                },
+            enrichment = self._complete_reference_metadata_enrichment(
+                db_path,
+                metadata_by_ref={0: {"conferenceName": "ICLR", "pages": "12-20", "DOI": "10.1000/example", "url": "https://example.org/paper"}},
             )
-            self.assertEqual(review.returncode, 0, review.stderr.decode("utf-8", errors="replace"))
+            self.assertIn("In: ICLR", enrichment["workset"]["items"][0]["metadata_context_text"])
             with runtime_db.connect_db(db_path) as connection:
                 item = runtime_db.fetch_reference_items(connection)[0]
                 self.assertEqual(item["conferenceName"], "ICLR")
@@ -1224,6 +1241,53 @@ class StageRuntimeTests(unittest.TestCase):
                 self.assertEqual(item["DOI"], "10.1000/example")
                 self.assertEqual(item["url"], "https://example.org/paper")
                 self.assertEqual(runtime_db.fetch_active_reference_quality_issues(connection), [])
+
+    def test_reference_metadata_enrichment_rejects_invalid_payloads(self):
+        invalid_payloads = [
+            (
+                "unknown field",
+                {"items": [{"ref_index": 0, "status": "enriched", "metadata": {"unknownField": "x"}}]},
+                "unknownField",
+            ),
+            (
+                "locked field",
+                {"items": [{"ref_index": 0, "status": "no_metadata_found", "title": "Changed"}]},
+                "locked reference fields",
+            ),
+            (
+                "empty enriched metadata",
+                {"items": [{"ref_index": 0, "status": "enriched", "metadata": {"DOI": ""}}]},
+                "at least one non-empty",
+            ),
+            (
+                "missing ref",
+                {"items": []},
+                "missing ref_indexes",
+            ),
+        ]
+        for _, payload, expected_message in invalid_payloads:
+            with self.subTest(expected_message=expected_message), tempfile.TemporaryDirectory() as td:
+                td_path = Path(td)
+                db_path, workset_payload = self._setup_stage4_reference_quality_db(td_path)
+                result = self.run_cmd(
+                    ["persist_references", "--db-path", str(db_path)],
+                    input_obj=self._reference_refine_payload(
+                        entry_index=0,
+                        selected_pattern=self._first_selected_pattern(workset_payload),
+                        raw="[1] Smith. Useful Reference Title. 2020.",
+                        title="Useful Reference Title",
+                        year=2020,
+                        author=["Smith"],
+                    ),
+                )
+                self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+                prepared = self.run_cmd(["prepare_reference_metadata_enrichment", "--db-path", str(db_path)])
+                self.assertEqual(prepared.returncode, 0, prepared.stderr.decode("utf-8", errors="replace"))
+
+                invalid = self.run_cmd(["persist_reference_metadata_enrichment", "--db-path", str(db_path)], input_obj=payload)
+                self.assertEqual(invalid.returncode, 2)
+                out = json.loads(invalid.stdout.decode("utf-8"))
+                self.assertIn(expected_message, out["error"]["message"])
 
     def test_persist_references_accepts_cjk_title_without_translation(self):
         runtime_db = load_runtime_db_module()
@@ -1252,7 +1316,7 @@ class StageRuntimeTests(unittest.TestCase):
                 items = runtime_db.fetch_reference_items(connection)
                 self.assertEqual(items[0]["title"], "基于深度学习的文本分类方法")
                 self.assertEqual(runtime_db.fetch_active_reference_quality_issues(connection), [])
-            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_citation_workset")
+            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_reference_metadata_enrichment")
 
     def test_persist_references_rejects_cjk_author_only_title(self):
         with tempfile.TemporaryDirectory() as td:
@@ -1482,7 +1546,7 @@ class StageRuntimeTests(unittest.TestCase):
                 input_obj={"resolutions": [{"issue_id": issue_id, "resolution": "accept_warning"}]},
             )
             self.assertEqual(review.returncode, 0, review.stderr.decode("utf-8", errors="replace"))
-            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_citation_workset")
+            self.assertEqual(self.run_gate(db_path)["next_action"], "prepare_reference_metadata_enrichment")
 
     def test_export_citation_workset_reads_db_only(self):
         with tempfile.TemporaryDirectory() as td:
@@ -1536,6 +1600,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path)
             self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
 
             workset = self.run_cmd(["export_citation_workset", "--db-path", str(db_path)])
@@ -1602,6 +1667,7 @@ class StageRuntimeTests(unittest.TestCase):
                     ).returncode,
                     0,
                 )
+                self._complete_reference_metadata_enrichment(db_path)
                 self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
                 self.assertEqual(
                     self.run_cmd(
@@ -1658,6 +1724,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path)
             self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
 
             missing_topic = self.run_cmd(
@@ -1705,6 +1772,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path)
             self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload(is_key_reference=True)).returncode, 0)
 
@@ -2156,6 +2224,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path)
             prepare = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
             self.assertEqual(prepare.returncode, 2)
             payload = json.loads(prepare.stdout.decode("utf-8"))
@@ -2204,6 +2273,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path)
             prepare = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
             self.assertEqual(prepare.returncode, 0, prepare.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(prepare.stdout.decode("utf-8"))
@@ -2351,6 +2421,7 @@ class StageRuntimeTests(unittest.TestCase):
                 ).returncode,
                 0,
             )
+            self._complete_reference_metadata_enrichment(db_path)
             self.assertEqual(self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)]).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_semantics", "--db-path", str(db_path)], input_obj=self._citation_semantics_payload()).returncode, 0)
             self.assertEqual(self.run_cmd(["persist_citation_timeline", "--db-path", str(db_path)], input_obj=self._citation_timeline_payload()).returncode, 0)
@@ -2438,6 +2509,7 @@ class StageRuntimeTests(unittest.TestCase):
             }
             self.assertEqual(self.run_cmd(["persist_references", "--db-path", str(db_path)], input_obj=persist_payload).returncode, 0)
 
+            self._complete_reference_metadata_enrichment(db_path)
             mentions = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
             self.assertEqual(mentions.returncode, 0, mentions.stderr.decode("utf-8", errors="replace"))
             mentions_payload = json.loads(mentions.stdout.decode("utf-8"))
@@ -2531,6 +2603,7 @@ class StageRuntimeTests(unittest.TestCase):
             }
             self.assertEqual(self.run_cmd(["persist_references", "--db-path", str(db_path)], input_obj=persist_payload).returncode, 0)
 
+            self._complete_reference_metadata_enrichment(db_path)
             mentions = self.run_cmd(["prepare_citation_workset", "--db-path", str(db_path)])
             self.assertEqual(mentions.returncode, 0, mentions.stderr.decode("utf-8", errors="replace"))
             citation_workset = json.loads(Path(json.loads(mentions.stdout.decode("utf-8"))["workset_path"]).read_text(encoding="utf-8"))

@@ -130,6 +130,43 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertEqual(decision["status"], "abandoned")
                 self.assertTrue(runtime_db.is_reference_extraction_abandoned(connection))
 
+    def test_reference_metadata_enrichment_workset_helpers(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_reference_metadata_enrichment_workset(
+                    connection,
+                    [
+                        {
+                            "ref_index": 0,
+                            "locked_reference": {"title": "Paper", "year": 2020},
+                            "existing_metadata": {"DOI": "10.1000/example"},
+                            "metadata_context_text": "Journal, 12(3), 45-67.",
+                            "allowed_fields": ["DOI", "pages"],
+                            "batch_index": 0,
+                            "status": "pending",
+                            "evidence_note": "",
+                        }
+                    ],
+                )
+                connection.commit()
+
+                workset = runtime_db.fetch_reference_metadata_enrichment_workset(connection)
+                self.assertEqual(workset[0]["ref_index"], 0)
+                self.assertEqual(workset[0]["existing_metadata"]["DOI"], "10.1000/example")
+                self.assertEqual(workset[0]["allowed_fields"], ["DOI", "pages"])
+
+                runtime_db.update_reference_metadata_enrichment_statuses(
+                    connection,
+                    {0: {"status": "confirmed_existing", "evidence_note": "checked"}},
+                )
+                connection.commit()
+                updated = runtime_db.fetch_reference_metadata_enrichment_workset(connection)
+                self.assertEqual(updated[0]["status"], "confirmed_existing")
+                self.assertEqual(updated[0]["evidence_note"], "checked")
+
     def test_store_and_fetch_final_payload_data(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:

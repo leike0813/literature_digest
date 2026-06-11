@@ -144,6 +144,7 @@ class RenderFinalArtifactsTests(unittest.TestCase):
                         "exclude_terms": [],
                     },
                 )
+                runtime_db.store_action_receipt(connection, action_name="persist_reference_metadata_enrichment", stage="stage_4_references")
                 for action_name in (
                     "prepare_citation_workset",
                     "persist_citation_semantics",
