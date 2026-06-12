@@ -793,6 +793,9 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
         forbidden_snippets = (
             "literature-digest/scripts",
             "literature-digest/assets",
+            "LITERATURE_DIGEST_",
+            "LITERATURE_ANALYSIS_OUTPUT_DIR",
+            "LITERATURE_ANALYSIS_DISABLE_PYMUPDF4LLM",
             "LEGACY_",
             "from .legacy",
             "analysis_runtime.legacy",
