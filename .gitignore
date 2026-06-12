@@ -10,6 +10,7 @@ Thumbs.db
 
 .vscode/
 .codex/
+.claude/
 .history/
 
 output/

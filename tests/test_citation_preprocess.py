@@ -44,6 +44,12 @@ class CitationPreprocessTests(unittest.TestCase):
                 )
             if reference_items:
                 runtime_db.store_reference_items(connection, reference_items)
+                runtime_db.store_action_receipt(
+                    connection,
+                    action_name="persist_reference_metadata_enrichment",
+                    stage="stage_4_references",
+                    metadata={"fixture": "citation preprocess reference metadata already settled"},
+                )
             connection.commit()
 
     def run_preprocess(
