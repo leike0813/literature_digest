@@ -1,12 +1,12 @@
-# 项目级 AGENTS（`literature-digest` / `literature-digest-lite`）
+# 项目级 AGENTS（`literature-analysis` / `literature-digest`）
 
-本文件仅包含本仓库两个 digest skill 的项目级约定，用于补充上级/全局 `AGENTS.md`；全局通用规则不在此重复。
+本文件仅包含本仓库两个 skill 的项目级约定，用于补充上级/全局 `AGENTS.md`；全局通用规则不在此重复。
 
 ---
 
 ## 1. 运行形态（后台自动化）
 
-- 本仓库内的 digest skill 设计为后台自动化执行：运行过程中不得询问用户做决策。
+- 本仓库内的 skill 设计为后台自动化执行：运行过程中不得询问用户做决策。
 - 任何分支或不确定性都应采用默认行为并继续执行，确保可批量运行、可重复。
 - stdout 只允许输出一个 JSON 对象，不得夹杂日志、解释文本或多段输出。
 
@@ -16,20 +16,20 @@
 
 本仓库当前包含两个相关 skill：
 
-- `literature-digest`
+- `literature-analysis`
   - SQLite-gated、stage-and-gate 主路径
   - 产出 `digest.md`、`references.json`、`citation_analysis.json`、`citation_analysis.md`
-- `literature-digest-lite`
+- `literature-digest`
   - 简化版 digest-only 主路径
   - 只产出 `digest.md`
 
-若任务明确针对其中一个 skill，应优先遵守对应 skill 目录内的 [SKILL.md](/home/joshua/Workspace/Code/Skill/literature_digest/literature-digest/SKILL.md) 或 [SKILL.md](/home/joshua/Workspace/Code/Skill/literature_digest/literature-digest-lite/SKILL.md)。
+若任务明确针对其中一个 skill，应优先遵守对应 skill 目录内的 [SKILL.md](/home/joshua/Workspace/Code/Skill/literature_digest/literature-analysis/SKILL.md) 或 [SKILL.md](/home/joshua/Workspace/Code/Skill/literature_digest/literature-digest/SKILL.md)。
 
 ---
 
 ## 3. 输入约定
 
-### `literature-digest`
+### `literature-analysis`
 
 - 从 prompt payload 中读取：
   - `source_path`
@@ -43,7 +43,7 @@
   - 无扩展名文本文件
 - `language` 若用户显式指定则直接使用；否则先从 prompt 主要语言推断；仅在无法稳定判断时回退 `zh-CN`。
 
-### `literature-digest-lite`
+### `literature-digest`
 
 - 从 prompt payload 中读取：
   - `md_path`
@@ -60,7 +60,7 @@
 
 ---
 
-## 4. `literature-digest` 特有运行约束
+## 4. `literature-analysis` 特有运行约束
 
 - 在调用任何 skill 脚本之前，必须先在当前 shell 显式执行一次 `cwd()` / `pwd` 取得当前工作目录。
 - 不得先 `cd` 到 skill 包目录或其它目录，再去捕获工作目录。
@@ -85,7 +85,7 @@
 
 ## 5. 输出约定
 
-### `literature-digest`
+### `literature-analysis`
 
 stdout JSON 必须包含：
 
@@ -144,7 +144,7 @@ stdout JSON 可选包含：
 
 - `citationKey`
 
-### `literature-digest-lite`
+### `literature-digest`
 
 stdout JSON 必须包含：
 
@@ -167,13 +167,13 @@ stdout JSON 必须包含：
 - 读取输入失败（不存在、无权限、编码异常、不可识别）时，返回 schema-compatible JSON，并填充 `error`。
 - 不要因为局部解析失败而中止全部产物；只要主路径允许，就保留可审计的低置信结果和 warning。
 
-### `literature-digest`
+### `literature-analysis`
 
 - 无法定位或稳定提取 references 时，可保留低置信 `raw` 条目，但不要伪造字段。
 - references 或 citation 某一步失败时，必须遵守 gate / stage runtime 的错误返回，不要手工拼装看似成功的最终 JSON。
 - 若 language 未显式给出，先看 prompt 语言；仅在无法稳定判断时回退 `zh-CN`。
 
-### `literature-digest-lite`
+### `literature-digest`
 
 - `output_dir` 未提供时，默认写到 `md_path` 所在目录。
 - `language` 未显式给出时，先看 prompt 语言；仅在无法稳定判断时回退 `zh-CN`。
