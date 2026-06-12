@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-literature-digest-lite: Simplified paper digest generator.
+literature-digest: Paper digest generator.
 
 Usage:
     # Step 1: Normalize input
