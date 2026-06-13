@@ -72,6 +72,10 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         self.assertIn("Reference core review subagent prompt (short)", skill_md)
         self.assertIn("Metadata enrichment subagent prompt (short)", skill_md)
         self.assertIn("Citation semantic review subagent prompt (short)", skill_md)
+        self.assertIn("Mandatory delegation points", skill_md)
+        self.assertIn("Reference Core Review Delegation Point", skill_md)
+        self.assertIn("Metadata Enrichment Delegation Point", skill_md)
+        self.assertIn("Citation Semantic Review Delegation Point", skill_md)
 
     def test_skill_md_does_not_reintroduce_old_gate_main_path(self):
         skill_md = self.read("literature-analysis/SKILL.md")
@@ -257,6 +261,10 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         combined_refs = f"{skill_md}\n{refs}\n{core_instruction}"
         for marker in [
             "must delegate core reference review and metadata enrichment by batch",
+            "## LLM And Script Responsibilities",
+            "## Mandatory Subagent Delegation Points",
+            "Reference Core Review Delegation Point",
+            "Metadata Enrichment Delegation Point",
             "Canonical metadata fields",
             "metadata_review_packages",
             "instructions.allowed_metadata_fields",
@@ -276,6 +284,9 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
             self.assertIn(marker, combined_refs)
         for marker in [
             "must delegate citation semantic review by batch",
+            "## LLM And Script Responsibilities",
+            "## Mandatory Subagent Delegation Point",
+            "Citation Semantic Review Delegation Point",
             "timeline_summaries",
             "citation_timeline_missing_year",
             "Subagents do not decide timeline bucket membership",
@@ -284,6 +295,33 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
             "generate final artifacts",
         ]:
             self.assertIn(marker, citations)
+
+    def test_guidance_prohibits_temporary_scripts_for_semantic_work(self):
+        paths = [
+            "literature-analysis/SKILL.md",
+            "literature-analysis/references/source_and_plan.md",
+            "literature-analysis/references/digest_generation.md",
+            "literature-analysis/references/reference_extraction.md",
+            "literature-analysis/references/citation_analysis.md",
+            "literature-analysis/references/finalization_and_recovery.md",
+            "literature-analysis/assets/core_instruction.md",
+            "literature-analysis/assets/runner.json",
+        ]
+        combined = "\n".join(self.read(path) for path in paths)
+        for marker in [
+            "Do not use a temporary script",
+            "临时脚本",
+            "reference_reviews[]",
+            "metadata_reviews[]",
+            "citation_semantic_reviews[]",
+            "semantic work",
+            "JSON 语法",
+            "stable key 覆盖",
+            "already-returned drafts",
+            "reviewed decisions",
+        ]:
+            self.assertIn(marker, combined)
+        self.assertIn("脚本只能做 JSON 序列化、key 覆盖检查、draft 合并和 runtime 调用", combined)
 
     def test_analysis_assets_use_current_runtime_contract(self):
         runner = json.loads(self.read("literature-analysis/assets/runner.json"))
@@ -294,6 +332,7 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         self.assertIn("scripts/run_analysis.py", combined)
         self.assertIn("delegate by default", combined)
         self.assertIn("only the main agent submits payloads", combined)
+        self.assertIn("Do not use temporary scripts", combined)
         self.assertIn("init_runtime", combined)
         self.assertIn("persist_analysis_plan", prompt)
         self.assertIn("persist_references", combined)
