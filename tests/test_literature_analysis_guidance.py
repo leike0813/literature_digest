@@ -260,7 +260,10 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         core_instruction = self.read("literature-analysis/assets/core_instruction.md")
         combined_refs = f"{skill_md}\n{refs}\n{core_instruction}"
         for marker in [
-            "must delegate core reference review and metadata enrichment by batch",
+            "runtime-precut batch",
+            "reference_core_batch_paths",
+            "metadata_batch_paths",
+            "suggested_draft_output_path",
             "## LLM And Script Responsibilities",
             "## Mandatory Subagent Delegation Points",
             "Reference Core Review Delegation Point",
@@ -283,7 +286,9 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         ]:
             self.assertIn(marker, combined_refs)
         for marker in [
-            "must delegate citation semantic review by batch",
+            "citation_batch_paths",
+            "runtime-precut batch",
+            "suggested_draft_output_path",
             "## LLM And Script Responsibilities",
             "## Mandatory Subagent Delegation Point",
             "Citation Semantic Review Delegation Point",

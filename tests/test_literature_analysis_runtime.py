@@ -134,6 +134,33 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
                 )
         return {"metadata_reviews": reviews}
 
+    def read_json(self, path_value: str) -> dict:
+        return json.loads(Path(path_value).read_text(encoding="utf-8"))
+
+    def reference_packages_from_payload(self, payload: dict) -> list[dict]:
+        packages: list[dict] = []
+        for batch_path in payload.get("reference_core_batch_paths", []):
+            packages.extend(self.read_json(batch_path)["reference_review_packages"])
+        return packages
+
+    def metadata_packages_from_payload(self, payload: dict) -> list[dict]:
+        packages: list[dict] = []
+        for batch_path in payload.get("metadata_batch_paths", []):
+            packages.extend(self.read_json(batch_path)["metadata_review_packages"])
+        return packages
+
+    def citation_packages_from_payload(self, payload: dict) -> list[dict]:
+        packages: list[dict] = []
+        for batch_path in payload.get("citation_batch_paths", []):
+            packages.extend(self.read_json(batch_path)["citation_work_packages"])
+        return packages
+
+    def split_packages_from_payload(self, payload: dict) -> list[dict]:
+        path = payload.get("split_review_packages_path")
+        if not path:
+            return []
+        return list(self.read_json(path).get("split_review_packages", []))
+
     def test_init_runtime_normalizes_source(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
@@ -192,16 +219,26 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             payload = json.loads(prepared.stdout.decode("utf-8"))
             self.assertEqual(payload["next_action"], "persist_references")
             self.assertTrue(Path(payload["workset_path"]).exists())
-            self.assertIn("reference_review_packages", payload)
-            self.assertIn("allowed_parse_patterns_by_reference_key", payload)
-            self.assertIn("batch_work_packages", payload)
+            self.assertNotIn("reference_review_packages", payload)
+            self.assertNotIn("allowed_parse_patterns_by_reference_key", payload)
+            self.assertNotIn("batch_work_packages", payload)
+            self.assertIn("reference_core_review_manifest_path", payload)
+            self.assertIn("reference_core_batch_paths", payload)
+            self.assertTrue(Path(payload["reference_core_review_manifest_path"]).exists())
+            self.assertGreaterEqual(payload["reference_core_package_count"], 1)
+            self.assertGreaterEqual(payload["reference_core_batch_count"], 1)
             self.assertIn("subagent_prompt_template", payload)
             self.assertIn("allowed_payload_shape", payload)
             self.assertIn("Default to delegating reference core review", payload["subagent_policy"])
             self.assertEqual(payload["merge_contract"]["single_writer"], "main_agent")
             self.assertIn("single DB writer", payload["merge_contract"]["merge_notes"])
-            batch = payload["batch_work_packages"][0]
+            batch = self.read_json(payload["reference_core_batch_paths"][0])
             self.assertIn("batch_id", batch)
+            self.assertEqual(batch["batch_kind"], "reference_core_review")
+            self.assertTrue(Path(batch["input_package_path"]).exists())
+            self.assertTrue(batch["suggested_draft_output_path"].endswith(".draft.json"))
+            self.assertLessEqual(len(batch["reference_review_packages"]), 10)
+            self.assertIn("allowed_parse_patterns_by_reference_key", batch)
             self.assertIn("required_return_shape", batch)
             self.assertIn("forbidden_fields", batch)
             self.assertIn("metadata", batch["forbidden_fields"])
@@ -211,6 +248,88 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertIn("Default to delegating", batch["merge_notes"])
             self.assertIn("Do not write DB", batch["subagent_prompt"])
             self.assertEqual(payload["runtime_backend"], "analysis_runtime.references")
+
+    def test_large_prepare_outputs_are_path_first_and_prebatched(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            citation_line = "Prior work " + ", ".join(f"[{index}]" for index in range(1, 22)) + " is relevant."
+            reference_lines = [
+                f"[{index}] Author {index}. Runtime Paper {index}. {2000 + index}."
+                for index in range(1, 26)
+            ]
+            lines = ["# Introduction", citation_line, "# References", *reference_lines]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+            init = json.loads(
+                self.run_cmd(["init_runtime", "--source-path", str(source), "--working-dir", str(root)]).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
+            digest_path = root / "digest_payload.json"
+            self.write_json(digest_path, self.digest_payload())
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+
+            refs_prepared_result = self.run_cmd(["persist_references", "--db-path", db_path])
+            self.assertLess(len(refs_prepared_result.stdout), 51200)
+            refs_prepared = json.loads(refs_prepared_result.stdout.decode("utf-8"))
+            self.assertNotIn("reference_review_packages", refs_prepared)
+            self.assertNotIn("batch_work_packages", refs_prepared)
+            self.assertEqual(refs_prepared["reference_core_package_count"], 25)
+            self.assertEqual(refs_prepared["reference_core_batch_count"], 3)
+            manifest = self.read_json(refs_prepared["reference_core_review_manifest_path"])
+            self.assertEqual(len(manifest["required_coverage_keys"]), 25)
+            for batch_path in refs_prepared["reference_core_batch_paths"]:
+                batch = self.read_json(batch_path)
+                self.assertLessEqual(len(batch["reference_review_packages"]), 10)
+                self.assertEqual(batch["input_package_path"], batch_path)
+                self.assertTrue(batch["suggested_draft_output_path"].endswith(".draft.json"))
+
+            reference_reviews = []
+            for package in self.reference_packages_from_payload(refs_prepared):
+                source_number = int(package["source_reference_number"])
+                reference_reviews.append(
+                    {
+                        "reference_key": package["reference_key"],
+                        "selected_parse_pattern": package["recommended_parse_pattern"],
+                        "authors": [f"Author {source_number}"],
+                        "title": f"Runtime Paper {source_number}",
+                        "publication_year": 2000 + source_number,
+                    }
+                )
+            refs_path = root / "refs_payload.json"
+            self.write_json(refs_path, {"reference_reviews": reference_reviews})
+            core = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(refs_path)])
+            self.assertLess(len(core.stdout), 51200)
+            self.assertEqual(core.returncode, 0, core.stderr.decode("utf-8", errors="replace"))
+            core_payload = json.loads(core.stdout.decode("utf-8"))
+            self.assertNotIn("metadata_review_packages", core_payload)
+            self.assertNotIn("batch_work_packages", core_payload)
+            self.assertEqual(core_payload["metadata_package_count"], 25)
+            self.assertEqual(core_payload["metadata_batch_count"], 3)
+            for batch_path in core_payload["metadata_batch_paths"]:
+                batch = self.read_json(batch_path)
+                self.assertLessEqual(len(batch["metadata_review_packages"]), 10)
+
+            metadata_path = root / "metadata_payload.json"
+            self.write_json(metadata_path, self.metadata_payload_from_packages(self.metadata_packages_from_payload(core_payload)))
+            self.assertEqual(self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(metadata_path)]).returncode, 0)
+
+            citation_result = self.run_cmd(["persist_citation_analysis", "--db-path", db_path])
+            self.assertLess(len(citation_result.stdout), 51200)
+            self.assertEqual(citation_result.returncode, 0, citation_result.stderr.decode("utf-8", errors="replace"))
+            citation_payload = json.loads(citation_result.stdout.decode("utf-8"))
+            self.assertNotIn("citation_work_packages", citation_payload)
+            self.assertNotIn("batch_work_packages", citation_payload)
+            self.assertEqual(citation_payload["citation_package_count"], 21)
+            self.assertEqual(citation_payload["citation_batch_count"], 3)
+            citation_manifest = self.read_json(citation_payload["citation_semantic_review_manifest_path"])
+            self.assertEqual(len(citation_manifest["required_coverage_keys"]), 21)
+            for batch_path in citation_payload["citation_batch_paths"]:
+                batch = self.read_json(batch_path)
+                self.assertLessEqual(len(batch["citation_work_packages"]), 10)
 
     def test_full_wrapper_outputs_compatible_artifacts(self):
         with tempfile.TemporaryDirectory() as td:
@@ -238,7 +357,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
-            ref_package = prepared["reference_review_packages"][0]
+            ref_package = self.reference_packages_from_payload(prepared)[0]
             refs_path = root / "refs_payload.json"
             self.write_json(
                 refs_path,
@@ -260,20 +379,25 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             refs_response = json.loads(refs.stdout.decode("utf-8"))
             self.assertEqual(refs_response["next_action"], "persist_references")
             metadata_path = root / "metadata_payload.json"
-            self.write_json(metadata_path, self.metadata_payload_from_packages(refs_response["metadata_review_packages"]))
+            self.write_json(metadata_path, self.metadata_payload_from_packages(self.metadata_packages_from_payload(refs_response)))
             metadata = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(metadata_path)])
             self.assertEqual(metadata.returncode, 0, metadata.stderr.decode("utf-8", errors="replace"))
 
             citation_prepared = self.run_cmd(["persist_citation_analysis", "--db-path", db_path])
             self.assertEqual(citation_prepared.returncode, 0, citation_prepared.stderr.decode("utf-8", errors="replace"))
             citation_workset_payload = json.loads(citation_prepared.stdout.decode("utf-8"))
-            self.assertIn("citation_work_packages", citation_workset_payload)
-            self.assertIn("batch_work_packages", citation_workset_payload)
+            self.assertNotIn("citation_work_packages", citation_workset_payload)
+            self.assertNotIn("batch_work_packages", citation_workset_payload)
+            self.assertIn("citation_semantic_review_manifest_path", citation_workset_payload)
+            self.assertIn("citation_batch_paths", citation_workset_payload)
+            self.assertTrue(Path(citation_workset_payload["citation_semantic_review_manifest_path"]).exists())
             self.assertIn("subagent_prompt_template", citation_workset_payload)
             self.assertIn("Default to delegating citation semantic review", citation_workset_payload["subagent_policy"])
             self.assertEqual(citation_workset_payload["merge_contract"]["single_writer"], "main_agent")
-            citation_batch = citation_workset_payload["batch_work_packages"][0]
+            citation_batch = self.read_json(citation_workset_payload["citation_batch_paths"][0])
             self.assertIn("batch_id", citation_batch)
+            self.assertEqual(citation_batch["batch_kind"], "citation_semantic_review")
+            self.assertLessEqual(len(citation_batch["citation_work_packages"]), 10)
             self.assertIn("required_return_shape", citation_batch)
             self.assertIn("forbidden_fields", citation_batch)
             self.assertIn("minimal_valid_example", citation_batch)
@@ -283,7 +407,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertIn("Do not write DB", citation_batch["subagent_prompt"])
             self.assertIn("timeline_summaries", citation_workset_payload["merge_contract"]["merge_notes"])
             citation_reviews = []
-            for package in citation_workset_payload["citation_work_packages"]:
+            for package in self.citation_packages_from_payload(citation_workset_payload):
                 citation_reviews.append(
                     {
                         "citation_work_key": package["citation_work_key"],
@@ -358,7 +482,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             refs_payload = json.loads(stdout.getvalue())
             self.assertEqual(refs_payload["runtime_backend"], "analysis_runtime.references")
 
-            package = refs_payload["reference_review_packages"][0]
+            package = self.reference_packages_from_payload(refs_payload)[0]
             refs_path = root / "refs_payload.json"
             self.write_json(
                 refs_path,
@@ -379,7 +503,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(core_refs.returncode, 0)
             core_payload = json.loads(core_refs.stdout.decode("utf-8"))
             metadata_path = root / "metadata_payload.json"
-            self.write_json(metadata_path, self.metadata_payload_from_packages(core_payload["metadata_review_packages"]))
+            self.write_json(metadata_path, self.metadata_payload_from_packages(self.metadata_packages_from_payload(core_payload)))
             self.assertEqual(self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(metadata_path)]).returncode, 0)
 
             stdout = io.StringIO()
@@ -409,7 +533,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
-            package = prepared["reference_review_packages"][0]
+            package = self.reference_packages_from_payload(prepared)[0]
             payload_path = root / "bad_refs.json"
             self.write_json(
                 payload_path,
@@ -456,7 +580,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
-            package = prepared["reference_review_packages"][0]
+            package = self.reference_packages_from_payload(prepared)[0]
             bad_core_path = root / "refs_with_metadata.json"
             self.write_json(
                 bad_core_path,
@@ -498,12 +622,16 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(core.returncode, 0, core.stderr.decode("utf-8", errors="replace"))
             core_response = json.loads(core.stdout.decode("utf-8"))
             self.assertEqual(core_response["next_action"], "persist_references")
-            self.assertIn("metadata_review_packages", core_response)
+            self.assertNotIn("metadata_review_packages", core_response)
+            self.assertIn("metadata_review_manifest_path", core_response)
+            self.assertIn("metadata_batch_paths", core_response)
             self.assertIn("Default to delegating metadata review", core_response["subagent_policy"])
             self.assertEqual(core_response["merge_contract"]["single_writer"], "main_agent")
             self.assertIn("allowed_metadata_fields", core_response["instructions"])
             self.assertIn("locked_fields", core_response["instructions"])
-            metadata_batch = core_response["batch_work_packages"][0]
+            metadata_batch = self.read_json(core_response["metadata_batch_paths"][0])
+            self.assertEqual(metadata_batch["batch_kind"], "reference_metadata_enrichment")
+            self.assertLessEqual(len(metadata_batch["metadata_review_packages"]), 10)
             self.assertIn("canonical_metadata_fields", metadata_batch)
             self.assertIn("forbidden_fields", metadata_batch)
             self.assertIn("subagent_prompt", metadata_batch)
@@ -512,7 +640,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertIn("ref_index", metadata_batch["forbidden_fields"])
 
             metadata_path = root / "metadata_payload.json"
-            metadata_package = core_response["metadata_review_packages"][0]
+            metadata_package = self.metadata_packages_from_payload(core_response)[0]
             self.write_json(
                 metadata_path,
                 {
@@ -571,7 +699,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             self.assertTrue(prepared["requires_split_review"])
-            split_package = prepared["split_review_packages"][0]
+            split_package = self.split_packages_from_payload(prepared)[0]
 
             split_path = root / "split_payload.json"
             self.write_json(
@@ -593,14 +721,15 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(split_result.returncode, 0, split_result.stderr.decode("utf-8", errors="replace"))
             regenerated = json.loads(split_result.stdout.decode("utf-8"))
             self.assertFalse(regenerated["requires_split_review"])
-            self.assertEqual(len(regenerated["reference_review_packages"]), 2)
+            regenerated_packages = self.reference_packages_from_payload(regenerated)
+            self.assertEqual(len(regenerated_packages), 2)
             self.assertEqual(regenerated["next_action"], "persist_references")
 
             refs_path = root / "refs_payload.json"
             reviews = []
             for package, author, title, year in [
-                (regenerated["reference_review_packages"][0], ["Smith, J."], "Paper A", 2020),
-                (regenerated["reference_review_packages"][1], ["Jones, M."], "Paper B", 2021),
+                (regenerated_packages[0], ["Smith, J."], "Paper A", 2020),
+                (regenerated_packages[1], ["Jones, M."], "Paper B", 2021),
             ]:
                 reviews.append(
                     {
@@ -640,7 +769,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
-            split_package = prepared["split_review_packages"][0]
+            split_package = self.split_packages_from_payload(prepared)[0]
             split_path = root / "bad_conservation_split.json"
             self.write_json(
                 split_path,
@@ -691,7 +820,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             self.assertTrue(prepared["requires_split_review"])
-            split_package = prepared["split_review_packages"][0]
+            split_package = self.split_packages_from_payload(prepared)[0]
             split_path = root / "web_split_payload.json"
             self.write_json(
                 split_path,
@@ -712,7 +841,8 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(result.stdout.decode("utf-8"))
             self.assertFalse(payload["requires_split_review"])
-            self.assertIn("reference_review_packages", payload)
+            self.assertIn("reference_core_review_manifest_path", payload)
+            self.assertNotIn("reference_review_packages", payload)
             self.assertTrue(any("reference_boundary_suspicion_after_review" in warning for warning in payload["warnings"]))
             audit_path = Path(db_path).parent / "reference_split_review_audit.json"
             self.assertTrue(audit_path.exists())
@@ -743,9 +873,10 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
-            self.assertGreaterEqual(len(prepared["split_review_packages"]), 2)
-            first = prepared["split_review_packages"][0]["block_key"]
-            second = prepared["split_review_packages"][1]["block_key"]
+            split_packages = self.split_packages_from_payload(prepared)
+            self.assertGreaterEqual(len(split_packages), 2)
+            first = split_packages[0]["block_key"]
+            second = split_packages[1]["block_key"]
 
             bad_path = root / "bad_split_payload.json"
             self.write_json(
@@ -794,7 +925,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
 
             refs_prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
-            ref_package = refs_prepared["reference_review_packages"][0]
+            ref_package = self.reference_packages_from_payload(refs_prepared)[0]
             refs_path = root / "refs_payload.json"
             self.write_json(
                 refs_path,
@@ -814,14 +945,14 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(core_refs.returncode, 0)
             core_payload = json.loads(core_refs.stdout.decode("utf-8"))
             metadata_path = root / "metadata_payload.json"
-            self.write_json(metadata_path, self.metadata_payload_from_packages(core_payload["metadata_review_packages"]))
+            self.write_json(metadata_path, self.metadata_payload_from_packages(self.metadata_packages_from_payload(core_payload)))
             self.assertEqual(self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(metadata_path)]).returncode, 0)
 
             citation_prepared = json.loads(self.run_cmd(["persist_citation_analysis", "--db-path", db_path]).stdout.decode("utf-8"))
-            package = citation_prepared["citation_work_packages"][0]
+            package = self.citation_packages_from_payload(citation_prepared)[0]
             self.assertIn("Default to delegating citation semantic review", citation_prepared["subagent_policy"])
             self.assertEqual(citation_prepared["merge_contract"]["single_writer"], "main_agent")
-            citation_batch = citation_prepared["batch_work_packages"][0]
+            citation_batch = self.read_json(citation_prepared["citation_batch_paths"][0])
             self.assertIn("subagent_prompt", citation_batch)
             self.assertIn("Do not write DB", citation_batch["subagent_prompt"])
             self.assertIn("timeline_summaries", citation_batch["subagent_prompt"])
@@ -897,6 +1028,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
     def test_analysis_runtime_package_shape_is_tidy(self):
         runtime_dir = ANALYSIS_SCRIPTS / "analysis_runtime"
         expected_files = {
+            "agent_work.py",
             "algorithm_adapter.py",
             "citations.py",
             "deterministic_core.py",

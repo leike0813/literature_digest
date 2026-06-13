@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -8,8 +9,9 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-RUNTIME_DB_PATH = REPO_ROOT / "literature-digest" / "scripts" / "runtime_db.py"
-STAGE_RUNTIME = REPO_ROOT / "literature-digest" / "scripts" / "stage_runtime.py"
+RUNTIME_DB_PATH = REPO_ROOT / "literature-analysis" / "scripts" / "runtime_db.py"
+RUN_ANALYSIS = REPO_ROOT / "literature-analysis" / "scripts" / "run_analysis.py"
+sys.dont_write_bytecode = True
 
 
 def load_module(path: Path, name: str):
@@ -27,11 +29,16 @@ class RenderFinalArtifactsTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             source_path = Path(td) / "paper.md"
             source_path.write_text("# Title\n", encoding="utf-8")
-            db_path = Path(td) / ".literature_digest_tmp" / "literature_digest.db"
+            db_path = Path(td) / ".literature_analysis_tmp" / "literature_analysis.db"
             runtime_db.initialize_database(db_path)
 
             with runtime_db.connect_db(db_path) as connection:
                 runtime_db.set_runtime_input(connection, "source_path", str(source_path))
+                runtime_db.set_runtime_input(connection, "working_dir", str(Path(td)))
+                runtime_db.set_runtime_input(connection, "tmp_dir", str(db_path.parent))
+                runtime_db.set_runtime_input(connection, "db_path", str(db_path))
+                runtime_db.set_runtime_input(connection, "result_json_path", str(Path(td) / "literature-analysis.result.json"))
+                runtime_db.set_runtime_input(connection, "output_dir", str(Path(td)))
                 runtime_db.set_runtime_input(connection, "generated_at", "2026-03-23T00:00:00Z")
                 runtime_db.set_runtime_input(connection, "input_hash", "sha256:abc")
                 runtime_db.set_runtime_input(connection, "model", "x")
@@ -157,16 +164,15 @@ class RenderFinalArtifactsTests(unittest.TestCase):
             result = subprocess.run(
                 [
                     sys.executable,
-                    str(STAGE_RUNTIME),
-                    "render_and_validate",
+                    str(RUN_ANALYSIS),
+                    "finalize_outputs",
                     "--db-path",
                     str(db_path),
-                    "--mode",
-                    "render",
                 ],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 check=False,
+                env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
             )
             self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(result.stdout.decode("utf-8"))
