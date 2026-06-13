@@ -197,6 +197,9 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertIn("batch_work_packages", payload)
             self.assertIn("subagent_prompt_template", payload)
             self.assertIn("allowed_payload_shape", payload)
+            self.assertIn("Default to delegating reference core review", payload["subagent_policy"])
+            self.assertEqual(payload["merge_contract"]["single_writer"], "main_agent")
+            self.assertIn("single DB writer", payload["merge_contract"]["merge_notes"])
             batch = payload["batch_work_packages"][0]
             self.assertIn("batch_id", batch)
             self.assertIn("required_return_shape", batch)
@@ -204,6 +207,9 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertIn("metadata", batch["forbidden_fields"])
             self.assertIn("minimal_valid_example", batch)
             self.assertIn("merge_notes", batch)
+            self.assertIn("subagent_prompt", batch)
+            self.assertIn("Default to delegating", batch["merge_notes"])
+            self.assertIn("Do not write DB", batch["subagent_prompt"])
             self.assertEqual(payload["runtime_backend"], "analysis_runtime.references")
 
     def test_full_wrapper_outputs_compatible_artifacts(self):
@@ -264,12 +270,17 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertIn("citation_work_packages", citation_workset_payload)
             self.assertIn("batch_work_packages", citation_workset_payload)
             self.assertIn("subagent_prompt_template", citation_workset_payload)
+            self.assertIn("Default to delegating citation semantic review", citation_workset_payload["subagent_policy"])
+            self.assertEqual(citation_workset_payload["merge_contract"]["single_writer"], "main_agent")
             citation_batch = citation_workset_payload["batch_work_packages"][0]
             self.assertIn("batch_id", citation_batch)
             self.assertIn("required_return_shape", citation_batch)
             self.assertIn("forbidden_fields", citation_batch)
             self.assertIn("minimal_valid_example", citation_batch)
             self.assertIn("merge_notes", citation_batch)
+            self.assertIn("subagent_prompt", citation_batch)
+            self.assertIn("Default to delegating", citation_batch["merge_notes"])
+            self.assertIn("Do not write DB", citation_batch["subagent_prompt"])
             self.assertIn("timeline_summaries", citation_workset_payload["merge_contract"]["merge_notes"])
             citation_reviews = []
             for package in citation_workset_payload["citation_work_packages"]:
@@ -488,6 +499,17 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             core_response = json.loads(core.stdout.decode("utf-8"))
             self.assertEqual(core_response["next_action"], "persist_references")
             self.assertIn("metadata_review_packages", core_response)
+            self.assertIn("Default to delegating metadata review", core_response["subagent_policy"])
+            self.assertEqual(core_response["merge_contract"]["single_writer"], "main_agent")
+            self.assertIn("allowed_metadata_fields", core_response["instructions"])
+            self.assertIn("locked_fields", core_response["instructions"])
+            metadata_batch = core_response["batch_work_packages"][0]
+            self.assertIn("canonical_metadata_fields", metadata_batch)
+            self.assertIn("forbidden_fields", metadata_batch)
+            self.assertIn("subagent_prompt", metadata_batch)
+            self.assertIn("Do not write DB", metadata_batch["subagent_prompt"])
+            self.assertIn("author", metadata_batch["forbidden_fields"])
+            self.assertIn("ref_index", metadata_batch["forbidden_fields"])
 
             metadata_path = root / "metadata_payload.json"
             metadata_package = core_response["metadata_review_packages"][0]
@@ -560,7 +582,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
                             "block_key": split_package["block_key"],
                             "action": "replace_with_corrected_reference_texts",
                             "corrected_reference_texts": [
-                                "Smith, J. Paper A. 2020",
+                                "Smith， J. Paper A. 2020",
                                 "Jones, M. Paper B. 2021.",
                             ],
                         }
@@ -594,6 +616,108 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(refs.returncode, 0, refs.stderr.decode("utf-8", errors="replace"))
             refs_payload = json.loads(refs.stdout.decode("utf-8"))
             self.assertEqual(refs_payload["stored_reference_items"], 2)
+
+    def test_reference_split_review_missing_tokens_returns_diagnostics(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "Prior work [1] and [2] are relevant.",
+                "# References",
+                "Smith, J. Paper A. 2020 Jones, M. Paper B. 2021.",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(["init_runtime", "--source-path", str(source), "--working-dir", str(root)]).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
+            digest_path = root / "digest_payload.json"
+            self.write_json(digest_path, self.digest_payload())
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+
+            prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+            split_package = prepared["split_review_packages"][0]
+            split_path = root / "bad_conservation_split.json"
+            self.write_json(
+                split_path,
+                {
+                    "split_reviews": [
+                        {
+                            "block_key": split_package["block_key"],
+                            "action": "replace_with_corrected_reference_texts",
+                            "corrected_reference_texts": [
+                                "Smith, J. Paper A. 2020",
+                                "Jones, M. 2021.",
+                            ],
+                        }
+                    ]
+                },
+            )
+            result = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(split_path)])
+            self.assertEqual(result.returncode, 2)
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertEqual(payload["error"]["code"], "reference_entry_splitting_failed")
+            diagnostics = payload["error"]["diagnostics"]
+            self.assertLess(diagnostics["coverage_ratio"], 1.0)
+            self.assertIn("missing_tokens_sample", diagnostics)
+            self.assertGreater(diagnostics["missing_token_count"], 0)
+
+    def test_reference_split_review_remaining_suspicion_warns_and_continues(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "Prior web resources [1] are relevant.",
+                "# References",
+                "YOLO-v8.",
+                "In https://github.com/ultralytics/ultralytics.",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(["init_runtime", "--source-path", str(source), "--working-dir", str(root)]).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
+            digest_path = root / "digest_payload.json"
+            self.write_json(digest_path, self.digest_payload())
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+
+            prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+            self.assertTrue(prepared["requires_split_review"])
+            split_package = prepared["split_review_packages"][0]
+            split_path = root / "web_split_payload.json"
+            self.write_json(
+                split_path,
+                {
+                    "split_reviews": [
+                        {
+                            "block_key": split_package["block_key"],
+                            "action": "replace_with_corrected_reference_texts",
+                            "corrected_reference_texts": [
+                                "YOLO-v8.",
+                                "In https://github.com/ultralytics/ultralytics.",
+                            ],
+                        }
+                    ]
+                },
+            )
+            result = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(split_path)])
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertFalse(payload["requires_split_review"])
+            self.assertIn("reference_review_packages", payload)
+            self.assertTrue(any("reference_boundary_suspicion_after_review" in warning for warning in payload["warnings"]))
+            audit_path = Path(db_path).parent / "reference_split_review_audit.json"
+            self.assertTrue(audit_path.exists())
+            audit = json.loads(audit_path.read_text(encoding="utf-8"))
+            self.assertTrue(audit["downgraded_suspect_blocks"])
 
     def test_reference_split_review_validation_errors_are_aggregated(self):
         with tempfile.TemporaryDirectory() as td:
@@ -695,6 +819,14 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
 
             citation_prepared = json.loads(self.run_cmd(["persist_citation_analysis", "--db-path", db_path]).stdout.decode("utf-8"))
             package = citation_prepared["citation_work_packages"][0]
+            self.assertIn("Default to delegating citation semantic review", citation_prepared["subagent_policy"])
+            self.assertEqual(citation_prepared["merge_contract"]["single_writer"], "main_agent")
+            citation_batch = citation_prepared["batch_work_packages"][0]
+            self.assertIn("subagent_prompt", citation_batch)
+            self.assertIn("Do not write DB", citation_batch["subagent_prompt"])
+            self.assertIn("timeline_summaries", citation_batch["subagent_prompt"])
+            self.assertIn("global summary", citation_batch["subagent_prompt"])
+            self.assertIn("ref_index", citation_batch["subagent_prompt"])
 
             bad_path = root / "bad_citation.json"
             self.write_json(
@@ -831,20 +963,35 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
             source = root / "paper.md"
-            source.write_text("# Introduction\nText.\n# References\n[1] Smith. Useful Runtime Paper. 2020.\n", encoding="utf-8")
+            lines = [
+                "# Introduction",
+                "Prior work [1] is relevant.",
+                "# References",
+                "[1] Smith. Useful Runtime Paper. 2020.",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
             init = json.loads(
                 self.run_cmd(["init_runtime", "--source-path", str(source), "--working-dir", str(root)]).stdout.decode("utf-8")
             )
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", init["db_path"], "--payload-file", str(plan_path)]).returncode, 0)
+            digest_path = root / "digest_payload.json"
+            self.write_json(digest_path, self.digest_payload())
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", init["db_path"], "--payload-file", str(digest_path)]).returncode, 0)
             status = self.run_cmd(["status", "--db-path", init["db_path"]])
             self.assertEqual(status.returncode, 0, status.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(status.stdout.decode("utf-8"))
             self.assertIn("next_action", payload)
+            self.assertEqual(payload["next_action"], "persist_references")
             self.assertIn("missing_prerequisites", payload)
             self.assertIn("execution_note", payload)
             self.assertIn("instruction_refs", payload)
             self.assertIn("quality_directives", payload)
             self.assertIn("allowed_payload_shape", payload)
             self.assertIn("field_guidance", payload)
+            self.assertIn("Default to subagent delegation", payload["field_guidance"]["subagents"])
+            self.assertIn("single DB writer", payload["field_guidance"]["subagents"])
             self.assertEqual(payload["runtime_backend"], "analysis_runtime.gate_contract")
             for ref in payload["instruction_refs"]:
                 self.assertTrue(ref["path"].startswith("references/"))

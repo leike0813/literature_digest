@@ -16,6 +16,7 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         for marker in [
             "## 后台自动化约束",
             "## 输入输出硬契约",
+            "## Subagent Delegation Contract",
             "## SQLite SSOT",
             "## LLM 与脚本职责边界",
             "## 参数词表（literature-analysis）",
@@ -68,6 +69,9 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         self.assertIn("PYTHONPATH=literature-analysis/scripts python -m run_analysis", skill_md)
         self.assertIn("payload_json_invalid", skill_md)
         self.assertIn("JSON encoder", skill_md)
+        self.assertIn("Reference core review subagent prompt (short)", skill_md)
+        self.assertIn("Metadata enrichment subagent prompt (short)", skill_md)
+        self.assertIn("Citation semantic review subagent prompt (short)", skill_md)
 
     def test_skill_md_does_not_reintroduce_old_gate_main_path(self):
         skill_md = self.read("literature-analysis/SKILL.md")
@@ -132,6 +136,9 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
             "reference_numbering_anomaly_detected",
             "reference_entries",
             "reference_parse_candidates",
+            "token coverage",
+            "missing_tokens_sample",
+            "reference_boundary_suspicion_after_review",
             "conferenceName",
             "publicationTitle",
             "DOI",
@@ -150,6 +157,7 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
             "Metadata review:",
         ]:
             self.assertIn(marker, refs)
+        self.assertNotIn("accept_reviewed_entries", refs)
 
         for marker in [
             "\\cite{...}",
@@ -248,6 +256,7 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         core_instruction = self.read("literature-analysis/assets/core_instruction.md")
         combined_refs = f"{skill_md}\n{refs}\n{core_instruction}"
         for marker in [
+            "must delegate core reference review and metadata enrichment by batch",
             "Canonical metadata fields",
             "metadata_review_packages",
             "instructions.allowed_metadata_fields",
@@ -259,13 +268,20 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
             "arXiv:2004.10934",
             "reference_reviews[].metadata is forbidden",
             "status to enriched, confirmed_existing, or no_metadata_found",
+            "main agent is the only DB writer",
+            "Do not write DB",
+            "modify stable keys",
+            "final artifacts",
         ]:
             self.assertIn(marker, combined_refs)
         for marker in [
+            "must delegate citation semantic review by batch",
             "timeline_summaries",
             "citation_timeline_missing_year",
             "Subagents do not decide timeline bucket membership",
             "Do not include internal indexes",
+            "Do not write DB",
+            "generate final artifacts",
         ]:
             self.assertIn(marker, citations)
 
@@ -276,6 +292,8 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         core_instruction = self.read("literature-analysis/assets/core_instruction.md")
         combined = f"{prompt}\n{core_instruction}"
         self.assertIn("scripts/run_analysis.py", combined)
+        self.assertIn("delegate by default", combined)
+        self.assertIn("only the main agent submits payloads", combined)
         self.assertIn("init_runtime", combined)
         self.assertIn("persist_analysis_plan", prompt)
         self.assertIn("persist_references", combined)
