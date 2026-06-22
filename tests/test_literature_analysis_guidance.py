@@ -44,7 +44,7 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         for field in [
             "selected_parse_pattern",
             "allowed_parse_patterns_by_reference_key",
-            "metadata_review_packages",
+            "metadata_evidence_packages",
             "reference_review_packages",
             "file_quality_low",
             "suspect_blocks",
@@ -70,11 +70,11 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         self.assertIn("payload_json_invalid", skill_md)
         self.assertIn("JSON encoder", skill_md)
         self.assertIn("Reference core review subagent prompt (short)", skill_md)
-        self.assertIn("Metadata enrichment subagent prompt (short)", skill_md)
+        self.assertIn("Reference Metadata Evidence Review subagent prompt (short)", skill_md)
         self.assertIn("Citation semantic review subagent prompt (short)", skill_md)
         self.assertIn("Mandatory delegation points", skill_md)
         self.assertIn("Reference Core Review Delegation Point", skill_md)
-        self.assertIn("Metadata Enrichment Delegation Point", skill_md)
+        self.assertIn("Reference Metadata Evidence Review Delegation Point", skill_md)
         self.assertIn("Citation Semantic Review Delegation Point", skill_md)
 
     def test_skill_md_does_not_reintroduce_old_gate_main_path(self):
@@ -149,7 +149,7 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
             "selected_parse_pattern",
             "allowed_parse_patterns_by_reference_key",
             "Core review subagent prompt template",
-            "Metadata enrichment subagent prompt template",
+            "Reference Metadata Evidence Review subagent prompt template",
             "LNCS, vol.",
             "Example 1: Preprint",
             "Example 2: Conference",
@@ -158,7 +158,7 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
             "Example 5: Thesis",
             "Source text:",
             "Core review:",
-            "Metadata review:",
+            "Metadata evidence review:",
         ]:
             self.assertIn(marker, refs)
         self.assertNotIn("accept_reviewed_entries", refs)
@@ -262,23 +262,28 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         for marker in [
             "runtime-precut batch",
             "reference_core_batch_paths",
-            "metadata_batch_paths",
+            "metadata_evidence_batch_paths",
             "suggested_draft_output_path",
             "## LLM And Script Responsibilities",
             "## Mandatory Subagent Delegation Points",
             "Reference Core Review Delegation Point",
-            "Metadata Enrichment Delegation Point",
+            "Reference Metadata Evidence Review Delegation Point",
             "Canonical metadata fields",
-            "metadata_review_packages",
+            "metadata_evidence_packages",
             "instructions.allowed_metadata_fields",
             "instructions.locked_fields",
+            "This is not a metadata discovery task",
+            "external_lookup_allowed: false",
+            "No web search",
+            "Crossref",
+            "DOI resolver",
             "publicationTitle",
             "archiveID",
             "reference_metadata_alias_normalized",
             "reference_metadata_field_unrecognized",
             "arXiv:2004.10934",
             "reference_reviews[].metadata is forbidden",
-            "status to enriched, confirmed_existing, or no_metadata_found",
+            "set status to fields_extracted, existing_fields_confirmed, or no_local_evidence",
             "main agent is the only DB writer",
             "Do not write DB",
             "modify stable keys",
@@ -317,7 +322,7 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
             "Do not use a temporary script",
             "临时脚本",
             "reference_reviews[]",
-            "metadata_reviews[]",
+            "metadata_evidence_reviews[]",
             "citation_semantic_reviews[]",
             "semantic work",
             "JSON 语法",

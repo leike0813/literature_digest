@@ -111,7 +111,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
                 reviews.append(
                     {
                         "reference_key": reference_key,
-                        "status": "enriched",
+                        "status": "fields_extracted",
                         "metadata": metadata_by_key[reference_key],
                         "evidence_note": "Metadata is supported by the test fixture.",
                     }
@@ -120,7 +120,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
                 reviews.append(
                     {
                         "reference_key": reference_key,
-                        "status": "confirmed_existing",
+                        "status": "existing_fields_confirmed",
                         "evidence_note": "Existing metadata retained.",
                     }
                 )
@@ -128,11 +128,11 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
                 reviews.append(
                     {
                         "reference_key": reference_key,
-                        "status": "no_metadata_found",
+                        "status": "no_local_evidence",
                         "evidence_note": "No additional metadata in fixture.",
                     }
                 )
-        return {"metadata_reviews": reviews}
+        return {"metadata_evidence_reviews": reviews}
 
     def read_json(self, path_value: str) -> dict:
         return json.loads(Path(path_value).read_text(encoding="utf-8"))
@@ -145,8 +145,8 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
 
     def metadata_packages_from_payload(self, payload: dict) -> list[dict]:
         packages: list[dict] = []
-        for batch_path in payload.get("metadata_batch_paths", []):
-            packages.extend(self.read_json(batch_path)["metadata_review_packages"])
+        for batch_path in payload.get("metadata_evidence_batch_paths", []):
+            packages.extend(self.read_json(batch_path)["metadata_evidence_packages"])
         return packages
 
     def citation_packages_from_payload(self, payload: dict) -> list[dict]:
@@ -305,13 +305,15 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertLess(len(core.stdout), 51200)
             self.assertEqual(core.returncode, 0, core.stderr.decode("utf-8", errors="replace"))
             core_payload = json.loads(core.stdout.decode("utf-8"))
-            self.assertNotIn("metadata_review_packages", core_payload)
+            self.assertNotIn("metadata_evidence_packages", core_payload)
             self.assertNotIn("batch_work_packages", core_payload)
-            self.assertEqual(core_payload["metadata_package_count"], 25)
-            self.assertEqual(core_payload["metadata_batch_count"], 3)
-            for batch_path in core_payload["metadata_batch_paths"]:
+            self.assertEqual(core_payload["metadata_evidence_package_count"], 25)
+            self.assertEqual(core_payload["metadata_evidence_batch_count"], 3)
+            for batch_path in core_payload["metadata_evidence_batch_paths"]:
                 batch = self.read_json(batch_path)
-                self.assertLessEqual(len(batch["metadata_review_packages"]), 10)
+                self.assertLessEqual(len(batch["metadata_evidence_packages"]), 10)
+                self.assertFalse(batch["external_lookup_allowed"])
+                self.assertIn("web search", batch["forbidden_actions"])
 
             metadata_path = root / "metadata_payload.json"
             self.write_json(metadata_path, self.metadata_payload_from_packages(self.metadata_packages_from_payload(core_payload)))
@@ -568,7 +570,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
                 "# Introduction",
                 "Prior work [1] is relevant.",
                 "# References",
-                "[1] Smith. Useful Runtime Paper. Journal of Runtime Studies. arXiv:2004.10934. 2020.",
+                "[1] Smith. Useful Runtime Paper. Journal of Runtime Studies. arXiv:2004.10934. doi:10.1000/example. 2020.",
             ]
             source.write_text("\n".join(lines) + "\n", encoding="utf-8")
             init = json.loads(
@@ -601,7 +603,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(bad_core.returncode, 2)
             bad_response = json.loads(bad_core.stdout.decode("utf-8"))
             bad_details = "\n".join(bad_response["error"]["details"])
-            self.assertIn("metadata must be submitted through metadata_reviews", bad_details)
+            self.assertIn("metadata must be submitted through metadata_evidence_reviews", bad_details)
 
             core_path = root / "refs_core.json"
             self.write_json(
@@ -622,32 +624,75 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(core.returncode, 0, core.stderr.decode("utf-8", errors="replace"))
             core_response = json.loads(core.stdout.decode("utf-8"))
             self.assertEqual(core_response["next_action"], "persist_references")
-            self.assertNotIn("metadata_review_packages", core_response)
-            self.assertIn("metadata_review_manifest_path", core_response)
-            self.assertIn("metadata_batch_paths", core_response)
-            self.assertIn("Default to delegating metadata review", core_response["subagent_policy"])
+            self.assertNotIn("metadata_evidence_packages", core_response)
+            self.assertIn("metadata_evidence_review_manifest_path", core_response)
+            self.assertIn("metadata_evidence_batch_paths", core_response)
+            self.assertIn("Default to delegating reference metadata evidence review", core_response["subagent_policy"])
+            self.assertFalse(core_response["external_lookup_allowed"])
             self.assertEqual(core_response["merge_contract"]["single_writer"], "main_agent")
             self.assertIn("allowed_metadata_fields", core_response["instructions"])
             self.assertIn("locked_fields", core_response["instructions"])
-            metadata_batch = self.read_json(core_response["metadata_batch_paths"][0])
-            self.assertEqual(metadata_batch["batch_kind"], "reference_metadata_enrichment")
-            self.assertLessEqual(len(metadata_batch["metadata_review_packages"]), 10)
+            metadata_batch = self.read_json(core_response["metadata_evidence_batch_paths"][0])
+            self.assertEqual(metadata_batch["batch_kind"], "reference_metadata_evidence_review")
+            self.assertLessEqual(len(metadata_batch["metadata_evidence_packages"]), 10)
             self.assertIn("canonical_metadata_fields", metadata_batch)
             self.assertIn("forbidden_fields", metadata_batch)
             self.assertIn("subagent_prompt", metadata_batch)
+            self.assertFalse(metadata_batch["external_lookup_allowed"])
+            self.assertIn("This is not a metadata discovery task", metadata_batch["subagent_prompt"])
+            self.assertTrue(any("Crossref" in action for action in metadata_batch["forbidden_actions"]))
             self.assertIn("Do not write DB", metadata_batch["subagent_prompt"])
             self.assertIn("author", metadata_batch["forbidden_fields"])
             self.assertIn("ref_index", metadata_batch["forbidden_fields"])
 
             metadata_path = root / "metadata_payload.json"
             metadata_package = self.metadata_packages_from_payload(core_response)[0]
+
+            old_metadata_path = root / "old_metadata_payload.json"
             self.write_json(
-                metadata_path,
+                old_metadata_path,
                 {
                     "metadata_reviews": [
                         {
                             "reference_key": metadata_package["reference_key"],
                             "status": "enriched",
+                            "metadata": {"DOI": "10.1000/example"},
+                        }
+                    ]
+                },
+            )
+            old_result = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(old_metadata_path)])
+            self.assertEqual(old_result.returncode, 2)
+            old_response = json.loads(old_result.stdout.decode("utf-8"))
+            self.assertIn("metadata_reviews[] is not accepted", old_response["error"]["message"])
+
+            unsupported_metadata_path = root / "unsupported_metadata_payload.json"
+            self.write_json(
+                unsupported_metadata_path,
+                {
+                    "metadata_evidence_reviews": [
+                        {
+                            "reference_key": metadata_package["reference_key"],
+                            "status": "fields_extracted",
+                            "metadata": {"DOI": "10.9999/not-in-source"},
+                            "evidence_note": "This value is not visible in the batch JSON evidence.",
+                        }
+                    ]
+                },
+            )
+            unsupported_result = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(unsupported_metadata_path)])
+            self.assertEqual(unsupported_result.returncode, 2)
+            unsupported_response = json.loads(unsupported_result.stdout.decode("utf-8"))
+            self.assertEqual(unsupported_response["error"]["code"], "reference_metadata_payload_invalid")
+            self.assertIn("metadata_without_local_evidence", "\n".join(unsupported_response["error"]["details"]))
+
+            self.write_json(
+                metadata_path,
+                {
+                    "metadata_evidence_reviews": [
+                        {
+                            "reference_key": metadata_package["reference_key"],
+                            "status": "fields_extracted",
                             "metadata": {
                                 "journal": "Journal of Runtime Studies",
                                 "archiveID": "2004.10934",
