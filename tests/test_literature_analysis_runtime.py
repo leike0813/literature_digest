@@ -15,6 +15,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RUN_ANALYSIS = REPO_ROOT / "literature-analysis" / "scripts" / "run_analysis.py"
 ANALYSIS_SCRIPTS = REPO_ROOT / "literature-analysis" / "scripts"
+STAGE_RUNTIME_MODULE = "analysis_runtime.deterministic_core"
 sys.dont_write_bytecode = True
 
 
@@ -26,6 +27,15 @@ def load_run_analysis_module():
     return module
 
 
+def load_deterministic_core_module():
+    scripts_path = str(ANALYSIS_SCRIPTS)
+    if scripts_path not in sys.path:
+        sys.path.insert(0, scripts_path)
+    from analysis_runtime import deterministic_core  # noqa: PLC0415
+
+    return deterministic_core
+
+
 class LiteratureAnalysisRuntimeTests(unittest.TestCase):
     def run_cmd(self, args: list[str]) -> subprocess.CompletedProcess:
         return subprocess.run(
@@ -34,6 +44,15 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             stderr=subprocess.PIPE,
             check=False,
             env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+        )
+
+    def run_runtime_cmd(self, args: list[str]) -> subprocess.CompletedProcess:
+        return subprocess.run(
+            [sys.executable, "-m", STAGE_RUNTIME_MODULE, *args],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            check=False,
+            env={**os.environ, "PYTHONPATH": str(ANALYSIS_SCRIPTS), "PYTHONDONTWRITEBYTECODE": "1"},
         )
 
     def write_json(self, path: Path, payload: dict) -> None:
@@ -160,6 +179,46 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
         if not path:
             return []
         return list(self.read_json(path).get("split_review_packages", []))
+
+    def prepare_single_reference_runtime(self, root: Path, lines: list[str]) -> str:
+        source = root / "paper.md"
+        source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        init = json.loads(
+            self.run_cmd(["init_runtime", "--source-path", str(source), "--working-dir", str(root)]).stdout.decode("utf-8")
+        )
+        db_path = init["db_path"]
+        plan_path = root / "plan.json"
+        self.write_json(plan_path, self.outline_payload(lines))
+        self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
+        digest_path = root / "digest_payload.json"
+        self.write_json(digest_path, self.digest_payload())
+        self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+        prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+        ref_package = self.reference_packages_from_payload(prepared)[0]
+        refs_path = root / "refs_payload.json"
+        self.write_json(
+            refs_path,
+            {
+                "reference_reviews": [
+                    {
+                        "reference_key": ref_package["reference_key"],
+                        "selected_parse_pattern": ref_package["recommended_parse_pattern"],
+                        "authors": ["Smith"],
+                        "title": "Useful Runtime Paper",
+                        "publication_year": 2020,
+                        "review_notes": "Fixture reference parsed from bibliography entry.",
+                    }
+                ]
+            },
+        )
+        refs = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(refs_path)])
+        self.assertEqual(refs.returncode, 0, refs.stderr.decode("utf-8", errors="replace"))
+        refs_response = json.loads(refs.stdout.decode("utf-8"))
+        metadata_path = root / "metadata_payload.json"
+        self.write_json(metadata_path, self.metadata_payload_from_packages(self.metadata_packages_from_payload(refs_response)))
+        metadata = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(metadata_path)])
+        self.assertEqual(metadata.returncode, 0, metadata.stderr.decode("utf-8", errors="replace"))
+        return str(db_path)
 
     def test_init_runtime_normalizes_source(self):
         with tempfile.TemporaryDirectory() as td:
@@ -1138,6 +1197,230 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(item["summary"], "")
             self.assertEqual(item["keywords"], ["alpha", "beta"])
             self.assertEqual(citation_json["timeline"]["early"]["summary"], "")
+
+    def test_citation_workset_maps_alpha_citation_labels(self):
+        runtime = load_deterministic_core_module()
+        lines = [
+            "# Introduction",
+            (
+                "Prior work [RNSS18, DCLT18, YDY+19] and [Fou] uses label citations. "
+                "OCR text can contain $[ \\mathrm { R W C ^ { + } } 1 9 ]$, "
+                "while [Figure 1] is not a citation label and [NOPE19] is unknown."
+            ),
+            "# References",
+            "[RNSS18] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training. 2018.",
+            "[DCLT18] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert. 2018.",
+        ]
+        scope = runtime.Scope("Introduction", 2, 2, "fixture")
+        reference_scope = runtime.Scope("References", 4, 5, "fixture")
+        entries = runtime._split_reference_entries(lines, reference_scope)
+        self.assertEqual(entries[0]["metadata"]["detected_ref_label"], "RNSS18")
+        self.assertTrue(entries[0]["metadata"]["normalized_entry_text"].startswith("Alec Radford"))
+
+        def ref(ref_index: int, label: str, title: str, year: int | None = 2019) -> dict:
+            return {
+                "ref_index": ref_index,
+                "author": [label],
+                "title": title,
+                "year": year,
+                "raw": f"[{label}] {title}",
+                "confidence": 0.9,
+                "metadata": {
+                    "detected_ref_label": label,
+                    "normalized_ref_label": runtime._normalize_citation_label_token(label),
+                    "citation_label_aliases": [runtime._normalize_citation_label_token(label)],
+                },
+            }
+
+        reference_items = [
+            ref(0, "RNSS18", "Improving language understanding by generative pre-training", 2018),
+            ref(1, "DCLT18", "Bert", 2018),
+            ref(2, "YDY+19", "Xlnet"),
+            ref(3, "Fou", "Common crawl", None),
+            ref(4, "RWC+19", "Language models are unsupervised multitask learners"),
+        ]
+        mentions, _ = runtime._extract_mentions(lines, scope)
+        hints = [mention.get("citation_label_hint") for mention in mentions if mention.get("style") == "citation-label"]
+        self.assertIn("RNSS18", hints)
+        self.assertIn("DCLT18", hints)
+        self.assertIn("YDY+19", hints)
+        self.assertIn("FOU", hints)
+        self.assertIn("RWC+19", hints)
+        self.assertIn("NOPE19", hints)
+        self.assertNotIn("FIGURE1", hints)
+
+        workset = runtime._build_citation_workset(scope=scope, mentions=mentions, reference_items=reference_items)
+        self.assertEqual({item["ref_index"] for item in workset["workset_items"]}, {0, 1, 2, 3, 4})
+        self.assertTrue(all(mention["style"] == "citation-label" for item in workset["workset_items"] for mention in item["mentions"]))
+        self.assertTrue(all(link["resolution_method"] == "citation_label_hint" for link in workset["mention_links"] if link["status"] == "mapped"))
+        self.assertEqual([mention["citation_label_hint"] for mention in workset["unresolved_mentions"]], ["NOPE19"])
+        self.assertEqual(workset["workset_items"][1]["reference"]["citation_label"], "DCLT18")
+
+    def test_citation_label_duplicate_alias_remains_unmapped(self):
+        runtime = load_deterministic_core_module()
+        lines = ["# Introduction", "Prior work [DUP19] is ambiguous.", "# References"]
+        scope = runtime.Scope("Introduction", 2, 2, "fixture")
+        mentions, _ = runtime._extract_mentions(lines, scope)
+        reference_items = [
+            {
+                "ref_index": 0,
+                "author": ["A"],
+                "title": "First",
+                "year": 2019,
+                "raw": "[DUP19] First",
+                "confidence": 0.9,
+                "metadata": {"detected_ref_label": "DUP19", "normalized_ref_label": "DUP19", "citation_label_aliases": ["DUP19"]},
+            },
+            {
+                "ref_index": 1,
+                "author": ["B"],
+                "title": "Second",
+                "year": 2019,
+                "raw": "[DUP19] Second",
+                "confidence": 0.9,
+                "metadata": {"detected_ref_label": "DUP19", "normalized_ref_label": "DUP19", "citation_label_aliases": ["DUP19"]},
+            },
+        ]
+        workset = runtime._build_citation_workset(scope=scope, mentions=mentions, reference_items=reference_items)
+        self.assertEqual(workset["workset_items"], [])
+        self.assertEqual(workset["mention_links"][0]["resolution_method"], "citation_label_ambiguous")
+        self.assertTrue(any("citation_label_ambiguous" in warning for warning in workset["warnings"]))
+
+    def test_prepare_citation_workset_maps_alpha_labels_through_cli(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "Prior work [RNSS18, DCLT18, YDY+19] and [Fou] is cited with source-local labels.",
+                "# References",
+                "[RNSS18] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language understanding by generative pre-training. 2018.",
+                "[DCLT18] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. 2018.",
+                "[YDY+19] Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, and Quoc V. Le. Xlnet: generalized autoregressive pretraining for language understanding. 2019.",
+                "[Fou] The Common Crawl Foundation. Common crawl web corpus. URL http://commoncrawl.org.",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(["init_runtime", "--source-path", str(source), "--working-dir", str(root)]).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
+            digest_path = root / "digest_payload.json"
+            self.write_json(digest_path, self.digest_payload())
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+
+            prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+            expected = {
+                "RNSS18": (["Radford"], "Improving language understanding by generative pre-training", 2018),
+                "DCLT18": (["Devlin"], "Bert: Pre-training of deep bidirectional transformers for language understanding", 2018),
+                "YDY+19": (["Yang"], "Xlnet: generalized autoregressive pretraining for language understanding", 2019),
+                "Fou": (["The Common Crawl Foundation"], "Common crawl web corpus", None),
+            }
+            reference_reviews = []
+            for package in self.reference_packages_from_payload(prepared):
+                raw = package["source_text"]
+                label = raw.split("]", 1)[0].lstrip("[")
+                authors, title, year = expected[label]
+                reference_reviews.append(
+                    {
+                        "reference_key": package["reference_key"],
+                        "selected_parse_pattern": package["recommended_parse_pattern"],
+                        "authors": authors,
+                        "title": title,
+                        "publication_year": year,
+                        "review_notes": "Fixture reference parsed from alpha-label bibliography entry.",
+                    }
+                )
+            refs_path = root / "refs_payload.json"
+            self.write_json(refs_path, {"reference_reviews": reference_reviews})
+            refs = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(refs_path)])
+            self.assertEqual(refs.returncode, 0, refs.stderr.decode("utf-8", errors="replace"))
+            refs_response = json.loads(refs.stdout.decode("utf-8"))
+            metadata_path = root / "metadata_payload.json"
+            self.write_json(metadata_path, self.metadata_payload_from_packages(self.metadata_packages_from_payload(refs_response)))
+            metadata = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(metadata_path)])
+            self.assertEqual(metadata.returncode, 0, metadata.stderr.decode("utf-8", errors="replace"))
+
+            citation_prepared = self.run_cmd(["persist_citation_analysis", "--db-path", db_path])
+            self.assertEqual(citation_prepared.returncode, 0, citation_prepared.stderr.decode("utf-8", errors="replace"))
+            citation_payload = json.loads(citation_prepared.stdout.decode("utf-8"))
+            workset = self.read_json(citation_payload["workset_path"])
+            self.assertEqual(workset["stats"]["citation_label_mentions"], 4)
+            self.assertEqual(len(workset["workset_items"]), 4)
+            self.assertEqual({link["resolution_method"] for link in workset["mention_links"]}, {"citation_label_hint"})
+            self.assertEqual([item["reference"]["citation_label"] for item in workset["workset_items"]], ["RNSS18", "DCLT18", "YDY+19", "Fou"])
+
+    def test_empty_prepared_citation_workset_renders_final_artifacts(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            lines = [
+                "# Introduction",
+                "This introduction discusses the paper without stable inline citation markers.",
+                "# References",
+                "[1] Smith. Useful Runtime Paper. 2020.",
+            ]
+            db_path = self.prepare_single_reference_runtime(root, lines)
+            citation_prepared = self.run_cmd(["persist_citation_analysis", "--db-path", db_path])
+            self.assertEqual(citation_prepared.returncode, 0, citation_prepared.stderr.decode("utf-8", errors="replace"))
+            prepared_payload = json.loads(citation_prepared.stdout.decode("utf-8"))
+            self.assertEqual(prepared_payload["citation_package_count"], 0)
+            self.assertEqual(prepared_payload["citation_batch_count"], 0)
+
+            citation_path = root / "citation_empty_payload.json"
+            self.write_json(citation_path, {"citation_semantic_reviews": [], "timeline_summaries": {}, "summary": ""})
+            final = self.run_cmd(["persist_citation_analysis", "--db-path", db_path, "--payload-file", str(citation_path)])
+            self.assertEqual(final.returncode, 0, final.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(final.stdout.decode("utf-8"))
+            self.assertEqual(payload["error"], {})
+            for key in ("digest_path", "references_path", "citation_analysis_path", "literature_matching_metadata_path"):
+                self.assertTrue(Path(payload[key]).exists(), key)
+            citation_json = json.loads(Path(payload["citation_analysis_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(citation_json["items"], [])
+            self.assertEqual(citation_json["summary"], "")
+            timeline = citation_json["timeline"]
+            self.assertEqual(sorted(timeline), ["early", "mid", "recent"])
+            self.assertEqual(timeline["early"]["summary"], "")
+            self.assertEqual(timeline["early"]["ref_indexes"], [])
+
+    def test_empty_citation_payload_before_prepare_still_fails(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            lines = [
+                "# Introduction",
+                "This introduction has no stable citation markers.",
+                "# References",
+                "[1] Smith. Useful Runtime Paper. 2020.",
+            ]
+            db_path = self.prepare_single_reference_runtime(root, lines)
+            citation_path = root / "citation_empty_payload.json"
+            self.write_json(citation_path, {"citation_semantic_reviews": [], "timeline_summaries": {}, "summary": ""})
+            result = self.run_cmd(["persist_citation_analysis", "--db-path", db_path, "--payload-file", str(citation_path)])
+            self.assertEqual(result.returncode, 2)
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertEqual(payload["error"]["code"], "citation_semantics_failed")
+
+    def test_export_prepared_empty_citation_workset_succeeds(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            lines = [
+                "# Introduction",
+                "This introduction discusses the paper without stable inline citation markers.",
+                "# References",
+                "[1] Smith. Useful Runtime Paper. 2020.",
+            ]
+            db_path = self.prepare_single_reference_runtime(root, lines)
+            citation_prepared = self.run_cmd(["persist_citation_analysis", "--db-path", db_path])
+            self.assertEqual(citation_prepared.returncode, 0, citation_prepared.stderr.decode("utf-8", errors="replace"))
+            export_path = root / "empty_citation_workset.json"
+            exported = self.run_runtime_cmd(["export_citation_workset", "--db-path", db_path, "--out", str(export_path)])
+            self.assertEqual(exported.returncode, 0, exported.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(exported.stdout.decode("utf-8"))
+            self.assertNotIn("error", payload)
+            self.assertEqual(payload["mentions"], [])
+            self.assertEqual(payload["workset_items"], [])
+            self.assertEqual(payload["unresolved_mentions"], [])
 
     def test_run_analysis_owns_normal_runtime_orchestration(self):
         text = RUN_ANALYSIS.read_text(encoding="utf-8")

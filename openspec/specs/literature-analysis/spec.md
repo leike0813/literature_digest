@@ -215,47 +215,43 @@ Skill guidance SHALL describe the round as local evidence review and SHALL expli
 - **THEN** it states `This is not a metadata discovery task`
 - **AND** it forbids web search, Crossref, arXiv, Google Scholar, Zotero, Semantic Scholar, DOI resolver, and external databases.
 
-### Requirement: Citation Analysis SHALL Persist Tolerant Best-Effort Results
+### Requirement: Citation analysis persists best-effort artifacts
 
-The literature-analysis runtime MUST persist citation analysis as a tolerant best-effort stage when normalized source, citation scope, and known citation keys are available. The runtime MUST NOT invent semantic citation content for missing reviews.
+The `literature-analysis` runtime SHALL complete the citation analysis stage and render final artifacts after citation workset preparation has run, even when the prepared workset contains no stable mapped citation items. Empty citation semantics, timeline summaries, and global summary SHALL be valid persisted results.
 
-#### Scenario: Empty citation payload persists
-- **WHEN** `persist_citation_analysis` receives no `citation_semantic_reviews`, no `timeline_summaries`, and no global `summary`
-- **THEN** the runtime persists empty citation items
-- **AND** persists citation timeline buckets with empty summaries
-- **AND** persists an empty global citation summary
-- **AND** final rendering can produce all public artifacts.
+#### Scenario: Empty prepared workset completes final render
+- **WHEN** citation workset preparation succeeds with zero citation packages and the agent submits an empty citation payload
+- **THEN** the runtime SHALL persist empty citation semantics, timeline, and summary records and SHALL render final artifacts with an empty citation item list
 
-#### Scenario: Partial citation review coverage persists
-- **WHEN** `persist_citation_analysis` receives reviews for only some known `citation_work_key` values
-- **THEN** the runtime persists only the submitted known citation items
-- **AND** it MUST NOT create placeholder items for missing keys
-- **AND** final rendering can produce all public artifacts.
+#### Scenario: Missing preparation still fails
+- **WHEN** the agent submits citation semantics before citation workset preparation has completed
+- **THEN** the runtime SHALL fail and require citation workset preparation
 
-#### Scenario: Empty semantic fields are accepted
-- **WHEN** a submitted citation review omits or leaves empty `topic`, `usage`, `role_in_context`, `keywords`, or `summary`
-- **THEN** the runtime persists the field as an empty string or empty array
-- **AND** it MUST NOT generate replacement semantic text.
+#### Scenario: Unknown submitted references still fail
+- **WHEN** a citation semantics payload contains a ref index or citation work key outside the prepared workset
+- **THEN** the runtime SHALL reject the payload rather than inventing a mapping
 
-#### Scenario: Duplicate citation keys are merged
-- **WHEN** multiple submitted reviews use the same known `citation_work_key`
-- **THEN** the runtime merges them into one persisted citation item
-- **AND** string fields use the first non-empty value
-- **AND** `keywords` are merged and deduplicated in first-seen order
-- **AND** the duplicate does not block persistence.
+#### Scenario: Empty prepared workset export succeeds
+- **WHEN** citation workset preparation completed with empty mentions and items
+- **THEN** exporting the citation workset SHALL return empty arrays instead of reporting the workset as missing
 
-#### Scenario: Unsafe citation payload remains rejected
-- **WHEN** a submitted citation review uses an unknown `citation_work_key` or includes forbidden internal fields
-- **THEN** the runtime rejects the payload
-- **AND** it does not persist partial citation state from that payload.
+### Requirement: Citation workset preparation maps source citation mentions to references
 
-#### Scenario: Citation workset can be empty
-- **WHEN** citation scope exists but deterministic citation extraction produces no stable mapped workset
-- **THEN** citation preparation succeeds with an empty workset
-- **AND** later citation persistence and rendering can produce a schema-compatible citation artifact.
+The `literature-analysis` runtime SHALL prepare citation worksets by mapping source citation mentions to persisted references using deterministic local evidence. It SHALL support LaTeX citekeys, source-local bracket-alpha labels, numeric reference numbers, and author-year hints without requiring additional agent-submitted citation semantic fields.
 
-#### Scenario: Empty public citation summary is valid
-- **WHEN** final rendering builds `citation_analysis.json` with an empty `summary` string
-- **THEN** public output validation accepts the citation artifact
-- **AND** the final stdout payload can report success.
+#### Scenario: Alpha labels map to reference entries
+- **WHEN** the source body contains `[RNSS18, DCLT18, YDY+19]` and the reference list contains matching bracket-alpha entries
+- **THEN** citation workset preparation SHALL create mapped workset items for the matching references with `citation-label` mentions
+
+#### Scenario: Original alpha label is preserved for rendering
+- **WHEN** a citation item is mapped through a bracket-alpha label such as `[DCLT18]`
+- **THEN** the rendered citation label SHALL use `[DCLT18]` rather than a generated author-year fallback
+
+#### Scenario: Unknown alpha labels are not guessed
+- **WHEN** the source body contains a bracket-alpha label that has no matching persisted reference alias
+- **THEN** citation workset preparation SHALL NOT create a workset item for that label
+
+#### Scenario: Duplicate alpha labels are ambiguous
+- **WHEN** more than one persisted reference exposes the same normalized bracket-alpha label
+- **THEN** mentions using that label SHALL remain unmapped and the runtime SHALL record a warning
 

@@ -403,6 +403,14 @@ class RuntimeDbTests(unittest.TestCase):
                             "reference": {"author": ["Adams"], "title": "Paper A", "year": 2016},
                             "batch_hint": 0,
                         },
+                        {
+                            "ref_index": 2,
+                            "ref_number": None,
+                            "mention_count": 1,
+                            "mentions": [{"mention_id": "m3", "marker": "[DCLT18]", "style": "citation-label", "line_start": 8, "line_end": 8, "snippet": "snippet"}],
+                            "reference": {"author": ["Devlin"], "title": "Bert", "year": 2018, "citation_label": "DCLT18"},
+                            "batch_hint": 0,
+                        },
                     ],
                 )
                 runtime_db.store_citation_items(
@@ -410,6 +418,7 @@ class RuntimeDbTests(unittest.TestCase):
                     [
                         {"ref_index": 0, "function": "historical", "summary": "summary a", "topic": "topic a", "usage": "usage a", "keywords": ["history"], "is_key_reference": False, "confidence": 0.9},
                         {"ref_index": 1, "function": "background", "summary": "summary b", "topic": "topic b", "usage": "usage b", "keywords": ["background"], "is_key_reference": False, "confidence": 0.9},
+                        {"ref_index": 2, "function": "background", "summary": "summary c", "topic": "topic c", "usage": "usage c", "keywords": ["label"], "is_key_reference": False, "confidence": 0.9},
                     ],
                 )
                 runtime_db.store_citation_timeline(
@@ -417,7 +426,7 @@ class RuntimeDbTests(unittest.TestCase):
                     {
                         "early": {"summary": "early summary", "ref_indexes": [0]},
                         "mid": {"summary": "mid summary", "ref_indexes": [1]},
-                        "recent": {"summary": "recent summary", "ref_indexes": []},
+                        "recent": {"summary": "recent summary", "ref_indexes": [2]},
                     },
                 )
                 runtime_db.store_citation_summary(
@@ -429,6 +438,7 @@ class RuntimeDbTests(unittest.TestCase):
                 labels = {item["ref_index"]: item["citation_label"] for item in payload["items"]}
                 self.assertEqual(labels[0], "[AY-1]")
                 self.assertEqual(labels[1], "[AY-2]")
+                self.assertEqual(labels[2], "[DCLT18]")
 
     def test_store_and_delete_action_receipts(self):
         runtime_db = load_runtime_db_module()
