@@ -446,7 +446,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             ):
                 self.assertIn(key, payload)
                 self.assertTrue(Path(payload[key]).exists(), key)
-            self.assertIsNone(payload["error"])
+            self.assertEqual(payload["error"], {})
             public_refs = json.loads(Path(payload["references_path"]).read_text(encoding="utf-8"))
             self.assertNotIn("selected_pattern", public_refs[0])
             self.assertNotIn("pattern_candidate", public_refs[0])
@@ -1058,6 +1058,86 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(citation_json["timeline"]["early"]["ref_indexes"], [0])
             self.assertEqual(citation_json["timeline"]["mid"]["ref_indexes"], [])
             self.assertEqual(citation_json["timeline"]["recent"]["ref_indexes"], [])
+
+    def test_citation_analysis_accepts_partial_empty_and_duplicate_reviews(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "Prior work [1] and [2] are relevant.",
+                "# References",
+                "[1] Smith. Useful Runtime Paper. 2020.",
+                "[2] Jones. Another Runtime Paper. 2021.",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(["init_runtime", "--source-path", str(source), "--working-dir", str(root)]).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
+            digest_path = root / "digest_payload.json"
+            self.write_json(digest_path, self.digest_payload())
+            self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+
+            refs_prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+            reference_reviews = []
+            for package, author, title, year in zip(
+                self.reference_packages_from_payload(refs_prepared),
+                (["Smith"], ["Jones"]),
+                ("Useful Runtime Paper", "Another Runtime Paper"),
+                (2020, 2021),
+                strict=True,
+            ):
+                reference_reviews.append(
+                    {
+                        "reference_key": package["reference_key"],
+                        "selected_parse_pattern": package["recommended_parse_pattern"],
+                        "authors": author,
+                        "title": title,
+                        "publication_year": year,
+                    }
+                )
+            refs_path = root / "refs_payload.json"
+            self.write_json(refs_path, {"reference_reviews": reference_reviews})
+            core_refs = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(refs_path)])
+            self.assertEqual(core_refs.returncode, 0, core_refs.stderr.decode("utf-8", errors="replace"))
+            core_payload = json.loads(core_refs.stdout.decode("utf-8"))
+            metadata_path = root / "metadata_payload.json"
+            self.write_json(metadata_path, self.metadata_payload_from_packages(self.metadata_packages_from_payload(core_payload)))
+            self.assertEqual(self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(metadata_path)]).returncode, 0)
+
+            citation_prepared = json.loads(self.run_cmd(["persist_citation_analysis", "--db-path", db_path]).stdout.decode("utf-8"))
+            packages = self.citation_packages_from_payload(citation_prepared)
+            self.assertEqual(len(packages), 2)
+            first_key = packages[0]["citation_work_key"]
+            citation_path = root / "citation_partial_payload.json"
+            self.write_json(
+                citation_path,
+                {
+                    "citation_semantic_reviews": [
+                        {"citation_work_key": first_key, "keywords": ["alpha"]},
+                        {"citation_work_key": first_key, "usage": "Used as partial evidence.", "keywords": ["alpha", "beta"]},
+                    ],
+                    "timeline_summaries": {"early": ""},
+                },
+            )
+            final = self.run_cmd(["persist_citation_analysis", "--db-path", db_path, "--payload-file", str(citation_path)])
+            self.assertEqual(final.returncode, 0, final.stderr.decode("utf-8", errors="replace"))
+            response = json.loads(final.stdout.decode("utf-8"))
+            self.assertEqual(response["error"], {})
+            self.assertTrue(any("citation_duplicate_reviews_merged" in warning for warning in response["warnings"]))
+            self.assertTrue(any("citation_reviews_partial" in warning for warning in response["warnings"]))
+            citation_json = json.loads(Path(response["citation_analysis_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(citation_json["summary"], "")
+            self.assertEqual(len(citation_json["items"]), 1)
+            item = citation_json["items"][0]
+            self.assertEqual(item["usage"], "Used as partial evidence.")
+            self.assertEqual(item["summary"], "")
+            self.assertEqual(item["keywords"], ["alpha", "beta"])
+            self.assertEqual(citation_json["timeline"]["early"]["summary"], "")
 
     def test_run_analysis_owns_normal_runtime_orchestration(self):
         text = RUN_ANALYSIS.read_text(encoding="utf-8")

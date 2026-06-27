@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-RUNTIME_DB_PATH = REPO_ROOT / "literature-digest" / "scripts" / "runtime_db.py"
+RUNTIME_DB_PATH = REPO_ROOT / "literature-analysis" / "scripts" / "analysis_runtime" / "runtime_db.py"
 
 
 def load_runtime_db_module():
@@ -50,7 +50,7 @@ class RuntimeDbTests(unittest.TestCase):
                 runtime_db.resolve_runtime_warnings(connection, warning_prefix="reference_pattern_ambiguous")
                 connection.commit()
                 payload = runtime_db.build_public_output_payload(connection)
-                self.assertIsNone(payload["error"])
+                self.assertEqual(payload["error"], {})
                 self.assertNotIn("reference_pattern_ambiguous: 2 entries", payload["warnings"])
                 self.assertIn("digest_undercoverage", payload["warnings"])
 

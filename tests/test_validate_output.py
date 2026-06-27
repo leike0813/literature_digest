@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -10,9 +11,10 @@ from jsonschema import ValidationError, validate
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-STAGE_RUNTIME = REPO_ROOT / "literature-digest" / "scripts" / "stage_runtime.py"
-RUNTIME_DB_PATH = REPO_ROOT / "literature-digest" / "scripts" / "runtime_db.py"
-OUTPUT_SCHEMA_PATH = REPO_ROOT / "literature-digest" / "assets" / "output.schema.json"
+ANALYSIS_SCRIPTS = REPO_ROOT / "literature-analysis" / "scripts"
+STAGE_RUNTIME_MODULE = "analysis_runtime.deterministic_core"
+RUNTIME_DB_PATH = ANALYSIS_SCRIPTS / "analysis_runtime" / "runtime_db.py"
+OUTPUT_SCHEMA_PATH = REPO_ROOT / "literature-analysis" / "assets" / "output.schema.json"
 
 
 def load_runtime_db_module():
@@ -33,7 +35,7 @@ class ValidateOutputTests(unittest.TestCase):
         preprocess_artifact: Path | None = None,
         db_path: Path | None = None,
     ) -> subprocess.CompletedProcess:
-        args = [sys.executable, str(STAGE_RUNTIME), "render_and_validate", "--mode", mode]
+        args = [sys.executable, "-m", STAGE_RUNTIME_MODULE, "render_and_validate", "--mode", mode]
         if source_path is not None:
             args += ["--source-path", str(source_path)]
         if preprocess_artifact is not None:
@@ -45,6 +47,7 @@ class ValidateOutputTests(unittest.TestCase):
             input=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
+            env={**os.environ, "PYTHONPATH": str(ANALYSIS_SCRIPTS), "PYTHONDONTWRITEBYTECODE": "1"},
             check=False,
         )
 
@@ -56,7 +59,7 @@ class ValidateOutputTests(unittest.TestCase):
             "literature_matching_metadata_path": "/tmp/literature_matching_metadata.json",
             "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
             "warnings": [],
-            "error": None,
+            "error": {},
         }
         if representative_image is not None:
             payload["representative_image"] = representative_image
@@ -117,7 +120,7 @@ class ValidateOutputTests(unittest.TestCase):
                 },
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "", "model": "gpt-5.2"},
                 "warnings": [],
-                "error": None,
+                "error": {},
             }
 
             p = self.run_validate("fix", old, source_path=md_path)
@@ -131,7 +134,7 @@ class ValidateOutputTests(unittest.TestCase):
             self.assertTrue(Path(fixed["citation_analysis_report_path"]).exists())
             refs = json.loads(Path(fixed["references_path"]).read_text(encoding="utf-8"))
             self.assertEqual(refs[0]["DOI"], "10.1234/x")
-            self.assertIsNone(fixed["error"])
+            self.assertEqual(fixed["error"], {})
             self.assertTrue(fixed["provenance"]["input_hash"].startswith("sha256:"))
 
     def test_check_reports_invalid(self):
@@ -153,7 +156,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "literature_matching_metadata_path": "",
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
-                "error": None,
+                "error": {},
             }
             p = self.run_validate("check", payload)
             self.assertEqual(p.returncode, 2)
@@ -172,7 +175,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "literature_matching_metadata_path": str(metadata_path),
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
-                "error": None,
+                "error": {},
             }
             p = self.run_validate("check", payload)
             self.assertEqual(p.returncode, 2)
@@ -226,7 +229,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "literature_matching_metadata_path": "",
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
-                "error": None,
+                "error": {},
             }
             p = self.run_validate("check", payload)
             self.assertEqual(p.returncode, 2)
@@ -273,7 +276,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "literature_matching_metadata_path": "",
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
-                "error": None,
+                "error": {},
             }
             p = self.run_validate("check", payload, preprocess_artifact=preprocess_path)
             self.assertEqual(p.returncode, 2)
@@ -300,7 +303,8 @@ class ValidateOutputTests(unittest.TestCase):
             p = subprocess.run(
                 [
                     sys.executable,
-                    str(STAGE_RUNTIME),
+                    "-m",
+                    STAGE_RUNTIME_MODULE,
                     "render_and_validate",
                     "--mode",
                     "render",
@@ -309,6 +313,7 @@ class ValidateOutputTests(unittest.TestCase):
                 ],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
+                env={**os.environ, "PYTHONPATH": str(ANALYSIS_SCRIPTS), "PYTHONDONTWRITEBYTECODE": "1"},
                 check=False,
             )
             self.assertEqual(p.returncode, 2)
@@ -333,12 +338,13 @@ class ValidateOutputTests(unittest.TestCase):
                 },
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
-                "error": None,
+                "error": {},
             }
             p = subprocess.run(
                 [
                     sys.executable,
-                    str(STAGE_RUNTIME),
+                    "-m",
+                    STAGE_RUNTIME_MODULE,
                     "render_and_validate",
                     "--mode",
                     "fix",
@@ -348,6 +354,7 @@ class ValidateOutputTests(unittest.TestCase):
                 input=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
+                env={**os.environ, "PYTHONPATH": str(ANALYSIS_SCRIPTS), "PYTHONDONTWRITEBYTECODE": "1"},
                 check=False,
             )
             self.assertEqual(p.returncode, 0, p.stderr.decode("utf-8", errors="replace"))
@@ -439,7 +446,7 @@ class ValidateOutputTests(unittest.TestCase):
                 "literature_matching_metadata_path": str(matching_path),
                 "provenance": {"generated_at": "2026-01-17T12:34:56Z", "input_hash": "sha256:abc", "model": "x"},
                 "warnings": [],
-                "error": None,
+                "error": {},
             }
             p = self.run_validate("check", payload, db_path=db_path)
             self.assertEqual(p.returncode, 2)
