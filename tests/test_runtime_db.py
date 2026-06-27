@@ -392,7 +392,7 @@ class RuntimeDbTests(unittest.TestCase):
                             "ref_number": None,
                             "mention_count": 1,
                             "mentions": [{"mention_id": "m2", "marker": "(Brown, 2018)", "style": "author-year", "line_start": 5, "line_end": 5, "snippet": "snippet"}],
-                            "reference": {"author": ["Brown"], "title": "Paper B", "year": 2018},
+                            "reference": {"author": ["Brown"], "title": "Paper B", "year": 2018, "citation_label": None},
                             "batch_hint": 0,
                         },
                         {
@@ -400,7 +400,7 @@ class RuntimeDbTests(unittest.TestCase):
                             "ref_number": None,
                             "mention_count": 1,
                             "mentions": [{"mention_id": "m1", "marker": "(Adams, 2016)", "style": "author-year", "line_start": 2, "line_end": 2, "snippet": "snippet"}],
-                            "reference": {"author": ["Adams"], "title": "Paper A", "year": 2016},
+                            "reference": {"author": ["Adams"], "title": "Paper A", "year": 2016, "citation_label": "null"},
                             "batch_hint": 0,
                         },
                         {
@@ -439,6 +439,8 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertEqual(labels[0], "[AY-1]")
                 self.assertEqual(labels[1], "[AY-2]")
                 self.assertEqual(labels[2], "[DCLT18]")
+                self.assertNotIn("[None]", labels.values())
+                self.assertNotIn("[null]", labels.values())
 
     def test_store_and_delete_action_receipts(self):
         runtime_db = load_runtime_db_module()

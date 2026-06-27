@@ -1286,6 +1286,28 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
         self.assertEqual(workset["mention_links"][0]["resolution_method"], "citation_label_ambiguous")
         self.assertTrue(any("citation_label_ambiguous" in warning for warning in workset["warnings"]))
 
+    def test_citation_workset_omits_empty_reference_citation_label(self):
+        runtime = load_deterministic_core_module()
+        lines = ["# Introduction", "Prior work (Smith, 2020) is relevant."]
+        scope = runtime.Scope("Introduction", 2, 2, "fixture")
+        mentions, _ = runtime._extract_mentions(lines, scope)
+        workset = runtime._build_citation_workset(
+            scope=scope,
+            mentions=mentions,
+            reference_items=[
+                {
+                    "ref_index": 0,
+                    "author": ["Smith"],
+                    "title": "Paper",
+                    "year": 2020,
+                    "raw": "Smith. Paper. 2020.",
+                    "confidence": 0.9,
+                }
+            ],
+        )
+        self.assertEqual(len(workset["workset_items"]), 1)
+        self.assertNotIn("citation_label", workset["workset_items"][0]["reference"])
+
     def test_prepare_citation_workset_maps_alpha_labels_through_cli(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
