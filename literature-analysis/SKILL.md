@@ -409,11 +409,13 @@ python scripts/run_analysis.py persist_digest --db-path "<db_path>" --payload-fi
 - 可选 payload：
   - `representative_image`
 - 字段含义：
+  - digest 篇幅依据 normalized source 的实质篇幅与信息密度弹性调整；长且内容密集的来源应展开更多独立要点与章节总结，篇幅长但内容稀疏时不要机械扩写。
+  - `digest_generation.md` 中的数量区间是常见输出的写作提示，不是 payload 上限；有充分原文依据时可以超过，也不要为了达到区间而重复或补写内容。
   - `digest_slots.tldr.paragraphs`：全局摘要，覆盖问题、方法、结果、局限与复现线索。
   - `research_question_and_contributions.research_question`：研究问题一句话。
-  - `research_question_and_contributions.contributions`：2-5 个贡献。
-  - `method_highlights.items`：3-6 个方法要点。
-  - `key_results.items`：2-5 个关键结果。
+  - `research_question_and_contributions.contributions`：有原文依据的核心贡献。
+  - `method_highlights.items`：具体且彼此有区分的方法要点。
+  - `key_results.items`：关键定量或定性结果。
   - `limitations_and_reproducibility.items`：局限和可复现性线索。
   - `section_summaries[*].source_heading`：原文章节标题。
   - `section_summaries[*].items`：章节要点，按大纲顺序。
