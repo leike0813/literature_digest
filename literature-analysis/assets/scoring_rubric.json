@@ -1,0 +1,72 @@
+{
+  "rubric_id": "literature-score.v1",
+  "dimensions": [
+    {
+      "dimension_key": "methodological_rigor",
+      "name": "Methodological Rigor",
+      "weight": 0.25,
+      "criteria": [
+        {"criterion_key": "research_question_clarity", "name": "Research Question Clarity", "max_score": 5},
+        {"criterion_key": "method_description_sufficiency", "name": "Method Description Sufficiency", "max_score": 5},
+        {"criterion_key": "analysis_process_completeness", "name": "Experiment Or Analysis Process Completeness", "max_score": 5},
+        {"criterion_key": "baseline_or_control_adequacy", "name": "Baseline Or Control Adequacy", "max_score": 5},
+        {"criterion_key": "parameter_transparency", "name": "Parameter Transparency", "max_score": 5}
+      ]
+    },
+    {
+      "dimension_key": "evidence_completeness",
+      "name": "Evidence Completeness",
+      "weight": 0.20,
+      "criteria": [
+        {"criterion_key": "experiment_coverage", "name": "Experiment Coverage", "max_score": 5},
+        {"criterion_key": "data_scale_adequacy", "name": "Data Scale Adequacy", "max_score": 5},
+        {"criterion_key": "statistical_analysis", "name": "Statistical Analysis", "max_score": 5},
+        {"criterion_key": "claim_evidence_alignment", "name": "Claim Evidence Alignment", "max_score": 5}
+      ]
+    },
+    {
+      "dimension_key": "reproducibility",
+      "name": "Reproducibility",
+      "weight": 0.15,
+      "criteria": [
+        {"criterion_key": "data_source_clarity", "name": "Data Source Clarity", "max_score": 3},
+        {"criterion_key": "code_availability", "name": "Code Availability", "max_score": 3},
+        {"criterion_key": "parameter_availability", "name": "Parameter Availability", "max_score": 3},
+        {"criterion_key": "procedure_detail", "name": "Procedure Detail", "max_score": 3},
+        {"criterion_key": "environment_description", "name": "Environment Description", "max_score": 3}
+      ]
+    },
+    {
+      "dimension_key": "innovation_signals",
+      "name": "Innovation Signals",
+      "weight": 0.15,
+      "criteria": [
+        {"criterion_key": "new_method_or_framework", "name": "New Method Or Framework", "max_score": 5},
+        {"criterion_key": "addresses_known_limitations", "name": "Addresses Known Limitations", "max_score": 5},
+        {"criterion_key": "new_theoretical_explanation", "name": "New Theoretical Explanation", "max_score": 5}
+      ]
+    },
+    {
+      "dimension_key": "research_impact_potential",
+      "name": "Research Impact Potential",
+      "weight": 0.15,
+      "criteria": [
+        {"criterion_key": "problem_importance", "name": "Problem Importance", "max_score": 5},
+        {"criterion_key": "method_transferability", "name": "Method Transferability", "max_score": 5},
+        {"criterion_key": "application_breadth", "name": "Application Breadth", "max_score": 5}
+      ]
+    },
+    {
+      "dimension_key": "writing_quality",
+      "name": "Writing Quality",
+      "weight": 0.10,
+      "criteria": [
+        {"criterion_key": "structural_clarity", "name": "Structural Clarity", "max_score": 2},
+        {"criterion_key": "terminology_consistency", "name": "Terminology Consistency", "max_score": 2},
+        {"criterion_key": "logical_coherence", "name": "Logical Coherence", "max_score": 2},
+        {"criterion_key": "figure_table_effectiveness", "name": "Figure And Table Effectiveness", "max_score": 2},
+        {"criterion_key": "language_quality", "name": "Language Quality", "max_score": 2}
+      ]
+    }
+  ]
+}

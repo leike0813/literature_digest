@@ -18,7 +18,7 @@
 
 - `literature-analysis`
   - SQLite-gated、stage-and-gate 主路径
-  - 产出 `digest.md`、`references.json`、`citation_analysis.json`、`citation_analysis.md`
+  - 产出 `literature_score.json`、`digest.md`、`references.json`、`citation_analysis.json`、`citation_analysis.md`
 - `literature-digest`
   - 简化版 digest-only 主路径
   - 只产出 `digest.md`
@@ -34,6 +34,7 @@
 - 从 prompt payload 中读取：
   - `source_path`
   - `language`
+  - `score_only`（可选，默认 `false`）
 - `source_path` 是唯一内容来源。
 - 输入可以是：
   - Markdown
@@ -42,6 +43,7 @@
   - LaTeX 工程目录
   - 无扩展名文本文件
 - `language` 若用户显式指定则直接使用；否则先从 prompt 主要语言推断；仅在无法稳定判断时回退 `zh-CN`。
+- `score_only=true` 时只执行源归一化和论文评分；analysis plan、digest、references 与 citation analysis 均跳过。
 
 ### `literature-digest`
 
@@ -92,6 +94,7 @@ stdout JSON 必须包含：
 - `digest_path`
 - `references_path`
 - `citation_analysis_path`
+- `literature_score_path`
 - `provenance.generated_at`
 - `provenance.input_hash`
 - `provenance.model`
@@ -108,11 +111,13 @@ stdout JSON 可选包含：
 - `references.json`
 - `citation_analysis.json`
 - `citation_analysis.md`
+- `literature_score.json`
 
 补充约束：
 
 - render 输出的文件路径字段应为绝对路径。
-- 最终结果 JSON 会镜像写到 `literature-digest.result.json`。
+- 最终结果 JSON 会镜像写到 `literature-analysis.result.json`。
+- 正常路径在 digest 后、reference extraction 前执行评分；score-only 成功时，除 `literature_score_path` 外的公开产物路径为空字符串。
 - `citation_analysis` 的分析范围由当前 workflow 中持久化的 `citation_scope` 决定，不再固定为“仅第一章 Introduction”。
 
 `references_path` 指向的 JSON 数组中，每条 reference item 必须包含：
@@ -177,4 +182,3 @@ stdout JSON 必须包含：
 
 - `output_dir` 未提供时，默认写到 `md_path` 所在目录。
 - `language` 未显式给出时，先看 prompt 语言；仅在无法稳定判断时回退 `zh-CN`。
-

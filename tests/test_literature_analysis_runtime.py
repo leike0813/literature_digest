@@ -121,6 +121,44 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             ],
         }
 
+    def score_payload(self) -> dict:
+        rubric = json.loads(
+            (REPO_ROOT / "literature-analysis" / "assets" / "scoring_rubric.json").read_text(encoding="utf-8")
+        )
+        return {
+            "paper_type": "empirical",
+            "paper_type_reason": "The runtime fixture is assessed as an empirical paper.",
+            "dimension_reviews": [
+                {
+                    "dimension_key": dimension["dimension_key"],
+                    "confidence": 0.8,
+                    "summary": "Fixture assessment for runtime integration.",
+                    "criteria": [
+                        {
+                            "criterion_key": criterion["criterion_key"],
+                            "status": "scored",
+                            "score": criterion["max_score"],
+                            "reason": "The fixture deliberately supplies a complete semantic score payload.",
+                            "evidence": [],
+                        }
+                        for criterion in dimension["criteria"]
+                    ],
+                }
+                for dimension in rubric["dimensions"]
+            ],
+        }
+
+    def persist_score(self, root: Path, db_path: str) -> dict:
+        prepared = self.run_cmd(["persist_literature_score", "--db-path", db_path])
+        self.assertEqual(prepared.returncode, 0, prepared.stderr.decode("utf-8", errors="replace"))
+        score_path = root / "score_payload.json"
+        self.write_json(score_path, self.score_payload())
+        result = self.run_cmd(
+            ["persist_literature_score", "--db-path", db_path, "--payload-file", str(score_path)]
+        )
+        self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+        return json.loads(result.stdout.decode("utf-8"))
+
     def metadata_payload_from_packages(self, packages: list[dict], metadata_by_key: dict[str, dict] | None = None) -> dict:
         metadata_by_key = metadata_by_key or {}
         reviews = []
@@ -193,6 +231,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
         digest_path = root / "digest_payload.json"
         self.write_json(digest_path, self.digest_payload())
         self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+        self.persist_score(root, db_path)
         prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
         ref_package = self.reference_packages_from_payload(prepared)[0]
         refs_path = root / "refs_payload.json"
@@ -330,6 +369,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             refs_prepared_result = self.run_cmd(["persist_references", "--db-path", db_path])
             self.assertLess(len(refs_prepared_result.stdout), 51200)
@@ -416,6 +456,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             ref_package = self.reference_packages_from_payload(prepared)[0]
@@ -501,6 +542,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
                 "references_path",
                 "citation_analysis_path",
                 "literature_matching_metadata_path",
+                "literature_score_path",
                 "citation_analysis_report_path",
             ):
                 self.assertIn(key, payload)
@@ -800,6 +842,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             self.assertTrue(prepared["requires_split_review"])
@@ -871,6 +914,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             split_package = self.split_packages_from_payload(prepared)[0]
@@ -921,6 +965,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             self.assertTrue(prepared["requires_split_review"])
@@ -975,6 +1020,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             split_packages = self.split_packages_from_payload(prepared)
@@ -1027,6 +1073,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             refs_prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             ref_package = self.reference_packages_from_payload(refs_prepared)[0]
@@ -1140,6 +1187,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             refs_prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             reference_reviews = []
@@ -1332,6 +1380,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             digest_path = root / "digest_payload.json"
             self.write_json(digest_path, self.digest_payload())
             self.assertEqual(self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode, 0)
+            self.persist_score(root, db_path)
 
             prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
             expected = {
@@ -1452,6 +1501,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
         self.assertNotIn("LEGACY_RUNTIME_DB", text)
         self.assertIn("stages.persist_analysis_plan", text)
         self.assertIn("stages.persist_digest", text)
+        self.assertIn("stages.persist_literature_score", text)
         self.assertIn("references.persist_references", text)
         self.assertIn("citations.persist_citation_analysis", text)
 
@@ -1467,6 +1517,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             "references.py",
             "runtime.py",
             "runtime_db.py",
+            "scoring.py",
             "stages.py",
         }
         obsolete_files = {
@@ -1515,9 +1566,12 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             "templates/references.json.j2",
             "templates/citation_analysis.json.j2",
             "templates/literature_matching_metadata.json.j2",
+            "templates/literature_score.json.j2",
+            "scoring_rubric.json",
             "render_schemas/digest.schema.json",
             "render_schemas/references.schema.json",
             "render_schemas/citation_analysis.schema.json",
+            "render_schemas/literature_score.schema.json",
         ):
             self.assertTrue((assets / relative_path).exists(), relative_path)
 
@@ -1545,15 +1599,15 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(status.returncode, 0, status.stderr.decode("utf-8", errors="replace"))
             payload = json.loads(status.stdout.decode("utf-8"))
             self.assertIn("next_action", payload)
-            self.assertEqual(payload["next_action"], "persist_references")
+            self.assertEqual(payload["next_action"], "persist_literature_score")
             self.assertIn("missing_prerequisites", payload)
             self.assertIn("execution_note", payload)
             self.assertIn("instruction_refs", payload)
             self.assertIn("quality_directives", payload)
             self.assertIn("allowed_payload_shape", payload)
             self.assertIn("field_guidance", payload)
-            self.assertIn("Default to subagent delegation", payload["field_guidance"]["subagents"])
-            self.assertIn("single DB writer", payload["field_guidance"]["subagents"])
+            self.assertIn("aggregate scores", payload["field_guidance"]["runtime_owned"])
+            self.assertEqual(payload["instruction_refs"][0]["path"], "references/paper_scoring.md")
             self.assertEqual(payload["runtime_backend"], "analysis_runtime.gate_contract")
             for ref in payload["instruction_refs"]:
                 self.assertTrue(ref["path"].startswith("references/"))

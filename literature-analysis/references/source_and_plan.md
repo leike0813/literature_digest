@@ -8,6 +8,7 @@ Prompt payload 只读取：
 
 - `source_path`：唯一内容来源；可以是 Markdown、PDF、单文件 `.tex`、LaTeX 工程目录、无扩展名文本文件。
 - `language`：digest 与 citation report 的目标语言。用户显式指定时直接使用；否则从 prompt 主要语言推断；无法稳定判断时回退 `zh-CN`。
+- `score_only`：可选 boolean，默认 `false`；为 `true` 时归一化完成后直接进入论文评分，不生成 analysis plan、digest、references 或 citation analysis。
 
 `source_path` 约束：
 
@@ -63,6 +64,7 @@ Normalization behavior:
 - `output_dir`
 - `source_path`
 - `language`
+- `score_only`
 - `generated_at`
 - `input_hash`
 - `digest_template_path`
@@ -76,7 +78,7 @@ After `init_runtime`, later stages may depend only on:
 - `source_documents.normalized_source`
 - `source_profile`
 
-They must not pass a new `source_path`, `language`, output directory, template path, or normalized source override.
+They must not pass a new `source_path`, `language`, `score_only`, output directory, template path, or normalized source override.
 
 ## Analysis Plan Payload
 

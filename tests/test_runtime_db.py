@@ -38,7 +38,7 @@ class RuntimeDbTests(unittest.TestCase):
                 runtime_db.add_runtime_warning(connection, "reference_pattern_ambiguous: entry_index=1")
                 runtime_db.add_runtime_warning(connection, "reference_pattern_ambiguous: entry_index=2")
                 runtime_db.add_runtime_warning(connection, "digest_undercoverage")
-                runtime_db.set_runtime_error(connection, "references_stage_failed", "old failure", "stage_4_references")
+                runtime_db.set_runtime_error(connection, "references_stage_failed", "old failure", "stage_5_references")
                 connection.commit()
 
                 payload = runtime_db.build_public_output_payload(connection)
@@ -46,7 +46,7 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertIn("digest_undercoverage", payload["warnings"])
                 self.assertEqual(payload["error"]["code"], "references_stage_failed")
 
-                runtime_db.resolve_runtime_errors(connection, stage="stage_4_references")
+                runtime_db.resolve_runtime_errors(connection, stage="stage_5_references")
                 runtime_db.resolve_runtime_warnings(connection, warning_prefix="reference_pattern_ambiguous")
                 connection.commit()
                 payload = runtime_db.build_public_output_payload(connection)
@@ -451,13 +451,13 @@ class RuntimeDbTests(unittest.TestCase):
                 runtime_db.store_action_receipt(
                     connection,
                     action_name="prepare_citation_workset",
-                    stage="stage_5_citation",
+                    stage="stage_6_citation",
                     metadata={"resolved_items": 3},
                 )
                 runtime_db.store_action_receipt(
                     connection,
                     action_name="persist_citation_semantics",
-                    stage="stage_5_citation",
+                    stage="stage_6_citation",
                 )
                 receipts = runtime_db.fetch_action_receipts(connection)
                 self.assertIn("prepare_citation_workset", receipts)

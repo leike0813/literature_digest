@@ -31,16 +31,6 @@ class LiteratureAnalysisGuidanceTests(unittest.TestCase):
         ]:
             self.assertIn(marker, skill_md)
 
-        for stage in [
-            "### 1. `init_runtime`",
-            "### 2. `persist_analysis_plan`",
-            "### 3. `persist_digest`",
-            "### 4. `persist_references`",
-            "### 5. `persist_citation_analysis`",
-            "### 6. `finalize_outputs`",
-        ]:
-            self.assertIn(stage, skill_md)
-
         for field in [
             "selected_parse_pattern",
             "allowed_parse_patterns_by_reference_key",

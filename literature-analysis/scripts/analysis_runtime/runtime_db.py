@@ -11,7 +11,13 @@ from typing import Any
 DB_FILENAME = "literature_analysis.db"
 TMP_DIRNAME = ".literature_analysis_tmp"
 
-REQUIRED_ARTIFACT_KEYS = {"digest_path", "references_path", "citation_analysis_path", "literature_matching_metadata_path"}
+REQUIRED_ARTIFACT_KEYS = {
+    "digest_path",
+    "references_path",
+    "citation_analysis_path",
+    "literature_matching_metadata_path",
+    "literature_score_path",
+}
 OPTIONAL_ARTIFACT_KEYS = {"citation_analysis_report_path"}
 
 DIGEST_SLOT_KEYS = (
@@ -27,10 +33,11 @@ ALLOWED_STAGES = {
     "stage_1_normalize_source",
     "stage_2_outline_and_scopes",
     "stage_3_digest",
-    "stage_4_references",
-    "stage_5_citation",
-    "stage_6_render_and_validate",
-    "stage_7_completed",
+    "stage_4_scoring",
+    "stage_5_references",
+    "stage_6_citation",
+    "stage_7_render_and_validate",
+    "stage_8_completed",
 }
 ALLOWED_STAGE_GATES = {"blocked", "ready"}
 
@@ -171,6 +178,13 @@ def _create_schema(connection: sqlite3.Connection) -> None:
 
         CREATE TABLE IF NOT EXISTS literature_matching_metadata (
             id INTEGER PRIMARY KEY CHECK (id = 1),
+            content_json TEXT NOT NULL,
+            updated_at TEXT NOT NULL
+        );
+
+        CREATE TABLE IF NOT EXISTS literature_score (
+            id INTEGER PRIMARY KEY CHECK (id = 1),
+            rubric_id TEXT NOT NULL,
             content_json TEXT NOT NULL,
             updated_at TEXT NOT NULL
         );
@@ -416,6 +430,11 @@ def set_runtime_input(connection: sqlite3.Connection, key: str, value: str) -> N
 def fetch_runtime_inputs(connection: sqlite3.Connection) -> dict[str, str]:
     rows = connection.execute("SELECT key, value FROM runtime_inputs").fetchall()
     return {str(row["key"]): str(row["value"]) for row in rows}
+
+
+def is_score_only(connection: sqlite3.Connection) -> bool:
+    value = fetch_runtime_inputs(connection).get("score_only", "false")
+    return value.strip().lower() == "true"
 
 
 def add_runtime_warning(connection: sqlite3.Connection, warning: str) -> None:
@@ -1062,6 +1081,44 @@ def fetch_reference_preprocess_quality(connection: sqlite3.Connection) -> dict[s
     if row is None:
         return None
     return json.loads(str(row["content_json"]))
+
+
+def store_literature_score(connection: sqlite3.Connection, score: dict[str, Any]) -> None:
+    rubric_id = str(score.get("rubric_id", "")).strip()
+    if not rubric_id:
+        raise ValueError("literature score rubric_id must be non-empty")
+    now = utc_now_iso()
+    connection.execute(
+        """
+        INSERT INTO literature_score (id, rubric_id, content_json, updated_at)
+        VALUES (1, ?, ?, ?)
+        ON CONFLICT(id) DO UPDATE SET
+            rubric_id = excluded.rubric_id,
+            content_json = excluded.content_json,
+            updated_at = excluded.updated_at
+        """,
+        (rubric_id, _json_dump(score), now),
+    )
+    touch_runtime(connection)
+
+
+def fetch_literature_score(connection: sqlite3.Connection) -> dict[str, Any] | None:
+    row = connection.execute(
+        "SELECT rubric_id, content_json, updated_at FROM literature_score WHERE id = 1"
+    ).fetchone()
+    if row is None:
+        return None
+    payload = json.loads(str(row["content_json"]))
+    if isinstance(payload, dict):
+        payload.setdefault("rubric_id", str(row["rubric_id"]))
+        return payload
+    return None
+
+
+def clear_literature_score(connection: sqlite3.Connection) -> None:
+    connection.execute("DELETE FROM literature_score")
+    connection.execute("DELETE FROM artifact_registry WHERE artifact_key = 'literature_score_path'")
+    touch_runtime(connection)
 
 
 def store_reference_extraction_decision(
@@ -2067,6 +2124,7 @@ def build_public_output_payload(connection: sqlite3.Connection) -> dict[str, Any
         "references_path": str(Path(artifacts.get("references_path", {}).get("path", "")).expanduser().resolve()) if artifacts.get("references_path", {}).get("path", "") else "",
         "citation_analysis_path": str(Path(artifacts.get("citation_analysis_path", {}).get("path", "")).expanduser().resolve()) if artifacts.get("citation_analysis_path", {}).get("path", "") else "",
         "literature_matching_metadata_path": str(Path(artifacts.get("literature_matching_metadata_path", {}).get("path", "")).expanduser().resolve()) if artifacts.get("literature_matching_metadata_path", {}).get("path", "") else "",
+        "literature_score_path": str(Path(artifacts.get("literature_score_path", {}).get("path", "")).expanduser().resolve()) if artifacts.get("literature_score_path", {}).get("path", "") else "",
         "provenance": {
             "generated_at": inputs.get("generated_at", ""),
             "input_hash": inputs.get("input_hash", ""),

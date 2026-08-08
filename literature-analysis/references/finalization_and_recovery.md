@@ -15,7 +15,7 @@ LLM/agent owns:
 - Correcting and resubmitting the failed semantic payload when runtime asks for a repair.
 - Reporting final runtime stdout JSON without embellishment.
 
-Do not use a temporary script to hand-author final `digest.md`, `references.json`, `citation_analysis.json`, `citation_analysis.md`, `literature_matching_metadata.json`, or result mirror. Scripts may only rerun `finalize_outputs`, inspect files for diagnostics, or compare renderer output with DB-backed artifacts.
+Do not use a temporary script to hand-author final `literature_score.json`, `digest.md`, `references.json`, `citation_analysis.json`, `citation_analysis.md`, `literature_matching_metadata.json`, or result mirror. Scripts may only rerun `finalize_outputs`, inspect files for diagnostics, or compare renderer output with DB-backed artifacts.
 
 ## Finalization Contract
 
@@ -25,6 +25,7 @@ Do not use a temporary script to hand-author final `digest.md`, `references.json
 - runtime templates
 - `digest_slots`
 - `digest_section_summaries`
+- `literature_score`
 - `reference_items`
 - `literature_matching_metadata`
 - `citation_workset_items`
@@ -53,6 +54,7 @@ Formal render truth:
 - `citation_analysis.json.report_md` derives from citation summary/timeline/items/unmapped/scope.
 - `citation_analysis.md` must exactly equal `citation_analysis.json.report_md`.
 - `literature_matching_metadata.json` derives from DB `literature_matching_metadata`.
+- `literature_score.json` derives from DB `literature_score` and the persisted scoring rubric/template snapshot.
 - `representative_image` is optional stdout metadata from digest stage; it is not a public artifact.
 
 ## Published Artifacts
@@ -63,6 +65,7 @@ Required fixed filenames:
 - `references.json`
 - `citation_analysis.json`
 - `literature_matching_metadata.json`
+- `literature_score.json`
 
 Optional/additive:
 
@@ -77,6 +80,7 @@ Success stdout must include:
 - `references_path`
 - `citation_analysis_path`
 - `literature_matching_metadata_path`
+- `literature_score_path`
 - `provenance.generated_at`
 - `provenance.input_hash`
 - `provenance.model`
@@ -100,6 +104,7 @@ Artifact registry should record at least:
 - `references_path` from `reference_items`
 - `citation_analysis_path` from `citation_summary`
 - `literature_matching_metadata_path` from `literature_matching_metadata`
+- `literature_score_path` from `literature_score`
 
 If renderer generated non-empty `report_md`, also record:
 
@@ -121,7 +126,7 @@ These files may be deleted and regenerated when DB state is complete:
 - source sidecars such as `source.md` / `source_meta.json`
 - reference workset/review sidecars
 - citation workset/review sidecars
-- final public artifacts: `digest.md`, `references.json`, `citation_analysis.json`, `citation_analysis.md`, `literature_matching_metadata.json`
+- final public artifacts: `literature_score.json`, `digest.md`, `references.json`, `citation_analysis.json`, `citation_analysis.md`, `literature_matching_metadata.json`
 - result mirror JSON at `result_json_path`
 
 Do not confuse sidecars with process truth. DB is the source of truth.
@@ -159,6 +164,13 @@ Do not confuse sidecars with process truth. DB is the source of truth.
 - Undercoverage: add section summaries for all major non-reference sections.
 - Representative image invalid: use evidence-grounded fields or `{"status":"none"}`.
 
+`persist_literature_score`
+
+- Missing or unknown rubric key: regenerate the payload from the current prepare contract.
+- Runtime-owned aggregate field submitted: remove weights, totals, dimension scores, and aggregate scores.
+- Evidence quote mismatch: copy a short quote from the declared normalized-source line range.
+- Incorrect N/A: use `not_applicable` only when the criterion has no evaluation object for the paper type; missing reporting remains scored.
+
 `persist_references`
 
 - `selected_parse_pattern` not allowed: use `allowed_parse_patterns_by_reference_key` from the current prepare output.
@@ -180,6 +192,7 @@ Do not confuse sidecars with process truth. DB is the source of truth.
 `finalize_outputs`
 
 - Missing digest state: rerun `persist_digest`.
+- Missing literature score state: rerun `persist_literature_score`.
 - Missing references state: rerun `persist_references` or confirm reference-free mode.
 - Missing citation state: rerun `persist_citation_analysis`.
 - Missing matching metadata: rerun `persist_analysis_plan`.
@@ -193,6 +206,8 @@ Representative codes and meanings:
 - `normalize_source_failed`: source could not be read or normalized.
 - `analysis_plan_invalid`: outline/scope/metadata payload is malformed.
 - `persist_digest_failed`: digest slot or section summary payload is invalid.
+- `score_payload_invalid`: scoring coverage, enum, range, N/A, confidence, or source evidence is invalid.
+- `score_render_failed`: the DB-backed score artifact could not be rendered or validated.
 - `references_merge_failed`: references did not pass split, quality, or merge validation.
 - `reference_entry_splitting_failed`: suspect block review did not produce stable entries.
 - `citation_mentions_not_found`: citation scope had no stable mentions after filtering.
@@ -210,6 +225,7 @@ Before considering the run successful:
 - Fixed filenames are used.
 - `citation_analysis.md` equals `citation_analysis.json.report_md`.
 - `literature_matching_metadata.json.schema` is `literature_matching_metadata.v1`.
+- `literature_score.json` contains all six dimensions plus `overall_score`, `confidence`, and `confidence_adjusted_score`.
 - `references.json` is a JSON array with required fields.
 - `citation_analysis.json` has `meta`, `summary`, `timeline`, `items`, `unmapped_mentions`, and `report_md`.
 - result mirror at `result_json_path` matches stdout.

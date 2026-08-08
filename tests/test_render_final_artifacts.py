@@ -151,14 +151,56 @@ class RenderFinalArtifactsTests(unittest.TestCase):
                         "exclude_terms": [],
                     },
                 )
-                runtime_db.store_action_receipt(connection, action_name="persist_reference_metadata_enrichment", stage="stage_4_references")
+                rubric = json.loads(
+                    (REPO_ROOT / "literature-analysis" / "assets" / "scoring_rubric.json").read_text(encoding="utf-8")
+                )
+                runtime_db.store_literature_score(
+                    connection,
+                    {
+                        "schema": "literature_score.v1",
+                        "rubric_id": rubric["rubric_id"],
+                        "paper_type": "empirical",
+                        "paper_type_reason": "Fixture paper uses empirical evidence.",
+                        "overall_score": 100.0,
+                        "confidence": 0.9,
+                        "confidence_adjusted_score": 90.0,
+                        "dimensions": [
+                            {
+                                "dimension_key": dimension["dimension_key"],
+                                "name": dimension["name"],
+                                "configured_weight": dimension["weight"],
+                                "effective_weight": dimension["weight"],
+                                "raw_score": sum(criterion["max_score"] for criterion in dimension["criteria"]),
+                                "applicable_max_score": sum(criterion["max_score"] for criterion in dimension["criteria"]),
+                                "score": 100.0,
+                                "confidence": 0.9,
+                                "summary": "Fixture score summary.",
+                                "criteria": [
+                                    {
+                                        "criterion_key": criterion["criterion_key"],
+                                        "name": criterion["name"],
+                                        "status": "scored",
+                                        "score": criterion["max_score"],
+                                        "max_score": criterion["max_score"],
+                                        "reason": "Fixture evidence.",
+                                        "evidence": [],
+                                    }
+                                    for criterion in dimension["criteria"]
+                                ],
+                            }
+                            for dimension in rubric["dimensions"]
+                        ],
+                    },
+                )
+                runtime_db.store_action_receipt(connection, action_name="persist_literature_score", stage="stage_4_scoring")
+                runtime_db.store_action_receipt(connection, action_name="persist_reference_metadata_enrichment", stage="stage_5_references")
                 for action_name in (
                     "prepare_citation_workset",
                     "persist_citation_semantics",
                     "persist_citation_timeline",
                     "persist_citation_summary",
                 ):
-                    runtime_db.store_action_receipt(connection, action_name=action_name, stage="stage_5_citation")
+                    runtime_db.store_action_receipt(connection, action_name=action_name, stage="stage_6_citation")
                 connection.commit()
 
             result = subprocess.run(
@@ -178,14 +220,17 @@ class RenderFinalArtifactsTests(unittest.TestCase):
             payload = json.loads(result.stdout.decode("utf-8"))
             self.assertIn("citation_analysis_report_path", payload)
             self.assertIn("literature_matching_metadata_path", payload)
+            self.assertIn("literature_score_path", payload)
             report_path = Path(str(payload["citation_analysis_report_path"]))
             digest_path = Path(str(payload["digest_path"]))
             matching_path = Path(str(payload["literature_matching_metadata_path"]))
+            score_path = Path(str(payload["literature_score_path"]))
             citation_json = json.loads(Path(str(payload["citation_analysis_path"])).read_text(encoding="utf-8"))
             matching_json = json.loads(matching_path.read_text(encoding="utf-8"))
             self.assertTrue(report_path.exists())
             self.assertTrue(digest_path.exists())
             self.assertTrue(matching_path.exists())
+            self.assertTrue(score_path.exists())
             digest_text = digest_path.read_text(encoding="utf-8")
             self.assertIn("## TL;DR", digest_text)
             self.assertIn("digest body", digest_text)

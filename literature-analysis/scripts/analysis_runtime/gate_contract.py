@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Any
 
 from . import runtime_db
+from . import scoring
 from .payload_normalization import CANONICAL_METADATA_FIELDS
 
 
@@ -11,6 +12,7 @@ INSTRUCTION_REF_BY_ACTION = {
     "init_runtime": "references/source_and_plan.md",
     "persist_analysis_plan": "references/source_and_plan.md",
     "persist_digest": "references/digest_generation.md",
+    "persist_literature_score": "references/paper_scoring.md",
     "persist_references": "references/reference_extraction.md",
     "persist_citation_analysis": "references/citation_analysis.md",
     "finalize_outputs": "references/finalization_and_recovery.md",
@@ -25,6 +27,7 @@ def _local_next_action(raw_next_action: str) -> str:
         "normalize_source": "init_runtime",
         "persist_outline_and_scopes": "persist_analysis_plan",
         "persist_digest": "persist_digest",
+        "persist_literature_score": "persist_literature_score",
         "prepare_references_workset": "persist_references",
         "persist_reference_entry_splits": "persist_references",
         "decide_reference_extraction": "persist_references",
@@ -37,6 +40,7 @@ def _local_next_action(raw_next_action: str) -> str:
         "persist_citation_timeline": "persist_citation_analysis",
         "persist_citation_summary": "persist_citation_analysis",
         "render_and_validate": "finalize_outputs",
+        "render_score_only": "finalize_outputs",
     }
     return mapping.get(raw_next_action or "", raw_next_action or "init_runtime")
 
@@ -46,6 +50,7 @@ def _execution_note(next_action: str) -> str:
         "init_runtime": "Initialize runtime paths, templates, DB state, source hash, and normalized source.",
         "persist_analysis_plan": "Persist outline_nodes, references_scope, citation_scope, and literature_matching_metadata in one structured payload.",
         "persist_digest": "Persist structured digest_slots, section_summaries, and optional representative_image only.",
+        "persist_literature_score": "Prepare the scoring context or persist one complete evidence-backed rubric review; runtime computes all weights and aggregate scores.",
         "persist_references": "Prepare references, delegate using returned reference core and metadata evidence batch paths, submit core reference_reviews first, then submit metadata_evidence_reviews; keep one main-agent writer.",
         "persist_citation_analysis": "Prepare or persist citation semantics, timeline, summary, and basis from DB-backed citation workset items.",
         "finalize_outputs": "Render public artifacts from DB state and runtime templates; do not submit business payload.",
@@ -58,7 +63,9 @@ def _instruction_refs(next_action: str) -> list[dict[str, str]]:
     return [{"path": path, "section": next_action}]
 
 
-def _allowed_payload_shape(next_action: str) -> dict[str, Any] | None:
+def _allowed_payload_shape(next_action: str, connection: Any) -> dict[str, Any] | None:
+    if next_action == "persist_literature_score":
+        return scoring.scoring_contract(connection)[0]
     if next_action == "persist_references":
         return {
             "core_submit": {
@@ -108,7 +115,9 @@ def _allowed_payload_shape(next_action: str) -> dict[str, Any] | None:
     return None
 
 
-def _field_guidance(next_action: str) -> dict[str, str] | None:
+def _field_guidance(next_action: str, connection: Any) -> dict[str, str] | None:
+    if next_action == "persist_literature_score":
+        return scoring.scoring_contract(connection)[1]
     if next_action == "persist_references":
         return {
             "reference_key": "Stable key from reference_core_batch_paths files.",
@@ -139,17 +148,24 @@ def _missing_prerequisites(connection: Any, next_action: str) -> list[str]:
     state = runtime_db.fetch_workflow_state(connection) or {}
     if next_action != "init_runtime" and not source_doc:
         missing.append("source_documents.normalized_source")
-    if next_action in {"persist_digest", "persist_references", "persist_citation_analysis", "finalize_outputs"}:
+    score_only = runtime_db.is_score_only(connection)
+    if not score_only and next_action == "persist_literature_score":
+        if not runtime_db.has_action_receipt(connection, "persist_digest"):
+            missing.append("action_receipts.persist_digest")
+    if not score_only and next_action in {"persist_digest", "persist_references", "persist_citation_analysis", "finalize_outputs"}:
         if not runtime_db.has_outline_nodes(connection):
             missing.append("outline_nodes")
         if not runtime_db.fetch_section_scope(connection, "references_scope"):
             missing.append("section_scopes.references_scope")
         if not runtime_db.fetch_section_scope(connection, "citation_scope"):
             missing.append("section_scopes.citation_scope")
-    if next_action in {"persist_citation_analysis", "finalize_outputs"} and not runtime_db.fetch_reference_items(connection):
+    if not score_only and next_action in {"persist_references", "persist_citation_analysis", "finalize_outputs"}:
+        if runtime_db.fetch_literature_score(connection) is None:
+            missing.append("literature_score")
+    if not score_only and next_action in {"persist_citation_analysis", "finalize_outputs"} and not runtime_db.fetch_reference_items(connection):
         if not runtime_db.is_reference_extraction_abandoned(connection):
             missing.append("reference_items")
-    if next_action == "finalize_outputs":
+    if not score_only and next_action == "finalize_outputs":
         if not runtime_db.fetch_digest_slots(connection):
             missing.append("digest_slots")
         if not runtime_db.fetch_digest_section_summaries(connection):
@@ -169,7 +185,7 @@ def _quality_directives(connection: Any) -> dict[str, Any] | None:
         return None
     severity = "hard_block" if any(issue.get("severity") == "hard_block" for issue in issues) else "warning"
     return {
-        "kind": "stage4_reference_quality",
+        "kind": "stage5_reference_quality",
         "severity": severity,
         "instruction": (
             "Repair hard reference rows and resubmit persist_references."
@@ -193,8 +209,8 @@ def status_payload(db_path: Path) -> dict[str, Any]:
             "missing_prerequisites": _missing_prerequisites(connection, next_action),
             "execution_note": _execution_note(next_action),
             "instruction_refs": _instruction_refs(next_action),
-            "allowed_payload_shape": _allowed_payload_shape(next_action),
-            "field_guidance": _field_guidance(next_action),
+            "allowed_payload_shape": _allowed_payload_shape(next_action, connection),
+            "field_guidance": _field_guidance(next_action, connection),
             "quality_directives": _quality_directives(connection),
             "warnings": runtime_db.fetch_runtime_warnings(connection),
             "error": runtime_db.fetch_latest_error(connection),
