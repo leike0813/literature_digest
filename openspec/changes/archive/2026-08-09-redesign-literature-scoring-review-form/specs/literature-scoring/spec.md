@@ -1,7 +1,5 @@
-## Purpose
-Define a source-grounded, auditable paper scoring capability that separates observed scientific quality from assessment confidence and renders one stable machine-consumable artifact.
+## MODIFIED Requirements
 
-## Requirements
 ### Requirement: Scoring SHALL Use A Fixed Six-Dimension Rubric
 
 The scorer SHALL evaluate methodological rigor at 25%, evidence completeness at 20%, reproducibility at 15%, innovation signals at 15%, research impact potential at 15%, and writing quality at 10% using the canonical rubric distributed with the Skill. The canonical rubric SHALL be the sole definition of paper-type choices and descriptions, dimension and criterion keys, display names, prompts, ordering, configured weights, and maximum scores used by the agent-facing review form.
@@ -29,45 +27,6 @@ The scorer SHALL evaluate methodological rigor at 25%, evidence completeness at 
 - **WHEN** the submitted draft changes weights, maximum scores, names, keys, prompts, ordering, or any other locked rubric field
 - **THEN** the runtime rejects the draft with `score_review_invalid`
 - **AND** reports `locked_field_changed`.
-
-### Requirement: Scoring SHALL Separate Quality And Confidence
-
-The public score artifact SHALL expose `overall_score`, `confidence`, and `confidence_adjusted_score`, where the adjusted score is the product of the first two values.
-
-#### Scenario: Score calculation succeeds
-
-- **WHEN** the semantic scoring payload is valid
-- **THEN** `overall_score` is the effective-weighted mean of active dimension scores
-- **AND** `confidence` is the effective-weighted mean of active dimension confidences
-- **AND** `confidence_adjusted_score` equals `overall_score * confidence`.
-
-#### Scenario: Values require rounding
-
-- **WHEN** a derived score has more precision than the public contract allows
-- **THEN** scores are rounded half-up to one decimal place
-- **AND** confidence is rounded half-up to two decimal places.
-
-### Requirement: Scoring SHALL Support Inapplicable Criteria
-
-The scorer SHALL distinguish a genuinely inapplicable criterion from a low-scoring or weakly evidenced criterion.
-
-#### Scenario: Some criteria in a dimension are inapplicable
-
-- **WHEN** at least one criterion in a dimension is `not_applicable` and at least one is `scored`
-- **THEN** the dimension score is normalized over the applicable maximum points
-- **AND** the dimension retains its configured weight.
-
-#### Scenario: Entire dimension is inapplicable
-
-- **WHEN** every criterion in one dimension is `not_applicable`
-- **THEN** the public dimension has null score and confidence with zero effective weight
-- **AND** its configured weight is redistributed proportionally over active dimensions
-- **AND** the runtime records a warning.
-
-#### Scenario: Nothing is scorable
-
-- **WHEN** all six dimensions have no applicable criteria
-- **THEN** the runtime rejects the payload with `score_payload_invalid`.
 
 ### Requirement: Scoring SHALL Be Grounded In Normalized Source Evidence
 
@@ -130,19 +89,3 @@ The runtime SHALL generate a self-describing review form for the exact canonical
 - **WHEN** locked fields match, exactly one paper type is selected, and all editable answers are valid
 - **THEN** the runtime derives criterion statuses and evidence line ranges
 - **AND** persists the same normalized computed assessment used by the public `literature_score.v1` artifact.
-
-### Requirement: Runtime SHALL Render One Stable Score Artifact
-
-The scorer SHALL render `literature_score.json` from DB-backed score state, validate it, register it, and expose its absolute path as `literature_score_path`.
-
-#### Scenario: Score artifact is rendered
-
-- **WHEN** valid scoring state is finalized
-- **THEN** `literature_score.json` contains rubric identity, paper type, all three aggregate values, all six dimensions, and every canonical criterion
-- **AND** `artifact_registry` records its absolute path.
-
-#### Scenario: A criterion is inapplicable
-
-- **WHEN** a canonical criterion is `not_applicable`
-- **THEN** it remains present in the public artifact
-- **AND** its score is null while its maximum score and reason remain visible.

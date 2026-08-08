@@ -122,38 +122,24 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             ],
         }
 
-    def score_payload(self) -> dict:
-        rubric = json.loads(
-            (REPO_ROOT / "literature-analysis" / "assets" / "scoring_rubric.json").read_text(encoding="utf-8")
-        )
-        return {
-            "paper_type": "empirical",
-            "paper_type_reason": "The runtime fixture is assessed as an empirical paper.",
-            "dimension_reviews": [
-                {
-                    "dimension_key": dimension["dimension_key"],
-                    "confidence": 0.8,
-                    "summary": "Fixture assessment for runtime integration.",
-                    "criteria": [
-                        {
-                            "criterion_key": criterion["criterion_key"],
-                            "status": "scored",
-                            "score": criterion["max_score"],
-                            "reason": "The fixture deliberately supplies a complete semantic score payload.",
-                            "evidence": [],
-                        }
-                        for criterion in dimension["criteria"]
-                    ],
-                }
-                for dimension in rubric["dimensions"]
-            ],
-        }
+    def score_payload(self, draft_path: str) -> dict:
+        payload = self.read_json(draft_path)
+        payload["paper_type_choices"][0]["selected"] = True
+        payload["paper_type_reason"] = "The runtime fixture is assessed as an empirical paper."
+        for dimension in payload["dimension_reviews"]:
+            dimension["confidence"] = 0.8
+            dimension["summary"] = "Fixture assessment for runtime integration."
+        for criterion in payload["criterion_reviews"]:
+            criterion["score"] = criterion["max_score"]
+            criterion["reason"] = "The fixture deliberately supplies a complete semantic score review."
+        return payload
 
     def persist_score(self, root: Path, db_path: str) -> dict:
         prepared = self.run_cmd(["persist_literature_score", "--db-path", db_path])
         self.assertEqual(prepared.returncode, 0, prepared.stderr.decode("utf-8", errors="replace"))
+        prepared_payload = json.loads(prepared.stdout.decode("utf-8"))
         score_path = root / "score_payload.json"
-        self.write_json(score_path, self.score_payload())
+        self.write_json(score_path, self.score_payload(prepared_payload["scoring_review_draft_path"]))
         result = self.run_cmd(
             ["persist_literature_score", "--db-path", db_path, "--payload-file", str(score_path)]
         )
@@ -2167,9 +2153,12 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertIn("execution_note", payload)
             self.assertIn("instruction_refs", payload)
             self.assertIn("quality_directives", payload)
-            self.assertIn("allowed_payload_shape", payload)
-            self.assertIn("field_guidance", payload)
-            self.assertIn("aggregate scores", payload["field_guidance"]["runtime_owned"])
+            self.assertIsNone(payload["allowed_payload_shape"])
+            self.assertIsNone(payload["field_guidance"])
+            self.assertTrue(payload["scoring_review_form_path"].endswith(".json"))
+            self.assertTrue(payload["scoring_review_draft_path"].endswith(".json"))
+            self.assertIn("criterion_reviews[*].score", payload["editable_fields"])
+            self.assertIn("--payload-file", payload["submit_command"])
             self.assertEqual(payload["instruction_refs"][0]["path"], "references/paper_scoring.md")
             self.assertEqual(payload["runtime_backend"], "analysis_runtime.gate_contract")
             for ref in payload["instruction_refs"]:

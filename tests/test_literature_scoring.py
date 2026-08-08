@@ -25,36 +25,6 @@ class LiteratureScoringTests(unittest.TestCase):
             (REPO_ROOT / "literature-analysis" / "assets" / "scoring_rubric.json").read_text(encoding="utf-8")
         )
 
-    def payload(self, *, whole_na_dimension: str | None = None, partial_na: tuple[str, str] | None = None) -> dict:
-        reviews = []
-        for dimension in self.rubric()["dimensions"]:
-            whole_na = dimension["dimension_key"] == whole_na_dimension
-            criteria = []
-            for criterion in dimension["criteria"]:
-                is_na = whole_na or partial_na == (dimension["dimension_key"], criterion["criterion_key"])
-                criteria.append(
-                    {
-                        "criterion_key": criterion["criterion_key"],
-                        "status": "not_applicable" if is_na else "scored",
-                        "score": None if is_na else criterion["max_score"],
-                        "reason": "No evaluation object for this paper type." if is_na else "Assessed from the normalized source.",
-                        "evidence": [],
-                    }
-                )
-            reviews.append(
-                {
-                    "dimension_key": dimension["dimension_key"],
-                    "confidence": None if whole_na else 0.8,
-                    "summary": "Dimension-level assessment.",
-                    "criteria": criteria,
-                }
-            )
-        return {
-            "paper_type": "empirical",
-            "paper_type_reason": "The paper is organized around empirical evaluation.",
-            "dimension_reviews": reviews,
-        }
-
     def initialize(self, root: Path, *, score_only: bool) -> Path:
         source_path = root / "paper.md"
         source_path.write_text(
@@ -82,19 +52,84 @@ class LiteratureScoringTests(unittest.TestCase):
         self.assertEqual(code, 0)
         return db_path
 
+    def review(
+        self,
+        db_path: Path,
+        *,
+        whole_na_dimension: str | None = None,
+        partial_na: tuple[str, str] | None = None,
+    ) -> tuple[dict, dict]:
+        prepared, code = scoring.prepare_scoring_context(db_path)
+        self.assertEqual(code, 0)
+        payload = json.loads(Path(prepared["scoring_review_draft_path"]).read_text(encoding="utf-8"))
+        payload["paper_type_choices"][0]["selected"] = True
+        payload["paper_type_reason"] = "The paper is organized around empirical evaluation."
+        for dimension in payload["dimension_reviews"]:
+            whole_na = dimension["dimension_key"] == whole_na_dimension
+            dimension["confidence"] = None if whole_na else 0.8
+            dimension["summary"] = "Dimension-level assessment."
+        for criterion in payload["criterion_reviews"]:
+            is_na = whole_na_dimension == criterion["dimension_key"] or partial_na == (
+                criterion["dimension_key"],
+                criterion["criterion_key"],
+            )
+            criterion["applicable"] = not is_na
+            criterion["score"] = None if is_na else criterion["max_score"]
+            criterion["reason"] = (
+                "No evaluation object for this paper type."
+                if is_na
+                else "Assessed from the normalized source."
+            )
+        return payload, prepared
+
+    def test_prepare_generates_rubric_driven_form_and_preserves_existing_draft(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            db_path = self.initialize(root, score_only=True)
+            prepared, code = scoring.prepare_scoring_context(db_path)
+            self.assertEqual(code, 0)
+            self.assertNotIn("allowed_payload_shape", prepared)
+            self.assertNotIn("scoring_context_path", prepared)
+            form_path = Path(prepared["scoring_review_form_path"])
+            draft_path = Path(prepared["scoring_review_draft_path"])
+            self.assertNotEqual(form_path, draft_path)
+            self.assertTrue(form_path.exists())
+            self.assertTrue(draft_path.exists())
+            form = json.loads(form_path.read_text(encoding="utf-8"))
+            rubric = self.rubric()
+            self.assertTrue(form["form_id"].startswith("sha256:"))
+            self.assertEqual(
+                [{key: item[key] for key in ("paper_type", "description")} for item in form["paper_type_choices"]],
+                rubric["paper_type_choices"],
+            )
+            self.assertEqual(
+                [item["dimension_key"] for item in form["dimension_reviews"]],
+                [item["dimension_key"] for item in rubric["dimensions"]],
+            )
+            rubric_criteria = [criterion for dimension in rubric["dimensions"] for criterion in dimension["criteria"]]
+            self.assertEqual(
+                [item["criterion_key"] for item in form["criterion_reviews"]],
+                [item["criterion_key"] for item in rubric_criteria],
+            )
+            self.assertEqual(
+                [item["prompt"] for item in form["criterion_reviews"]],
+                [item["prompt"] for item in rubric_criteria],
+            )
+
+            draft = deepcopy(form)
+            draft["paper_type_reason"] = "Partially completed answer that must survive prepare."
+            draft_path.write_text(json.dumps(draft, ensure_ascii=False), encoding="utf-8")
+            prepared_again, second_code = scoring.prepare_scoring_context(db_path)
+            self.assertEqual(second_code, 0)
+            self.assertEqual(prepared_again["scoring_review_draft_path"], str(draft_path))
+            self.assertEqual(json.loads(draft_path.read_text(encoding="utf-8")), draft)
+
     def test_score_only_renders_one_score_artifact_and_redistributes_whole_na_weight(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
             db_path = self.initialize(root, score_only=True)
-
-            prepared, prepare_code = scoring.prepare_scoring_context(db_path)
-            self.assertEqual(prepare_code, 0)
-            self.assertTrue(Path(prepared["scoring_context_path"]).exists())
-
-            final, code = scoring.persist_literature_score(
-                db_path,
-                self.payload(whole_na_dimension="innovation_signals"),
-            )
+            review, _ = self.review(db_path, whole_na_dimension="innovation_signals")
+            final, code = scoring.persist_literature_score(db_path, review)
             self.assertEqual(code, 0)
             self.assertEqual(final["digest_path"], "")
             self.assertEqual(final["references_path"], "")
@@ -105,6 +140,7 @@ class LiteratureScoringTests(unittest.TestCase):
             self.assertTrue(score_path.exists())
 
             score = json.loads(score_path.read_text(encoding="utf-8"))
+            self.assertEqual(score["schema"], "literature_score.v1")
             self.assertEqual(score["overall_score"], 100.0)
             self.assertEqual(score["confidence"], 0.8)
             self.assertEqual(score["confidence_adjusted_score"], 80.0)
@@ -114,9 +150,153 @@ class LiteratureScoringTests(unittest.TestCase):
             self.assertEqual(innovation["effective_weight"], 0.0)
             self.assertAlmostEqual(sum(item["effective_weight"] for item in score["dimensions"]), 1.0, places=5)
             self.assertTrue(any("innovation_signals" in warning for warning in final["warnings"]))
+            self.assertEqual(json.loads((root / "literature-analysis.result.json").read_text(encoding="utf-8")), final)
 
-            mirror = json.loads((root / "literature-analysis.result.json").read_text(encoding="utf-8"))
-            self.assertEqual(mirror, final)
+    def test_partial_na_renormalizes_inside_dimension_without_removing_dimension_weight(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            db_path = self.initialize(root, score_only=True)
+            review, _ = self.review(
+                db_path,
+                partial_na=("methodological_rigor", "baseline_or_control_adequacy"),
+            )
+            final, code = scoring.persist_literature_score(db_path, review)
+            self.assertEqual(code, 0)
+            score = json.loads(Path(final["literature_score_path"]).read_text(encoding="utf-8"))
+            methodology = next(item for item in score["dimensions"] if item["dimension_key"] == "methodological_rigor")
+            self.assertEqual(methodology["applicable_max_score"], 20)
+            self.assertEqual(methodology["score"], 100.0)
+            self.assertEqual(methodology["effective_weight"], 0.25)
+            baseline = next(item for item in methodology["criteria"] if item["criterion_key"] == "baseline_or_control_adequacy")
+            self.assertIsNone(baseline["score"])
+
+    def test_review_validation_reports_selection_locked_and_incomplete_reason_codes(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            db_path = self.initialize(root, score_only=True)
+            valid, _ = self.review(db_path)
+            cases = []
+
+            no_selection = deepcopy(valid)
+            no_selection["paper_type_choices"][0]["selected"] = False
+            cases.append(("zero selection", no_selection, "invalid_selection"))
+
+            two_selections = deepcopy(valid)
+            two_selections["paper_type_choices"][1]["selected"] = True
+            cases.append(("two selections", two_selections, "invalid_selection"))
+
+            changed_locked_field = deepcopy(valid)
+            changed_locked_field["criterion_reviews"][0]["max_score"] += 1
+            cases.append(("locked maximum", changed_locked_field, "locked_field_changed"))
+
+            missing_score = deepcopy(valid)
+            missing_score["criterion_reviews"][0]["score"] = None
+            cases.append(("missing applicable score", missing_score, "incomplete_answer"))
+
+            scored_na = deepcopy(valid)
+            scored_na["criterion_reviews"][0]["applicable"] = False
+            cases.append(("score supplied for n/a", scored_na, "incomplete_answer"))
+
+            incomplete_dimension = deepcopy(valid)
+            incomplete_dimension["dimension_reviews"][0]["summary"] = ""
+            cases.append(("missing summary", incomplete_dimension, "incomplete_answer"))
+
+            missing_criterion = deepcopy(valid)
+            missing_criterion["criterion_reviews"].pop()
+            cases.append(("missing criterion", missing_criterion, "incomplete_answer"))
+
+            for label, payload, expected_reason in cases:
+                with self.subTest(label=label):
+                    result, code = scoring.persist_literature_score(db_path, payload)
+                    self.assertEqual(code, 2)
+                    self.assertEqual(result["error"]["code"], "score_review_invalid")
+                    self.assertIn(expected_reason, {item["reason"] for item in result["error"]["details"]})
+
+            manual_payload = {
+                "paper_type": "empirical",
+                "paper_type_reason": "Manually constructed payload.",
+                "dimension_reviews": [],
+            }
+            result, code = scoring.persist_literature_score(db_path, manual_payload)
+            self.assertEqual(code, 2)
+            self.assertEqual(result["error"]["details"][0]["reason"], "stale_form")
+
+    def test_source_or_rubric_change_invalidates_prepared_review(self):
+        for change_kind in ("source", "rubric"):
+            with self.subTest(change_kind=change_kind), tempfile.TemporaryDirectory() as td:
+                root = Path(td)
+                db_path = self.initialize(root, score_only=True)
+                review, old_prepared = self.review(db_path)
+                with runtime_db.connect_db(db_path) as connection:
+                    if change_kind == "source":
+                        source_doc = runtime_db.fetch_source_document(connection, "normalized_source")
+                        assert source_doc is not None
+                        runtime_db.store_source_document(
+                            connection,
+                            doc_key="normalized_source",
+                            content=str(source_doc["content"]) + "A newly normalized line.\n",
+                            metadata=dict(source_doc["metadata"]),
+                        )
+                    else:
+                        inputs = runtime_db.fetch_runtime_inputs(connection)
+                        rubric_path = Path(inputs["scoring_rubric_path"])
+                        rubric = json.loads(rubric_path.read_text(encoding="utf-8"))
+                        rubric["dimensions"][0]["prompt"] += " Updated."
+                        rubric_path.write_text(json.dumps(rubric, ensure_ascii=False), encoding="utf-8")
+                    connection.commit()
+                new_prepared, prepare_code = scoring.prepare_scoring_context(db_path)
+                self.assertEqual(prepare_code, 0)
+                self.assertNotEqual(
+                    new_prepared["scoring_review_form_path"],
+                    old_prepared["scoring_review_form_path"],
+                )
+                self.assertNotEqual(
+                    new_prepared["scoring_review_draft_path"],
+                    old_prepared["scoring_review_draft_path"],
+                )
+                result, code = scoring.persist_literature_score(db_path, review)
+                self.assertEqual(code, 2)
+                self.assertEqual(result["error"]["code"], "score_review_invalid")
+                self.assertEqual(result["error"]["details"][0]["reason"], "stale_form")
+
+    def test_evidence_location_accepts_normalized_and_fuzzy_matches_and_rejects_low_similarity(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            db_path = self.initialize(root, score_only=True)
+            review, _ = self.review(db_path)
+            review["criterion_reviews"][0]["evidence_quotes"] = [
+                "WE EVALUATE A METHOD—AGAINST THREE BASELINES!",
+                "introducton",
+            ]
+            result, code = scoring.persist_literature_score(db_path, review)
+            self.assertEqual(code, 0)
+            score = json.loads(Path(result["literature_score_path"]).read_text(encoding="utf-8"))
+            evidence = score["dimensions"][0]["criteria"][0]["evidence"][0]
+            self.assertEqual((evidence["line_start"], evidence["line_end"]), (2, 2))
+            short_fuzzy_evidence = score["dimensions"][0]["criteria"][0]["evidence"][1]
+            self.assertEqual((short_fuzzy_evidence["line_start"], short_fuzzy_evidence["line_end"]), (1, 1))
+
+            fuzzy = deepcopy(review)
+            fuzzy["criterion_reviews"][0]["evidence_quotes"] = [
+                "We evaluate a method against several baseline systems."
+            ]
+            result, code = scoring.persist_literature_score(db_path, fuzzy)
+            self.assertEqual(code, 0)
+            score = json.loads(Path(result["literature_score_path"]).read_text(encoding="utf-8"))
+            evidence = score["dimensions"][0]["criteria"][0]["evidence"][0]
+            self.assertEqual((evidence["line_start"], evidence["line_end"]), (2, 2))
+
+            rejected = deepcopy(review)
+            rejected["criterion_reviews"][0]["evidence_quotes"] = [
+                "Unrelated discussion of marine biology taxonomy."
+            ]
+            result, code = scoring.persist_literature_score(db_path, rejected)
+            self.assertEqual(code, 2)
+            detail = next(item for item in result["error"]["details"] if item["reason"] == "evidence_not_found")
+            self.assertEqual(detail["criterion_key"], "research_question_clarity")
+            self.assertEqual(detail["evidence_index"], 0)
+            self.assertLess(detail["best_similarity"], 0.45)
+            self.assertIsNotNone(detail["candidate_line_start"])
 
     def test_score_only_cli_skips_non_scoring_actions(self):
         with tempfile.TemporaryDirectory() as td:
@@ -166,41 +346,6 @@ class LiteratureScoringTests(unittest.TestCase):
             self.assertEqual(error_payload["error"]["code"], "score_only_action_forbidden")
             self.assertEqual(error_payload["next_action"], "persist_literature_score")
 
-    def test_partial_na_renormalizes_inside_dimension_without_removing_dimension_weight(self):
-        with tempfile.TemporaryDirectory() as td:
-            root = Path(td)
-            db_path = self.initialize(root, score_only=True)
-            payload = self.payload(partial_na=("methodological_rigor", "baseline_or_control_adequacy"))
-            final, code = scoring.persist_literature_score(db_path, payload)
-            self.assertEqual(code, 0)
-            score = json.loads(Path(final["literature_score_path"]).read_text(encoding="utf-8"))
-            methodology = next(item for item in score["dimensions"] if item["dimension_key"] == "methodological_rigor")
-            self.assertEqual(methodology["applicable_max_score"], 20)
-            self.assertEqual(methodology["score"], 100.0)
-            self.assertEqual(methodology["effective_weight"], 0.25)
-            baseline = next(item for item in methodology["criteria"] if item["criterion_key"] == "baseline_or_control_adequacy")
-            self.assertIsNone(baseline["score"])
-
-    def test_runtime_rejects_aggregate_fields_and_unresolvable_evidence(self):
-        with tempfile.TemporaryDirectory() as td:
-            root = Path(td)
-            db_path = self.initialize(root, score_only=True)
-            aggregate_payload = self.payload()
-            aggregate_payload["overall_score"] = 99
-            result, code = scoring.persist_literature_score(db_path, aggregate_payload)
-            self.assertEqual(code, 2)
-            self.assertEqual(result["error"]["code"], "score_payload_invalid")
-            self.assertTrue(any("runtime-owned" in item["message"] for item in result["error"]["details"]))
-
-            evidence_payload = deepcopy(self.payload())
-            evidence_payload["dimension_reviews"][0]["criteria"][0]["evidence"] = [
-                {"line_start": 2, "line_end": 2, "quote": "This sentence is not in the source."}
-            ]
-            result, code = scoring.persist_literature_score(db_path, evidence_payload)
-            self.assertEqual(code, 2)
-            details = result["error"]["details"]
-            self.assertTrue(any("quote does not occur" in item["message"] for item in details))
-
     def test_full_mode_requires_digest_and_advances_to_references_after_scoring(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
@@ -215,7 +360,8 @@ class LiteratureScoringTests(unittest.TestCase):
             self.assertEqual(repaired[0], "stage_4_scoring")
             self.assertEqual(repaired[2], "persist_literature_score")
 
-            result, code = scoring.persist_literature_score(db_path, self.payload())
+            review, _ = self.review(db_path)
+            result, code = scoring.persist_literature_score(db_path, review)
             self.assertEqual(code, 0)
             self.assertEqual(result["next_action"], "prepare_references_workset")
             with runtime_db.connect_db(db_path) as connection:

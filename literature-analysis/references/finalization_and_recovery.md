@@ -166,10 +166,12 @@ Do not confuse sidecars with process truth. DB is the source of truth.
 
 `persist_literature_score`
 
-- Missing or unknown rubric key: regenerate the payload from the current prepare contract.
-- Runtime-owned aggregate field submitted: remove weights, totals, dimension scores, and aggregate scores.
-- Evidence quote mismatch: copy a short quote from the declared normalized-source line range.
-- Incorrect N/A: use `not_applicable` only when the criterion has no evaluation object for the paper type; missing reporting remains scored.
+- `stale_form`: rerun prepare and continue from the new `scoring_review_draft_path`.
+- `locked_field_changed`: restore runtime-owned values from `scoring_review_form_path`.
+- `invalid_selection`: leave exactly one paper-type choice selected.
+- `incomplete_answer`: fill the reported semantic field and satisfy applicability, score, reason, summary, or confidence constraints.
+- `evidence_not_found`: use the reported candidate range to copy a clearer normalized-source quote; do not submit line numbers.
+- Incorrect applicability: set `applicable=false` only when the criterion has no evaluation object for the paper type; missing reporting remains applicable and receives a source-grounded score.
 
 `persist_references`
 
@@ -206,7 +208,7 @@ Representative codes and meanings:
 - `normalize_source_failed`: source could not be read or normalized.
 - `analysis_plan_invalid`: outline/scope/metadata payload is malformed.
 - `persist_digest_failed`: digest slot or section summary payload is invalid.
-- `score_payload_invalid`: scoring coverage, enum, range, N/A, confidence, or source evidence is invalid.
+- `score_review_invalid`: the generated scoring review form is stale, structurally changed, incomplete, invalidly selected, or contains an unlocatable evidence quote.
 - `score_render_failed`: the DB-backed score artifact could not be rendered or validated.
 - `references_merge_failed`: references did not pass split, quality, or merge validation.
 - `reference_entry_splitting_failed`: suspect block review did not produce stable entries.

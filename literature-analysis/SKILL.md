@@ -202,7 +202,7 @@ Allowed reasons to skip a delegation point are limited to: no subagent capabilit
 
 - 大纲和 `references_scope` / `citation_scope` 决策
 - `literature_matching_metadata`
-- 论文类型、六维 criterion 评分、N/A 判断、原文证据、dimension confidence 与评分理由
+- 在 runtime review draft 中选择论文类型，完成 criterion 评分、applicability、原文 evidence quotes、dimension confidence 与评分理由
 - digest 槽位内容与分章节总结
 - representative image 的文本证据判断
 - reference candidate 选择、核心字段 refinement、Reference Metadata Evidence Review
@@ -218,6 +218,7 @@ Allowed reasons to skip a delegation point are limited to: no subagent capabilit
 - reference deterministic preprocess、candidate/workset 生成、质量校验
 - citation mention extraction、mention mapping、workset 生成
 - payload schema 校验
+- 生成并锁定 scoring review form、校验 form identity、定位 evidence quotes、派生证据行号和 criterion status
 - rubric snapshot、N/A 归一化、权重重分配、dimension/overall/confidence/adjusted score 计算
 - JSON 语法解析、字段别名规范化、stable key 覆盖检查、重复 key 检查
 - 基于 DB 与模板渲染最终产物
@@ -278,7 +279,7 @@ Allowed reasons to skip a delegation point are limited to: no subagent capabilit
 
 - [source_and_plan.md](references/source_and_plan.md)：`init_runtime`、`persist_analysis_plan`、source normalization、scope 决策。
 - [digest_generation.md](references/digest_generation.md)：`persist_digest`、digest slot、section summary、representative image。
-- [paper_scoring.md](references/paper_scoring.md)：`persist_literature_score`、rubric 语义、证据、N/A、confidence、示例与错误恢复。
+- [paper_scoring.md](references/paper_scoring.md)：`persist_literature_score` review form、语义评分、evidence quotes、applicability、confidence 与错误恢复。
 - [reference_extraction.md](references/reference_extraction.md)：`persist_references`、split review、quality gate、Reference Metadata Evidence Review、bibliography formats。
 - [citation_analysis.md](references/citation_analysis.md)：`persist_citation_analysis`、mention mapping、semantics、timeline、summary。
 - [finalization_and_recovery.md](references/finalization_and_recovery.md)：`finalize_outputs`、render validation、错误恢复。
@@ -483,39 +484,38 @@ python scripts/run_analysis.py persist_digest --db-path "<db_path>" --payload-fi
 python scripts/run_analysis.py persist_literature_score --db-path "<db_path>"
 ```
 - prepare 后必须读取：
-  - `scoring_context_path`
-  - `scoring_rubric_path`
-  - `allowed_payload_shape`
-  - `field_guidance`
+  - `scoring_review_form_path`
+  - `scoring_review_draft_path`
+  - `editable_fields`
+  - `submit_command`
 - agent 必须：
-  - 从 prepare 指向的 normalized source 判断论文类型。
-  - 完整提交六个维度及每个 canonical criterion 的 `status`、`score`、`reason`、`evidence`。
-  - 为每个 active dimension 提交 `confidence`。
+  - 只编辑 `scoring_review_draft_path` 中 `editable_fields` 列出的语义字段。
+  - 在 `paper_type_choices[*].selected` 中选择一个且仅一个选项并填写理由。
+  - 为每个 criterion 填写 `applicable`、`score`、`reason` 和 `evidence_quotes`；为每个 dimension 填写 `summary`，并为 active dimension 填写 `confidence`。
   - 只使用归一化原文证据；不依据外部声誉、引用量、venue 或联网信息评分。
 - agent 不得提交：
-  - rubric/schema 标识、criterion 满分、权重、dimension totals、dimension score、`overall_score`、`confidence_adjusted_score`。
+  - 手写或修改 `form_id`、paper-type 值、key、名称、prompt、criterion 满分、权重或数组顺序。
+  - evidence 行号、criterion status、dimension totals、dimension score、`overall_score`、`confidence_adjusted_score`。
 - submit 命令：
 ```bash
 python scripts/run_analysis.py persist_literature_score \
   --db-path "<db_path>" \
-  --payload-file score.json
+  --payload-file "<scoring_review_draft_path>"
 ```
-- runtime 固定计算并渲染：
-  - Methodological Rigor 25%
-  - Evidence Completeness 20%
-  - Reproducibility 15%
-  - Innovation Signals 15%
-  - Research Impact Potential 15%
-  - Writing Quality 10%
+- runtime 固定执行：
+  - 从本次 rubric snapshot 生成并锁定完整 review form；同一 `form_id` 重复 prepare 不覆盖 draft。
+  - 校验 locked fields 和完整答案，根据唯一选中的 choice 派生 paper type，根据 `applicable` 派生 criterion status。
+  - 在 normalized source 中定位 `evidence_quotes`，生成公开产物的证据行号。
+  - 按 rubric snapshot 计算维度分、有效权重和聚合值。
   - `overall_score`、`confidence`、`confidence_adjusted_score = overall_score × confidence`
 - N/A 硬规则：
-  - `not_applicable` 仅表示 criterion 对论文类型确实无评价对象；未报告、证据弱或 agent 不确定仍应评分。
-  - 部分 criterion N/A 时，runtime 在维度内按 applicable maximum points 归一化。
-  - 整个维度 N/A 时，runtime 将其权重按比例分配给 active dimensions 并写 warning。
+  - `applicable=false` 仅表示 criterion 对论文类型确实无评价对象；此时 score 必须为 null 并提供理由。
+  - 未报告、证据弱或 agent 不确定仍使用 `applicable=true` 并按原文评分。
+  - 部分 criterion 不适用时，runtime 在维度内按 applicable maximum points 归一化；整个维度不适用时将其权重按比例分配给 active dimensions 并写 warning。
 - 成功后应该看到：
   - 正常路径：`literature_score_path` 与 `next_action = "prepare_references_workset"`。
   - score-only：stdout 即最终 JSON；`literature_score_path` 为绝对路径，其余公开产物路径为空字符串。
-- 详细语义、证据、confidence 校准、完整 payload 规则和恢复方法见 `paper_scoring.md`。
+- 详细语义、证据定位、confidence 校准、draft 填写和恢复方法见 `paper_scoring.md`。
 
 ### 5. `persist_references`
 
@@ -822,7 +822,7 @@ python scripts/run_analysis.py finalize_outputs --db-path "<db_path>"
 ## 阶段性最低输出约束
 
 - digest 阶段不得提交近最终 Markdown，只能提交结构化槽位。
-- scoring 阶段不得提交 runtime-owned 权重或聚合值；必须完整覆盖 canonical rubric 并以 normalized source 为证据。
+- scoring 阶段只编辑 runtime review draft 的 `editable_fields`；不得改 locked fields 或手写权重、聚合值、status 与证据行号。
 - references 阶段不得凭空编造未出现在 `references_scope` 的条目。
 - Reference Metadata Evidence Review 不得修改 locked core fields，不得联网发现缺失 metadata。
 - citation 语义阶段不得重做 mention-reference join。

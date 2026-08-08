@@ -1,7 +1,10 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import re
+import unicodedata
+from collections import Counter
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from typing import Any
@@ -18,25 +21,18 @@ DEFAULT_RUBRIC_PATH = ASSETS_DIR / "scoring_rubric.json"
 DEFAULT_TEMPLATE_PATH = ASSETS_DIR / "templates" / "literature_score.json.j2"
 RENDER_SCHEMA_PATH = ASSETS_DIR / "render_schemas" / "literature_score.schema.json"
 SCORE_FILENAME = "literature_score.json"
-SCORING_CONTEXT_FILENAME = "literature_score_context.json"
-PAPER_TYPES = {"empirical", "review", "theoretical", "qualitative", "mixed_methods", "other"}
-CRITERION_STATUSES = {"scored", "not_applicable"}
-FORBIDDEN_TOP_LEVEL_FIELDS = {
-    "overall_score",
-    "confidence",
-    "confidence_adjusted_score",
-    "rubric_id",
-    "schema",
-}
-FORBIDDEN_DIMENSION_FIELDS = {
-    "configured_weight",
-    "effective_weight",
-    "raw_score",
-    "applicable_max_score",
-    "score",
-    "name",
-}
-FORBIDDEN_CRITERION_FIELDS = {"max_score", "name"}
+REVIEW_FORM_PREFIX = "scoring_review_form"
+REVIEW_DRAFT_PREFIX = "scoring_review_draft"
+EDITABLE_FIELDS = [
+    "paper_type_choices[*].selected (select exactly one)",
+    "paper_type_reason",
+    "dimension_reviews[*].confidence",
+    "dimension_reviews[*].summary",
+    "criterion_reviews[*].applicable",
+    "criterion_reviews[*].score",
+    "criterion_reviews[*].reason",
+    "criterion_reviews[*].evidence_quotes",
+]
 
 
 def _json_read(path: Path) -> dict[str, Any]:
@@ -68,48 +64,168 @@ def _round_weight(value: Decimal) -> float:
     return float(value.quantize(Decimal("0.000001"), rounding=ROUND_HALF_UP))
 
 
-def _normalize_evidence_text(value: str) -> str:
-    return re.sub(r"\s+", " ", value).strip()
+def _canonical_json(value: object) -> str:
+    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
 
-def _payload_shape(rubric: dict[str, Any]) -> dict[str, Any]:
-    return {
-        "paper_type": "empirical | review | theoretical | qualitative | mixed_methods | other",
-        "paper_type_reason": "non-empty target-language explanation",
-        "dimension_reviews": [
+def _sha256_text(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
+
+
+def _validate_rubric(rubric: dict[str, Any]) -> None:
+    if not isinstance(rubric.get("rubric_id"), str) or not str(rubric["rubric_id"]).strip():
+        raise ValueError("scoring rubric requires a non-empty rubric_id")
+    choices = rubric.get("paper_type_choices")
+    if not isinstance(choices, list) or not choices:
+        raise ValueError("scoring rubric requires paper_type_choices")
+    paper_types: set[str] = set()
+    for index, choice in enumerate(choices):
+        if not isinstance(choice, dict) or set(choice) != {"paper_type", "description"}:
+            raise ValueError(f"paper_type_choices[{index}] must contain paper_type and description")
+        paper_type = choice.get("paper_type")
+        description = choice.get("description")
+        if not isinstance(paper_type, str) or not paper_type or paper_type in paper_types:
+            raise ValueError(f"paper_type_choices[{index}].paper_type must be unique and non-empty")
+        if not isinstance(description, str) or not description.strip():
+            raise ValueError(f"paper_type_choices[{index}].description must be non-empty")
+        paper_types.add(paper_type)
+    dimensions = rubric.get("dimensions")
+    if not isinstance(dimensions, list) or not dimensions:
+        raise ValueError("scoring rubric requires dimensions")
+    dimension_keys: set[str] = set()
+    criterion_keys: set[str] = set()
+    total_weight = Decimal("0")
+    for dimension_index, dimension in enumerate(dimensions):
+        if not isinstance(dimension, dict):
+            raise ValueError(f"dimensions[{dimension_index}] must be an object")
+        required = {"dimension_key", "name", "weight", "prompt", "criteria"}
+        if set(dimension) != required:
+            raise ValueError(f"dimensions[{dimension_index}] must contain exactly {sorted(required)}")
+        dimension_key = dimension.get("dimension_key")
+        if not isinstance(dimension_key, str) or not dimension_key or dimension_key in dimension_keys:
+            raise ValueError(f"dimensions[{dimension_index}].dimension_key must be unique and non-empty")
+        dimension_keys.add(dimension_key)
+        if not isinstance(dimension.get("name"), str) or not str(dimension["name"]).strip():
+            raise ValueError(f"dimensions[{dimension_index}].name must be non-empty")
+        if not isinstance(dimension.get("prompt"), str) or not str(dimension["prompt"]).strip():
+            raise ValueError(f"dimensions[{dimension_index}].prompt must be non-empty")
+        weight = dimension.get("weight")
+        if isinstance(weight, bool) or not isinstance(weight, (int, float)) or weight <= 0:
+            raise ValueError(f"dimensions[{dimension_index}].weight must be positive")
+        total_weight += Decimal(str(weight))
+        criteria = dimension.get("criteria")
+        if not isinstance(criteria, list) or not criteria:
+            raise ValueError(f"dimensions[{dimension_index}].criteria must be non-empty")
+        for criterion_index, criterion in enumerate(criteria):
+            required_criterion = {"criterion_key", "name", "max_score", "prompt"}
+            if not isinstance(criterion, dict) or set(criterion) != required_criterion:
+                raise ValueError(
+                    f"dimensions[{dimension_index}].criteria[{criterion_index}] must contain exactly {sorted(required_criterion)}"
+                )
+            criterion_key = criterion.get("criterion_key")
+            if not isinstance(criterion_key, str) or not criterion_key or criterion_key in criterion_keys:
+                raise ValueError(
+                    f"dimensions[{dimension_index}].criteria[{criterion_index}].criterion_key must be unique and non-empty"
+                )
+            criterion_keys.add(criterion_key)
+            if not isinstance(criterion.get("name"), str) or not str(criterion["name"]).strip():
+                raise ValueError(f"criterion {criterion_key}.name must be non-empty")
+            if not isinstance(criterion.get("prompt"), str) or not str(criterion["prompt"]).strip():
+                raise ValueError(f"criterion {criterion_key}.prompt must be non-empty")
+            max_score = criterion.get("max_score")
+            if isinstance(max_score, bool) or not isinstance(max_score, int) or max_score <= 0:
+                raise ValueError(f"criterion {criterion_key}.max_score must be a positive integer")
+    if total_weight != Decimal("1"):
+        raise ValueError("scoring rubric dimension weights must sum to 1")
+
+
+def _form_id(source_text: str, rubric: dict[str, Any]) -> str:
+    source_hash = _sha256_text(source_text)
+    rubric_hash = _sha256_text(_canonical_json(rubric))
+    return f"sha256:{_sha256_text(f'{source_hash}:{rubric_hash}')}"
+
+
+def _review_form(source_text: str, rubric: dict[str, Any]) -> dict[str, Any]:
+    _validate_rubric(rubric)
+    dimension_reviews: list[dict[str, Any]] = []
+    criterion_reviews: list[dict[str, Any]] = []
+    for dimension in rubric["dimensions"]:
+        dimension_reviews.append(
             {
                 "dimension_key": dimension["dimension_key"],
-                "confidence": "0..1, or null only when every criterion is not_applicable",
-                "summary": "non-empty target-language assessment",
-                "criteria": [
-                    {
-                        "criterion_key": criterion["criterion_key"],
-                        "status": "scored | not_applicable",
-                        "score": f"integer 0..{criterion['max_score']}; omit or null for not_applicable",
-                        "reason": "non-empty target-language explanation",
-                        "evidence": [{"line_start": 1, "line_end": 2, "quote": "short source quote"}],
-                    }
-                    for criterion in dimension["criteria"]
-                ],
+                "name": dimension["name"],
+                "configured_weight": dimension["weight"],
+                "prompt": dimension["prompt"],
+                "confidence": None,
+                "summary": "",
             }
-            for dimension in rubric["dimensions"]
-        ],
-    }
-
-
-def _field_guidance() -> dict[str, str]:
+        )
+        for criterion in dimension["criteria"]:
+            criterion_reviews.append(
+                {
+                    "criterion_key": criterion["criterion_key"],
+                    "dimension_key": dimension["dimension_key"],
+                    "name": criterion["name"],
+                    "max_score": criterion["max_score"],
+                    "prompt": criterion["prompt"],
+                    "applicable": True,
+                    "score": None,
+                    "reason": "",
+                    "evidence_quotes": [],
+                }
+            )
     return {
-        "semantic_source": "Use only the normalized source; do not use external evidence.",
-        "coverage": "Submit every dimension and criterion from the rubric exactly once.",
-        "not_applicable": "Use only when a criterion genuinely does not apply to the paper type; weak or missing reporting remains scored.",
-        "runtime_owned": "Do not submit weights, maximum scores, dimension totals, effective weights, or aggregate scores.",
+        "form_id": _form_id(source_text, rubric),
+        "paper_type_choices": [
+            {
+                "paper_type": choice["paper_type"],
+                "description": choice["description"],
+                "selected": False,
+            }
+            for choice in rubric["paper_type_choices"]
+        ],
+        "paper_type_reason": "",
+        "dimension_reviews": dimension_reviews,
+        "criterion_reviews": criterion_reviews,
     }
 
 
-def scoring_contract(connection: Any) -> tuple[dict[str, Any], dict[str, str]]:
+def _review_paths(inputs: dict[str, str], db_path: Path, form_id: str) -> tuple[Path, Path]:
+    tmp_dir = Path(inputs.get("tmp_dir", db_path.parent)).expanduser().resolve()
+    agent_work_dir = (tmp_dir / "agent_work").resolve()
+    digest = form_id.removeprefix("sha256:")
+    return (
+        (agent_work_dir / f"{REVIEW_FORM_PREFIX}.{digest}.json").resolve(),
+        (agent_work_dir / f"{REVIEW_DRAFT_PREFIX}.{digest}.json").resolve(),
+    )
+
+
+def _submit_command(db_path: Path, draft_path: Path) -> str:
+    return (
+        'python scripts/run_analysis.py persist_literature_score '
+        f'--db-path "{db_path}" --payload-file "{draft_path}"'
+    )
+
+
+def scoring_contract(connection: Any, db_path: Path) -> dict[str, Any]:
     inputs = runtime_db.fetch_runtime_inputs(connection)
+    source_doc = runtime_db.fetch_source_document(connection, "normalized_source")
+    if source_doc is None:
+        return {
+            "scoring_review_form_path": "",
+            "scoring_review_draft_path": "",
+            "editable_fields": EDITABLE_FIELDS,
+            "submit_command": "",
+        }
     rubric = _json_read(_rubric_path(inputs))
-    return _payload_shape(rubric), _field_guidance()
+    form = _review_form(str(source_doc["content"]), rubric)
+    form_path, draft_path = _review_paths(inputs, db_path, str(form["form_id"]))
+    return {
+        "scoring_review_form_path": str(form_path),
+        "scoring_review_draft_path": str(draft_path),
+        "editable_fields": EDITABLE_FIELDS,
+        "submit_command": _submit_command(db_path, draft_path),
+    }
 
 
 def prepare_scoring_context(db_path: Path) -> tuple[dict[str, Any], int]:
@@ -129,32 +245,25 @@ def prepare_scoring_context(db_path: Path) -> tuple[dict[str, Any], int]:
                         "next_action": "persist_literature_score",
                         "error": {"code": "score_prerequisite_missing", "message": "persist_digest must complete before scoring in full mode"},
                     }, 2
-            rubric_path = _rubric_path(inputs)
-            rubric = _json_read(rubric_path)
-            tmp_dir = Path(inputs.get("tmp_dir", db_path.parent)).expanduser().resolve()
-            context_path = (tmp_dir / "agent_work" / SCORING_CONTEXT_FILENAME).resolve()
-            context = {
-                "normalized_source_path": str((tmp_dir / "source.md").resolve()),
-                "language": inputs.get("language", "zh-CN"),
-                "score_only": runtime_db.is_score_only(connection),
-                "scoring_rubric_path": str(rubric_path),
-                "rubric": rubric,
-                "payload_contract": _payload_shape(rubric),
-                "evidence_policy": {
-                    "source": "normalized_source only",
-                    "quote_max_chars": 500,
-                    "external_lookup_allowed": False,
-                    "empty_evidence_allowed_for_absence": True,
-                },
-            }
-        context_path.parent.mkdir(parents=True, exist_ok=True)
-        context_path.write_text(json.dumps(context, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            rubric = _json_read(_rubric_path(inputs))
+            form = _review_form(str(source_doc["content"]), rubric)
+            form_path, draft_path = _review_paths(inputs, db_path, str(form["form_id"]))
+        form_path.parent.mkdir(parents=True, exist_ok=True)
+        serialized = json.dumps(form, ensure_ascii=False, indent=2) + "\n"
+        if form_path.exists():
+            if _json_read(form_path) != form:
+                raise ValueError(f"existing scoring review form does not match runtime form: {form_path}")
+        else:
+            form_path.write_text(serialized, encoding="utf-8")
+            form_path.chmod(0o444)
+        if not draft_path.exists():
+            draft_path.write_text(serialized, encoding="utf-8")
         return {
             "db_path": str(db_path),
-            "scoring_context_path": str(context_path),
-            "scoring_rubric_path": str(rubric_path),
-            "allowed_payload_shape": _payload_shape(rubric),
-            "field_guidance": _field_guidance(),
+            "scoring_review_form_path": str(form_path),
+            "scoring_review_draft_path": str(draft_path),
+            "editable_fields": EDITABLE_FIELDS,
+            "submit_command": _submit_command(db_path, draft_path),
             "next_action": "persist_literature_score",
             "error": None,
         }, 0
@@ -165,12 +274,82 @@ def prepare_scoring_context(db_path: Path) -> tuple[dict[str, Any], int]:
         }, 2
 
 
-def _validate_evidence(
+def _review_error(reason: str, field: str, message: str, **details: Any) -> dict[str, Any]:
+    return {"reason": reason, "field": field, "message": message, **details}
+
+
+def _normalize_match_text(value: str) -> str:
+    normalized = unicodedata.normalize("NFKC", value).casefold()
+    without_punctuation = "".join(" " if unicodedata.category(char).startswith("P") else char for char in normalized)
+    return re.sub(r"\s+", " ", without_punctuation).strip()
+
+
+def _ngrams(value: str, size: int) -> Counter[str]:
+    return Counter(value[index : index + size] for index in range(len(value) - size + 1))
+
+
+def _ngram_similarity(left: str, right: str, size: int) -> float:
+    left_grams = _ngrams(left, size)
+    right_grams = _ngrams(right, size)
+    denominator = sum(left_grams.values()) + sum(right_grams.values())
+    if denominator == 0:
+        return 0.0
+    overlap = sum((left_grams & right_grams).values())
+    return (2.0 * overlap) / denominator
+
+
+def _source_windows(source_lines: list[str]) -> list[tuple[int, int, str]]:
+    windows: list[tuple[int, int, str]] = []
+    for start in range(len(source_lines)):
+        for width in range(1, min(5, len(source_lines) - start) + 1):
+            normalized = _normalize_match_text("\n".join(source_lines[start : start + width]))
+            if normalized:
+                windows.append((start + 1, start + width, normalized))
+    return windows
+
+
+def _locate_evidence_quote(quote: str, source_lines: list[str]) -> tuple[dict[str, Any] | None, dict[str, Any]]:
+    normalized_quote = _normalize_match_text(quote)
+    windows = _source_windows(source_lines)
+    exact_matches = [
+        (line_start, line_end)
+        for line_start, line_end, normalized_window in windows
+        if normalized_quote and normalized_quote in normalized_window
+    ]
+    if exact_matches:
+        line_start, line_end = min(exact_matches, key=lambda item: (item[1] - item[0], item[0], item[1]))
+        return {"line_start": line_start, "line_end": line_end, "quote": quote.strip()}, {
+            "best_similarity": 1.0,
+            "candidate_line_start": line_start,
+            "candidate_line_end": line_end,
+        }
+    if len(normalized_quote) < 8 or not windows:
+        return None, {"best_similarity": 0.0, "candidate_line_start": None, "candidate_line_end": None}
+    ngram_size = 2 if len(normalized_quote) <= 11 else 3
+    best_similarity = -1.0
+    best_range: tuple[int, int] | None = None
+    for line_start, line_end, normalized_window in windows:
+        similarity = _ngram_similarity(normalized_quote, normalized_window, ngram_size)
+        if similarity > best_similarity:
+            best_similarity = similarity
+            best_range = (line_start, line_end)
+    assert best_range is not None
+    match_details = {
+        "best_similarity": round(best_similarity, 4),
+        "candidate_line_start": best_range[0],
+        "candidate_line_end": best_range[1],
+    }
+    if best_similarity >= 0.45:
+        return {"line_start": best_range[0], "line_end": best_range[1], "quote": quote.strip()}, match_details
+    return None, match_details
+
+
+def _validate_derived_evidence(
     evidence: object,
     *,
     source_lines: list[str],
     context: str,
-    errors: list[dict[str, str]],
+    errors: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
     if not isinstance(evidence, list):
         errors.append({"field": f"{context}.evidence", "message": "must be an array"})
@@ -178,34 +357,330 @@ def _validate_evidence(
     normalized: list[dict[str, Any]] = []
     for index, item in enumerate(evidence):
         item_context = f"{context}.evidence[{index}]"
-        if not isinstance(item, dict):
-            errors.append({"field": item_context, "message": "must be an object"})
-            continue
-        if set(item) != {"line_start", "line_end", "quote"}:
-            errors.append({"field": item_context, "message": "allowed fields are line_start, line_end, quote"})
+        if not isinstance(item, dict) or set(item) != {"line_start", "line_end", "quote"}:
+            errors.append({"field": item_context, "message": "invalid runtime-derived evidence"})
             continue
         line_start = item.get("line_start")
         line_end = item.get("line_end")
         quote = item.get("quote")
-        if isinstance(line_start, bool) or not isinstance(line_start, int):
-            errors.append({"field": f"{item_context}.line_start", "message": "must be an integer"})
-            continue
-        if isinstance(line_end, bool) or not isinstance(line_end, int):
-            errors.append({"field": f"{item_context}.line_end", "message": "must be an integer"})
-            continue
-        if line_start < 1 or line_end < line_start or line_end > len(source_lines):
-            errors.append({"field": item_context, "message": "line range is outside normalized source"})
-            continue
-        if not isinstance(quote, str) or not quote.strip() or len(quote) > 500:
-            errors.append({"field": f"{item_context}.quote", "message": "must be a non-empty string of at most 500 characters"})
-            continue
-        line_text = _normalize_evidence_text("\n".join(source_lines[line_start - 1 : line_end]))
-        normalized_quote = _normalize_evidence_text(quote)
-        if normalized_quote not in line_text:
-            errors.append({"field": f"{item_context}.quote", "message": "quote does not occur in the declared normalized-source lines"})
+        if (
+            isinstance(line_start, bool)
+            or not isinstance(line_start, int)
+            or isinstance(line_end, bool)
+            or not isinstance(line_end, int)
+            or line_start < 1
+            or line_end < line_start
+            or line_end > len(source_lines)
+            or not isinstance(quote, str)
+            or not quote.strip()
+        ):
+            errors.append({"field": item_context, "message": "invalid runtime-derived evidence"})
             continue
         normalized.append({"line_start": line_start, "line_end": line_end, "quote": quote.strip()})
     return normalized
+
+
+def _validate_object_fields(
+    value: object,
+    *,
+    expected_fields: set[str],
+    field: str,
+    errors: list[dict[str, Any]],
+) -> dict[str, Any] | None:
+    if not isinstance(value, dict):
+        errors.append(_review_error("incomplete_answer", field, "must be an object"))
+        return None
+    missing = sorted(expected_fields.difference(value))
+    extra = sorted(set(value).difference(expected_fields))
+    for name in missing:
+        errors.append(_review_error("incomplete_answer", f"{field}.{name}", "required field is missing"))
+    if extra:
+        errors.append(
+            _review_error(
+                "locked_field_changed",
+                field,
+                "review form contains fields not present in the generated form",
+                unexpected_fields=extra,
+            )
+        )
+    return value
+
+
+def _validate_locked_fields(
+    submitted: dict[str, Any],
+    original: dict[str, Any],
+    *,
+    locked_fields: tuple[str, ...],
+    field: str,
+    errors: list[dict[str, Any]],
+) -> None:
+    for name in locked_fields:
+        if name in submitted and submitted.get(name) != original.get(name):
+            errors.append(
+                _review_error(
+                    "locked_field_changed",
+                    f"{field}.{name}",
+                    "runtime-owned field differs from the generated form",
+                )
+            )
+
+
+def _review_to_score_payload(
+    payload: dict[str, Any],
+    *,
+    original: dict[str, Any],
+    source_text: str,
+) -> tuple[dict[str, Any] | None, list[dict[str, Any]]]:
+    errors: list[dict[str, Any]] = []
+    top_fields = {"form_id", "paper_type_choices", "paper_type_reason", "dimension_reviews", "criterion_reviews"}
+    submitted = _validate_object_fields(payload, expected_fields=top_fields, field="payload", errors=errors)
+    if submitted is None:
+        return None, errors
+
+    choices_value = submitted.get("paper_type_choices")
+    original_choices = original["paper_type_choices"]
+    selected_types: list[str] = []
+    if not isinstance(choices_value, list):
+        errors.append(_review_error("incomplete_answer", "paper_type_choices", "must be an array"))
+    elif len(choices_value) != len(original_choices):
+        errors.append(
+            _review_error(
+                "incomplete_answer",
+                "paper_type_choices",
+                "must preserve every generated paper-type choice",
+                expected_count=len(original_choices),
+                actual_count=len(choices_value),
+            )
+        )
+    else:
+        for index, original_choice in enumerate(original_choices):
+            field = f"paper_type_choices[{index}]"
+            choice = _validate_object_fields(
+                choices_value[index],
+                expected_fields={"paper_type", "description", "selected"},
+                field=field,
+                errors=errors,
+            )
+            if choice is None:
+                continue
+            _validate_locked_fields(
+                choice,
+                original_choice,
+                locked_fields=("paper_type", "description"),
+                field=field,
+                errors=errors,
+            )
+            selected = choice.get("selected")
+            if not isinstance(selected, bool):
+                errors.append(_review_error("invalid_selection", f"{field}.selected", "must be a boolean"))
+            elif selected:
+                selected_types.append(str(original_choice["paper_type"]))
+    if len(selected_types) != 1:
+        errors.append(
+            _review_error(
+                "invalid_selection",
+                "paper_type_choices",
+                "exactly one paper type must be selected",
+                selected_count=len(selected_types),
+            )
+        )
+
+    paper_type_reason = submitted.get("paper_type_reason")
+    if not isinstance(paper_type_reason, str) or not paper_type_reason.strip():
+        errors.append(_review_error("incomplete_answer", "paper_type_reason", "must be a non-empty string"))
+
+    original_criteria = original["criterion_reviews"]
+    criteria_value = submitted.get("criterion_reviews")
+    converted_by_dimension: dict[str, list[dict[str, Any]]] = {
+        str(item["dimension_key"]): [] for item in original["dimension_reviews"]
+    }
+    applicable_by_dimension = {key: False for key in converted_by_dimension}
+    source_lines = source_text.splitlines()
+    if not isinstance(criteria_value, list):
+        errors.append(_review_error("incomplete_answer", "criterion_reviews", "must be an array"))
+    elif len(criteria_value) != len(original_criteria):
+        errors.append(
+            _review_error(
+                "incomplete_answer",
+                "criterion_reviews",
+                "must preserve every generated criterion",
+                expected_count=len(original_criteria),
+                actual_count=len(criteria_value),
+            )
+        )
+    else:
+        for index, original_criterion in enumerate(original_criteria):
+            field = f"criterion_reviews[{index}]"
+            criterion = _validate_object_fields(
+                criteria_value[index],
+                expected_fields={
+                    "criterion_key",
+                    "dimension_key",
+                    "name",
+                    "max_score",
+                    "prompt",
+                    "applicable",
+                    "score",
+                    "reason",
+                    "evidence_quotes",
+                },
+                field=field,
+                errors=errors,
+            )
+            if criterion is None:
+                continue
+            _validate_locked_fields(
+                criterion,
+                original_criterion,
+                locked_fields=("criterion_key", "dimension_key", "name", "max_score", "prompt"),
+                field=field,
+                errors=errors,
+            )
+            criterion_key = str(original_criterion["criterion_key"])
+            dimension_key = str(original_criterion["dimension_key"])
+            applicable = criterion.get("applicable")
+            if not isinstance(applicable, bool):
+                errors.append(_review_error("incomplete_answer", f"{field}.applicable", "must be a boolean"))
+                applicable = False
+            score = criterion.get("score")
+            max_score = int(original_criterion["max_score"])
+            if applicable:
+                applicable_by_dimension[dimension_key] = True
+                if isinstance(score, bool) or not isinstance(score, int) or score < 0 or score > max_score:
+                    errors.append(
+                        _review_error(
+                            "incomplete_answer",
+                            f"{field}.score",
+                            f"must be an integer between 0 and {max_score} when applicable is true",
+                        )
+                    )
+            elif score is not None:
+                errors.append(
+                    _review_error(
+                        "incomplete_answer",
+                        f"{field}.score",
+                        "must be null when applicable is false",
+                    )
+                )
+            reason = criterion.get("reason")
+            if not isinstance(reason, str) or not reason.strip():
+                errors.append(_review_error("incomplete_answer", f"{field}.reason", "must be a non-empty string"))
+            evidence_quotes = criterion.get("evidence_quotes")
+            located_evidence: list[dict[str, Any]] = []
+            if not isinstance(evidence_quotes, list):
+                errors.append(_review_error("incomplete_answer", f"{field}.evidence_quotes", "must be an array"))
+            else:
+                for evidence_index, quote in enumerate(evidence_quotes):
+                    quote_field = f"{field}.evidence_quotes[{evidence_index}]"
+                    if not isinstance(quote, str) or not quote.strip() or len(quote) > 500:
+                        errors.append(
+                            _review_error(
+                                "incomplete_answer",
+                                quote_field,
+                                "must be a non-empty string of at most 500 characters",
+                            )
+                        )
+                        continue
+                    located, match_details = _locate_evidence_quote(quote, source_lines)
+                    if located is None:
+                        errors.append(
+                            _review_error(
+                                "evidence_not_found",
+                                quote_field,
+                                "evidence quote could not be located in the normalized source",
+                                criterion_key=criterion_key,
+                                evidence_index=evidence_index,
+                                **match_details,
+                            )
+                        )
+                    else:
+                        located_evidence.append(located)
+            converted_by_dimension[dimension_key].append(
+                {
+                    "criterion_key": criterion_key,
+                    "status": "scored" if applicable else "not_applicable",
+                    "score": score if applicable and isinstance(score, int) and not isinstance(score, bool) else None,
+                    "reason": reason.strip() if isinstance(reason, str) else "",
+                    "evidence": located_evidence,
+                }
+            )
+
+    original_dimensions = original["dimension_reviews"]
+    dimensions_value = submitted.get("dimension_reviews")
+    converted_dimensions: list[dict[str, Any]] = []
+    if not isinstance(dimensions_value, list):
+        errors.append(_review_error("incomplete_answer", "dimension_reviews", "must be an array"))
+    elif len(dimensions_value) != len(original_dimensions):
+        errors.append(
+            _review_error(
+                "incomplete_answer",
+                "dimension_reviews",
+                "must preserve every generated dimension",
+                expected_count=len(original_dimensions),
+                actual_count=len(dimensions_value),
+            )
+        )
+    else:
+        for index, original_dimension in enumerate(original_dimensions):
+            field = f"dimension_reviews[{index}]"
+            dimension = _validate_object_fields(
+                dimensions_value[index],
+                expected_fields={"dimension_key", "name", "configured_weight", "prompt", "confidence", "summary"},
+                field=field,
+                errors=errors,
+            )
+            if dimension is None:
+                continue
+            _validate_locked_fields(
+                dimension,
+                original_dimension,
+                locked_fields=("dimension_key", "name", "configured_weight", "prompt"),
+                field=field,
+                errors=errors,
+            )
+            dimension_key = str(original_dimension["dimension_key"])
+            summary = dimension.get("summary")
+            if not isinstance(summary, str) or not summary.strip():
+                errors.append(_review_error("incomplete_answer", f"{field}.summary", "must be a non-empty string"))
+            confidence = dimension.get("confidence")
+            if applicable_by_dimension[dimension_key]:
+                if (
+                    isinstance(confidence, bool)
+                    or not isinstance(confidence, (int, float))
+                    or confidence < 0
+                    or confidence > 1
+                ):
+                    errors.append(
+                        _review_error(
+                            "incomplete_answer",
+                            f"{field}.confidence",
+                            "must be a number from 0 to 1 for an active dimension",
+                        )
+                    )
+            elif confidence is not None:
+                errors.append(
+                    _review_error(
+                        "incomplete_answer",
+                        f"{field}.confidence",
+                        "must be null when every dimension criterion is inapplicable",
+                    )
+                )
+            converted_dimensions.append(
+                {
+                    "dimension_key": dimension_key,
+                    "confidence": confidence,
+                    "summary": summary.strip() if isinstance(summary, str) else "",
+                    "criteria": converted_by_dimension[dimension_key],
+                }
+            )
+
+    if errors:
+        return None, errors
+    return {
+        "paper_type": selected_types[0],
+        "paper_type_reason": paper_type_reason.strip(),
+        "dimension_reviews": converted_dimensions,
+    }, []
 
 
 def _normalize_score_payload(
@@ -213,20 +688,18 @@ def _normalize_score_payload(
     *,
     rubric: dict[str, Any],
     source_text: str,
-) -> tuple[dict[str, Any] | None, list[dict[str, str]], list[str]]:
-    errors: list[dict[str, str]] = []
+) -> tuple[dict[str, Any] | None, list[dict[str, Any]], list[str]]:
+    errors: list[dict[str, Any]] = []
     warnings: list[str] = []
     allowed_top_level = {"paper_type", "paper_type_reason", "dimension_reviews"}
-    unknown_top = sorted(set(payload).difference(allowed_top_level).difference(FORBIDDEN_TOP_LEVEL_FIELDS))
+    unknown_top = sorted(set(payload).difference(allowed_top_level))
     if unknown_top:
         errors.append({"field": "payload", "message": f"unknown fields: {unknown_top}"})
-    forbidden_top = sorted(FORBIDDEN_TOP_LEVEL_FIELDS.intersection(payload))
-    if forbidden_top:
-        errors.append({"field": "payload", "message": f"runtime-owned fields are forbidden: {forbidden_top}"})
 
     paper_type = payload.get("paper_type")
-    if paper_type not in PAPER_TYPES:
-        errors.append({"field": "paper_type", "message": f"must be one of {sorted(PAPER_TYPES)}"})
+    paper_types = [str(item["paper_type"]) for item in rubric.get("paper_type_choices", [])]
+    if paper_type not in paper_types:
+        errors.append({"field": "paper_type", "message": f"must be one of {paper_types}"})
     paper_type_reason = payload.get("paper_type_reason")
     if not isinstance(paper_type_reason, str) or not paper_type_reason.strip():
         errors.append({"field": "paper_type_reason", "message": "must be a non-empty string"})
@@ -240,9 +713,7 @@ def _normalize_score_payload(
         if not isinstance(review, dict):
             errors.append({"field": f"dimension_reviews[{index}]", "message": "must be an object"})
             continue
-        unknown_review_fields = sorted(
-            set(review).difference({"dimension_key", "confidence", "summary", "criteria"}).difference(FORBIDDEN_DIMENSION_FIELDS)
-        )
+        unknown_review_fields = sorted(set(review).difference({"dimension_key", "confidence", "summary", "criteria"}))
         if unknown_review_fields:
             errors.append({"field": f"dimension_reviews[{index}]", "message": f"unknown fields: {unknown_review_fields}"})
         key = review.get("dimension_key")
@@ -269,9 +740,6 @@ def _normalize_score_payload(
         review = by_key.get(dimension_key)
         if review is None:
             continue
-        forbidden_dimension = sorted(FORBIDDEN_DIMENSION_FIELDS.intersection(review))
-        if forbidden_dimension:
-            errors.append({"field": f"dimension_reviews.{dimension_key}", "message": f"runtime-owned fields are forbidden: {forbidden_dimension}"})
         summary = review.get("summary")
         if not isinstance(summary, str) or not summary.strip():
             errors.append({"field": f"dimension_reviews.{dimension_key}.summary", "message": "must be a non-empty string"})
@@ -284,9 +752,7 @@ def _normalize_score_payload(
             if not isinstance(criterion, dict):
                 errors.append({"field": f"dimension_reviews.{dimension_key}.criteria[{criterion_index}]", "message": "must be an object"})
                 continue
-            unknown_criterion_fields = sorted(
-                set(criterion).difference({"criterion_key", "status", "score", "reason", "evidence"}).difference(FORBIDDEN_CRITERION_FIELDS)
-            )
+            unknown_criterion_fields = sorted(set(criterion).difference({"criterion_key", "status", "score", "reason", "evidence"}))
             if unknown_criterion_fields:
                 errors.append(
                     {
@@ -319,16 +785,18 @@ def _normalize_score_payload(
             criterion = criteria_by_key.get(criterion_key)
             if criterion is None:
                 continue
-            forbidden_criterion = sorted(FORBIDDEN_CRITERION_FIELDS.intersection(criterion))
-            if forbidden_criterion:
-                errors.append({"field": f"dimension_reviews.{dimension_key}.criteria.{criterion_key}", "message": f"runtime-owned fields are forbidden: {forbidden_criterion}"})
             status = criterion.get("status")
-            if status not in CRITERION_STATUSES:
-                errors.append({"field": f"dimension_reviews.{dimension_key}.criteria.{criterion_key}.status", "message": f"must be one of {sorted(CRITERION_STATUSES)}"})
+            if status not in {"scored", "not_applicable"}:
+                errors.append(
+                    {
+                        "field": f"dimension_reviews.{dimension_key}.criteria.{criterion_key}.status",
+                        "message": "must be scored or not_applicable",
+                    }
+                )
             reason = criterion.get("reason")
             if not isinstance(reason, str) or not reason.strip():
                 errors.append({"field": f"dimension_reviews.{dimension_key}.criteria.{criterion_key}.reason", "message": "must be a non-empty string"})
-            evidence = _validate_evidence(
+            evidence = _validate_derived_evidence(
                 criterion.get("evidence", []),
                 source_lines=source_lines,
                 context=f"dimension_reviews.{dimension_key}.criteria.{criterion_key}",
@@ -563,20 +1031,87 @@ def persist_literature_score(db_path: Path, payload: dict[str, Any]) -> tuple[di
                 }, 2
         try:
             rubric = _json_read(_rubric_path(inputs))
+            expected_form = _review_form(str(source_doc["content"]), rubric)
         except (OSError, ValueError, json.JSONDecodeError) as exc:
             return {
                 "next_action": "persist_literature_score",
                 "error": {"code": "scoring_rubric_invalid", "message": str(exc)},
             }, 2
-        score, errors, warnings = _normalize_score_payload(payload, rubric=rubric, source_text=str(source_doc["content"]))
-        if errors or score is None:
-            runtime_db.set_runtime_error(connection, "score_payload_invalid", "literature score payload failed validation", "stage_4_scoring")
+        form_path, _ = _review_paths(inputs, db_path, str(expected_form["form_id"]))
+        review_errors: list[dict[str, Any]] = []
+        converted_payload: dict[str, Any] | None = None
+        if payload.get("form_id") != expected_form["form_id"]:
+            review_errors.append(
+                _review_error(
+                    "stale_form",
+                    "form_id",
+                    "review form does not match the current normalized source and rubric snapshot",
+                    expected_form_id=expected_form["form_id"],
+                    submitted_form_id=payload.get("form_id"),
+                )
+            )
+        elif not form_path.exists():
+            review_errors.append(
+                _review_error(
+                    "stale_form",
+                    "form_id",
+                    "prepared scoring review form is missing; run prepare again",
+                    expected_form_id=expected_form["form_id"],
+                )
+            )
+        else:
+            try:
+                original_form = _json_read(form_path)
+            except (OSError, ValueError, json.JSONDecodeError) as exc:
+                review_errors.append(
+                    _review_error(
+                        "stale_form",
+                        "form_id",
+                        "prepared scoring review form is unreadable",
+                        detail=str(exc),
+                    )
+                )
+            else:
+                if original_form != expected_form:
+                    review_errors.append(
+                        _review_error(
+                            "locked_field_changed",
+                            "scoring_review_form_path",
+                            "immutable scoring review form differs from the runtime-generated form",
+                        )
+                    )
+                else:
+                    converted_payload, conversion_errors = _review_to_score_payload(
+                        payload,
+                        original=original_form,
+                        source_text=str(source_doc["content"]),
+                    )
+                    review_errors.extend(conversion_errors)
+        if review_errors:
+            runtime_db.set_runtime_error(connection, "score_review_invalid", "scoring review form failed validation", "stage_4_scoring")
             connection.commit()
             return {
                 "next_action": "persist_literature_score",
                 "error": {
-                    "code": "score_payload_invalid",
-                    "message": "literature score payload failed validation",
+                    "code": "score_review_invalid",
+                    "message": "scoring review form failed validation",
+                    "details": review_errors,
+                },
+            }, 2
+        assert converted_payload is not None
+        score, errors, warnings = _normalize_score_payload(
+            converted_payload,
+            rubric=rubric,
+            source_text=str(source_doc["content"]),
+        )
+        if errors or score is None:
+            runtime_db.set_runtime_error(connection, "score_review_invalid", "scoring review form failed normalization", "stage_4_scoring")
+            connection.commit()
+            return {
+                "next_action": "persist_literature_score",
+                "error": {
+                    "code": "score_review_invalid",
+                    "message": "scoring review form failed normalization",
                     "details": errors,
                 },
             }, 2

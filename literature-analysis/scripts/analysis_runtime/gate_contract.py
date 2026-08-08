@@ -50,7 +50,7 @@ def _execution_note(next_action: str) -> str:
         "init_runtime": "Initialize runtime paths, templates, DB state, source hash, and normalized source.",
         "persist_analysis_plan": "Persist outline_nodes, references_scope, citation_scope, source_identity, and literature_matching_metadata in one structured payload.",
         "persist_digest": "Persist structured digest_slots, section_summaries, and optional representative_image only.",
-        "persist_literature_score": "Prepare the scoring context or persist one complete evidence-backed rubric review; runtime computes all weights and aggregate scores.",
+        "persist_literature_score": "Prepare or submit the runtime-generated scoring review draft; edit only the listed semantic fields and let runtime locate evidence and compute all scores.",
         "persist_references": "Prepare references and run exact-identifier public API resolution; delegate only unresolved reference core and metadata evidence batches, then merge them with API-resolved items through one main-agent writer.",
         "persist_citation_analysis": "Prepare or persist citation semantics, timeline, summary, and basis from DB-backed citation workset items.",
         "finalize_outputs": "Render public artifacts from DB state and runtime templates; do not submit business payload.",
@@ -65,7 +65,7 @@ def _instruction_refs(next_action: str) -> list[dict[str, str]]:
 
 def _allowed_payload_shape(next_action: str, connection: Any) -> dict[str, Any] | None:
     if next_action == "persist_literature_score":
-        return scoring.scoring_contract(connection)[0]
+        return None
     if next_action == "persist_references":
         return {
             "core_submit": {
@@ -117,7 +117,7 @@ def _allowed_payload_shape(next_action: str, connection: Any) -> dict[str, Any] 
 
 def _field_guidance(next_action: str, connection: Any) -> dict[str, str] | None:
     if next_action == "persist_literature_score":
-        return scoring.scoring_contract(connection)[1]
+        return None
     if next_action == "persist_references":
         return {
             "reference_key": "Stable key from reference_core_batch_paths files.",
@@ -218,4 +218,6 @@ def status_payload(db_path: Path) -> dict[str, Any]:
             "receipts": sorted(runtime_db.fetch_action_receipts(connection)),
             "runtime_backend": "analysis_runtime.gate_contract",
         }
+        if next_action == "persist_literature_score":
+            payload.update(scoring.scoring_contract(connection, db_path))
     return payload
