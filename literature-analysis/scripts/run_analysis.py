@@ -125,6 +125,7 @@ def handle_init_runtime(args: argparse.Namespace) -> int:
         language=args.language or "zh-CN",
         model=args.model or "",
         score_only=bool(args.score_only),
+        identifier=args.identifier or "",
     )
     runtime.persist_default_templates(db_path=db_path, runtime_paths=runtime_paths, language=args.language or "zh-CN")
     normalize_payload, code = stages.normalize_source(
@@ -227,8 +228,10 @@ def handle_persist_references(args: argparse.Namespace) -> int:
     if not args.payload_file:
         result, code = references.prepare_reference_workset(db_path)
         if code == 0:
-            result.update({"db_path": str(db_path), "next_action": "persist_references"})
-            result = references.enrich_reference_workset_payload(result)
+            result["db_path"] = str(db_path)
+            result.setdefault("next_action", "persist_references")
+            if result.get("next_action") == "persist_references":
+                result = references.enrich_reference_workset_payload(result)
         _print(result)
         return code
 
@@ -290,6 +293,7 @@ def build_parser() -> argparse.ArgumentParser:
     init.add_argument("--db-path", default="")
     init.add_argument("--model", default="")
     init.add_argument("--score-only", action="store_true")
+    init.add_argument("--identifier", default="")
     init.set_defaults(handler=handle_init_runtime)
 
     plan = subparsers.add_parser("persist_analysis_plan")

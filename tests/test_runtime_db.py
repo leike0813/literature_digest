@@ -29,6 +29,72 @@ class RuntimeDbTests(unittest.TestCase):
                 self.assertEqual(state["current_substep"], "confirm_runtime_paths")
                 self.assertEqual(state["next_action"], "confirm_runtime_paths")
 
+    def test_source_identity_and_reference_api_audit_round_trip(self):
+        runtime_db = load_runtime_db_module()
+        with tempfile.TemporaryDirectory() as td:
+            db_path = Path(td) / ".literature_analysis_tmp" / "literature_analysis.db"
+            runtime_db.initialize_database(db_path)
+            with runtime_db.connect_db(db_path) as connection:
+                runtime_db.store_source_identity(
+                    connection,
+                    {
+                        "canonical_identifier": "DOI:10.1000/source",
+                        "identifier_kind": "doi",
+                        "identifier_value": "10.1000/source",
+                        "evidence_quote": "doi:10.1000/source",
+                        "line_start": 2,
+                        "line_end": 2,
+                    },
+                )
+                runtime_db.store_reference_api_fetch(
+                    connection,
+                    canonical_identifier="DOI:10.1000/source",
+                    provider="crossref",
+                    status="succeeded",
+                    http_status=200,
+                    response={"reference": [{"key": "r1"}]},
+                    response_sha256="abc123",
+                    error=None,
+                )
+                runtime_db.store_reference_api_resolutions(
+                    connection,
+                    [
+                        {
+                            "entry_index": 0,
+                            "status": "accepted",
+                            "reason": "matched",
+                            "providers": ["crossref"],
+                            "provider_record_ids": ["r1"],
+                            "match_basis": "title",
+                            "match_score": 0.99,
+                            "item": {"ref_index": 0, "title": "Paper"},
+                        }
+                    ],
+                )
+                connection.commit()
+
+                identity = runtime_db.fetch_source_identity(connection)
+                fetch = runtime_db.fetch_reference_api_fetch(
+                    connection,
+                    canonical_identifier="DOI:10.1000/source",
+                    provider="crossref",
+                )
+                resolutions = runtime_db.fetch_reference_api_resolutions(connection)
+
+                self.assertEqual(identity["identifier_value"], "10.1000/source")
+                self.assertEqual(fetch["response"]["reference"][0]["key"], "r1")
+                self.assertEqual(resolutions[0]["item"]["title"], "Paper")
+
+                runtime_db.clear_reference_api_resolutions(connection)
+                self.assertEqual(runtime_db.fetch_reference_api_resolutions(connection), [])
+                self.assertIsNotNone(
+                    runtime_db.fetch_reference_api_fetch(
+                        connection,
+                        canonical_identifier="DOI:10.1000/source",
+                        provider="crossref",
+                    )
+                )
+
     def test_runtime_diagnostics_are_active_only_and_aggregated(self):
         runtime_db = load_runtime_db_module()
         with tempfile.TemporaryDirectory() as td:

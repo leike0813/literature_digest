@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from . import deterministic_core
+from . import reference_api
 from . import runtime_db
 
 
@@ -43,6 +44,7 @@ def initialize_runtime(
     language: str,
     model: str,
     score_only: bool = False,
+    identifier: str = "",
 ) -> AnalysisRuntimePaths:
     runtime_paths = AnalysisRuntimePaths(
         working_dir=working_dir.resolve(),
@@ -64,6 +66,25 @@ def initialize_runtime(
             runtime_db.set_runtime_input(connection, key, str(value))
         runtime_db.set_runtime_input(connection, "language", language or "zh-CN")
         runtime_db.set_runtime_input(connection, "score_only", "true" if score_only else "false")
+        runtime_db.set_runtime_input(connection, "identifier", identifier.strip())
+        normalized_identifier = reference_api.normalize_identifier(identifier)
+        runtime_db.set_runtime_input(
+            connection,
+            "identifier_canonical",
+            normalized_identifier.canonical if normalized_identifier is not None else "",
+        )
+        runtime_db.set_runtime_input(
+            connection,
+            "identifier_kind",
+            normalized_identifier.kind if normalized_identifier is not None else "",
+        )
+        runtime_db.set_runtime_input(
+            connection,
+            "identifier_value",
+            normalized_identifier.value if normalized_identifier is not None else "",
+        )
+        if identifier.strip() and normalized_identifier is None:
+            runtime_db.add_runtime_warning_once(connection, "invalid_identifier: falling back to analysis-plan source identity")
         runtime_db.set_runtime_input(connection, "input_hash", deterministic_core.sha256_path(source_path.resolve()) if source_path.exists() else "")
         runtime_db.set_runtime_input(connection, "generated_at", runtime_db.utc_now_iso())
         if model:
@@ -154,6 +175,12 @@ def source_profile(db_path: Path) -> dict[str, object]:
         "source_path": inputs.get("source_path", ""),
         "language": inputs.get("language", "zh-CN"),
         "score_only": inputs.get("score_only", "false").strip().lower() == "true",
+        "identifier": inputs.get("identifier_canonical", ""),
+        "identifier_status": (
+            "valid"
+            if inputs.get("identifier_canonical")
+            else ("invalid" if inputs.get("identifier") else "absent")
+        ),
         "input_hash": inputs.get("input_hash", ""),
         "source_type": metadata.get("source_type", ""),
         "conversion_backend": metadata.get("conversion_backend", ""),

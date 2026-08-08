@@ -17,6 +17,8 @@ from typing import Any
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from jsonschema import validate  # type: ignore[import-untyped]
 
+from . import reference_api
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 if hasattr(sys.stderr, "reconfigure"):
@@ -35,6 +37,8 @@ from .runtime_db import (  # noqa: E402
     build_public_output_payload,
     build_reference_parse_audit_context,
     build_references_render_context,
+    clear_reference_api_fetches,
+    clear_reference_api_resolutions,
     clear_literature_score,
     connect_db,
     count_citation_mentions,
@@ -58,6 +62,7 @@ from .runtime_db import (  # noqa: E402
     fetch_reference_preprocess_quality,
     fetch_runtime_inputs,
     fetch_section_scope,
+    fetch_source_identity,
     fetch_source_document,
     fetch_workflow_state,
     initialize_database,
@@ -93,6 +98,7 @@ from .runtime_db import (  # noqa: E402
     store_reference_parse_candidates,
     store_reference_preprocess_quality,
     store_section_scope,
+    store_source_identity,
     store_source_document,
     update_reference_metadata_enrichment_statuses,
     is_reference_extraction_abandoned,
@@ -435,6 +441,7 @@ ACTION_RECEIPT_INVALIDATIONS: dict[str, list[str]] = {
     "persist_digest": ["render_and_validate"],
     "persist_literature_score": ["render_and_validate", "render_score_only"],
     "prepare_references_workset": [
+        "resolve_reference_api",
         "persist_reference_entry_splits",
         "decide_reference_extraction",
         "persist_references",
@@ -447,6 +454,7 @@ ACTION_RECEIPT_INVALIDATIONS: dict[str, list[str]] = {
         "render_and_validate",
     ],
     "persist_reference_entry_splits": [
+        "resolve_reference_api",
         "decide_reference_extraction",
         "persist_references",
         "prepare_reference_metadata_enrichment",
@@ -1465,6 +1473,53 @@ def _validate_scope_payload(scope_obj: object, scope_name: str) -> tuple[dict[st
         "line_start": line_start,
         "line_end": line_end,
         "metadata": dict(metadata),
+    }, None
+
+
+def _validate_source_identity_payload(
+    identity_obj: object,
+    *,
+    source_content: str,
+    references_scope: dict[str, Any],
+) -> tuple[dict[str, Any] | None, str | None]:
+    if identity_obj is None:
+        return None, None
+    if not isinstance(identity_obj, dict):
+        return None, "source_identity must be object or null"
+    required = ("identifier", "evidence_quote", "line_start", "line_end")
+    missing = [key for key in required if key not in identity_obj]
+    if missing:
+        return None, f"source_identity missing required keys: {', '.join(missing)}"
+    identifier = reference_api.normalize_identifier(identity_obj.get("identifier"))
+    if identifier is None:
+        return None, "source_identity.identifier must be a DOI or arXiv identifier"
+    evidence_quote = str(identity_obj.get("evidence_quote", "")).strip()
+    if not evidence_quote:
+        return None, "source_identity.evidence_quote must be non-empty string"
+    try:
+        line_start = int(identity_obj["line_start"])
+        line_end = int(identity_obj["line_end"])
+    except (TypeError, ValueError):
+        return None, "source_identity.line_start/line_end must be integers"
+    lines = source_content.splitlines()
+    if line_start < 1 or line_end < line_start or line_end > len(lines):
+        return None, "source_identity line range is outside normalized_source"
+    references_start = int(references_scope["line_start"])
+    references_end = int(references_scope["line_end"])
+    if line_start <= references_end and line_end >= references_start:
+        return None, "source_identity evidence must be outside references_scope"
+    evidence_text = "\n".join(lines[line_start - 1 : line_end])
+    if unicodedata.normalize("NFKC", evidence_quote).casefold() not in unicodedata.normalize("NFKC", evidence_text).casefold():
+        return None, "source_identity.evidence_quote must occur in the submitted line range"
+    if not reference_api.identifier_in_text(identifier, evidence_quote):
+        return None, "source_identity.evidence_quote must contain the submitted identifier"
+    return {
+        "canonical_identifier": identifier.canonical,
+        "identifier_kind": identifier.kind,
+        "identifier_value": identifier.value,
+        "evidence_quote": evidence_quote,
+        "line_start": line_start,
+        "line_end": line_end,
     }, None
 
 
@@ -2657,6 +2712,13 @@ def _detect_reference_block_suspicions(
             for member_block_index in member_block_indexes:
                 member_block = block_by_index[member_block_index]
                 proposed.extend([str(item) for item in member_block.get("proposed_entries", []) if str(item)])
+            entry_indexes = sorted(
+                {
+                    int(entry["entry_index"])
+                    for member_block_index in member_block_indexes
+                    for entry in entries_by_block.get(member_block_index, [])
+                }
+            )
             suspicions.append(
                 {
                     "block_index": block_index,
@@ -2667,6 +2729,7 @@ def _detect_reference_block_suspicions(
                     "proposed_entries": proposed,
                     "suspicion_kind": suspicion_kind or "mixed_or_ambiguous_boundary",
                     "member_block_indexes": member_block_indexes,
+                    "entry_indexes": entry_indexes,
                 }
             )
             consumed_blocks.update(member_block_indexes)
@@ -2699,6 +2762,9 @@ def _replace_reference_workset(
     candidates: list[dict[str, Any]],
     batches: list[dict[str, Any]],
 ) -> None:  # type: ignore[no-untyped-def]
+    clear_reference_api_resolutions(connection)
+    store_reference_items(connection, [])
+    connection.execute("DELETE FROM reference_metadata_enrichment_workset")
     store_reference_entries(connection, entries)
     connection.execute("DELETE FROM reference_batches")
     for batch in batches:
@@ -2929,6 +2995,7 @@ def _build_reference_workset_export(
                 "reasons": list(block.get("reasons", [])),
                 "proposed_entries": list(block.get("proposed_entries", [])),
                 "suspicion_kind": str(block.get("suspicion_kind", "")),
+                "entry_indexes": [int(item) for item in block.get("entry_indexes", [])],
             }
             for block in suspect_blocks
         ],
@@ -4256,6 +4323,14 @@ def _classify_reference_quality(item: dict[str, Any]) -> list[dict[str, Any]]:
     return issues
 
 
+def reference_hard_quality_reason_codes(item: dict[str, Any]) -> list[str]:
+    return [
+        str(issue["reason_code"])
+        for issue in _classify_reference_quality(item)
+        if issue["severity"] == REFERENCE_QUALITY_HARD_BLOCK
+    ]
+
+
 def _reference_quality_recommendation(reason_code: str) -> str:
     recommendations = {
         "empty_title": "Recover the cited work title from the raw reference or prepared candidates in its original language/script; if impossible, omit this row from the next persist_references payload.",
@@ -5352,7 +5427,24 @@ def _handle_persist_outline_and_scopes(args: argparse.Namespace) -> int:
     )
 
     with connect_db(db_path) as connection:
-        first_error = outline_error or references_scope_error or citation_scope_error or literature_matching_metadata_error
+        source_doc = fetch_source_document(connection, "normalized_source")
+        if "source_identity" not in payload:
+            source_identity, source_identity_error = None, "source_identity must be explicitly present as object or null"
+        elif source_doc is None or references_scope is None:
+            source_identity, source_identity_error = None, "source_identity validation requires normalized_source and references_scope"
+        else:
+            source_identity, source_identity_error = _validate_source_identity_payload(
+                payload.get("source_identity"),
+                source_content=str(source_doc["content"]),
+                references_scope=references_scope,
+            )
+        first_error = (
+            outline_error
+            or references_scope_error
+            or citation_scope_error
+            or literature_matching_metadata_error
+            or source_identity_error
+        )
         if (
             first_error is not None
             or outline_nodes is None
@@ -5364,6 +5456,13 @@ def _handle_persist_outline_and_scopes(args: argparse.Namespace) -> int:
             connection.commit()
             print(json.dumps({"error": {"code": "citation_scope_failed", "message": first_error or "invalid outline/scope payload"}}, ensure_ascii=False))
             return 2
+        existing_identity = fetch_source_identity(connection)
+        existing_canonical = str(existing_identity.get("canonical_identifier", "")) if existing_identity else ""
+        new_canonical = str(source_identity.get("canonical_identifier", "")) if source_identity else ""
+        if existing_canonical != new_canonical:
+            clear_reference_api_fetches(connection)
+            clear_reference_api_resolutions(connection)
+        store_source_identity(connection, source_identity)
         store_outline_nodes(connection, outline_nodes)
         store_literature_matching_metadata(connection, literature_matching_metadata)
         store_section_scope(
@@ -5399,6 +5498,7 @@ def _handle_persist_outline_and_scopes(args: argparse.Namespace) -> int:
                 "stored_outline_nodes": len(outline_nodes),
                 "references_scope": references_scope,
                 "citation_scope": citation_scope,
+                "source_identity": source_identity,
                 "literature_matching_metadata": literature_matching_metadata,
                 "error": None,
             },
@@ -5567,6 +5667,7 @@ def _handle_prepare_references_workset(args: argparse.Namespace) -> int:
                         "reasons": block["reasons"],
                         "proposed_entries": block["proposed_entries"],
                         "suspicion_kind": block["suspicion_kind"],
+                        "entry_indexes": [int(item) for item in block.get("entry_indexes", [])],
                     }
                     for block in suspect_blocks
                 ],
@@ -5590,6 +5691,7 @@ def _reference_review_generation_id(suspect_blocks: list[dict[str, Any]]) -> str
                 "block_index": block.get("block_index"),
                 "source_text": block.get("source_text"),
                 "member_block_indexes": block.get("member_block_indexes", []),
+                "entry_indexes": block.get("entry_indexes", []),
             }
             for block in suspect_blocks
         ],
@@ -6585,13 +6687,44 @@ def _handle_prepare_reference_metadata_enrichment(args: argparse.Namespace) -> i
             print(json.dumps({"workset_path": "", "item_count": 0, "skipped": True, "error": None}, ensure_ascii=False))
             return 0
 
-        reference_items = fetch_reference_items(connection)
-        if not reference_items:
+        all_reference_items = fetch_reference_items(connection)
+        if not all_reference_items:
             message = "reference_items missing; persist_references must run before metadata evidence review"
             set_runtime_error(connection, "references_stage_failed", message, "stage_5_references")
             connection.commit()
             print(json.dumps({"workset_path": "", "error": {"code": "references_stage_failed", "message": message}}, ensure_ascii=False))
             return 2
+        reference_items = [
+            item
+            for item in all_reference_items
+            if str(item.get("resolution_source", "")) != "reference_api"
+        ]
+        if not reference_items:
+            store_reference_metadata_enrichment_workset(connection, [])
+            _set_success_state(
+                connection,
+                stage="stage_6_citation",
+                substep="prepare_citation_workset",
+                next_action="prepare_citation_workset",
+                status="all references resolved by public API; metadata evidence review skipped",
+            )
+            _record_action_receipt(
+                connection,
+                action_name="prepare_reference_metadata_enrichment",
+                stage="stage_5_references",
+                status="skipped",
+                metadata={"reason": "all_references_api_resolved", "item_count": 0},
+            )
+            _record_action_receipt(
+                connection,
+                action_name="persist_reference_metadata_enrichment",
+                stage="stage_5_references",
+                status="skipped",
+                metadata={"reason": "all_references_api_resolved", "item_count": 0},
+            )
+            connection.commit()
+            print(json.dumps({"workset_path": "", "item_count": 0, "skipped": True, "error": None}, ensure_ascii=False))
+            return 0
 
         inputs = fetch_runtime_inputs(connection)
         runtime_paths = _runtime_paths_from_inputs(inputs, fallback_db_path=db_path)

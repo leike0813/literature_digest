@@ -48,10 +48,10 @@ def _local_next_action(raw_next_action: str) -> str:
 def _execution_note(next_action: str) -> str:
     notes = {
         "init_runtime": "Initialize runtime paths, templates, DB state, source hash, and normalized source.",
-        "persist_analysis_plan": "Persist outline_nodes, references_scope, citation_scope, and literature_matching_metadata in one structured payload.",
+        "persist_analysis_plan": "Persist outline_nodes, references_scope, citation_scope, source_identity, and literature_matching_metadata in one structured payload.",
         "persist_digest": "Persist structured digest_slots, section_summaries, and optional representative_image only.",
         "persist_literature_score": "Prepare the scoring context or persist one complete evidence-backed rubric review; runtime computes all weights and aggregate scores.",
-        "persist_references": "Prepare references, delegate using returned reference core and metadata evidence batch paths, submit core reference_reviews first, then submit metadata_evidence_reviews; keep one main-agent writer.",
+        "persist_references": "Prepare references and run exact-identifier public API resolution; delegate only unresolved reference core and metadata evidence batches, then merge them with API-resolved items through one main-agent writer.",
         "persist_citation_analysis": "Prepare or persist citation semantics, timeline, summary, and basis from DB-backed citation workset items.",
         "finalize_outputs": "Render public artifacts from DB state and runtime templates; do not submit business payload.",
     }
@@ -121,13 +121,14 @@ def _field_guidance(next_action: str, connection: Any) -> dict[str, str] | None:
     if next_action == "persist_references":
         return {
             "reference_key": "Stable key from reference_core_batch_paths files.",
+            "api_resolved_items": "Runtime-owned items are already persisted and excluded from reference_core_required_coverage_keys; do not resubmit or modify them.",
             "selected_parse_pattern": "Required parse hypothesis; use only allowed_parse_patterns from the assigned reference core batch file.",
             "core_submit": "Submit reference_reviews[] first. Do not include metadata in reference_reviews.",
             "metadata_evidence_submit": "After core submit returns metadata_evidence_batch_paths, submit metadata_evidence_reviews[] covering every package in those batch files.",
             "metadata_evidence_status": "metadata_evidence_reviews[].status must be fields_extracted, existing_fields_confirmed, or no_local_evidence.",
             "canonical_metadata_fields": ", ".join(CANONICAL_METADATA_FIELDS),
             "forbidden_fields": "Do not submit items, selected_pattern, ref_index, raw, confidence, metadata evidence workset internals, or reference_reviews[].metadata.",
-            "evidence_policy": "Reference Metadata Evidence Review is not metadata discovery. external_lookup_allowed=false; do not use web search, Crossref, arXiv, Google Scholar, Zotero, Semantic Scholar, DOI resolvers, or external databases.",
+            "evidence_policy": "Reference Metadata Evidence Review uses only the local evidence in its assigned batch. Public API access, response validation, matching, and caching belong to runtime.",
             "subagents": "Default to subagent delegation when reference_core_batch_paths or metadata_evidence_batch_paths exist and subagents are available. Runtime owns batch splitting; pass each batch JSON file path directly to a subagent. Subagents draft only from local batch evidence; main agent is the single DB writer, keeps stable keys unchanged, merges one payload per submit round, and records a reason if delegation is skipped.",
         }
     if next_action == "persist_citation_analysis":

@@ -93,6 +93,7 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
                 "line_end": references_line - 1,
                 "metadata": {"selection_reason": "fixture", "covered_sections": ["Introduction"]},
             },
+            "source_identity": None,
             "literature_matching_metadata": {
                 "schema": "literature_matching_metadata.v1",
                 "key_terms": ["literature analysis"],
@@ -217,6 +218,25 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
         if not path:
             return []
         return list(self.read_json(path).get("split_review_packages", []))
+
+    def seed_reference_api_fetch(self, db_path: str, provider: str, status: str, response: object) -> None:
+        scripts_path = str(ANALYSIS_SCRIPTS)
+        if scripts_path not in sys.path:
+            sys.path.insert(0, scripts_path)
+        from analysis_runtime import runtime_db  # noqa: PLC0415
+
+        with runtime_db.connect_db(Path(db_path)) as connection:
+            runtime_db.store_reference_api_fetch(
+                connection,
+                canonical_identifier="DOI:10.1000/source",
+                provider=provider,
+                status=status,
+                http_status=200,
+                response=response,
+                response_sha256=f"fixture-{provider}",
+                error=None,
+            )
+            connection.commit()
 
     def prepare_single_reference_runtime(self, root: Path, lines: list[str]) -> str:
         source = root / "paper.md"
@@ -431,6 +451,285 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             for batch_path in citation_payload["citation_batch_paths"]:
                 batch = self.read_json(batch_path)
                 self.assertLessEqual(len(batch["citation_work_packages"]), 10)
+
+    def test_reference_api_partial_resolution_limits_core_and_metadata_worksets(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "The bibliography is used for a runtime test.",
+                "# References",
+                "[1] Smith. A Complete API Reference. 2020.",
+                "[2] Doe. A Locally Reviewed Reference. 2021.",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(
+                    [
+                        "init_runtime",
+                        "--source-path",
+                        str(source),
+                        "--working-dir",
+                        str(root),
+                        "--identifier",
+                        "10.1000/source",
+                    ]
+                ).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
+            digest_path = root / "digest_payload.json"
+            self.write_json(digest_path, self.digest_payload())
+            self.assertEqual(
+                self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode,
+                0,
+            )
+            self.persist_score(root, db_path)
+            self.seed_reference_api_fetch(
+                db_path,
+                "crossref",
+                "succeeded",
+                {
+                    "reference": [
+                        {
+                            "key": "api-1",
+                            "article-title": "A Complete API Reference",
+                            "author": "Smith",
+                            "year": "2020",
+                            "journal-title": "API Journal",
+                        }
+                    ]
+                },
+            )
+            self.seed_reference_api_fetch(db_path, "semantic_scholar", "empty", [{"data": []}])
+
+            prepared_result = self.run_cmd(["persist_references", "--db-path", db_path])
+            self.assertEqual(prepared_result.returncode, 0, prepared_result.stderr.decode("utf-8", errors="replace"))
+            prepared = json.loads(prepared_result.stdout.decode("utf-8"))
+            self.assertEqual(prepared["reference_api"]["accepted_count"], 1)
+            self.assertEqual(prepared["reference_api"]["unresolved_count"], 1)
+            self.assertEqual(prepared["reference_core_required_coverage_keys"], ["reference-1"])
+            self.assertTrue(Path(prepared["reference_api_audit_path"]).exists())
+
+            package = self.reference_packages_from_payload(prepared)[0]
+            refs_path = root / "refs_payload.json"
+            self.write_json(
+                refs_path,
+                {
+                    "reference_reviews": [
+                        {
+                            "reference_key": package["reference_key"],
+                            "selected_parse_pattern": package["recommended_parse_pattern"],
+                            "authors": ["Doe"],
+                            "title": "A Locally Reviewed Reference",
+                            "publication_year": 2021,
+                        }
+                    ]
+                },
+            )
+            core_result = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(refs_path)])
+            self.assertEqual(core_result.returncode, 0, core_result.stderr.decode("utf-8", errors="replace"))
+            core = json.loads(core_result.stdout.decode("utf-8"))
+            self.assertEqual(core["metadata_evidence_required_coverage_keys"], ["reference-1"])
+
+            with sqlite3.connect(db_path) as connection:
+                rows = connection.execute("SELECT ref_index, metadata_json FROM reference_items ORDER BY ref_index").fetchall()
+            self.assertEqual([row[0] for row in rows], [0, 1])
+            self.assertEqual(json.loads(rows[0][1])["resolution_source"], "reference_api")
+            self.assertNotEqual(json.loads(rows[1][1]).get("resolution_source"), "reference_api")
+
+    def test_invalid_parameter_identifier_falls_back_to_grounded_plan_identity(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# A Paper With Identity",
+                "DOI: 10.1000/source",
+                "# References",
+                "[1] Smith. A Complete API Reference. 2020.",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(
+                    [
+                        "init_runtime",
+                        "--source-path",
+                        str(source),
+                        "--working-dir",
+                        str(root),
+                        "--identifier",
+                        "not-a-stable-identifier",
+                    ]
+                ).stdout.decode("utf-8")
+            )
+            self.assertEqual(init["source_profile"]["identifier_status"], "invalid")
+            db_path = init["db_path"]
+            plan = self.outline_payload(lines)
+            plan["source_identity"] = {
+                "identifier": "doi:10.1000/source",
+                "evidence_quote": "DOI: 10.1000/source",
+                "line_start": 2,
+                "line_end": 2,
+            }
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, plan)
+            persisted = self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)])
+            self.assertEqual(persisted.returncode, 0, persisted.stderr.decode("utf-8", errors="replace"))
+            self.seed_reference_api_fetch(
+                db_path,
+                "crossref",
+                "succeeded",
+                {
+                    "reference": [
+                        {
+                            "key": "api-1",
+                            "article-title": "A Complete API Reference",
+                            "author": "Smith",
+                            "year": "2020",
+                        }
+                    ]
+                },
+            )
+            prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+            self.assertEqual(prepared["reference_api"]["identifier_source"], "analysis_plan")
+            self.assertEqual(prepared["reference_api"]["identifier"], "DOI:10.1000/source")
+
+    def test_reference_api_complete_resolution_skips_agent_reference_rounds(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "No citation mentions are needed.",
+                "# References",
+                "[1] Smith. A Complete API Reference. 2020.",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(
+                    [
+                        "init_runtime",
+                        "--source-path",
+                        str(source),
+                        "--working-dir",
+                        str(root),
+                        "--identifier",
+                        "doi:10.1000/source",
+                    ]
+                ).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode, 0)
+            digest_path = root / "digest_payload.json"
+            self.write_json(digest_path, self.digest_payload())
+            self.assertEqual(
+                self.run_cmd(["persist_digest", "--db-path", db_path, "--payload-file", str(digest_path)]).returncode,
+                0,
+            )
+            self.persist_score(root, db_path)
+            self.seed_reference_api_fetch(
+                db_path,
+                "crossref",
+                "succeeded",
+                {
+                    "reference": [
+                        {
+                            "key": "api-1",
+                            "article-title": "A Complete API Reference",
+                            "author": "Smith",
+                            "year": "2020",
+                            "journal-title": "API Journal",
+                        }
+                    ]
+                },
+            )
+
+            prepared_result = self.run_cmd(["persist_references", "--db-path", db_path])
+            self.assertEqual(prepared_result.returncode, 0, prepared_result.stderr.decode("utf-8", errors="replace"))
+            prepared = json.loads(prepared_result.stdout.decode("utf-8"))
+            self.assertEqual(prepared["next_action"], "persist_citation_analysis")
+            self.assertEqual(prepared["reference_api"]["unresolved_count"], 0)
+            self.assertNotIn("reference_core_batch_paths", prepared)
+            self.assertTrue(prepared["metadata_evidence_review"]["skipped"])
+
+            with sqlite3.connect(db_path) as connection:
+                receipts = dict(connection.execute("SELECT action_name, status FROM action_receipts").fetchall())
+                metadata = json.loads(connection.execute("SELECT metadata_json FROM reference_items WHERE ref_index = 0").fetchone()[0])
+            self.assertEqual(receipts["persist_reference_metadata_enrichment"], "skipped")
+            self.assertEqual(metadata["resolution_source"], "reference_api")
+
+            citation_prepared = self.run_cmd(["persist_citation_analysis", "--db-path", db_path])
+            self.assertEqual(citation_prepared.returncode, 0, citation_prepared.stderr.decode("utf-8", errors="replace"))
+            self.assertEqual(json.loads(citation_prepared.stdout.decode("utf-8"))["citation_package_count"], 0)
+            citation_path = root / "citation_empty_payload.json"
+            self.write_json(citation_path, {"citation_semantic_reviews": [], "timeline_summaries": {}, "summary": ""})
+            final = self.run_cmd(["persist_citation_analysis", "--db-path", db_path, "--payload-file", str(citation_path)])
+            self.assertEqual(final.returncode, 0, final.stderr.decode("utf-8", errors="replace"))
+            public_payload = json.loads(final.stdout.decode("utf-8"))
+            public_refs = json.loads(Path(public_payload["references_path"]).read_text(encoding="utf-8"))
+            self.assertEqual(public_refs[0]["title"], "A Complete API Reference")
+            self.assertNotIn("resolution_source", public_refs[0])
+            self.assertFalse(any(key.startswith("reference_api_") for key in public_refs[0]))
+
+    def test_reference_api_hard_quality_result_remains_in_local_review(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "The bibliography is used for a runtime test.",
+                "# References",
+                "[1] Smith: CVPR (2020).",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(
+                    [
+                        "init_runtime",
+                        "--source-path",
+                        str(source),
+                        "--working-dir",
+                        str(root),
+                        "--identifier",
+                        "10.1000/source",
+                    ]
+                ).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(
+                self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode,
+                0,
+            )
+            self.seed_reference_api_fetch(
+                db_path,
+                "crossref",
+                "succeeded",
+                {
+                    "reference": [
+                        {
+                            "key": "api-venue-only",
+                            "article-title": "CVPR",
+                            "author": "Smith",
+                            "year": "2020",
+                        }
+                    ]
+                },
+            )
+            self.seed_reference_api_fetch(db_path, "semantic_scholar", "empty", [{"data": []}])
+
+            prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+            self.assertEqual(prepared["reference_api"]["accepted_count"], 0)
+            self.assertEqual(prepared["reference_core_required_coverage_keys"], ["reference-0"])
+            audit = json.loads(Path(prepared["reference_api_audit_path"]).read_text(encoding="utf-8"))
+            self.assertTrue(audit["resolutions"][0]["quality_reason_codes"])
+            self.assertTrue(audit["resolutions"][0]["reason"].startswith("api_quality_hard_block:"))
 
     def test_full_wrapper_outputs_compatible_artifacts(self):
         with tempfile.TemporaryDirectory() as td:
@@ -740,7 +1039,6 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertIn("forbidden_fields", metadata_batch)
             self.assertIn("subagent_prompt", metadata_batch)
             self.assertFalse(metadata_batch["external_lookup_allowed"])
-            self.assertIn("This is not a metadata discovery task", metadata_batch["subagent_prompt"])
             self.assertTrue(any("Crossref" in action for action in metadata_batch["forbidden_actions"]))
             self.assertIn("Do not write DB", metadata_batch["subagent_prompt"])
             self.assertIn("author", metadata_batch["forbidden_fields"])
@@ -892,6 +1190,271 @@ class LiteratureAnalysisRuntimeTests(unittest.TestCase):
             self.assertEqual(refs.returncode, 0, refs.stderr.decode("utf-8", errors="replace"))
             refs_payload = json.loads(refs.stdout.decode("utf-8"))
             self.assertEqual(refs_payload["stored_reference_items"], 2)
+
+    def test_reference_api_accepted_suspect_block_skips_split_review(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "Prior work [1] and [2] are relevant.",
+                "# References",
+                "Smith, J.: Paper A (2020) Jones, M.: Paper B (2021).",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(
+                    [
+                        "init_runtime",
+                        "--source-path",
+                        str(source),
+                        "--working-dir",
+                        str(root),
+                        "--identifier",
+                        "10.1000/source",
+                    ]
+                ).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(
+                self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode,
+                0,
+            )
+            self.seed_reference_api_fetch(
+                db_path,
+                "crossref",
+                "succeeded",
+                {
+                    "reference": [
+                        {"key": "api-a", "article-title": "Paper A", "author": "Smith, J.", "year": "2020"},
+                        {"key": "api-b", "article-title": "Paper B", "author": "Jones, M.", "year": "2021"},
+                    ]
+                },
+            )
+
+            prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+            self.assertFalse(prepared["requires_split_review"])
+            self.assertEqual(prepared["split_review_package_count"], 0)
+            self.assertEqual(prepared["skipped_split_review_block_count"], 1)
+            self.assertEqual(prepared["next_action"], "persist_citation_analysis")
+            self.assertNotIn("reference_core_batch_paths", prepared)
+
+            scripts_path = str(ANALYSIS_SCRIPTS)
+            if scripts_path not in sys.path:
+                sys.path.insert(0, scripts_path)
+            from analysis_runtime import runtime_db  # noqa: PLC0415
+
+            with runtime_db.connect_db(Path(db_path)) as connection:
+                resolutions = runtime_db.fetch_reference_api_resolutions(connection)
+                fetches = runtime_db.fetch_reference_api_fetches(connection)
+                workflow_state = runtime_db.fetch_workflow_state(connection)
+                prepare_receipt = runtime_db.fetch_action_receipts(connection)["prepare_references_workset"]
+            self.assertEqual([row["entry_index"] for row in resolutions], [0, 1])
+            self.assertTrue(all(row["status"] == "accepted" for row in resolutions))
+            self.assertEqual(len(fetches), 1)
+            self.assertEqual(workflow_state["next_action"], "prepare_citation_workset")
+            self.assertFalse(prepare_receipt["metadata"]["requires_split_review"])
+
+    def test_reference_api_accepted_long_lncs_entry_does_not_create_split_package(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            long_author_list = ", ".join(f"Author{i}, A." for i in range(40))
+            reference_text = (
+                f"{long_author_list} A Stable LNCS Reference Title. "
+                "In Proceedings of the International Conference on Runtime Systems, "
+                "doi:10.1000/lncs-reference 2020."
+            )
+            lines = [
+                "# Introduction",
+                "The bibliography contains one long-form reference.",
+                "# References",
+                reference_text,
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(
+                    [
+                        "init_runtime",
+                        "--source-path",
+                        str(source),
+                        "--working-dir",
+                        str(root),
+                        "--identifier",
+                        "10.1000/source",
+                    ]
+                ).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(
+                self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode,
+                0,
+            )
+            self.seed_reference_api_fetch(
+                db_path,
+                "crossref",
+                "succeeded",
+                {
+                    "reference": [
+                        {
+                            "key": "lncs-api",
+                            "DOI": "10.1000/lncs-reference",
+                            "article-title": "A Stable LNCS Reference Title",
+                            "author": "Author0, A.",
+                            "year": "2020",
+                        }
+                    ]
+                },
+            )
+
+            prepared_result = self.run_cmd(["persist_references", "--db-path", db_path])
+            self.assertEqual(prepared_result.returncode, 0, prepared_result.stderr.decode("utf-8", errors="replace"))
+            prepared = json.loads(prepared_result.stdout.decode("utf-8"))
+            self.assertEqual(prepared["reference_api"]["accepted_count"], 1)
+            self.assertFalse(prepared["requires_split_review"])
+            self.assertEqual(prepared["split_review_package_count"], 0)
+            self.assertEqual(prepared["skipped_split_review_block_count"], 1)
+            self.assertEqual(prepared["next_action"], "persist_citation_analysis")
+
+    def test_partial_suspect_block_review_auto_keeps_accepted_block_and_reuses_cache(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "Prior work [1], [2], [3], and [4] is relevant.",
+                "# References",
+                "Smith, J.: Paper A (2020) Jones, M.: Paper B (2021).",
+                "Brown, C.: Paper C (2022) White, D.: Paper D (2023).",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(
+                    [
+                        "init_runtime",
+                        "--source-path",
+                        str(source),
+                        "--working-dir",
+                        str(root),
+                        "--identifier",
+                        "10.1000/source",
+                    ]
+                ).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(
+                self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode,
+                0,
+            )
+            self.seed_reference_api_fetch(
+                db_path,
+                "crossref",
+                "succeeded",
+                {
+                    "reference": [
+                        {"key": "api-a", "article-title": "Paper A", "author": "Smith, J.", "year": "2020"},
+                        {"key": "api-b", "article-title": "Paper B", "author": "Jones, M.", "year": "2021"},
+                        {"key": "api-c", "article-title": "Paper C", "author": "Brown, C.", "year": "2022"},
+                    ]
+                },
+            )
+            self.seed_reference_api_fetch(db_path, "semantic_scholar", "empty", [{"data": []}])
+
+            prepared = json.loads(self.run_cmd(["persist_references", "--db-path", db_path]).stdout.decode("utf-8"))
+            self.assertTrue(prepared["requires_split_review"])
+            self.assertEqual(prepared["split_review_package_count"], 1)
+            self.assertEqual(prepared["skipped_split_review_block_count"], 1)
+            split_package = self.split_packages_from_payload(prepared)[0]
+            self.assertEqual(split_package["entry_indexes"], [2, 3])
+            self.assertEqual(split_package["accepted_reference_keys"], ["reference-2"])
+            self.assertEqual(split_package["unresolved_reference_keys"], ["reference-3"])
+            self.assertEqual(len(split_package["current_fragments"]), 2)
+
+            split_path = root / "partial_split_payload.json"
+            self.write_json(
+                split_path,
+                {
+                    "split_reviews": [
+                        {
+                            "block_key": split_package["block_key"],
+                            "action": "replace_with_corrected_reference_texts",
+                            "corrected_reference_texts": [
+                                "Brown, C.: Paper C (2022)",
+                                "White, D.: Paper D (2023).",
+                            ],
+                        }
+                    ]
+                },
+            )
+            result = self.run_cmd(["persist_references", "--db-path", db_path, "--payload-file", str(split_path)])
+            self.assertEqual(result.returncode, 0, result.stderr.decode("utf-8", errors="replace"))
+            payload = json.loads(result.stdout.decode("utf-8"))
+            self.assertEqual(payload["next_action"], "persist_references")
+            self.assertEqual(payload["reference_core_required_coverage_keys"], ["reference-3"])
+            self.assertTrue(all(summary["cached"] for summary in payload["reference_api"]["provider_summaries"]))
+
+            scripts_path = str(ANALYSIS_SCRIPTS)
+            if scripts_path not in sys.path:
+                sys.path.insert(0, scripts_path)
+            from analysis_runtime import runtime_db  # noqa: PLC0415
+
+            with runtime_db.connect_db(Path(db_path)) as connection:
+                resolutions = runtime_db.fetch_reference_api_resolutions(connection)
+                fetches = runtime_db.fetch_reference_api_fetches(connection)
+            self.assertEqual([row["entry_index"] for row in resolutions], [0, 1, 2, 3])
+            self.assertEqual([row["status"] for row in resolutions], ["accepted", "accepted", "accepted", "unresolved"])
+            self.assertEqual(len(fetches), 2)
+
+    def test_failed_providers_preserve_complete_local_split_review_path(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "paper.md"
+            lines = [
+                "# Introduction",
+                "Prior work [1] and [2] is relevant.",
+                "# References",
+                "Smith, J.: Paper A (2020) Jones, M.: Paper B (2021).",
+            ]
+            source.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            init = json.loads(
+                self.run_cmd(
+                    [
+                        "init_runtime",
+                        "--source-path",
+                        str(source),
+                        "--working-dir",
+                        str(root),
+                        "--identifier",
+                        "10.1000/source",
+                    ]
+                ).stdout.decode("utf-8")
+            )
+            db_path = init["db_path"]
+            plan_path = root / "plan.json"
+            self.write_json(plan_path, self.outline_payload(lines))
+            self.assertEqual(
+                self.run_cmd(["persist_analysis_plan", "--db-path", db_path, "--payload-file", str(plan_path)]).returncode,
+                0,
+            )
+            self.seed_reference_api_fetch(db_path, "crossref", "failed", {})
+            self.seed_reference_api_fetch(db_path, "semantic_scholar", "failed", [{"data": []}])
+
+            prepared_result = self.run_cmd(["persist_references", "--db-path", db_path])
+            self.assertEqual(prepared_result.returncode, 0, prepared_result.stderr.decode("utf-8", errors="replace"))
+            prepared = json.loads(prepared_result.stdout.decode("utf-8"))
+            self.assertIsNone(prepared["error"])
+            self.assertEqual(prepared["reference_api"]["accepted_count"], 0)
+            self.assertTrue(prepared["requires_split_review"])
+            split_package = self.split_packages_from_payload(prepared)[0]
+            self.assertEqual(split_package["accepted_reference_keys"], [])
+            self.assertEqual(split_package["unresolved_reference_keys"], ["reference-0", "reference-1"])
+            self.assertTrue(any("reference_api_provider_failed" in warning for warning in prepared["warnings"]))
 
     def test_reference_split_review_missing_tokens_returns_diagnostics(self):
         with tempfile.TemporaryDirectory() as td:
